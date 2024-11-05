@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>SUSE Rancher - Images CVE Scans</title>
+<style>
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+table, tr, th, td { border: 1px solid black; border-collapse: collapse; }
+th { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; }
+#cves_table th { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; cursor: pointer; }
+td { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; }
+table { margin: 10px; }
+legend { margin: 10px; }
+</style>
+</head>
+<body>
+<h1>SUSE Rancher - CVE Scans - 2024-11-05</h1>
+
+<h2>How to use this page</h2>
+
+<ul>
+<li>Only the latest patch version of each supported release line and the
+respective dev/head/master development branches<br>are scanned. Older patch
+versions and no longer supported (EOL) versions are not scanned. Verify the
+supported<br>versions in SUSE's <a href="https://www.suse.com/lifecycle/">product support lifecycle</a> page.</li>
+<li>Consult SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021574">KB 000021574</a> to
+know how Rancher does its CVE triage workflow for software dependencies.</li>
+<li>The CVE scans are executed daily with internal automation developed by the
+SUSE Rancher Security team.</li>
+<li>Our scans use <a href="https://github.com/rancher/vexhub/">Rancher's VEX
+Hub</a> reports to remove known false-positives. More information on how to use
+those reports<br>are available in SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>
+article.</li>
+<li>This page is updated and regenerated daily.</li>
+<li>The CVE scanner used is Trivy with the latest version available.</li>
+<li>Only critical and high severity CVEs are displayed (internally we track all
+severities).</li>
+<li>If you saw or believe that there is an issue with these pages, please open
+an <a href="https://github.com/rancher/scans/issues">issue</a>.</li>
+<li>The SUSE Rancher CVE data is provided by SUSE under the Creative Commons
+license with Attribution (CC-BY-4.0). <br>
+See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</li>
+</ul>
+
+<table>
+<tr>
+<th>HTML CVE results</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="harvester-master.html">Harvester master</a></td>
+<td><a href="csv/report-harvester-master-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-master-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.2-head.html">Harvester v1.2 head</a></td>
+<td><a href="csv/report-harvester-v1.2-head-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.2-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.2.2.html">Harvester v1.2.2</a></td>
+<td><a href="csv/report-harvester-v1.2.2-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.2.2-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.3-head.html">Harvester v1.3 head</a></td>
+<td><a href="csv/report-harvester-v1.3-head-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.3-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.3.2.html">Harvester v1.3.2</a></td>
+<td><a href="csv/report-harvester-v1.3.2-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.3.2-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-master.html">Longhorn master</a></td>
+<td><a href="csv/report-longhorn-master-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-master-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.5-head.html">Longhorn v1.5 head</a></td>
+<td><a href="csv/report-longhorn-v1.5-head-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.5-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.5.5.html">Longhorn v1.5.5</a></td>
+<td><a href="csv/report-longhorn-v1.5.5-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.5.5-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.6-head.html">Longhorn v1.6 head</a></td>
+<td><a href="csv/report-longhorn-v1.6-head-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.6-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.6.3.html">Longhorn v1.6.3</a></td>
+<td><a href="csv/report-longhorn-v1.6.3-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.6.3-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.7-head.html">Longhorn v1.7 head</a></td>
+<td><a href="csv/report-longhorn-v1.7-head-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.7-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.7.2.html">Longhorn v1.7.2</a></td>
+<td><a href="csv/report-longhorn-v1.7.2-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.7.2-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.7-head.html">Rancher v2.7 head</a></td>
+<td><a href="csv/report-rancher-v2.7-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.7-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.7.16.html">Rancher v2.7.16</a></td>
+<td><a href="csv/report-rancher-v2.7.16-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.7.16-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.8-head.html">Rancher v2.8 head</a></td>
+<td><a href="csv/report-rancher-v2.8-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.8-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.8.9.html">Rancher v2.8.9</a></td>
+<td><a href="csv/report-rancher-v2.8.9-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.8.9-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.9-head.html">Rancher v2.9 head</a></td>
+<td><a href="csv/report-rancher-v2.9-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.9-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.9.3.html">Rancher v2.9.3</a></td>
+<td><a href="csv/report-rancher-v2.9.3-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.9.3-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rke2-v1.28.html">RKE2 v1.28</a></td>
+<td><a href="csv/report-rke2-v1.28-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.28-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rke2-v1.29.html">RKE2 v1.29</a></td>
+<td><a href="csv/report-rke2-v1.29-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.29-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rke2-v1.30.html">RKE2 v1.30</a></td>
+<td><a href="csv/report-rke2-v1.30-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.30-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rke2-v1.31.html">RKE2 v1.31</a></td>
+<td><a href="csv/report-rke2-v1.31-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.31-stats.csv">report</a></td>
+</tr>
+</table>
+
+</body>
+</html>
