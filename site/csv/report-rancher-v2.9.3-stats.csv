@@ -264,7 +264,7 @@ rancher/mirrored-metrics-server:v0.7.2,0,1,1
 rancher/mirrored-neuvector-compliance-config:1.0.0,0,0,0
 rancher/mirrored-neuvector-controller:5.4.0,0,2,2
 rancher/mirrored-neuvector-enforcer:5.4.0,0,2,2
-rancher/mirrored-neuvector-manager:5.4.0,0,5,5
+rancher/mirrored-neuvector-manager:5.4.0,0,0,0
 rancher/mirrored-neuvector-prometheus-exporter:1-1.0.0,2,9,11
 rancher/mirrored-neuvector-registry-adapter:0.1.2,0,0,0
 rancher/mirrored-neuvector-scanner:latest,0,0,0
