@@ -73,7 +73,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
 rancher/machine:v0.15.0-rancher118,0,4,4
-rancher/mirrored-amazon-aws-cli:2.9.14,0,133,133
+rancher/mirrored-amazon-aws-cli:2.9.14,2,131,133
 rancher/mirrored-appscode-kubed:v0.13.2,4,33,37
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -173,7 +173,7 @@ rancher/mirrored-epinio-epinio-unpacker:v1.10.0,0,8,8
 rancher/mirrored-flannel-flannel:v0.21.4,6,27,33
 rancher/mirrored-flannel-flannel:v0.24.2,2,6,8
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,11,16
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,474,496
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,481,503
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,13,17
 rancher/mirrored-grafana-grafana:10.4.9,1,0,1
 rancher/mirrored-idealista-prom2teams:4.2.1,2,32,34
@@ -241,8 +241,8 @@ rancher/mirrored-metrics-server:v0.6.2,4,28,32
 rancher/mirrored-metrics-server:v0.6.3,3,15,18
 rancher/mirrored-metrics-server:v0.7.0,1,2,3
 rancher/mirrored-metrics-server:v0.7.2,0,1,1
-rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,1,30,31
-rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,1,20,21
+rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,1,31,32
+rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,1,21,22
 rancher/mirrored-neuvector-compliance-config:1.0.0,0,0,0
 rancher/mirrored-neuvector-controller:5.4.0,0,2,2
 rancher/mirrored-neuvector-enforcer:5.4.0,0,2,2
