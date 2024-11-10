@@ -202,7 +202,7 @@ rancher/mirrored-epinio-epinio-unpacker:v1.10.0,0,8,8
 rancher/mirrored-flannel-flannel:v0.21.4,6,27,33
 rancher/mirrored-flannel-flannel:v0.24.2,2,6,8
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,11,16
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,481,503
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,485,507
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,13,17
 rancher/mirrored-grafana-grafana:10.4.9,1,0,1
 rancher/mirrored-idealista-prom2teams:4.2.1,2,32,34
