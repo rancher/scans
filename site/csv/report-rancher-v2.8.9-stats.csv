@@ -230,7 +230,7 @@ rancher/mirrored-longhornio-csi-resizer:v1.2.0,4,52,56
 rancher/mirrored-longhornio-csi-snapshotter:v7.0.2,1,2,3
 rancher/mirrored-longhornio-livenessprobe:v2.14.0,0,1,1
 rancher/mirrored-longhornio-longhorn-engine:v1.7.1,0,15,15
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.1,0,16,16
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.1,0,18,18
 rancher/mirrored-longhornio-longhorn-manager:v1.7.1,0,7,7
 rancher/mirrored-longhornio-longhorn-share-manager:v1.7.1,0,8,8
 rancher/mirrored-longhornio-longhorn-ui:v1.7.1,0,4,4
