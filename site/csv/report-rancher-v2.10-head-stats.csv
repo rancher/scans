@@ -134,7 +134,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,2,6,8
 rancher/mirrored-flannel-flannel:v0.25.1,2,5,7
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,11,16
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,485,507
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,487,509
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,11,15
 rancher/mirrored-grafana-grafana:11.1.0,1,7,8
 rancher/mirrored-idealista-prom2teams:4.2.1,3,33,36
@@ -175,7 +175,7 @@ rancher/mirrored-kiali-kiali:v1.86.0,1,9,10
 rancher/mirrored-kiali-kiali:v1.89.3,0,7,7
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,1,3
 rancher/mirrored-kube-logging-config-reloader:v0.0.5,1,5,6
-rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,4,4
+rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,0,0
 rancher/mirrored-kube-logging-logging-operator:4.8.0,0,1,1
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0,1,2,3
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.6.0,3,28,31
@@ -231,7 +231,6 @@ rancher/prometheus-federator:v0.4.3-rc.1,2,10,12
 rancher/pushprox-client:v0.1.3-rancher2-client,1,1,2
 rancher/pushprox-proxy:v0.1.3-rancher2-proxy,1,1,2
 rancher/rancher-agent:v2.10-head,1,2,3
-rancher/rancher-csp-adapter:v5.0.1-rc1,0,0,0
 rancher/rancher-webhook:v0.6.1,0,0,0
 rancher/rancher:v2.10-head,5,20,25
 rancher/rke-tools:v0.1.105,2,3,5

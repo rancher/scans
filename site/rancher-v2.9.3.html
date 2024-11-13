@@ -5246,6 +5246,30 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>rancher/v2.9.3</td>
+<td>github.com/coredns/coredns</td>
+<td>v1.10.0</td>
+<td>gobinary</td>
+<td>CVE-2023-28452</td>
+<td>HIGH</td>
+<td>node-cache</td>
+<td>1.11.0</td>
+<td>false</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>rancher/v2.9.3</td>
+<td>k8s.io/kubernetes</td>
+<td>v1.26.10</td>
+<td>gobinary</td>
+<td>CVE-2023-5528</td>
+<td>HIGH</td>
+<td>node-cache</td>
+<td>1.28.4, 1.27.8, 1.26.11, 1.25.16</td>
+<td>false</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-etcd:v3.5.13-k3s1-build20240531</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
@@ -5958,258 +5982,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.22.5</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubeadm</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.28.14-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubeadm</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubeadm</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.30.5-rke2r1-build20240912</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
 <td>gobinary</td>
 <td>CVE-2024-34156</td>
 <td>HIGH</td>
@@ -10706,67 +10478,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
+<td>rancher/hyperkube:v1.28.15-rancher1</td>
 <td>rancher/v2.9.3</td>
 <td>github.com/docker/docker</td>
 <td>v20.10.24+incompatible</td>
@@ -10778,79 +10490,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/hyperkube:v1.28.14-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
+<td>rancher/hyperkube:v1.29.10-rancher1</td>
 <td>rancher/v2.9.3</td>
 <td>github.com/docker/docker</td>
 <td>v20.10.24+incompatible</td>
@@ -10862,79 +10502,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/hyperkube:v1.29.9-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
+<td>rancher/hyperkube:v1.30.6-rancher1</td>
 <td>rancher/v2.9.3</td>
 <td>github.com/docker/docker</td>
 <td>v20.10.27+incompatible</td>
@@ -10943,18 +10511,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>CRITICAL</td>
 <td>usr/local/bin/kubelet</td>
 <td>23.0.15, 26.1.5, 27.1.1, 25.0.6</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/hyperkube:v1.30.5-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
 <td>false</td>
 </tr>
 <tr class="issue">
@@ -11946,42 +11502,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.22.5</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>opt/k3s</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s-upgrade:v1.28.14-k3s1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>opt/k3s</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s-upgrade:v1.29.9-k3s1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>opt/k3s</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s-upgrade:v1.30.5-k3s1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
 <td>gobinary</td>
 <td>CVE-2024-34156</td>
 <td>HIGH</td>
@@ -21974,6 +21494,30 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>true</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.16.2</td>
+<td>rancher/v2.9.3</td>
+<td>stdlib</td>
+<td>v1.22.3</td>
+<td>gobinary</td>
+<td>CVE-2024-24790</td>
+<td>CRITICAL</td>
+<td>cni/loopback</td>
+<td>1.21.11, 1.22.4</td>
+<td>true</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.16.2</td>
+<td>rancher/v2.9.3</td>
+<td>stdlib</td>
+<td>v1.22.3</td>
+<td>gobinary</td>
+<td>CVE-2024-34156</td>
+<td>HIGH</td>
+<td>cni/loopback</td>
+<td>1.22.7, 1.23.1</td>
+<td>true</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-cilium-clustermesh-apiserver:v1.16.0</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
@@ -22126,6 +21670,18 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>CVE-2024-34156</td>
 <td>HIGH</td>
 <td>usr/bin/hubble-relay</td>
+<td>1.22.7, 1.23.1</td>
+<td>true</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-relay:v1.16.2</td>
+<td>rancher/v2.9.3</td>
+<td>stdlib</td>
+<td>v1.22.4</td>
+<td>gobinary</td>
+<td>CVE-2024-34156</td>
+<td>HIGH</td>
+<td>bin/grpc_health_probe</td>
 <td>1.22.7, 1.23.1</td>
 <td>true</td>
 </tr>
@@ -26128,6 +25684,18 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <tr class="issue">
 <td>rancher/mirrored-fluent-fluent-bit:3.0.4-debug</td>
 <td>rancher/v2.9.3</td>
+<td>libglib2.0-0</td>
+<td>2.66.8-1+deb11u3</td>
+<td>debian</td>
+<td>CVE-2024-52533</td>
+<td>HIGH</td>
+<td>rancher/mirrored-fluent-fluent-bit:3.0.4-debug (debian 11.9)</td>
+<td></td>
+<td>true</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-fluent-fluent-bit:3.0.4-debug</td>
+<td>rancher/v2.9.3</td>
 <td>libgnutls30</td>
 <td>3.7.1-5+deb11u4</td>
 <td>debian</td>
@@ -29612,6 +29180,18 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>5.10.216-1</td>
 <td>debian</td>
 <td>CVE-2024-50086</td>
+<td>HIGH</td>
+<td>rancher/mirrored-fluent-fluent-bit:3.0.4-debug (debian 11.9)</td>
+<td></td>
+<td>true</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-fluent-fluent-bit:3.0.4-debug</td>
+<td>rancher/v2.9.3</td>
+<td>linux-libc-dev</td>
+<td>5.10.216-1</td>
+<td>debian</td>
+<td>CVE-2024-50106</td>
 <td>HIGH</td>
 <td>rancher/mirrored-fluent-fluent-bit:3.0.4-debug (debian 11.9)</td>
 <td></td>
@@ -35426,54 +35006,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>true</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full</td>
-<td>rancher/v2.9.3</td>
-<td>google-protobuf</td>
-<td>3.21.12</td>
-<td>gemspec</td>
-<td>CVE-2024-7254</td>
-<td>HIGH</td>
-<td>Ruby</td>
-<td>~> 3.25.5, ~> 4.27.5, >= 4.28.2</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full</td>
-<td>rancher/v2.9.3</td>
-<td>rexml</td>
-<td>3.2.5</td>
-<td>gemspec</td>
-<td>CVE-2024-49761</td>
-<td>HIGH</td>
-<td>Ruby</td>
-<td>>= 3.3.9</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full</td>
-<td>rancher/v2.9.3</td>
-<td>rexml</td>
-<td>3.2.6</td>
-<td>gemspec</td>
-<td>CVE-2024-49761</td>
-<td>HIGH</td>
-<td>Ruby</td>
-<td>>= 3.3.9</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full</td>
-<td>rancher/v2.9.3</td>
-<td>webrick</td>
-<td>1.8.1</td>
-<td>gemspec</td>
-<td>CVE-2024-47220</td>
-<td>HIGH</td>
-<td>Ruby</td>
-<td>>= 1.8.2</td>
-<td>true</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-kube-logging-logging-operator:4.8.0</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
@@ -40346,66 +39878,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>true</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-neuvector-manager:5.4.0</td>
-<td>rancher/v2.9.3</td>
-<td>libopenssl3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
-<td>SUSE-SU-2024:3501-1</td>
-<td>HIGH</td>
-<td>rancher/mirrored-neuvector-manager:5.4.0 (suse linux enterprise server 15.6)</td>
-<td>3.1.4-150600.5.18.1</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-neuvector-manager:5.4.0</td>
-<td>rancher/v2.9.3</td>
-<td>libpython3_12-1_0</td>
-<td>3.12.4-150600.3.3.1</td>
-<td>suse linux enterprise server</td>
-<td>SUSE-SU-2024:3303-1</td>
-<td>HIGH</td>
-<td>rancher/mirrored-neuvector-manager:5.4.0 (suse linux enterprise server 15.6)</td>
-<td>3.12.6-150600.3.6.1</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-neuvector-manager:5.4.0</td>
-<td>rancher/v2.9.3</td>
-<td>openssl-3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
-<td>SUSE-SU-2024:3501-1</td>
-<td>HIGH</td>
-<td>rancher/mirrored-neuvector-manager:5.4.0 (suse linux enterprise server 15.6)</td>
-<td>3.1.4-150600.5.18.1</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-neuvector-manager:5.4.0</td>
-<td>rancher/v2.9.3</td>
-<td>python312</td>
-<td>3.12.4-150600.3.3.1</td>
-<td>suse linux enterprise server</td>
-<td>SUSE-SU-2024:3303-1</td>
-<td>HIGH</td>
-<td>rancher/mirrored-neuvector-manager:5.4.0 (suse linux enterprise server 15.6)</td>
-<td>3.12.6-150600.3.6.1</td>
-<td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-neuvector-manager:5.4.0</td>
-<td>rancher/v2.9.3</td>
-<td>python312-base</td>
-<td>3.12.4-150600.3.3.1</td>
-<td>suse linux enterprise server</td>
-<td>SUSE-SU-2024:3303-1</td>
-<td>HIGH</td>
-<td>rancher/mirrored-neuvector-manager:5.4.0 (suse linux enterprise server 15.6)</td>
-<td>3.12.6-150600.3.6.1</td>
-<td>true</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-neuvector-prometheus-exporter:1-1.0.0</td>
 <td>rancher/v2.9.3</td>
 <td>libexpat</td>
@@ -42242,6 +41714,18 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>true</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-sig-storage-snapshot-controller:v8.1.0</td>
+<td>rancher/v2.9.3</td>
+<td>stdlib</td>
+<td>v1.22.5</td>
+<td>gobinary</td>
+<td>CVE-2024-34156</td>
+<td>HIGH</td>
+<td>snapshot-controller</td>
+<td>1.22.7, 1.23.1</td>
+<td>true</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2</td>
 <td>rancher/v2.9.3</td>
 <td>golang.org/x/net</td>
@@ -42554,6 +42038,18 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>true</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0</td>
+<td>rancher/v2.9.3</td>
+<td>stdlib</td>
+<td>v1.22.5</td>
+<td>gobinary</td>
+<td>CVE-2024-34156</td>
+<td>HIGH</td>
+<td>snapshot-validation-webhook</td>
+<td>1.22.7, 1.23.1</td>
+<td>true</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-sonobuoy-sonobuoy:v0.57.2</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
@@ -42600,42 +42096,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>bin/thanos</td>
 <td>1.22.7, 1.23.1</td>
 <td>true</td>
-</tr>
-<tr class="issue">
-<td>rancher/nginx-ingress-controller:nginx-1.11.2-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>dbg</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/nginx-ingress-controller:nginx-1.11.2-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>nginx-ingress-controller</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/nginx-ingress-controller:nginx-1.11.2-rancher1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>wait-shutdown</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/nginx-ingress-controller:nginx-1.9.4-rancher1</td>
@@ -43139,6 +42599,30 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>HIGH</td>
 <td>rancher/nginx-ingress-controller:v1.10.4-hardened3 (suse linux enterprise server 15.6)</td>
 <td>3.6.15-150300.10.72.1</td>
+<td>false</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
+<td>rancher/v2.9.3</td>
+<td>libprotobuf25_1_0</td>
+<td>25.1-150600.16.4.2</td>
+<td>suse linux enterprise server</td>
+<td>SUSE-SU-2024:3745-1</td>
+<td>HIGH</td>
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3 (suse linux enterprise server 15.6)</td>
+<td>25.1-150600.16.7.1</td>
+<td>false</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
+<td>rancher/v2.9.3</td>
+<td>libprotoc25_1_0</td>
+<td>25.1-150600.16.4.2</td>
+<td>suse linux enterprise server</td>
+<td>SUSE-SU-2024:3745-1</td>
+<td>HIGH</td>
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3 (suse linux enterprise server 15.6)</td>
+<td>25.1-150600.16.7.1</td>
 <td>false</td>
 </tr>
 <tr class="issue">
@@ -44174,7 +43658,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
+<td>rancher/rke-tools:v0.1.105</td>
 <td>rancher/v2.9.3</td>
 <td>github.com/docker/docker</td>
 <td>v24.0.9+incompatible</td>
@@ -44186,7 +43670,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
+<td>rancher/rke-tools:v0.1.105</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.21.9</td>
@@ -44198,7 +43682,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
+<td>rancher/rke-tools:v0.1.105</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.21.9</td>
@@ -44210,7 +43694,7 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
+<td>rancher/rke-tools:v0.1.105</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.21.12</td>
@@ -44222,250 +43706,10 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/bandwidth</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/bridge</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/dhcp</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/dummy</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/firewall</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.21.11</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/flannel</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/host-device</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/host-local</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/ipvlan</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/loopback</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/macvlan</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/portmap</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/ptp</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/sbr</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/static</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/tap</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/tuning</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/vlan</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>tmp/vrf</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
+<td>rancher/rke-tools:v0.1.105</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.22.5</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/bin/confd</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke-tools:v0.1.103</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.21.11</td>
 <td>gobinary</td>
 <td>CVE-2024-34156</td>
 <td>HIGH</td>
@@ -44498,102 +43742,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>false</td>
 </tr>
 <tr class="issue">
-<td>rancher/rke2-runtime:v1.28.14-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>github.com/docker/docker</td>
-<td>v24.0.5+incompatible</td>
-<td>gobinary</td>
-<td>CVE-2024-41110</td>
-<td>CRITICAL</td>
-<td>bin/crictl</td>
-<td>23.0.15, 26.1.5, 27.1.1, 25.0.6</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.28.14-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.28.14-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.29.9-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>github.com/docker/docker</td>
-<td>v24.0.7+incompatible</td>
-<td>gobinary</td>
-<td>CVE-2024-41110</td>
-<td>CRITICAL</td>
-<td>bin/crictl</td>
-<td>23.0.15, 26.1.5, 27.1.1, 25.0.6</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.29.9-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.29.9-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.30.5-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.30.5-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>bin/kubelet</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
 <td>rancher/rke2-upgrade:v1.27.16-rke2r2</td>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
@@ -44610,78 +43758,6 @@ See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a>
 <td>rancher/v2.9.3</td>
 <td>stdlib</td>
 <td>v1.22.5</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-upgrade:v1.28.14-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>opt/rke2</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-upgrade:v1.28.14-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-upgrade:v1.29.9-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>opt/rke2</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-upgrade:v1.29.9-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>usr/local/bin/kubectl</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-upgrade:v1.30.5-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
-<td>gobinary</td>
-<td>CVE-2024-34156</td>
-<td>HIGH</td>
-<td>opt/rke2</td>
-<td>1.22.7, 1.23.1</td>
-<td>false</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-upgrade:v1.30.5-rke2r1</td>
-<td>rancher/v2.9.3</td>
-<td>stdlib</td>
-<td>v1.22.6</td>
 <td>gobinary</td>
 <td>CVE-2024-34156</td>
 <td>HIGH</td>

@@ -52,7 +52,7 @@ rancher/klipper-lb:v0.4.9,0,0,0
 rancher/kubectl:v1.20.2,4,43,47
 rancher/kubectl:v1.21.5,4,38,42
 rancher/kubectl:v1.29.2,1,2,3
-rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,36,42
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,0,0,0
 rancher/mirrored-cluster-api-controller:v1.7.3,0,1,1
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,16,21
 rancher/mirrored-grafana-grafana:9.1.5,9,69,78
