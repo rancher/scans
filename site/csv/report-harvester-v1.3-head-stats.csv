@@ -44,7 +44,7 @@ rancher/harvester:v1.3-head,0,1,1
 rancher/klipper-helm:v0.8.4-build20240523,14,99,113
 rancher/kubectl:v1.20.2,4,43,47
 rancher/kubectl:v1.21.5,4,38,42
-rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,0,0,0
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,36,42
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,3,28,31
 rancher/mirrored-cluster-api-controller:v1.4.4,3,12,15
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,16,21
@@ -78,10 +78,10 @@ rancher/system-upgrade-controller:v0.13.1,1,6,7
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,1,4,5
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,1,4,5
 registry.suse.com/bci/bci-base:15.6,0,0,0
-registry.suse.com/suse/sles/15.5/libguestfs-tools:1.1.1-150500.8.18.1,0,22,22
+registry.suse.com/suse/sles/15.5/libguestfs-tools:1.1.1-150500.8.18.1,0,23,23
 registry.suse.com/suse/sles/15.5/virt-api:1.1.1-150500.8.18.1,0,2,2
 registry.suse.com/suse/sles/15.5/virt-controller:1.1.1-150500.8.18.1,0,2,2
 registry.suse.com/suse/sles/15.5/virt-handler:1.1.1-150500.8.18.1,0,6,6
-registry.suse.com/suse/sles/15.5/virt-launcher:1.1.1-150500.8.18.1,0,26,26
+registry.suse.com/suse/sles/15.5/virt-launcher:1.1.1-150500.8.18.1,0,27,27
 registry.suse.com/suse/sles/15.5/virt-operator:1.1.1-150500.8.18.1,0,2,2
 registry.suse.com/suse/vmdp/vmdp:2.5.4.2,0,0,0
