@@ -1,0 +1,7 @@
+image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+rancher/hardened-dns-node-cache:1.23.1-build20241008,rke2/v1.28,github.com/coredns/coredns,v1.10.0,gobinary,CVE-2023-28452,HIGH,https://avd.aquasec.com/nvd/cve-2023-28452,node-cache,1.11.0,false,affected,
+rancher/hardened-dns-node-cache:1.23.1-build20241008,rke2/v1.28,k8s.io/kubernetes,v1.26.10,gobinary,CVE-2023-5528,HIGH,https://avd.aquasec.com/nvd/cve-2023-5528,node-cache,"1.28.4, 1.27.8, 1.26.11, 1.25.16",false,affected,
+rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,rke2/v1.28,stdlib,v1.22.5,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,snapshot-controller,"1.22.7, 1.23.1",true,affected,
+rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,rke2/v1.28,stdlib,v1.22.5,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,snapshot-validation-webhook,"1.22.7, 1.23.1",true,affected,
+rancher/nginx-ingress-controller:v1.10.5-hardened3,rke2/v1.28,libprotobuf25_1_0,25.1-150600.16.4.2,suse linux enterprise server,SUSE-SU-2024:3745-1,HIGH,,rancher/nginx-ingress-controller:v1.10.5-hardened3 (suse linux enterprise server 15.6),25.1-150600.16.7.1,false,affected,
+rancher/nginx-ingress-controller:v1.10.5-hardened3,rke2/v1.28,libprotoc25_1_0,25.1-150600.16.4.2,suse linux enterprise server,SUSE-SU-2024:3745-1,HIGH,,rancher/nginx-ingress-controller:v1.10.5-hardened3 (suse linux enterprise server 15.6),25.1-150600.16.7.1,false,affected,

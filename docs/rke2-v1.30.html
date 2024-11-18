@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>SUSE Rancher - Images CVE Scans</title>
+<style>
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+table, tr, th, td { border: 1px solid black; border-collapse: collapse; }
+th { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; }
+#cves_table th { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; cursor: pointer; }
+td { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; }
+table { margin: 10px; }
+legend { margin: 10px; }
+</style>
+</head>
+<body>
+<h1>SUSE Rancher - RKE2 v1.30 version - CVE Scans - 2024-11-18</h1>
+
+<h2>How to use this page</h2>
+
+<ul>
+<li>You can click a column header to sort by column.</li>
+<li>Use the search bar below to filter the results by image, release, affected
+package name, affected package version,<br>vulnerability type (related to the
+programming language or container OS), vulnerability ID (CVE, GHSA, SUSE-SU
+etc.),<br>severity, target (affected binary), patched version and if the image is
+mirrored or not (true/false).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+</ul>
+
+<p><b>Notes:</b></p>
+<ul>
+<li>Only the latest patch version of each supported release line and the
+respective dev/head/master development branches<br>are scanned. Older patch
+versions and no longer supported (EOL) versions are not scanned. Verify the
+supported<br>versions in SUSE's <a href="https://www.suse.com/lifecycle/">product support lifecycle</a> page.</li>
+<li>Consult SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021574">KB 000021574</a> to
+know how Rancher does its CVE triage workflow for software dependencies.</li>
+<li>The CVE scans are executed daily with internal automation developed by the
+SUSE Rancher Security team.</li>
+<li>Our scans use <a href="https://github.com/rancher/vexhub/">Rancher's VEX
+Hub</a> reports to remove known false-positives. More information on how to use
+those reports<br>are available in SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>
+article.</li>
+<li>This page is updated and regenerated daily.</li>
+<li>The CVE scanner used is Trivy with the latest version available.</li>
+<li>Only critical and high severity CVEs are displayed (internally we track all
+severities).</li>
+<li>If you saw or believe that there is an issue with these pages, please open
+an <a href="https://github.com/rancher/scans/issues">issue</a>.</li>
+<li>The SUSE Rancher CVE data is provided by SUSE under the Creative Commons
+license with Attribution (CC-BY-4.0). <br>
+See the <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</li>
+</ul>
+
+<div>
+<p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
+<p style="display:none;" id="search_count"></p>
+</div>
+
+<table id="cves_table">
+<tr>
+<th onclick="sort(0)">Image</th>
+<th onclick="sort(1)">Release</th>
+<th onclick="sort(2)">Affected Package Name</th>
+<th onclick="sort(3)">Affected Package Version</th>
+<th onclick="sort(4)">Type</th>
+<th onclick="sort(5)">Vulnerability ID (CVE)</th>
+<th onclick="sort(6)">Severity</th>
+<th onclick="sort(7)">Target (Affected Binary)</th>
+<th onclick="sort(8)">Patched Version</th>
+<th onclick="sort(9)">Mirrored</th>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>rke2/v1.30</td>
+<td>github.com/coredns/coredns</td>
+<td>v1.10.0</td>
+<td>gobinary</td>
+<td>CVE-2023-28452</td>
+<td>HIGH</td>
+<td>node-cache</td>
+<td>1.11.0</td>
+<td>false</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>rke2/v1.30</td>
+<td>k8s.io/kubernetes</td>
+<td>v1.26.10</td>
+<td>gobinary</td>
+<td>CVE-2023-5528</td>
+<td>HIGH</td>
+<td>node-cache</td>
+<td>1.28.4, 1.27.8, 1.26.11, 1.25.16</td>
+<td>false</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-sig-storage-snapshot-controller:v8.1.0</td>
+<td>rke2/v1.30</td>
+<td>stdlib</td>
+<td>v1.22.5</td>
+<td>gobinary</td>
+<td>CVE-2024-34156</td>
+<td>HIGH</td>
+<td>snapshot-controller</td>
+<td>1.22.7, 1.23.1</td>
+<td>true</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0</td>
+<td>rke2/v1.30</td>
+<td>stdlib</td>
+<td>v1.22.5</td>
+<td>gobinary</td>
+<td>CVE-2024-34156</td>
+<td>HIGH</td>
+<td>snapshot-validation-webhook</td>
+<td>1.22.7, 1.23.1</td>
+<td>true</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
+<td>rke2/v1.30</td>
+<td>libprotobuf25_1_0</td>
+<td>25.1-150600.16.4.2</td>
+<td>suse linux enterprise server</td>
+<td>SUSE-SU-2024:3745-1</td>
+<td>HIGH</td>
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3 (suse linux enterprise server 15.6)</td>
+<td>25.1-150600.16.7.1</td>
+<td>false</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
+<td>rke2/v1.30</td>
+<td>libprotoc25_1_0</td>
+<td>25.1-150600.16.4.2</td>
+<td>suse linux enterprise server</td>
+<td>SUSE-SU-2024:3745-1</td>
+<td>HIGH</td>
+<td>rancher/nginx-ingress-controller:v1.10.5-hardened3 (suse linux enterprise server 15.6)</td>
+<td>25.1-150600.16.7.1</td>
+<td>false</td>
+</tr>
+
+</table>
+
+<script>
+function search() {
+    let searchBar, searchCount, query, tr, td;
+    let image, release, package_name, package_version, type, vulnerability_id;
+    let severity, target, patched_version, mirrored;
+
+    searchBar = document.getElementById("searchBar");
+    query = searchBar.value.toUpperCase();
+    tr = document.getElementById("cves_table").rows;
+
+    found = 0
+    for (var i = 1; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")
+
+        image = td[0].textContent.toUpperCase();
+        release = td[1].textContent.toUpperCase();
+        package_name = td[2].textContent.toUpperCase();
+        package_version = td[3].textContent.toUpperCase();
+        type = td[4].textContent.toUpperCase();
+        vulnerability_id = td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        target = td[7].textContent.toUpperCase();
+        patched_version = td[8].textContent.toUpperCase();
+        mirrored = td[9].textContent.toUpperCase();
+
+        if (image.includes(query) || release.includes(query) ||
+           package_name.includes(query) || package_version.includes(query) ||
+           type.includes(query) || vulnerability_id.includes(query) ||
+           severity.includes(query) || target.includes(query) ||
+           patched_version.includes(query) || mirrored.includes(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+
+    searchCount = document.getElementById("search_count");
+    searchCount.style.display = "";
+    if (query == "") {
+        searchCount.textContent = "Total results: " + found;
+    } else {
+        searchCount.textContent = "Found " + found + " results";
+    }
+}
+</script>
+<script>
+let lastColumn = 0
+
+function sort(col) {
+    var table = document.getElementById("cves_table")
+    if (col === lastColumn) {
+        const rows = table.rows
+        for (let i = rows.length - 1; i > 0; i--) {
+            table.appendChild(rows[i])
+        }
+        return
+    }
+    lastColumn = col
+    const rows = mergeSort(Array.from(table.getElementsByClassName("issue")), col)
+    rows.forEach(tr => table.appendChild(tr))
+}
+
+function mergeSort(array, col) {
+    if (array.length < 2) {
+        return array
+    }
+    const half = array.length / 2
+    return merge(mergeSort(array.splice(0, half), col), mergeSort(array, col), col)
+}
+
+function merge(left, right, col) {
+    let arr = []
+    while (left.length && right.length) {
+        if (left[0].getElementsByTagName("td")[col].innerHTML.toLowerCase() < right[0].getElementsByTagName("td")[col].innerHTML.toLowerCase()) {
+            arr.push(left.shift())
+        } else {
+            arr.push(right.shift())
+        }
+    }
+    return [...arr, ...left, ...right]
+}
+</script>
+
+</body>
+</html>
