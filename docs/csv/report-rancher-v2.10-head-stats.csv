@@ -7,8 +7,8 @@ rancher/cis-operator:v1.3.0,0,0,0
 rancher/eks-operator:v1.10.0,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,11,54,65
 rancher/flannel-cni:v1.4.1-rancher1,11,21,32
-rancher/fleet-agent:v0.11.0,0,0,0
-rancher/fleet:v0.11.0,0,0,0
+rancher/fleet-agent:v0.11.1,0,0,0
+rancher/fleet:v0.11.1,0,0,0
 rancher/gke-operator:v1.10.0,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
@@ -20,8 +20,8 @@ rancher/hardened-cni-plugins:v1.5.1-build20240910,0,0,0
 rancher/hardened-cni-plugins:v1.5.1-build20241009,0,0,0
 rancher/hardened-coredns:v1.11.1-build20240910,0,3,3
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
-rancher/hardened-dns-node-cache:1.23.1-build20240910,0,2,2
-rancher/hardened-dns-node-cache:1.23.1-build20241008,0,2,2
+rancher/hardened-dns-node-cache:1.23.1-build20240910,0,3,3
+rancher/hardened-dns-node-cache:1.23.1-build20241008,0,3,3
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
 rancher/hardened-flannel:v0.25.6-build20240910,0,3,3
 rancher/hardened-flannel:v0.25.7-build20241008,0,0,0
@@ -36,8 +36,9 @@ rancher/hardened-multus-cni:v4.1.2-build20241011,0,0,0
 rancher/hardened-whereabouts:v0.8.0-build20240910,0,0,0
 rancher/hardened-whereabouts:v0.8.0-build20241011,0,0,0
 rancher/harvester-cloud-provider:v0.2.2,0,4,4
-rancher/harvester-csi-driver:v0.1.7,0,5,5
+rancher/harvester-csi-driver:v0.1.7,0,6,6
 rancher/harvester-csi-driver:v0.2.1,0,0,0
+rancher/harvester-csi-driver:v0.2.2,0,0,0
 rancher/hyperkube:v1.28.15-rancher1,1,0,1
 rancher/hyperkube:v1.29.10-rancher1,1,0,1
 rancher/hyperkube:v1.30.6-rancher1,1,0,1
@@ -113,10 +114,10 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,3,14,17
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,1,8,9
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,1,3,4
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,1,2,3
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,7,23,30
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,7,24,31
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.0,6,13,19
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,5,10,15
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,5,15,20
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,5,16,21
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.0,4,13,17
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,3,7,10
 rancher/mirrored-cloud-provider-vsphere:v1.31.0,0,1,1
@@ -137,7 +138,7 @@ rancher/mirrored-fluent-fluent-bit:3.0.4,5,11,16
 rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,494,516
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,13,17
 rancher/mirrored-grafana-grafana:11.1.0,1,7,8
-rancher/mirrored-idealista-prom2teams:4.2.1,3,33,36
+rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.1,1,2,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3,0,1,1
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.4,0,0,0
@@ -165,8 +166,8 @@ rancher/mirrored-k8s-dns-dnsmasq-nanny:1.22.28,1,5,6
 rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,1,5,6
 rancher/mirrored-k8s-dns-kube-dns:1.22.28,1,3,4
 rancher/mirrored-k8s-dns-kube-dns:1.23.0,1,3,4
-rancher/mirrored-k8s-dns-node-cache:1.22.28,2,13,15
-rancher/mirrored-k8s-dns-node-cache:1.23.0,2,13,15
+rancher/mirrored-k8s-dns-node-cache:1.22.28,2,14,16
+rancher/mirrored-k8s-dns-node-cache:1.23.0,2,14,16
 rancher/mirrored-k8s-dns-sidecar:1.22.28,1,3,4
 rancher/mirrored-k8s-dns-sidecar:1.23.0,1,3,4
 rancher/mirrored-kiali-kiali:v1.75.0,1,17,18
@@ -233,7 +234,7 @@ rancher/pushprox-proxy:v0.1.3-rancher2-proxy,1,1,2
 rancher/rancher-agent:v2.10-head,1,2,3
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.1,0,0,0
-rancher/rancher:v2.10-head,5,20,25
+rancher/rancher:v2.10-head,5,21,26
 rancher/rke-tools:v0.1.105,2,3,5
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,0,0
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
