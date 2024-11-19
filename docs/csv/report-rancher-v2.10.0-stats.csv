@@ -231,10 +231,10 @@ rancher/nginx-ingress-controller:v1.10.5-hardened3,0,2,2
 rancher/prometheus-federator:v0.4.3,2,12,14
 rancher/pushprox-client:v0.1.3-rancher2-client,1,1,2
 rancher/pushprox-proxy:v0.1.3-rancher2-proxy,1,1,2
-rancher/rancher-agent:v2.10-head,1,2,3
+rancher/rancher-agent:v2.10.0,1,2,3
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.1,0,0,0
-rancher/rancher:v2.10-head,5,21,26
+rancher/rancher:v2.10.0,5,21,26
 rancher/rke-tools:v0.1.105,2,3,5
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,0,0
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
