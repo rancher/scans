@@ -85,7 +85,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
 rancher/machine:v0.15.0-rancher118,0,4,4
-rancher/mirrored-amazon-aws-cli:2.9.14,2,131,133
+rancher/mirrored-amazon-aws-cli:2.9.14,2,119,121
 rancher/mirrored-appscode-kubed:v0.13.2,4,33,37
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -233,7 +233,7 @@ rancher/mirrored-kiali-kiali:v1.75.0,1,17,18
 rancher/mirrored-kiali-kiali:v1.79.0,1,11,12
 rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,5,7
 rancher/mirrored-kube-logging-config-reloader:v0.0.5,1,5,6
-rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,0,0
+rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,4,4
 rancher/mirrored-kube-logging-logging-operator:4.8.0,0,1,1
 rancher/mirrored-kube-rbac-proxy:v0.14.0,3,20,23
 rancher/mirrored-kube-rbac-proxy:v0.15.0,1,6,7
