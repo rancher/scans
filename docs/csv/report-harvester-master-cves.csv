@@ -1,4 +1,10 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/master,stdlib,v1.20.12,gobinary,CVE-2024-24790,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-24790,ip-control-loop,"1.21.11, 1.22.4",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/master,stdlib,v1.20.12,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,ip-control-loop,"1.21.9, 1.22.2",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/master,stdlib,v1.20.12,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,ip-control-loop,"1.22.7, 1.23.1",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/master,stdlib,v1.20.12,gobinary,CVE-2024-24790,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-24790,whereabouts,"1.21.11, 1.22.4",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/master,stdlib,v1.20.12,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,whereabouts,"1.21.9, 1.22.2",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/master,stdlib,v1.20.12,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,whereabouts,"1.22.7, 1.23.1",false,affected,
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,harvester/master,stdlib,v1.22.4,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,kube-vip,"1.22.7, 1.23.1",false,affected,
 longhornio/backing-image-manager:v1.7.2,harvester/master,qemu-img,8.2.6-150600.3.15.1,suse linux enterprise server,SUSE-SU-2024:3744-1,HIGH,,longhornio/backing-image-manager:v1.7.2 (suse linux enterprise server 15.6),8.2.7-15061.6.coco15sp6.1,false,affected,
 longhornio/backing-image-manager:v1.7.2,harvester/master,qemu-pr-helper,8.2.6-150600.3.15.1,suse linux enterprise server,SUSE-SU-2024:3744-1,HIGH,,longhornio/backing-image-manager:v1.7.2 (suse linux enterprise server 15.6),8.2.7-15061.6.coco15sp6.1,false,affected,

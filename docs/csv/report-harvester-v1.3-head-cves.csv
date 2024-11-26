@@ -1,4 +1,10 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/v1.3-head,stdlib,v1.20.12,gobinary,CVE-2024-24790,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-24790,ip-control-loop,"1.21.11, 1.22.4",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/v1.3-head,stdlib,v1.20.12,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,ip-control-loop,"1.21.9, 1.22.2",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/v1.3-head,stdlib,v1.20.12,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,ip-control-loop,"1.22.7, 1.23.1",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/v1.3-head,stdlib,v1.20.12,gobinary,CVE-2024-24790,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-24790,whereabouts,"1.21.11, 1.22.4",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/v1.3-head,stdlib,v1.20.12,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,whereabouts,"1.21.9, 1.22.2",false,affected,
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,harvester/v1.3-head,stdlib,v1.20.12,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,whereabouts,"1.22.7, 1.23.1",false,affected,
 ghcr.io/kube-vip/kube-vip-iptables:v0.6.0,harvester/v1.3-head,libcrypto1.1,1.1.1q-r0,alpine,CVE-2022-4450,HIGH,https://avd.aquasec.com/nvd/cve-2022-4450,ghcr.io/kube-vip/kube-vip-iptables:v0.6.0 (alpine 3.16.2),1.1.1t-r0,false,affected,
 ghcr.io/kube-vip/kube-vip-iptables:v0.6.0,harvester/v1.3-head,libcrypto1.1,1.1.1q-r0,alpine,CVE-2023-0215,HIGH,https://avd.aquasec.com/nvd/cve-2023-0215,ghcr.io/kube-vip/kube-vip-iptables:v0.6.0 (alpine 3.16.2),1.1.1t-r0,false,affected,
 ghcr.io/kube-vip/kube-vip-iptables:v0.6.0,harvester/v1.3-head,libcrypto1.1,1.1.1q-r0,alpine,CVE-2023-0286,HIGH,https://avd.aquasec.com/nvd/cve-2023-0286,ghcr.io/kube-vip/kube-vip-iptables:v0.6.0 (alpine 3.16.2),1.1.1t-r0,false,affected,
