@@ -44,18 +44,19 @@ and false-positives, please consult the
 <table id="cves_table">
 <tr>
 <th onclick="sort(0)">Image</th>
-<th onclick="sort(1)">Release</th>
-<th onclick="sort(2)">Affected Package Name</th>
-<th onclick="sort(3)">Affected Package Version</th>
-<th onclick="sort(4)">Type (Language or OS)</th>
-<th onclick="sort(5)">Vulnerability ID (CVE)</th>
-<th onclick="sort(6)">Severity</th>
-<th onclick="sort(7)">Target (Affected Binary)</th>
-<th onclick="sort(8)">Patched Version</th>
-<th onclick="sort(9)">Mirrored</th>
+<th onclick="sort(1)">Mirrored</th>
+<th onclick="sort(2)">Release</th>
+<th onclick="sort(3)">Affected Package Name</th>
+<th onclick="sort(4)">Affected Package Version</th>
+<th onclick="sort(5)">Type (Language or OS)</th>
+<th onclick="sort(6)">Vulnerability ID (CVE)</th>
+<th onclick="sort(7)">Severity</th>
+<th onclick="sort(8)">Target (Affected Binary)</th>
+<th onclick="sort(9)">Patched Version</th>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>github.com/coredns/coredns</td>
 <td>v1.10.0</td>
@@ -64,10 +65,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>node-cache</td>
 <td>1.11.0</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>k8s.io/kubernetes</td>
 <td>v1.26.10</td>
@@ -76,10 +77,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>node-cache</td>
 <td>1.28.4, 1.27.8, 1.26.11, 1.25.16</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>k8s.io/kubernetes</td>
 <td>v1.26.10</td>
@@ -88,10 +89,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>node-cache</td>
 <td>1.27.0-alpha.1</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>k8s.io/kubernetes</td>
 <td>v1.26.10</td>
@@ -100,10 +101,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>node-cache</td>
 <td>1.28.12, 1.29.7, 1.30.3</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-sig-storage-snapshot-controller:v8.1.0</td>
+<td>true</td>
 <td>RKE2 v1.28</td>
 <td>stdlib</td>
 <td>v1.22.5</td>
@@ -112,10 +113,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>snapshot-controller</td>
 <td>1.22.7, 1.23.1</td>
-<td>true</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0</td>
+<td>true</td>
 <td>RKE2 v1.28</td>
 <td>stdlib</td>
 <td>v1.22.5</td>
@@ -124,10 +125,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>snapshot-validation-webhook</td>
 <td>1.22.7, 1.23.1</td>
-<td>true</td>
 </tr>
 <tr class="issue">
 <td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>libprotobuf25_1_0</td>
 <td>25.1-150600.16.4.2</td>
@@ -136,10 +137,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>libprotobuf25_1_0</td>
 <td>25.1-150600.16.7.1</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>libprotoc25_1_0</td>
 <td>25.1-150600.16.4.2</td>
@@ -148,10 +149,10 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>libprotoc25_1_0</td>
 <td>25.1-150600.16.7.1</td>
-<td>false</td>
 </tr>
 <tr class="issue">
 <td>rancher/rke2-runtime:v1.28.15-rke2r1</td>
+<td>false</td>
 <td>RKE2 v1.28</td>
 <td>k8s.io/kubernetes</td>
 <td>v1.28.0-rc.1</td>
@@ -160,7 +161,6 @@ and false-positives, please consult the
 <td>HIGH</td>
 <td>bin/crictl</td>
 <td>1.28.12, 1.29.7, 1.30.3</td>
-<td>false</td>
 </tr>
 
 </table>
@@ -184,21 +184,21 @@ function search() {
         td = tr[i].getElementsByTagName("td")
 
         image = td[0].textContent.toUpperCase();
-        release = td[1].textContent.toUpperCase();
-        package_name = td[2].textContent.toUpperCase();
-        package_version = td[3].textContent.toUpperCase();
-        type = td[4].textContent.toUpperCase();
-        vulnerability_id = td[5].textContent.toUpperCase();
-        severity = td[6].textContent.toUpperCase();
-        target = td[7].textContent.toUpperCase();
-        patched_version = td[8].textContent.toUpperCase();
-        mirrored = td[9].textContent.toUpperCase();
+        mirrored = td[1].textContent.toUpperCase();
+        release = td[2].textContent.toUpperCase();
+        package_name = td[3].textContent.toUpperCase();
+        package_version = td[4].textContent.toUpperCase();
+        type = td[5].textContent.toUpperCase();
+        vulnerability_id = td[6].textContent.toUpperCase();
+        severity = td[7].textContent.toUpperCase();
+        target = td[8].textContent.toUpperCase();
+        patched_version = td[9].textContent.toUpperCase();
 
-        if (image.includes(query) || release.includes(query) ||
-           package_name.includes(query) || package_version.includes(query) ||
-           type.includes(query) || vulnerability_id.includes(query) ||
-           severity.includes(query) || target.includes(query) ||
-           patched_version.includes(query) || mirrored.includes(query)) {
+        if (image.includes(query) || mirrored.includes(query) ||
+            release.includes(query) || package_name.includes(query) ||
+            package_version.includes(query) || type.includes(query) ||
+            vulnerability_id.includes(query) || severity.includes(query) ||
+            target.includes(query) || patched_version.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {
