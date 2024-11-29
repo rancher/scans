@@ -36,7 +36,7 @@ rancher/hardened-multus-cni:v4.1.2-build20241011,0,0,0
 rancher/hardened-whereabouts:v0.8.0-build20240910,0,0,0
 rancher/hardened-whereabouts:v0.8.0-build20241011,0,0,0
 rancher/harvester-cloud-provider:v0.2.2,0,5,5
-rancher/harvester-csi-driver:v0.1.7,0,8,8
+rancher/harvester-csi-driver:v0.1.7,0,9,9
 rancher/harvester-csi-driver:v0.2.1,0,0,0
 rancher/harvester-csi-driver:v0.2.2,0,0,0
 rancher/hyperkube:v1.28.15-rancher1,1,0,1
@@ -47,6 +47,7 @@ rancher/istio-installer:1.19.6-rancher1,3,24,27
 rancher/istio-installer:1.21.1-rancher1,2,23,25
 rancher/istio-installer:1.22.1-rancher1,2,22,24
 rancher/istio-installer:1.23.2-rancher1,1,4,5
+rancher/istio-installer:1.24.1-rancher1,0,1,1
 rancher/k3s-upgrade:v1.28.15-k3s1,0,0,0
 rancher/k3s-upgrade:v1.29.10-k3s1,0,0,0
 rancher/k3s-upgrade:v1.30.6-k3s1,0,0,0
@@ -135,7 +136,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,2,6,8
 rancher/mirrored-flannel-flannel:v0.25.1,2,5,7
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,6,7
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,263,268
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,262,267
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,13,17
 rancher/mirrored-grafana-grafana:11.1.0,1,7,8
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -148,19 +149,23 @@ rancher/mirrored-istio-install-cni:1.20.3-distroless,2,4,6
 rancher/mirrored-istio-install-cni:1.21.1-distroless,2,6,8
 rancher/mirrored-istio-install-cni:1.22.1-distroless,2,4,6
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,2,2
+rancher/mirrored-istio-install-cni:1.24.1-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.19.6-distroless,2,2,4
 rancher/mirrored-istio-pilot:1.20.3-distroless,2,2,4
 rancher/mirrored-istio-pilot:1.21.1-distroless,2,2,4
 rancher/mirrored-istio-pilot:1.22.1-distroless,2,2,4
 rancher/mirrored-istio-pilot:1.23.2-distroless,1,1,2
+rancher/mirrored-istio-pilot:1.24.1-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.19.6-distroless,2,6,8
 rancher/mirrored-istio-proxyv2:1.21.1-distroless,2,4,6
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,2,2,4
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,1,1,2
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,0,0
 rancher/mirrored-jaegertracing-all-in-one:1.52.0,1,5,6
 rancher/mirrored-jaegertracing-all-in-one:1.56.0,1,6,7
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,1,5,6
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,0,1,1
+rancher/mirrored-jaegertracing-all-in-one:1.63.0,0,0,0
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,1,1
 rancher/mirrored-k8s-dns-dnsmasq-nanny:1.22.28,1,5,6
 rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,1,5,6
@@ -174,6 +179,7 @@ rancher/mirrored-kiali-kiali:v1.75.0,1,17,18
 rancher/mirrored-kiali-kiali:v1.79.0,1,11,12
 rancher/mirrored-kiali-kiali:v1.86.0,1,9,10
 rancher/mirrored-kiali-kiali:v1.89.3,0,7,7
+rancher/mirrored-kiali-kiali:v2.1.0,0,7,7
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,1,3
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,4,4
@@ -300,4 +306,4 @@ rancher/system-agent-installer-rke2:v1.31.2-rke2r1,0,0,0
 rancher/system-agent:v0.3.11-suc,0,1,1
 rancher/system-upgrade-controller:v0.13.4,1,2,3
 rancher/system-upgrade-controller:v0.14.2,0,0,0
-rancher/ui-plugin-catalog:3.0.0,0,0,0
+rancher/ui-plugin-catalog:3.0.0,0,1,1
