@@ -3,7 +3,7 @@ rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
 rancher/hardened-calico:v3.28.2-build20241016,0,0,0
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,0,0
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
-rancher/hardened-dns-node-cache:1.23.1-build20241008,0,4,4
+rancher/hardened-dns-node-cache:1.23.1-build20241008,0,5,5
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
 rancher/hardened-flannel:v0.25.7-build20241008,0,0,0
 rancher/hardened-k8s-metrics-server:v0.7.1-build20241008,0,0,0
@@ -16,4 +16,4 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,1,1
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,1,1
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,2,2
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0
-rancher/rke2-runtime:v1.30.6-rke2r1,0,1,1
+rancher/rke2-runtime:v1.30.6-rke2r1,0,2,2
