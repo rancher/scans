@@ -86,7 +86,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
 rancher/machine:v0.15.0-rancher118,0,4,4
-rancher/mirrored-amazon-aws-cli:2.9.14,2,119,121
+rancher/mirrored-amazon-aws-cli:2.9.14,1,139,140
 rancher/mirrored-appscode-kubed:v0.13.2,4,33,37
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -250,7 +250,7 @@ rancher/mirrored-library-registry:2.8.1,6,35,41
 rancher/mirrored-library-traefik:2.10.7,2,4,6
 rancher/mirrored-library-traefik:2.11.10,0,0,0
 rancher/mirrored-library-traefik:2.11.8,0,1,1
-rancher/mirrored-longhornio-backing-image-manager:v1.7.2,0,3,3
+rancher/mirrored-longhornio-backing-image-manager:v1.7.2,0,6,6
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,4,52,56
 rancher/mirrored-longhornio-csi-attacher:v4.7.0,0,1,1
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.12.0,0,1,1
@@ -261,8 +261,8 @@ rancher/mirrored-longhornio-csi-resizer:v1.12.0,0,1,1
 rancher/mirrored-longhornio-csi-resizer:v1.2.0,4,52,56
 rancher/mirrored-longhornio-csi-snapshotter:v7.0.2-20241007,0,1,1
 rancher/mirrored-longhornio-livenessprobe:v2.14.0,0,1,1
-rancher/mirrored-longhornio-longhorn-engine:v1.7.2,0,4,4
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.2,0,6,6
+rancher/mirrored-longhornio-longhorn-engine:v1.7.2,0,7,7
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.2,0,9,9
 rancher/mirrored-longhornio-longhorn-manager:v1.7.2,0,0,0
 rancher/mirrored-longhornio-longhorn-share-manager:v1.7.2,0,0,0
 rancher/mirrored-longhornio-longhorn-ui:v1.7.2,0,0,0
