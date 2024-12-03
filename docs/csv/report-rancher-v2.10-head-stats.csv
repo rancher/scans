@@ -66,7 +66,7 @@ rancher/kubectl:v1.30.7,0,0,0
 rancher/kubectl:v1.31.1,0,1,1
 rancher/local-path-provisioner:v0.0.28,1,2,3
 rancher/local-path-provisioner:v0.0.30,0,0,0
-rancher/machine:v0.15.0-rancher124,0,0,0
+rancher/machine:v0.15.0-rancher124,0,2,2
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.0,0,1,1
@@ -264,7 +264,7 @@ rancher/pushprox-proxy:v0.1.4-rc.4-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.10-head,1,2,3
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.1,0,0,0
-rancher/rancher:v2.10-head,5,23,28
+rancher/rancher:v2.10-head,5,25,30
 rancher/rke-tools:v0.1.105,2,5,7
 rancher/rke-tools:v0.1.106,2,5,7
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,0,0
