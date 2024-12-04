@@ -85,7 +85,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
 rancher/machine:v0.15.0-rancher118,0,6,6
-rancher/mirrored-amazon-aws-cli:2.9.14,1,139,140
+rancher/mirrored-amazon-aws-cli:2.9.14,2,131,133
 rancher/mirrored-appscode-kubed:v0.13.2,4,33,37
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
