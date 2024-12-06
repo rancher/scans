@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>SUSE Rancher - Images CVE Scans</title>
 <style>
-body { background: #ffffff; color: #1d2327; }
+body { background: #ffffff; color: #1d2327; font-family: sans-serif; }
 body.index { padding: 10px; margin: auto; max-width: 70%; }
 h1 { color: #2453ff; }
 table { border-collapse: collapse; margin: 10px; }
@@ -24,11 +24,11 @@ td { padding: 7px; }
 
 <ul>
 <li>You can click a column header to sort by column.</li>
-<li>Use the search bar below to filter the results by image, release, affected
-package name, affected package version,<br>vulnerability type (related to the
-programming language or container OS), vulnerability ID (CVE, GHSA, SUSE-SU
-etc.),<br>severity, target (affected binary), patched version and if the image is
-mirrored or not (true/false).</li>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false),<br>release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
@@ -46,121 +46,101 @@ and false-positives, please consult the
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Package Name</th>
-<th onclick="sort(4)">Affected Package Version</th>
-<th onclick="sort(5)">Type (Language or OS)</th>
-<th onclick="sort(6)">Vulnerability ID (CVE)</th>
-<th onclick="sort(7)">Severity</th>
-<th onclick="sort(8)">Target (Affected Binary)</th>
-<th onclick="sort(9)">Patched Version</th>
+<th onclick="sort(3)">Affected Binary</th>
+<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(5)">Vulnerability ID (CVE)</th>
+<th onclick="sort(6)">Severity</th>
+<th onclick="sort(7)">Type (Language or OS)</th>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
-<td>github.com/coredns/coredns</td>
-<td>v1.10.0</td>
-<td>gobinary</td>
+<td>node-cache</td>
+<td>github.com/coredns/coredns@v1.10.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-28452">CVE-2023-28452</a></td>
 <td>HIGH</td>
-<td>node-cache</td>
-<td>1.11.0</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.26.10</td>
-<td>gobinary</td>
+<td>node-cache</td>
+<td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-5528">CVE-2023-5528</a></td>
 <td>HIGH</td>
-<td>node-cache</td>
-<td>1.28.4, 1.27.8, 1.26.11, 1.25.16</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.26.10</td>
-<td>gobinary</td>
+<td>node-cache</td>
+<td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-0793">CVE-2024-0793</a></td>
 <td>HIGH</td>
-<td>node-cache</td>
-<td>1.27.0-alpha.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.26.10</td>
-<td>gobinary</td>
+<td>node-cache</td>
+<td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10220">CVE-2024-10220</a></td>
 <td>HIGH</td>
-<td>node-cache</td>
-<td>1.28.12, 1.29.7, 1.30.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20241008</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.26.10</td>
-<td>gobinary</td>
+<td>node-cache</td>
+<td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
 <td>HIGH</td>
-<td>node-cache</td>
-<td>1.27.16, 1.28.12, 1.29.7, 1.30.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-sig-storage-snapshot-controller:v8.1.0</td>
 <td>true</td>
 <td>RKE2 v1.31</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>snapshot-controller</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>snapshot-controller</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0</td>
 <td>true</td>
 <td>RKE2 v1.31</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>snapshot-validation-webhook</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>snapshot-validation-webhook</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
 <td>libprotobuf25_1_0</td>
-<td>25.1-150600.16.4.2</td>
-<td>suse linux enterprise server</td>
+<td>libprotobuf25_1_0@25.1-150600.16.4.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243745-1">SUSE-SU-2024:3745-1</a></td>
 <td>HIGH</td>
-<td>libprotobuf25_1_0</td>
-<td>25.1-150600.16.7.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>rancher/nginx-ingress-controller:v1.10.5-hardened3</td>
 <td>false</td>
 <td>RKE2 v1.31</td>
 <td>libprotoc25_1_0</td>
-<td>25.1-150600.16.4.2</td>
-<td>suse linux enterprise server</td>
+<td>libprotoc25_1_0@25.1-150600.16.4.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243745-1">SUSE-SU-2024:3745-1</a></td>
 <td>HIGH</td>
-<td>libprotoc25_1_0</td>
-<td>25.1-150600.16.7.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 
 </table>
@@ -172,8 +152,7 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, release, package_name, package_version, type, vulnerability_id;
-    let severity, target, patched_version, mirrored;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -186,19 +165,16 @@ function search() {
         image = td[0].textContent.toUpperCase();
         mirrored = td[1].textContent.toUpperCase();
         release = td[2].textContent.toUpperCase();
-        package_name = td[3].textContent.toUpperCase();
-        package_version = td[4].textContent.toUpperCase();
-        type = td[5].textContent.toUpperCase();
-        vulnerability_id = td[6].textContent.toUpperCase();
-        severity = td[7].textContent.toUpperCase();
-        target = td[8].textContent.toUpperCase();
-        patched_version = td[9].textContent.toUpperCase();
+        affected_binary = td[3].textContent.toUpperCase();
+        vuln_dep = td[4].textContent.toUpperCase();
+        vuln_id= td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        type = td[7].textContent.toUpperCase();
 
         if (image.includes(query) || mirrored.includes(query) ||
-            release.includes(query) || package_name.includes(query) ||
-            package_version.includes(query) || type.includes(query) ||
-            vulnerability_id.includes(query) || severity.includes(query) ||
-            target.includes(query) || patched_version.includes(query)) {
+            release.includes(query) || affected_binary.includes(query) ||
+            vuln_dep.includes(query) || vuln_id.includes(query) ||
+            severity.includes(query) || type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {

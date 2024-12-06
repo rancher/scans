@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>SUSE Rancher - Images CVE Scans</title>
 <style>
-body { background: #ffffff; color: #1d2327; }
+body { background: #ffffff; color: #1d2327; font-family: sans-serif; }
 body.index { padding: 10px; margin: auto; max-width: 70%; }
 h1 { color: #2453ff; }
 table { border-collapse: collapse; margin: 10px; }
@@ -24,11 +24,11 @@ td { padding: 7px; }
 
 <ul>
 <li>You can click a column header to sort by column.</li>
-<li>Use the search bar below to filter the results by image, release, affected
-package name, affected package version,<br>vulnerability type (related to the
-programming language or container OS), vulnerability ID (CVE, GHSA, SUSE-SU
-etc.),<br>severity, target (affected binary), patched version and if the image is
-mirrored or not (true/false).</li>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false),<br>release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
@@ -46,361 +46,301 @@ and false-positives, please consult the
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Package Name</th>
-<th onclick="sort(4)">Affected Package Version</th>
-<th onclick="sort(5)">Type (Language or OS)</th>
-<th onclick="sort(6)">Vulnerability ID (CVE)</th>
-<th onclick="sort(7)">Severity</th>
-<th onclick="sort(8)">Target (Affected Binary)</th>
-<th onclick="sort(9)">Patched Version</th>
+<th onclick="sort(3)">Affected Binary</th>
+<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(5)">Vulnerability ID (CVE)</th>
+<th onclick="sort(6)">Severity</th>
+<th onclick="sort(7)">Type (Language or OS)</th>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-img</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-img</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-tools</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-tools</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-attacher:v4.7.0</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-attacher</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-node-driver-registrar:v2.12.0</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>csi-node-driver-registrar</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-node-driver-registrar</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-provisioner:v4.0.1-20241007</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.21.13</td>
-<td>gobinary</td>
+<td>csi-provisioner</td>
+<td>stdlib@v1.21.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-provisioner</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-resizer:v1.12.0</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>csi-resizer</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-resizer</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-snapshotter:v7.0.2-20241007</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.21.13</td>
-<td>gobinary</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.21.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-snapshotter</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/livenessprobe:v2.14.0</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
-<td>HIGH</td>
 <td>livenessprobe</td>
-<td>1.22.7, 1.23.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>qemu-img</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
-<td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>qemu-img</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
-<td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-150600.3.20.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
-<td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
-<td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-150600.3.20.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>qemu-tools</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
-<td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>qemu-tools</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
-<td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-150600.3.20.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.7.2</td>
-<td>false</td>
-<td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>qemu-img</td>
+<td>qemu-img@8.2.6-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>qemu-img</td>
+<td>qemu-img@8.2.6-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>qemu-pr-helper</td>
+<td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>qemu-pr-helper</td>
+<td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>qemu-tools</td>
+<td>qemu-tools@8.2.6-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>qemu-tools</td>
+<td>qemu-tools@8.2.6-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
 <td>usr/local/bin/grpc_health_probe</td>
-<td>1.22.7, 1.23.1</td>
+<td>stdlib@v1.22.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>libpython3_11-1_0</td>
-<td>3.11.10-lp156.157.1</td>
-<td>suse linux enterprise server</td>
+<td>libpython3_11-1_0@3.11.10-lp156.157.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243427-1">SUSE-SU-2024:3427-1</a></td>
 <td>HIGH</td>
-<td>libpython3_11-1_0</td>
-<td>3.11.10-150600.3.6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>python311-base</td>
-<td>3.11.10-lp156.157.1</td>
-<td>suse linux enterprise server</td>
+<td>python311-base@3.11.10-lp156.157.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243427-1">SUSE-SU-2024:3427-1</a></td>
 <td>HIGH</td>
-<td>python311-base</td>
-<td>3.11.10-150600.3.6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-img</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-img</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-tools</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
 <td>qemu-tools</td>
-<td>8.2.6-150600.3.15.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.7.2</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>usr/local/bin/grpc_health_probe</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/support-bundle-kit:v0.0.45</td>
 <td>false</td>
 <td>Longhorn v1.7.2</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>usr/bin/yq</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 
 </table>
@@ -412,8 +352,7 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, release, package_name, package_version, type, vulnerability_id;
-    let severity, target, patched_version, mirrored;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -426,19 +365,16 @@ function search() {
         image = td[0].textContent.toUpperCase();
         mirrored = td[1].textContent.toUpperCase();
         release = td[2].textContent.toUpperCase();
-        package_name = td[3].textContent.toUpperCase();
-        package_version = td[4].textContent.toUpperCase();
-        type = td[5].textContent.toUpperCase();
-        vulnerability_id = td[6].textContent.toUpperCase();
-        severity = td[7].textContent.toUpperCase();
-        target = td[8].textContent.toUpperCase();
-        patched_version = td[9].textContent.toUpperCase();
+        affected_binary = td[3].textContent.toUpperCase();
+        vuln_dep = td[4].textContent.toUpperCase();
+        vuln_id= td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        type = td[7].textContent.toUpperCase();
 
         if (image.includes(query) || mirrored.includes(query) ||
-            release.includes(query) || package_name.includes(query) ||
-            package_version.includes(query) || type.includes(query) ||
-            vulnerability_id.includes(query) || severity.includes(query) ||
-            target.includes(query) || patched_version.includes(query)) {
+            release.includes(query) || affected_binary.includes(query) ||
+            vuln_dep.includes(query) || vuln_id.includes(query) ||
+            severity.includes(query) || type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {

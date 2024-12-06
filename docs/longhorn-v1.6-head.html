@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>SUSE Rancher - Images CVE Scans</title>
 <style>
-body { background: #ffffff; color: #1d2327; }
+body { background: #ffffff; color: #1d2327; font-family: sans-serif; }
 body.index { padding: 10px; margin: auto; max-width: 70%; }
 h1 { color: #2453ff; }
 table { border-collapse: collapse; margin: 10px; }
@@ -24,11 +24,11 @@ td { padding: 7px; }
 
 <ul>
 <li>You can click a column header to sort by column.</li>
-<li>Use the search bar below to filter the results by image, release, affected
-package name, affected package version,<br>vulnerability type (related to the
-programming language or container OS), vulnerability ID (CVE, GHSA, SUSE-SU
-etc.),<br>severity, target (affected binary), patched version and if the image is
-mirrored or not (true/false).</li>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false),<br>release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
@@ -46,685 +46,571 @@ and false-positives, please consult the
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Package Name</th>
-<th onclick="sort(4)">Affected Package Version</th>
-<th onclick="sort(5)">Type (Language or OS)</th>
-<th onclick="sort(6)">Vulnerability ID (CVE)</th>
-<th onclick="sort(7)">Severity</th>
-<th onclick="sort(8)">Target (Affected Binary)</th>
-<th onclick="sort(9)">Patched Version</th>
+<th onclick="sort(3)">Affected Binary</th>
+<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(5)">Vulnerability ID (CVE)</th>
+<th onclick="sort(6)">Severity</th>
+<th onclick="sort(7)">Type (Language or OS)</th>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libopenssl-3-fips-provider</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
+<td>libopenssl-3-fips-provider@3.1.4-150600.5.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
 <td>HIGH</td>
-<td>libopenssl-3-fips-provider</td>
-<td>3.1.4-150600.5.18.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libopenssl3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
+<td>libopenssl3@3.1.4-150600.5.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
 <td>HIGH</td>
-<td>libopenssl3</td>
-<td>3.1.4-150600.5.18.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.65.1</td>
-<td>suse linux enterprise server</td>
+<td>libpython3_6m1_0@3.6.15-150300.10.65.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
 <td>HIGH</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.72.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>openssl-3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
+<td>openssl-3@3.1.4-150600.5.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
 <td>HIGH</td>
-<td>openssl-3</td>
-<td>3.1.4-150600.5.18.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>python3-base</td>
-<td>3.6.15-150300.10.65.1</td>
-<td>suse linux enterprise server</td>
+<td>python3-base@3.6.15-150300.10.65.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
 <td>HIGH</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.72.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-img</td>
-<td>8.2.6-150600.3.12.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-img@8.2.6-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-img</td>
-<td>8.2.6-150600.3.12.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-img@8.2.6-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-img</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.12.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-pr-helper@8.2.6-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-pr-helper</td>
-<td>8.2.6-150600.3.12.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-pr-helper@8.2.6-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-pr-helper</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-tools</td>
-<td>8.2.6-150600.3.12.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@8.2.6-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-15061.6.coco15sp6.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-tools</td>
-<td>8.2.6-150600.3.12.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@8.2.6-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>8.2.7-150600.3.20.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-attacher:v4.7.0</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-attacher</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-node-driver-registrar:v2.12.0</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>csi-node-driver-registrar</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-node-driver-registrar</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-provisioner:v3.6.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.21.5</td>
-<td>gobinary</td>
+<td>csi-provisioner</td>
+<td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
-<td>csi-provisioner</td>
-<td>1.21.11, 1.22.4</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-provisioner:v3.6.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.21.5</td>
-<td>gobinary</td>
+<td>csi-provisioner</td>
+<td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-45288">CVE-2023-45288</a></td>
 <td>HIGH</td>
-<td>csi-provisioner</td>
-<td>1.21.9, 1.22.2</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-provisioner:v3.6.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.21.5</td>
-<td>gobinary</td>
+<td>csi-provisioner</td>
+<td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-provisioner</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-resizer:v1.12.0</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>csi-resizer</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-resizer</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-snapshotter:v6.3.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.20.5</td>
-<td>gobinary</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.20.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
-<td>csi-snapshotter</td>
-<td>1.21.11, 1.22.4</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-snapshotter:v6.3.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.20.5</td>
-<td>gobinary</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.20.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-39325">CVE-2023-39325</a></td>
 <td>HIGH</td>
-<td>csi-snapshotter</td>
-<td>1.20.10, 1.21.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-snapshotter:v6.3.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.20.5</td>
-<td>gobinary</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.20.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-45283">CVE-2023-45283</a></td>
 <td>HIGH</td>
-<td>csi-snapshotter</td>
-<td>1.20.11, 1.21.4, 1.20.12, 1.21.5</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-snapshotter:v6.3.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.20.5</td>
-<td>gobinary</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.20.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-45288">CVE-2023-45288</a></td>
 <td>HIGH</td>
-<td>csi-snapshotter</td>
-<td>1.21.9, 1.22.2</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-snapshotter:v6.3.4</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.20.5</td>
-<td>gobinary</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.20.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>csi-snapshotter</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/livenessprobe:v2.14.0</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.22.5</td>
-<td>gobinary</td>
+<td>livenessprobe</td>
+<td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>livenessprobe</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libglib-2_0-0</td>
-<td>2.70.5-150400.3.14.1</td>
-<td>suse linux enterprise server</td>
+<td>libglib-2_0-0@2.70.5-150400.3.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244078-1">SUSE-SU-2024:4078-1</a></td>
 <td>HIGH</td>
-<td>libglib-2_0-0</td>
-<td>2.70.5-150400.3.17.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libgmodule-2_0-0</td>
-<td>2.70.5-150400.3.14.1</td>
-<td>suse linux enterprise server</td>
+<td>libgmodule-2_0-0@2.70.5-150400.3.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244078-1">SUSE-SU-2024:4078-1</a></td>
 <td>HIGH</td>
-<td>libgmodule-2_0-0</td>
-<td>2.70.5-150400.3.17.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.65.1</td>
-<td>suse linux enterprise server</td>
+<td>libpython3_6m1_0@3.6.15-150300.10.65.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
 <td>HIGH</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.72.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>python3-base</td>
-<td>3.6.15-150300.10.65.1</td>
-<td>suse linux enterprise server</td>
+<td>python3-base@3.6.15-150300.10.65.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
 <td>HIGH</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.72.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-tools</td>
-<td>7.1.0-150500.49.18.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@7.1.0-150500.49.18.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243948-1">SUSE-SU-2024:3948-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>7.1.0-150500.49.24.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>usr/local/bin/grpc_health_probe</td>
-<td>1.22.7, 1.23.1</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>github.com/moby/moby</td>
-<td>v23.0.14+incompatible</td>
-<td>gobinary</td>
+<td>usr/local/bin/longhorn</td>
+<td>github.com/moby/moby@v23.0.14+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-36621">CVE-2024-36621</a></td>
 <td>HIGH</td>
-<td>usr/local/bin/longhorn</td>
-<td>26.0.0</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>github.com/moby/moby</td>
-<td>v23.0.14+incompatible</td>
-<td>gobinary</td>
+<td>usr/local/bin/longhorn</td>
+<td>github.com/moby/moby@v23.0.14+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-36623">CVE-2024-36623</a></td>
 <td>HIGH</td>
-<td>usr/local/bin/longhorn</td>
-<td>26.0.0</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libglib-2_0-0</td>
-<td>2.70.5-150400.3.14.1</td>
-<td>suse linux enterprise server</td>
+<td>libglib-2_0-0@2.70.5-150400.3.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244078-1">SUSE-SU-2024:4078-1</a></td>
 <td>HIGH</td>
-<td>libglib-2_0-0</td>
-<td>2.70.5-150400.3.17.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libgmodule-2_0-0</td>
-<td>2.70.5-150400.3.14.1</td>
-<td>suse linux enterprise server</td>
+<td>libgmodule-2_0-0@2.70.5-150400.3.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244078-1">SUSE-SU-2024:4078-1</a></td>
 <td>HIGH</td>
-<td>libgmodule-2_0-0</td>
-<td>2.70.5-150400.3.17.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libpython3_6m1_0</td>
-<td>3.6.15-lp155.51.1</td>
-<td>suse linux enterprise server</td>
+<td>libpython3_6m1_0@3.6.15-lp155.51.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2023/suse-su-20233828-1">SUSE-SU-2023:3828-1</a></td>
 <td>HIGH</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.51.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libpython3_6m1_0</td>
-<td>3.6.15-lp155.51.1</td>
-<td>suse linux enterprise server</td>
+<td>libpython3_6m1_0@3.6.15-lp155.51.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20240901-1">SUSE-SU-2024:0901-1</a></td>
 <td>HIGH</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.57.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libpython3_6m1_0</td>
-<td>3.6.15-lp155.51.1</td>
-<td>suse linux enterprise server</td>
+<td>libpython3_6m1_0@3.6.15-lp155.51.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
 <td>HIGH</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.72.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>python3-base</td>
-<td>3.6.15-lp155.51.1</td>
-<td>suse linux enterprise server</td>
+<td>python3-base@3.6.15-lp155.51.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2023/suse-su-20233828-1">SUSE-SU-2023:3828-1</a></td>
 <td>HIGH</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.51.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>python3-base</td>
-<td>3.6.15-lp155.51.1</td>
-<td>suse linux enterprise server</td>
+<td>python3-base@3.6.15-lp155.51.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20240901-1">SUSE-SU-2024:0901-1</a></td>
 <td>HIGH</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.57.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>python3-base</td>
-<td>3.6.15-lp155.51.1</td>
-<td>suse linux enterprise server</td>
+<td>python3-base@3.6.15-lp155.51.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
 <td>HIGH</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.72.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>qemu-tools</td>
-<td>7.1.0-150500.49.18.1</td>
-<td>suse linux enterprise server</td>
+<td>qemu-tools@7.1.0-150500.49.18.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243948-1">SUSE-SU-2024:3948-1</a></td>
 <td>HIGH</td>
-<td>qemu-tools</td>
-<td>7.1.0-150500.49.24.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>stdlib</td>
-<td>v1.22.4</td>
-<td>gobinary</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
-<td>usr/local/bin/grpc_health_probe</td>
-<td>1.22.7, 1.23.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.6.3</td>
-<td>false</td>
-<td>Longhorn v1.6 head</td>
-<td>libopenssl-3-fips-provider</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
-<td>HIGH</td>
-<td>libopenssl-3-fips-provider</td>
-<td>3.1.4-150600.5.18.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.6.3</td>
-<td>false</td>
-<td>Longhorn v1.6 head</td>
-<td>libopenssl3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
-<td>HIGH</td>
-<td>libopenssl3</td>
-<td>3.1.4-150600.5.18.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.6.3</td>
-<td>false</td>
-<td>Longhorn v1.6 head</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.65.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
-<td>HIGH</td>
-<td>libpython3_6m1_0</td>
-<td>3.6.15-150300.10.72.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.6.3</td>
-<td>false</td>
-<td>Longhorn v1.6 head</td>
-<td>openssl-3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
-<td>HIGH</td>
-<td>openssl-3</td>
-<td>3.1.4-150600.5.18.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.6.3</td>
-<td>false</td>
-<td>Longhorn v1.6 head</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.65.1</td>
-<td>suse linux enterprise server</td>
-<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
-<td>HIGH</td>
-<td>python3-base</td>
-<td>3.6.15-150300.10.72.1</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.6.3</td>
-<td>false</td>
-<td>Longhorn v1.6 head</td>
-<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc</td>
-<td>v0.35.0</td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.6.3</td>
+<td>false</td>
+<td>Longhorn v1.6 head</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.1.4-150600.5.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.6.3</td>
+<td>false</td>
+<td>Longhorn v1.6 head</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.1.4-150600.5.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.6.3</td>
+<td>false</td>
+<td>Longhorn v1.6 head</td>
+<td>libpython3_6m1_0</td>
+<td>libpython3_6m1_0@3.6.15-150300.10.65.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.6.3</td>
+<td>false</td>
+<td>Longhorn v1.6 head</td>
+<td>openssl-3</td>
+<td>openssl-3@3.1.4-150600.5.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.6.3</td>
+<td>false</td>
+<td>Longhorn v1.6 head</td>
+<td>python3-base</td>
+<td>python3-base@3.6.15-150300.10.65.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243470-1">SUSE-SU-2024:3470-1</a></td>
+<td>HIGH</td>
+<td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.6.3</td>
+<td>false</td>
+<td>Longhorn v1.6 head</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.35.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47108">CVE-2023-47108</a></td>
 <td>HIGH</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>0.46.0</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp</td>
-<td>v0.35.1</td>
-<td>gobinary</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-45142">CVE-2023-45142</a></td>
 <td>HIGH</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>0.44.0</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.28.5</td>
-<td>gobinary</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>k8s.io/kubernetes@v1.28.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10220">CVE-2024-10220</a></td>
 <td>HIGH</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>1.28.12, 1.29.7, 1.30.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.28.5</td>
-<td>gobinary</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>k8s.io/kubernetes@v1.28.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
 <td>HIGH</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>1.27.16, 1.28.12, 1.29.7, 1.30.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-share-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libglib-2_0-0</td>
-<td>2.70.5-150400.3.14.1</td>
-<td>suse linux enterprise server</td>
+<td>libglib-2_0-0@2.70.5-150400.3.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244078-1">SUSE-SU-2024:4078-1</a></td>
 <td>HIGH</td>
-<td>libglib-2_0-0</td>
-<td>2.70.5-150400.3.17.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-share-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.28.5</td>
-<td>gobinary</td>
+<td>longhorn-share-manager</td>
+<td>k8s.io/kubernetes@v1.28.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10220">CVE-2024-10220</a></td>
 <td>HIGH</td>
-<td>longhorn-share-manager</td>
-<td>1.28.12, 1.29.7, 1.30.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-share-manager:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
-<td>k8s.io/kubernetes</td>
-<td>v1.28.5</td>
-<td>gobinary</td>
+<td>longhorn-share-manager</td>
+<td>k8s.io/kubernetes@v1.28.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
 <td>HIGH</td>
-<td>longhorn-share-manager</td>
-<td>1.27.16, 1.28.12, 1.29.7, 1.30.3</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-ui:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libopenssl-3-fips-provider</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
+<td>libopenssl-3-fips-provider@3.1.4-150600.5.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
 <td>HIGH</td>
-<td>libopenssl-3-fips-provider</td>
-<td>3.1.4-150600.5.18.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-ui:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>libopenssl3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
+<td>libopenssl3@3.1.4-150600.5.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
 <td>HIGH</td>
-<td>libopenssl3</td>
-<td>3.1.4-150600.5.18.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-ui:v1.6.3</td>
 <td>false</td>
 <td>Longhorn v1.6 head</td>
 <td>openssl-3</td>
-<td>3.1.4-150600.5.15.1</td>
-<td>suse linux enterprise server</td>
+<td>openssl-3@3.1.4-150600.5.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243501-1">SUSE-SU-2024:3501-1</a></td>
 <td>HIGH</td>
-<td>openssl-3</td>
-<td>3.1.4-150600.5.18.1</td>
+<td>suse linux enterprise server</td>
 </tr>
 
 </table>
@@ -736,8 +622,7 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, release, package_name, package_version, type, vulnerability_id;
-    let severity, target, patched_version, mirrored;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -750,19 +635,16 @@ function search() {
         image = td[0].textContent.toUpperCase();
         mirrored = td[1].textContent.toUpperCase();
         release = td[2].textContent.toUpperCase();
-        package_name = td[3].textContent.toUpperCase();
-        package_version = td[4].textContent.toUpperCase();
-        type = td[5].textContent.toUpperCase();
-        vulnerability_id = td[6].textContent.toUpperCase();
-        severity = td[7].textContent.toUpperCase();
-        target = td[8].textContent.toUpperCase();
-        patched_version = td[9].textContent.toUpperCase();
+        affected_binary = td[3].textContent.toUpperCase();
+        vuln_dep = td[4].textContent.toUpperCase();
+        vuln_id= td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        type = td[7].textContent.toUpperCase();
 
         if (image.includes(query) || mirrored.includes(query) ||
-            release.includes(query) || package_name.includes(query) ||
-            package_version.includes(query) || type.includes(query) ||
-            vulnerability_id.includes(query) || severity.includes(query) ||
-            target.includes(query) || patched_version.includes(query)) {
+            release.includes(query) || affected_binary.includes(query) ||
+            vuln_dep.includes(query) || vuln_id.includes(query) ||
+            severity.includes(query) || type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {
