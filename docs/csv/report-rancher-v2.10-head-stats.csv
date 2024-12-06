@@ -4,7 +4,7 @@ rancher/backup-restore-operator:v6.0.0,0,0,0
 rancher/calico-cni:v3.27.4-rancher1,3,41,44
 rancher/calico-cni:v3.28.1-rancher1,3,41,44
 rancher/calico-cni:v3.29.0-rancher1,3,33,36
-rancher/cis-operator:v1.3.1,0,0,0
+rancher/cis-operator:v1.3.3,0,0,0
 rancher/eks-operator:v1.10.1-rc.1,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,11,54,65
 rancher/flannel-cni:v1.4.1-rancher1,11,21,32
@@ -66,7 +66,7 @@ rancher/kubectl:v1.30.7,0,0,0
 rancher/kubectl:v1.31.1,0,1,1
 rancher/local-path-provisioner:v0.0.28,1,2,3
 rancher/local-path-provisioner:v0.0.30,0,0,0
-rancher/machine:v0.15.0-rancher124,0,2,2
+rancher/machine:v0.15.0-rancher124,0,0,0
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.0,0,1,1
@@ -264,7 +264,7 @@ rancher/pushprox-proxy:v0.1.4-rc.4-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.10-head,1,2,3
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.1,0,0,0
-rancher/rancher:v2.10-head,5,25,30
+rancher/rancher:v2.10-head,5,23,28
 rancher/rke-tools:v0.1.105,2,5,7
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,0,0
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
@@ -282,7 +282,7 @@ rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.10-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.6-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.31.2-rke2r1,0,0,0
-rancher/security-scan:v0.5.1,0,0,0
+rancher/security-scan:v0.5.2,0,0,0
 rancher/shell:v0.2.1,4,12,16
 rancher/shell:v0.3.0,2,4,6
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0

@@ -1289,8 +1289,6 @@ rancher/rancher:v2.8.5,harvester/v1.3-head,go.opentelemetry.io/contrib/instrumen
 rancher/rancher:v2.8.5,harvester/v1.3-head,k8s.io/kubernetes,v1.28.6,gobinary,CVE-2024-10220,HIGH,https://avd.aquasec.com/nvd/cve-2024-10220,usr/bin/rancher,"1.28.12, 1.29.7, 1.30.3",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,k8s.io/kubernetes,v1.28.6,gobinary,CVE-2024-5321,HIGH,https://avd.aquasec.com/nvd/cve-2024-5321,usr/bin/rancher,"1.27.16, 1.28.12, 1.29.7, 1.30.3",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,stdlib,v1.21.11,gobinary,CVE-2024-34156,HIGH,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/rancher,"1.22.7, 1.23.1",false,affected,
-rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/moby/moby,v1.4.2-0.20170731201646-1009e6a40b29,gobinary,CVE-2024-36621,HIGH,https://avd.aquasec.com/nvd/cve-2024-36621,usr/bin/rancher-machine,26.0.0,false,affected,
-rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/moby/moby,v1.4.2-0.20170731201646-1009e6a40b29,gobinary,CVE-2024-36623,HIGH,https://avd.aquasec.com/nvd/cve-2024-36623,usr/bin/rancher-machine,26.0.0,false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,google.golang.org/grpc,v1.40.0,gobinary,GHSA-m425-mq94-257g,HIGH,https://github.com/advisories/GHSA-m425-mq94-257g,usr/bin/rancher-machine,"1.56.3, 1.57.1, 1.58.3",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,stdlib,v1.20.13,gobinary,CVE-2024-24790,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-24790,usr/bin/rancher-machine,"1.21.11, 1.22.4",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,stdlib,v1.20.13,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,usr/bin/rancher-machine,"1.21.9, 1.22.2",false,affected,

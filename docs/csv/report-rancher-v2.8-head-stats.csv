@@ -85,7 +85,7 @@ rancher/longhornio-csi-attacher:v3.2.1,4,52,56
 rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
-rancher/machine:v0.15.0-rancher118,0,6,6
+rancher/machine:v0.15.0-rancher118,0,4,4
 rancher/mirrored-amazon-aws-cli:2.9.14,2,131,133
 rancher/mirrored-appscode-kubed:v0.13.2,4,33,37
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
@@ -326,7 +326,7 @@ rancher/pushprox-proxy:v0.1.3-rancher2-proxy,1,1,2
 rancher/rancher-agent:v2.8-head,2,22,24
 rancher/rancher-csp-adapter:v3.0.1,1,6,7
 rancher/rancher-webhook:v0.4.13,0,2,2
-rancher/rancher:v2.8-head,24,100,124
+rancher/rancher:v2.8-head,24,98,122
 rancher/rke-tools:v0.1.100,5,28,33
 rancher/rke-tools:v0.1.105,2,5,7
 rancher/rke-tools:v0.1.96,65,343,408

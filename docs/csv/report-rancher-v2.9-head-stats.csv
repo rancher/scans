@@ -102,7 +102,7 @@ rancher/longhornio-csi-attacher:v3.2.1,4,52,56
 rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
-rancher/machine:v0.15.0-rancher124,0,2,2
+rancher/machine:v0.15.0-rancher124,0,0,0
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
 rancher/mirrored-calico-apiserver:v3.26.3,2,18,20
@@ -349,7 +349,7 @@ rancher/pushprox-proxy:v0.1.3-rancher2-proxy,1,1,2
 rancher/rancher-agent:v2.9-head,2,5,7
 rancher/rancher-csp-adapter:v4.0.0,0,3,3
 rancher/rancher-webhook:v0.5.4,0,2,2
-rancher/rancher:v2.9-head,6,30,36
+rancher/rancher:v2.9-head,6,28,34
 rancher/rke-tools:v0.1.100,5,28,33
 rancher/rke-tools:v0.1.105,2,5,7
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,0,0

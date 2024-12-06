@@ -101,7 +101,7 @@ rancher/longhornio-csi-attacher:v3.2.1,4,52,56
 rancher/longhornio-csi-node-driver-registrar:v2.3.0,4,49,53
 rancher/longhornio-csi-provisioner:v2.1.2,4,57,61
 rancher/longhornio-csi-resizer:v1.2.0,4,52,56
-rancher/machine:v0.15.0-rancher118,0,6,6
+rancher/machine:v0.15.0-rancher118,0,4,4
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
 rancher/mirrored-calico-apiserver:v3.26.3,2,18,20
