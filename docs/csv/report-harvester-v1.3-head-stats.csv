@@ -37,10 +37,10 @@ rancher/harvester-node-manager-webhook:v0.2.1,1,19,20
 rancher/harvester-node-manager:v0.2.1,1,19,20
 rancher/harvester-pcidevices:v0.3.3,0,3,3
 rancher/harvester-seeder:v0.3.2,0,3,3
-rancher/harvester-upgrade:v1.3-head,1,4,5
+rancher/harvester-upgrade:v1.3-head,1,5,6
 rancher/harvester-vm-import-controller:v0.3.2,0,8,8
-rancher/harvester-webhook:v1.3-head,0,1,1
-rancher/harvester:v1.3-head,0,1,1
+rancher/harvester-webhook:v1.3-head,0,2,2
+rancher/harvester:v1.3-head,0,2,2
 rancher/klipper-helm:v0.8.4-build20240523,14,99,113
 rancher/kubectl:v1.20.2,4,43,47
 rancher/kubectl:v1.21.5,4,38,42
@@ -77,7 +77,7 @@ rancher/system-agent:v0.3.6-suc,5,37,42
 rancher/system-upgrade-controller:v0.13.1,1,6,7
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,1,4,5
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,1,4,5
-registry.suse.com/bci/bci-base:15.6,0,0,0
+registry.suse.com/bci/bci-base:15.6,0,1,1
 registry.suse.com/suse/sles/15.5/libguestfs-tools:1.1.1-150500.8.18.1,0,28,28
 registry.suse.com/suse/sles/15.5/virt-api:1.1.1-150500.8.18.1,0,3,3
 registry.suse.com/suse/sles/15.5/virt-controller:1.1.1-150500.8.18.1,0,3,3
