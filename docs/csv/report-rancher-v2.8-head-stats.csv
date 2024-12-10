@@ -1,15 +1,15 @@
 image,critical,high,total
-rancher/aks-operator:v1.2.5,0,0,0
+rancher/aks-operator:v1.2.6-rc.1,0,0,0
 rancher/backup-restore-operator:v4.0.4,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,11,74,85
 rancher/calico-cni:v3.27.4-rancher1,3,41,44
 rancher/cis-operator:v1.1.2,0,0,0
-rancher/eks-operator:v1.3.5,0,0,0
+rancher/eks-operator:v1.3.6-rc.1,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,11,54,65
 rancher/fleet-agent:v0.9.12-rc.1,0,1,1
 rancher/fleet:v0.9.12-rc.1,0,1,1
 rancher/gitjob:v0.9.18,0,0,0
-rancher/gke-operator:v1.2.5,0,0,0
+rancher/gke-operator:v1.2.6-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,1,2,3
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
@@ -203,7 +203,7 @@ rancher/mirrored-epinio-epinio-unpacker:v1.10.0,0,8,8
 rancher/mirrored-flannel-flannel:v0.21.4,6,27,33
 rancher/mirrored-flannel-flannel:v0.24.2,2,6,8
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,12,17
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,527,549
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,519,541
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,15,19
 rancher/mirrored-grafana-grafana:10.4.9,1,0,1
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
