@@ -53,6 +53,26 @@ and false-positives, please consult the
 <th onclick="sort(7)">Type (Language or OS)</th>
 </tr>
 <tr class="issue">
+<td>rancher/aks-operator:v1.10.1-rc.2</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/aks-operator</td>
+<td>golang.org/x/crypto@v0.29.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/backup-restore-operator:v6.0.0</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/backup-restore-operator</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/calico-cni:v3.27.4-rancher1</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -67,8 +87,28 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/calico-cni:v3.27.4-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
 <td>stdlib@v1.21.12</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/calico-cni:v3.27.4-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -507,8 +547,28 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/calico-cni:v3.28.1-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/calico-cni:v3.28.1-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -929,6 +989,26 @@ and false-positives, please consult the
 <td>opt/cni/bin/tuning</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/calico-cni:v3.29.0-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/calico-cni:v3.29.0-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -2259,6 +2339,46 @@ and false-positives, please consult the
 <td>opt/cni/bin/vlan</td>
 <td>stdlib@v1.21.7</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet-agent:v0.11.2-rc.2</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/fleetagent</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.11.2-rc.2</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/fleet</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.11.2-rc.2</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/fleetcontroller</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/gke-operator:v1.10.1-rc.3</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/gke-operator</td>
+<td>golang.org/x/crypto@v0.30.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -2303,6 +2423,56 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-calico:v3.28.1-build20240911</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>calicoctl</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.1-build20240911</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.1-build20240911</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.1-build20240911</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.1-build20240911</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-calico:v3.28.2-build20241016</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -2311,6 +2481,56 @@ and false-positives, please consult the
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
 <td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.2-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>calicoctl</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.2-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.2-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.2-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.28.2-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-calico:v3.29.0-build20241104</td>
@@ -2323,12 +2543,72 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-calico:v3.29.0-build20241104</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>calicoctl</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.0-build20241104</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.0-build20241104</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.0-build20241104</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.0-build20241104</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-coredns:v1.11.1-build20240910</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>coredns</td>
 <td>github.com/quic-go/quic-go@v0.37.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-22189">CVE-2024-22189</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-coredns:v1.11.1-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.12.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -2353,6 +2633,16 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-coredns:v1.11.3-build20241018</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.23.1-build20240910</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -2449,6 +2739,46 @@ and false-positives, please consult the
 <td>node-cache</td>
 <td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.13-k3s1-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcd</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.13-k3s1-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.16-k3s1-build20241106</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.16-k3s1-build20241106</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -2533,6 +2863,16 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-flannel:v0.25.6-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-flannel:v0.25.7-build20241008</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -2583,6 +2923,16 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-flannel:v0.25.7-build20241008</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-flannel:v0.26.0-build20241024</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -2633,6 +2983,16 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-flannel:v0.26.0-build20241024</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-flannel:v0.26.1-build20241107</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -2681,6 +3041,276 @@ and false-positives, please consult the
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
 <td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.26.1-build20241107</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.7.1-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.7.1-build20241008</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubeadm</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.11-rke2r1-build20241202</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.11-rke2r1-build20241202</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.11-rke2r1-build20241202</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.11-rke2r1-build20241202</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.11-rke2r1-build20241202</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubeadm</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.11-rke2r1-build20241202</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.30.7-rke2r1-build20241126</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.30.7-rke2r1-build20241126</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.30.7-rke2r1-build20241126</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.30.7-rke2r1-build20241126</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.30.7-rke2r1-build20241126</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubeadm</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.30.7-rke2r1-build20241126</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.31.3-rke2r1-build20241121</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.31.3-rke2r1-build20241121</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.31.3-rke2r1-build20241121</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.31.3-rke2r1-build20241121</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.31.3-rke2r1-build20241121</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubeadm</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.31.3-rke2r1-build20241121</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-multus-cni:v4.1.3-build20241028</td>
@@ -2769,6 +3399,16 @@ and false-positives, please consult the
 <td>usr/bin/harvester-cloud-provider</td>
 <td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.35.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47108">CVE-2023-47108</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-cloud-provider:v0.2.2</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/harvester-cloud-provider</td>
+<td>golang.org/x/crypto@v0.16.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -2896,10 +3536,100 @@ and false-positives, please consult the
 <td>rancher/hyperkube:v1.28.15-rancher1</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.28.15-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.28.15-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.28.15-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.28.15-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/local/bin/kubelet</td>
 <td>github.com/docker/docker@v20.10.24+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.28.15-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.29.11-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.29.11-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.29.11-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.29.11-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -2913,7 +3643,117 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hyperkube:v1.29.11-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hyperkube:v1.30.7-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.30.7-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.30.7-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.30.7-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.30.7-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>github.com/docker/docker@v20.10.27+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
+<td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.30.7-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.31.3-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.31.3-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.31.3-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.31.3-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hyperkube:v1.31.3-rancher1</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/kubelet</td>
@@ -2927,9 +3767,9 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/kubelet</td>
-<td>github.com/docker/docker@v20.10.27+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
-<td>CRITICAL</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -3130,6 +3970,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v24.0.7+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/istio-installer:1.19.6-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/istioctl</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -3397,6 +4247,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/istioctl</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/istio-installer:1.21.1-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/istioctl</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -3657,6 +4517,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/istioctl</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/istio-installer:1.22.1-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/istioctl</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -3727,6 +4597,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/istioctl</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/istio-installer:1.23.2-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/istioctl</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -3746,9 +4626,29 @@ and false-positives, please consult the
 <td>rancher/istio-installer:1.24.1-rancher1</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>usr/bin/istioctl</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/istio-installer:1.24.1-rancher1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.2-build20240828</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -3767,8 +4667,28 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.2-build20240828</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>stdlib@v1.23.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.2-build20240828</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -3783,12 +4703,52 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/kube-api-auth:v0.2.3</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/kube-api-auth</td>
 <td>github.com/rancher/steve@v0.0.0-20240913181958-99e479ba0f08</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-52280">CVE-2024-52280</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/kube-api-auth:v0.2.3</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-api-auth</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4737,6 +5697,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.28</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/local-path-provisioner</td>
 <td>stdlib@v1.21.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -4763,6 +5733,36 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.30</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/machine:v0.15.0-rancher124</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rancher-machine</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-brancz-kube-rbac-proxy:v0.18.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/kube-rbac-proxy</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-brancz-kube-rbac-proxy:v0.18.0</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
@@ -4777,8 +5777,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>code/apiserver</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-apiserver:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>code/apiserver</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-apiserver:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>code/apiserver</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-apiserver:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>code/apiserver</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4797,8 +5827,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4873,12 +5923,62 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-calico-csi:v3.28.1</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/csi-driver</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.27.4</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>calicoctl</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4897,8 +5997,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/calicoctl</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calicoctl</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calicoctl</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calicoctl</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4909,6 +6039,16 @@ and false-positives, please consult the
 <td>usr/bin/check-status</td>
 <td>stdlib@v1.21.12</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-kube-controllers:v3.27.4</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4937,8 +6077,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-kube-controllers:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-kube-controllers:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-kube-controllers:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4949,6 +6119,16 @@ and false-positives, please consult the
 <td>usr/bin/node-driver-registrar</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.27.4</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -4997,6 +6177,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -5013,12 +6203,62 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-calico-node:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.34.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/operator</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-calico-operator:v1.34.3</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/operator</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.34.5</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/operator</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.36.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/operator</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5047,8 +6287,48 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/calico-typha</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-typha:v3.28.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-typha</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-typha:v3.28.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-typha</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-typha:v3.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/calico-typha</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-certgen:v0.2.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-certgen</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5089,6 +6369,16 @@ and false-positives, please consult the
 <td>opt/cni/bin/cilium-cni</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.16.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-agent</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5203,6 +6493,16 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.16.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-agent</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-cilium-cilium:v1.16.3</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
@@ -5219,6 +6519,16 @@ and false-positives, please consult the
 <td>cni/loopback</td>
 <td>stdlib@v1.22.3</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.16.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-agent</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5247,8 +6557,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/etcd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.16.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/etcd</td>
 <td>stdlib@v1.21.12</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.16.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/etcd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.16.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/etcd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5259,6 +6599,16 @@ and false-positives, please consult the
 <td>bin/gops</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-relay:v1.16.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5287,8 +6637,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-relay:v1.16.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-relay:v1.16.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5337,8 +6707,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/cilium-operator-aws</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-aws:v1.16.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-aws</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-aws:v1.16.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-aws</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-aws:v1.16.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-aws</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5357,8 +6757,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/cilium-operator-azure</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-azure:v1.16.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-azure</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-azure:v1.16.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-azure</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-azure:v1.16.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-azure</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5377,8 +6807,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/cilium-operator-generic</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-generic:v1.16.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-generic</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-generic:v1.16.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-generic</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-generic:v1.16.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/cilium-operator-generic</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5399,6 +6859,16 @@ and false-positives, please consult the
 <td>bin/vsphere-cloud-controller-manager</td>
 <td>go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.41.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-45142">CVE-2023-45142</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/vsphere-cloud-controller-manager</td>
+<td>golang.org/x/crypto@v0.8.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -5577,6 +7047,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/vsphere-cloud-controller-manager</td>
+<td>golang.org/x/crypto@v0.11.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/vsphere-cloud-controller-manager</td>
 <td>golang.org/x/net@v0.13.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-39325">CVE-2023-39325</a></td>
 <td>HIGH</td>
@@ -5657,6 +7137,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/vsphere-cloud-controller-manager</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/vsphere-cloud-controller-manager</td>
 <td>stdlib@v1.21.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -5689,6 +7179,16 @@ and false-positives, please consult the
 <td>bin/vsphere-cloud-controller-manager</td>
 <td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47108">CVE-2023-47108</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/vsphere-cloud-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -6967,8 +8467,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/vsphere-cloud-controller-manager</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere:v1.31.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/vsphere-cloud-controller-manager</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cluster-api-controller:v1.8.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>manager</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -7029,6 +8549,16 @@ and false-positives, please consult the
 <td>cluster-proportional-autoscaler</td>
 <td>stdlib@v1.20.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.10.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.0.0-20221010152910-d6f0a8c073c2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -7247,6 +8777,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>coredns</td>
+<td>golang.org/x/crypto@v0.12.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.11.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>coredns</td>
 <td>golang.org/x/net@v0.14.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-39325">CVE-2023-39325</a></td>
 <td>HIGH</td>
@@ -7317,6 +8857,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>coredns</td>
+<td>golang.org/x/crypto@v0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.11.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>coredns</td>
 <td>stdlib@v1.21.11</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -7337,6 +8887,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcd</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.10</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcd</td>
 <td>stdlib@v1.20.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -7387,6 +8947,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.10</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdctl</td>
 <td>stdlib@v1.20.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -7437,6 +9007,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcdutl</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.10</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdutl</td>
 <td>stdlib@v1.20.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -7477,6 +9057,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcd</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.12</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcd</td>
 <td>stdlib@v1.20.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -7507,6 +9097,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.12</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdctl</td>
 <td>stdlib@v1.20.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -7529,6 +9129,16 @@ and false-positives, please consult the
 <td>usr/local/bin/etcdctl</td>
 <td>stdlib@v1.20.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.12</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdutl</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -7567,6 +9177,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.15</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcd</td>
 <td>stdlib@v1.21.12</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -7577,8 +9197,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.15</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdctl</td>
 <td>stdlib@v1.21.12</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coreos-etcd:v3.5.15</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdutl</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -7611,6 +9251,16 @@ and false-positives, please consult the
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-6197">CVE-2024-6197</a></td>
 <td>HIGH</td>
 <td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-flannel-flannel:v0.24.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-flannel-flannel:v0.24.2</td>
@@ -7681,6 +9331,16 @@ and false-positives, please consult the
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-6197">CVE-2024-6197</a></td>
 <td>HIGH</td>
 <td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-flannel-flannel:v0.25.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-flannel-flannel:v0.25.1</td>
@@ -7959,46 +9619,6 @@ and false-positives, please consult the
 <td>libnss3</td>
 <td>libnss3@2:3.87.1-1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-6609">CVE-2024-6609</a></td>
-<td>HIGH</td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
-<td>true</td>
-<td>Rancher v2.10 head</td>
-<td>libpam-modules</td>
-<td>libpam-modules@1.5.2-6+deb12u1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10963">CVE-2024-10963</a></td>
-<td>HIGH</td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
-<td>true</td>
-<td>Rancher v2.10 head</td>
-<td>libpam-modules-bin</td>
-<td>libpam-modules-bin@1.5.2-6+deb12u1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10963">CVE-2024-10963</a></td>
-<td>HIGH</td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
-<td>true</td>
-<td>Rancher v2.10 head</td>
-<td>libpam-runtime</td>
-<td>libpam-runtime@1.5.2-6+deb12u1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10963">CVE-2024-10963</a></td>
-<td>HIGH</td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
-<td>true</td>
-<td>Rancher v2.10 head</td>
-<td>libpam0g</td>
-<td>libpam0g@1.5.2-6+deb12u1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10963">CVE-2024-10963</a></td>
 <td>HIGH</td>
 <td>debian</td>
 </tr>
@@ -10206,6 +11826,36 @@ and false-positives, please consult the
 <td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@6.1.106-3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-53133">CVE-2024-53133</a></td>
+<td>HIGH</td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@6.1.106-3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-53141">CVE-2024-53141</a></td>
+<td>HIGH</td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@6.1.106-3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-53142">CVE-2024-53142</a></td>
+<td>HIGH</td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-fluent-fluent-bit:3.1.8-debug</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
 <td>perl</td>
 <td>perl@5.36.0-7+deb12u1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-31484">CVE-2023-31484</a></td>
@@ -10737,6 +12387,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/share/grafana/bin/grafana</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana:11.1.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/share/grafana/bin/grafana</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -11207,6 +12867,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/istio-cni</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.19.6-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11229,6 +12899,16 @@ and false-positives, please consult the
 <td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.19.6-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/install-cni</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11267,6 +12947,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/istio-cni</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.20.3-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.21.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11289,6 +12979,16 @@ and false-positives, please consult the
 <td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.21.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.20.3-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/install-cni</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11347,6 +13047,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/istio-cni</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.21.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11369,6 +13079,16 @@ and false-positives, please consult the
 <td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.21.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/install-cni</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11407,6 +13127,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/istio-cni</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.22.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11429,6 +13159,16 @@ and false-positives, please consult the
 <td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.22.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/install-cni</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11467,6 +13207,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/cni/bin/istio-cni</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.23.2-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/istio-cni</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -11477,8 +13227,38 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/install-cni</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.23.2-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/install-cni</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.24.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/cni/bin/istio-cni</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-install-cni:1.24.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/install-cni</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11490,6 +13270,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v24.0.7+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-pilot:1.19.6-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-discovery</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -11530,6 +13320,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v24.0.7+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-pilot:1.20.3-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-discovery</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -11570,6 +13370,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v24.0.7+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-pilot:1.21.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-discovery</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -11617,6 +13427,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/pilot-discovery</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-pilot:1.22.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-discovery</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11657,8 +13477,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/pilot-discovery</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-pilot:1.23.2-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-discovery</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-pilot:1.24.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-discovery</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11717,6 +13557,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/pilot-agent</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-proxyv2:1.19.6-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-agent</td>
 <td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11777,6 +13627,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/pilot-agent</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-proxyv2:1.21.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-agent</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -11810,6 +13670,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v25.0.5+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-proxyv2:1.22.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-agent</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -11857,8 +13727,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/pilot-agent</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-proxyv2:1.23.2-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-agent</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-istio-proxyv2:1.24.1-distroless</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/pilot-agent</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11889,6 +13779,16 @@ and false-positives, please consult the
 <td>go/bin/all-in-one-linux</td>
 <td>go.opentelemetry.io/collector/config/confighttp@v0.90.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-36129">CVE-2024-36129</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-jaegertracing-all-in-one:1.52.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>go/bin/all-in-one-linux</td>
+<td>golang.org/x/crypto@v0.16.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -11949,6 +13849,16 @@ and false-positives, please consult the
 <td>go/bin/all-in-one-linux</td>
 <td>go.opentelemetry.io/collector/config/confighttp@v0.97.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-36129">CVE-2024-36129</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-jaegertracing-all-in-one:1.56.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>go/bin/all-in-one-linux</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -12027,6 +13937,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>go/bin/all-in-one-linux</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-jaegertracing-all-in-one:1.57.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>go/bin/all-in-one-linux</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -12057,8 +13977,28 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>go/bin/all-in-one-linux</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-jaegertracing-all-in-one:1.60.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>go/bin/all-in-one-linux</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-jaegertracing-all-in-one:1.63.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>go/bin/all-in-one-linux</td>
+<td>golang.org/x/crypto@v0.29.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -12827,6 +14767,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/kiali/kiali</td>
+<td>golang.org/x/crypto@v0.0.0-20220214200702-86341886e292</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kiali-kiali:v1.75.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/kiali/kiali</td>
 <td>golang.org/x/net@v0.8.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-39325">CVE-2023-39325</a></td>
 <td>HIGH</td>
@@ -12967,6 +14917,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/kiali/kiali</td>
+<td>golang.org/x/crypto@v0.15.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kiali-kiali:v1.79.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/kiali/kiali</td>
 <td>google.golang.org/grpc@v1.55.0</td>
 <td><a href="https://github.com/advisories/GHSA-m425-mq94-257g">GHSA-m425-mq94-257g</a></td>
 <td>HIGH</td>
@@ -13077,6 +15037,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/kiali/kiali</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kiali-kiali:v1.86.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/kiali/kiali</td>
 <td>stdlib@v1.22.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -13177,6 +15147,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>opt/kiali/kiali</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kiali-kiali:v1.89.3</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/kiali/kiali</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -13241,6 +15221,16 @@ and false-positives, please consult the
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-33599">CVE-2024-33599</a></td>
 <td>HIGH</td>
 <td>redhat</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kiali-kiali:v2.1.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>opt/kiali/kiali</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-kiali-kiali:v2.1.0</td>
@@ -13321,6 +15311,16 @@ and false-positives, please consult the
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-47220">CVE-2024-47220</a></td>
 <td>HIGH</td>
 <td>gemspec</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>kube-state-metrics</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0</td>
@@ -13439,6 +15439,16 @@ and false-positives, please consult the
 <td>kube-vip</td>
 <td>github.com/osrg/gobgp/v3@v3.12.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46565">CVE-2023-46565</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v0.6.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>kube-vip</td>
+<td>golang.org/x/crypto@v0.1.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -13767,6 +15777,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/traefik</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:2.10.7</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/traefik</td>
 <td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -13789,6 +15809,26 @@ and false-positives, please consult the
 <td>usr/local/bin/traefik</td>
 <td>stdlib@v1.21.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:2.11.10</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/traefik</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:2.11.8</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/traefik</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -15077,6 +17117,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>csi-provisioner</td>
+<td>golang.org/x/crypto@v0.0.0-20201208171446-5f87f3452ae9</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-provisioner:v2.1.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>csi-provisioner</td>
 <td>golang.org/x/net@v0.0.0-20201209123823-ac852fbbde11</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-33194">CVE-2021-33194</a></td>
 <td>HIGH</td>
@@ -16317,6 +18367,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-engine:v1.7.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -16427,6 +18487,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -16441,6 +18511,16 @@ and false-positives, please consult the
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
 <td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-manager:v1.7.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-longhornio-longhorn-share-manager:v1.7.2</td>
@@ -16997,6 +19077,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>metrics-server</td>
+<td>golang.org/x/crypto@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>metrics-server</td>
 <td>stdlib@v1.21.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -17027,6 +19117,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>metrics-server</td>
+<td>golang.org/x/crypto@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>metrics-server</td>
 <td>stdlib@v1.21.8</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -17049,6 +19149,16 @@ and false-positives, please consult the
 <td>metrics-server</td>
 <td>stdlib@v1.21.8</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -17113,6 +19223,36 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-neuvector-controller:5.4.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/consul</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-neuvector-controller:5.4.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/controller</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-neuvector-controller:5.4.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/upgrader</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-neuvector-enforcer:5.4.1</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
@@ -17161,6 +19301,16 @@ and false-positives, please consult the
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
 <td>suse linux enterprise server</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-neuvector-enforcer:5.4.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/consul</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-neuvector-prometheus-exporter:1-1.0.0</td>
@@ -17333,6 +19483,26 @@ and false-positives, please consult the
 <td>suse linux enterprise server</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-neuvector-scanner:latest</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/sigstore-interface</td>
+<td>golang.org/x/crypto@v0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>adapter</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0</td>
 <td>true</td>
 <td>Rancher v2.10 head</td>
@@ -17367,6 +19537,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/alertmanager</td>
+<td>golang.org/x/crypto@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-alertmanager:v0.27.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/alertmanager</td>
 <td>stdlib@v1.21.7</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -17389,6 +19569,16 @@ and false-positives, please consult the
 <td>bin/alertmanager</td>
 <td>stdlib@v1.21.7</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-alertmanager:v0.27.0</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/amtool</td>
+<td>golang.org/x/crypto@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -17427,6 +19617,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/node_exporter</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-node-exporter:v1.8.2</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/node_exporter</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -17439,6 +19639,16 @@ and false-positives, please consult the
 <td>bin/admission-webhook</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/prometheus-config-reloader</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -17477,6 +19687,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v2.53.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/prometheus</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -17490,6 +19710,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v26.1.3+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v2.53.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -18467,6 +20697,16 @@ and false-positives, please consult the
 <td>true</td>
 <td>Rancher v2.10 head</td>
 <td>bin/thanos</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-thanos-thanos:v0.35.1</td>
+<td>true</td>
+<td>Rancher v2.10 head</td>
+<td>bin/thanos</td>
 <td>stdlib@v1.21.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -18817,6 +21057,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/helm</td>
+<td>golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/prometheus-federator:v0.4.3</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/helm</td>
 <td>golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-27664">CVE-2022-27664</a></td>
 <td>HIGH</td>
@@ -18876,6 +21126,16 @@ and false-positives, please consult the
 <td>rancher/rancher-agent:v2.10-head</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>usr/bin/agent</td>
+<td>golang.org/x/crypto@v0.30.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher-agent:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/bin/kubectl</td>
 <td>stdlib@v1.20.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
@@ -18899,6 +21159,16 @@ and false-positives, please consult the
 <td>usr/bin/kubectl</td>
 <td>stdlib@v1.20.13</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -18977,6 +21247,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
 <td>stdlib@v1.22.2</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-24790">CVE-2024-24790</a></td>
 <td>CRITICAL</td>
@@ -19037,6 +21317,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/bin/containerd</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/containerd</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -19049,6 +21339,16 @@ and false-positives, please consult the
 <td>usr/bin/containerd-shim-runc-v2</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19086,9 +21386,29 @@ and false-positives, please consult the
 <td>rancher/rancher:v2.10-head</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>usr/bin/helm_v3</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/bin/k3s</td>
 <td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47108">CVE-2023-47108</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/k3s</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19126,6 +21446,26 @@ and false-positives, please consult the
 <td>rancher/rancher:v2.10-head</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>usr/bin/rancher</td>
+<td>golang.org/x/crypto@v0.30.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/rancher-machine</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/bin/runc</td>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
@@ -19139,6 +21479,16 @@ and false-positives, please consult the
 <td>usr/bin/telemetry</td>
 <td>github.com/rancher/norman@v0.0.0-20210709145327-afd06f533ca3</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32193">CVE-2023-32193</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/telemetry</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19183,6 +21533,16 @@ and false-positives, please consult the
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/rancher:v2.10-head</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/share/rancher/ui/assets/wins.exe</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/rke-tools:v0.1.105</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
@@ -19190,6 +21550,16 @@ and false-positives, please consult the
 <td>github.com/docker/docker@v24.0.9+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
 <td>CRITICAL</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke-tools:v0.1.105</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/rke-tools/bin/cri-dockerd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -19246,9 +21616,129 @@ and false-positives, please consult the
 <td>rancher/rke-tools:v0.1.105</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>opt/rke-tools/rke-etcd-backup</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke-tools:v0.1.105</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/confd</td>
+<td>golang.org/x/crypto@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke-tools:v0.1.105</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke-tools:v0.1.105</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.28.13-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.29.8-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.30.4-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.31.0-build20240910</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.28.15-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/containerd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19259,6 +21749,46 @@ and false-positives, please consult the
 <td>bin/crictl</td>
 <td>k8s.io/kubernetes@v1.28.0-rc.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10220">CVE-2024-10220</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.28.15-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.11-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/containerd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.11-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.30.7-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/containerd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19279,6 +21809,86 @@ and false-positives, please consult the
 <td>bin/crictl</td>
 <td>k8s.io/kubernetes@v1.30.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.30.7-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.31.3-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/containerd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.31.3-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>bin/kubelet</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.28.15-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/rke2</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.29.11-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/rke2</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.30.7-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/rke2</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.31.3-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>opt/rke2</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/security-scan:v0.5.2</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/bin/kube-bench</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19347,6 +21957,16 @@ and false-positives, please consult the
 <td>false</td>
 <td>Rancher v2.10 head</td>
 <td>usr/local/bin/helm</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.2.1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/helm</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td>HIGH</td>
@@ -19369,6 +21989,16 @@ and false-positives, please consult the
 <td>usr/local/bin/k9s</td>
 <td>github.com/hashicorp/go-getter@v1.7.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-6257">CVE-2024-6257</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.2.1</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/k9s</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -19446,6 +22076,16 @@ and false-positives, please consult the
 <td>rancher/shell:v0.3.0</td>
 <td>false</td>
 <td>Rancher v2.10 head</td>
+<td>usr/local/bin/helm</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.3.0</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
 <td>usr/local/bin/k9s</td>
 <td>github.com/docker/docker@v26.0.1+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-41110">CVE-2024-41110</a></td>
@@ -19459,6 +22099,16 @@ and false-positives, please consult the
 <td>usr/local/bin/k9s</td>
 <td>github.com/hashicorp/go-getter@v1.7.4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-6257">CVE-2024-6257</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.3.0</td>
+<td>false</td>
+<td>Rancher v2.10 head</td>
+<td>usr/local/bin/k9s</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
