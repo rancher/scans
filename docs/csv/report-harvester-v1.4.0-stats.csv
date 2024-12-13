@@ -27,7 +27,7 @@ rancher/hardened-dns-node-cache:1.23.1-build20240910,0,4,4
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,2,2
 rancher/hardened-flannel:v0.25.6-build20240910,0,10,10
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240910,0,1,1
-rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912,0,6,6
+rancher/hardened-kubernetes:v1.29.9-rke2r1-build20240912,0,0,0
 rancher/hardened-multus-cni:v4.1.0-build20240910,0,0,0
 rancher/harvester-cluster-repo:v1.4.0,0,1,1
 rancher/harvester-eventrouter:v0.3.2,0,0,0
@@ -77,7 +77,7 @@ rancher/nginx-ingress-controller:v1.10.4-hardened3,0,13,13
 rancher/rancher-webhook:v0.5.2,0,2,2
 rancher/rancher:v2.9.2,5,23,28
 rancher/rke2-cloud-provider:v1.29.8-build20240910,0,1,1
-rancher/rke2-runtime:v1.29.9-rke2r1,1,1,2
+rancher/rke2-runtime:v1.29.9-rke2r1,1,0,1
 rancher/shell:v0.1.24,2,17,19
 rancher/shell:v0.1.26,1,10,11
 rancher/shell:v0.2.1,2,9,11
