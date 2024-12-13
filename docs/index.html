@@ -15,10 +15,15 @@ tr:hover { background-color: #f0f0f1; }
 #cves_table th { cursor: pointer; }
 td { padding: 7px; }
 #center_row { text-align: center; }
+/* Tooltip inspired from www.w3schools.com */
+.cve_sev { position: relative; display: inline-block; border-bottom: 1px dotted black; }
+.cve_sev:hover .cve_sev_note { visibility: visible; }
+.cve_sev .cve_sev_note { visibility: hidden; width: 150px; background-color: #000000; color: #ffffff; text-align: center; border-radius: 6px; padding: 8px 0; position: absolute; z-index: 1; bottom: 150%; left: 50%; margin-left: -70px; }
+.cve_sev .cve_sev_note::after { content: " "; position: absolute; top: 100%; left: 50%; margin-left: -8px; border-width: 8px; border-style: solid; border-color: black transparent transparent transparent; }
 </style>
 </head>
 <body class="index">
-<h1>SUSE Rancher - CVE Scans - 2024-12-12</h1>
+<h1>SUSE Rancher - CVE Scans - 2024-12-13</h1>
 
 <h2>How to use this page</h2>
 

@@ -15,10 +15,15 @@ tr:hover { background-color: #f0f0f1; }
 #cves_table th { cursor: pointer; }
 td { padding: 7px; }
 #center_row { text-align: center; }
+/* Tooltip inspired from www.w3schools.com */
+.cve_sev { position: relative; display: inline-block; border-bottom: 1px dotted black; }
+.cve_sev:hover .cve_sev_note { visibility: visible; }
+.cve_sev .cve_sev_note { visibility: hidden; width: 150px; background-color: #000000; color: #ffffff; text-align: center; border-radius: 6px; padding: 8px 0; position: absolute; z-index: 1; bottom: 150%; left: 50%; margin-left: -70px; }
+.cve_sev .cve_sev_note::after { content: " "; position: absolute; top: 100%; left: 50%; margin-left: -8px; border-width: 8px; border-style: solid; border-color: black transparent transparent transparent; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Longhorn v1.7.2 version - CVE Scans - 2024-12-12</h1>
+<h1>SUSE Rancher - Longhorn v1.7.2 version - CVE Scans - 2024-12-13</h1>
 
 <h3>How to use this page</h3>
 
@@ -32,8 +37,15 @@ language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
-and false-positives, please consult the
-<a href="index.html">main instructions</a>.</li>
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners.<br>This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being<br>exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS<br>severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
 </ul>
 
 <div>
@@ -168,7 +180,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>csi-attacher</td>
 <td>stdlib@v1.22.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -178,7 +190,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.22.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -188,7 +200,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>csi-provisioner</td>
 <td>stdlib@v1.21.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -198,7 +210,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>csi-resizer</td>
 <td>stdlib@v1.22.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -208,7 +220,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>csi-snapshotter</td>
 <td>stdlib@v1.21.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -218,7 +230,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>livenessprobe</td>
 <td>stdlib@v1.22.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -328,7 +340,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -448,7 +460,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
@@ -508,7 +520,7 @@ and false-positives, please consult the
 <td>Longhorn v1.7.2</td>
 <td>usr/bin/yq</td>
 <td>stdlib@v1.22.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
 <td>HIGH</td>
 <td>gobinary</td>
 </tr>
