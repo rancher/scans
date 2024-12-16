@@ -213,7 +213,7 @@ rancher/mirrored-neuvector-enforcer:5.4.1,0,6,6
 rancher/mirrored-neuvector-manager:5.4.1,0,3,3
 rancher/mirrored-neuvector-prometheus-exporter:1-1.0.0,2,13,15
 rancher/mirrored-neuvector-registry-adapter:0.1.3,0,2,2
-rancher/mirrored-neuvector-scanner:latest,0,1,1
+rancher/mirrored-neuvector-scanner:latest,0,0,0
 rancher/mirrored-neuvector-updater:latest,0,0,0
 rancher/mirrored-nginx-ingress-controller-defaultbackend:1.5-rancher1,0,0,0
 rancher/mirrored-pause:3.6,0,0,0
