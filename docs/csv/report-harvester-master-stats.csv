@@ -39,7 +39,7 @@ rancher/harvester-network-webhook:master-head,0,5,5
 rancher/harvester-networkfs-manager:main-head,0,4,4
 rancher/harvester-node-disk-manager-webhook:master-head,0,2,2
 rancher/harvester-node-disk-manager:master-head,0,2,2
-rancher/harvester-node-manager-webhook:master-head,0,1,1
+rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:v0.4.1,0,2,2
 rancher/harvester-seeder:v0.4.1,0,1,1
@@ -75,7 +75,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v6.2.1,0,18,18
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,0,17,17
 rancher/nginx-ingress-controller:v1.10.4-hardened3,0,13,13
 rancher/rancher-webhook:v0.5.2,0,1,1
-rancher/rancher:v2.9.2,5,22,27
+rancher/rancher:v2.9.2,4,20,24
 rancher/rke2-cloud-provider:v1.29.8-build20240910,0,1,1
 rancher/rke2-runtime:v1.29.9-rke2r1,1,0,1
 rancher/shell:v0.1.24,2,17,19

@@ -33,7 +33,7 @@ rancher/harvester-network-controller:v0.4.1,0,11,11
 rancher/harvester-network-helper:v0.4.1,0,9,9
 rancher/harvester-network-webhook:v0.4.1,0,9,9
 rancher/harvester-node-disk-manager:v0.6.4,0,3,3
-rancher/harvester-node-manager-webhook:v0.2.1,0,19,19
+rancher/harvester-node-manager-webhook:v0.2.1,0,18,18
 rancher/harvester-node-manager:v0.2.1,0,18,18
 rancher/harvester-pcidevices:v0.3.3,0,2,2
 rancher/harvester-seeder:v0.3.2,0,2,2
@@ -66,7 +66,7 @@ rancher/mirrored-prometheus-prometheus:v2.42.0,2,35,37
 rancher/mirrored-sig-storage-snapshot-controller:v6.2.1,0,18,18
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,0,17,17
 rancher/rancher-webhook:v0.4.7,0,2,2
-rancher/rancher:v2.8.5,7,112,119
+rancher/rancher:v2.8.5,5,108,113
 rancher/rke2-cloud-provider:v1.29.3-build20240515,0,1,1
 rancher/rke2-runtime:v1.28.12-rke2r1,2,20,22
 rancher/shell:v0.1.26,1,10,11
