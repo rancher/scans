@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>SUSE Rancher - Images CVE Scans</title>
+<style>
+body { background: #ffffff; color: #1d2327; font-family: sans-serif; }
+body.index { padding: 10px; margin: auto; max-width: 70%; }
+h1 { color: #2453ff; }
+table { border-collapse: collapse; margin: 10px; }
+th { padding: 10px; text-align: center; background-color: #2453ff; color: white; }
+th, td { border-bottom: 2px solid #ddd; }
+tr:hover { background-color: #f0f0f1; }
+#cves_table th { cursor: pointer; }
+td { padding: 7px; }
+#center_row { text-align: center; }
+/* Tooltip inspired from www.w3schools.com */
+.cve_sev { position: relative; display: inline-block; border-bottom: 1px dotted black; }
+.cve_sev:hover .cve_sev_note { visibility: visible; }
+.cve_sev .cve_sev_note { visibility: hidden; width: 150px; background-color: #000000; color: #ffffff; text-align: center; border-radius: 6px; padding: 8px 0; position: absolute; z-index: 1; bottom: 150%; left: 50%; margin-left: -70px; }
+.cve_sev .cve_sev_note::after { content: " "; position: absolute; top: 100%; left: 50%; margin-left: -8px; border-width: 8px; border-style: solid; border-color: black transparent transparent transparent; }
+</style>
+</head>
+<body>
+<h1>SUSE Rancher - K3s v1.28 version - CVE Scans - 2024-12-26</h1>
+
+<h3>How to use this page</h3>
+
+<ul>
+<li>You can click a column header to sort by column.</li>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false),<br>release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+language or container OS).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+<li>For further instructions about scanned versions, scanning frequency, tooling
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners.<br>This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being<br>exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS<br>severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
+</ul>
+
+<div>
+<p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
+<p style="display:none;" id="search_count"></p>
+</div>
+
+<table id="cves_table">
+<tr>
+<th onclick="sort(0)">Image</th>
+<th onclick="sort(1)">Mirrored</th>
+<th onclick="sort(2)">Release</th>
+<th onclick="sort(3)">Affected Binary</th>
+<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(5)">Vulnerability ID (CVE)</th>
+<th onclick="sort(6)">Severity</th>
+<th onclick="sort(7)">Type (Language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.11.3</td>
+<td>true</td>
+<td>K3s v1.28</td>
+<td>coredns</td>
+<td>stdlib@v1.21.11</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
+<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.2</td>
+<td>true</td>
+<td>K3s v1.28</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td><div class=cve_sev>HIGH *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.2</td>
+<td>true</td>
+<td>K3s v1.28</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45338">CVE-2024-45338</a></td>
+<td>HIGH</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.2</td>
+<td>true</td>
+<td>K3s v1.28</td>
+<td>metrics-server</td>
+<td>stdlib@v1.22.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
+<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>gobinary</td>
+</tr>
+
+</table>
+
+<br><p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
+Commons license with Attribution (CC-BY-4.0). See the
+<a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</b></p>
+
+<script>
+function search() {
+    let searchBar, searchCount, query, tr, td;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
+
+    searchBar = document.getElementById("searchBar");
+    query = searchBar.value.toUpperCase();
+    tr = document.getElementById("cves_table").rows;
+
+    found = 0
+    for (var i = 1; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")
+
+        image = td[0].textContent.toUpperCase();
+        mirrored = td[1].textContent.toUpperCase();
+        release = td[2].textContent.toUpperCase();
+        affected_binary = td[3].textContent.toUpperCase();
+        vuln_dep = td[4].textContent.toUpperCase();
+        vuln_id= td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        type = td[7].textContent.toUpperCase();
+
+        if (image.includes(query) || mirrored.includes(query) ||
+            release.includes(query) || affected_binary.includes(query) ||
+            vuln_dep.includes(query) || vuln_id.includes(query) ||
+            severity.includes(query) || type.includes(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+
+    searchCount = document.getElementById("search_count");
+    searchCount.style.display = "";
+    if (query == "") {
+        searchCount.textContent = "Total results: " + found;
+    } else {
+        searchCount.textContent = "Found " + found + " results";
+    }
+}
+</script>
+<script>
+let lastColumn = 0
+
+function sort(col) {
+    var table = document.getElementById("cves_table")
+    if (col === lastColumn) {
+        const rows = table.rows
+        for (let i = rows.length - 1; i > 0; i--) {
+            table.appendChild(rows[i])
+        }
+        return
+    }
+    lastColumn = col
+    const rows = mergeSort(Array.from(table.getElementsByClassName("issue")), col)
+    rows.forEach(tr => table.appendChild(tr))
+}
+
+function mergeSort(array, col) {
+    if (array.length < 2) {
+        return array
+    }
+    const half = array.length / 2
+    return merge(mergeSort(array.splice(0, half), col), mergeSort(array, col), col)
+}
+
+function merge(left, right, col) {
+    let arr = []
+    while (left.length && right.length) {
+        if (left[0].getElementsByTagName("td")[col].innerHTML.toLowerCase() < right[0].getElementsByTagName("td")[col].innerHTML.toLowerCase()) {
+            arr.push(left.shift())
+        } else {
+            arr.push(right.shift())
+        }
+    }
+    return [...arr, ...left, ...right]
+}
+</script>
+
+</body>
+</html>
