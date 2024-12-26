@@ -33,10 +33,10 @@ rancher/harvester-cluster-repo:master,0,0,0
 rancher/harvester-eventrouter:v0.3.2,0,0,0
 rancher/harvester-load-balancer-webhook:master-head,0,3,3
 rancher/harvester-load-balancer:master-head,0,3,3
-rancher/harvester-network-controller:master-head,0,5,5
+rancher/harvester-network-controller:master-head,0,4,4
 rancher/harvester-network-helper:master-head,0,4,4
 rancher/harvester-network-webhook:master-head,0,4,4
-rancher/harvester-networkfs-manager:main-head,0,4,4
+rancher/harvester-networkfs-manager:main-head,0,0,0
 rancher/harvester-node-disk-manager-webhook:master-head,0,0,0
 rancher/harvester-node-disk-manager:master-head,0,0,0
 rancher/harvester-node-manager-webhook:master-head,0,0,0
