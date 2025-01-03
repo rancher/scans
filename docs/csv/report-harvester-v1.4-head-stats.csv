@@ -33,9 +33,9 @@ rancher/harvester-cluster-repo:v1.4,0,0,0
 rancher/harvester-eventrouter:v0.3.3,0,0,0
 rancher/harvester-load-balancer-webhook:v0.4.4,0,3,3
 rancher/harvester-load-balancer:v0.4.4,0,3,3
-rancher/harvester-network-controller:v0.5.5,0,11,11
-rancher/harvester-network-helper:v0.5.5,0,10,10
-rancher/harvester-network-webhook:v0.5.5,0,10,10
+rancher/harvester-network-controller:v0.5.6,0,4,4
+rancher/harvester-network-helper:v0.5.6,0,4,4
+rancher/harvester-network-webhook:v0.5.6,0,4,4
 rancher/harvester-networkfs-manager:v0.1.2,0,0,0
 rancher/harvester-node-disk-manager-webhook:v0.7.8,0,0,0
 rancher/harvester-node-disk-manager:v0.7.8,0,0,0
