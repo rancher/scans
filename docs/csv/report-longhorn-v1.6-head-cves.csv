@@ -1,2 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-manager:v1.6.4-rc2,longhorn/v1.6-head,go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc,v0.35.0,gobinary,CVE-2023-47108,HIGH,https://avd.aquasec.com/nvd/cve-2023-47108,usr/local/sbin/longhorn-manager,0.46.0,false,affected,
+longhornio/longhorn-manager:v1.6.4,longhorn/v1.6-head,go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc,v0.35.0,gobinary,CVE-2023-47108,HIGH,https://avd.aquasec.com/nvd/cve-2023-47108,usr/local/sbin/longhorn-manager,0.46.0,false,affected,
