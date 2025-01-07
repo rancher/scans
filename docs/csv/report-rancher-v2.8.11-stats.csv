@@ -7,8 +7,8 @@ rancher/cis-operator:v1.1.2,0,0,0
 rancher/eks-operator:v1.3.6,0,1,1
 rancher/flannel-cni:v0.3.0-rancher9,0,32,32
 rancher/fleet-agent:v0.9.12,0,0,0
-rancher/fleet:v0.9.12,0,0,0
-rancher/gitjob:v0.9.18,0,0,0
+rancher/fleet:v0.9.12,0,1,1
+rancher/gitjob:v0.9.18,0,2,2
 rancher/gke-operator:v1.2.6,0,2,2
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,2,2
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,1,1
@@ -86,7 +86,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,33,33
 rancher/longhornio-csi-provisioner:v2.1.2,0,41,41
 rancher/longhornio-csi-resizer:v1.2.0,0,35,35
 rancher/machine:v0.15.0-rancher118,0,4,4
-rancher/mirrored-amazon-aws-cli:2.9.14,2,134,136
+rancher/mirrored-amazon-aws-cli:2.9.14,1,142,143
 rancher/mirrored-appscode-kubed:v0.13.2,1,27,28
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -194,10 +194,10 @@ rancher/mirrored-coreos-etcd:v3.5.10,0,12,12
 rancher/mirrored-coreos-etcd:v3.5.9,0,27,27
 rancher/mirrored-curlimages-curl:7.83.1,1,12,13
 rancher/mirrored-curlimages-curl:7.85.0,0,12,12
-rancher/mirrored-dexidp-dex:v2.37.0,4,19,23
+rancher/mirrored-dexidp-dex:v2.37.0,4,20,24
 rancher/mirrored-elemental-operator:1.6.5,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
-rancher/mirrored-epinio-epinio-server:v1.10.0,3,11,14
+rancher/mirrored-epinio-epinio-server:v1.10.0,3,14,17
 rancher/mirrored-epinio-epinio-ui:v1.10.0-0.0.1,1,25,26
 rancher/mirrored-epinio-epinio-unpacker:v1.10.0,0,8,8
 rancher/mirrored-flannel-flannel:v0.21.4,3,22,25
@@ -285,7 +285,7 @@ rancher/mirrored-neuvector-updater:latest,0,0,0
 rancher/mirrored-nginx-ingress-controller-defaultbackend:1.5-rancher1,0,0,0
 rancher/mirrored-openpolicyagent-gatekeeper-crds:v3.13.0,0,6,6
 rancher/mirrored-openpolicyagent-gatekeeper:v3.13.0,0,4,4
-rancher/mirrored-paketobuildpacks-builder:0.2.443-full,15,303,318
+rancher/mirrored-paketobuildpacks-builder:0.2.443-full,15,335,350
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-pause:3.7,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,0,0
@@ -338,8 +338,8 @@ rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/security-scan:v0.3.1,0,2,2
 rancher/shell:v0.1.19,0,111,111
-rancher/shell:v0.1.26,0,8,8
-rancher/shell:v0.2.1,0,7,7
+rancher/shell:v0.1.26,0,9,9
+rancher/shell:v0.2.1,0,8,8
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.23.17-k3s1,0,0,0
