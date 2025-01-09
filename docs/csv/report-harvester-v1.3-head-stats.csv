@@ -23,7 +23,7 @@ rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,0,0
 rancher/hardened-cni-plugins:v1.5.1-build20241009,0,0,0
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
 rancher/hardened-dns-node-cache:1.23.1-build20241008,0,2,2
-rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,4,4
+rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
 rancher/hardened-flannel:v0.25.7-build20241008,0,6,6
 rancher/hardened-k8s-metrics-server:v0.7.1-build20241008,0,0,0
 rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,0,0
@@ -50,7 +50,7 @@ rancher/kubectl:v1.20.2,0,26,26
 rancher/kubectl:v1.21.5,0,22,22
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,36,42
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,0,24,24
-rancher/mirrored-cluster-api-controller:v1.4.4,0,8,8
+rancher/mirrored-cluster-api-controller:v1.4.4,0,9,9
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,17,22
 rancher/mirrored-grafana-grafana:9.1.5,4,58,62
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.4,0,1,1
@@ -62,16 +62,16 @@ rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-nginx:1.24.0-alpine,2,5,7
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.10.0,0,25,25
-rancher/mirrored-prometheus-alertmanager:v0.25.0,0,20,20
+rancher/mirrored-prometheus-alertmanager:v0.25.0,0,26,26
 rancher/mirrored-prometheus-node-exporter:v1.3.1,0,30,30
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.65.1,0,5,5
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.65.1,0,9,9
-rancher/mirrored-prometheus-prometheus:v2.42.0,0,26,26
+rancher/mirrored-prometheus-prometheus:v2.42.0,0,32,32
 rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,8,8
 rancher/rancher-webhook:v0.4.7,0,1,1
-rancher/rancher:v2.8.5,3,101,104
+rancher/rancher:v2.8.5,3,96,99
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,1,1
 rancher/rke2-runtime:v1.28.15-rke2r1,0,1,1
 rancher/shell:v0.1.26,1,9,10
