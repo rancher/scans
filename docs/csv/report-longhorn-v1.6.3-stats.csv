@@ -11,5 +11,5 @@ longhornio/longhorn-instance-manager:v1.6.3,0,9,9
 longhornio/longhorn-manager:v1.6.3,0,6,6
 longhornio/longhorn-share-manager:v1.6.3,0,2,2
 longhornio/longhorn-ui:v1.6.3,0,4,4
-longhornio/openshift-origin-oauth-proxy:4.15,0,15,15
+longhornio/openshift-origin-oauth-proxy:4.15,0,16,16
 longhornio/support-bundle-kit:v0.0.43,0,5,5
