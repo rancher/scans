@@ -4,7 +4,7 @@ rancher/backup-restore-operator:v5.0.2,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,0,41,41
 rancher/calico-cni:v3.27.4-rancher1,0,16,16
 rancher/calico-cni:v3.28.1-rancher1,0,16,16
-rancher/cis-operator:v1.2.3,0,0,0
+rancher/cis-operator:v1.2.4-rc.1,0,0,0
 rancher/eks-operator:v1.9.6-rc.1,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,32,32
 rancher/flannel-cni:v1.4.1-rancher1,0,10,10
@@ -392,13 +392,13 @@ rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/mirrored-sigwindowstools-k8s-gmsa-webhook:v0.3.0,0,29,29
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.2,0,0,0
 rancher/mirrored-thanos-thanos:v0.34.1,0,1,1
-rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,1,1
+rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,0,0
 rancher/nginx-ingress-controller:nginx-1.9.4-rancher1,0,10,10
 rancher/nginx-ingress-controller:v1.10.4-hardened2,0,17,17
 rancher/nginx-ingress-controller:v1.10.4-hardened3,0,12,12
-rancher/nginx-ingress-controller:v1.10.5-hardened3,0,8,8
-rancher/nginx-ingress-controller:v1.10.5-hardened4,0,6,6
-rancher/nginx-ingress-controller:v1.10.5-hardened6,0,1,1
+rancher/nginx-ingress-controller:v1.10.5-hardened3,0,7,7
+rancher/nginx-ingress-controller:v1.10.5-hardened4,0,5,5
+rancher/nginx-ingress-controller:v1.10.5-hardened6,0,0,0
 rancher/prometheus-federator:v0.4.4,0,3,3
 rancher/pushprox-client:v0.1.3-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.3-rancher2-proxy,0,0,0
@@ -423,7 +423,7 @@ rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.12-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.8-rke2r1,0,0,0
-rancher/security-scan:v0.4.1,0,2,2
+rancher/security-scan:v0.4.2-rc.1,0,1,1
 rancher/shell:v0.2.1,0,9,9
 rancher/shell:v0.2.2,0,4,4
 rancher/shell:v0.3.0,0,4,4
