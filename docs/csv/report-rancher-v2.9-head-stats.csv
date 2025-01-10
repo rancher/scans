@@ -8,8 +8,8 @@ rancher/cis-operator:v1.2.3,0,0,0
 rancher/eks-operator:v1.9.6-rc.1,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,32,32
 rancher/flannel-cni:v1.4.1-rancher1,0,10,10
-rancher/fleet-agent:v0.10.8-beta.1,0,0,0
-rancher/fleet:v0.10.8-beta.1,0,4,4
+rancher/fleet-agent:v0.10.8-rc.1,0,0,0
+rancher/fleet:v0.10.8-rc.1,0,4,4
 rancher/gke-operator:v1.9.6-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,2,2
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,1,1
@@ -416,9 +416,9 @@ rancher/rke2-cloud-provider:v1.29.3-build20240515,0,0,0
 rancher/rke2-cloud-provider:v1.29.8-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.30.4-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,1,1
-rancher/rke2-runtime:v1.28.15-rke2r1,0,1,1
-rancher/rke2-runtime:v1.29.12-rke2r1,0,1,1
-rancher/rke2-runtime:v1.30.8-rke2r1,0,2,2
+rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
+rancher/rke2-runtime:v1.29.12-rke2r1,0,0,0
+rancher/rke2-runtime:v1.30.8-rke2r1,0,1,1
 rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.12-rke2r1,0,0,0

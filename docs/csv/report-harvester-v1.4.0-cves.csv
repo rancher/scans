@@ -797,7 +797,6 @@ rancher/rke2-cloud-provider:v1.29.8-build20240910,harvester/v1.4.0,golang.org/x/
 rancher/rke2-cloud-provider:v1.29.8-build20240910,harvester/v1.4.0,golang.org/x/net,v0.25.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,usr/local/bin/rke2-cloud-provider,0.33.0,false,affected,
 rancher/rke2-runtime:v1.29.9-rke2r1,harvester/v1.4.0,stdlib,v1.22.6,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,bin/kubectl,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/rke2-runtime:v1.29.9-rke2r1,harvester/v1.4.0,stdlib,v1.22.6,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,bin/kubelet,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
-rancher/rke2-runtime:v1.29.9-rke2r1,harvester/v1.4.0,golang.org/x/net,v0.24.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,bin/runc,0.33.0,false,affected,
 rancher/shell:v0.1.24,harvester/v1.4.0,glibc,2.31-150300.74.1,sles,SUSE-SU-2024:1895-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),2.31-150300.83.1,false,affected,
 rancher/shell:v0.1.24,harvester/v1.4.0,krb5,1.20.1-150500.3.6.1,sles,SUSE-SU-2024:2302-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),1.20.1-150500.3.9.1,false,affected,
 rancher/shell:v0.1.24,harvester/v1.4.0,libglib-2_0-0,2.70.5-150400.3.8.1,sles,SUSE-SU-2024:4078-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),2.70.5-150400.3.17.1,false,affected,

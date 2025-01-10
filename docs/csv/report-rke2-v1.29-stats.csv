@@ -16,4 +16,4 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/nginx-ingress-controller:v1.10.5-hardened6,0,1,1
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,1,1
-rancher/rke2-runtime:v1.29.12-rke2r1,0,1,1
+rancher/rke2-runtime:v1.29.12-rke2r1,0,0,0

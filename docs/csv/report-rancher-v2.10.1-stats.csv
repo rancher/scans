@@ -284,7 +284,7 @@ rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.10.1,0,1,1
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.2,0,0,0
-rancher/rancher:v2.10.1,1,10,11
+rancher/rancher:v2.10.1,1,9,10
 rancher/rke-tools:v0.1.105,0,3,3
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,1,1
@@ -294,10 +294,10 @@ rancher/rke2-cloud-provider:v1.30.4-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,1,1
 rancher/rke2-cloud-provider:v1.31.0-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,1,1
-rancher/rke2-runtime:v1.28.15-rke2r1,0,1,1
-rancher/rke2-runtime:v1.29.11-rke2r1,0,1,1
-rancher/rke2-runtime:v1.30.7-rke2r1,0,2,2
-rancher/rke2-runtime:v1.31.3-rke2r1,0,1,1
+rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
+rancher/rke2-runtime:v1.29.11-rke2r1,0,0,0
+rancher/rke2-runtime:v1.30.7-rke2r1,0,1,1
+rancher/rke2-runtime:v1.31.3-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.11-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.7-rke2r1,0,0,0

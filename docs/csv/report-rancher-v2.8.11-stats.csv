@@ -86,7 +86,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,33,33
 rancher/longhornio-csi-provisioner:v2.1.2,0,41,41
 rancher/longhornio-csi-resizer:v1.2.0,0,35,35
 rancher/machine:v0.15.0-rancher118,0,4,4
-rancher/mirrored-amazon-aws-cli:2.9.14,2,134,136
+rancher/mirrored-amazon-aws-cli:2.9.14,1,142,143
 rancher/mirrored-appscode-kubed:v0.13.2,1,27,28
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -333,7 +333,7 @@ rancher/rke-tools:v0.1.96,2,238,240
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,1,1
 rancher/rke2-cloud-provider:v1.29.3-build20240515,0,0,0
-rancher/rke2-runtime:v1.28.15-rke2r1,0,1,1
+rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/security-scan:v0.3.1,0,2,2
