@@ -4,7 +4,7 @@ rancher/backup-restore-operator:v6.0.0,0,0,0
 rancher/calico-cni:v3.27.4-rancher1,0,16,16
 rancher/calico-cni:v3.28.1-rancher1,0,16,16
 rancher/calico-cni:v3.29.0-rancher1,0,16,16
-rancher/cis-operator:v1.3.4,0,0,0
+rancher/cis-operator:v1.3.5-rc.1,0,0,0
 rancher/eks-operator:v1.10.2-rc.1,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,32,32
 rancher/flannel-cni:v1.4.1-rancher1,0,10,10
@@ -315,13 +315,13 @@ rancher/rancher:v2.10-head,1,7,8
 rancher/rke-tools:v0.1.105,0,3,3
 rancher/rke-tools:v0.1.108,0,2,2
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
-rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,1,1
-rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,1,1
+rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
+rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.8-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.30.4-build20240910,0,2,2
-rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,1,1
-rancher/rke2-cloud-provider:v1.31.0-build20240910,0,2,2
-rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,1,1
+rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0
+rancher/rke2-cloud-provider:v1.31.0-build20240910,0,1,1
+rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
 rancher/rke2-runtime:v1.29.12-rke2r1,0,0,0
 rancher/rke2-runtime:v1.30.8-rke2r1,0,1,1
@@ -330,7 +330,7 @@ rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.12-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.8-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.31.4-rke2r1,0,0,0
-rancher/security-scan:v0.5.2,0,2,2
+rancher/security-scan:v0.5.3-rc.1,0,1,1
 rancher/shell:v0.2.1,0,9,9
 rancher/shell:v0.3.0,0,4,4
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0

@@ -410,12 +410,12 @@ rancher/rke-tools:v0.1.100,2,4,6
 rancher/rke-tools:v0.1.105,0,3,3
 rancher/rke-tools:v0.1.108,0,2,2
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
-rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,1,1
-rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,1,1
+rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
+rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.3-build20240515,0,0,0
 rancher/rke2-cloud-provider:v1.29.8-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.30.4-build20240910,0,2,2
-rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,1,1
+rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0
 rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
 rancher/rke2-runtime:v1.29.12-rke2r1,0,0,0
 rancher/rke2-runtime:v1.30.8-rke2r1,0,1,1
