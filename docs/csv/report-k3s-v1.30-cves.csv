@@ -1,5 +1,5 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 rancher/k3s:v1.30.8-k3s1,k3s/v1.30,go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc,v0.45.0,gobinary,CVE-2023-47108,HIGH,https://avd.aquasec.com/nvd/cve-2023-47108,bin/k3s,0.46.0,false,affected,
 rancher/mirrored-metrics-server:v0.7.2,k3s/v1.30,golang.org/x/crypto,v0.26.0,gobinary,CVE-2024-45337,HIGH,https://avd.aquasec.com/nvd/cve-2024-45337,metrics-server,0.31.0,true,affected,severity_changed_due_to_suse_cvss_score
-rancher/mirrored-metrics-server:v0.7.2,k3s/v1.30,golang.org/x/net,v0.28.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,metrics-server,0.33.0,true,affected,
+rancher/mirrored-metrics-server:v0.7.2,k3s/v1.30,golang.org/x/net,v0.28.0,gobinary,CVE-2024-45338,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-45338,metrics-server,0.33.0,true,affected,severity_changed_due_to_suse_cvss_score
 rancher/mirrored-metrics-server:v0.7.2,k3s/v1.30,stdlib,v1.22.5,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,metrics-server,"1.22.7, 1.23.1",true,affected,severity_changed_due_to_suse_cvss_score
