@@ -14,9 +14,9 @@ longhornio/longhorn-manager:v1.6.4,0,1,1
 longhornio/longhorn-share-manager:v1.6.4,0,0,0
 longhornio/longhorn-ui:v1.6.4,0,0,0
 longhornio/support-bundle-kit:v0.0.48,0,0,0
-rancher/fleet-agent:v0.9.5,0,10,10
-rancher/fleet:v0.9.5,0,10,10
-rancher/gitjob:v0.9.8,0,12,12
+rancher/fleet-agent:v0.9.5,0,11,11
+rancher/fleet:v0.9.5,0,11,11
+rancher/gitjob:v0.9.8,0,13,13
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
 rancher/hardened-calico:v3.28.2-build20241016,0,2,2
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,0,0
@@ -71,7 +71,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,10,10
 rancher/rancher-webhook:v0.4.7,0,1,1
-rancher/rancher:v2.8.5,3,94,97
+rancher/rancher:v2.8.5,3,95,98
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
 rancher/shell:v0.1.26,0,10,10
