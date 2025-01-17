@@ -9,7 +9,7 @@ rancher/eks-operator:v1.10.2-rc.3,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,32,32
 rancher/flannel-cni:v1.4.1-rancher1,0,10,10
 rancher/fleet-agent:v0.11.3-rc.2,0,0,0
-rancher/fleet:v0.11.3-rc.2,0,0,0
+rancher/fleet:v0.11.3-rc.2,0,1,1
 rancher/gke-operator:v1.10.2-rc.3,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
@@ -77,7 +77,7 @@ rancher/kubectl:v1.30.7,0,0,0
 rancher/kubectl:v1.31.1,0,0,0
 rancher/local-path-provisioner:v0.0.28,0,1,1
 rancher/local-path-provisioner:v0.0.30,0,0,0
-rancher/machine:v0.15.0-rancher125,0,0,0
+rancher/machine:v0.15.0-rancher125,0,1,1
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.0,0,0,0
@@ -301,10 +301,10 @@ rancher/mirrored-sonobuoy-sonobuoy:v0.57.2,0,0,0
 rancher/mirrored-thanos-thanos:v0.35.1,0,0,0
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,0,0
 rancher/nginx-ingress-controller:nginx-1.12.0-rancher1,0,0,0
-rancher/nginx-ingress-controller:v1.10.4-hardened3,0,11,11
-rancher/nginx-ingress-controller:v1.10.5-hardened3,0,7,7
-rancher/nginx-ingress-controller:v1.10.5-hardened4,0,5,5
-rancher/nginx-ingress-controller:v1.10.5-hardened6,0,0,0
+rancher/nginx-ingress-controller:v1.10.4-hardened3,0,14,14
+rancher/nginx-ingress-controller:v1.10.5-hardened3,0,10,10
+rancher/nginx-ingress-controller:v1.10.5-hardened4,0,8,8
+rancher/nginx-ingress-controller:v1.10.5-hardened6,0,3,3
 rancher/prometheus-federator:v0.4.4,0,2,2
 rancher/pushprox-client:v0.1.4-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,0,0

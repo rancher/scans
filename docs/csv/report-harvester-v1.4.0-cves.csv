@@ -49,6 +49,7 @@ longhornio/longhorn-share-manager:v1.7.2,harvester/v1.4.0,libglib-2_0-0,2.78.6-1
 longhornio/longhorn-ui:v1.7.2,harvester/v1.4.0,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,longhornio/longhorn-ui:v1.7.2 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 longhornio/support-bundle-kit:v0.0.45,harvester/v1.4.0,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,longhornio/support-bundle-kit:v0.0.45 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 longhornio/support-bundle-kit:v0.0.45,harvester/v1.4.0,stdlib,v1.22.5,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/yq,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
+rancher/fleet:v0.10.2,harvester/v1.4.0,git-core,2.43.0-150600.3.6.1,sles,SUSE-SU-2025:0116-1,HIGH,,rancher/fleet:v0.10.2 (sles 15.6),2.43.0-150600.3.9.1,false,affected,
 rancher/fleet:v0.10.2,harvester/v1.4.0,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/fleet:v0.10.2 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 rancher/fleet:v0.10.2,harvester/v1.4.0,libopenssl-3-fips-provider,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/fleet:v0.10.2 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
 rancher/fleet:v0.10.2,harvester/v1.4.0,libopenssl3,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/fleet:v0.10.2 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
@@ -735,6 +736,8 @@ rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,harvester/v1.4.0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,harvester/v1.4.0,stdlib,v1.19,gobinary,CVE-2023-45287,HIGH,https://avd.aquasec.com/nvd/cve-2023-45287,snapshot-validation-webhook,1.20.0,true,affected,
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,harvester/v1.4.0,stdlib,v1.19,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,snapshot-validation-webhook,"1.21.9, 1.22.2",true,affected,
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,harvester/v1.4.0,stdlib,v1.19,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,snapshot-validation-webhook,"1.22.7, 1.23.1",true,affected,severity_changed_due_to_suse_cvss_score
+rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,git,2.43.0-150600.3.6.1,sles,SUSE-SU-2025:0116-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),2.43.0-150600.3.9.1,false,affected,
+rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,git-core,2.43.0-150600.3.6.1,sles,SUSE-SU-2025:0116-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),2.43.0-150600.3.9.1,false,affected,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,glib2-tools,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,libgio-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
@@ -746,8 +749,10 @@ rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,libopenssl3,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,libprotobuf25_1_0,25.1-150600.16.4.2,sles,SUSE-SU-2024:3745-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),25.1-150600.16.7.1,false,affected,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,libprotoc25_1_0,25.1-150600.16.4.2,sles,SUSE-SU-2024:3745-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),25.1-150600.16.7.1,false,affected,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,openssl-3,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
+rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,perl-Git,2.43.0-150600.3.6.1,sles,SUSE-SU-2025:0116-1,HIGH,,rancher/nginx-ingress-controller:v1.10.4-hardened3 (sles 15.6),2.43.0-150600.3.9.1,false,affected,
 rancher/nginx-ingress-controller:v1.10.4-hardened3,harvester/v1.4.0,golang.org/x/net,v0.28.0,gobinary,CVE-2024-45338,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-45338,nginx-ingress-controller,0.33.0,false,affected,severity_changed_due_to_suse_cvss_score
 rancher/rancher-webhook:v0.5.2,harvester/v1.4.0,k8s.io/kubernetes,v1.30.1,gobinary,CVE-2024-5321,HIGH,https://avd.aquasec.com/nvd/cve-2024-5321,usr/bin/webhook,"1.27.16, 1.28.12, 1.29.7, 1.30.3",false,affected,
+rancher/rancher:v2.9.2,harvester/v1.4.0,git-core,2.43.0-150600.3.6.1,sles,SUSE-SU-2025:0116-1,HIGH,,rancher/rancher:v2.9.2 (sles 15.6),2.43.0-150600.3.9.1,false,affected,
 rancher/rancher:v2.9.2,harvester/v1.4.0,libopenssl-3-fips-provider,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/rancher:v2.9.2 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
 rancher/rancher:v2.9.2,harvester/v1.4.0,libopenssl3,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/rancher:v2.9.2 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
 rancher/rancher:v2.9.2,harvester/v1.4.0,openssl-3,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/rancher:v2.9.2 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
