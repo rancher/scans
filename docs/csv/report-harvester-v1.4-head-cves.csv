@@ -116,6 +116,7 @@ rancher/harvester-node-manager:v0.3.3,harvester/v1.4-head,libopenssl3,3.1.4-1506
 rancher/harvester-node-manager:v0.3.3,harvester/v1.4-head,openssl-3,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/harvester-node-manager:v0.3.3 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
 rancher/harvester-pcidevices:v0.4.1,harvester/v1.4-head,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/harvester-pcidevices:v0.4.1 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 rancher/harvester-seeder:v0.4.1,harvester/v1.4-head,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/harvester-seeder:v0.4.1 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
+rancher/harvester-upgrade:v1.4-head,harvester/v1.4-head,rsync,3.2.7-150600.1.5,sles,SUSE-SU-2025:0156-1,HIGH,,rancher/harvester-upgrade:v1.4-head (sles 15.6),3.2.7-150600.3.8.1,false,affected,
 rancher/harvester-upgrade:v1.4-head,harvester/v1.4-head,stdlib,v1.22.6,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/kubectl,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/harvester-upgrade:v1.4-head,harvester/v1.4-head,stdlib,v1.22.2,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,usr/bin/virtctl,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/harvester-upgrade:v1.4-head,harvester/v1.4-head,stdlib,v1.22.2,gobinary,CVE-2024-24788,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24788,usr/bin/virtctl,1.22.3,false,affected,severity_changed_due_to_suse_cvss_score
