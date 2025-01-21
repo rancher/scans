@@ -4,7 +4,7 @@ rancher/backup-restore-operator:v5.0.2,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,0,41,41
 rancher/calico-cni:v3.27.4-rancher1,0,16,16
 rancher/calico-cni:v3.28.1-rancher1,0,16,16
-rancher/cis-operator:v1.2.4-rc.2,0,0,0
+rancher/cis-operator:v1.2.4,0,0,0
 rancher/eks-operator:v1.9.6-rc.3,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,32,32
 rancher/flannel-cni:v1.4.1-rancher1,0,10,10
@@ -423,7 +423,7 @@ rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.12-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.8-rke2r1,0,0,0
-rancher/security-scan:v0.4.2-rc.2,0,0,0
+rancher/security-scan:v0.4.2,0,0,0
 rancher/shell:v0.2.1,0,9,9
 rancher/shell:v0.2.2,0,4,4
 rancher/shell:v0.3.0,0,4,4
