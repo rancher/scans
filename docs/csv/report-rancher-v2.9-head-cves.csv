@@ -3006,6 +3006,7 @@ rancher/mirrored-grafana-grafana-image-renderer:3.10.5,rancher/v2.9-head,dompuri
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,rancher/v2.9-head,ip,1.1.9,node-pkg,CVE-2024-29415,HIGH,https://avd.aquasec.com/nvd/cve-2024-29415,Node.js,,true,affected,
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,rancher/v2.9-head,ip,2.0.1,node-pkg,CVE-2024-29415,HIGH,https://avd.aquasec.com/nvd/cve-2024-29415,Node.js,,true,affected,
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,rancher/v2.9-head,path-to-regexp,0.1.7,node-pkg,CVE-2024-45296,HIGH,https://avd.aquasec.com/nvd/cve-2024-45296,Node.js,"1.9.0, 0.1.10, 8.0.0, 3.3.0, 6.3.0",true,affected,
+rancher/mirrored-grafana-grafana-image-renderer:3.10.5,rancher/v2.9-head,path-to-regexp,0.1.7,node-pkg,CVE-2024-52798,HIGH,https://avd.aquasec.com/nvd/cve-2024-52798,Node.js,0.1.12,true,affected,
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,rancher/v2.9-head,ws,8.13.0,node-pkg,CVE-2024-37890,HIGH,https://avd.aquasec.com/nvd/cve-2024-37890,Node.js,"5.2.4, 6.2.3, 7.5.10, 8.17.1",true,affected,
 rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.9-head,krb5-libs,1.20.1-r0,alpine,CVE-2024-37371,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-37371,rancher/mirrored-idealista-prom2teams:4.2.1 (alpine 3.17.0),1.20.2-r1,true,affected,
 rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.9-head,krb5-libs,1.20.1-r0,alpine,CVE-2024-37370,HIGH,https://avd.aquasec.com/nvd/cve-2024-37370,rancher/mirrored-idealista-prom2teams:4.2.1 (alpine 3.17.0),1.20.2-r1,true,affected,
