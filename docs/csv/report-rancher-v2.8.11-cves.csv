@@ -5173,7 +5173,7 @@ rancher/rancher-csp-adapter:v3.0.1,rancher/v2.8.11,glibc,2.31-150300.63.1,sles,S
 rancher/rancher-csp-adapter:v3.0.1,rancher/v2.8.11,stdlib,v1.20.13,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,usr/bin/csp-adapter,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/rancher-csp-adapter:v3.0.1,rancher/v2.8.11,stdlib,v1.20.13,gobinary,CVE-2023-45288,HIGH,https://avd.aquasec.com/nvd/cve-2023-45288,usr/bin/csp-adapter,"1.21.9, 1.22.2",false,affected,
 rancher/rancher-csp-adapter:v3.0.1,rancher/v2.8.11,stdlib,v1.20.13,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/csp-adapter,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
-rancher/rancher-webhook:v0.4.14,rancher/v2.8.11,k8s.io/kubernetes,v1.28.6,gobinary,CVE-2024-5321,HIGH,https://avd.aquasec.com/nvd/cve-2024-5321,usr/bin/webhook,"1.27.16, 1.28.12, 1.29.7, 1.30.3",false,affected,
+rancher/rancher-webhook:v0.4.15,rancher/v2.8.11,k8s.io/kubernetes,v1.28.6,gobinary,CVE-2024-5321,HIGH,https://avd.aquasec.com/nvd/cve-2024-5321,usr/bin/webhook,"1.27.16, 1.28.12, 1.29.7, 1.30.3",false,affected,
 rancher/rke-tools:v0.1.100,rancher/v2.8.11,libexpat,2.6.2-r0,alpine,CVE-2024-45491,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45491,rancher/rke-tools:v0.1.100 (alpine 3.19.2),2.6.3-r0,false,affected,
 rancher/rke-tools:v0.1.100,rancher/v2.8.11,libexpat,2.6.2-r0,alpine,CVE-2024-45492,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45492,rancher/rke-tools:v0.1.100 (alpine 3.19.2),2.6.3-r0,false,affected,
 rancher/rke-tools:v0.1.100,rancher/v2.8.11,libexpat,2.6.2-r0,alpine,CVE-2024-45490,HIGH,https://avd.aquasec.com/nvd/cve-2024-45490,rancher/rke-tools:v0.1.100 (alpine 3.19.2),2.6.3-r0,false,affected,

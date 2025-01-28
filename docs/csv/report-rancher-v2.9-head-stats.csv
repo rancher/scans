@@ -101,7 +101,6 @@ rancher/klipper-helm:v0.9.3-build20241008,0,0,0
 rancher/klipper-lb:v0.4.9,0,0,0
 rancher/kube-api-auth:v0.2.2,0,0,0
 rancher/kubectl:v1.20.2,0,26,26
-rancher/kubectl:v1.22.6,0,19,19
 rancher/kubectl:v1.23.3,0,19,19
 rancher/kubectl:v1.28.12,0,0,0
 rancher/kubectl:v1.29.0,0,1,1
@@ -381,7 +380,6 @@ rancher/mirrored-sig-storage-snapshot-controller:v6.2.1,0,18,18
 rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,0,17,17
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
-rancher/mirrored-sigwindowstools-k8s-gmsa-webhook:v0.3.0,0,28,28
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.2,0,0,0
 rancher/mirrored-thanos-thanos:v0.34.1,0,1,1
 rancher/neuvector-compliance-config:1.0.3,0,0,0
