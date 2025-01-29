@@ -1,2 +1,0 @@
-image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-rancher/rke2-runtime:v1.30.9-rke2r1,rke2/v1.30,k8s.io/kubernetes,v1.30.0,gobinary,CVE-2024-5321,HIGH,https://avd.aquasec.com/nvd/cve-2024-5321,bin/crictl,"1.27.16, 1.28.12, 1.29.7, 1.30.3",false,affected,
