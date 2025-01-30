@@ -64,8 +64,8 @@ rancher/hyperkube:v1.31.5-rancher1,0,0,0
 rancher/istio-installer:1.19.6-rancher1,0,19,19
 rancher/istio-installer:1.21.1-rancher1,0,19,19
 rancher/istio-installer:1.22.1-rancher1,0,19,19
-rancher/istio-installer:1.23.2-rancher1,0,2,2
-rancher/istio-installer:1.24.1-rancher1,0,0,0
+rancher/istio-installer:1.23.2-rancher1,0,3,3
+rancher/istio-installer:1.24.1-rancher1,0,1,1
 rancher/k3s-upgrade:v1.28.15-k3s1,0,0,0
 rancher/k3s-upgrade:v1.29.12-k3s1,0,0,0
 rancher/k3s-upgrade:v1.30.8-k3s1,0,0,0
@@ -150,7 +150,7 @@ rancher/mirrored-cilium-hubble-relay:v1.16.1,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.2,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.3,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.4,0,0,0
-rancher/mirrored-cilium-hubble-relay:v1.16.5,0,1,1
+rancher/mirrored-cilium-hubble-relay:v1.16.5,0,0,0
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.1,0,1,1
 rancher/mirrored-cilium-hubble-ui:v0.13.1,0,0,0
 rancher/mirrored-cilium-operator-aws:v1.16.1,0,0,0
@@ -194,7 +194,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,0,3,3
 rancher/mirrored-flannel-flannel:v0.25.1,0,2,2
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,6,7
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,329,334
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,338,343
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,14,18
 rancher/mirrored-grafana-grafana:11.1.0,0,4,4
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -267,7 +267,7 @@ rancher/mirrored-longhornio-longhorn-engine:v1.7.2,0,8,8
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.2,0,8,8
 rancher/mirrored-longhornio-longhorn-manager:v1.7.2,0,1,1
 rancher/mirrored-longhornio-longhorn-share-manager:v1.7.2,0,1,1
-rancher/mirrored-longhornio-longhorn-ui:v1.7.2,0,1,1
+rancher/mirrored-longhornio-longhorn-ui:v1.7.2,0,2,2
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.45,0,1,1
 rancher/mirrored-messagebird-sachet:0.3.1,1,24,25
 rancher/mirrored-metrics-server:v0.7.0,0,0,0
@@ -328,7 +328,7 @@ rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.3,0,0,0
 rancher/rancher:v2.10-head,1,4,5
 rancher/rke-tools:v0.1.105,0,2,2
-rancher/rke-tools:v0.1.108,0,1,1
+rancher/rke-tools:v0.1.109,0,1,1
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,1,1
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
@@ -373,4 +373,4 @@ rancher/system-agent-installer-rke2:v1.31.5-rke2r1,0,0,0
 rancher/system-agent:v0.3.11-suc,0,0,0
 rancher/system-upgrade-controller:v0.13.4,0,0,0
 rancher/system-upgrade-controller:v0.14.2,0,0,0
-rancher/ui-plugin-catalog:3.3.0,0,0,0
+rancher/ui-plugin-catalog:3.3.0,0,1,1
