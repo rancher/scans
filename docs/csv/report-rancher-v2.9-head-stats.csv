@@ -423,7 +423,7 @@ rancher/rancher-webhook:v0.5.6,0,1,1
 rancher/rancher:v2.9-head,1,8,9
 rancher/rke-tools:v0.1.100,2,3,5
 rancher/rke-tools:v0.1.105,0,2,2
-rancher/rke-tools:v0.1.109,0,1,1
+rancher/rke-tools:v0.1.109,0,0,0
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,1,1
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
