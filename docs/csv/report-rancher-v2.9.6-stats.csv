@@ -87,9 +87,9 @@ rancher/hyperkube:v1.27.16-rancher1,0,0,0
 rancher/hyperkube:v1.28.15-rancher1,0,0,0
 rancher/hyperkube:v1.29.12-rancher1,0,0,0
 rancher/hyperkube:v1.30.8-rancher1,0,0,0
-rancher/istio-installer:1.19.6-rancher1,0,19,19
-rancher/istio-installer:1.21.1-rancher1,0,19,19
-rancher/istio-installer:1.22.1-rancher1,0,19,19
+rancher/istio-installer:1.19.6-rancher1,0,20,20
+rancher/istio-installer:1.21.1-rancher1,0,20,20
+rancher/istio-installer:1.22.1-rancher1,0,20,20
 rancher/istio-installer:1.23.2-rancher1,0,3,3
 rancher/k3s-upgrade:v1.27.16-k3s1,0,4,4
 rancher/k3s-upgrade:v1.28.15-k3s1,0,0,0

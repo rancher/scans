@@ -65,8 +65,8 @@ rancher/harvester-csi-driver:v0.2.2,0,1,1
 rancher/helm-project-operator:v0.2.1,0,10,10
 rancher/hyperkube:v1.27.16-rancher1,0,0,0
 rancher/hyperkube:v1.28.15-rancher1,0,0,0
-rancher/istio-installer:1.19.6-rancher1,0,19,19
-rancher/istio-installer:1.21.1-rancher1,0,19,19
+rancher/istio-installer:1.19.6-rancher1,0,20,20
+rancher/istio-installer:1.21.1-rancher1,0,20,20
 rancher/k3s-upgrade:v1.27.16-k3s1,0,4,4
 rancher/k3s-upgrade:v1.28.15-k3s1,0,0,0
 rancher/klipper-helm:v0.8.4-build20240523,0,54,54
