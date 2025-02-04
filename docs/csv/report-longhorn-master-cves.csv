@@ -1,2 +1,1 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-ui:master-head,longhorn/master,nginx,1.21.5-150600.8.4,sles,SUSE-SU-2025:0283-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.6),1.21.5-150600.10.3.1,false,affected,
