@@ -1,3 +1,11 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:v1.6.4,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/backing-image-manager:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
+longhornio/longhorn-engine:v1.6.4,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-engine:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
+longhornio/longhorn-instance-manager:v1.6.4,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-instance-manager:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
+longhornio/longhorn-manager:v1.6.4,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-manager:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
 longhornio/longhorn-manager:v1.6.4,longhorn/v1.6.4,go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc,v0.35.0,gobinary,CVE-2023-47108,HIGH,https://avd.aquasec.com/nvd/cve-2023-47108,usr/local/sbin/longhorn-manager,0.46.0,false,affected,
+longhornio/longhorn-share-manager:v1.6.4,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-share-manager:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
+longhornio/longhorn-ui:v1.6.4,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
+longhornio/longhorn-ui:v1.6.4,longhorn/v1.6.4,libxml2-tools,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
 longhornio/longhorn-ui:v1.6.4,longhorn/v1.6.4,nginx,1.21.5-150600.8.4,sles,SUSE-SU-2025:0283-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),1.21.5-150600.10.3.1,false,affected,
+longhornio/support-bundle-kit:v0.0.48,longhorn/v1.6.4,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/support-bundle-kit:v0.0.48 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
