@@ -9,7 +9,7 @@ longhornio/livenessprobe:v2.15.0,0,0,0
 longhornio/longhorn-cli:v1.7.x-head,0,1,1
 longhornio/longhorn-engine:v1.7.x-head,0,1,1
 longhornio/longhorn-instance-manager:v1.7.x-head,0,1,1
-longhornio/longhorn-manager:v1.7.x-head,0,1,1
+longhornio/longhorn-manager:v1.7.x-head,0,0,0
 longhornio/longhorn-share-manager:v1.7.x-head,0,1,1
-longhornio/longhorn-ui:v1.7.x-head,0,3,3
+longhornio/longhorn-ui:v1.7.x-head,0,0,0
 longhornio/support-bundle-kit:v0.0.49,0,1,1
