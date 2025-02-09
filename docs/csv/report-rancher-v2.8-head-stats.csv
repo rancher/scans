@@ -265,7 +265,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v7.0.2-20241007,0,0,0
 rancher/mirrored-longhornio-livenessprobe:v2.14.0,0,0,0
 rancher/mirrored-longhornio-longhorn-engine:v1.7.2,0,9,9
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.7.2,0,9,9
-rancher/mirrored-longhornio-longhorn-manager:v1.7.2,0,2,2
+rancher/mirrored-longhornio-longhorn-manager:v1.7.2,0,3,3
 rancher/mirrored-longhornio-longhorn-share-manager:v1.7.2,0,2,2
 rancher/mirrored-longhornio-longhorn-ui:v1.7.2,0,4,4
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.45,0,2,2
@@ -325,7 +325,7 @@ rancher/pause:3.6,0,0,0
 rancher/prometheus-federator:v0.3.4,0,10,10
 rancher/pushprox-client:v0.1.4-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,0,0
-rancher/rancher-agent:v2.8-head,0,18,18
+rancher/rancher-agent:v2.8-head,0,20,20
 rancher/rancher-csp-adapter:v3.0.1,0,2,2
 rancher/rancher-webhook:v0.4.15,0,1,1
 rancher/rancher:v2.8-head,1,48,49
