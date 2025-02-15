@@ -44,7 +44,7 @@ rancher/harvester:v1.3.2,0,3,3
 rancher/klipper-helm:v0.8.4-build20240523,0,54,54
 rancher/kubectl:v1.20.2,0,25,25
 rancher/kubectl:v1.21.5,0,21,21
-rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,36,42
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,38,44
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,0,22,22
 rancher/mirrored-cluster-api-controller:v1.4.4,0,8,8
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,17,22
@@ -58,11 +58,11 @@ rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-nginx:1.24.0-alpine,2,5,7
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.10.0,0,23,23
-rancher/mirrored-prometheus-alertmanager:v0.25.0,0,24,24
+rancher/mirrored-prometheus-alertmanager:v0.25.0,0,22,22
 rancher/mirrored-prometheus-node-exporter:v1.3.1,0,28,28
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.65.1,0,4,4
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.65.1,0,7,7
-rancher/mirrored-prometheus-prometheus:v2.42.0,0,30,30
+rancher/mirrored-prometheus-prometheus:v2.42.0,0,28,28
 rancher/mirrored-sig-storage-snapshot-controller:v6.2.1,0,17,17
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,0,16,16
 rancher/rancher-webhook:v0.4.7,0,1,1

@@ -1,2 +1,1 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-instance-manager:v1.7.x-head,longhorn/v1.7-head,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.x-head (sles 15.6),2.10.3-150500.5.20.1,false,affected,
