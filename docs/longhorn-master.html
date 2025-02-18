@@ -32,10 +32,15 @@ td { padding: 7px; }
 <li>Use the search bar below to filter the results by image (and version/tag),
 if the image is mirrored or made by SUSE (true/false),<br>release, affected
 binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
-SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+SUSE-SU etc.), severity,<br>status (if affected or not affected/false-positive),
+justification (for false-positives),<br>vulnerability type (related to the programming
 language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected" with the severity set to "none",<br>because they do not affect the
+binary/package/image. The justification explains why they are false-positives,<br>
+according to the VEX statuses as explained in <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
 and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
 <li>The severity (CVSS rating) of some CVEs in the portal might differ from the
@@ -58,31 +63,73 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Binary</th>
-<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(3)">Binary/Package</th>
+<th onclick="sort(4)">Dependency</th>
 <th onclick="sort(5)">Vulnerability ID (CVE)</th>
 <th onclick="sort(6)">Severity</th>
-<th onclick="sort(7)">Type (Language or OS)</th>
+<th onclick="sort(7)">Status</th>
+<th onclick="sort(8)">Justification (for status not affected)</th>
+<th onclick="sort(9)">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>longhornio/longhorn-share-manager:master-head</td>
+<td>longhornio/csi-attacher:v4.8.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>libtasn1</td>
-<td>libtasn1@4.13-150000.4.8.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
-<td>HIGH</td>
-<td>sles</td>
+<td>csi-attacher</td>
+<td>golang.org/x/net@v0.32.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/longhorn-share-manager:master-head</td>
+<td>longhornio/csi-node-driver-registrar:v2.13.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>libtasn1-6</td>
-<td>libtasn1-6@4.13-150000.4.8.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
-<td>HIGH</td>
-<td>sles</td>
+<td>csi-node-driver-registrar</td>
+<td>golang.org/x/net@v0.32.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-provisioner:v5.1.0-20241220</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-snapshotter:v8.2.0</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>csi-snapshotter</td>
+<td>golang.org/x/net@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/livenessprobe:v2.15.0</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>livenessprobe</td>
+<td>golang.org/x/net@v0.32.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/support-bundle-kit:v0.0.49</td>
@@ -92,6 +139,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -102,6 +151,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -112,6 +163,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 
@@ -124,7 +177,8 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity;
+    let status, justification, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -141,12 +195,20 @@ function search() {
         vuln_dep = td[4].textContent.toUpperCase();
         vuln_id= td[5].textContent.toUpperCase();
         severity = td[6].textContent.toUpperCase();
-        type = td[7].textContent.toUpperCase();
+        status = td[7].textContent.toUpperCase();
+        justification = td[8].textContent.toUpperCase();
+        type = td[9].textContent.toUpperCase();
 
-        if (image.includes(query) || mirrored.includes(query) ||
+        // Use startsWith() when searching for the status in order for
+        // `affected` to not match `not affected` entries.
+        if (status.startsWith(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else if (image.includes(query) || mirrored.includes(query) ||
             release.includes(query) || affected_binary.includes(query) ||
             vuln_dep.includes(query) || vuln_id.includes(query) ||
-            severity.includes(query) || type.includes(query)) {
+            severity.includes(query) || justification.includes(query) ||
+            type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {

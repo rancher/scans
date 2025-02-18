@@ -32,10 +32,15 @@ td { padding: 7px; }
 <li>Use the search bar below to filter the results by image (and version/tag),
 if the image is mirrored or made by SUSE (true/false),<br>release, affected
 binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
-SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+SUSE-SU etc.), severity,<br>status (if affected or not affected/false-positive),
+justification (for false-positives),<br>vulnerability type (related to the programming
 language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected" with the severity set to "none",<br>because they do not affect the
+binary/package/image. The justification explains why they are false-positives,<br>
+according to the VEX statuses as explained in <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
 and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
 <li>The severity (CVSS rating) of some CVEs in the portal might differ from the
@@ -58,11 +63,13 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Binary</th>
-<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(3)">Binary/Package</th>
+<th onclick="sort(4)">Dependency</th>
 <th onclick="sort(5)">Vulnerability ID (CVE)</th>
 <th onclick="sort(6)">Severity</th>
-<th onclick="sort(7)">Type (Language or OS)</th>
+<th onclick="sort(7)">Status</th>
+<th onclick="sort(8)">Justification (for status not affected)</th>
+<th onclick="sort(9)">Type (language or OS)</th>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.7.2</td>
@@ -72,6 +79,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>glib2-tools@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -82,6 +91,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libgio-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -92,6 +103,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -102,6 +115,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libgmodule-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -112,6 +127,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libgobject-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -122,6 +139,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -132,6 +151,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -142,6 +163,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -152,6 +175,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -162,6 +187,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -172,6 +199,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -182,6 +211,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -192,6 +223,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -202,7 +235,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/backing-image-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/backing-image-manager</td>
+<td>golang.org/x/net@v0.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/csi-attacher:v4.7.0</td>
@@ -211,7 +258,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-attacher</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-attacher:v4.7.0</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>csi-attacher</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -221,7 +282,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-node-driver-registrar:v2.12.0</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>csi-node-driver-registrar</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -231,7 +306,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-provisioner</td>
 <td>stdlib@v1.21.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-provisioner:v4.0.1-20241007</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/net@v0.19.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -241,7 +330,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-resizer</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-resizer:v1.12.0</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>csi-resizer</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -251,7 +354,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-snapshotter</td>
 <td>stdlib@v1.21.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-snapshotter:v7.0.2-20241007</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>csi-snapshotter</td>
+<td>golang.org/x/net@v0.20.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -261,7 +378,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>livenessprobe</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/livenessprobe:v2.14.0</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>livenessprobe</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -272,6 +403,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -282,6 +415,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -292,6 +427,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -302,7 +439,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-cli:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/longhornctl</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-cli:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/longhornctl-local</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.7.2</td>
@@ -312,6 +475,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -322,6 +487,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libgmodule-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -332,6 +499,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -342,6 +511,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -352,6 +523,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -362,6 +535,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -372,6 +547,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -382,6 +559,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -392,6 +571,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -402,6 +583,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -412,6 +595,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -421,7 +606,57 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/longhorn</td>
+<td>golang.org/x/net@v0.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/longhorn-instance-manager</td>
+<td>golang.org/x/net@v0.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -432,6 +667,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -442,6 +679,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libgmodule-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -452,6 +691,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -462,6 +703,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -472,6 +715,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -482,6 +727,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -492,6 +739,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-img@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -502,6 +751,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -512,6 +763,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-pr-helper@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -522,6 +775,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20243744-1">SUSE-SU-2024:3744-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -532,6 +787,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>qemu-tools@8.2.6-150600.3.15.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244094-1">SUSE-SU-2024:4094-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -541,7 +798,45 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.22.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/bin/longhorn-instance-manager</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -552,6 +847,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>bind-utils@9.18.28-150600.3.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250355-1">SUSE-SU-2025:0355-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -562,6 +859,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -572,6 +871,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -582,6 +883,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -592,7 +895,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>golang.org/x/net@v0.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-share-manager:v1.7.2</td>
@@ -602,6 +931,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -612,6 +943,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -622,6 +955,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -632,7 +967,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-share-manager:v1.7.2</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>longhorn-share-manager</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-ui:v1.7.2</td>
@@ -642,6 +991,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -652,6 +1003,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -662,6 +1015,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -672,6 +1027,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -682,6 +1039,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-tools@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -692,6 +1051,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>nginx@1.21.5-150600.8.4</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250283-1">SUSE-SU-2025:0283-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -702,6 +1063,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libglib-2_0-0@2.78.6-150600.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2024/suse-su-20244254-1">SUSE-SU-2024:4254-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -712,6 +1075,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -722,6 +1087,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -732,6 +1099,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -741,7 +1110,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/yq</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/support-bundle-kit:v0.0.45</td>
+<td>false</td>
+<td>Longhorn v1.7.2</td>
+<td>usr/bin/yq</td>
+<td>golang.org/x/net@v0.27.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 
@@ -754,7 +1137,8 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity;
+    let status, justification, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -771,12 +1155,20 @@ function search() {
         vuln_dep = td[4].textContent.toUpperCase();
         vuln_id= td[5].textContent.toUpperCase();
         severity = td[6].textContent.toUpperCase();
-        type = td[7].textContent.toUpperCase();
+        status = td[7].textContent.toUpperCase();
+        justification = td[8].textContent.toUpperCase();
+        type = td[9].textContent.toUpperCase();
 
-        if (image.includes(query) || mirrored.includes(query) ||
+        // Use startsWith() when searching for the status in order for
+        // `affected` to not match `not affected` entries.
+        if (status.startsWith(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else if (image.includes(query) || mirrored.includes(query) ||
             release.includes(query) || affected_binary.includes(query) ||
             vuln_dep.includes(query) || vuln_id.includes(query) ||
-            severity.includes(query) || type.includes(query)) {
+            severity.includes(query) || justification.includes(query) ||
+            type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {

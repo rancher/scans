@@ -32,10 +32,15 @@ td { padding: 7px; }
 <li>Use the search bar below to filter the results by image (and version/tag),
 if the image is mirrored or made by SUSE (true/false),<br>release, affected
 binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
-SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+SUSE-SU etc.), severity,<br>status (if affected or not affected/false-positive),
+justification (for false-positives),<br>vulnerability type (related to the programming
 language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected" with the severity set to "none",<br>because they do not affect the
+binary/package/image. The justification explains why they are false-positives,<br>
+according to the VEX statuses as explained in <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
 and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
 <li>The severity (CVSS rating) of some CVEs in the portal might differ from the
@@ -58,11 +63,25 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Binary</th>
-<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(3)">Binary/Package</th>
+<th onclick="sort(4)">Dependency</th>
 <th onclick="sort(5)">Vulnerability ID (CVE)</th>
 <th onclick="sort(6)">Severity</th>
-<th onclick="sort(7)">Type (Language or OS)</th>
+<th onclick="sort(7)">Status</th>
+<th onclick="sort(8)">Justification (for status not affected)</th>
+<th onclick="sort(9)">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-addon-resizer:1.8.22-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>pod_nanny</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-calico:v3.29.1-build20250110</td>
@@ -72,6 +91,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -82,6 +103,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -92,7 +115,261 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>calicoctl</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>calicoctl</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>opt/cni/bin/dhcp</td>
+<td>golang.org/x/net@v0.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>opt/cni/bin/install</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.29.1-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-cluster-autoscaler:v1.9.0-build20241126</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>cluster-proportional-autoscaler</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-coredns:v1.12.0-build20241126</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.29.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-coredns:v1.12.0-build20241126</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>coredns</td>
+<td>golang.org/x/net@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.24.0-build20241211</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>node-cache</td>
+<td>golang.org/x/crypto@v0.22.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.24.0-build20241211</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>node-cache</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.16-k3s1-build20241106</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/etcd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.16-k3s1-build20241106</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/etcd</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.16-k3s1-build20241106</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.5.16-k3s1-build20241106</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-flannel:v0.26.3-build20250108</td>
@@ -102,6 +379,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -112,6 +391,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -122,7 +403,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.7.2-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.7.2-build20250110</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
@@ -132,6 +439,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -142,6 +451,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -152,7 +463,273 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>github.com/opencontainers/runc@v1.1.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-21626.html">CVE-2024-21626</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>github.com/opencontainers/runc@v1.1.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-21626.html">CVE-2024-21626</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubeadm</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubeadm</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubelet</td>
+<td>github.com/opencontainers/runc@v1.1.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-21626.html">CVE-2024-21626</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubelet</td>
+<td>go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45142.html">CVE-2023-45142</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubelet</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-kubernetes:v1.29.13-rke2r1-build20250117</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/kubelet</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/klipper-helm:v0.9.3-build20241008</td>
@@ -162,6 +739,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3@3.3.2-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -172,7 +751,81 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.3.2-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/klipper-lb:v0.4.9</td>
@@ -182,6 +835,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3@3.3.1-r3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -192,7 +847,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.3.1-r3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-sig-storage-snapshot-controller:v8.2.0</td>
+<td>true</td>
+<td>RKE2 v1.29.13</td>
+<td>snapshot-controller</td>
+<td>golang.org/x/net@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/nginx-ingress-controller:v1.12.0-hardened2</td>
@@ -202,6 +871,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -212,6 +883,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libtasn1-6@4.13-150000.4.8.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250548-1">SUSE-SU-2025:0548-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -222,6 +895,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-2@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
@@ -232,7 +907,201 @@ the distinctive tag '*' close to its severity.</li>
 <td>libxml2-tools@2.10.3-150500.5.17.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20250348-1">SUSE-SU-2025:0348-1</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.27.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/containerd</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/containerd</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/containerd</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/crictl</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/crictl</td>
+<td>golang.org/x/net@v0.19.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/ctr</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/kubectl</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/kubelet</td>
+<td>github.com/opencontainers/runc@v1.1.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-21626.html">CVE-2024-21626</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/kubelet</td>
+<td>go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45142.html">CVE-2023-45142</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/kubelet</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/kubelet</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/kubelet</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.29.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.29.13</td>
+<td>bin/runc</td>
+<td>golang.org/x/net@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 
 </table>
@@ -244,7 +1113,8 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity;
+    let status, justification, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -261,12 +1131,20 @@ function search() {
         vuln_dep = td[4].textContent.toUpperCase();
         vuln_id= td[5].textContent.toUpperCase();
         severity = td[6].textContent.toUpperCase();
-        type = td[7].textContent.toUpperCase();
+        status = td[7].textContent.toUpperCase();
+        justification = td[8].textContent.toUpperCase();
+        type = td[9].textContent.toUpperCase();
 
-        if (image.includes(query) || mirrored.includes(query) ||
+        // Use startsWith() when searching for the status in order for
+        // `affected` to not match `not affected` entries.
+        if (status.startsWith(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else if (image.includes(query) || mirrored.includes(query) ||
             release.includes(query) || affected_binary.includes(query) ||
             vuln_dep.includes(query) || vuln_id.includes(query) ||
-            severity.includes(query) || type.includes(query)) {
+            severity.includes(query) || justification.includes(query) ||
+            type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {

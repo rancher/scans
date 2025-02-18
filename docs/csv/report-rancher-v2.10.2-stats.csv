@@ -297,7 +297,7 @@ rancher/neuvector-enforcer:5.4.2,0,3,3
 rancher/neuvector-manager:5.4.2,0,5,5
 rancher/neuvector-prometheus-exporter:1.0.1,0,7,7
 rancher/neuvector-registry-adapter:0.1.5,0,2,2
-rancher/neuvector-scanner:6,0,2,2
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.1,0,2,2
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,3,3
 rancher/nginx-ingress-controller:nginx-1.12.0-rancher1,0,3,3

@@ -1,6 +1,9 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-share-manager:master-head,longhorn/master,libtasn1,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.6),4.13-150000.4.11.1,false,affected,
-longhornio/longhorn-share-manager:master-head,longhorn/master,libtasn1-6,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.6),4.13-150000.4.11.1,false,affected,
+longhornio/csi-attacher:v4.8.0,longhorn/master,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-attacher,0.33.0,false,not_affected,vulnerable_code_not_present
+longhornio/csi-node-driver-registrar:v2.13.0,longhorn/master,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-node-driver-registrar,0.33.0,false,not_affected,vulnerable_code_not_present
+longhornio/csi-provisioner:v5.1.0-20241220,longhorn/master,golang.org/x/net,v0.28.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-provisioner,0.33.0,false,not_affected,vulnerable_code_not_in_execute_path
+longhornio/csi-snapshotter:v8.2.0,longhorn/master,golang.org/x/net,v0.31.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-snapshotter,0.33.0,false,not_affected,vulnerable_code_not_present
+longhornio/livenessprobe:v2.15.0,longhorn/master,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,livenessprobe,0.33.0,false,not_affected,vulnerable_code_not_present
 longhornio/support-bundle-kit:v0.0.49,longhorn/master,libtasn1,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,longhornio/support-bundle-kit:v0.0.49 (sles 15.6),4.13-150000.4.11.1,false,affected,
 longhornio/support-bundle-kit:v0.0.49,longhorn/master,libtasn1-6,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,longhornio/support-bundle-kit:v0.0.49 (sles 15.6),4.13-150000.4.11.1,false,affected,
 longhornio/support-bundle-kit:v0.0.49,longhorn/master,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/support-bundle-kit:v0.0.49 (sles 15.6),2.10.3-150500.5.20.1,false,affected,

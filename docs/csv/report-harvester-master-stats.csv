@@ -1,7 +1,7 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,0,0,0
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,2,2
-longhornio/backing-image-manager:v1.8.x-head,0,2,2
+longhornio/backing-image-manager:v1.8.x-head,0,0,0
 longhornio/csi-attacher:v4.8.0,0,0,0
 longhornio/csi-node-driver-registrar:v2.13.0,0,0,0
 longhornio/csi-provisioner:v5.1.0-20241220,0,0,0
@@ -10,10 +10,10 @@ longhornio/csi-snapshotter:v8.2.0,0,0,0
 longhornio/livenessprobe:v2.15.0,0,0,0
 longhornio/longhorn-cli:v1.8.x-head,0,0,0
 longhornio/longhorn-engine:v1.8.x-head,0,0,0
-longhornio/longhorn-instance-manager:v1.8.x-head,0,2,2
+longhornio/longhorn-instance-manager:v1.8.x-head,0,0,0
 longhornio/longhorn-manager:v1.8.x-head,0,0,0
-longhornio/longhorn-share-manager:v1.8.x-head,0,2,2
-longhornio/longhorn-ui:v1.8.x-head,0,2,2
+longhornio/longhorn-share-manager:v1.8.x-head,0,0,0
+longhornio/longhorn-ui:v1.8.x-head,0,0,0
 longhornio/support-bundle-kit:v0.0.49,0,3,3
 rancher/fleet-agent:v0.11.2,0,0,0
 rancher/fleet:v0.11.2,0,8,8
@@ -33,7 +33,7 @@ rancher/harvester-cluster-repo:master-head,0,0,0
 rancher/harvester-eventrouter:v0.3.3,0,0,0
 rancher/harvester-load-balancer-webhook:master-head,0,3,3
 rancher/harvester-load-balancer:master-head,0,3,3
-rancher/harvester-network-controller:master-head,0,7,7
+rancher/harvester-network-controller:master-head,0,4,4
 rancher/harvester-network-helper:master-head,0,4,4
 rancher/harvester-network-webhook:master-head,0,4,4
 rancher/harvester-networkfs-manager:main-head,0,3,3
@@ -82,7 +82,7 @@ rancher/rke2-runtime:v1.31.4-rke2r1,0,0,0
 rancher/shell:v0.1.24,1,17,18
 rancher/shell:v0.1.26,0,8,8
 rancher/shell:v0.3.0,0,3,3
-rancher/support-bundle-kit:master-head,0,2,2
+rancher/support-bundle-kit:master-head,0,0,0
 rancher/system-agent-installer-rancher:v2.10.1,0,0,0
 rancher/system-agent-installer-rke2:v1.31.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.11-suc,0,0,0

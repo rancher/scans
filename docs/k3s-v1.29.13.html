@@ -32,10 +32,15 @@ td { padding: 7px; }
 <li>Use the search bar below to filter the results by image (and version/tag),
 if the image is mirrored or made by SUSE (true/false),<br>release, affected
 binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
-SUSE-SU etc.), severity,<br>vulnerability type (related to the programming
+SUSE-SU etc.), severity,<br>status (if affected or not affected/false-positive),
+justification (for false-positives),<br>vulnerability type (related to the programming
 language or container OS).</li>
 <li>The search functionality might execute a bit slow depending on the number of
 vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected" with the severity set to "none",<br>because they do not affect the
+binary/package/image. The justification explains why they are false-positives,<br>
+according to the VEX statuses as explained in <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>.</li>
 <li>For further instructions about scanned versions, scanning frequency, tooling
 and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
 <li>The severity (CVSS rating) of some CVEs in the portal might differ from the
@@ -58,11 +63,25 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(0)">Image</th>
 <th onclick="sort(1)">Mirrored</th>
 <th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Affected Binary</th>
-<th onclick="sort(4)">Vulnerable Dependency</th>
+<th onclick="sort(3)">Binary/Package</th>
+<th onclick="sort(4)">Dependency</th>
 <th onclick="sort(5)">Vulnerability ID (CVE)</th>
 <th onclick="sort(6)">Severity</th>
-<th onclick="sort(7)">Type (Language or OS)</th>
+<th onclick="sort(7)">Status</th>
+<th onclick="sort(8)">Justification (for status not affected)</th>
+<th onclick="sort(9)">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.29.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/k3s:v1.29.13-k3s1</td>
@@ -72,6 +91,44 @@ the distinctive tag '*' close to its severity.</li>
 <td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2023-47108.html">CVE-2023-47108</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.29.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.29.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>bin/k3s</td>
+<td>golang.org/x/net@v0.17.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.29.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>bin/runc</td>
+<td>golang.org/x/net@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
@@ -82,6 +139,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3@3.3.2-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -92,7 +151,81 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.3.2-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.3-build20241008</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/klipper-lb:v0.4.9</td>
@@ -102,6 +235,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3@3.3.1-r3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -112,6 +247,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.3.1-r3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -122,6 +259,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3@3.3.2-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -132,7 +271,57 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.3.2-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.30</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.30</td>
+<td>false</td>
+<td>K3s v1.29.13</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/net@v0.27.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.12.0</td>
+<td>true</td>
+<td>K3s v1.29.13</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.29.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.12.0</td>
+<td>true</td>
+<td>K3s v1.29.13</td>
+<td>coredns</td>
+<td>golang.org/x/net@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-library-traefik:2.11.18</td>
@@ -142,6 +331,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3@3.3.2-r4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -152,6 +343,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.3.2-r4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
 <td>HIGH</td>
+<td>affected</td>
+<td></td>
 <td>alpine</td>
 </tr>
 <tr class="issue">
@@ -161,7 +354,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>metrics-server</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td><div class=cve_sev>MEDIUM *<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.2</td>
+<td>true</td>
+<td>K3s v1.29.13</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.7.2</td>
+<td>true</td>
+<td>K3s v1.29.13</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 
@@ -174,7 +393,8 @@ Commons license with Attribution (CC-BY-4.0). See the
 <script>
 function search() {
     let searchBar, searchCount, query, tr, td;
-    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity, type;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity;
+    let status, justification, type;
 
     searchBar = document.getElementById("searchBar");
     query = searchBar.value.toUpperCase();
@@ -191,12 +411,20 @@ function search() {
         vuln_dep = td[4].textContent.toUpperCase();
         vuln_id= td[5].textContent.toUpperCase();
         severity = td[6].textContent.toUpperCase();
-        type = td[7].textContent.toUpperCase();
+        status = td[7].textContent.toUpperCase();
+        justification = td[8].textContent.toUpperCase();
+        type = td[9].textContent.toUpperCase();
 
-        if (image.includes(query) || mirrored.includes(query) ||
+        // Use startsWith() when searching for the status in order for
+        // `affected` to not match `not affected` entries.
+        if (status.startsWith(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else if (image.includes(query) || mirrored.includes(query) ||
             release.includes(query) || affected_binary.includes(query) ||
             vuln_dep.includes(query) || vuln_id.includes(query) ||
-            severity.includes(query) || type.includes(query)) {
+            severity.includes(query) || justification.includes(query) ||
+            type.includes(query)) {
             tr[i].style.display = "";
             found++;
         } else {
