@@ -27,11 +27,11 @@ rancher/hardened-kubernetes:v1.28.12-rke2r1-build20240717,0,0,0
 rancher/hardened-multus-cni:v4.0.2-build20240612,0,0,0
 rancher/harvester-cluster-repo:v1.3.2,0,6,6
 rancher/harvester-eventrouter:v0.2.0,0,0,0
-rancher/harvester-load-balancer-webhook:v0.3.0,0,7,7
-rancher/harvester-load-balancer:v0.3.0,0,7,7
-rancher/harvester-network-controller:v0.4.1,0,14,14
-rancher/harvester-network-helper:v0.4.1,0,9,9
-rancher/harvester-network-webhook:v0.4.1,0,9,9
+rancher/harvester-load-balancer-webhook:v0.3.0,0,4,4
+rancher/harvester-load-balancer:v0.3.0,0,4,4
+rancher/harvester-network-controller:v0.4.1,0,9,9
+rancher/harvester-network-helper:v0.4.1,0,4,4
+rancher/harvester-network-webhook:v0.4.1,0,4,4
 rancher/harvester-node-disk-manager:v0.6.4,0,5,5
 rancher/harvester-node-manager-webhook:v0.2.1,0,20,20
 rancher/harvester-node-manager:v0.2.1,0,20,20

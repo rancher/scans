@@ -19,7 +19,7 @@ rancher/fleet-agent:v0.10.4,0,0,0
 rancher/fleet:v0.10.4,0,9,9
 rancher/gitjob:v0.9.8,0,15,15
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
-rancher/hardened-calico:v3.29.0-build20241104,0,5,5
+rancher/hardened-calico:v3.29.0-build20241104,0,4,4
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,0,0
 rancher/hardened-cni-plugins:v1.6.0-build20241022,0,0,0
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
