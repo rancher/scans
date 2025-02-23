@@ -43,7 +43,7 @@ rancher/harvester-node-manager-webhook:v0.3.3,0,7,7
 rancher/harvester-node-manager:v0.3.3,0,7,7
 rancher/harvester-pcidevices:v0.4.1,0,4,4
 rancher/harvester-seeder:v0.4.1,0,4,4
-rancher/harvester-upgrade:v1.4.1,0,4,4
+rancher/harvester-upgrade:v1.4.1,0,5,5
 rancher/harvester-vm-import-controller:v0.4.1,0,11,11
 rancher/harvester-webhook:v1.4.1,0,4,4
 rancher/harvester:v1.4.1,0,4,4

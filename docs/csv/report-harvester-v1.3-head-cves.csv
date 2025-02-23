@@ -297,6 +297,7 @@ rancher/harvester-seeder:v0.3.3,harvester/v1.3-head,libtasn1-6,4.13-150000.4.8.1
 rancher/harvester-seeder:v0.3.3,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,rancher/harvester-seeder:v0.3.3 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
 rancher/harvester-seeder:v0.3.3,harvester/v1.3-head,golang.org/x/crypto,v0.14.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,bin/manager,0.31.0,false,not_affected,vulnerable_code_not_present
 rancher/harvester-seeder:v0.3.3,harvester/v1.3-head,golang.org/x/net,v0.17.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,bin/manager,0.33.0,false,not_affected,vulnerable_code_not_present
+rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,helm,3.16.3-150000.1.38.1,sles,SUSE-SU-2025:0602-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),3.17.1-150000.1.41.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libtasn1,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),4.13-150000.4.11.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libtasn1-6,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),4.13-150000.4.11.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,stdlib,v1.22.6,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/kubectl,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
