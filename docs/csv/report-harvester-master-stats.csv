@@ -44,7 +44,7 @@ rancher/harvester-node-manager:master-head,0,3,3
 rancher/harvester-pcidevices:v1.5.0-dev.0,0,2,2
 rancher/harvester-seeder:v1.5.0-dev.0,0,3,3
 rancher/harvester-upgrade:master-head,0,0,0
-rancher/harvester-vm-import-controller:v0.4.1,0,11,11
+rancher/harvester-vm-import-controller:v1.5.0-dev.0,0,0,0
 rancher/harvester-webhook:master-head,0,1,1
 rancher/harvester:master-head,0,1,1
 rancher/klipper-helm:v0.9.3-build20241008,0,0,0
