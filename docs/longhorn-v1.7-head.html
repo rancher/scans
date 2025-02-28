@@ -13,6 +13,7 @@ th { padding: 10px; text-align: center; background-color: #2453ff; color: white;
 th, td { border-bottom: 2px solid #ddd; }
 tr:hover { background-color: #f0f0f1; }
 #cves_table th { cursor: pointer; }
+.not_affected { color: grey; }
 td { padding: 7px; }
 #center_row { text-align: center; }
 /* Tooltip inspired from www.w3schools.com */
@@ -71,7 +72,8 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(8)">Justification (for status not affected)</th>
 <th onclick="sort(9)">Type (language or OS)</th>
 </tr>
-<tr class="issue">
+
+<tr class="issue not_affected">
 <td>longhornio/csi-attacher:v4.8.0</td>
 <td>false</td>
 <td>Longhorn v1.7 head</td>
@@ -83,7 +85,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>longhornio/csi-node-driver-registrar:v2.13.0</td>
 <td>false</td>
 <td>Longhorn v1.7 head</td>
@@ -95,7 +97,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>longhornio/csi-provisioner:v4.0.1-20250204</td>
 <td>false</td>
 <td>Longhorn v1.7 head</td>
@@ -107,7 +109,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>longhornio/csi-snapshotter:v7.0.2-20250204</td>
 <td>false</td>
 <td>Longhorn v1.7 head</td>
@@ -119,7 +121,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>longhornio/livenessprobe:v2.15.0</td>
 <td>false</td>
 <td>Longhorn v1.7 head</td>
@@ -134,9 +136,15 @@ the distinctive tag '*' close to its severity.</li>
 
 </table>
 
-<br><p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
+<footer>
+<p>Note: This page uses embedded JavaScript for filtering and search
+functionalities. If support to JavaScript is disabled in your browser, the page
+will still be usable,<br>but those functions will not work as expected. No external
+code or dependencies are imported by this page.</p>
+<p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
 Commons license with Attribution (CC-BY-4.0). See the
 <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</b></p>
+</footer>
 
 <script>
 function search() {

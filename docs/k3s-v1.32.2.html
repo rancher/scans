@@ -13,6 +13,7 @@ th { padding: 10px; text-align: center; background-color: #2453ff; color: white;
 th, td { border-bottom: 2px solid #ddd; }
 tr:hover { background-color: #f0f0f1; }
 #cves_table th { cursor: pointer; }
+.not_affected { color: grey; }
 td { padding: 7px; }
 #center_row { text-align: center; }
 /* Tooltip inspired from www.w3schools.com */
@@ -72,210 +73,6 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(9)">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>rancher/k3s:v1.32.2-k3s1</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>bin/containerd-shim-runc-v2</td>
-<td>golang.org/x/net@v0.30.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s:v1.32.2-k3s1</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>bin/k3s</td>
-<td>golang.org/x/crypto@v0.24.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s:v1.32.2-k3s1</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>bin/k3s</td>
-<td>golang.org/x/net@v0.26.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s:v1.32.2-k3s1</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>bin/runc</td>
-<td>golang.org/x/net@v0.24.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>libcrypto3</td>
-<td>libcrypto3@3.3.2-r4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code cannot be controlled by adversary</td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>libssl3</td>
-<td>libssl3@3.3.2-r4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code cannot be controlled by adversary</td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>golang.org/x/crypto@v0.26.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>golang.org/x/net@v0.28.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>golang.org/x/crypto@v0.25.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>golang.org/x/net@v0.23.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.4-build20250113</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>usr/bin/helm</td>
-<td>golang.org/x/net@v0.26.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-lb:v0.4.10</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>libcrypto3</td>
-<td>libcrypto3@3.3.2-r4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code cannot be controlled by adversary</td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-lb:v0.4.10</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>libssl3</td>
-<td>libssl3@3.3.2-r4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code cannot be controlled by adversary</td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/local-path-provisioner:v0.0.31</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>libcrypto3</td>
-<td>libcrypto3@3.3.2-r4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code cannot be controlled by adversary</td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/local-path-provisioner:v0.0.31</td>
-<td>false</td>
-<td>K3s v1.32.2</td>
-<td>libssl3</td>
-<td>libssl3@3.3.2-r4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code cannot be controlled by adversary</td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-coredns-coredns:1.12.0</td>
-<td>true</td>
-<td>K3s v1.32.2</td>
-<td>coredns</td>
-<td>golang.org/x/crypto@v0.29.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-coredns-coredns:1.12.0</td>
-<td>true</td>
-<td>K3s v1.32.2</td>
-<td>coredns</td>
-<td>golang.org/x/net@v0.31.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-library-traefik:3.3.2</td>
 <td>true</td>
 <td>K3s v1.32.2</td>
@@ -311,7 +108,212 @@ the distinctive tag '*' close to its severity.</li>
 <td></td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
+
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.32.2-k3s1</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>golang.org/x/net@v0.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.32.2-k3s1</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.32.2-k3s1</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>bin/k3s</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.32.2-k3s1</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>bin/runc</td>
+<td>golang.org/x/net@v0.24.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.3.2-r4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code cannot be controlled by adversary</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>libssl3</td>
+<td>libssl3@3.3.2-r4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code cannot be controlled by adversary</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/net@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/net@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.4-build20250113</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-lb:v0.4.10</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.3.2-r4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code cannot be controlled by adversary</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-lb:v0.4.10</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>libssl3</td>
+<td>libssl3@3.3.2-r4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code cannot be controlled by adversary</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.31</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.3.2-r4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code cannot be controlled by adversary</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.31</td>
+<td>false</td>
+<td>K3s v1.32.2</td>
+<td>libssl3</td>
+<td>libssl3@3.3.2-r4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-12797.html">CVE-2024-12797</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code cannot be controlled by adversary</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-coredns-coredns:1.12.0</td>
+<td>true</td>
+<td>K3s v1.32.2</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.29.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-coredns-coredns:1.12.0</td>
+<td>true</td>
+<td>K3s v1.32.2</td>
+<td>coredns</td>
+<td>golang.org/x/net@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45338.html">CVE-2024-45338</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-metrics-server:v0.7.2</td>
 <td>true</td>
 <td>K3s v1.32.2</td>
@@ -323,7 +325,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>rancher/mirrored-metrics-server:v0.7.2</td>
 <td>true</td>
 <td>K3s v1.32.2</td>
@@ -338,9 +340,15 @@ the distinctive tag '*' close to its severity.</li>
 
 </table>
 
-<br><p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
+<footer>
+<p>Note: This page uses embedded JavaScript for filtering and search
+functionalities. If support to JavaScript is disabled in your browser, the page
+will still be usable,<br>but those functions will not work as expected. No external
+code or dependencies are imported by this page.</p>
+<p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
 Commons license with Attribution (CC-BY-4.0). See the
 <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</b></p>
+</footer>
 
 <script>
 function search() {

@@ -74,9 +74,9 @@ rancher/mirrored-prometheus-prometheus:v2.45.0,0,6,6
 rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/nginx-ingress-controller:v1.10.5-hardened4,0,12,12
-rancher/rancher-agent:v2.9.3,0,8,8
+rancher/rancher-agent:v2.9.3,0,10,10
 rancher/rancher-webhook:v0.5.3,0,1,1
-rancher/rancher:v2.9.3,1,12,13
+rancher/rancher:v2.9.3,1,14,15
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0
 rancher/rke2-runtime:v1.30.7-rke2r1,0,1,1
 rancher/shell:v0.1.24,1,17,18
