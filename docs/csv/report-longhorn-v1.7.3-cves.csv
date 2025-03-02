@@ -1,6 +1,17 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/backing-image-manager:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
 longhornio/csi-attacher:v4.8.0,longhorn/v1.7.3,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-attacher,0.33.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-node-driver-registrar:v2.13.0,longhorn/v1.7.3,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-node-driver-registrar,0.33.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-provisioner:v4.0.1-20250204,longhorn/v1.7.3,golang.org/x/net,v0.19.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-provisioner,0.33.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-snapshotter:v7.0.2-20250204,longhorn/v1.7.3,golang.org/x/net,v0.20.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-snapshotter,0.33.0,false,not_affected,vulnerable_code_not_present
 longhornio/livenessprobe:v2.15.0,longhorn/v1.7.3,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,livenessprobe,0.33.0,false,not_affected,vulnerable_code_not_present
+longhornio/longhorn-cli:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-cli:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/longhorn-engine:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-engine:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/longhorn-instance-manager:v1.7.3,longhorn/v1.7.3,libprocps8,3.3.17-150000.7.39.1,sles,SUSE-SU-2025:0741-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.3 (sles 15.6),3.3.17-150000.7.42.1,false,affected,
+longhornio/longhorn-instance-manager:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/longhorn-instance-manager:v1.7.3,longhorn/v1.7.3,procps,3.3.17-150000.7.39.1,sles,SUSE-SU-2025:0741-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.3 (sles 15.6),3.3.17-150000.7.42.1,false,affected,
+longhornio/longhorn-manager:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-manager:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/longhorn-share-manager:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-share-manager:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/longhorn-ui:v1.7.3,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-ui:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/longhorn-ui:v1.7.3,longhorn/v1.7.3,libxml2-tools,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-ui:v1.7.3 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
+longhornio/support-bundle-kit:v0.0.51,longhorn/v1.7.3,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/support-bundle-kit:v0.0.51 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
