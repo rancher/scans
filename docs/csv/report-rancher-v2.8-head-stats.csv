@@ -6,9 +6,9 @@ rancher/calico-cni:v3.27.4-rancher1,0,15,15
 rancher/cis-operator:v1.1.2,0,0,0
 rancher/eks-operator:v1.3.7,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,21,21
-rancher/fleet-agent:v0.9.15,0,1,1
-rancher/fleet:v0.9.15,0,1,1
-rancher/gitjob:v0.9.21,0,1,1
+rancher/fleet-agent:v0.9.16,0,0,0
+rancher/fleet:v0.9.16,0,0,0
+rancher/gitjob:v0.9.22,0,0,0
 rancher/gke-operator:v1.2.7,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
@@ -87,7 +87,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,31,31
 rancher/longhornio-csi-provisioner:v2.1.2,0,39,39
 rancher/longhornio-csi-resizer:v1.2.0,0,33,33
 rancher/machine:v0.15.0-rancher118,0,9,9
-rancher/mirrored-amazon-aws-cli:2.9.14,0,139,139
+rancher/mirrored-amazon-aws-cli:2.9.14,2,125,127
 rancher/mirrored-appscode-kubed:v0.13.2,1,25,26
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -204,7 +204,7 @@ rancher/mirrored-epinio-epinio-unpacker:v1.10.0,0,8,8
 rancher/mirrored-flannel-flannel:v0.21.4,3,21,24
 rancher/mirrored-flannel-flannel:v0.24.2,0,5,5
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,13,18
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,618,640
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,619,641
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,18,22
 rancher/mirrored-grafana-grafana:10.4.9,0,0,0
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -235,7 +235,7 @@ rancher/mirrored-kiali-kiali:v1.75.0,0,12,12
 rancher/mirrored-kiali-kiali:v1.79.0,0,7,7
 rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,5,7
 rancher/mirrored-kube-logging-config-reloader:v0.0.5,0,2,2
-rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,7,7
+rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,4,4
 rancher/mirrored-kube-logging-logging-operator:4.8.0,0,0,0
 rancher/mirrored-kube-rbac-proxy:v0.14.0,0,13,13
 rancher/mirrored-kube-rbac-proxy:v0.15.0,0,1,1
