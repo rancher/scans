@@ -28,7 +28,7 @@ rancher/hardened-flannel:v0.25.7-build20241008,0,10,10
 rancher/hardened-k8s-metrics-server:v0.7.1-build20241008,0,0,0
 rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,0,0
 rancher/hardened-multus-cni:v4.1.2-build20241011,0,0,0
-rancher/harvester-cluster-repo:v1.3-head,0,3,3
+rancher/harvester-cluster-repo:v1.3-head,0,0,0
 rancher/harvester-eventrouter:v0.3.2,0,0,0
 rancher/harvester-load-balancer-webhook:v0.4.4,0,3,3
 rancher/harvester-load-balancer:v0.4.4,0,3,3

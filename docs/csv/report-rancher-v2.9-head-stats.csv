@@ -280,7 +280,7 @@ rancher/mirrored-flannel-flannel:v0.21.4,3,21,24
 rancher/mirrored-flannel-flannel:v0.24.2,0,5,5
 rancher/mirrored-flannel-flannel:v0.25.1,0,4,4
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,13,18
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,619,641
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,629,651
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,18,22
 rancher/mirrored-grafana-grafana:10.4.9,0,0,0
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -424,7 +424,7 @@ rancher/rancher-webhook:v0.5.7,0,1,1
 rancher/rancher:v2.9-head,1,10,11
 rancher/rke-tools:v0.1.100,2,3,5
 rancher/rke-tools:v0.1.105,0,3,3
-rancher/rke-tools:v0.1.109,0,2,2
+rancher/rke-tools:v0.1.111,0,0,0
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,1,1
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
@@ -465,4 +465,4 @@ rancher/system-agent-installer-rke2:v1.29.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.30.9-rke2r1,0,0,0
 rancher/system-agent:v0.3.10-suc,0,0,0
 rancher/system-upgrade-controller:v0.13.4,0,0,0
-rancher/ui-plugin-catalog:3.4.0,0,4,4
+rancher/ui-plugin-catalog:3.4.1,0,4,4

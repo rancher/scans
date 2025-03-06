@@ -194,7 +194,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,0,5,5
 rancher/mirrored-flannel-flannel:v0.25.1,0,4,4
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,3,4
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,372,377
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,382,387
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,16,20
 rancher/mirrored-grafana-grafana:11.1.0,0,4,4
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -375,4 +375,4 @@ rancher/system-agent-installer-rke2:v1.31.5-rke2r1,0,0,0
 rancher/system-agent:v0.3.11-suc,0,0,0
 rancher/system-upgrade-controller:v0.13.4,0,0,0
 rancher/system-upgrade-controller:v0.14.2,0,0,0
-rancher/ui-plugin-catalog:3.4.0,0,4,4
+rancher/ui-plugin-catalog:3.4.1,0,4,4
