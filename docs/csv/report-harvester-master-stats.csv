@@ -41,7 +41,7 @@ rancher/harvester-node-disk-manager-webhook:master-head,0,0,0
 rancher/harvester-node-disk-manager:master-head,0,0,0
 rancher/harvester-node-manager-webhook:master-head,0,1,1
 rancher/harvester-node-manager:master-head,0,1,1
-rancher/harvester-pcidevices:v1.5.0-dev.0,0,3,3
+rancher/harvester-pcidevices:v1.5.0-dev.1,0,0,0
 rancher/harvester-seeder:v1.5.0-dev.0,0,4,4
 rancher/harvester-upgrade:master-head,0,0,0
 rancher/harvester-vm-import-controller:v1.5.0-dev.0,0,1,1
