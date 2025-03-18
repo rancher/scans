@@ -218,9 +218,9 @@ rancher/prom-prometheus:v2.55.1,0,0,0
 rancher/prometheus-federator:v3.0.0,0,0,0
 rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
-rancher/rancher-agent:head,0,0,0
+rancher/rancher-agent:v2.11-head,0,0,0
 rancher/rancher-csp-adapter:v6.0.0-rc1,0,0,0
-rancher/rancher:head,1,2,3
+rancher/rancher:v2.11-head,1,2,3
 rancher/remotedialer-proxy:v0.4.4-rc.2,0,0,0
 rancher/rke-tools:v0.1.111,0,6,6
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0

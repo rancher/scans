@@ -1,8 +1,3 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/csi-attacher:v4.8.0,longhorn/v1.7-head,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-attacher,0.33.0,false,not_affected,vulnerable_code_not_present
-longhornio/csi-node-driver-registrar:v2.13.0,longhorn/v1.7-head,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-node-driver-registrar,0.33.0,false,not_affected,vulnerable_code_not_present
-longhornio/csi-provisioner:v4.0.1-20250204,longhorn/v1.7-head,golang.org/x/net,v0.19.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-provisioner,0.33.0,false,not_affected,vulnerable_code_not_present
-longhornio/csi-snapshotter:v7.0.2-20250204,longhorn/v1.7-head,golang.org/x/net,v0.20.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,csi-snapshotter,0.33.0,false,not_affected,vulnerable_code_not_present
-longhornio/livenessprobe:v2.15.0,longhorn/v1.7-head,golang.org/x/net,v0.32.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,livenessprobe,0.33.0,false,not_affected,vulnerable_code_not_present
 longhornio/longhorn-instance-manager:v1.7.x-head,longhorn/v1.7-head,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.x-head (sles 15.6),2.10.3-150500.5.23.1,false,affected,
 longhornio/support-bundle-kit:v0.0.51,longhorn/v1.7-head,libxml2-2,2.10.3-150500.5.20.1,sles,SUSE-SU-2025:0746-1,HIGH,,longhornio/support-bundle-kit:v0.0.51 (sles 15.6),2.10.3-150500.5.23.1,false,affected,
