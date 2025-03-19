@@ -34,7 +34,7 @@ rancher/hardened-cni-plugins:v1.6.2-build20250124,0,0,0
 rancher/hardened-coredns:v1.11.1-build20240305,0,4,4
 rancher/hardened-coredns:v1.11.1-build20240910,0,2,2
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
-rancher/hardened-coredns:v1.12.0-build20241126,0,0,0
+rancher/hardened-coredns:v1.12.0-build20241126,0,1,1
 rancher/hardened-dns-node-cache:1.22.28-build20240125,0,5,5
 rancher/hardened-dns-node-cache:1.23.1-build20240910,0,2,2
 rancher/hardened-dns-node-cache:1.23.1-build20241008,0,2,2
@@ -295,7 +295,7 @@ rancher/mirrored-cluster-proportional-autoscaler:v1.8.9,0,2,2
 rancher/mirrored-coredns-coredns:1.10.1,0,11,11
 rancher/mirrored-coredns-coredns:1.11.1,0,3,3
 rancher/mirrored-coredns-coredns:1.11.3,0,0,0
-rancher/mirrored-coredns-coredns:1.12.0,0,0,0
+rancher/mirrored-coredns-coredns:1.12.0,0,1,1
 rancher/mirrored-coreos-etcd:v3.5.10,0,1,1
 rancher/mirrored-coreos-etcd:v3.5.12,0,0,0
 rancher/mirrored-curlimages-curl:7.85.0,0,12,12
@@ -493,4 +493,4 @@ rancher/system-agent-installer-rke2:v1.29.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.30.10-rke2r1,0,0,0
 rancher/system-agent:v0.3.10-suc,0,0,0
 rancher/system-upgrade-controller:v0.13.4,0,0,0
-rancher/ui-plugin-catalog:3.4.2,0,4,4
+rancher/ui-plugin-catalog:3.4.3,0,4,4
