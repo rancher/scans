@@ -1,6 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-rancher/aks-operator:v1.10.3-rc.1,rancher/v2.10-head,github.com/golang-jwt/jwt/v4,v4.5.1,gobinary,CVE-2025-30204,HIGH,https://avd.aquasec.com/nvd/cve-2025-30204,usr/bin/aks-operator,4.5.2,false,affected,
-rancher/aks-operator:v1.10.3-rc.1,rancher/v2.10-head,github.com/golang-jwt/jwt/v5,v5.2.1,gobinary,CVE-2025-30204,HIGH,https://avd.aquasec.com/nvd/cve-2025-30204,usr/bin/aks-operator,5.2.2,false,affected,
+rancher/aks-operator:v1.10.3,rancher/v2.10-head,github.com/golang-jwt/jwt/v4,v4.5.1,gobinary,CVE-2025-30204,HIGH,https://avd.aquasec.com/nvd/cve-2025-30204,usr/bin/aks-operator,4.5.2,false,affected,
+rancher/aks-operator:v1.10.3,rancher/v2.10-head,github.com/golang-jwt/jwt/v5,v5.2.1,gobinary,CVE-2025-30204,HIGH,https://avd.aquasec.com/nvd/cve-2025-30204,usr/bin/aks-operator,5.2.2,false,affected,
 rancher/backup-restore-operator:v6.0.1,rancher/v2.10-head,golang.org/x/crypto,v0.27.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,usr/bin/backup-restore-operator,0.31.0,false,not_affected,vulnerable_code_not_present
 rancher/calico-cni:v3.27.4-rancher1,rancher/v2.10-head,stdlib,v1.22.5,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,opt/cni/bin/bandwidth,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/calico-cni:v3.27.4-rancher1,rancher/v2.10-head,stdlib,v1.21.12,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,opt/cni/bin/calico,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
