@@ -30,9 +30,9 @@ rancher/hardened-whereabouts:v0.8.0-build20241011,0,0,0
 rancher/hardened-whereabouts:v0.8.0-build20250131,0,0,0
 rancher/harvester-cloud-provider:v0.2.4,0,4,4
 rancher/harvester-csi-driver:v0.2.2,0,5,5
-rancher/hyperkube:v1.30.10-rancher1,0,0,0
-rancher/hyperkube:v1.31.6-rancher1,0,0,0
-rancher/hyperkube:v1.32.2-rancher1,0,0,0
+rancher/hyperkube:v1.30.11-rancher1,0,0,0
+rancher/hyperkube:v1.31.7-rancher1,0,0,0
+rancher/hyperkube:v1.32.3-rancher1,0,0,0
 rancher/istio-installer:1.22.1-rancher1,0,23,23
 rancher/istio-installer:1.23.2-rancher1,0,7,7
 rancher/istio-installer:1.24.1-rancher1,0,5,5
@@ -126,12 +126,12 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,0,4,4
 rancher/mirrored-flannel-flannel:v0.26.4,0,2,2
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,3,4
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,401,406
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,402,407
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,25,29
 rancher/mirrored-grafana-grafana:10.4.9,0,2,2
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
-rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.1,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.0,0,0,0
+rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,0,0
@@ -218,8 +218,8 @@ rancher/neuvector-prometheus-exporter:1.0.2,0,8,8
 rancher/neuvector-registry-adapter:0.1.6,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.2,0,0,0
-rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,6,6
-rancher/nginx-ingress-controller:nginx-1.12.0-rancher1,0,6,6
+rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,0,0
+rancher/nginx-ingress-controller:nginx-1.12.1-rancher1,0,0,0
 rancher/nginx-ingress-controller:v1.12.0-hardened2,0,6,6
 rancher/nginx-ingress-controller:v1.12.0-hardened6,0,2,2
 rancher/prom-prometheus:v2.55.1,0,2,2
@@ -228,7 +228,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:head,0,2,2
 rancher/rancher-csp-adapter:v6.0.0,0,0,0
-rancher/rancher-webhook:v0.7.0-rc.10,0,0,0
+rancher/rancher-webhook:v0.7.0-rc.11,0,0,0
 rancher/rancher:head,0,7,7
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke-tools:v0.1.111,0,7,7
