@@ -22,6 +22,7 @@ rancher/hardened-calico:v3.29.0-build20241104,0,5,5
 rancher/hardened-calico:v3.29.1-build20241211,0,4,4
 rancher/hardened-calico:v3.29.1-build20250110,0,4,4
 rancher/hardened-calico:v3.29.2-build20250218,0,1,1
+rancher/hardened-calico:v3.29.2-build20250306,0,0,0
 rancher/hardened-cluster-autoscaler:v1.8.10-build20240124,0,1,1
 rancher/hardened-cluster-autoscaler:v1.8.11-build20240910,0,0,0
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,0,0
@@ -31,6 +32,7 @@ rancher/hardened-cni-plugins:v1.5.1-build20240910,0,0,0
 rancher/hardened-cni-plugins:v1.5.1-build20241009,0,0,0
 rancher/hardened-cni-plugins:v1.6.0-build20241022,0,0,0
 rancher/hardened-cni-plugins:v1.6.2-build20250124,0,0,0
+rancher/hardened-cni-plugins:v1.6.2-build20250306,0,0,0
 rancher/hardened-coredns:v1.11.1-build20240305,0,4,4
 rancher/hardened-coredns:v1.11.1-build20240910,0,2,2
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
@@ -43,6 +45,7 @@ rancher/hardened-etcd:v3.5.13-k3s1-build20240531,0,2,2
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
 rancher/hardened-etcd:v3.5.16-k3s1-build20241106,0,0,0
 rancher/hardened-etcd:v3.5.18-k3s1-build20250210,0,0,0
+rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,0,0
 rancher/hardened-flannel:v0.25.5-build20240801,0,19,19
 rancher/hardened-flannel:v0.25.6-build20240910,0,13,13
 rancher/hardened-flannel:v0.25.7-build20241008,0,10,10
@@ -51,6 +54,7 @@ rancher/hardened-flannel:v0.26.1-build20241107,0,10,10
 rancher/hardened-flannel:v0.26.1-build20241211,0,5,5
 rancher/hardened-flannel:v0.26.3-build20250108,0,4,4
 rancher/hardened-flannel:v0.26.4-build20250218,0,1,1
+rancher/hardened-flannel:v0.26.5-build20250306,0,0,0
 rancher/hardened-ib-sriov-cni:v1.0.3-build20240327,0,19,19
 rancher/hardened-ib-sriov-cni:v1.1.1-build20240816,0,12,12
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240401,0,0,0
@@ -59,8 +63,8 @@ rancher/hardened-k8s-metrics-server:v0.7.1-build20241008,0,0,0
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
 rancher/hardened-kubernetes:v1.27.16-rke2r2-build20240819,0,0,0
 rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,0,0
-rancher/hardened-kubernetes:v1.29.14-rke2r1-build20250213,0,1,1
-rancher/hardened-kubernetes:v1.30.10-rke2r1-build20250213,0,1,1
+rancher/hardened-kubernetes:v1.29.15-rke2r1-build20250312,0,0,0
+rancher/hardened-kubernetes:v1.30.11-rke2r1-build20250312,0,0,0
 rancher/hardened-multus-cni:v4.0.2-build20240612,0,0,0
 rancher/hardened-multus-cni:v4.1.0-build20240910,0,0,0
 rancher/hardened-multus-cni:v4.1.2-build20241011,0,0,0
@@ -95,21 +99,22 @@ rancher/harvester-csi-driver:v0.2.1,0,5,5
 rancher/harvester-csi-driver:v0.2.2,0,5,5
 rancher/hyperkube:v1.27.16-rancher1,0,0,0
 rancher/hyperkube:v1.28.15-rancher1,0,0,0
-rancher/hyperkube:v1.29.14-rancher1,0,0,0
-rancher/hyperkube:v1.30.10-rancher1,0,0,0
+rancher/hyperkube:v1.29.15-rancher1,0,0,0
+rancher/hyperkube:v1.30.11-rancher1,0,0,0
 rancher/istio-installer:1.19.6-rancher1,0,25,25
 rancher/istio-installer:1.21.1-rancher1,0,25,25
 rancher/istio-installer:1.22.1-rancher1,0,25,25
 rancher/istio-installer:1.23.2-rancher1,0,8,8
 rancher/k3s-upgrade:v1.27.16-k3s1,0,4,4
 rancher/k3s-upgrade:v1.28.15-k3s1,0,0,0
-rancher/k3s-upgrade:v1.29.14-k3s1,0,0,0
-rancher/k3s-upgrade:v1.30.10-k3s1,0,0,0
+rancher/k3s-upgrade:v1.29.15-k3s1,0,0,0
+rancher/k3s-upgrade:v1.30.11-k3s1,0,0,0
 rancher/klipper-helm:v0.8.4-build20240523,0,54,54
 rancher/klipper-helm:v0.9.2-build20240828,0,1,1
 rancher/klipper-helm:v0.9.3-build20241008,0,0,0
 rancher/klipper-helm:v0.9.4-build20250113,0,0,0
 rancher/klipper-lb:v0.4.10,0,0,0
+rancher/klipper-lb:v0.4.13,0,0,0
 rancher/klipper-lb:v0.4.9,0,0,0
 rancher/kube-api-auth:v0.2.2,0,0,0
 rancher/kubectl:v1.20.2,0,25,25
@@ -233,6 +238,7 @@ rancher/mirrored-cilium-cilium-envoy:v1.29.9-1728346947-0d05e48bfbb8c4737ec40d57
 rancher/mirrored-cilium-cilium-envoy:v1.30.7-1731393961-97edc2815e2c6a174d3d12e71731d54f5d32ea16,0,0,0
 rancher/mirrored-cilium-cilium-envoy:v1.30.8-1733837904-eaae5aca0fb988583e5617170a65ac5aa51c0aa8,0,0,0
 rancher/mirrored-cilium-cilium-envoy:v1.31.5-1737535524-fe8efeb16a7d233bffd05af9ea53599340d3f18e,0,0,0
+rancher/mirrored-cilium-cilium-envoy:v1.31.5-1739264036-958bef243c6c66fcfd73ca319f2eb49fff1eb2ae,0,0,0
 rancher/mirrored-cilium-cilium:v1.16.0,0,0,0
 rancher/mirrored-cilium-cilium:v1.16.1,0,0,0
 rancher/mirrored-cilium-cilium:v1.16.2,0,0,0
@@ -240,6 +246,7 @@ rancher/mirrored-cilium-cilium:v1.16.3,0,0,0
 rancher/mirrored-cilium-cilium:v1.16.4,0,0,0
 rancher/mirrored-cilium-cilium:v1.16.5,0,0,0
 rancher/mirrored-cilium-cilium:v1.17.0,0,0,0
+rancher/mirrored-cilium-cilium:v1.17.1,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.0,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.1,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.2,0,0,0
@@ -247,6 +254,7 @@ rancher/mirrored-cilium-clustermesh-apiserver:v1.16.3,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.4,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.5,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.0,0,0,0
+rancher/mirrored-cilium-clustermesh-apiserver:v1.17.1,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.0,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.1,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.2,0,0,0
@@ -254,6 +262,7 @@ rancher/mirrored-cilium-hubble-relay:v1.16.3,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.4,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.16.5,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.17.0,0,0,0
+rancher/mirrored-cilium-hubble-relay:v1.17.1,0,0,0
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.1,0,1,1
 rancher/mirrored-cilium-hubble-ui:v0.13.0,0,0,0
 rancher/mirrored-cilium-hubble-ui:v0.13.1,0,0,0
@@ -264,6 +273,7 @@ rancher/mirrored-cilium-operator-aws:v1.16.3,0,0,0
 rancher/mirrored-cilium-operator-aws:v1.16.4,0,0,0
 rancher/mirrored-cilium-operator-aws:v1.16.5,0,0,0
 rancher/mirrored-cilium-operator-aws:v1.17.0,0,0,0
+rancher/mirrored-cilium-operator-aws:v1.17.1,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.15.5,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.16.0,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.16.1,0,0,0
@@ -272,6 +282,7 @@ rancher/mirrored-cilium-operator-azure:v1.16.3,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.16.4,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.16.5,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.17.0,0,0,0
+rancher/mirrored-cilium-operator-azure:v1.17.1,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.16.0,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.16.1,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.16.2,0,0,0
@@ -279,6 +290,7 @@ rancher/mirrored-cilium-operator-generic:v1.16.3,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.16.4,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.16.5,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.17.0,0,0,0
+rancher/mirrored-cilium-operator-generic:v1.17.1,0,0,0
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,12,12
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,7,7
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,3,3
@@ -313,6 +325,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.1,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.4,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.0,0,0,0
+rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794,0,7,7
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20231011-8b53cabe0,0,1,1
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20231226-1a7112e06,0,0,0
@@ -433,6 +446,7 @@ rancher/neuvector-registry-adapter:0.1.6,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.2,0,0,0
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,6,6
+rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,0,0
 rancher/nginx-ingress-controller:nginx-1.9.4-rancher1,0,9,9
 rancher/nginx-ingress-controller:v1.10.4-hardened2,0,25,25
 rancher/nginx-ingress-controller:v1.10.4-hardened3,0,20,20
@@ -441,6 +455,7 @@ rancher/nginx-ingress-controller:v1.10.5-hardened4,0,14,14
 rancher/nginx-ingress-controller:v1.10.5-hardened6,0,9,9
 rancher/nginx-ingress-controller:v1.12.0-hardened2,0,6,6
 rancher/nginx-ingress-controller:v1.12.0-hardened6,0,2,2
+rancher/nginx-ingress-controller:v1.12.1-hardened1,0,0,0
 rancher/prometheus-federator:v0.4.4,0,2,2
 rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
@@ -459,12 +474,12 @@ rancher/rke2-cloud-provider:v1.29.8-build20240910,0,1,1
 rancher/rke2-cloud-provider:v1.30.4-build20240910,0,1,1
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0
 rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
-rancher/rke2-runtime:v1.29.14-rke2r1,0,0,0
-rancher/rke2-runtime:v1.30.10-rke2r1,0,0,0
+rancher/rke2-runtime:v1.29.15-rke2r1,0,0,0
+rancher/rke2-runtime:v1.30.11-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
-rancher/rke2-upgrade:v1.29.14-rke2r1,0,0,0
-rancher/rke2-upgrade:v1.30.10-rke2r1,0,0,0
+rancher/rke2-upgrade:v1.29.15-rke2r1,0,0,0
+rancher/rke2-upgrade:v1.30.11-rke2r1,0,0,0
 rancher/security-scan:v0.4.4,0,0,0
 rancher/shell:v0.2.1,0,8,8
 rancher/shell:v0.2.4,0,0,0
@@ -477,8 +492,8 @@ rancher/system-agent-installer-k3s:v1.25.16-k3s4,0,0,0
 rancher/system-agent-installer-k3s:v1.26.15-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.27.16-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.28.15-k3s1,0,0,0
-rancher/system-agent-installer-k3s:v1.29.14-k3s1,0,0,0
-rancher/system-agent-installer-k3s:v1.30.10-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.29.15-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.30.11-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.21.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.22.17-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.23.17-rke2r1,0,0,0
@@ -487,8 +502,8 @@ rancher/system-agent-installer-rke2:v1.25.16-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.26.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.27.16-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.28.15-rke2r1,0,0,0
-rancher/system-agent-installer-rke2:v1.29.14-rke2r1,0,0,0
-rancher/system-agent-installer-rke2:v1.30.10-rke2r1,0,0,0
+rancher/system-agent-installer-rke2:v1.29.15-rke2r1,0,0,0
+rancher/system-agent-installer-rke2:v1.30.11-rke2r1,0,0,0
 rancher/system-agent:v0.3.10-suc,0,0,0
 rancher/system-upgrade-controller:v0.13.4,0,0,0
 rancher/ui-plugin-catalog:3.4.3,0,5,5
