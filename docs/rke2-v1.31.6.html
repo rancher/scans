@@ -97,42 +97,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/hardened-coredns:v1.12.0-build20241126</td>
-<td>false</td>
-<td>RKE2 v1.31.6</td>
-<td>coredns</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-etcd:v3.5.18-k3s1-build20250210</td>
-<td>false</td>
-<td>RKE2 v1.31.6</td>
-<td>usr/local/bin/etcd</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-etcd:v3.5.18-k3s1-build20250210</td>
-<td>false</td>
-<td>RKE2 v1.31.6</td>
-<td>usr/local/bin/etcdctl</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/hardened-flannel:v0.26.4-build20250218</td>
 <td>false</td>
 <td>RKE2 v1.31.6</td>
@@ -180,19 +144,19 @@ the distinctive tag '*' close to its severity.</li>
 <td></td>
 <td>sles</td>
 </tr>
-<tr class="issue">
-<td>rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016</td>
+
+<tr class="issue not_affected">
+<td>rancher/hardened-coredns:v1.12.0-build20241126</td>
 <td>false</td>
 <td>RKE2 v1.31.6</td>
-<td>usr/local/bin/rke2-cloud-provider</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.0</td>
+<td>coredns</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
-
 <tr class="issue not_affected">
 <td>rancher/hardened-coredns:v1.12.0-build20241126</td>
 <td>false</td>
@@ -215,6 +179,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.5.18-k3s1-build20250210</td>
+<td>false</td>
+<td>RKE2 v1.31.6</td>
+<td>usr/local/bin/etcd</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.5.18-k3s1-build20250210</td>
+<td>false</td>
+<td>RKE2 v1.31.6</td>
+<td>usr/local/bin/etcdctl</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -408,6 +396,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>not affected</td>
 <td>vulnerable code cannot be controlled by adversary</td>
 <td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016</td>
+<td>false</td>
+<td>RKE2 v1.31.6</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016</td>

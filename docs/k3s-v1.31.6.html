@@ -73,60 +73,12 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(9)">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>rancher/k3s:v1.31.6-k3s1</td>
-<td>false</td>
-<td>K3s v1.31.6</td>
-<td>bin/k3s</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-coredns-coredns:1.12.0</td>
 <td>true</td>
 <td>K3s v1.31.6</td>
 <td>coredns</td>
 <td>github.com/expr-lang/expr@v1.16.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-29786.html">CVE-2025-29786</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-coredns-coredns:1.12.0</td>
-<td>true</td>
-<td>K3s v1.31.6</td>
-<td>coredns</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-library-traefik:2.11.20</td>
-<td>true</td>
-<td>K3s v1.31.6</td>
-<td>usr/local/bin/traefik</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-library-traefik:2.11.20</td>
-<td>true</td>
-<td>K3s v1.31.6</td>
-<td>usr/local/bin/traefik</td>
-<td>github.com/golang-jwt/jwt/v5@v5.2.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -145,6 +97,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.31.6-k3s1</td>
+<td>false</td>
+<td>K3s v1.31.6</td>
+<td>bin/k3s</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
 <tr class="issue not_affected">
 <td>rancher/k3s:v1.31.6-k3s1</td>
 <td>false</td>
@@ -258,11 +222,47 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>K3s v1.31.6</td>
 <td>coredns</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-coredns-coredns:1.12.0</td>
+<td>true</td>
+<td>K3s v1.31.6</td>
+<td>coredns</td>
 <td>golang.org/x/crypto@v0.29.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:2.11.20</td>
+<td>true</td>
+<td>K3s v1.31.6</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/golang-jwt/jwt/v4@v4.5.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:2.11.20</td>
+<td>true</td>
+<td>K3s v1.31.6</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/golang-jwt/jwt/v5@v5.2.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

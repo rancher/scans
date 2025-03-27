@@ -1,1 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libfreetype6,2.10.4-150000.4.15.1,sles,SUSE-SU-2025:0998-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),2.10.4-150000.4.18.1,false,affected,

@@ -11,5 +11,5 @@ longhornio/longhorn-engine:v1.8.1,0,0,0
 longhornio/longhorn-instance-manager:v1.8.1,0,0,0
 longhornio/longhorn-manager:v1.8.1,0,0,0
 longhornio/longhorn-share-manager:v1.8.1,0,0,0
-longhornio/longhorn-ui:v1.8.1,0,0,0
+longhornio/longhorn-ui:v1.8.1,0,1,1
 longhornio/support-bundle-kit:v0.0.52,0,0,0
