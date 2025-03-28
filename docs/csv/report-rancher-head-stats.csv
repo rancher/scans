@@ -40,6 +40,7 @@ rancher/hyperkube:v1.32.3-rancher1,0,0,0
 rancher/istio-installer:1.22.1-rancher1,0,25,25
 rancher/istio-installer:1.23.2-rancher1,0,8,8
 rancher/istio-installer:1.24.1-rancher1,0,6,6
+rancher/istio-installer:1.25.0-rancher1,0,0,0
 rancher/k3s-upgrade:v1.30.11-k3s1,0,0,0
 rancher/k3s-upgrade:v1.31.7-k3s1,0,0,0
 rancher/k3s-upgrade:v1.32.3-k3s1,0,0,0
@@ -138,7 +139,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,0,4,4
 rancher/mirrored-flannel-flannel:v0.26.4,0,2,2
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,3,4
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,402,407
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,403,408
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,25,29
 rancher/mirrored-grafana-grafana:10.4.9,0,0,0
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -147,15 +148,19 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,0,0
+rancher/mirrored-istio-install-cni:1.25.0-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,0,0
+rancher/mirrored-istio-pilot:1.25.0-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,0,0
+rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,0,0
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,3,3
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,0,2,2
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,0,2,2
+rancher/mirrored-jaegertracing-all-in-one:1.67.0,0,0,0
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,0,0
 rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,2,2
 rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,0,0
@@ -164,6 +169,7 @@ rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
 rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
 rancher/mirrored-kiali-kiali:v2.1.0,0,8,8
+rancher/mirrored-kiali-kiali:v2.7.1,0,8,8
 rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,6,8
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,4,4
@@ -280,6 +286,6 @@ rancher/system-agent-installer-rke2:v1.29.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.30.11-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.31.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.3-rke2r1,0,0,0
-rancher/system-agent:v0.3.12-rc.1-suc,0,0,0
+rancher/system-agent:v0.3.12-suc,0,0,0
 rancher/system-upgrade-controller:v0.15.2,0,0,0
 rancher/ui-plugin-catalog:3.4.3,0,5,5
