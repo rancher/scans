@@ -118,7 +118,6 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/klipper-lb:v0.4.9,0,0,0
 rancher/kube-api-auth:v0.2.2,0,0,0
 rancher/kubectl:v1.20.2,0,25,25
-rancher/kubectl:v1.22.6,0,18,18
 rancher/kubectl:v1.23.3,0,18,18
 rancher/kubectl:v1.29.0,0,0,0
 rancher/kubectl:v1.29.14,0,0,0
@@ -436,7 +435,6 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,0,16,16
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
-rancher/mirrored-sigwindowstools-k8s-gmsa-webhook:v0.3.0,0,27,27
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,0,0
 rancher/mirrored-thanos-thanos:v0.34.1,0,0,0
 rancher/neuvector-compliance-config:1.0.4,0,0,0
@@ -463,7 +461,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.9-head,0,9,9
 rancher/rancher-csp-adapter:v4.0.0,0,1,1
-rancher/rancher-webhook:v0.5.8-rc.3,0,1,1
+rancher/rancher-webhook:v0.5.8,0,1,1
 rancher/rancher:v2.9-head,0,13,13
 rancher/rke-tools:v0.1.100,2,9,11
 rancher/rke-tools:v0.1.105,0,9,9

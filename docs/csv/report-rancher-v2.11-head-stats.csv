@@ -40,7 +40,6 @@ rancher/hyperkube:v1.32.3-rancher1,0,0,0
 rancher/istio-installer:1.22.1-rancher1,0,25,25
 rancher/istio-installer:1.23.2-rancher1,0,8,8
 rancher/istio-installer:1.24.1-rancher1,0,6,6
-rancher/istio-installer:1.25.0-rancher1,0,0,0
 rancher/k3s-upgrade:v1.30.11-k3s1,0,0,0
 rancher/k3s-upgrade:v1.31.7-k3s1,0,0,0
 rancher/k3s-upgrade:v1.32.3-k3s1,0,0,0
@@ -148,19 +147,15 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,0,0
-rancher/mirrored-istio-install-cni:1.25.0-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,0,0
-rancher/mirrored-istio-pilot:1.25.0-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,0,0
 rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,0,0
-rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,0,0
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,3,3
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,0,2,2
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,0,2,2
-rancher/mirrored-jaegertracing-all-in-one:1.67.0,0,0,0
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,0,0
 rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,2,2
 rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,0,0
@@ -169,7 +164,6 @@ rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
 rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
 rancher/mirrored-kiali-kiali:v2.1.0,0,8,8
-rancher/mirrored-kiali-kiali:v2.7.1,0,8,8
 rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,6,8
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,4,4
@@ -247,7 +241,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.11-head,0,2,2
 rancher/rancher-csp-adapter:v6.0.0,0,0,0
-rancher/rancher-webhook:v0.7.0-rc.12,0,0,0
+rancher/rancher-webhook:v0.7.0,0,0,0
 rancher/rancher:v2.11-head,0,3,3
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke-tools:v0.1.111,0,6,6
