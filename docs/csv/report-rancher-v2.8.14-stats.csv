@@ -325,10 +325,10 @@ rancher/pause:3.6,0,0,0
 rancher/prometheus-federator:v0.3.4,0,10,10
 rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
-rancher/rancher-agent:v2.8-head,0,23,23
+rancher/rancher-agent:v2.8.14,0,3,3
 rancher/rancher-csp-adapter:v3.0.1,0,2,2
 rancher/rancher-webhook:v0.4.17,0,1,1
-rancher/rancher:v2.8-head,1,52,53
+rancher/rancher:v2.8.14,0,24,24
 rancher/rke-tools:v0.1.100,2,9,11
 rancher/rke-tools:v0.1.105,0,9,9
 rancher/rke-tools:v0.1.96,2,212,214

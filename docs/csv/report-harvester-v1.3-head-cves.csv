@@ -1065,6 +1065,7 @@ rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/apiserver,v0.0.0-2
 rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/norman,v0.0.0-20240206180703-6eda4bc94b4c,gobinary,CVE-2023-32193,HIGH,https://avd.aquasec.com/nvd/cve-2023-32193,usr/bin/rancher,0.0.0-20240207153100-3bb70b772b52,false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/rancher,v2.8.5,gobinary,CVE-2023-32197,CRITICAL,https://avd.aquasec.com/nvd/cve-2023-32197,usr/bin/rancher,"2.8.9, 2.9.3",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/rancher,v2.8.5,gobinary,CVE-2024-22036,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-22036,usr/bin/rancher,"2.7.16, 2.8.9, 2.9.3",false,affected,
+rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/rancher,v2.8.5,gobinary,CVE-2025-23391,CRITICAL,https://avd.aquasec.com/nvd/cve-2025-23391,usr/bin/rancher,"2.8.14, 2.9.8, 2.10.4",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/rancher,v2.8.5,gobinary,CVE-2022-45157,HIGH,https://avd.aquasec.com/nvd/cve-2022-45157,usr/bin/rancher,"2.9.3, 2.8.9",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/rancher,v2.8.5,gobinary,CVE-2024-22030,HIGH,https://avd.aquasec.com/nvd/cve-2024-22030,usr/bin/rancher,"2.7.15, 2.8.8, 2.9.2",false,affected,
 rancher/rancher:v2.8.5,harvester/v1.3-head,github.com/rancher/rancher,v2.8.5,gobinary,CVE-2025-23388,HIGH,https://avd.aquasec.com/nvd/cve-2025-23388,usr/bin/rancher,"2.8.13, 2.9.7, 2.10.3",false,affected,
