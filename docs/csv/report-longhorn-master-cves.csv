@@ -1,6 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:master-head,longhorn/master,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.6),5.4.1-150600.3.3.1,false,affected,
-longhornio/longhorn-engine:master-head,longhorn/master,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/longhorn-engine:master-head (sles 15.6),5.4.1-150600.3.3.1,false,affected,
-longhornio/longhorn-instance-manager:master-head,longhorn/master,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/longhorn-instance-manager:master-head (sles 15.6),5.4.1-150600.3.3.1,false,affected,
-longhornio/longhorn-share-manager:master-head,longhorn/master,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.6),5.4.1-150600.3.3.1,false,affected,
 longhornio/support-bundle-kit:v0.0.53,longhorn/master,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/support-bundle-kit:v0.0.53 (sles 15.6),5.4.1-150600.3.3.1,false,affected,
