@@ -229,7 +229,6 @@ rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.10-head,stdlib,v1.21.7,gobinary,C
 rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.10-head,stdlib,v1.21.7,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,opt/cni/bin/vlan,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.10-head,stdlib,v1.21.7,gobinary,CVE-2023-45288,MEDIUM,https://avd.aquasec.com/nvd/cve-2023-45288,opt/cni/bin/vlan,"1.21.9, 1.22.2",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.10-head,stdlib,v1.21.7,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,opt/cni/bin/vlan,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
-rancher/fleet:v0.11.5,rancher/v2.10-head,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,rancher/fleet:v0.11.5 (sles 15.6),5.4.1-150600.3.3.1,false,affected,
 rancher/hardened-calico:v3.28.1-build20240911,rancher/v2.10-head,libglib-2_0-0,2.78.6-150600.4.3.1,sles,SUSE-SU-2024:4254-1,HIGH,,rancher/hardened-calico:v3.28.1-build20240911 (sles 15.6),2.78.6-150600.4.8.1,false,affected,
 rancher/hardened-calico:v3.28.1-build20240911,rancher/v2.10-head,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,rancher/hardened-calico:v3.28.1-build20240911 (sles 15.6),5.4.1-150600.3.3.1,false,affected,
 rancher/hardened-calico:v3.28.1-build20240911,rancher/v2.10-head,libopenssl-3-fips-provider,3.1.4-150600.5.15.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/hardened-calico:v3.28.1-build20240911 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
@@ -2749,7 +2748,6 @@ rancher/rke2-upgrade:v1.30.11-rke2r1,rancher/v2.10-head,go.opentelemetry.io/cont
 rancher/rke2-upgrade:v1.30.11-rke2r1,rancher/v2.10-head,golang.org/x/crypto,v0.17.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,opt/rke2,0.31.0,false,not_affected,vulnerable_code_not_present
 rancher/rke2-upgrade:v1.31.7-rke2r1,rancher/v2.10-head,github.com/golang-jwt/jwt/v4,v4.5.1,gobinary,CVE-2025-30204,HIGH,https://avd.aquasec.com/nvd/cve-2025-30204,opt/rke2,4.5.2,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rke2-upgrade:v1.31.7-rke2r1,rancher/v2.10-head,golang.org/x/crypto,v0.24.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,opt/rke2,0.31.0,false,not_affected,vulnerable_code_not_present
-rancher/security-scan:v0.5.5,rancher/v2.10-head,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,rancher/security-scan:v0.5.5 (sles 15.6),5.4.1-150600.3.3.1,false,affected,
 rancher/shell:v0.2.1,rancher/v2.10-head,curl,8.6.0-150600.2.2,sles,SUSE-SU-2024:2784-1,HIGH,,rancher/shell:v0.2.1 (sles 15.6),8.6.0-150600.4.3.1,false,affected,
 rancher/shell:v0.2.1,rancher/v2.10-head,libcurl4,8.6.0-150600.2.2,sles,SUSE-SU-2024:2784-1,HIGH,,rancher/shell:v0.2.1 (sles 15.6),8.6.0-150600.4.3.1,false,affected,
 rancher/shell:v0.2.1,rancher/v2.10-head,libopenssl3,3.1.4-150600.5.7.1,sles,SUSE-SU-2024:2635-1,HIGH,,rancher/shell:v0.2.1 (sles 15.6),3.1.4-150600.5.10.1,false,affected,

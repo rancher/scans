@@ -4,12 +4,12 @@ rancher/backup-restore-operator:v6.0.2-rc.1,0,0,0
 rancher/calico-cni:v3.27.4-rancher1,0,15,15
 rancher/calico-cni:v3.28.1-rancher1,0,15,15
 rancher/calico-cni:v3.29.0-rancher1,0,15,15
-rancher/cis-operator:v1.3.7,0,0,0
+rancher/cis-operator:v1.3.8-rc.1,0,0,0
 rancher/eks-operator:v1.10.3,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,21,21
 rancher/flannel-cni:v1.4.1-rancher1,0,0,0
-rancher/fleet-agent:v0.11.5,0,0,0
-rancher/fleet:v0.11.5,0,1,1
+rancher/fleet-agent:v0.11.6-beta.1,0,0,0
+rancher/fleet:v0.11.6-beta.1,0,0,0
 rancher/gke-operator:v1.10.3,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
@@ -89,7 +89,7 @@ rancher/kube-api-auth:v0.2.4,0,0,0
 rancher/kubectl:v1.23.3,0,18,18
 rancher/kubectl:v1.29.0,0,0,0
 rancher/kubectl:v1.29.2,0,0,0
-rancher/kubectl:v1.30.10,0,0,0
+rancher/kubectl:v1.30.11,0,0,0
 rancher/kubectl:v1.31.1,0,0,0
 rancher/kuberlr-kubectl:v3.0.1,0,0,0
 rancher/local-path-provisioner:v0.0.28,0,0,0
@@ -388,7 +388,7 @@ rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.11-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.31.7-rke2r1,0,0,0
-rancher/security-scan:v0.5.5,0,1,1
+rancher/security-scan:v0.5.6-rc.1,0,0,0
 rancher/shell:v0.2.1,0,8,8
 rancher/shell:v0.3.0,0,3,3
 rancher/shell:v0.3.1,0,0,0

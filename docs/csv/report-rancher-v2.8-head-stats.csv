@@ -6,9 +6,9 @@ rancher/calico-cni:v3.27.4-rancher1,0,15,15
 rancher/cis-operator:v1.1.2,0,0,0
 rancher/eks-operator:v1.3.7,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,21,21
-rancher/fleet-agent:v0.9.16,0,1,1
-rancher/fleet:v0.9.16,0,1,1
-rancher/gitjob:v0.9.22,0,1,1
+rancher/fleet-agent:v0.9.17,0,0,0
+rancher/fleet:v0.9.17,0,0,0
+rancher/gitjob:v0.9.24,0,0,0
 rancher/gke-operator:v1.2.7,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
@@ -233,7 +233,7 @@ rancher/mirrored-k8s-dns-node-cache:1.22.28,0,8,8
 rancher/mirrored-k8s-dns-sidecar:1.22.28,0,0,0
 rancher/mirrored-kiali-kiali:v1.75.0,0,12,12
 rancher/mirrored-kiali-kiali:v1.79.0,0,7,7
-rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,6,8
+rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,7,9
 rancher/mirrored-kube-logging-config-reloader:v0.0.5,0,2,2
 rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,6,6
 rancher/mirrored-kube-logging-logging-operator:4.8.0,0,0,0
@@ -317,7 +317,7 @@ rancher/neuvector-registry-adapter:0.1.6,0,1,1
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.2,0,1,1
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,7,7
-rancher/nginx-ingress-controller:nginx-1.9.4-rancher1,0,9,9
+rancher/nginx-ingress-controller:nginx-1.9.4-rancher1,0,10,10
 rancher/nginx-ingress-controller:v1.10.4-hardened2,0,26,26
 rancher/nginx-ingress-controller:v1.10.4-hardened3,0,21,21
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,17,17
@@ -329,7 +329,7 @@ rancher/rancher-agent:v2.8-head,0,23,23
 rancher/rancher-csp-adapter:v3.0.1,0,2,2
 rancher/rancher-webhook:v0.4.17,0,1,1
 rancher/rancher:v2.8-head,1,54,55
-rancher/rke-tools:v0.1.100,2,9,11
+rancher/rke-tools:v0.1.100,2,10,12
 rancher/rke-tools:v0.1.105,0,10,10
 rancher/rke-tools:v0.1.96,2,212,214
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,1,1

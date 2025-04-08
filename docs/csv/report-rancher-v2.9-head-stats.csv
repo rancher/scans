@@ -4,12 +4,12 @@ rancher/backup-restore-operator:v5.0.3,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,0,29,29
 rancher/calico-cni:v3.27.4-rancher1,0,15,15
 rancher/calico-cni:v3.28.1-rancher1,0,15,15
-rancher/cis-operator:v1.2.6,0,0,0
+rancher/cis-operator:v1.2.7-rc.1,0,0,0
 rancher/eks-operator:v1.9.7,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,21,21
 rancher/flannel-cni:v1.4.1-rancher1,0,0,0
-rancher/fleet-agent:v0.10.10,0,0,0
-rancher/fleet:v0.10.10,0,1,1
+rancher/fleet-agent:v0.10.11-beta.1,0,0,0
+rancher/fleet:v0.10.11-beta.1,0,0,0
 rancher/gke-operator:v1.9.7,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,0,0
@@ -121,7 +121,7 @@ rancher/kubectl:v1.20.2,0,25,25
 rancher/kubectl:v1.22.6,0,18,18
 rancher/kubectl:v1.23.3,0,18,18
 rancher/kubectl:v1.29.0,0,0,0
-rancher/kubectl:v1.29.14,0,0,0
+rancher/kubectl:v1.29.15,0,0,0
 rancher/kubectl:v1.29.2,0,0,0
 rancher/kubectl:v1.30.5,0,0,0
 rancher/kuberlr-kubectl:v3.0.1,0,0,0
@@ -363,7 +363,7 @@ rancher/mirrored-kiali-kiali:v1.75.0,0,12,12
 rancher/mirrored-kiali-kiali:v1.79.0,0,7,7
 rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
-rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,6,8
+rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,7,9
 rancher/mirrored-kube-logging-config-reloader:v0.0.5,0,2,2
 rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,6,6
 rancher/mirrored-kube-logging-logging-operator:4.8.0,0,0,0
@@ -449,7 +449,7 @@ rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.2,0,1,1
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,7,7
 rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,1,1
-rancher/nginx-ingress-controller:nginx-1.9.4-rancher1,0,9,9
+rancher/nginx-ingress-controller:nginx-1.9.4-rancher1,0,10,10
 rancher/nginx-ingress-controller:v1.10.4-hardened2,0,26,26
 rancher/nginx-ingress-controller:v1.10.4-hardened3,0,21,21
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,17,17
@@ -465,7 +465,7 @@ rancher/rancher-agent:v2.9-head,0,11,11
 rancher/rancher-csp-adapter:v4.0.0,0,1,1
 rancher/rancher-webhook:v0.5.8,0,1,1
 rancher/rancher:v2.9-head,0,15,15
-rancher/rke-tools:v0.1.100,2,9,11
+rancher/rke-tools:v0.1.100,2,10,12
 rancher/rke-tools:v0.1.105,0,10,10
 rancher/rke-tools:v0.1.111,0,7,7
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,1,1
@@ -482,7 +482,7 @@ rancher/rke2-upgrade:v1.27.16-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.29.15-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.11-rke2r1,0,0,0
-rancher/security-scan:v0.4.4,0,1,1
+rancher/security-scan:v0.4.5-rc.1,0,0,0
 rancher/shell:v0.2.1,0,8,8
 rancher/shell:v0.2.4,0,0,0
 rancher/shell:v0.3.0,0,3,3

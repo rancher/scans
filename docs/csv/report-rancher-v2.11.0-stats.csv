@@ -164,7 +164,7 @@ rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
 rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
 rancher/mirrored-kiali-kiali:v2.1.0,0,8,8
-rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,6,8
+rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,7,9
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,4,4
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,0,0
