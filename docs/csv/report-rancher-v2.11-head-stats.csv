@@ -1,14 +1,14 @@
 image,critical,high,total
-rancher/aks-operator:v1.11.0,0,0,0
+rancher/aks-operator:v1.11.1-rc.1,0,0,0
 rancher/backup-restore-operator:v7.0.1-rc.1,0,0,0
 rancher/calico-cni:v3.28.1-rancher1,0,15,15
 rancher/calico-cni:v3.29.0-rancher1,0,15,15
 rancher/cis-operator:v1.4.1-rc.1,0,0,0
-rancher/eks-operator:v1.11.0,0,0,0
+rancher/eks-operator:v1.11.1-rc.2,0,0,0
 rancher/flannel-cni:v1.4.1-rancher1,0,0,0
 rancher/fleet-agent:v0.12.1-beta.1,0,0,0
 rancher/fleet:v0.12.1-beta.1,0,0,0
-rancher/gke-operator:v1.11.0,0,0,0
+rancher/gke-operator:v1.11.1-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.1-build20250110,0,5,5
 rancher/hardened-calico:v3.29.2-build20250218,0,2,2
@@ -248,7 +248,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.11-head,0,0,0
 rancher/rancher-csp-adapter:v6.0.0,0,0,0
-rancher/rancher-webhook:v0.7.0,0,0,0
+rancher/rancher-webhook:v0.7.1-rc.1,0,0,0
 rancher/rancher:v2.11-head,0,1,1
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke-tools:v0.1.111,0,7,7
