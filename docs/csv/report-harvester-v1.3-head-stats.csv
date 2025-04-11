@@ -52,7 +52,7 @@ rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,40,46
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,0,22,22
 rancher/mirrored-cluster-api-controller:v1.4.4,0,8,8
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,18,23
-rancher/mirrored-grafana-grafana:9.1.5,3,56,59
+rancher/mirrored-grafana-grafana:9.1.5,3,57,60
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.4,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6,0,13,13
 rancher/mirrored-jimmidyson-configmap-reload:v0.4.0,0,27,27
@@ -71,7 +71,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,17,17
 rancher/rancher-webhook:v0.4.7,0,1,1
-rancher/rancher:v2.8.5,4,84,88
+rancher/rancher:v2.8.5,4,85,89
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
 rancher/shell:v0.1.26,0,8,8
