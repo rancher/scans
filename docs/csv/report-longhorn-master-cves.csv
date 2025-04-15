@@ -1,2 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/longhorn-engine:master-head,longhorn/master,golang.org/x/crypto,v0.31.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/local/bin/grpc_health_probe,0.35.0,false,affected,
+longhornio/longhorn-instance-manager:master-head,longhorn/master,golang.org/x/crypto,v0.31.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/local/bin/grpc_health_probe,0.35.0,false,affected,
 longhornio/support-bundle-kit:v0.0.53,longhorn/master,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/support-bundle-kit:v0.0.53 (sles 15.6),5.4.1-150600.3.3.1,false,affected,
