@@ -16,8 +16,8 @@ rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.28.1-build20240911,0,11,11
 rancher/hardened-calico:v3.28.2-build20241016,0,8,8
-rancher/hardened-calico:v3.29.0-build20241104,0,7,7
-rancher/hardened-calico:v3.29.1-build20241211,0,6,6
+rancher/hardened-calico:v3.29.0-build20241104,0,6,6
+rancher/hardened-calico:v3.29.1-build20241211,0,5,5
 rancher/hardened-calico:v3.29.1-build20250110,0,5,5
 rancher/hardened-calico:v3.29.2-build20250218,0,2,2
 rancher/hardened-calico:v3.29.2-build20250306,0,1,1
@@ -371,7 +371,7 @@ rancher/rancher-agent:v2.10-head,0,7,7
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
 rancher/rancher-webhook:v0.6.6-rc.3,0,0,0
 rancher/rancher:v2.10-head,0,15,15
-rancher/rke-tools:v0.1.105,0,11,11
+rancher/rke-tools:v0.1.105,0,10,10
 rancher/rke-tools:v0.1.111,0,7,7
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,1,1
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,1,1
