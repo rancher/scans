@@ -87,7 +87,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,31,31
 rancher/longhornio-csi-provisioner:v2.1.2,0,40,40
 rancher/longhornio-csi-resizer:v1.2.0,0,33,33
 rancher/machine:v0.15.0-rancher118,0,13,13
-rancher/mirrored-amazon-aws-cli:2.9.14,2,143,145
+rancher/mirrored-amazon-aws-cli:2.9.14,0,144,144
 rancher/mirrored-appscode-kubed:v0.13.2,1,26,27
 rancher/mirrored-bci-busybox:15.6.24.2,0,0,0
 rancher/mirrored-bci-micro:15.6.24.2,0,0,0
@@ -312,7 +312,7 @@ rancher/neuvector-compliance-config:1.0.4,0,0,0
 rancher/neuvector-controller:5.4.3,0,4,4
 rancher/neuvector-enforcer:5.4.3,0,3,3
 rancher/neuvector-manager:5.4.3,0,2,2
-rancher/neuvector-prometheus-exporter:1.0.1,0,10,10
+rancher/neuvector-prometheus-exporter:1.0.2,0,10,10
 rancher/neuvector-registry-adapter:0.1.6,0,1,1
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.2,0,1,1

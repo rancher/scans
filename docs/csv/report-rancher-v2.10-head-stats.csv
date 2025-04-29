@@ -369,7 +369,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.10-head,0,8,8
 rancher/rancher-csp-adapter:v5.0.1,0,0,0
-rancher/rancher-webhook:v0.6.6,0,0,0
+rancher/rancher-webhook:v0.6.6-rc.4,0,0,0
 rancher/rancher:v2.10-head,0,16,16
 rancher/rke-tools:v0.1.105,0,10,10
 rancher/rke-tools:v0.1.111,0,7,7
