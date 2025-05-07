@@ -138,7 +138,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,0,6,6
 rancher/mirrored-flannel-flannel:v0.26.4,0,3,3
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,4,5
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,440,445
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,441,446
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,29,33
 rancher/mirrored-grafana-grafana:11.1.0,0,4,4
 rancher/mirrored-idealista-prom2teams:4.2.1,3,34,37
@@ -228,7 +228,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,0,0
 rancher/mirrored-thanos-thanos:v0.37.2,0,0,0
 rancher/neuvector-compliance-config:1.0.4,0,0,0
-rancher/neuvector-controller:5.4.3,0,4,4
+rancher/neuvector-controller:5.4.3,0,5,5
 rancher/neuvector-enforcer:5.4.3,0,3,3
 rancher/neuvector-manager:5.4.3,0,2,2
 rancher/neuvector-prometheus-exporter:1.0.2,0,10,10
