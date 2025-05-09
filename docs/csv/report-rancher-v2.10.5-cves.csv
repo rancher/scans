@@ -2397,6 +2397,7 @@ rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,rancher/v2.10.5,xz-libs,5.6.1-r3,al
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,ruby,3.3.6-r0,alpine,CVE-2025-27219,HIGH,https://avd.aquasec.com/nvd/cve-2025-27219,rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full (alpine 3.20.3),3.3.8-r0,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,ruby-libs,3.3.6-r0,alpine,CVE-2025-27219,HIGH,https://avd.aquasec.com/nvd/cve-2025-27219,rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full (alpine 3.20.3),3.3.8-r0,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,google-protobuf,3.21.12,gemspec,CVE-2024-7254,HIGH,https://avd.aquasec.com/nvd/cve-2024-7254,Ruby,"~> 3.25.5, ~> 4.27.5, >= 4.28.2",true,affected,
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,rack,3.0.14,gemspec,CVE-2025-46727,HIGH,https://avd.aquasec.com/nvd/cve-2025-46727,Ruby,"2.2.14, 3.0.16, 3.1.14",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,rexml,3.2.6,gemspec,CVE-2024-49761,HIGH,https://avd.aquasec.com/nvd/cve-2024-49761,Ruby,>= 3.3.9,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,rexml,3.3.2,gemspec,CVE-2024-49761,HIGH,https://avd.aquasec.com/nvd/cve-2024-49761,Ruby,>= 3.3.9,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.10.5,webrick,1.8.1,gemspec,CVE-2024-47220,HIGH,https://avd.aquasec.com/nvd/cve-2024-47220,Ruby,>= 1.8.2,true,affected,
