@@ -15,6 +15,7 @@ rancher/hardened-flannel:v0.26.6-build20250414,0,2,2
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
 rancher/hardened-kubernetes:v1.31.8-rke2r1-build20250423,0,0,0
 rancher/hardened-kubernetes:v1.32.4-rke2r1-build20250423,0,0,0
+rancher/hardened-kubernetes:v1.33.0-rke2r1-build20250425,0,0,0
 rancher/hardened-multus-cni:v4.2.0-build20250326,0,0,0
 rancher/hardened-whereabouts:v0.9.0-build20250403,0,0,0
 rancher/harvester-cloud-provider:v0.2.4,0,4,4
@@ -69,6 +70,7 @@ rancher/mirrored-cloud-provider-vsphere:v1.31.0,0,3,3
 rancher/mirrored-cloud-provider-vsphere:v1.31.1,0,3,3
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,3,3
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,2,2
+rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,0,0
 rancher/mirrored-cluster-proportional-autoscaler:v1.9.0,0,0,0
 rancher/mirrored-coredns-coredns:1.11.1,0,3,3
 rancher/mirrored-coredns-coredns:1.11.3,0,0,0
@@ -118,10 +120,13 @@ rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke-tools:v0.1.112,0,0,0
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101,0,0,0
+rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,0,0
 rancher/rke2-runtime:v1.31.8-rke2r1,0,0,0
 rancher/rke2-runtime:v1.32.4-rke2r1,0,0,0
+rancher/rke2-runtime:v1.33.0-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.31.8-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.32.4-rke2r1,0,0,0
+rancher/rke2-upgrade:v1.33.0-rke2r1,0,0,0
 rancher/shell:v0.5.0-rc.2,0,0,0
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
@@ -147,6 +152,7 @@ rancher/system-agent-installer-rke2:v1.29.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.30.12-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.31.8-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.4-rke2r1,0,0,0
+rancher/system-agent-installer-rke2:v1.33.0-rke2r1,0,0,0
 rancher/system-agent:v0.3.13-rc.1-suc,0,0,0
 rancher/system-upgrade-controller:v0.15.2,0,0,0
 rancher/ui-plugin-catalog:4.0.1,0,4,4
