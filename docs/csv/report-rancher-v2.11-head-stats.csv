@@ -241,7 +241,7 @@ rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,2,2
 rancher/nginx-ingress-controller:nginx-1.12.1-rancher1,0,0,0
 rancher/nginx-ingress-controller:v1.12.1-hardened1,0,3,3
 rancher/prom-prometheus:v3.2.1,0,0,0
-rancher/prometheus-federator:v3.1.0-rc.2,0,0,0
+rancher/prometheus-federator:v3.1.0-rc.3,0,0,0
 rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.11-head,0,1,1
