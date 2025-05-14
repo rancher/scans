@@ -365,7 +365,7 @@ rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
 rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1,2,8,10
 rancher/mirrored-kube-logging-config-reloader:v0.0.5,0,2,2
-rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,7,7
+rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full,0,9,9
 rancher/mirrored-kube-logging-logging-operator:4.8.0,0,0,0
 rancher/mirrored-kube-rbac-proxy:v0.14.0,0,13,13
 rancher/mirrored-kube-rbac-proxy:v0.15.0,0,1,1
@@ -448,7 +448,7 @@ rancher/neuvector-registry-adapter:0.1.6,0,1,1
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.2,0,1,1
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,7,7
-rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,2,2
+rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,4,4
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,19,19
 rancher/nginx-ingress-controller:v1.10.5-hardened6,0,12,12
 rancher/nginx-ingress-controller:v1.12.1-hardened1,0,3,3
