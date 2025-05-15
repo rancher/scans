@@ -25,6 +25,7 @@ rancher/hyperkube:v1.31.8-rancher1,0,0,0
 rancher/hyperkube:v1.32.4-rancher1,0,0,0
 rancher/k3s-upgrade:v1.31.8-k3s1,0,0,0
 rancher/k3s-upgrade:v1.32.4-k3s1,0,0,0
+rancher/k3s-upgrade:v1.33.0-k3s1,0,0,0
 rancher/klipper-helm:v0.9.5-build20250306,0,0,0
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kube-api-auth:v0.2.4,0,0,0
@@ -62,7 +63,7 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,13,13
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,8,8
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,4,4
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,4,4
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,7,40,47
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,7,38,45
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,6,28,34
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,4,22,26
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,3,15,18
@@ -117,7 +118,7 @@ rancher/nginx-ingress-controller:v1.12.1-hardened3,0,1,1
 rancher/rancher-agent:head,0,3,3
 rancher/rancher:head,0,4,4
 rancher/remotedialer-proxy:v0.4.4,0,0,0
-rancher/rke-tools:v0.1.112,0,0,0
+rancher/rke-tools:v0.1.112,0,2,2
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101,0,0,0
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,0,0
@@ -140,6 +141,7 @@ rancher/system-agent-installer-k3s:v1.29.15-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.30.12-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.31.8-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.4-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.33.0-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.21.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.22.17-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.23.17-rke2r1,0,0,0
