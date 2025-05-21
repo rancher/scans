@@ -7,9 +7,9 @@ longhornio/csi-resizer:v1.13.2,0,0,0
 longhornio/csi-snapshotter:v8.2.0,0,0,0
 longhornio/livenessprobe:v2.15.0,0,0,0
 longhornio/longhorn-cli:master-head,0,0,0
-longhornio/longhorn-engine:master-head,0,3,3
+longhornio/longhorn-engine:master-head,0,0,0
 longhornio/longhorn-instance-manager:master-head,0,0,0
 longhornio/longhorn-manager:master-head,0,0,0
 longhornio/longhorn-share-manager:master-head,0,0,0
 longhornio/longhorn-ui:master-head,0,0,0
-longhornio/support-bundle-kit:v0.0.54,0,4,4
+longhornio/support-bundle-kit:v0.0.55,0,0,0

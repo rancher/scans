@@ -2,8 +2,8 @@ image,critical,high,total
 rancher/calico-cni:v3.28.1-rancher1,0,15,15
 rancher/calico-cni:v3.29.3-rancher1,0,15,15
 rancher/flannel-cni:v1.4.1-rancher1,0,0,0
-rancher/fleet-agent:v0.13.0-alpha.2,0,0,0
-rancher/fleet:v0.13.0-alpha.2,0,4,4
+rancher/fleet-agent:v0.13.0-alpha.3,0,0,0
+rancher/fleet:v0.13.0-alpha.3,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.3-build20250408,0,4,4
 rancher/hardened-cluster-autoscaler:v1.9.0-build20241203,0,0,0
@@ -29,7 +29,6 @@ rancher/k3s-upgrade:v1.33.0-k3s1,0,0,0
 rancher/klipper-helm:v0.9.5-build20250306,0,0,0
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kube-api-auth:v0.2.4,0,0,0
-rancher/kubectl:v1.31.7,0,0,0
 rancher/kubectl:v1.32.2,0,0,0
 rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/machine:v0.15.0-rancher127,0,4,4
@@ -82,9 +81,9 @@ rancher/mirrored-coreos-etcd:v3.5.16,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,0,6,6
 rancher/mirrored-flannel-flannel:v0.26.4,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
-rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,2,2
+rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,3,3
 rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,0,0
-rancher/mirrored-k8s-dns-node-cache:1.23.0,0,8,8
+rancher/mirrored-k8s-dns-node-cache:1.23.0,0,9,9
 rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,0,3,3
 rancher/mirrored-library-busybox:1.36.1,0,0,0

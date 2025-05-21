@@ -1,8 +1,1 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-engine:master-head,longhorn/master,libopenssl-3-fips-provider,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-engine:master-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-engine:master-head,longhorn/master,libopenssl3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-engine:master-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-engine:master-head,longhorn/master,openssl-3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-engine:master-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/support-bundle-kit:v0.0.54,longhorn/master,libopenssl-3-fips-provider,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/support-bundle-kit:v0.0.54 (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/support-bundle-kit:v0.0.54,longhorn/master,libopenssl3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/support-bundle-kit:v0.0.54 (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/support-bundle-kit:v0.0.54,longhorn/master,libsqlite3-0,3.44.0-150000.3.23.1,sles,SUSE-SU-2025:1456-1,HIGH,,longhornio/support-bundle-kit:v0.0.54 (sles 15.6),3.49.1-150000.3.27.1,false,affected,
-longhornio/support-bundle-kit:v0.0.54,longhorn/master,openssl-3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/support-bundle-kit:v0.0.54 (sles 15.6),3.1.4-150600.5.27.1,false,affected,
