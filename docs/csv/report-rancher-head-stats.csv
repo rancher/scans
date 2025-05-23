@@ -42,8 +42,8 @@ rancher/mirrored-calico-ctl:v3.29.3,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.28.1,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.29.3,0,0,0
 rancher/mirrored-calico-node-driver-registrar:v3.29.3,0,0,0
-rancher/mirrored-calico-node:v3.28.1,0,6,6
-rancher/mirrored-calico-node:v3.29.3,0,6,6
+rancher/mirrored-calico-node:v3.28.1,0,3,3
+rancher/mirrored-calico-node:v3.29.3,0,1,1
 rancher/mirrored-calico-operator:v1.36.7,0,0,0
 rancher/mirrored-calico-pod2daemon-flexvol:v3.28.1,0,0,0
 rancher/mirrored-calico-pod2daemon-flexvol:v3.29.3,0,0,0

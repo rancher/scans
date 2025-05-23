@@ -2,7 +2,7 @@ image,critical,high,total
 fluent/fluent-bit:2.1.8,5,20,25
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,0,0,0
 ghcr.io/kube-logging/config-reloader:v0.0.5,0,2,2
-ghcr.io/kube-logging/fluentd:v1.15-ruby3,2,19,21
+ghcr.io/kube-logging/fluentd:v1.15-ruby3,2,20,22
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,3,3
 longhornio/backing-image-manager:v1.7.3,0,7,7
 longhornio/csi-attacher:v4.8.0,0,0,0
@@ -55,7 +55,7 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.20.2,0,25,25
 rancher/kubectl:v1.21.5,0,21,21
 rancher/kubectl:v1.29.2,0,0,0
-rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,41,47
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,42,48
 rancher/mirrored-cluster-api-controller:v1.8.3,0,0,0
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,19,24
 rancher/mirrored-grafana-grafana:9.1.5,3,61,64
