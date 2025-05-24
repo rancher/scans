@@ -127,6 +127,7 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/klipper-lb:v0.4.9,0,0,0
 rancher/kube-api-auth:v0.2.2,0,0,0
 rancher/kubectl:v1.20.2,0,25,25
+rancher/kubectl:v1.22.6,0,18,18
 rancher/kubectl:v1.23.3,0,18,18
 rancher/kubectl:v1.29.0,0,0,0
 rancher/kubectl:v1.29.14,0,0,0
@@ -466,6 +467,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.2,0,16,16
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
+rancher/mirrored-sigwindowstools-k8s-gmsa-webhook:v0.3.0,0,27,27
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,0,0
 rancher/mirrored-thanos-thanos:v0.34.1,0,0,0
 rancher/neuvector-compliance-config:1.0.5,0,0,0
@@ -474,7 +476,7 @@ rancher/neuvector-enforcer:5.4.4,0,4,4
 rancher/neuvector-manager:5.4.4,0,2,2
 rancher/neuvector-prometheus-exporter:1.0.5,0,0,0
 rancher/neuvector-registry-adapter:0.1.7,0,3,3
-rancher/neuvector-scanner:6,0,2,2
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.3,0,2,2
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,9,9
 rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,4,4
