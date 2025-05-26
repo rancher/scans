@@ -1,10 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-cli:v1.7.x-head,longhorn/v1.7-head,libopenssl-3-fips-provider,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-cli:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-cli:v1.7.x-head,longhorn/v1.7-head,libopenssl3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-cli:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-cli:v1.7.x-head,longhorn/v1.7-head,openssl-3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-cli:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-engine:v1.7.x-head,longhorn/v1.7-head,libopenssl-3-fips-provider,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-engine:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-engine:v1.7.x-head,longhorn/v1.7-head,libopenssl3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-engine:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
-longhornio/longhorn-engine:v1.7.x-head,longhorn/v1.7-head,openssl-3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-engine:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
 longhornio/longhorn-instance-manager:v1.7.x-head,longhorn/v1.7-head,libexpat1,2.6.4-lp156.226.2,sles,SUSE-SU-2025:1201-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.x-head (sles 15.6),2.7.1-150400.3.28.1,false,affected,
 longhornio/longhorn-instance-manager:v1.7.x-head,longhorn/v1.7-head,liblzma5,5.4.1-150600.1.2,sles,SUSE-SU-2025:1137-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.x-head (sles 15.6),5.4.1-150600.3.3.1,false,affected,
 longhornio/longhorn-instance-manager:v1.7.x-head,longhorn/v1.7-head,libopenssl-3-fips-provider,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,longhornio/longhorn-instance-manager:v1.7.x-head (sles 15.6),3.1.4-150600.5.27.1,false,affected,
