@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - K3s v1.33.0 version - CVE Scans - 2025-05-27</h1>
+<h1>SUSE Rancher - K3s v1.30.13 version - CVE Scans - 2025-05-27</h1>
 
 <h3>How to use this page</h3>
 
@@ -73,9 +73,21 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(9)">Type (language or OS)</th>
 </tr>
 <tr class="issue">
+<td>rancher/k3s:v1.30.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.30.13</td>
+<td>bin/k3s</td>
+<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47108">CVE-2023-47108</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-coredns-coredns:1.12.1</td>
 <td>true</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>coredns</td>
 <td>github.com/coredns/coredns@v0.0.0-20250331195236-707c7c10acd5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-28452">CVE-2023-28452</a></td>
@@ -87,7 +99,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue">
 <td>rancher/mirrored-metrics-server:v0.7.2</td>
 <td>true</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>metrics-server</td>
 <td>stdlib@v1.22.5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
@@ -98,9 +110,33 @@ the distinctive tag '*' close to its severity.</li>
 </tr>
 
 <tr class="issue not_affected">
+<td>rancher/k3s:v1.30.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.30.13</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.30.13-k3s1</td>
+<td>false</td>
+<td>K3s v1.30.13</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.17.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/klipper-helm:v0.9.5-build20250306</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>golang.org/x/crypto@v0.26.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
@@ -112,7 +148,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/klipper-helm:v0.9.5-build20250306</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>golang.org/x/crypto@v0.26.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>
@@ -124,7 +160,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/klipper-helm:v0.9.5-build20250306</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>golang.org/x/crypto@v0.25.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
@@ -136,7 +172,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/klipper-helm:v0.9.5-build20250306</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>golang.org/x/crypto@v0.25.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>
@@ -148,7 +184,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/klipper-helm:v0.9.5-build20250306</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>usr/bin/helm</td>
 <td>golang.org/x/crypto@v0.31.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>
@@ -160,7 +196,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/local-path-provisioner:v0.0.31</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>libcrypto3</td>
 <td>libcrypto3@3.3.2-r4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-12797">CVE-2024-12797</a></td>
@@ -172,7 +208,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/local-path-provisioner:v0.0.31</td>
 <td>false</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>libssl3</td>
 <td>libssl3@3.3.2-r4</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-12797">CVE-2024-12797</a></td>
@@ -184,7 +220,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/mirrored-metrics-server:v0.7.2</td>
 <td>true</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>metrics-server</td>
 <td>golang.org/x/crypto@v0.26.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
@@ -196,7 +232,7 @@ the distinctive tag '*' close to its severity.</li>
 <tr class="issue not_affected">
 <td>rancher/mirrored-metrics-server:v0.7.2</td>
 <td>true</td>
-<td>K3s v1.33.0</td>
+<td>K3s v1.30.13</td>
 <td>metrics-server</td>
 <td>golang.org/x/crypto@v0.26.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>

@@ -263,7 +263,7 @@ rancher/mirrored-elemental-seedimage-builder:1.6.5,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,0,7,7
 rancher/mirrored-flannel-flannel:v0.25.1,0,6,6
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,5,6
-rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,490,495
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,5,491,496
 rancher/mirrored-grafana-grafana-image-renderer:3.11.1,4,31,35
 rancher/mirrored-grafana-grafana:11.1.0,0,4,4
 rancher/mirrored-idealista-prom2teams:4.2.1,3,35,38
@@ -311,8 +311,8 @@ rancher/mirrored-kiali-kiali:v1.75.0,0,13,13
 rancher/mirrored-kiali-kiali:v1.79.0,0,8,8
 rancher/mirrored-kiali-kiali:v1.86.0,0,7,7
 rancher/mirrored-kiali-kiali:v1.89.3,0,7,7
-rancher/mirrored-kiali-kiali:v2.1.0,0,12,12
-rancher/mirrored-kiali-kiali:v2.7.1,0,12,12
+rancher/mirrored-kiali-kiali:v2.1.0,0,11,11
+rancher/mirrored-kiali-kiali:v2.7.1,0,11,11
 rancher/mirrored-kiwigrid-k8s-sidecar:1.28.0,0,6,6
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,9,9
