@@ -12,4 +12,4 @@ longhornio/longhorn-instance-manager:v1.8.2-rc2,0,1,1
 longhornio/longhorn-manager:v1.8.2-rc2,0,0,0
 longhornio/longhorn-share-manager:v1.8.2-rc2,0,0,0
 longhornio/longhorn-ui:v1.8.2-rc2,0,0,0
-longhornio/support-bundle-kit:v0.0.55,0,0,0
+longhornio/support-bundle-kit:v0.0.55,0,1,1

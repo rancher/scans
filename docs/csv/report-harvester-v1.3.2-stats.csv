@@ -27,11 +27,11 @@ rancher/hardened-kubernetes:v1.28.12-rke2r1-build20240717,0,0,0
 rancher/hardened-multus-cni:v4.0.2-build20240612,0,0,0
 rancher/harvester-cluster-repo:v1.3.2,0,10,10
 rancher/harvester-eventrouter:v0.2.0,0,0,0
-rancher/harvester-load-balancer-webhook:v0.3.0,0,5,5
-rancher/harvester-load-balancer:v0.3.0,0,5,5
-rancher/harvester-network-controller:v0.4.1,0,10,10
-rancher/harvester-network-helper:v0.4.1,0,4,4
-rancher/harvester-network-webhook:v0.4.1,0,4,4
+rancher/harvester-load-balancer-webhook:v0.3.0,1,5,6
+rancher/harvester-load-balancer:v0.3.0,1,5,6
+rancher/harvester-network-controller:v0.4.1,1,10,11
+rancher/harvester-network-helper:v0.4.1,1,4,5
+rancher/harvester-network-webhook:v0.4.1,1,4,5
 rancher/harvester-node-disk-manager:v0.6.4,0,7,7
 rancher/harvester-node-manager-webhook:v0.2.1,0,21,21
 rancher/harvester-node-manager:v0.2.1,0,21,21
@@ -69,7 +69,7 @@ rancher/rancher-webhook:v0.4.7,0,1,1
 rancher/rancher:v2.8.5,4,93,97
 rancher/rke2-cloud-provider:v1.29.3-build20240515,0,0,0
 rancher/rke2-runtime:v1.28.12-rke2r1,0,13,13
-rancher/shell:v0.1.26,0,11,11
+rancher/shell:v0.1.26,0,12,12
 rancher/support-bundle-kit:v0.0.38,0,11,11
 rancher/system-agent-installer-rancher:v2.8.5,0,0,0
 rancher/system-agent-installer-rke2:v1.28.12-rke2r1,0,0,0
