@@ -14,9 +14,9 @@ longhornio/longhorn-manager:v1.6.4,0,13,13
 longhornio/longhorn-share-manager:v1.6.4,0,11,11
 longhornio/longhorn-ui:v1.6.4,0,16,16
 longhornio/support-bundle-kit:v0.0.48,0,10,10
-rancher/fleet-agent:v0.9.5,0,17,17
-rancher/fleet:v0.9.5,0,16,16
-rancher/gitjob:v0.9.8,0,19,19
+rancher/fleet-agent:v0.9.5,0,18,18
+rancher/fleet:v0.9.5,0,17,17
+rancher/gitjob:v0.9.8,0,20,20
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,0,0
 rancher/hardened-calico:v3.28.2-build20241016,0,13,13
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,0,0
@@ -26,7 +26,7 @@ rancher/hardened-dns-node-cache:1.23.1-build20241008,0,3,3
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
 rancher/hardened-flannel:v0.25.7-build20241008,0,18,18
 rancher/hardened-k8s-metrics-server:v0.7.1-build20241008,0,0,0
-rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,0,0
+rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,1,1
 rancher/hardened-multus-cni:v4.1.2-build20241011,0,0,0
 rancher/harvester-cluster-repo:v1.3-head,0,9,9
 rancher/harvester-eventrouter:v0.3.2,0,1,1
@@ -38,7 +38,7 @@ rancher/harvester-network-webhook:v0.4.2,1,5,6
 rancher/harvester-node-disk-manager:v0.6.5,0,11,11
 rancher/harvester-node-manager-webhook:v0.2.3,0,11,11
 rancher/harvester-node-manager:v0.2.3,0,11,11
-rancher/harvester-pcidevices:v0.3.3,0,6,6
+rancher/harvester-pcidevices:v0.3.3,0,7,7
 rancher/harvester-seeder:v0.3.3,0,11,11
 rancher/harvester-upgrade:v1.3-head,0,0,0
 rancher/harvester-vm-import-controller:v0.3.4,0,10,10
@@ -51,7 +51,7 @@ rancher/kubectl:v1.21.5,0,21,21
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,41,47
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,0,23,23
 rancher/mirrored-cluster-api-controller:v1.4.4,0,8,8
-rancher/mirrored-fluent-fluent-bit:2.2.0,5,20,25
+rancher/mirrored-fluent-fluent-bit:2.2.0,5,19,24
 rancher/mirrored-grafana-grafana:9.1.5,3,61,64
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.4,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6,0,13,13
@@ -70,8 +70,8 @@ rancher/mirrored-prometheus-prometheus:v2.42.0,0,28,28
 rancher/mirrored-sig-storage-snapshot-controller:v8.1.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,0,0
 rancher/nginx-ingress-controller:v1.10.5-hardened3,0,25,25
-rancher/rancher-webhook:v0.4.7,0,1,1
-rancher/rancher:v2.8.5,4,93,97
+rancher/rancher-webhook:v0.4.7,0,2,2
+rancher/rancher:v2.8.5,4,94,98
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-runtime:v1.28.15-rke2r1,0,0,0
 rancher/shell:v0.1.26,0,12,12
@@ -83,10 +83,10 @@ rancher/system-upgrade-controller:v0.13.1,0,2,2
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,0,1,1
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,0,1,1
 registry.suse.com/bci/bci-base:15.6,0,0,0
-registry.suse.com/suse/sles/15.5/libguestfs-tools:1.1.1-150500.8.18.1,0,16,16
-registry.suse.com/suse/sles/15.5/virt-api:1.1.1-150500.8.18.1,0,7,7
-registry.suse.com/suse/sles/15.5/virt-controller:1.1.1-150500.8.18.1,0,7,7
-registry.suse.com/suse/sles/15.5/virt-handler:1.1.1-150500.8.18.1,0,11,11
-registry.suse.com/suse/sles/15.5/virt-launcher:1.1.1-150500.8.18.1,0,37,37
-registry.suse.com/suse/sles/15.5/virt-operator:1.1.1-150500.8.18.1,0,7,7
+registry.suse.com/suse/sles/15.5/libguestfs-tools:1.1.1-150500.8.18.1,0,17,17
+registry.suse.com/suse/sles/15.5/virt-api:1.1.1-150500.8.18.1,0,8,8
+registry.suse.com/suse/sles/15.5/virt-controller:1.1.1-150500.8.18.1,0,8,8
+registry.suse.com/suse/sles/15.5/virt-handler:1.1.1-150500.8.18.1,0,12,12
+registry.suse.com/suse/sles/15.5/virt-launcher:1.1.1-150500.8.18.1,0,38,38
+registry.suse.com/suse/sles/15.5/virt-operator:1.1.1-150500.8.18.1,0,8,8
 registry.suse.com/suse/vmdp/vmdp:2.5.4.2,0,0,0

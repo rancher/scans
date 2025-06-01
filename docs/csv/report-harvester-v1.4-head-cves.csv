@@ -22,7 +22,6 @@ fluent/fluent-bit:2.1.8,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-20
 fluent/fluent-bit:2.1.8,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-2024-10979,HIGH,https://avd.aquasec.com/nvd/cve-2024-10979,fluent/fluent-bit:2.1.8 (debian 11.7),13.17-0+deb11u1,false,affected,
 fluent/fluent-bit:2.1.8,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-2024-7348,HIGH,https://avd.aquasec.com/nvd/cve-2024-7348,fluent/fluent-bit:2.1.8 (debian 11.7),13.16-0+deb11u1,false,affected,
 fluent/fluent-bit:2.1.8,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-2025-1094,HIGH,https://avd.aquasec.com/nvd/cve-2025-1094,fluent/fluent-bit:2.1.8 (debian 11.7),13.20-0+deb11u1,false,affected,
-fluent/fluent-bit:2.1.8,harvester/v1.4-head,libsystemd0,252.5-2~bpo11+1,debian,CVE-2025-4598,HIGH,https://avd.aquasec.com/nvd/cve-2025-4598,fluent/fluent-bit:2.1.8 (debian 11.7),,false,affected,
 fluent/fluent-bit:2.1.8,harvester/v1.4-head,libzstd1,1.4.8+dfsg-2.1,debian,CVE-2022-4899,HIGH,https://avd.aquasec.com/nvd/cve-2022-4899,fluent/fluent-bit:2.1.8 (debian 11.7),,false,affected,
 fluent/fluent-bit:2.1.8,harvester/v1.4-head,zlib1g,1:1.2.11.dfsg-2+deb11u2,debian,CVE-2023-45853,CRITICAL,https://avd.aquasec.com/nvd/cve-2023-45853,fluent/fluent-bit:2.1.8 (debian 11.7),,false,affected,
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,harvester/v1.4-head,stdlib,v1.21.9,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,ip-control-loop,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
@@ -157,6 +156,7 @@ rancher/fleet:v0.11.2,harvester/v1.4-head,golang.org/x/crypto,v0.28.0,gobinary,C
 rancher/fleet:v0.11.2,harvester/v1.4-head,golang.org/x/crypto,v0.28.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,usr/bin/fleetcontroller,0.31.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/gitjob:v0.9.8,harvester/v1.4-head,git-core,2.35.3-150300.10.39.1,sles,SUSE-SU-2024:2656-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.35.3-150300.10.42.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4-head,glibc,2.31-150300.74.1,sles,SUSE-SU-2024:1895-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.31-150300.83.1,false,affected,
+rancher/gitjob:v0.9.8,harvester/v1.4-head,glibc,2.31-150300.74.1,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.31-150300.95.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4-head,krb5,1.20.1-150500.3.6.1,sles,SUSE-SU-2024:2302-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),1.20.1-150500.3.9.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4-head,libexpat1,2.4.4-150400.3.17.1,sles,SUSE-SU-2025:1201-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.7.1-150400.3.28.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4-head,libglib-2_0-0,2.70.5-150400.3.11.1,sles,SUSE-SU-2024:4078-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.70.5-150400.3.17.1,false,affected,
@@ -213,6 +213,7 @@ rancher/hardened-flannel:v0.26.5-build20250306,harvester/v1.4-head,openssl-3,3.1
 rancher/hardened-flannel:v0.26.5-build20250306,harvester/v1.4-head,golang.org/x/crypto,v0.32.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,opt/bin/flanneld,0.35.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,harvester/v1.4-head,golang.org/x/crypto,v0.26.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,metrics-server,0.31.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,harvester/v1.4-head,golang.org/x/crypto,v0.26.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,metrics-server,0.35.0,false,not_affected,vulnerable_code_not_present
+rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,harvester/v1.4-head,glibc,2.31-150300.92.1,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312 (sles 15.5),2.31-150300.95.1,false,affected,
 rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,harvester/v1.4-head,golang.org/x/crypto,v0.24.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,usr/local/bin/kube-apiserver,0.31.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,harvester/v1.4-head,golang.org/x/crypto,v0.24.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/local/bin/kube-apiserver,0.35.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,harvester/v1.4-head,golang.org/x/crypto,v0.24.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,usr/local/bin/kube-controller-manager,0.31.0,false,not_affected,vulnerable_code_not_in_execute_path
@@ -531,7 +532,6 @@ rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,libpq5,13.11-0+deb1
 rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-2024-10979,HIGH,https://avd.aquasec.com/nvd/cve-2024-10979,rancher/mirrored-fluent-fluent-bit:2.2.0 (debian 11.8),13.17-0+deb11u1,true,affected,
 rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-2024-7348,HIGH,https://avd.aquasec.com/nvd/cve-2024-7348,rancher/mirrored-fluent-fluent-bit:2.2.0 (debian 11.8),13.16-0+deb11u1,true,affected,
 rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,libpq5,13.11-0+deb11u1,debian,CVE-2025-1094,HIGH,https://avd.aquasec.com/nvd/cve-2025-1094,rancher/mirrored-fluent-fluent-bit:2.2.0 (debian 11.8),13.20-0+deb11u1,true,affected,
-rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,libsystemd0,252.5-2~bpo11+1,debian,CVE-2025-4598,HIGH,https://avd.aquasec.com/nvd/cve-2025-4598,rancher/mirrored-fluent-fluent-bit:2.2.0 (debian 11.8),,true,affected,
 rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,libzstd1,1.4.8+dfsg-2.1,debian,CVE-2022-4899,HIGH,https://avd.aquasec.com/nvd/cve-2022-4899,rancher/mirrored-fluent-fluent-bit:2.2.0 (debian 11.8),,true,affected,
 rancher/mirrored-fluent-fluent-bit:2.2.0,harvester/v1.4-head,zlib1g,1:1.2.11.dfsg-2+deb11u2,debian,CVE-2023-45853,CRITICAL,https://avd.aquasec.com/nvd/cve-2023-45853,rancher/mirrored-fluent-fluent-bit:2.2.0 (debian 11.8),,true,affected,
 rancher/mirrored-grafana-grafana:9.1.5,harvester/v1.4-head,libcrypto1.1,1.1.1q-r0,alpine,CVE-2022-4450,HIGH,https://avd.aquasec.com/nvd/cve-2022-4450,rancher/mirrored-grafana-grafana:9.1.5 (alpine 3.15.6),1.1.1t-r0,true,affected,
@@ -999,6 +999,7 @@ rancher/rke2-runtime:v1.31.7-rke2r1,harvester/v1.4-head,go.opentelemetry.io/cont
 rancher/rke2-runtime:v1.31.7-rke2r1,harvester/v1.4-head,golang.org/x/crypto,v0.24.0,gobinary,CVE-2024-45337,CRITICAL,https://avd.aquasec.com/nvd/cve-2024-45337,bin/kubelet,0.31.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rke2-runtime:v1.31.7-rke2r1,harvester/v1.4-head,golang.org/x/crypto,v0.24.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,bin/kubelet,0.35.0,false,not_affected,vulnerable_code_not_present
 rancher/shell:v0.1.24,harvester/v1.4-head,glibc,2.31-150300.74.1,sles,SUSE-SU-2024:1895-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),2.31-150300.83.1,false,affected,
+rancher/shell:v0.1.24,harvester/v1.4-head,glibc,2.31-150300.74.1,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),2.31-150300.95.1,false,affected,
 rancher/shell:v0.1.24,harvester/v1.4-head,krb5,1.20.1-150500.3.6.1,sles,SUSE-SU-2024:2302-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),1.20.1-150500.3.9.1,false,affected,
 rancher/shell:v0.1.24,harvester/v1.4-head,libexpat1,2.4.4-150400.3.17.1,sles,SUSE-SU-2025:1201-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),2.7.1-150400.3.28.1,false,affected,
 rancher/shell:v0.1.24,harvester/v1.4-head,libglib-2_0-0,2.70.5-150400.3.8.1,sles,SUSE-SU-2024:4078-1,HIGH,,rancher/shell:v0.1.24 (sles 15.5),2.70.5-150400.3.17.1,false,affected,
