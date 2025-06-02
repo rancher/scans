@@ -23,7 +23,7 @@ rancher/hardened-coredns:v1.11.1-build20240305,0,5,5
 rancher/hardened-dns-node-cache:1.22.28-build20240125,0,6,6
 rancher/hardened-etcd:v3.5.13-k3s1-build20240531,0,2,2
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240401,0,0,0
-rancher/hardened-kubernetes:v1.28.12-rke2r1-build20240717,0,1,1
+rancher/hardened-kubernetes:v1.28.12-rke2r1-build20240717,0,0,0
 rancher/hardened-multus-cni:v4.0.2-build20240612,0,0,0
 rancher/harvester-cluster-repo:v1.3.2,0,11,11
 rancher/harvester-eventrouter:v0.2.0,0,1,1
