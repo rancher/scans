@@ -365,7 +365,7 @@ rancher/mirrored-flannel-flannel:v0.21.4,3,21,24
 rancher/mirrored-flannel-flannel:v0.24.2,0,7,7
 rancher/mirrored-flannel-flannel:v0.25.1,0,6,6
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,14,19
-rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,722,744
+rancher/mirrored-fluent-fluent-bit:3.0.4-debug,22,721,743
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,33,37
 rancher/mirrored-grafana-grafana:10.4.9,0,0,0
 rancher/mirrored-idealista-prom2teams:4.2.1,3,35,38
