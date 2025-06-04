@@ -1,5 +1,5 @@
 image,critical,high,total
-ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,0,0,0
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.6.3,0,2,2
 ghcr.io/kube-vip/kube-vip-iptables:v0.6.0,0,21,21
 longhornio/backing-image-manager:v1.6.2,0,20,20
 longhornio/csi-attacher:v4.5.1,0,1,1
@@ -41,7 +41,7 @@ rancher/harvester-upgrade:v1.3.2,1,23,24
 rancher/harvester-vm-import-controller:v0.3.2,0,10,10
 rancher/harvester-webhook:v1.3.2,0,8,8
 rancher/harvester:v1.3.2,0,8,8
-rancher/klipper-helm:v0.8.4-build20240523,0,55,55
+rancher/klipper-helm:v0.8.4-build20240523,0,57,57
 rancher/kubectl:v1.20.2,0,25,25
 rancher/kubectl:v1.21.5,0,21,21
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,41,47
@@ -52,10 +52,10 @@ rancher/mirrored-grafana-grafana:9.1.5,3,61,64
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6,0,13,13
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794,0,7,7
 rancher/mirrored-jimmidyson-configmap-reload:v0.4.0,0,27,27
-rancher/mirrored-kiwigrid-k8s-sidecar:1.24.6,6,15,21
+rancher/mirrored-kiwigrid-k8s-sidecar:1.24.6,6,17,23
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.6.0,1,20,21
 rancher/mirrored-library-busybox:1.31.1,0,0,0
-rancher/mirrored-library-nginx:1.24.0-alpine,2,5,7
+rancher/mirrored-library-nginx:1.24.0-alpine,2,7,9
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.10.0,0,24,24
 rancher/mirrored-prometheus-alertmanager:v0.25.0,0,22,22
@@ -73,7 +73,7 @@ rancher/shell:v0.1.26,0,12,12
 rancher/support-bundle-kit:v0.0.38,0,12,12
 rancher/system-agent-installer-rancher:v2.8.5,0,0,0
 rancher/system-agent-installer-rke2:v1.28.12-rke2r1,0,0,0
-rancher/system-agent:v0.3.6-suc,0,18,18
+rancher/system-agent:v0.3.6-suc,0,20,20
 rancher/system-upgrade-controller:v0.13.1,0,2,2
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,0,1,1
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,0,1,1

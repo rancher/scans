@@ -1,9 +1,9 @@
 image,critical,high,total
 fluent/fluent-bit:2.1.8,5,20,25
-ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,0,0,0
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,0,2,2
 ghcr.io/kube-logging/config-reloader:v0.0.5,0,2,2
-ghcr.io/kube-logging/fluentd:v1.15-ruby3,2,19,21
-ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,3,3
+ghcr.io/kube-logging/fluentd:v1.15-ruby3,2,21,23
+ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,5,5
 longhornio/backing-image-manager:v1.7.3,0,9,9
 longhornio/csi-attacher:v4.8.0,0,0,0
 longhornio/csi-node-driver-registrar:v2.13.0,0,0,0
@@ -62,11 +62,11 @@ rancher/mirrored-grafana-grafana:9.1.5,3,61,64
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6,0,13,13
 rancher/mirrored-jimmidyson-configmap-reload:v0.4.0,0,27,27
-rancher/mirrored-kiwigrid-k8s-sidecar:1.24.6,6,15,21
+rancher/mirrored-kiwigrid-k8s-sidecar:1.24.6,6,17,23
 rancher/mirrored-kube-logging-logging-operator:4.4.0,0,2,2
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1,0,2,2
 rancher/mirrored-library-busybox:1.31.1,0,0,0
-rancher/mirrored-library-nginx:1.24.0-alpine,2,5,7
+rancher/mirrored-library-nginx:1.24.0-alpine,2,7,9
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.10.0,0,24,24
 rancher/mirrored-prometheus-alertmanager:v0.26.0,0,2,2
