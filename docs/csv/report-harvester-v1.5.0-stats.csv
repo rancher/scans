@@ -25,7 +25,7 @@ rancher/hardened-cni-plugins:v1.6.2-build20250306,0,1,1
 rancher/hardened-coredns:v1.12.0-build20241126,0,1,1
 rancher/hardened-dns-node-cache:1.24.0-build20241211,0,0,0
 rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,0,0
-rancher/hardened-flannel:v0.26.5-build20250306,0,7,7
+rancher/hardened-flannel:v0.26.5-build20250306,0,8,8
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
 rancher/hardened-kubernetes:v1.32.3-rke2r1-build20250312,0,0,0
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,0,0
@@ -96,7 +96,7 @@ registry.suse.com/suse/sles/15.6/cdi-importer:1.61.0-150600.3.12.1,0,10,10
 registry.suse.com/suse/sles/15.6/cdi-operator:1.61.0-150600.3.12.1,0,10,10
 registry.suse.com/suse/sles/15.6/cdi-uploadproxy:1.61.0-150600.3.12.1,0,10,10
 registry.suse.com/suse/sles/15.6/cdi-uploadserver:1.61.0-150600.3.12.1,0,10,10
-registry.suse.com/suse/sles/15.6/libguestfs-tools:1.4.0-150600.5.15.1,0,11,11
+registry.suse.com/suse/sles/15.6/libguestfs-tools:1.4.0-150600.5.15.1,0,12,12
 registry.suse.com/suse/sles/15.6/virt-api:1.4.0-150600.5.15.1,0,7,7
 registry.suse.com/suse/sles/15.6/virt-controller:1.4.0-150600.5.15.1,0,7,7
 registry.suse.com/suse/sles/15.6/virt-handler:1.4.0-150600.5.15.1,0,8,8

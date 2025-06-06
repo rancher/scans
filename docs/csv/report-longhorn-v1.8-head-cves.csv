@@ -1,3 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/longhorn-instance-manager:v1.8.2-rc2,longhorn/v1.8-head,libexpat1,2.7.1-lp156.231.1,sles,SUSE-SU-2025:1201-1,HIGH,,longhornio/longhorn-instance-manager:v1.8.2-rc2 (sles 15.6),2.7.1-150400.3.28.1,false,affected,
-longhornio/support-bundle-kit:v0.0.55,longhorn/v1.8-head,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-1,HIGH,,longhornio/support-bundle-kit:v0.0.55 (sles 15.6),2.38-150600.14.32.1,false,affected,
+longhornio/longhorn-instance-manager:v1.8.2-rc3,longhorn/v1.8-head,libexpat1,2.7.1-lp156.231.1,sles,SUSE-SU-2025:1201-1,HIGH,,longhornio/longhorn-instance-manager:v1.8.2-rc3 (sles 15.6),2.7.1-150400.3.28.1,false,affected,
