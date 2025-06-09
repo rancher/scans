@@ -87,7 +87,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,31,31
 rancher/longhornio-csi-provisioner:v2.1.2,0,40,40
 rancher/longhornio-csi-resizer:v1.2.0,0,33,33
 rancher/machine:v0.15.0-rancher118,0,18,18
-rancher/mirrored-amazon-aws-cli:2.9.14,2,130,132
+rancher/mirrored-amazon-aws-cli:2.9.14,2,143,145
 rancher/mirrored-appscode-kubed:v0.13.2,1,26,27
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
@@ -185,7 +185,7 @@ rancher/mirrored-cilium-operator-generic:v1.16.2,0,2,2
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,13,13
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,8,8
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.0,7,28,35
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.0,4,23,27
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.0,4,24,28
 rancher/mirrored-cluster-api-controller:v1.4.4,0,8,8
 rancher/mirrored-cluster-proportional-autoscaler:v1.8.9,0,2,2
 rancher/mirrored-coredns-coredns:1.10.1,0,11,11
