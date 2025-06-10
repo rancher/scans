@@ -421,7 +421,7 @@ rancher/prometheus-federator:v2.0.1-rc.1,0,0,0
 rancher/pushprox:v0.1.7,0,0,0
 rancher/rancher-agent:v2.10-head,0,12,12
 rancher/rancher-csp-adapter:v5.0.1,0,1,1
-rancher/rancher-webhook:v0.6.8-rc.1,0,0,0
+rancher/rancher-webhook:v0.6.8-rc.2,0,0,0
 rancher/rancher:v2.10-head,0,18,18
 rancher/rke-tools:v0.1.105,0,12,12
 rancher/rke-tools:v0.1.111,0,9,9
