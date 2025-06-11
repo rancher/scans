@@ -25,9 +25,9 @@ rancher/hardened-cni-plugins:v1.7.1-build20250509,0,1,1
 rancher/hardened-coredns:v1.12.0-build20241126,0,1,1
 rancher/hardened-coredns:v1.12.1-build20250401,0,0,0
 rancher/hardened-coredns:v1.12.1-build20250507,0,0,0
-rancher/hardened-dns-node-cache:1.24.0-build20241211,0,1,1
-rancher/hardened-dns-node-cache:1.25.0-build20250127,0,1,1
-rancher/hardened-dns-node-cache:1.26.0-build20250515,0,1,1
+rancher/hardened-dns-node-cache:1.24.0-build20241211,0,0,0
+rancher/hardened-dns-node-cache:1.25.0-build20250127,0,0,0
+rancher/hardened-dns-node-cache:1.26.0-build20250515,0,0,0
 rancher/hardened-etcd:v3.5.16-k3s1-build20241106,0,0,0
 rancher/hardened-etcd:v3.5.18-k3s1-build20250210,0,0,0
 rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,0,0
@@ -171,7 +171,7 @@ rancher/mirrored-cluster-proportional-autoscaler:v1.9.0,0,0,0
 rancher/mirrored-coredns-coredns:1.11.1,0,3,3
 rancher/mirrored-coredns-coredns:1.11.3,0,0,0
 rancher/mirrored-coredns-coredns:1.12.0,0,1,1
-rancher/mirrored-coredns-coredns:1.12.1,0,2,2
+rancher/mirrored-coredns-coredns:1.12.1,0,1,1
 rancher/mirrored-coreos-etcd:v3.5.12,0,0,0
 rancher/mirrored-coreos-etcd:v3.5.15,0,0,0
 rancher/mirrored-coreos-etcd:v3.5.16,0,0,0
@@ -205,10 +205,10 @@ rancher/mirrored-jaegertracing-all-in-one:1.60.0,0,4,4
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,0,2,2
 rancher/mirrored-jaegertracing-all-in-one:1.67.0,0,0,0
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,0,0
-rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,4,4
-rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,1,1
-rancher/mirrored-k8s-dns-node-cache:1.23.0,0,11,11
-rancher/mirrored-k8s-dns-sidecar:1.23.0,0,1,1
+rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,3,3
+rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,0,0
+rancher/mirrored-k8s-dns-node-cache:1.23.0,0,10,10
+rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
 rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
 rancher/mirrored-kiali-kiali:v2.1.0,0,14,14
@@ -274,8 +274,8 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,0,0
 rancher/mirrored-thanos-thanos:v0.37.2,0,0,0
 rancher/neuvector-compliance-config:1.0.5,0,1,1
-rancher/neuvector-controller:5.4.4,0,6,6
-rancher/neuvector-enforcer:5.4.4,0,7,7
+rancher/neuvector-controller:5.4.4,0,5,5
+rancher/neuvector-enforcer:5.4.4,0,6,6
 rancher/neuvector-manager:5.4.4,0,4,4
 rancher/neuvector-prometheus-exporter:1.0.5,0,1,1
 rancher/neuvector-registry-adapter:0.1.7,0,4,4
