@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/aks-operator:v1.9.10-rc.1,0,0,0
-rancher/backup-restore-operator:v5.0.3,0,1,1
+rancher/backup-restore-operator:v5.0.4-rc.1,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,0,29,29
 rancher/calico-cni:v3.27.4-rancher1,0,15,15
 rancher/calico-cni:v3.28.1-rancher1,0,15,15

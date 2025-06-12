@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/backup-restore-operator:v8.0.0-rc.3,0,0,0
+rancher/backup-restore-operator:v8.0.0-rc.4,0,0,0
 rancher/calico-cni:v3.28.1-rancher1,0,15,15
 rancher/calico-cni:v3.29.3-rancher1,0,15,15
 rancher/flannel-cni:v1.4.1-rancher1,0,0,0
@@ -31,7 +31,7 @@ rancher/klipper-helm:v0.9.5-build20250306,0,0,0
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kube-api-auth:v0.2.4,0,1,1
 rancher/kubectl:v1.32.2,0,0,0
-rancher/kuberlr-kubectl:v4.0.2,0,1,1
+rancher/kuberlr-kubectl:v5.0.0,0,0,0
 rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/machine:v0.15.0-rancher128,0,0,0
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
@@ -84,11 +84,16 @@ rancher/mirrored-elemental-operator:1.6.9,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.6.9,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,0,8,8
 rancher/mirrored-flannel-flannel:v0.26.4,0,3,3
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,5,6
+rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
 rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,3,3
 rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,0,0
 rancher/mirrored-k8s-dns-node-cache:1.23.0,0,10,10
 rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
+rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,9,9
+rancher/mirrored-kube-logging-logging-operator:4.10.0,0,0,0
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,0,3,3
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-traefik:2.11.24,0,0,0
