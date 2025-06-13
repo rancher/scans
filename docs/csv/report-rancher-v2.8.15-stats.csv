@@ -274,8 +274,8 @@ rancher/mirrored-metrics-server:v0.6.2,1,20,21
 rancher/mirrored-metrics-server:v0.6.3,0,9,9
 rancher/mirrored-metrics-server:v0.7.0,0,0,0
 rancher/mirrored-metrics-server:v0.7.2,0,0,0
-rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,0,28,28
-rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,0,18,18
+rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,0,31,31
+rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,0,21,21
 rancher/mirrored-nginx-ingress-controller-defaultbackend:1.5-rancher1,0,0,0
 rancher/mirrored-openpolicyagent-gatekeeper-crds:v3.13.0,0,5,5
 rancher/mirrored-openpolicyagent-gatekeeper:v3.13.0,0,3,3
