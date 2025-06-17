@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - K3s v1.32.5 version - CVE Scans - 2025-06-13</h1>
+<h1>SUSE Rancher - K3s v1.32.5 version - CVE Scans - 2025-06-17</h1>
 
 <h3>How to use this page</h3>
 
@@ -73,6 +73,30 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(9)">Type (language or OS)</th>
 </tr>
 <tr class="issue">
+<td>rancher/klipper-helm:v0.9.5-build20250306</td>
+<td>false</td>
+<td>K3s v1.32.5</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.5-build20250306</td>
+<td>false</td>
+<td>K3s v1.32.5</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-coredns-coredns:1.12.1</td>
 <td>true</td>
 <td>K3s v1.32.5</td>
@@ -92,6 +116,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>github.com/coredns/coredns@v0.0.0-20250331195236-707c7c10acd5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-47950">CVE-2025-47950</a></td>
 <td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.12.1</td>
+<td>true</td>
+<td>K3s v1.32.5</td>
+<td>coredns</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>

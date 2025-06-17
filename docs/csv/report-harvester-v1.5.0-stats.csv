@@ -10,7 +10,7 @@ longhornio/csi-snapshotter:v8.2.0,0,0,0
 longhornio/livenessprobe:v2.15.0,0,0,0
 longhornio/longhorn-cli:v1.8.1,0,6,6
 longhornio/longhorn-engine:v1.8.1,0,7,7
-longhornio/longhorn-instance-manager:v1.8.1,0,8,8
+longhornio/longhorn-instance-manager:v1.8.1,0,9,9
 longhornio/longhorn-manager:v1.8.1,0,7,7
 longhornio/longhorn-share-manager:v1.8.1,0,7,7
 longhornio/longhorn-ui:v1.8.1,0,9,9
@@ -56,7 +56,7 @@ rancher/mirrored-cluster-api-controller:v1.9.5,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,5,6
 rancher/mirrored-grafana-grafana:11.1.0,0,6,6
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3,0,0,0
-rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,0,0
+rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2,0,1,1
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,10,12
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,9,9
@@ -73,14 +73,14 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1,0,2,2
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,0,0
 rancher/mirrored-prometheus-prometheus:v2.53.1,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
-rancher/nginx-ingress-controller:v1.12.1-hardened1,0,7,7
+rancher/nginx-ingress-controller:v1.12.1-hardened1,0,10,10
 rancher/rancher-agent:v2.11.0,0,12,12
 rancher/rancher-webhook:v0.7.0,0,1,1
 rancher/rancher:v2.11.0,0,14,14
 rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101,0,0,0
 rancher/rke2-runtime:v1.32.3-rke2r1,0,0,0
 rancher/shell:v0.3.0,0,7,7
-rancher/shell:v0.4.0,0,3,3
+rancher/shell:v0.4.0,0,4,4
 rancher/support-bundle-kit:v0.0.46,0,11,11
 rancher/system-agent-installer-rancher:v2.11.0,0,0,0
 rancher/system-agent-installer-rke2:v1.32.3-rke2r1,0,0,0

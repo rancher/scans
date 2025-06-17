@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Harvester master version - CVE Scans - 2025-06-13</h1>
+<h1>SUSE Rancher - Harvester master version - CVE Scans - 2025-06-17</h1>
 
 <h3>How to use this page</h3>
 
@@ -217,6 +217,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>longhornio/longhorn-engine:v1.8.2-rc2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.24.2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.8.2-rc2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/longhorn</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.8.2-rc2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/longhorn-instance-manager</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.8.2-rc2</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -229,6 +265,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.8.2-rc2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>Python</td>
+<td>protobuf@5.29.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-4565">CVE-2025-4565</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.8.2-rc2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.24.2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>longhornio/support-bundle-kit:v0.0.55</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -239,6 +299,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/support-bundle-kit:v0.0.55</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/fleet-agent:v0.12.3</td>
@@ -772,18 +844,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-load-balancer-webhook:master-head</td>
 <td>false</td>
 <td>Harvester master</td>
-<td>glibc</td>
-<td>glibc@2.38-150600.14.29.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202501702-1">SUSE-SU-2025:01702-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-load-balancer-webhook:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
 <td>usr/bin/harvester-load-balancer-webhook</td>
 <td>github.com/rancher/rancher@v0.0.0-20230124173128-2207cfed1803</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-22651">CVE-2023-22651</a></td>
@@ -827,18 +887,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-load-balancer:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>glibc</td>
-<td>glibc@2.38-150600.14.29.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202501702-1">SUSE-SU-2025:01702-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/harvester-load-balancer:master-head</td>
@@ -889,6 +937,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/harvester-network-controller:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/harvester-network-controller</td>
+<td>stdlib@v1.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-network-helper:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/harvester-network-helper</td>
+<td>stdlib@v1.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-network-webhook:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/harvester-network-webhook</td>
+<td>stdlib@v1.24.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/harvester-networkfs-manager:main-head</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -985,6 +1069,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/harvester-node-disk-manager-webhook:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/node-disk-manager-webhook</td>
+<td>stdlib@v1.24.2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/harvester-node-disk-manager:master-head</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -1031,6 +1127,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-node-disk-manager:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/node-disk-manager</td>
+<td>stdlib@v1.24.2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-upgrade:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/harvester-webhook:master-head</td>
@@ -1051,6 +1171,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/harvester</td>
 <td>github.com/rancher/steve@v0.5.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32198">CVE-2023-32198</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.5-build20250306</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.5-build20250306</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -1280,6 +1424,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.22.6</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-34156">CVE-2024-34156</a></td>
 <td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.2</td>
+<td>true</td>
+<td>Harvester master</td>
+<td>kube-webhook-certgen</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1969,6 +2125,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.12.1-hardened3</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>dbg</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.12.1-hardened3</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>nginx-ingress-controller</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.12.1-hardened3</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>wait-shutdown</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/rancher-agent:v2.11.2</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -1987,6 +2179,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/agent</td>
 <td>github.com/golang-jwt/jwt@v3.2.1+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher-agent:v2.11.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/agent</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -2056,6 +2260,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rancher:v2.11.2</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.11.2</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>usr/bin/rancher</td>
 <td>github.com/golang-jwt/jwt@v3.2.1+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
@@ -2068,9 +2284,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rancher:v2.11.2</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>usr/bin/rancher</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.11.2</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>usr/bin/rancher-machine</td>
 <td>golang.org/x/crypto@v0.33.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rancher:v2.11.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/share/rancher/ui/assets/wins.exe</td>
+<td>stdlib@v1.24.2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -2221,12 +2461,12 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>rancher/support-bundle-kit:master-head</td>
+<td>rancher/shell:v0.4.1</td>
 <td>false</td>
 <td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.42.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47108">CVE-2023-47108</a></td>
+<td>usr/local/bin/k9s</td>
+<td>stdlib@v1.24.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -2236,9 +2476,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/support-bundle-kit:master-head</td>
 <td>false</td>
 <td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>google.golang.org/grpc@v1.40.0</td>
-<td><a href="https://github.com/advisories/GHSA-m425-mq94-257g">GHSA-m425-mq94-257g</a></td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.24.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22874">CVE-2025-22874</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -5207,78 +5447,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>github.com/golang-jwt/jwt/v4@v4.5.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-30204">CVE-2025-30204</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>github.com/rancher/wrangler@v1.0.1-0.20220520195731-8eeded9bae2a</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-31249">CVE-2022-31249</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.42.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-45142">CVE-2023-45142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.21.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-45337">CVE-2024-45337</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.21.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-22869">CVE-2025-22869</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-28948">CVE-2022-28948</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
