@@ -75,7 +75,6 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.65.1,0,4,4
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.65.1,0,7,7
 rancher/mirrored-prometheus-prometheus:v2.45.0,0,6,6
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
-rancher/nginx-ingress-controller:v1.12.1-hardened1,0,10,10
 rancher/rancher-agent:v2.10.1,1,20,21
 rancher/rancher-webhook:v0.6.2,0,1,1
 rancher/rancher:v2.10.1,1,27,28

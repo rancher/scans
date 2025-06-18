@@ -498,10 +498,6 @@ rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.3,0,3,3
 rancher/nginx-ingress-controller:nginx-1.11.3-rancher1,0,9,9
 rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,7,7
-rancher/nginx-ingress-controller:v1.10.5-hardened3,0,23,23
-rancher/nginx-ingress-controller:v1.10.5-hardened6,0,16,16
-rancher/nginx-ingress-controller:v1.12.1-hardened1,0,10,10
-rancher/nginx-ingress-controller:v1.12.1-hardened3,0,8,8
 rancher/nginx-ingress-controller:v1.12.1-hardened6,0,3,3
 rancher/prometheus-federator:v0.4.4,0,3,3
 rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
