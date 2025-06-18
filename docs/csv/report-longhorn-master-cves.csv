@@ -1,6 +1,9 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 longhornio/backing-image-manager:master-head,longhorn/master,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),2.38-150600.14.32.1,false,affected,
 longhornio/backing-image-manager:master-head,longhorn/master,glibc-devel,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),2.38-150600.14.32.1,false,affected,
+longhornio/csi-node-driver-registrar:v2.13.0,longhorn/master,golang.org/x/net,v0.32.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,csi-node-driver-registrar,0.36.0,false,not_affected,vulnerable_code_not_present
+longhornio/csi-resizer:v1.13.2,longhorn/master,golang.org/x/net,v0.34.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,csi-resizer,0.36.0,false,not_affected,vulnerable_code_not_present
+longhornio/livenessprobe:v2.15.0,longhorn/master,golang.org/x/net,v0.32.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,livenessprobe,0.36.0,false,not_affected,vulnerable_code_not_present
 longhornio/longhorn-cli:master-head,longhorn/master,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,longhornio/longhorn-cli:master-head (sles 15.7),2.38-150600.14.32.1,false,affected,
 longhornio/longhorn-cli:master-head,longhorn/master,stdlib,v1.24.3,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/local/bin/longhornctl,1.24.4,false,affected,
 longhornio/longhorn-cli:master-head,longhorn/master,stdlib,v1.24.3,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/local/bin/longhornctl-local,1.24.4,false,affected,
