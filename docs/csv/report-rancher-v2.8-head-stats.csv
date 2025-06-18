@@ -87,7 +87,7 @@ rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,31,31
 rancher/longhornio-csi-provisioner:v2.1.2,0,40,40
 rancher/longhornio-csi-resizer:v1.2.0,0,33,33
 rancher/machine:v0.15.0-rancher118,0,18,18
-rancher/mirrored-amazon-aws-cli:2.9.14,2,130,132
+rancher/mirrored-amazon-aws-cli:2.9.14,2,143,145
 rancher/mirrored-appscode-kubed:v0.13.2,1,26,27
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
@@ -274,8 +274,8 @@ rancher/mirrored-metrics-server:v0.6.2,1,20,21
 rancher/mirrored-metrics-server:v0.6.3,0,9,9
 rancher/mirrored-metrics-server:v0.7.0,0,0,0
 rancher/mirrored-metrics-server:v0.7.2,0,0,0
-rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,0,31,31
-rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,0,21,21
+rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,0,32,32
+rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,0,22,22
 rancher/mirrored-nginx-ingress-controller-defaultbackend:1.5-rancher1,0,0,0
 rancher/mirrored-openpolicyagent-gatekeeper-crds:v3.13.0,0,5,5
 rancher/mirrored-openpolicyagent-gatekeeper:v3.13.0,0,3,3

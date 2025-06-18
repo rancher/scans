@@ -116,7 +116,7 @@ rancher/harvester-csi-driver:v0.2.2,0,12,12
 rancher/hyperkube:v1.27.16-rancher1,0,0,0
 rancher/hyperkube:v1.28.15-rancher1,0,0,0
 rancher/hyperkube:v1.29.15-rancher1,0,0,0
-rancher/hyperkube:v1.30.12-rancher1,0,0,0
+rancher/hyperkube:v1.30.13-rancher1,0,0,0
 rancher/istio-installer:1.19.6-rancher1,0,27,27
 rancher/istio-installer:1.21.1-rancher1,0,27,27
 rancher/istio-installer:1.22.1-rancher1,0,27,27
@@ -506,7 +506,7 @@ rancher/rancher-webhook:v0.5.10,0,2,2
 rancher/rancher:v2.9.10,0,0,0
 rancher/rke-tools:v0.1.105,0,12,12
 rancher/rke-tools:v0.1.111,0,9,9
-rancher/rke-tools:v0.1.112,0,2,2
+rancher/rke-tools:v0.1.113,0,0,0
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0

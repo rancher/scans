@@ -13,5 +13,4 @@ longhornio/longhorn-manager:master-head,longhorn/master,bind-utils,9.20.3-150700
 longhornio/longhorn-manager:master-head,longhorn/master,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,longhornio/longhorn-manager:master-head (sles 15.7),2.38-150600.14.32.1,false,affected,
 longhornio/longhorn-share-manager:master-head,longhorn/master,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.7),2.38-150600.14.32.1,false,affected,
 longhornio/longhorn-ui:master-head,longhorn/master,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),2.38-150600.14.32.1,false,affected,
-longhornio/support-bundle-kit:v0.0.55,longhorn/master,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-1,HIGH,,longhornio/support-bundle-kit:v0.0.55 (sles 15.6),2.38-150600.14.32.1,false,affected,
-longhornio/support-bundle-kit:v0.0.55,longhorn/master,stdlib,v1.24.3,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/yq,1.24.4,false,affected,
+longhornio/support-bundle-kit:v0.0.57,longhorn/master,stdlib,v1.24.3,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/yq,1.24.4,false,affected,

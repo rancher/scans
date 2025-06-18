@@ -49,9 +49,9 @@ rancher/hardened-whereabouts:v0.8.0-build20250131,0,1,1
 rancher/hardened-whereabouts:v0.9.0-build20250403,0,1,1
 rancher/harvester-cloud-provider:v0.2.4,1,5,6
 rancher/harvester-csi-driver:v0.2.2,0,12,12
-rancher/hyperkube:v1.30.12-rancher1,0,0,0
-rancher/hyperkube:v1.31.8-rancher1,0,0,0
-rancher/hyperkube:v1.32.4-rancher1,0,0,0
+rancher/hyperkube:v1.30.13-rancher1,0,0,0
+rancher/hyperkube:v1.31.9-rancher1,0,0,0
+rancher/hyperkube:v1.32.5-rancher1,0,0,0
 rancher/istio-installer:1.22.1-rancher1,0,27,27
 rancher/istio-installer:1.23.2-rancher1,0,14,14
 rancher/istio-installer:1.24.1-rancher1,0,12,12
@@ -211,8 +211,8 @@ rancher/mirrored-k8s-dns-node-cache:1.23.0,0,10,10
 rancher/mirrored-k8s-dns-sidecar:1.23.0,0,0,0
 rancher/mirrored-kiali-kiali:v1.86.0,0,6,6
 rancher/mirrored-kiali-kiali:v1.89.3,0,6,6
-rancher/mirrored-kiali-kiali:v2.1.0,0,14,14
-rancher/mirrored-kiali-kiali:v2.7.1,0,14,14
+rancher/mirrored-kiali-kiali:v2.1.0,0,11,11
+rancher/mirrored-kiali-kiali:v2.7.1,0,11,11
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,0,5,5
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,0,0
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,0,9,9
@@ -282,7 +282,7 @@ rancher/neuvector-registry-adapter:0.1.7,0,5,5
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.3,0,3,3
 rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,7,7
-rancher/nginx-ingress-controller:nginx-1.12.1-rancher2,0,5,5
+rancher/nginx-ingress-controller:nginx-1.12.1-rancher3,0,3,3
 rancher/nginx-ingress-controller:v1.12.1-hardened6,0,3,3
 rancher/prom-prometheus:v3.2.1,0,0,0
 rancher/prometheus-federator:v3.2.0,0,1,1
@@ -293,7 +293,7 @@ rancher/rancher-csp-adapter:v6.0.0,0,1,1
 rancher/rancher-webhook:v0.7.2,0,1,1
 rancher/rancher:v2.11.2,0,6,6
 rancher/remotedialer-proxy:v0.4.4,0,0,0
-rancher/rke-tools:v0.1.112,0,2,2
+rancher/rke-tools:v0.1.113,0,0,0
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101,0,0,0
