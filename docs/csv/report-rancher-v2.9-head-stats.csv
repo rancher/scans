@@ -8,8 +8,8 @@ rancher/cis-operator:v1.2.6,0,0,0
 rancher/eks-operator:v1.9.10-rc.1,0,0,0
 rancher/flannel-cni:v0.3.0-rancher9,0,98,98
 rancher/flannel-cni:v1.4.1-rancher1,0,50,50
-rancher/fleet-agent:v0.10.13,0,1,1
-rancher/fleet:v0.10.13,0,1,1
+rancher/fleet-agent:v0.10.14-rc.2,0,0,0
+rancher/fleet:v0.10.14-rc.2,0,0,0
 rancher/gke-operator:v1.9.10-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,7,7
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,2,2

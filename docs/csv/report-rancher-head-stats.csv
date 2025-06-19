@@ -3,8 +3,8 @@ rancher/backup-restore-operator:v8.0.0-rc.4,0,0,0
 rancher/calico-cni:v3.28.1-rancher1,0,24,24
 rancher/calico-cni:v3.29.3-rancher1,0,24,24
 rancher/flannel-cni:v1.4.1-rancher1,0,50,50
-rancher/fleet-agent:v0.13.0-alpha.5,0,0,0
-rancher/fleet:v0.13.0-alpha.5,0,0,0
+rancher/fleet-agent:v0.13.0-alpha.6,0,0,0
+rancher/fleet:v0.13.0-alpha.6,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.3-build20250408,0,4,4
 rancher/hardened-cluster-autoscaler:v1.9.0-build20241203,0,1,1
@@ -144,8 +144,8 @@ rancher/prom-prometheus:v3.2.1,0,0,0
 rancher/prometheus-federator:v4.0.0-rc.3,0,0,0
 rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
-rancher/rancher-agent:head,0,11,11
-rancher/rancher:head,0,9,9
+rancher/rancher-agent:head,0,10,10
+rancher/rancher:head,0,8,8
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke-tools:v0.1.113,0,1,1
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
