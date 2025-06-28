@@ -426,6 +426,7 @@ rancher/harvester-seeder:v1.5.0,harvester/v1.5.0,golang.org/x/crypto,v0.21.0,gob
 rancher/harvester-seeder:v1.5.0,harvester/v1.5.0,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,bin/manager,0.36.0,false,not_affected,vulnerable_code_not_present
 rancher/harvester-seeder:v1.5.0,harvester/v1.5.0,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,bin/manager,0.38.0,false,not_affected,vulnerable_code_not_present
 rancher/harvester-upgrade:v1.5.0,harvester/v1.5.0,glibc,2.38-150600.14.26.1,sles,SUSE-SU-2025:01702-1,HIGH,,rancher/harvester-upgrade:v1.5.0 (sles 15.6),2.38-150600.14.32.1,false,affected,
+rancher/harvester-upgrade:v1.5.0,harvester/v1.5.0,helm,3.17.2-150000.1.44.1,sles,SUSE-SU-2025:02121-1,HIGH,,rancher/harvester-upgrade:v1.5.0 (sles 15.6),3.18.3-150000.1.50.1,false,affected,
 rancher/harvester-upgrade:v1.5.0,harvester/v1.5.0,libopenssl-3-fips-provider,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,rancher/harvester-upgrade:v1.5.0 (sles 15.6),3.1.4-150600.5.27.1,false,affected,
 rancher/harvester-upgrade:v1.5.0,harvester/v1.5.0,libopenssl3,3.1.4-150600.5.24.1,sles,SUSE-SU-2025:1550-1,HIGH,,rancher/harvester-upgrade:v1.5.0 (sles 15.6),3.1.4-150600.5.27.1,false,affected,
 rancher/harvester-upgrade:v1.5.0,harvester/v1.5.0,libsqlite3-0,3.44.0-150000.3.23.1,sles,SUSE-SU-2025:1456-1,HIGH,,rancher/harvester-upgrade:v1.5.0 (sles 15.6),3.49.1-150000.3.27.1,false,affected,
