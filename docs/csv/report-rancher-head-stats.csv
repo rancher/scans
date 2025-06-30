@@ -15,9 +15,9 @@ rancher/hardened-dns-node-cache:1.25.0-build20250127,0,0,0
 rancher/hardened-etcd:v3.5.21-k3s1-build20250411,0,0,0
 rancher/hardened-flannel:v0.26.6-build20250414,0,8,8
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
-rancher/hardened-kubernetes:v1.31.8-rke2r1-build20250423,0,1,1
-rancher/hardened-kubernetes:v1.32.4-rke2r1-build20250423,0,1,1
-rancher/hardened-kubernetes:v1.33.0-rke2r1-build20250425,0,7,7
+rancher/hardened-kubernetes:v1.31.8-rke2r1-build20250423,0,2,2
+rancher/hardened-kubernetes:v1.32.4-rke2r1-build20250423,0,2,2
+rancher/hardened-kubernetes:v1.33.0-rke2r1-build20250425,0,8,8
 rancher/hardened-multus-cni:v4.2.0-build20250326,0,0,0
 rancher/hardened-whereabouts:v0.9.0-build20250403,0,1,1
 rancher/harvester-cloud-provider:v0.2.4,1,5,6
@@ -168,4 +168,4 @@ rancher/system-agent-installer-rke2:v1.32.5-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.0-rke2r1,0,0,0
 rancher/system-agent:v0.3.13-rc.3-suc,0,1,1
 rancher/system-upgrade-controller:v0.15.2,0,0,0
-rancher/ui-plugin-catalog:4.0.1,0,6,6
+rancher/ui-plugin-catalog:4.0.1,0,7,7

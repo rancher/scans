@@ -688,6 +688,7 @@ rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libnghttp2-14,1.40.0-150
 rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libopenssl1_1,1.1.1d-150200.11.82.1,sles,SUSE-SU-2024:2035-1,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),1.1.1d-150200.11.91.1,false,affected,
 rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libopenssl1_1-hmac,1.1.1d-150200.11.82.1,sles,SUSE-SU-2024:2035-1,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),1.1.1d-150200.11.91.1,false,affected,
 rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libsmartcols1,2.36.2-150300.4.35.1,sles,SUSE-SU-2024:1170-1,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),2.36.2-150300.4.41.1,false,affected,
+rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libsqlite3-0,3.44.0-150000.3.23.1,sles,SUSE-SU-2025:01456-2,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),3.49.1-150000.3.27.1,false,affected,
 rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libssh4,0.8.7-10.12.1,sles,SUSE-SU-2024:0525-1,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),0.9.8-150200.13.3.1,false,affected,
 rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libsystemd0,246.16-150300.7.57.1,sles,SUSE-SU-2025:02019-1,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),246.16-150300.7.60.1,false,affected,
 rancher/istio-installer:1.22.1-rancher1,rancher/v2.11.2,libtasn1,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,rancher/istio-installer:1.22.1-rancher1 (sles 15.3),4.13-150000.4.11.1,false,affected,
@@ -2670,6 +2671,7 @@ rancher/system-agent:v0.3.12-suc,rancher/v2.11.2,golang.org/x/net,v0.30.0,gobina
 rancher/system-upgrade-controller:v0.15.2,rancher/v2.11.2,golang.org/x/net,v0.30.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,bin/system-upgrade-controller,0.36.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/system-upgrade-controller:v0.15.2,rancher/v2.11.2,golang.org/x/net,v0.30.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,bin/system-upgrade-controller,0.38.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/ui-plugin-catalog:4.0.1,rancher/v2.11.2,glibc,2.31-150300.89.2,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/ui-plugin-catalog:4.0.1 (sles 15.5),2.31-150300.95.1,false,affected,
+rancher/ui-plugin-catalog:4.0.1,rancher/v2.11.2,libsqlite3-0,3.44.0-150000.3.23.1,sles,SUSE-SU-2025:01456-2,HIGH,,rancher/ui-plugin-catalog:4.0.1 (sles 15.5),3.49.1-150000.3.27.1,false,affected,
 rancher/ui-plugin-catalog:4.0.1,rancher/v2.11.2,libtasn1,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,rancher/ui-plugin-catalog:4.0.1 (sles 15.5),4.13-150000.4.11.1,false,affected,
 rancher/ui-plugin-catalog:4.0.1,rancher/v2.11.2,libtasn1-6,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,rancher/ui-plugin-catalog:4.0.1 (sles 15.5),4.13-150000.4.11.1,false,affected,
 rancher/ui-plugin-catalog:4.0.1,rancher/v2.11.2,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,rancher/ui-plugin-catalog:4.0.1 (sles 15.5),2.10.3-150500.5.20.1,false,affected,
