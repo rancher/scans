@@ -13,9 +13,9 @@ rancher/gke-operator:v1.2.7,0,1,1
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,7,7
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,2,2
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,2,2
-rancher/hardened-calico:v3.28.1-build20240806,0,22,22
-rancher/hardened-calico:v3.28.1-build20240911,0,16,16
-rancher/hardened-calico:v3.28.2-build20241016,0,13,13
+rancher/hardened-calico:v3.28.1-build20240806,0,21,21
+rancher/hardened-calico:v3.28.1-build20240911,0,15,15
+rancher/hardened-calico:v3.28.2-build20241016,0,12,12
 rancher/hardened-cluster-autoscaler:v1.8.10-build20240124,0,8,8
 rancher/hardened-cluster-autoscaler:v1.8.11-build20240910,0,1,1
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,1,1
@@ -30,9 +30,9 @@ rancher/hardened-dns-node-cache:1.23.1-build20240910,0,3,3
 rancher/hardened-dns-node-cache:1.23.1-build20241008,0,3,3
 rancher/hardened-etcd:v3.5.13-k3s1-build20240531,0,14,14
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
-rancher/hardened-flannel:v0.25.5-build20240801,0,29,29
-rancher/hardened-flannel:v0.25.6-build20240910,0,23,23
-rancher/hardened-flannel:v0.25.7-build20241008,0,20,20
+rancher/hardened-flannel:v0.25.5-build20240801,0,27,27
+rancher/hardened-flannel:v0.25.6-build20240910,0,21,21
+rancher/hardened-flannel:v0.25.7-build20241008,0,18,18
 rancher/hardened-ib-sriov-cni:v1.0.3-build20240327,0,22,22
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240401,0,0,0
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240910,0,0,0
@@ -274,7 +274,7 @@ rancher/mirrored-metrics-server:v0.6.2,1,33,34
 rancher/mirrored-metrics-server:v0.6.3,0,18,18
 rancher/mirrored-metrics-server:v0.7.0,0,6,6
 rancher/mirrored-metrics-server:v0.7.2,0,0,0
-rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,0,43,43
+rancher/mirrored-minio-mc:RELEASE.2023-06-28T21-54-17Z,0,45,45
 rancher/mirrored-minio-minio:RELEASE.2023-07-07T07-13-57Z,0,32,32
 rancher/mirrored-nginx-ingress-controller-defaultbackend:1.5-rancher1,0,0,0
 rancher/mirrored-openpolicyagent-gatekeeper-crds:v3.13.0,0,14,14
