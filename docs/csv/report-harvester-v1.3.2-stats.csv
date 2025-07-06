@@ -69,7 +69,7 @@ rancher/rancher-webhook:v0.4.7,0,2,2
 rancher/rancher:v2.8.5,4,217,221
 rancher/rke2-cloud-provider:v1.29.3-build20240515,0,0,0
 rancher/rke2-runtime:v1.28.12-rke2r1,0,29,29
-rancher/shell:v0.1.26,0,17,17
+rancher/shell:v0.1.26,0,19,19
 rancher/support-bundle-kit:v0.0.38,0,14,14
 rancher/system-agent-installer-rancher:v2.8.5,0,6,6
 rancher/system-agent-installer-rke2:v1.28.12-rke2r1,0,0,0
