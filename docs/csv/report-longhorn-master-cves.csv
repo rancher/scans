@@ -26,8 +26,6 @@ longhornio/longhorn-engine:master-head,longhorn/master,libssh-config,0.9.8-15060
 longhornio/longhorn-engine:master-head,longhorn/master,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-engine:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-instance-manager:master-head,longhorn/master,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-instance-manager:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-instance-manager:master-head,longhorn/master,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-instance-manager:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
-longhornio/longhorn-manager:master-head,longhorn/master,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-manager:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
-longhornio/longhorn-manager:master-head,longhorn/master,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-manager:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-share-manager:master-head,longhorn/master,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-share-manager:master-head,longhorn/master,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.7),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-ui:master-head,longhorn/master,libglib-2_0-0,2.78.6-150600.4.11.1,sles,SUSE-SU-2025:02167-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),2.78.6-150600.4.16.1,false,affected,
