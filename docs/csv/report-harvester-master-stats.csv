@@ -16,8 +16,8 @@ longhornio/longhorn-manager:v1.9.0,0,6,6
 longhornio/longhorn-share-manager:v1.9.0,0,6,6
 longhornio/longhorn-ui:v1.9.0,0,8,8
 longhornio/support-bundle-kit:v0.0.55,0,6,6
-rancher/fleet-agent:v0.12.3,0,1,1
-rancher/fleet:v0.12.3,0,5,5
+rancher/fleet-agent:v0.12.3,0,2,2
+rancher/fleet:v0.12.3,0,7,7
 rancher/gitjob:v0.9.8,0,22,22
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.3-build20250408,0,7,7
@@ -49,7 +49,7 @@ rancher/harvester-upgrade:master-head,0,1,1
 rancher/harvester-vm-import-controller:v1.6-head,0,1,1
 rancher/harvester-webhook:master-head,0,1,1
 rancher/harvester:master-head,0,1,1
-rancher/klipper-helm:v0.9.5-build20250306,0,2,2
+rancher/klipper-helm:v0.9.5-build20250306,0,4,4
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.29.2,0,6,6
 rancher/kubectl:v1.32.2,0,0,0
@@ -80,8 +80,8 @@ rancher/rancher-webhook:v0.7.2,0,1,1
 rancher/rancher:v2.11.2,0,11,11
 rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101,0,0,0
 rancher/rke2-runtime:v1.32.4-rke2r1,0,0,0
-rancher/shell:v0.3.0,0,14,14
-rancher/shell:v0.4.1,0,4,4
+rancher/shell:v0.3.0,0,15,15
+rancher/shell:v0.4.1,0,5,5
 rancher/support-bundle-kit:master-head,0,4,4
 rancher/system-agent-installer-rancher:v2.11.2,0,0,0
 rancher/system-agent-installer-rke2:v1.32.4-rke2r1,0,0,0

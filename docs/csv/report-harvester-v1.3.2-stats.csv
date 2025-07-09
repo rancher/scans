@@ -41,7 +41,7 @@ rancher/harvester-upgrade:v1.3.2,1,45,46
 rancher/harvester-vm-import-controller:v0.3.2,0,12,12
 rancher/harvester-webhook:v1.3.2,0,11,11
 rancher/harvester:v1.3.2,0,11,11
-rancher/klipper-helm:v0.8.4-build20240523,0,79,79
+rancher/klipper-helm:v0.8.4-build20240523,0,81,81
 rancher/kubectl:v1.20.2,0,34,34
 rancher/kubectl:v1.21.5,0,30,30
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,6,41,47
@@ -69,7 +69,7 @@ rancher/rancher-webhook:v0.4.7,0,2,2
 rancher/rancher:v2.8.5,4,217,221
 rancher/rke2-cloud-provider:v1.29.3-build20240515,0,0,0
 rancher/rke2-runtime:v1.28.12-rke2r1,0,29,29
-rancher/shell:v0.1.26,0,19,19
+rancher/shell:v0.1.26,0,20,20
 rancher/support-bundle-kit:v0.0.38,0,14,14
 rancher/system-agent-installer-rancher:v2.8.5,0,6,6
 rancher/system-agent-installer-rke2:v1.28.12-rke2r1,0,0,0

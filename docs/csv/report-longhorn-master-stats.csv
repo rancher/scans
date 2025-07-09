@@ -6,7 +6,7 @@ longhornio/csi-provisioner:v5.2.0,0,0,0
 longhornio/csi-resizer:v1.13.2,0,0,0
 longhornio/csi-snapshotter:v8.2.0,0,0,0
 longhornio/livenessprobe:v2.15.0,0,0,0
-longhornio/longhorn-cli:master-head,0,2,2
+longhornio/longhorn-cli:master-head,0,0,0
 longhornio/longhorn-engine:master-head,0,4,4
 longhornio/longhorn-instance-manager:master-head,0,2,2
 longhornio/longhorn-manager:master-head,0,0,0
