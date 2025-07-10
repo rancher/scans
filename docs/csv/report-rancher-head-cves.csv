@@ -1,10 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-rancher/fleet-agent:v0.13.0-beta.2,rancher/head,glibc,2.38-150600.14.29.1,sles,SUSE-SU-2025:01702-2,HIGH,,rancher/fleet-agent:v0.13.0-beta.2 (sles 15.7),2.38-150600.14.32.1,false,affected,
-rancher/fleet-agent:v0.13.0-beta.2,rancher/head,helm.sh/helm/v3,v3.18.3,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/fleetagent,3.18.4,false,affected,
-rancher/fleet:v0.13.0-beta.2,rancher/head,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/fleet:v0.13.0-beta.2 (sles 15.7),0.9.8-150600.11.3.1,false,affected,
-rancher/fleet:v0.13.0-beta.2,rancher/head,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/fleet:v0.13.0-beta.2 (sles 15.7),0.9.8-150600.11.3.1,false,affected,
-rancher/fleet:v0.13.0-beta.2,rancher/head,helm.sh/helm/v3,v3.18.3,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/fleet,3.18.4,false,affected,
-rancher/fleet:v0.13.0-beta.2,rancher/head,helm.sh/helm/v3,v3.18.3,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/fleetcontroller,3.18.4,false,affected,
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,pod_nanny,0.36.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,pod_nanny,0.38.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-addon-resizer:1.8.23-build20250507,rancher/head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,pod_nanny,1.24.4,false,affected,
