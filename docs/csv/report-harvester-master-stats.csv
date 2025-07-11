@@ -9,12 +9,12 @@ longhornio/csi-provisioner:v5.2.0,0,0,0
 longhornio/csi-resizer:v1.13.2,0,0,0
 longhornio/csi-snapshotter:v8.2.0,0,0,0
 longhornio/livenessprobe:v2.15.0,0,0,0
-longhornio/longhorn-cli:v1.9.0,0,10,10
+longhornio/longhorn-cli:v1.9.0,0,11,11
 longhornio/longhorn-engine:v1.9.0,0,9,9
 longhornio/longhorn-instance-manager:v1.9.0,0,11,11
 longhornio/longhorn-manager:v1.9.0,0,6,6
 longhornio/longhorn-share-manager:v1.9.0,0,6,6
-longhornio/longhorn-ui:v1.9.0,0,8,8
+longhornio/longhorn-ui:v1.9.0,0,10,10
 longhornio/support-bundle-kit:v0.0.55,0,6,6
 rancher/fleet-agent:v0.12.3,0,2,2
 rancher/fleet:v0.12.3,0,7,7
@@ -45,7 +45,7 @@ rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:v1.6.0-rc1,0,0,0
 rancher/harvester-seeder:v1.6.0-rc1,0,0,0
-rancher/harvester-upgrade:master-head,0,1,1
+rancher/harvester-upgrade:master-head,0,0,0
 rancher/harvester-vm-import-controller:v1.6.0-rc1,0,0,0
 rancher/harvester-webhook:master-head,0,1,1
 rancher/harvester:master-head,0,1,1
@@ -82,7 +82,7 @@ rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250
 rancher/rke2-runtime:v1.32.4-rke2r1,0,0,0
 rancher/shell:v0.3.0,0,15,15
 rancher/shell:v0.4.1,0,5,5
-rancher/support-bundle-kit:master-head,0,1,1
+rancher/support-bundle-kit:master-head,0,2,2
 rancher/system-agent-installer-rancher:v2.11.2,0,0,0
 rancher/system-agent-installer-rke2:v1.32.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,0,4,4

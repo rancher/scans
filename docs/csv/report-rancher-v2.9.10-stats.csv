@@ -490,7 +490,7 @@ rancher/neuvector-compliance-config:1.0.5,0,1,1
 rancher/neuvector-controller:5.4.4,0,11,11
 rancher/neuvector-enforcer:5.4.4,0,17,17
 rancher/neuvector-manager:5.4.4,0,7,7
-rancher/neuvector-prometheus-exporter:1.0.5,0,12,12
+rancher/neuvector-prometheus-exporter:1.0.5,0,13,13
 rancher/neuvector-registry-adapter:0.1.7,0,5,5
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.3,0,5,5
