@@ -39,9 +39,9 @@ rancher/hardened-flannel:v0.26.6-build20250414,0,13,13
 rancher/hardened-flannel:v0.26.7-build20250515,0,8,8
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250507,0,1,1
-rancher/hardened-kubernetes:v1.30.13-rke2r1-build20250515,0,0,0
-rancher/hardened-kubernetes:v1.31.9-rke2r1-build20250515,0,0,0
-rancher/hardened-kubernetes:v1.32.5-rke2r1-build20250515,0,0,0
+rancher/hardened-kubernetes:v1.30.13-rke2r1-build20250515,0,2,2
+rancher/hardened-kubernetes:v1.31.9-rke2r1-build20250515,0,2,2
+rancher/hardened-kubernetes:v1.32.5-rke2r1-build20250515,0,2,2
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,0,0
 rancher/hardened-multus-cni:v4.2.0-build20250326,0,0,0
 rancher/hardened-whereabouts:v0.8.0-build20241011,0,1,1
@@ -52,7 +52,7 @@ rancher/harvester-csi-driver:v0.2.2,0,17,17
 rancher/hyperkube:v1.30.13-rancher1,0,0,0
 rancher/hyperkube:v1.31.9-rancher1,0,0,0
 rancher/hyperkube:v1.32.5-rancher1,0,0,0
-rancher/istio-installer:1.22.1-rancher1,0,33,33
+rancher/istio-installer:1.22.1-rancher1,0,35,35
 rancher/istio-installer:1.23.2-rancher1,0,19,19
 rancher/istio-installer:1.24.1-rancher1,0,17,17
 rancher/istio-installer:1.25.0-rancher1,0,11,11
@@ -158,8 +158,8 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,23,23
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,17,17
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,10,10
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,4,4
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,9,40,49
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,8,21,29
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,11,44,55
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,10,25,35
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,5,26,31
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,4,13,17
 rancher/mirrored-cloud-provider-vsphere:v1.31.0,0,3,3
@@ -182,7 +182,7 @@ rancher/mirrored-flannel-flannel:v0.25.1,0,9,9
 rancher/mirrored-flannel-flannel:v0.26.4,0,3,3
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,5,6
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,39,43
+rancher/mirrored-grafana-grafana-image-renderer:3.10.5,4,41,45
 rancher/mirrored-grafana-grafana:11.5.5,0,3,3
 rancher/mirrored-idealista-prom2teams:4.2.1,3,37,40
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.0,0,0,0
@@ -281,8 +281,8 @@ rancher/neuvector-prometheus-exporter:1.0.5,0,13,13
 rancher/neuvector-registry-adapter:0.1.7,0,5,5
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.3,0,5,5
-rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,7,7
-rancher/nginx-ingress-controller:nginx-1.12.1-rancher3,0,3,3
+rancher/nginx-ingress-controller:nginx-1.11.5-rancher1,0,9,9
+rancher/nginx-ingress-controller:nginx-1.12.1-rancher3,0,5,5
 rancher/nginx-ingress-controller:v1.12.1-hardened6,0,10,10
 rancher/prom-prometheus:v3.2.1,0,0,0
 rancher/prometheus-federator:v3.2.1,0,1,1
@@ -331,4 +331,4 @@ rancher/system-agent-installer-rke2:v1.31.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.5-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,0,4,4
 rancher/system-upgrade-controller:v0.15.2,0,0,0
-rancher/ui-plugin-catalog:4.0.2,0,7,7
+rancher/ui-plugin-catalog:4.0.2,0,9,9

@@ -20,7 +20,7 @@ longhornio/longhorn-ui:v1.7.3,0,15,15
 longhornio/support-bundle-kit:v0.0.51,0,11,11
 rancher/fleet-agent:v0.11.2,0,3,3
 rancher/fleet:v0.11.2,0,23,23
-rancher/gitjob:v0.9.8,0,22,22
+rancher/gitjob:v0.9.8,0,24,24
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.2-build20250306,0,8,8
 rancher/hardened-cluster-autoscaler:v1.9.0-build20241126,0,1,1
@@ -30,7 +30,7 @@ rancher/hardened-dns-node-cache:1.24.0-build20241211,0,0,0
 rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,0,0
 rancher/hardened-flannel:v0.26.5-build20250306,0,15,15
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
-rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,0,1,1
+rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,0,3,3
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,0,0
 rancher/harvester-cluster-repo:v1.4.3,0,4,4
 rancher/harvester-eventrouter:v0.3.3,0,2,2
@@ -80,7 +80,7 @@ rancher/rancher-webhook:v0.6.2,0,1,1
 rancher/rancher:v2.10.1,1,39,40
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-runtime:v1.31.7-rke2r1,0,0,0
-rancher/shell:v0.1.24,1,38,39
+rancher/shell:v0.1.24,1,40,41
 rancher/shell:v0.1.26,0,20,20
 rancher/shell:v0.3.0,0,15,15
 rancher/support-bundle-kit:v0.0.46,0,15,15
