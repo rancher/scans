@@ -197,13 +197,6 @@ rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.11-head,stdlib,v1.21.7,gobinary,C
 rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.11-head,stdlib,v1.21.7,gobinary,CVE-2024-24783,HIGH,https://avd.aquasec.com/nvd/cve-2024-24783,opt/cni/bin/vlan,"1.21.8, 1.22.1",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.11-head,stdlib,v1.21.7,gobinary,CVE-2024-24784,HIGH,https://avd.aquasec.com/nvd/cve-2024-24784,opt/cni/bin/vlan,"1.21.8, 1.22.1",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/flannel-cni:v1.4.1-rancher1,rancher/v2.11-head,stdlib,v1.21.7,gobinary,CVE-2024-24785,HIGH,https://avd.aquasec.com/nvd/cve-2024-24785,opt/cni/bin/vlan,"1.21.8, 1.22.1",false,affected,severity_changed_due_to_suse_cvss_score
-rancher/fleet-agent:v0.12.4,rancher/v2.11-head,helm.sh/helm/v3,v3.18.2,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/fleetagent,"3.18.4, 3.17.4",false,affected,
-rancher/fleet:v0.12.4,rancher/v2.11-head,libglib-2_0-0,2.78.6-150600.4.11.1,sles,SUSE-SU-2025:02167-1,HIGH,,rancher/fleet:v0.12.4 (sles 15.6),2.78.6-150600.4.16.1,false,affected,
-rancher/fleet:v0.12.4,rancher/v2.11-head,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/fleet:v0.12.4 (sles 15.6),0.9.8-150600.11.3.1,false,affected,
-rancher/fleet:v0.12.4,rancher/v2.11-head,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/fleet:v0.12.4 (sles 15.6),0.9.8-150600.11.3.1,false,affected,
-rancher/fleet:v0.12.4,rancher/v2.11-head,libxml2-2,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02314-1,HIGH,,rancher/fleet:v0.12.4 (sles 15.6),2.10.3-150500.5.29.1,false,affected,
-rancher/fleet:v0.12.4,rancher/v2.11-head,helm.sh/helm/v3,v3.18.2,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/fleet,"3.18.4, 3.17.4",false,affected,
-rancher/fleet:v0.12.4,rancher/v2.11-head,helm.sh/helm/v3,v3.18.2,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/fleetcontroller,"3.18.4, 3.17.4",false,affected,
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/v2.11-head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,pod_nanny,0.36.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/v2.11-head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,pod_nanny,0.38.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-addon-resizer:1.8.23-build20250507,rancher/v2.11-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,pod_nanny,1.24.4,false,affected,
