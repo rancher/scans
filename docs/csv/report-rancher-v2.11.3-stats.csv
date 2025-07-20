@@ -44,7 +44,7 @@ rancher/hardened-kubernetes:v1.31.9-rke2r1-build20250515,0,3,3
 rancher/hardened-kubernetes:v1.32.5-rke2r1-build20250515,0,3,3
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,0,0
 rancher/hardened-multus-cni:v4.2.0-build20250326,0,0,0
-rancher/hardened-whereabouts:v0.8.0-build20241011,0,3,3
+rancher/hardened-whereabouts:v0.8.0-build20241011,0,1,1
 rancher/hardened-whereabouts:v0.8.0-build20250131,0,1,1
 rancher/hardened-whereabouts:v0.9.0-build20250403,0,1,1
 rancher/harvester-cloud-provider:v0.2.4,1,5,6
