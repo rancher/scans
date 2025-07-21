@@ -1,5 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:v1.8.x-head,longhorn/v1.8-head,libxml2-2,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02314-1,HIGH,,longhornio/backing-image-manager:v1.8.x-head (sles 15.6),2.10.3-150500.5.29.1,false,affected,
 longhornio/csi-attacher:v4.9.0,longhorn/v1.8-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,csi-attacher,1.24.4,false,affected,
 longhornio/csi-node-driver-registrar:v2.14.0,longhorn/v1.8-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,csi-node-driver-registrar,1.24.4,false,affected,
 longhornio/csi-provisioner:v5.3.0,longhorn/v1.8-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,csi-provisioner,1.24.4,false,affected,
