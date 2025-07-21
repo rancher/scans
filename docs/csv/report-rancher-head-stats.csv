@@ -28,7 +28,7 @@ rancher/hardened-etcd:v3.5.21-k3s1-build20250411,0,0,0
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,0,0
 rancher/hardened-flannel:v0.26.6-build20250414,0,14,14
 rancher/hardened-flannel:v0.26.7-build20250515,0,9,9
-rancher/hardened-flannel:v0.27.0-build20250611,0,9,9
+rancher/hardened-flannel:v0.27.0-build20250611,0,8,8
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250507,0,1,1
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250612,0,0,0
@@ -53,7 +53,7 @@ rancher/klipper-helm:v0.9.7-build20250616,0,2,2
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.33.1,0,1,1
 rancher/kuberlr-kubectl:v5.0.0,0,1,1
-rancher/local-path-provisioner:v0.0.31,0,1,1
+rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/machine:v0.15.0-rancher131,0,1,1
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
@@ -163,7 +163,7 @@ rancher/mirrored-metrics-server:v0.7.2,0,0,0
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,0,0
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,0,0
-rancher/mirrored-prometheus-node-exporter:v1.9.0,0,1,1
+rancher/mirrored-prometheus-node-exporter:v1.9.0,0,0,0
 rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,0,0
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,0,0
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,0,0

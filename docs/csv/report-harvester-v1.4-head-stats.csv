@@ -11,7 +11,7 @@ longhornio/csi-provisioner:v4.0.1-20250204,0,0,0
 longhornio/csi-resizer:v1.13.1,0,0,0
 longhornio/csi-snapshotter:v7.0.2-20250204,0,0,0
 longhornio/livenessprobe:v2.15.0,0,0,0
-longhornio/longhorn-cli:v1.7.3,0,14,14
+longhornio/longhorn-cli:v1.7.3,0,12,12
 longhornio/longhorn-engine:v1.7.3,0,15,15
 longhornio/longhorn-instance-manager:v1.7.3,0,17,17
 longhornio/longhorn-manager:v1.7.3,0,14,14
@@ -46,7 +46,7 @@ rancher/harvester-node-manager-webhook:v0.3.4,0,10,10
 rancher/harvester-node-manager:v0.3.4,0,10,10
 rancher/harvester-pcidevices:v0.4.3,0,6,6
 rancher/harvester-seeder:v0.4.3,0,6,6
-rancher/harvester-upgrade:v1.4-head,0,9,9
+rancher/harvester-upgrade:v1.4-head,0,8,8
 rancher/harvester-vm-import-controller:v0.4.3,0,7,7
 rancher/harvester-webhook:v1.4-head,0,8,8
 rancher/harvester:v1.4-head,0,8,8

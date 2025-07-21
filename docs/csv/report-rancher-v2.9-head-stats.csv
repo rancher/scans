@@ -75,7 +75,7 @@ rancher/hardened-flannel:v0.26.4-build20250218,0,17,17
 rancher/hardened-flannel:v0.26.5-build20250306,0,16,16
 rancher/hardened-flannel:v0.26.6-build20250414,0,14,14
 rancher/hardened-flannel:v0.26.7-build20250515,0,9,9
-rancher/hardened-flannel:v0.27.0-build20250611,0,9,9
+rancher/hardened-flannel:v0.27.0-build20250611,0,8,8
 rancher/hardened-ib-sriov-cni:v1.0.3-build20240327,0,25,25
 rancher/hardened-ib-sriov-cni:v1.1.1-build20240816,0,28,28
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240401,0,0,0
@@ -157,7 +157,7 @@ rancher/kubectl:v1.30.5,0,0,0
 rancher/kuberlr-kubectl:v3.0.1,0,1,1
 rancher/local-path-provisioner:v0.0.28,0,8,8
 rancher/local-path-provisioner:v0.0.30,0,0,0
-rancher/local-path-provisioner:v0.0.31,0,1,1
+rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/longhornio-csi-attacher:v3.2.1,0,47,47
 rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,44,44
 rancher/longhornio-csi-provisioner:v2.1.2,0,54,54

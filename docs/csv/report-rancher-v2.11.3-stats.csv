@@ -71,7 +71,7 @@ rancher/kubectl:v1.32.2,0,0,0
 rancher/kuberlr-kubectl:v4.0.1,0,1,1
 rancher/kuberlr-kubectl:v4.0.2,0,1,1
 rancher/local-path-provisioner:v0.0.30,0,0,0
-rancher/local-path-provisioner:v0.0.31,0,1,1
+rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/machine:v0.15.0-rancher127,0,7,7
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
@@ -254,7 +254,7 @@ rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-pause:3.7,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,0,0
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,0,0
-rancher/mirrored-prometheus-node-exporter:v1.9.0,0,1,1
+rancher/mirrored-prometheus-node-exporter:v1.9.0,0,0,0
 rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,0,0
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,0,0
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,0,0

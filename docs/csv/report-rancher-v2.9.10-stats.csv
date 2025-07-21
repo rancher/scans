@@ -144,7 +144,7 @@ rancher/kubectl:v1.30.5,0,0,0
 rancher/kuberlr-kubectl:v3.0.1,0,1,1
 rancher/local-path-provisioner:v0.0.28,0,8,8
 rancher/local-path-provisioner:v0.0.30,0,0,0
-rancher/local-path-provisioner:v0.0.31,0,1,1
+rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/longhornio-csi-attacher:v3.2.1,0,47,47
 rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,44,44
 rancher/longhornio-csi-provisioner:v2.1.2,0,54,54
