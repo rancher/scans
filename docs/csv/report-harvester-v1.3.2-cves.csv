@@ -1396,6 +1396,7 @@ rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,zlib,1.2.
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,activesupport,7.0.3,gemspec,CVE-2023-22796,HIGH,https://avd.aquasec.com/nvd/cve-2023-22796,Ruby,"~> 5.2.8, ~> 6.1.7, >= 6.1.7.1, >= 7.0.4.1",true,affected,
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,google-protobuf,3.20.1,gemspec,CVE-2024-7254,HIGH,https://avd.aquasec.com/nvd/cve-2024-7254,Ruby,"~> 3.25.5, ~> 4.27.5, >= 4.28.2",true,affected,
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,kubeclient,4.9.1,gemspec,CVE-2022-0759,HIGH,https://avd.aquasec.com/nvd/cve-2022-0759,Ruby,>= 4.9.3,true,affected,
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,nokogiri,1.13.6,gemspec,GHSA-353f-x4gh-cqq8,CRITICAL,https://github.com/advisories/GHSA-353f-x4gh-cqq8,Ruby,1.18.9,true,affected,
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,nokogiri,1.13.6,gemspec,GHSA-mrxw-mxhj-p664,HIGH,https://github.com/advisories/GHSA-mrxw-mxhj-p664,Ruby,>= 1.18.4,true,affected,
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,opensearch-ruby,1.0.0,gemspec,CVE-2022-31115,HIGH,https://avd.aquasec.com/nvd/cve-2022-31115,Ruby,>= 2.0.2,true,affected,
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,harvester/v1.3.2,rack,2.2.3,gemspec,CVE-2022-30123,CRITICAL,https://avd.aquasec.com/nvd/cve-2022-30123,Ruby,"~> 2.0.9, >= 2.0.9.1, ~> 2.1.4, >= 2.1.4.1, >= 2.2.3.1",true,affected,
