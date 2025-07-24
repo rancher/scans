@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/aks-operator:v1.12.0,0,0,0
-rancher/backup-restore-operator:v8.0.0,0,0,0
+rancher/backup-restore-operator:v8.0.0-rc.9,0,0,0
 rancher/compliance-operator:v1.0.0-rc.5,0,0,0
 rancher/eks-operator:v1.12.0,0,0,0
 rancher/fleet-agent:v0.13.0,0,0,0
@@ -193,11 +193,10 @@ rancher/neuvector-updater:0.0.4,0,0,0
 rancher/nginx-ingress-controller:v1.12.1-hardened6,0,12,12
 rancher/nginx-ingress-controller:v1.12.2-hardened2,0,9,9
 rancher/prom-prometheus:v3.2.1,0,0,0
-rancher/prometheus-federator:v4.0.0,0,1,1
+rancher/prometheus-federator:v4.0.0-rc.3,0,1,1
 rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.12-head,0,3,3
-rancher/rancher-csp-adapter:v7.0.0,0,1,1
 rancher/rancher:v2.12-head,0,11,11
 rancher/remotedialer-proxy:v0.5.0-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0

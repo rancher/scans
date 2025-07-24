@@ -22,6 +22,7 @@ ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,harvester/master,golang.org/x/oauth2,v
 kubeovn/kube-ovn:v1.13.13,harvester/master,stdlib,v1.24.3,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/gobgp,1.24.4,false,affected,
 kubeovn/kube-ovn:v1.13.13,harvester/master,golang.org/x/net,v0.26.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,usr/bin/kubectl,0.36.0,false,not_affected,vulnerable_code_not_in_execute_path
 kubeovn/kube-ovn:v1.13.13,harvester/master,golang.org/x/oauth2,v0.21.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/kubectl,0.27.0,false,not_affected,vulnerable_code_not_present
+longhornio/longhorn-manager:v1.9.1-rc1,harvester/master,bind-utils,9.20.9-150700.3.3.1,sles,SUSE-SU-2025:02349-1,HIGH,,longhornio/longhorn-manager:v1.9.1-rc1 (sles 15.7),9.20.11-150700.3.6.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/master,git-core,2.35.3-150300.10.39.1,sles,SUSE-SU-2024:2656-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.35.3-150300.10.42.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/master,glibc,2.31-150300.74.1,sles,SUSE-SU-2024:1895-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.31-150300.83.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/master,glibc,2.31-150300.74.1,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.31-150300.95.1,false,affected,
