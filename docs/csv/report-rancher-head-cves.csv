@@ -1510,9 +1510,12 @@ rancher/prom-prometheus:v3.2.1,rancher/head,github.com/golang-jwt/jwt/v5,v5.2.1,
 rancher/prom-prometheus:v3.2.1,rancher/head,golang.org/x/crypto,v0.32.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,bin/promtool,0.35.0,false,not_affected,vulnerable_code_not_present
 rancher/prom-prometheus:v3.2.1,rancher/head,golang.org/x/net,v0.34.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,bin/promtool,0.38.0,false,not_affected,vulnerable_code_not_present
 rancher/prom-prometheus:v3.2.1,rancher/head,golang.org/x/oauth2,v0.25.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,bin/promtool,0.27.0,false,not_affected,vulnerable_code_not_in_execute_path
-rancher/prometheus-federator:v4.0.0-rc.3,rancher/head,helm.sh/helm/v3,v3.15.3,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/prometheus-federator,"3.18.4, 3.17.4",false,affected,
+rancher/prometheus-federator:v4.0.0,rancher/head,helm.sh/helm/v3,v3.15.3,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/bin/prometheus-federator,"3.18.4, 3.17.4",false,affected,
 rancher/rancher-agent:head,rancher/head,github.com/golang-jwt/jwt,v3.2.1+incompatible,gobinary,CVE-2025-30204,HIGH,https://avd.aquasec.com/nvd/cve-2025-30204,usr/bin/agent,,false,affected,
 rancher/rancher-agent:head,rancher/head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/kubectl,1.24.4,false,affected,
+rancher/rancher-csp-adapter:v7.0.0,rancher/head,stdlib,v1.24.1,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/csp-adapter,1.24.4,false,affected,
+rancher/rancher-csp-adapter:v7.0.0,rancher/head,golang.org/x/net,v0.36.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,usr/bin/csp-adapter,0.38.0,false,not_affected,vulnerable_code_not_present
+rancher/rancher-csp-adapter:v7.0.0,rancher/head,golang.org/x/oauth2,v0.26.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/csp-adapter,0.27.0,false,not_affected,vulnerable_code_not_present
 rancher/rancher:head,rancher/head,github.com/moby/moby,v1.4.2-0.20170731201646-1009e6a40b29,gobinary,CVE-2021-21284,LOW,https://avd.aquasec.com/nvd/cve-2021-21284,opt/drivers/management-state/bin/docker-machine-driver-harvester,"19.3.15, 20.10.3",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/rancher:head,rancher/head,github.com/golang/glog,v1.2.1,gobinary,CVE-2024-45339,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-45339,opt/drivers/management-state/bin/docker-machine-driver-harvester,1.2.4,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher:head,rancher/head,github.com/moby/moby,v1.4.2-0.20170731201646-1009e6a40b29,gobinary,CVE-2024-36621,HIGH,https://avd.aquasec.com/nvd/cve-2024-36621,opt/drivers/management-state/bin/docker-machine-driver-harvester,26.0.0,false,not_affected,vulnerable_code_not_present
@@ -1594,7 +1597,7 @@ rancher/shell:v0.5.0-rc.4,rancher/head,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-202
 rancher/shell:v0.5.0-rc.4,rancher/head,helm.sh/helm/v3,v3.17.3,gobinary,CVE-2025-53547,HIGH,https://avd.aquasec.com/nvd/cve-2025-53547,usr/local/bin/k9s,"3.18.4, 3.17.4",false,affected,
 rancher/shell:v0.5.0-rc.4,rancher/head,stdlib,v1.24.1,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/local/bin/k9s,1.24.4,false,affected,
 rancher/shell:v0.5.0-rc.4,rancher/head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/local/bin/kubectl,1.24.4,false,affected,
-rancher/system-agent:v0.3.13-rc.3-suc,rancher/head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/kubectl,1.24.4,false,affected,
+rancher/system-agent:v0.3.13-suc,rancher/head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/bin/kubectl,1.24.4,false,affected,
 rancher/ui-plugin-catalog:4.0.2,rancher/head,glibc,2.31-150300.89.2,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/ui-plugin-catalog:4.0.2 (sles 15.5),2.31-150300.95.1,false,affected,
 rancher/ui-plugin-catalog:4.0.2,rancher/head,libsqlite3-0,3.44.0-150000.3.23.1,sles,SUSE-SU-2025:01456-2,HIGH,,rancher/ui-plugin-catalog:4.0.2 (sles 15.5),3.49.1-150000.3.27.1,false,affected,
 rancher/ui-plugin-catalog:4.0.2,rancher/head,libssh-config,0.9.8-150400.3.6.1,sles,SUSE-SU-2025:02278-1,HIGH,,rancher/ui-plugin-catalog:4.0.2 (sles 15.5),0.9.8-150400.3.9.1,false,affected,
