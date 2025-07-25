@@ -198,7 +198,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
 rancher/rancher-agent:head,0,2,2
 rancher/rancher-csp-adapter:v7.0.0,0,1,1
-rancher/rancher:head,0,11,11
+rancher/rancher:head,0,10,10
 rancher/remotedialer-proxy:v0.5.0-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.31.9-rc1.0.20250516171836-812206503b28-build20250612,0,0,0
