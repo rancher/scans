@@ -44,7 +44,7 @@ rancher/harvester:v1.3.2,0,14,14
 rancher/klipper-helm:v0.8.4-build20240523,0,82,82
 rancher/kubectl:v1.20.2,0,34,34
 rancher/kubectl:v1.21.5,0,30,30
-rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,7,42,49
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,7,41,48
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,0,36,36
 rancher/mirrored-cluster-api-controller:v1.4.4,0,18,18
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,19,24
