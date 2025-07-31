@@ -20,16 +20,13 @@ rancher/fleet-agent:v0.13.0-rc.3,0,0,0
 rancher/fleet:v0.13.0-rc.3,3,0,3
 rancher/gitjob:v0.9.8,3,25,28
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
-rancher/hardened-calico:v3.30.1-build20250611,3,4,7
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,0,0
 rancher/hardened-cni-plugins:v1.7.1-build20250611,0,0,0
 rancher/hardened-coredns:v1.12.2-build20250611,0,0,0
 rancher/hardened-dns-node-cache:1.26.0-build20250611,0,0,0
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,0,0
-rancher/hardened-flannel:v0.27.0-build20250611,3,8,11
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250612,0,0,0
 rancher/hardened-kubernetes:v1.33.2-rke2r1-build20250618,3,3,6
-rancher/hardened-multus-cni:v4.2.1-build20250607,0,0,0
 rancher/harvester-cluster-repo:master-head,0,0,0
 rancher/harvester-eventrouter:v1.6.0-rc3,0,1,1
 rancher/harvester-kubeovn-operator:v1.13.13-rc4,3,1,4
@@ -57,8 +54,6 @@ rancher/kubectl:v1.33.1,0,1,1
 rancher/mirrored-cluster-api-controller:v1.10.2,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,5,6
 rancher/mirrored-grafana-grafana:11.1.0,0,8,8
-rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3,0,1,1
-rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.3,0,1,1
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,10,12
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,1,1
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,9,10
@@ -75,7 +70,6 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1,0,3,3
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,1,1
 rancher/mirrored-prometheus-prometheus:v2.53.1,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
-rancher/nginx-ingress-controller:v1.12.2-hardened2,3,9,12
 rancher/rancher-agent:v2.12.0-alpha21,0,3,3
 rancher/rancher-webhook:v0.8.0-rc.12,0,1,1
 rancher/rancher:v2.12.0-alpha21,0,12,12
