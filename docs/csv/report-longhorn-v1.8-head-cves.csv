@@ -1,8 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:v1.8.x-head,longhorn/v1.8-head,boost-license1_66_0,1.66.0-12.3.1,sles,SUSE-SU-2025:02536-1,CRITICAL,,longhornio/backing-image-manager:v1.8.x-head (sles 15.6),1.66.0-150200.12.7.1,false,affected,
-longhornio/backing-image-manager:v1.8.x-head,longhorn/v1.8-head,libboost_system1_66_0,1.66.0-12.3.1,sles,SUSE-SU-2025:02536-1,CRITICAL,,longhornio/backing-image-manager:v1.8.x-head (sles 15.6),1.66.0-150200.12.7.1,false,affected,
-longhornio/backing-image-manager:v1.8.x-head,longhorn/v1.8-head,libboost_thread1_66_0,1.66.0-12.3.1,sles,SUSE-SU-2025:02536-1,CRITICAL,,longhornio/backing-image-manager:v1.8.x-head (sles 15.6),1.66.0-150200.12.7.1,false,affected,
-longhornio/backing-image-manager:v1.8.x-head,longhorn/v1.8-head,libgnutls30,3.8.3-150600.4.6.2,sles,SUSE-SU-2025:02595-1,HIGH,,longhornio/backing-image-manager:v1.8.x-head (sles 15.6),3.8.3-150600.4.9.1,false,affected,
 longhornio/csi-attacher:v4.9.0,longhorn/v1.8-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,csi-attacher,1.24.4,false,affected,
 longhornio/csi-node-driver-registrar:v2.14.0,longhorn/v1.8-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,csi-node-driver-registrar,1.24.4,false,affected,
 longhornio/csi-provisioner:v5.3.0,longhorn/v1.8-head,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,csi-provisioner,1.24.4,false,affected,
