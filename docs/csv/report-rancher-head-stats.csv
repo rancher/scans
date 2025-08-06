@@ -45,7 +45,7 @@ rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,1,1
 rancher/hardened-kubernetes:v1.33.3-rke2r1-build20250716,0,1,1
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,0,0
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,0,0
-rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20250711,0,1,1
+rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20250711,0,0,0
 rancher/hardened-multus-thick:v4.2.1-build20250627,0,1,1
 rancher/hardened-whereabouts:v0.8.0-build20241011,0,1,1
 rancher/hardened-whereabouts:v0.8.0-build20250131,0,1,1
