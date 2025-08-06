@@ -2,9 +2,9 @@ image,critical,high,total
 rancher/aks-operator:v1.11.4,0,0,0
 rancher/backup-restore-operator:v7.0.2,0,1,1
 rancher/cis-operator:v1.4.0,0,0,0
-rancher/eks-operator:v1.11.4,0,0,0
-rancher/fleet-agent:v0.12.6-beta.2,0,0,0
-rancher/fleet:v0.12.6-beta.2,0,0,0
+rancher/eks-operator:v1.11.5-rc.1,0,0,0
+rancher/fleet-agent:v0.12.6-rc.1,0,0,0
+rancher/fleet:v0.12.6-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,1,1
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
