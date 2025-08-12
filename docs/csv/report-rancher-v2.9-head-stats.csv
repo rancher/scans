@@ -4,8 +4,6 @@ rancher/backup-restore-operator:v5.0.4,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,0,93,93
 rancher/cis-operator:v1.2.6,0,1,1
 rancher/eks-operator:v1.9.10,0,0,0
-rancher/fleet-agent:v0.10.14,0,0,0
-rancher/fleet:v0.10.14,0,5,5
 rancher/gke-operator:v1.9.10,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,8,8
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,3,3
@@ -137,7 +135,6 @@ rancher/kube-api-auth:v0.2.2,0,1,1
 rancher/kubectl:v1.20.2,0,34,34
 rancher/kubectl:v1.22.6,0,27,27
 rancher/kubectl:v1.23.3,0,27,27
-rancher/kubectl:v1.29.0,0,6,6
 rancher/kubectl:v1.29.14,0,0,0
 rancher/kubectl:v1.29.2,0,6,6
 rancher/kubectl:v1.30.5,0,0,0
@@ -444,7 +441,7 @@ rancher/mirrored-library-traefik:2.11.18,0,2,2
 rancher/mirrored-library-traefik:2.11.20,0,0,0
 rancher/mirrored-library-traefik:2.11.24,0,0,0
 rancher/mirrored-library-traefik:2.11.8,0,2,2
-rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,3,3
+rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,5,5
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,47,47
 rancher/mirrored-longhornio-csi-attacher:v4.9.0-20250709,0,0,0
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.14.0-20250709,0,0,0
@@ -516,7 +513,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.9-head,0,29,29
 rancher/rancher-csp-adapter:v4.0.0,0,2,2
-rancher/rancher-webhook:v0.5.11-rc.1,0,1,1
+rancher/rancher-webhook:v0.5.11-rc.2,0,1,1
 rancher/rancher:v2.9-head,0,42,42
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0

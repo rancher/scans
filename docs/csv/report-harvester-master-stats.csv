@@ -2,7 +2,7 @@ image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.8.0,0,6,6
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,5,5
 kubeovn/kube-ovn:v1.13.13,0,1,1
-longhornio/backing-image-manager:v1.9.1,0,3,3
+longhornio/backing-image-manager:v1.9.1,0,5,5
 longhornio/csi-attacher:v4.9.0-20250709,0,0,0
 longhornio/csi-node-driver-registrar:v2.14.0-20250709,0,0,0
 longhornio/csi-provisioner:v5.3.0-20250709,0,0,0
@@ -31,7 +31,7 @@ rancher/hardened-kubernetes:v1.33.3-rke2r1-build20250716,0,0,0
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,0,0
 rancher/harvester-cluster-repo:master-head,0,0,0
 rancher/harvester-eventrouter:v1.6.0-rc5,0,1,1
-rancher/harvester-kubeovn-operator:v1.13.13-rc4,0,2,2
+rancher/harvester-kubeovn-operator:v1.13.13-rc5,0,1,1
 rancher/harvester-load-balancer-webhook:master-head,0,2,2
 rancher/harvester-load-balancer:master-head,0,0,0
 rancher/harvester-network-controller:master-head,0,1,1
@@ -44,7 +44,7 @@ rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:v1.6.0-rc5,0,1,1
 rancher/harvester-seeder:v1.6.0-rc5,0,1,1
-rancher/harvester-upgrade:master-head,0,0,0
+rancher/harvester-upgrade:master-head,1,5,6
 rancher/harvester-vm-import-controller:v1.6.0-rc5,0,1,1
 rancher/harvester-webhook:master-head,0,1,1
 rancher/harvester:master-head,0,1,1

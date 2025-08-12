@@ -3,8 +3,8 @@ rancher/aks-operator:v1.10.8-rc.1,0,0,0
 rancher/backup-restore-operator:v6.0.2,0,1,1
 rancher/cis-operator:v1.3.7,0,1,1
 rancher/eks-operator:v1.10.8-rc.1,0,0,0
-rancher/fleet-agent:v0.11.10-rc.1,0,1,1
-rancher/fleet:v0.11.10-rc.1,0,1,1
+rancher/fleet-agent:v0.11.10-rc.2,0,1,1
+rancher/fleet:v0.11.10-rc.2,0,1,1
 rancher/gke-operator:v1.10.8-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,3,3
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,3,3
@@ -367,7 +367,7 @@ rancher/mirrored-library-traefik:2.11.18,0,2,2
 rancher/mirrored-library-traefik:2.11.20,0,0,0
 rancher/mirrored-library-traefik:2.11.24,0,0,0
 rancher/mirrored-library-traefik:2.11.8,0,2,2
-rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,3,3
+rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,5,5
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,47,47
 rancher/mirrored-longhornio-csi-attacher:v4.9.0-20250709,0,0,0
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.14.0-20250709,0,0,0
@@ -434,7 +434,7 @@ rancher/prometheus-federator:v2.0.1,0,0,0
 rancher/pushprox:v0.1.7,0,0,0
 rancher/rancher-agent:v2.10-head,0,25,25
 rancher/rancher-csp-adapter:v5.0.1,0,1,1
-rancher/rancher-webhook:v0.6.9,0,0,0
+rancher/rancher-webhook:v0.6.9-rc.2,0,0,0
 rancher/rancher:v2.10-head,0,34,34
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
