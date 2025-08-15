@@ -47,7 +47,7 @@ rancher/kubectl:v1.29.2,0,6,6
 rancher/kubectl:v1.32.2,0,0,0
 rancher/kubectl:v1.32.3,0,0,0
 rancher/mirrored-cluster-api-controller:v1.9.5,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,5,6
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,7,8
 rancher/mirrored-grafana-grafana:11.1.0,0,8,8
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,10,12
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,1,1
@@ -79,7 +79,7 @@ rancher/system-agent:v0.3.12-suc,0,4,4
 rancher/system-upgrade-controller:v0.15.2,0,0,0
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,0,8,8
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,0,8,8
-registry.suse.com/bci/bci-base:15.6,0,1,1
+registry.suse.com/bci/bci-base:15.6,0,0,0
 registry.suse.com/suse/sles/15.6/cdi-apiserver:1.61.0-150600.3.12.1,0,17,17
 registry.suse.com/suse/sles/15.6/cdi-cloner:1.61.0-150600.3.12.1,0,17,17
 registry.suse.com/suse/sles/15.6/cdi-controller:1.61.0-150600.3.12.1,0,17,17
