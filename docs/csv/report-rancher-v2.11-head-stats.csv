@@ -206,7 +206,7 @@ rancher/mirrored-elemental-operator:1.7.3,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,0,9,9
 rancher/mirrored-flannel-flannel:v0.26.4,0,3,3
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,8,9
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,7,8
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:3.10.5,7,45,52
 rancher/mirrored-grafana-grafana:11.5.5,0,3,3
