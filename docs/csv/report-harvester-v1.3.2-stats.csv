@@ -47,7 +47,7 @@ rancher/kubectl:v1.21.5,0,30,30
 rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,7,42,49
 rancher/mirrored-banzaicloud-logging-operator:3.17.10,0,36,36
 rancher/mirrored-cluster-api-controller:v1.4.4,0,18,18
-rancher/mirrored-fluent-fluent-bit:2.2.0,5,21,26
+rancher/mirrored-fluent-fluent-bit:2.2.0,5,22,27
 rancher/mirrored-grafana-grafana:9.1.5,3,94,97
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6,0,25,25
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794,0,18,18

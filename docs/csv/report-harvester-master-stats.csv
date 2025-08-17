@@ -40,8 +40,8 @@ rancher/harvester-network-webhook:master-head,0,1,1
 rancher/harvester-networkfs-manager:main-head,0,0,0
 rancher/harvester-node-disk-manager-webhook:master-head,0,0,0
 rancher/harvester-node-disk-manager:master-head,0,0,0
-rancher/harvester-node-manager-webhook:master-head,0,1,1
-rancher/harvester-node-manager:master-head,0,1,1
+rancher/harvester-node-manager-webhook:master-head,0,0,0
+rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:v1.6.0-rc6,0,1,1
 rancher/harvester-seeder:v1.6.0-rc6,0,1,1
 rancher/harvester-upgrade:master-head,1,5,6
@@ -54,7 +54,7 @@ rancher/kubectl:v1.29.2,0,6,6
 rancher/kubectl:v1.32.3,0,0,0
 rancher/kubectl:v1.33.1,0,1,1
 rancher/mirrored-cluster-api-controller:v1.10.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,7,8
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,8,9
 rancher/mirrored-grafana-grafana:11.1.0,0,8,8
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,0,0
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,10,12
