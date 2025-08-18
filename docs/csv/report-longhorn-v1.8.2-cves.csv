@@ -123,6 +123,7 @@ longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libglib-2_0-0,2.78.6-150600.4.11.1
 longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),3.50.2-150000.3.33.1,false,affected,
 longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),0.9.8-150600.11.3.1,false,affected,
+longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:02815-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),4.0.9-150000.45.50.1,false,affected,
 longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libxml2-2,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02314-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),2.10.3-150500.5.29.1,false,affected,
 longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libxml2-2,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02758-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),2.10.3-150500.5.32.1,false,affected,
 longhornio/longhorn-ui:v1.8.2,longhorn/v1.8.2,libxml2-tools,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02314-1,HIGH,,longhornio/longhorn-ui:v1.8.2 (sles 15.6),2.10.3-150500.5.29.1,false,affected,
