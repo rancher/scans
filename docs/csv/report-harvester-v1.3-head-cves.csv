@@ -268,7 +268,6 @@ longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libssh-config,0.9.8-150600.9.1
 longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),0.9.8-150600.11.3.1,false,affected,
 longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libtasn1,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),4.13-150000.4.11.1,false,affected,
 longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libtasn1-6,4.13-150000.4.8.1,sles,SUSE-SU-2025:0548-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),4.13-150000.4.11.1,false,affected,
-longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:02815-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),4.0.9-150000.45.50.1,false,affected,
 longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:02314-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),2.10.3-150500.5.29.1,false,affected,
 longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:02758-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),2.10.3-150500.5.32.1,false,affected,
 longhornio/longhorn-ui:v1.6.4,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.17.1,sles,SUSE-SU-2025:0348-1,HIGH,,longhornio/longhorn-ui:v1.6.4 (sles 15.6),2.10.3-150500.5.20.1,false,affected,
@@ -332,7 +331,6 @@ rancher/fleet-agent:v0.9.5,harvester/v1.3-head,boost-license1_66_0,1.66.0-12.3.1
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,libboost_system1_66_0,1.66.0-12.3.1,sles,SUSE-SU-2025:02536-1,CRITICAL,,rancher/fleet-agent:v0.9.5 (sles 15.5),1.66.0-150200.12.7.1,false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,libboost_thread1_66_0,1.66.0-12.3.1,sles,SUSE-SU-2025:02536-1,CRITICAL,,rancher/fleet-agent:v0.9.5 (sles 15.5),1.66.0-150200.12.7.1,false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2024-6257,HIGH,https://avd.aquasec.com/nvd/cve-2024-6257,usr/bin/fleet,1.7.5,false,affected,
-rancher/fleet-agent:v0.9.5,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2025-8959,HIGH,https://avd.aquasec.com/nvd/cve-2025-8959,usr/bin/fleet,1.7.9,false,affected,
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,golang.org/x/crypto,v0.21.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/bin/fleet,0.35.0,false,affected,
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,stdlib,v1.21.10,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,usr/bin/fleet,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,stdlib,v1.21.10,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/fleet,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
@@ -343,7 +341,6 @@ rancher/fleet-agent:v0.9.5,harvester/v1.3-head,golang.org/x/crypto,v0.21.0,gobin
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,usr/bin/fleet,0.38.0,false,not_affected,vulnerable_code_not_present
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,golang.org/x/oauth2,v0.10.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/fleet,0.27.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2024-6257,HIGH,https://avd.aquasec.com/nvd/cve-2024-6257,usr/bin/fleetagent,1.7.5,false,affected,
-rancher/fleet-agent:v0.9.5,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2025-8959,HIGH,https://avd.aquasec.com/nvd/cve-2025-8959,usr/bin/fleetagent,1.7.9,false,affected,
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,golang.org/x/crypto,v0.21.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/bin/fleetagent,0.35.0,false,affected,
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,k8s.io/kubernetes,v1.28.8,gobinary,CVE-2024-5321,HIGH,https://avd.aquasec.com/nvd/cve-2024-5321,usr/bin/fleetagent,"1.27.16, 1.28.12, 1.29.7, 1.30.3",false,affected,
 rancher/fleet-agent:v0.9.5,harvester/v1.3-head,stdlib,v1.21.10,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,usr/bin/fleetagent,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
@@ -381,7 +378,6 @@ rancher/fleet:v0.9.5,harvester/v1.3-head,libboost_thread1_66_0,1.66.0-12.3.1,sle
 rancher/fleet:v0.9.5,harvester/v1.3-head,github.com/go-git/go-git/v5,v5.11.0,gobinary,CVE-2025-21613,HIGH,https://avd.aquasec.com/nvd/cve-2025-21613,usr/bin/fleetcontroller,5.13.0,false,affected,severity_changed_due_to_suse_cvss_score
 rancher/fleet:v0.9.5,harvester/v1.3-head,github.com/go-git/go-git/v5,v5.11.0,gobinary,CVE-2025-21614,HIGH,https://avd.aquasec.com/nvd/cve-2025-21614,usr/bin/fleetcontroller,5.13.0,false,affected,
 rancher/fleet:v0.9.5,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2024-6257,HIGH,https://avd.aquasec.com/nvd/cve-2024-6257,usr/bin/fleetcontroller,1.7.5,false,affected,
-rancher/fleet:v0.9.5,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2025-8959,HIGH,https://avd.aquasec.com/nvd/cve-2025-8959,usr/bin/fleetcontroller,1.7.9,false,affected,
 rancher/fleet:v0.9.5,harvester/v1.3-head,golang.org/x/crypto,v0.21.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/bin/fleetcontroller,0.35.0,false,affected,
 rancher/fleet:v0.9.5,harvester/v1.3-head,stdlib,v1.21.10,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,usr/bin/fleetcontroller,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/fleet:v0.9.5,harvester/v1.3-head,stdlib,v1.21.10,gobinary,CVE-2024-34156,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-34156,usr/bin/fleetcontroller,"1.22.7, 1.23.1",false,affected,severity_changed_due_to_suse_cvss_score
@@ -701,7 +697,6 @@ rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libsqlite3-0,3.44.0
 rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libsqlite3-0,3.44.0-150000.3.23.1,sles,SUSE-SU-2025:1456-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),3.49.1-150000.3.27.1,false,affected,
 rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),0.9.8-150600.11.3.1,false,affected,
 rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),0.9.8-150600.11.3.1,false,affected,
-rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:02815-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),4.0.9-150000.45.50.1,false,affected,
 rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.23.1,sles,SUSE-SU-2025:02314-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),2.10.3-150500.5.29.1,false,affected,
 rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.23.1,sles,SUSE-SU-2025:02758-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),2.10.3-150500.5.32.1,false,affected,
 rancher/harvester-cluster-repo:v1.3-head,harvester/v1.3-head,libxslt1,1.1.34-150400.3.3.1,sles,SUSE-SU-2025:1125-1,HIGH,,rancher/harvester-cluster-repo:v1.3-head (sles 15.6),1.1.34-150400.3.6.1,false,affected,
@@ -975,7 +970,6 @@ rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libglib-2_0-0,2.78.6-150
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),3.50.2-150000.3.33.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libssh-config,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),0.9.8-150600.11.3.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libssh4,0.9.8-150600.9.1,sles,SUSE-SU-2025:02229-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),0.9.8-150600.11.3.1,false,affected,
-rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:02815-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),4.0.9-150000.45.50.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02314-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),2.10.3-150500.5.29.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,libxml2-2,2.10.3-150500.5.26.1,sles,SUSE-SU-2025:02758-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),2.10.3-150500.5.32.1,false,affected,
 rancher/harvester-upgrade:v1.3-head,harvester/v1.3-head,pam,1.3.0-150000.6.76.1,sles,SUSE-SU-2025:02013-1,HIGH,,rancher/harvester-upgrade:v1.3-head (sles 15.6),1.3.0-150000.6.83.1,false,affected,
@@ -2509,7 +2503,6 @@ rancher/shell:v0.1.26,harvester/v1.3-head,google.golang.org/protobuf,v1.31.0,gob
 rancher/shell:v0.1.26,harvester/v1.3-head,github.com/go-git/go-git/v5,v5.12.0,gobinary,CVE-2025-21613,HIGH,https://avd.aquasec.com/nvd/cve-2025-21613,usr/local/bin/k9s,5.13.0,false,affected,severity_changed_due_to_suse_cvss_score
 rancher/shell:v0.1.26,harvester/v1.3-head,github.com/go-git/go-git/v5,v5.12.0,gobinary,CVE-2025-21614,HIGH,https://avd.aquasec.com/nvd/cve-2025-21614,usr/local/bin/k9s,5.13.0,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2024-6257,HIGH,https://avd.aquasec.com/nvd/cve-2024-6257,usr/local/bin/k9s,1.7.5,false,affected,
-rancher/shell:v0.1.26,harvester/v1.3-head,github.com/hashicorp/go-getter,v1.7.4,gobinary,CVE-2025-8959,HIGH,https://avd.aquasec.com/nvd/cve-2025-8959,usr/local/bin/k9s,1.7.9,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3-head,github.com/mholt/archiver/v3,v3.5.1,gobinary,CVE-2025-3445,HIGH,https://avd.aquasec.com/nvd/cve-2025-3445,usr/local/bin/k9s,,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3-head,golang.org/x/crypto,v0.22.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,usr/local/bin/k9s,0.35.0,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3-head,stdlib,v1.22.0,gobinary,CVE-2024-24790,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24790,usr/local/bin/k9s,"1.21.11, 1.22.4",false,affected,severity_changed_due_to_suse_cvss_score

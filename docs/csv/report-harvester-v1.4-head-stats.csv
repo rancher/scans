@@ -16,10 +16,10 @@ longhornio/longhorn-engine:v1.7.3,0,18,18
 longhornio/longhorn-instance-manager:v1.7.3,0,20,20
 longhornio/longhorn-manager:v1.7.3,0,17,17
 longhornio/longhorn-share-manager:v1.7.3,0,16,16
-longhornio/longhorn-ui:v1.7.3,0,21,21
+longhornio/longhorn-ui:v1.7.3,0,20,20
 longhornio/support-bundle-kit:v0.0.51,0,14,14
-rancher/fleet-agent:v0.11.2,0,4,4
-rancher/fleet:v0.11.2,0,27,27
+rancher/fleet-agent:v0.11.2,0,3,3
+rancher/fleet:v0.11.2,0,26,26
 rancher/gitjob:v0.9.8,0,27,27
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.2-build20250306,0,10,10
@@ -29,9 +29,9 @@ rancher/hardened-dns-node-cache:1.24.0-build20241211,0,0,0
 rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,0,0
 rancher/hardened-flannel:v0.26.5-build20250306,0,17,17
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
-rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,0,4,4
+rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,0,5,5
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,0,0
-rancher/harvester-cluster-repo:v1.4-head,0,8,8
+rancher/harvester-cluster-repo:v1.4-head,0,7,7
 rancher/harvester-eventrouter:v0.3.3,0,2,2
 rancher/harvester-load-balancer-webhook:v0.4.4,1,4,5
 rancher/harvester-load-balancer:v0.4.4,1,4,5
@@ -45,7 +45,7 @@ rancher/harvester-node-manager-webhook:v0.3.4,0,12,12
 rancher/harvester-node-manager:v0.3.4,0,12,12
 rancher/harvester-pcidevices:v0.4.3,0,8,8
 rancher/harvester-seeder:v0.4.3,0,8,8
-rancher/harvester-upgrade:v1.4-head,0,11,11
+rancher/harvester-upgrade:v1.4-head,0,10,10
 rancher/harvester-vm-import-controller:v0.4.3,0,10,10
 rancher/harvester-webhook:v1.4-head,0,10,10
 rancher/harvester:v1.4-head,0,10,10
@@ -78,9 +78,9 @@ rancher/rancher-webhook:v0.6.2,0,1,1
 rancher/rancher:v2.10.1,1,43,44
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-runtime:v1.31.7-rke2r1,0,0,0
-rancher/shell:v0.1.24,1,43,44
-rancher/shell:v0.1.26,0,20,20
-rancher/shell:v0.3.0,0,15,15
+rancher/shell:v0.1.24,1,42,43
+rancher/shell:v0.1.26,0,19,19
+rancher/shell:v0.3.0,0,14,14
 rancher/support-bundle-kit:v0.0.46,0,18,18
 rancher/system-agent-installer-rancher:v2.10.1,0,0,0
 rancher/system-agent-installer-rke2:v1.31.7-rke2r1,0,0,0
