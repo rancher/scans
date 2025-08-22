@@ -38,7 +38,7 @@ rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250507,0,1,1
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250612,0,0,0
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,0,0
-rancher/hardened-kubernetes:v1.30.14-rke2r1-build20250618,0,3,3
+rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,0,0
 rancher/hardened-kubernetes:v1.31.11-rke2r1-build20250716,0,0,0
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,0,0
 rancher/hardened-kubernetes:v1.33.3-rke2r1-build20250716,0,0,0
@@ -56,7 +56,7 @@ rancher/harvester-csi-driver:v0.2.3,0,3,3
 rancher/istio-installer:1.24.1-rancher1,0,19,19
 rancher/istio-installer:1.25.0-rancher1,0,13,13
 rancher/istio-installer:1.26.2-rancher1,0,8,8
-rancher/k3s-upgrade:v1.30.14-k3s1,0,0,0
+rancher/k3s-upgrade:v1.30.14-k3s2,0,0,0
 rancher/k3s-upgrade:v1.31.11-k3s1,0,0,0
 rancher/k3s-upgrade:v1.32.7-k3s1,0,0,0
 rancher/k3s-upgrade:v1.33.3-k3s1,0,0,0
@@ -188,7 +188,7 @@ rancher/mirrored-coredns-coredns:1.12.1,0,2,2
 rancher/mirrored-curlimages-curl:8.9.1,0,4,4
 rancher/mirrored-elemental-operator:1.7.3,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,8,9
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,9,10
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,0,1,1
 rancher/mirrored-grafana-grafana:11.5.5,0,3,3
@@ -224,6 +224,7 @@ rancher/mirrored-library-traefik:2.11.10,0,2,2
 rancher/mirrored-library-traefik:2.11.18,0,2,2
 rancher/mirrored-library-traefik:2.11.20,0,0,0
 rancher/mirrored-library-traefik:2.11.24,0,0,0
+rancher/mirrored-library-traefik:3.3.2,0,2,2
 rancher/mirrored-library-traefik:3.3.6,0,0,0
 rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,5,5
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,46,46
@@ -291,16 +292,20 @@ rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250
 rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,0,0
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,1,1
 rancher/rke2-cloud-provider:v1.33.1-0.20250516163953-99d91538b132-build20250612,0,0,0
-rancher/rke2-runtime:v1.30.14-rke2r1,0,0,0
+rancher/rke2-runtime:v1.30.14-rke2r2,0,0,0
 rancher/rke2-runtime:v1.31.11-rke2r1,0,0,0
 rancher/rke2-runtime:v1.32.7-rke2r1,0,0,0
 rancher/rke2-runtime:v1.33.3-rke2r1,0,0,0
-rancher/rke2-upgrade:v1.30.14-rke2r1,0,0,0
+rancher/rke2-upgrade:v1.30.14-rke2r2,0,0,0
 rancher/rke2-upgrade:v1.31.11-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.32.7-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.33.3-rke2r1,0,0,0
 rancher/scc-operator:v0.1.0-alpha.2,0,0,0
 rancher/shell:v0.5.0,0,2,2
+rancher/supportability-review-app-frontend:latest,0,1,1
+rancher/supportability-review-internal:latest,0,0,0
+rancher/supportability-review-operator:latest,0,0,0
+rancher/supportability-review:latest,0,1,1
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.23.17-k3s1,0,0,0
@@ -310,7 +315,7 @@ rancher/system-agent-installer-k3s:v1.26.15-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.27.16-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.28.15-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.29.15-k3s1,0,0,0
-rancher/system-agent-installer-k3s:v1.30.14-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.30.14-k3s2,0,0,0
 rancher/system-agent-installer-k3s:v1.31.11-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.7-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.3-k3s1,0,0,0
@@ -323,7 +328,7 @@ rancher/system-agent-installer-rke2:v1.26.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.27.16-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.28.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.29.15-rke2r1,0,0,0
-rancher/system-agent-installer-rke2:v1.30.14-rke2r1,0,0,0
+rancher/system-agent-installer-rke2:v1.30.14-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.31.11-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.3-rke2r1,0,0,0
