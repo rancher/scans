@@ -47,7 +47,7 @@ rancher/kubectl:v1.29.2,0,6,6
 rancher/kubectl:v1.32.2,0,0,0
 rancher/kubectl:v1.32.3,0,0,0
 rancher/mirrored-cluster-api-controller:v1.9.5,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,9,10
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,8,9
 rancher/mirrored-grafana-grafana:11.1.0,0,8,8
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,10,12
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,1,1
