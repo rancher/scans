@@ -513,7 +513,7 @@ rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.9-head,0,30,30
 rancher/rancher-csp-adapter:v4.0.0,0,2,2
-rancher/rancher-webhook:v0.5.11-rc.2,0,1,1
+rancher/rancher-webhook:v0.5.11-rc.3,0,1,1
 rancher/rancher:v2.9-head,0,42,42
 rancher/rke2-cloud-provider:v1.28.13-build20240910,0,2,2
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0

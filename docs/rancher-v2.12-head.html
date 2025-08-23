@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Rancher v2.12 head version - CVE Scans - 2025-08-22</h1>
+<h1>SUSE Rancher - Rancher v2.12 head version - CVE Scans - 2025-08-23</h1>
 
 <h3>How to use this page</h3>
 
@@ -85,7 +85,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/fleet-agent:v0.13.1-rc.6</td>
+<td>rancher/fleet-agent:v0.13.1</td>
 <td>false</td>
 <td>Rancher v2.12 head</td>
 <td>usr/bin/fleetagent</td>
@@ -97,7 +97,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/fleet:v0.13.1-rc.6</td>
+<td>rancher/fleet:v0.13.1</td>
 <td>false</td>
 <td>Rancher v2.12 head</td>
 <td>usr/bin/fleet</td>
@@ -109,7 +109,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/fleet:v0.13.1-rc.6</td>
+<td>rancher/fleet:v0.13.1</td>
 <td>false</td>
 <td>Rancher v2.12 head</td>
 <td>usr/bin/fleetcontroller</td>
@@ -22081,6 +22081,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-sonobuoy-sonobuoy:v0.57.3</td>
+<td>true</td>
+<td>Rancher v2.12 head</td>
+<td>sonobuoy</td>
+<td>stdlib@v1.23.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-thanos-thanos:v0.37.2</td>
 <td>true</td>
 <td>Rancher v2.12 head</td>
@@ -23418,6 +23430,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.12 head</td>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.24.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/bin/kube-bench</td>
+<td>stdlib@v1.24.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.23.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
 <td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -34442,6 +34478,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-sonobuoy-sonobuoy:v0.57.3</td>
+<td>true</td>
+<td>Rancher v2.12 head</td>
+<td>sonobuoy</td>
+<td>golang.org/x/net@v0.33.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-sonobuoy-sonobuoy:v0.57.3</td>
+<td>true</td>
+<td>Rancher v2.12 head</td>
+<td>sonobuoy</td>
+<td>golang.org/x/net@v0.33.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22872.html">CVE-2025-22872</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-sonobuoy-sonobuoy:v0.57.3</td>
+<td>true</td>
+<td>Rancher v2.12 head</td>
+<td>sonobuoy</td>
+<td>golang.org/x/oauth2@v0.15.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-thanos-thanos:v0.37.2</td>
 <td>true</td>
 <td>Rancher v2.12 head</td>
@@ -34706,7 +34778,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/prometheus-federator:v4.1.0-rc.3</td>
+<td>rancher/prometheus-federator:v4.1.0</td>
 <td>false</td>
 <td>Rancher v2.12 head</td>
 <td>usr/bin/prometheus-federator</td>
@@ -34718,7 +34790,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/prometheus-federator:v4.1.0-rc.3</td>
+<td>rancher/prometheus-federator:v4.1.0</td>
 <td>false</td>
 <td>Rancher v2.12 head</td>
 <td>usr/bin/prometheus-federator</td>
@@ -34730,7 +34802,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/prometheus-federator:v4.1.0-rc.3</td>
+<td>rancher/prometheus-federator:v4.1.0</td>
 <td>false</td>
 <td>Rancher v2.12 head</td>
 <td>usr/bin/prometheus-federator</td>
@@ -35755,6 +35827,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.12 head</td>
 <td>usr/local/bin/kubectl</td>
 <td>golang.org/x/oauth2@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/bin/sonobuoy</td>
+<td>golang.org/x/net@v0.33.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/bin/sonobuoy</td>
+<td>golang.org/x/net@v0.33.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22872.html">CVE-2025-22872</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/bin/sonobuoy</td>
+<td>golang.org/x/oauth2@v0.15.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/net@v0.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/security-scan:v0.7.1</td>
+<td>false</td>
+<td>Rancher v2.12 head</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/oauth2@v0.21.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
 <td>none</td>
 <td>not affected</td>
