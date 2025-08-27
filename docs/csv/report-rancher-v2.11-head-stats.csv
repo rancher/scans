@@ -297,14 +297,14 @@ rancher/mirrored-sig-storage-livenessprobe:v2.14.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,0,0
 rancher/mirrored-thanos-thanos:v0.37.2,0,0,0
-rancher/neuvector-compliance-config:1.0.6,0,0,0
-rancher/neuvector-controller:5.4.5,0,0,0
-rancher/neuvector-enforcer:5.4.5,0,3,3
-rancher/neuvector-manager:5.4.5,0,4,4
-rancher/neuvector-prometheus-exporter:1.0.6,0,7,7
-rancher/neuvector-registry-adapter:0.1.8,0,0,0
+rancher/neuvector-compliance-config:1.0.7,0,0,0
+rancher/neuvector-controller:5.4.6,0,0,0
+rancher/neuvector-enforcer:5.4.6,0,0,0
+rancher/neuvector-manager:5.4.6,0,0,0
+rancher/neuvector-prometheus-exporter:1.0.7,0,6,6
+rancher/neuvector-registry-adapter:0.1.9,0,0,0
 rancher/neuvector-scanner:6,0,0,0
-rancher/neuvector-updater:0.0.4,0,0,0
+rancher/neuvector-updater:0.0.5,0,0,0
 rancher/nginx-ingress-controller:nginx-1.12.1-rancher4,0,3,3
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,0,0
 rancher/prom-prometheus:v3.2.1,0,0,0
@@ -313,7 +313,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.11-head,0,12,12
 rancher/rancher-csp-adapter:v6.0.0,0,1,1
-rancher/rancher-webhook:v0.7.5-rc.3,0,0,0
+rancher/rancher-webhook:v0.7.5,0,0,0
 rancher/rancher:v2.11-head,0,11,11
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke2-cloud-provider:v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250613,0,0,0
@@ -360,4 +360,4 @@ rancher/system-agent-installer-rke2:v1.31.11-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.7-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,0,4,4
 rancher/system-upgrade-controller:v0.15.2,0,0,0
-rancher/ui-plugin-catalog:4.0.2,0,13,13
+rancher/ui-plugin-catalog:4.0.3,0,12,12
