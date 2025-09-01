@@ -1,4 +1,5 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+rancher/backup-restore-operator:v8.0.0,rancher/v2.12-head,stdlib,v1.24.5,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/bin/backup-restore-operator,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/fleet-agent:v0.13.1,rancher/v2.12-head,github.com/hashicorp/go-getter,v1.7.8,gobinary,CVE-2025-8959,HIGH,https://avd.aquasec.com/nvd/cve-2025-8959,usr/bin/fleetagent,1.7.9,false,affected,
 rancher/fleet:v0.13.1,rancher/v2.12-head,git-core,2.43.0-150600.3.9.1,sles,SUSE-SU-2025:03012-1,HIGH,,rancher/fleet:v0.13.1 (sles 15.7),2.51.0-150600.3.12.1,false,affected,
 rancher/fleet:v0.13.1,rancher/v2.12-head,github.com/hashicorp/go-getter,v1.7.8,gobinary,CVE-2025-8959,HIGH,https://avd.aquasec.com/nvd/cve-2025-8959,usr/bin/fleet,1.7.9,false,affected,
