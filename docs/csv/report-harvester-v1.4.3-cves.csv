@@ -373,6 +373,7 @@ rancher/fleet:v0.11.2,harvester/v1.4.3,golang.org/x/crypto,v0.28.0,gobinary,CVE-
 rancher/fleet:v0.11.2,harvester/v1.4.3,golang.org/x/net,v0.30.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,usr/bin/fleetcontroller,0.38.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet:v0.11.2,harvester/v1.4.3,golang.org/x/oauth2,v0.23.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/fleetcontroller,0.27.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/gitjob:v0.9.8,harvester/v1.4.3,git-core,2.35.3-150300.10.39.1,sles,SUSE-SU-2024:2656-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.35.3-150300.10.42.1,false,affected,
+rancher/gitjob:v0.9.8,harvester/v1.4.3,git-core,2.35.3-150300.10.39.1,sles,SUSE-SU-2025:03037-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.43.7-150300.10.51.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4.3,glibc,2.31-150300.74.1,sles,SUSE-SU-2024:1895-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.31-150300.83.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4.3,glibc,2.31-150300.74.1,sles,SUSE-SU-2025:01784-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.31-150300.95.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.4.3,krb5,1.20.1-150500.3.6.1,sles,SUSE-SU-2024:2302-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),1.20.1-150500.3.9.1,false,affected,
