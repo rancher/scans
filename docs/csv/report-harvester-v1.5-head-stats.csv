@@ -17,7 +17,7 @@ longhornio/longhorn-ui:v1.8.2,0,10,10
 longhornio/support-bundle-kit:v0.0.56,0,8,8
 rancher/fleet-agent:v0.12.4,0,3,3
 rancher/fleet:v0.12.4,0,13,13
-rancher/gitjob:v0.9.8,0,28,28
+rancher/gitjob:v0.9.8,0,27,27
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
 rancher/hardened-calico:v3.30.2-build20250711,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,0,0
