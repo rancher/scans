@@ -337,4 +337,4 @@ rancher/system-agent-installer-rke2:v1.32.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.3-rke2r1,0,0,0
 rancher/system-agent:v0.3.13-suc,0,1,1
 rancher/system-upgrade-controller:v0.16.0,0,0,0
-rancher/ui-plugin-catalog:4.0.3,0,12,12
+rancher/ui-plugin-catalog:4.0.4,0,12,12
