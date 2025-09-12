@@ -1,6 +1,5 @@
 image,critical,high,total
 rancher/aks-operator:v1.10.9-rc.1,0,0,0
-rancher/appco-redis:8.0.3-2.1,0,0,0
 rancher/backup-restore-operator:v6.0.2,0,1,1
 rancher/cis-operator:v1.3.9,0,0,0
 rancher/eks-operator:v1.10.9-rc.1,0,0,0
@@ -435,7 +434,7 @@ rancher/prometheus-federator:v2.0.1,0,0,0
 rancher/pushprox:v0.1.7,0,0,0
 rancher/rancher-agent:v2.10-head,0,27,27
 rancher/rancher-csp-adapter:v5.0.1,0,1,1
-rancher/rancher-webhook:v0.6.11-rc.2,0,0,0
+rancher/rancher-webhook:v0.6.11-rc.1,0,0,0
 rancher/rancher:v2.10-head,0,35,35
 rancher/rke2-cloud-provider:v1.28.15-0.20241016053552-63bfb1936862-build20241016,0,0,0
 rancher/rke2-cloud-provider:v1.29.10-0.20241016053521-9510ac25fefb-build20241016,0,0,0
