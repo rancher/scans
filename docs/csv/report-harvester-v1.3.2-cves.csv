@@ -3029,8 +3029,10 @@ rancher/rke2-runtime:v1.28.12-rke2r1,harvester/v1.3.2,stdlib,v1.20.12,gobinary,C
 rancher/rke2-runtime:v1.28.12-rke2r1,harvester/v1.3.2,golang.org/x/net,v0.8.0,gobinary,CVE-2023-39325,HIGH,https://avd.aquasec.com/nvd/cve-2023-39325,bin/runc,0.17.0,false,not_affected,vulnerable_code_not_present
 rancher/rke2-runtime:v1.28.12-rke2r1,harvester/v1.3.2,google.golang.org/protobuf,v1.27.1,gobinary,CVE-2024-24786,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-24786,bin/runc,1.33.0,false,not_affected,vulnerable_code_not_present
 rancher/shell:v0.1.26,harvester/v1.3.2,curl,8.6.0-150600.2.2,sles,SUSE-SU-2024:2784-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),8.6.0-150600.4.3.1,false,affected,
+rancher/shell:v0.1.26,harvester/v1.3.2,curl,8.6.0-150600.2.2,sles,SUSE-SU-2025:03198-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),8.14.1-150600.4.28.1,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3.2,glibc,2.38-150600.14.5.1,sles,SUSE-SU-2025:01702-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),2.38-150600.14.32.1,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3.2,libcurl4,8.6.0-150600.2.2,sles,SUSE-SU-2024:2784-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),8.6.0-150600.4.3.1,false,affected,
+rancher/shell:v0.1.26,harvester/v1.3.2,libcurl4,8.6.0-150600.2.2,sles,SUSE-SU-2025:03198-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),8.14.1-150600.4.28.1,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3.2,libopenssl3,3.1.4-150600.5.7.1,sles,SUSE-SU-2024:2635-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),3.1.4-150600.5.10.1,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3.2,libopenssl3,3.1.4-150600.5.7.1,sles,SUSE-SU-2024:3106-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),3.1.4-150600.5.15.1,false,affected,
 rancher/shell:v0.1.26,harvester/v1.3.2,libopenssl3,3.1.4-150600.5.7.1,sles,SUSE-SU-2024:3501-1,HIGH,,rancher/shell:v0.1.26 (sles 15.6),3.1.4-150600.5.18.1,false,affected,
