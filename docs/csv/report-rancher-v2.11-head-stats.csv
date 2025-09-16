@@ -4,8 +4,8 @@ rancher/appco-redis:8.0.3-2.1,0,0,0
 rancher/backup-restore-operator:v7.0.2,0,1,1
 rancher/cis-operator:v1.4.2,0,0,0
 rancher/eks-operator:v1.11.6-rc.1,0,0,0
-rancher/fleet-agent:v0.12.7-rc.1,0,0,0
-rancher/fleet:v0.12.7-rc.1,0,0,0
+rancher/fleet-agent:v0.12.6,0,1,1
+rancher/fleet:v0.12.6,0,5,5
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,1,1
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
@@ -238,7 +238,7 @@ rancher/mirrored-kiali-kiali:v1.86.0,0,7,7
 rancher/mirrored-kiali-kiali:v1.89.3,0,7,7
 rancher/mirrored-kiali-kiali:v2.1.0,0,12,12
 rancher/mirrored-kiali-kiali:v2.7.1,0,12,12
-rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,2,5,7
+rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,1,5,6
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,1,1
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,9,10
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,0,0
@@ -314,7 +314,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.11-head,0,14,14
 rancher/rancher-csp-adapter:v6.0.0,0,1,1
-rancher/rancher-webhook:v0.7.6-rc.1,0,0,0
+rancher/rancher-webhook:v0.7.6-rc.2,0,0,0
 rancher/rancher:v2.11-head,0,13,13
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke2-cloud-provider:v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250613,0,0,0

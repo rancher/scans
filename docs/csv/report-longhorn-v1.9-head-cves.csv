@@ -23,3 +23,5 @@ longhornio/longhorn-share-manager:v1.9.2-rc1,longhorn/v1.9-head,curl,8.6.0-15060
 longhornio/longhorn-share-manager:v1.9.2-rc1,longhorn/v1.9-head,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-share-manager:v1.9.2-rc1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/longhorn-ui:v1.9.2-rc1,longhorn/v1.9-head,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-ui:v1.9.2-rc1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/longhorn-ui:v1.9.2-rc1,longhorn/v1.9-head,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-ui:v1.9.2-rc1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/support-bundle-kit:v0.0.67,longhorn/v1.9-head,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/support-bundle-kit:v0.0.67 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/support-bundle-kit:v0.0.67,longhorn/v1.9-head,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/support-bundle-kit:v0.0.67 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
