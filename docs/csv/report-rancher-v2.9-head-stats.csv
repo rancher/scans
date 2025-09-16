@@ -5,8 +5,8 @@ rancher/backup-restore-operator:v5.0.4,0,0,0
 rancher/calico-cni:v3.26.3-rancher1,0,90,90
 rancher/cis-operator:v1.2.6,0,1,1
 rancher/eks-operator:v1.9.10,0,0,0
-rancher/fleet-agent:v0.10.15,0,1,1
-rancher/fleet:v0.10.15,0,4,4
+rancher/fleet-agent:v0.10.16-rc.1,0,0,0
+rancher/fleet:v0.10.16-rc.1,0,0,0
 rancher/gke-operator:v1.9.10,0,0,0
 rancher/hardened-addon-resizer:1.8.20-build20240410,0,8,8
 rancher/hardened-addon-resizer:1.8.20-build20240910,0,3,3
