@@ -79,7 +79,7 @@ rancher/system-agent:v0.3.12-suc,0,4,4
 rancher/system-upgrade-controller:v0.15.2,0,0,0
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,0,8,8
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,0,8,8
-registry.suse.com/bci/bci-base:15.6,0,2,2
+registry.suse.com/bci/bci-base:15.6,0,0,0
 registry.suse.com/suse/sles/15.6/cdi-apiserver:1.61.0-150600.3.12.1,0,19,19
 registry.suse.com/suse/sles/15.6/cdi-cloner:1.61.0-150600.3.12.1,0,19,19
 registry.suse.com/suse/sles/15.6/cdi-controller:1.61.0-150600.3.12.1,0,19,19

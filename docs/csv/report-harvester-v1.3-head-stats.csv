@@ -18,13 +18,13 @@ rancher/fleet-agent:v0.9.5,0,28,28
 rancher/fleet:v0.9.5,0,26,26
 rancher/gitjob:v0.9.8,0,28,28
 rancher/hardened-addon-resizer:1.8.20-build20241001,0,3,3
-rancher/hardened-calico:v3.28.2-build20241016,0,20,20
+rancher/hardened-calico:v3.28.2-build20241016,0,18,18
 rancher/hardened-cluster-autoscaler:v1.8.11-build20241014,0,1,1
 rancher/hardened-cni-plugins:v1.5.1-build20241009,0,1,1
 rancher/hardened-coredns:v1.11.3-build20241018,0,0,0
 rancher/hardened-dns-node-cache:1.23.1-build20241008,0,3,3
 rancher/hardened-etcd:v3.5.13-k3s1-build20240910,0,0,0
-rancher/hardened-flannel:v0.25.7-build20241008,0,29,29
+rancher/hardened-flannel:v0.25.7-build20241008,0,27,27
 rancher/hardened-k8s-metrics-server:v0.7.1-build20241008,0,0,0
 rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,0,0
 rancher/hardened-multus-cni:v4.1.2-build20241011,0,0,0
@@ -80,7 +80,7 @@ rancher/system-agent:v0.3.6-suc,0,29,29
 rancher/system-upgrade-controller:v0.13.1,0,9,9
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,0,8,8
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,0,8,8
-registry.suse.com/bci/bci-base:15.6,0,2,2
+registry.suse.com/bci/bci-base:15.6,0,0,0
 registry.suse.com/suse/sles/15.5/libguestfs-tools:1.1.1-150500.8.18.1,0,29,29
 registry.suse.com/suse/sles/15.5/virt-api:1.1.1-150500.8.18.1,0,15,15
 registry.suse.com/suse/sles/15.5/virt-controller:1.1.1-150500.8.18.1,0,15,15
