@@ -199,7 +199,7 @@ rancher/mirrored-sig-storage-csi-snapshotter:v7.0.2,0,5,5
 rancher/mirrored-sig-storage-livenessprobe:v2.12.0,0,5,5
 rancher/mirrored-sig-storage-livenessprobe:v2.14.0,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
-rancher/nginx-ingress-controller:v1.12.4-hardened2,0,3,3
+rancher/nginx-ingress-controller:v1.12.4-hardened2,0,0,0
 rancher/rancher-agent:head,0,2,2
 rancher/rancher-webhook:v0.9.0-rc.4,0,1,1
 rancher/rancher:head,0,10,10

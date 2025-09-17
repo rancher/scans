@@ -13,6 +13,6 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,0,0
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
-rancher/nginx-ingress-controller:v1.12.4-hardened2,0,3,3
+rancher/nginx-ingress-controller:v1.12.4-hardened2,0,0,0
 rancher/rke2-cloud-provider:v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250613,0,0,0
 rancher/rke2-runtime:v1.30.14-rke2r2,0,0,0

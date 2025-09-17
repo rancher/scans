@@ -1,9 +1,9 @@
 image,critical,high,total
-rancher/aks-operator:v1.11.6-rc.1,0,0,0
+rancher/aks-operator:v1.11.6,0,0,0
 rancher/appco-redis:8.0.3-2.1,0,0,0
 rancher/backup-restore-operator:v7.0.2,0,1,1
 rancher/cis-operator:v1.4.2,0,0,0
-rancher/eks-operator:v1.11.6-rc.1,0,0,0
+rancher/eks-operator:v1.11.6,0,0,0
 rancher/fleet-agent:v0.12.7-rc.2,0,0,0
 rancher/fleet:v0.12.7-rc.2,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
@@ -328,7 +328,7 @@ rancher/neuvector-registry-adapter:0.1.9,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.5,0,2,2
 rancher/nginx-ingress-controller:nginx-1.12.1-rancher4,0,3,3
-rancher/nginx-ingress-controller:v1.12.4-hardened2,0,3,3
+rancher/nginx-ingress-controller:v1.12.4-hardened2,0,0,0
 rancher/nginx-ingress-controller:v1.12.4-hardened7,0,0,0
 rancher/prom-prometheus:v3.2.1,0,0,0
 rancher/prometheus-federator:v3.2.1,0,0,0
