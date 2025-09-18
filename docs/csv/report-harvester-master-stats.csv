@@ -39,7 +39,7 @@ rancher/harvester-network-helper:master-head,0,0,0
 rancher/harvester-network-webhook:master-head,0,0,0
 rancher/harvester-networkfs-manager:main-head,0,0,0
 rancher/harvester-node-disk-manager-webhook:master-head,0,0,0
-rancher/harvester-node-disk-manager:master-head,0,1,1
+rancher/harvester-node-disk-manager:master-head,0,0,0
 rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:master-head,0,2,2

@@ -1,5 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-rancher/fleet:v0.13.2-rc.2,rancher/v2.12-head,libexpat1,2.6.4-150700.1.4,sles,SUSE-SU-2025:03239-1,HIGH,,rancher/fleet:v0.13.2-rc.2 (sles 15.7),2.7.1-150700.3.3.1,false,affected,
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/v2.12-head,stdlib,v1.22.9,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,pod_nanny,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/v2.12-head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22870,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22870,pod_nanny,0.36.0,false,not_affected,vulnerable_code_not_present
 rancher/hardened-addon-resizer:1.8.22-build20250110,rancher/v2.12-head,golang.org/x/net,v0.23.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,pod_nanny,0.38.0,false,not_affected,vulnerable_code_not_present
