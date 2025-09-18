@@ -2,6 +2,7 @@ image,release,package_name,package_version,type,vulnerability_id,severity,url,ta
 longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,iperf,3.19-150500.94.1,sles,SUSE-SU-2025:02749-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),3.19.1-150000.3.15.1,false,affected,
 longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,libexpat1,2.6.4-150700.1.4,sles,SUSE-SU-2025:03239-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),2.7.1-150700.3.3.1,false,affected,
 longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,libgnutls30,3.8.3-150600.4.6.2,sles,SUSE-SU-2025:02595-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),3.8.3-150600.4.9.1,false,affected,
 longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,libiperf0,3.19-150500.94.1,sles,SUSE-SU-2025:02749-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),3.19.1-150000.3.15.1,false,affected,
 longhornio/backing-image-manager:v1.9.1,longhorn/v1.9.1,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/backing-image-manager:v1.9.1 (sles 15.7),3.50.2-150000.3.33.1,false,affected,
@@ -27,6 +28,7 @@ longhornio/longhorn-cli:v1.9.1,longhorn/v1.9.1,stdlib,v1.24.5,gobinary,CVE-2025-
 longhornio/longhorn-cli:v1.9.1,longhorn/v1.9.1,stdlib,v1.24.5,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/local/bin/longhornctl-local,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-engine:v1.9.1,longhorn/v1.9.1,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-engine:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/longhorn-engine:v1.9.1,longhorn/v1.9.1,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-engine:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/longhorn-engine:v1.9.1,longhorn/v1.9.1,libexpat1,2.6.4-150700.1.4,sles,SUSE-SU-2025:03239-1,HIGH,,longhornio/longhorn-engine:v1.9.1 (sles 15.7),2.7.1-150700.3.3.1,false,affected,
 longhornio/longhorn-engine:v1.9.1,longhorn/v1.9.1,libgnutls30,3.8.3-150600.4.6.2,sles,SUSE-SU-2025:02595-1,HIGH,,longhornio/longhorn-engine:v1.9.1 (sles 15.7),3.8.3-150600.4.9.1,false,affected,
 longhornio/longhorn-engine:v1.9.1,longhorn/v1.9.1,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/longhorn-engine:v1.9.1 (sles 15.7),3.50.2-150000.3.33.1,false,affected,
 longhornio/longhorn-engine:v1.9.1,longhorn/v1.9.1,libxml2-2,2.12.10-150700.4.3.1,sles,SUSE-SU-2025:02617-1,HIGH,,longhornio/longhorn-engine:v1.9.1 (sles 15.7),2.12.10-150700.4.6.1,false,affected,
@@ -49,6 +51,7 @@ longhornio/longhorn-instance-manager:v1.9.1,longhorn/v1.9.1,stdlib,v1.24.4,gobin
 longhornio/longhorn-instance-manager:v1.9.1,longhorn/v1.9.1,stdlib,v1.24.5,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/local/bin/longhorn-instance-manager,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-manager:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-manager:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,libexpat1,2.6.4-150700.1.4,sles,SUSE-SU-2025:03239-1,HIGH,,longhornio/longhorn-manager:v1.9.1 (sles 15.7),2.7.1-150700.3.3.1,false,affected,
 longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,libgnutls30,3.8.3-150600.4.6.2,sles,SUSE-SU-2025:02595-1,HIGH,,longhornio/longhorn-manager:v1.9.1 (sles 15.7),3.8.3-150600.4.9.1,false,affected,
 longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/longhorn-manager:v1.9.1 (sles 15.7),3.50.2-150000.3.33.1,false,affected,
 longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,libxml2-2,2.12.10-150700.4.3.1,sles,SUSE-SU-2025:02617-1,HIGH,,longhornio/longhorn-manager:v1.9.1 (sles 15.7),2.12.10-150700.4.6.1,false,affected,
@@ -58,6 +61,7 @@ longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,libboost_thread1_66_0,1.66.0-
 longhornio/longhorn-manager:v1.9.1,longhorn/v1.9.1,stdlib,v1.24.5,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/local/sbin/longhorn-manager,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-share-manager:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-share-manager:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,libexpat1,2.6.4-150700.1.4,sles,SUSE-SU-2025:03239-1,HIGH,,longhornio/longhorn-share-manager:v1.9.1 (sles 15.7),2.7.1-150700.3.3.1,false,affected,
 longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/longhorn-share-manager:v1.9.1 (sles 15.7),3.50.2-150000.3.33.1,false,affected,
 longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,libxml2-2,2.12.10-150700.4.3.1,sles,SUSE-SU-2025:02617-1,HIGH,,longhornio/longhorn-share-manager:v1.9.1 (sles 15.7),2.12.10-150700.4.6.1,false,affected,
 longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,boost-license1_66_0,1.66.0-12.3.1,sles,SUSE-SU-2025:02536-1,CRITICAL,,longhornio/longhorn-share-manager:v1.9.1 (sles 15.7),1.66.0-150200.12.7.1,false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
@@ -66,6 +70,7 @@ longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,libboost_thread1_66_0,1
 longhornio/longhorn-share-manager:v1.9.1,longhorn/v1.9.1,stdlib,v1.24.5,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,longhorn-share-manager,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-ui:v1.9.1,longhorn/v1.9.1,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-ui:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 longhornio/longhorn-ui:v1.9.1,longhorn/v1.9.1,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,longhornio/longhorn-ui:v1.9.1 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
+longhornio/longhorn-ui:v1.9.1,longhorn/v1.9.1,libexpat1,2.6.4-150700.1.4,sles,SUSE-SU-2025:03239-1,HIGH,,longhornio/longhorn-ui:v1.9.1 (sles 15.7),2.7.1-150700.3.3.1,false,affected,
 longhornio/longhorn-ui:v1.9.1,longhorn/v1.9.1,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/longhorn-ui:v1.9.1 (sles 15.7),3.50.2-150000.3.33.1,false,affected,
 longhornio/longhorn-ui:v1.9.1,longhorn/v1.9.1,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:02815-1,HIGH,,longhornio/longhorn-ui:v1.9.1 (sles 15.7),4.0.9-150000.45.50.1,false,affected,
 longhornio/longhorn-ui:v1.9.1,longhorn/v1.9.1,libxml2-2,2.12.10-150700.4.3.1,sles,SUSE-SU-2025:02617-1,HIGH,,longhornio/longhorn-ui:v1.9.1 (sles 15.7),2.12.10-150700.4.6.1,false,affected,
