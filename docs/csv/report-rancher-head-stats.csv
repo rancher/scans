@@ -61,7 +61,7 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/klipper-lb:v0.4.9,0,2,2
 rancher/local-path-provisioner:v0.0.30,0,0,0
 rancher/local-path-provisioner:v0.0.31,0,0,0
-rancher/machine:v0.15.0-rancher131,0,6,6
+rancher/machine:v0.15.0-rancher132,0,1,1
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
 rancher/mirrored-calico-apiserver:v3.29.1,0,0,0
