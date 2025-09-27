@@ -1,4 +1,6 @@
 image,critical,high,total
+rancher/fleet-agent:v0.14.0-alpha.3,0,0,0
+rancher/fleet:v0.14.0-alpha.3,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,1,1
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
