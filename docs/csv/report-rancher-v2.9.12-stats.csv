@@ -109,7 +109,7 @@ rancher/hardened-whereabouts:v0.9.1-build20250704,0,1,1
 rancher/harvester-cloud-provider:v0.2.0,1,29,30
 rancher/harvester-cloud-provider:v0.2.1,1,14,15
 rancher/harvester-cloud-provider:v0.2.2,1,6,7
-rancher/harvester-cloud-provider:v0.2.4,1,6,7
+rancher/harvester-cloud-provider:v0.2.4,1,7,8
 rancher/harvester-csi-driver:v0.1.5,0,93,93
 rancher/harvester-csi-driver:v0.1.6,0,73,73
 rancher/harvester-csi-driver:v0.1.7,0,23,23
@@ -149,7 +149,7 @@ rancher/longhornio-csi-attacher:v3.2.1,0,46,46
 rancher/longhornio-csi-node-driver-registrar:v2.3.0,0,43,43
 rancher/longhornio-csi-provisioner:v2.1.2,0,53,53
 rancher/longhornio-csi-resizer:v1.2.0,0,46,46
-rancher/machine:v0.15.0-rancher125,0,13,13
+rancher/machine:v0.15.0-rancher125,0,14,14
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
 rancher/mirrored-calico-apiserver:v3.26.3,0,21,21
@@ -444,7 +444,7 @@ rancher/mirrored-library-traefik:2.11.18,0,2,2
 rancher/mirrored-library-traefik:2.11.20,0,0,0
 rancher/mirrored-library-traefik:2.11.24,0,0,0
 rancher/mirrored-library-traefik:2.11.8,0,2,2
-rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,10,10
+rancher/mirrored-longhornio-backing-image-manager:v1.9.1,0,12,12
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,46,46
 rancher/mirrored-longhornio-csi-attacher:v4.9.0-20250709,0,0,0
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.14.0-20250709,0,0,0
@@ -455,9 +455,9 @@ rancher/mirrored-longhornio-csi-resizer:v1.14.0-20250709,0,0,0
 rancher/mirrored-longhornio-csi-resizer:v1.2.0,0,46,46
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,0,0
 rancher/mirrored-longhornio-livenessprobe:v2.16.0-20250709,0,0,0
-rancher/mirrored-longhornio-longhorn-engine:v1.9.1,0,8,8
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.9.1,0,7,7
-rancher/mirrored-longhornio-longhorn-manager:v1.9.1,0,8,8
+rancher/mirrored-longhornio-longhorn-engine:v1.9.1,0,10,10
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.9.1,0,13,13
+rancher/mirrored-longhornio-longhorn-manager:v1.9.1,0,10,10
 rancher/mirrored-longhornio-longhorn-share-manager:v1.9.1,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.9.1,0,9,9
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.61,0,6,6
@@ -509,7 +509,7 @@ rancher/neuvector-prometheus-exporter:1.0.7,0,12,12
 rancher/neuvector-registry-adapter:0.1.9,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.5,0,4,4
-rancher/nginx-ingress-controller:v1.12.4-hardened2,0,0,0
+rancher/nginx-ingress-controller:v1.12.4-hardened2,0,2,2
 rancher/prometheus-federator:v0.4.4,0,8,8
 rancher/pushprox-client:v0.1.4-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,2,2
@@ -560,6 +560,6 @@ rancher/system-agent-installer-rke2:v1.27.16-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.28.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.29.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.30.14-rke2r2,0,0,0
-rancher/system-agent:v0.3.10-suc,0,4,4
+rancher/system-agent:v0.3.10-suc,0,5,5
 rancher/system-upgrade-controller:v0.13.4,0,5,5
 rancher/ui-plugin-catalog:4.0.5,0,16,16
