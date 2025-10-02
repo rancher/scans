@@ -27,11 +27,11 @@ rancher/hardened-dns-node-cache:1.26.0-build20250611,0,0,0
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,0,0
 rancher/hardened-flannel:v0.27.1-build20250710,0,3,3
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,0,0
-rancher/hardened-kubernetes:v1.33.3-rke2r1-build20250716,0,2,2
+rancher/hardened-kubernetes:v1.33.3-rke2r1-build20250716,0,5,5
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,0,0
 rancher/harvester-cluster-repo:master-head,0,0,0
 rancher/harvester-eventrouter:master-head,0,1,1
-rancher/harvester-kubeovn-operator:v1.13.13,0,5,5
+rancher/harvester-kubeovn-operator:v1.13.13,0,8,8
 rancher/harvester-load-balancer-webhook:master-head,0,3,3
 rancher/harvester-load-balancer:master-head,0,0,0
 rancher/harvester-network-controller:master-head,0,0,0
@@ -73,7 +73,7 @@ rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,0,0
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,0,0
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
-rancher/nginx-ingress-controller:v1.12.4-hardened2,0,2,2
+rancher/nginx-ingress-controller:v1.12.4-hardened2,0,7,7
 rancher/prom-prometheus:v3.2.1,0,0,0
 rancher/rancher-webhook:v0.8.0,0,1,1
 rancher/rancher:v2.12.0,0,19,19
@@ -83,7 +83,7 @@ rancher/shell:v0.5.0,0,6,6
 rancher/support-bundle-kit:master-head,0,4,4
 rancher/system-agent-installer-rancher:v2.12.0,0,0,0
 rancher/system-agent-installer-rke2:v1.33.3-rke2r1,0,0,0
-rancher/system-agent:v0.3.13-suc,0,1,1
+rancher/system-agent:v0.3.13-suc,0,4,4
 rancher/system-upgrade-controller:v0.16.0,0,0,0
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,1,1
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.4,0,8,8
