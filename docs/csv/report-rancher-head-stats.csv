@@ -72,7 +72,7 @@ rancher/klipper-lb:v0.4.9,0,2,2
 rancher/local-path-provisioner:v0.0.30,0,0,0
 rancher/local-path-provisioner:v0.0.31,0,0,0
 rancher/local-path-provisioner:v0.0.32,0,0,0
-rancher/machine:v0.15.0-rancher133,0,3,3
+rancher/machine:v0.15.0-rancher134,0,3,3
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
 rancher/mirrored-calico-apiserver:v3.29.1,0,0,0
@@ -280,5 +280,5 @@ rancher/system-agent-installer-rke2:v1.30.14-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.31.12-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.8-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.3-rke2r1,0,0,0
-rancher/system-agent:v0.3.14-rc.1-suc,0,4,4
+rancher/system-agent:v0.3.14-rc.2-suc,0,1,1
 rancher/ui-plugin-catalog:4.0.5,0,19,19

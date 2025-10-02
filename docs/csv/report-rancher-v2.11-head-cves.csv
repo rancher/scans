@@ -1,8 +1,7 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 rancher/aks-operator:v1.11.6,rancher/v2.11-head,golang.org/x/oauth2,v0.23.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/aks-operator,0.27.0,false,not_affected,vulnerable_code_not_present
 rancher/appco-redis:8.0.3-2.1,rancher/v2.11-head,libopenssl3,3.1.4-150600.5.33.1,sles,SUSE-SU-2025:03442-1,HIGH,,rancher/appco-redis:8.0.3-2.1 (sles 15.6),3.1.4-150600.5.39.1,false,affected,
-rancher/backup-restore-operator:v7.0.2,rancher/v2.11-head,golang.org/x/oauth2,v0.25.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/backup-restore-operator,0.27.0,false,affected,
-rancher/backup-restore-operator:v7.0.2,rancher/v2.11-head,stdlib,v1.23.11,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/bin/backup-restore-operator,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
+rancher/backup-restore-operator:v7.0.3-rc.1,rancher/v2.11-head,golang.org/x/oauth2,v0.25.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,usr/bin/backup-restore-operator,0.27.0,false,affected,
 rancher/cis-operator:v1.4.2,rancher/v2.11-head,golang.org/x/net,v0.36.0,gobinary,CVE-2025-22872,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-22872,usr/bin/cis-operator,0.38.0,false,not_affected,vulnerable_code_not_present
 rancher/fleet:v0.12.7,rancher/v2.11-head,libbrotlicommon1,1.0.7-3.3.1,sles,SUSE-SU-2025:03268-1,HIGH,,rancher/fleet:v0.12.7 (sles 15.6),1.0.7-150200.3.5.1,false,affected,
 rancher/fleet:v0.12.7,rancher/v2.11-head,libbrotlidec1,1.0.7-3.3.1,sles,SUSE-SU-2025:03268-1,HIGH,,rancher/fleet:v0.12.7 (sles 15.6),1.0.7-150200.3.5.1,false,affected,
