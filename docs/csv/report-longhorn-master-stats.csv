@@ -10,6 +10,6 @@ longhornio/longhorn-cli:master-head,0,0,0
 longhornio/longhorn-engine:master-head,0,0,0
 longhornio/longhorn-instance-manager:master-head,0,0,0
 longhornio/longhorn-manager:master-head,0,0,0
-longhornio/longhorn-share-manager:master-head,0,3,3
+longhornio/longhorn-share-manager:master-head,0,0,0
 longhornio/longhorn-ui:master-head,0,0,0
 longhornio/support-bundle-kit:v0.0.69,0,0,0
