@@ -452,10 +452,6 @@ rancher/shell:v0.5.0,harvester/master,helm.sh/helm/v3,v3.18.4,gobinary,CVE-2025-
 rancher/shell:v0.5.0,harvester/master,stdlib,v1.24.2,gobinary,CVE-2025-22874,HIGH,https://avd.aquasec.com/nvd/cve-2025-22874,usr/local/bin/kubectl,1.24.4,false,affected,
 rancher/shell:v0.5.0,harvester/master,stdlib,v1.24.2,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/local/bin/kubectl,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/shell:v0.5.0,harvester/master,stdlib,v1.22.7,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/local/bin/kustomize,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
-rancher/support-bundle-kit:master-head,harvester/master,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,rancher/support-bundle-kit:master-head (sles 15.7),8.14.1-150600.4.28.1,false,affected,
-rancher/support-bundle-kit:master-head,harvester/master,libbrotlicommon1,1.0.7-3.3.1,sles,SUSE-SU-2025:03268-1,HIGH,,rancher/support-bundle-kit:master-head (sles 15.7),1.0.7-150200.3.5.1,false,affected,
-rancher/support-bundle-kit:master-head,harvester/master,libbrotlidec1,1.0.7-3.3.1,sles,SUSE-SU-2025:03268-1,HIGH,,rancher/support-bundle-kit:master-head (sles 15.7),1.0.7-150200.3.5.1,false,affected,
-rancher/support-bundle-kit:master-head,harvester/master,libcurl4,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,rancher/support-bundle-kit:master-head (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 rancher/system-agent-installer-rancher:v2.12.0,harvester/master,stdlib,v1.24.4,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,helm,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/system-agent:v0.3.13-suc,harvester/master,libopenssl-3-fips-provider,3.1.4-150600.5.33.1,sles,SUSE-SU-2025:03442-1,HIGH,,rancher/system-agent:v0.3.13-suc (sles 15.6),3.1.4-150600.5.39.1,false,affected,
 rancher/system-agent:v0.3.13-suc,harvester/master,libopenssl3,3.1.4-150600.5.33.1,sles,SUSE-SU-2025:03442-1,HIGH,,rancher/system-agent:v0.3.13-suc (sles 15.6),3.1.4-150600.5.39.1,false,affected,
