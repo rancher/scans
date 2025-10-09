@@ -2,7 +2,7 @@ image,critical,high,total
 fluent/fluent-bit:2.1.8,5,24,29
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,0,4,4
 ghcr.io/kube-logging/config-reloader:v0.0.5,0,10,10
-ghcr.io/kube-logging/fluentd:v1.15-ruby3,3,21,24
+ghcr.io/kube-logging/fluentd:v1.15-ruby3,3,24,27
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,5,5
 longhornio/backing-image-manager:v1.7.3,0,34,34
 longhornio/csi-attacher:v4.8.0,0,0,0

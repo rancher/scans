@@ -230,7 +230,7 @@ rancher/mirrored-kiali-kiali:v2.1.0,0,12,12
 rancher/mirrored-kiali-kiali:v2.7.1,0,12,12
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,2,5,7
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,1,1
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,9,10
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,12,13
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,0,0
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,2,2
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,0,3,3

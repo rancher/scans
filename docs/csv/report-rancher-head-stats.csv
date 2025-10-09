@@ -71,6 +71,7 @@ rancher/klipper-helm:v0.9.8-build20250709,0,0,0
 rancher/klipper-lb:v0.4.10,0,0,0
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/klipper-lb:v0.4.9,0,2,2
+rancher/kubectl:v1.34.1,0,0,0
 rancher/kuberlr-kubectl:v5.0.0,0,1,1
 rancher/local-path-provisioner:v0.0.30,0,0,0
 rancher/local-path-provisioner:v0.0.31,0,0,0
@@ -201,6 +202,7 @@ rancher/mirrored-cloud-provider-vsphere:v1.31.1,0,4,4
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,4,4
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,3,3
 rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,1,1
+rancher/mirrored-cluster-api-controller:v1.10.6,0,0,0
 rancher/mirrored-coredns-coredns:1.12.0,0,1,1
 rancher/mirrored-coredns-coredns:1.12.1,0,2,2
 rancher/mirrored-coredns-coredns:1.12.3,0,1,1
@@ -286,6 +288,6 @@ rancher/system-agent-installer-rke2:v1.30.14-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.31.12-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.8-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.3-rke2r1,0,0,0
-rancher/system-agent:v0.3.14-rc.2-suc,0,1,1
+rancher/system-agent:v0.3.14-rc.3-suc,0,0,0
 rancher/turtles:v0.25.0-rc.2,0,0,0
 rancher/ui-plugin-catalog:4.0.6,0,19,19
