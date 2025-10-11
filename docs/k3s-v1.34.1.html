@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - K3s v1.34.1 version - CVE Scans - 2025-10-09</h1>
+<h1>SUSE Rancher - K3s v1.34.1 version - CVE Scans - 2025-10-10</h1>
 
 <h3>How to use this page</h3>
 
@@ -71,6 +71,18 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(7)">Status</th>
 <th onclick="sort(8)">Justification (for status not affected)</th>
 <th onclick="sort(9)">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.34.1-k3s1</td>
+<td>false</td>
+<td>K3s v1.34.1</td>
+<td>bin/k3s</td>
+<td>github.com/quic-go/quic-go@v0.50.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-59530">CVE-2025-59530</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/klipper-helm:v0.9.8-build20250709</td>
@@ -149,9 +161,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>K3s v1.34.1</td>
 <td>coredns</td>
+<td>github.com/quic-go/quic-go@v0.54.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-59530">CVE-2025-59530</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.12.3</td>
+<td>true</td>
+<td>K3s v1.34.1</td>
+<td>coredns</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
 <td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.3.6</td>
+<td>true</td>
+<td>K3s v1.34.1</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/quic-go/quic-go@v0.48.2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-59530">CVE-2025-59530</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>

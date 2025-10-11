@@ -2,7 +2,7 @@ image,critical,high,total
 fluent/fluent-bit:2.1.8,5,24,29
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.7.0,0,4,4
 ghcr.io/kube-logging/config-reloader:v0.0.5,0,10,10
-ghcr.io/kube-logging/fluentd:v1.15-ruby3,3,24,27
+ghcr.io/kube-logging/fluentd:v1.15-ruby3,3,26,29
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,5,5
 longhornio/backing-image-manager:v1.7.3,0,34,34
 longhornio/csi-attacher:v4.8.0,0,0,0
@@ -24,8 +24,8 @@ rancher/gitjob:v0.9.8,0,35,35
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-calico:v3.29.2-build20250306,0,13,13
 rancher/hardened-cluster-autoscaler:v1.9.0-build20241126,0,1,1
-rancher/hardened-coredns:v1.12.0-build20241126,0,1,1
-rancher/hardened-dns-node-cache:1.24.0-build20241211,0,0,0
+rancher/hardened-coredns:v1.12.0-build20241126,0,2,2
+rancher/hardened-dns-node-cache:1.24.0-build20241211,0,1,1
 rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,0,0
 rancher/hardened-flannel:v0.26.5-build20250306,0,22,22
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,0,0
@@ -54,7 +54,7 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.20.2,0,34,34
 rancher/kubectl:v1.21.5,0,30,30
 rancher/kubectl:v1.29.2,0,6,6
-rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,7,46,53
+rancher/mirrored-banzaicloud-fluentd:v1.14.6-alpine-5,7,48,55
 rancher/mirrored-cluster-api-controller:v1.8.3,0,0,0
 rancher/mirrored-fluent-fluent-bit:2.2.0,5,23,28
 rancher/mirrored-grafana-grafana:9.1.5,3,92,95
@@ -75,7 +75,7 @@ rancher/mirrored-prometheus-prometheus:v2.45.0,0,26,26
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,0,0
 rancher/rancher-agent:v2.10.1,1,43,44
 rancher/rancher-webhook:v0.6.2,0,1,1
-rancher/rancher:v2.10.1,1,54,55
+rancher/rancher:v2.10.1,1,56,57
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,0,0
 rancher/rke2-runtime:v1.31.7-rke2r1,0,0,0
 rancher/shell:v0.1.24,1,50,51
