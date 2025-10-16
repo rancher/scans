@@ -19,7 +19,7 @@ longhornio/support-bundle-kit:v0.0.69,0,3,3
 rancher/fleet-agent:v0.13.2,0,0,0
 rancher/fleet:v0.13.2,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20250909,0,0,0
-rancher/hardened-calico:v3.30.3-build20250909,0,2,2
+rancher/hardened-calico:v3.30.3-build20250909,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250909,0,0,0
 rancher/hardened-cni-plugins:v1.8.0-build20250909,0,0,0
 rancher/hardened-coredns:v1.12.3-build20250909,0,1,1
@@ -27,10 +27,10 @@ rancher/hardened-dns-node-cache:1.26.0-build20250909,0,1,1
 rancher/hardened-etcd:v3.5.21-k3s1-build20250910,0,0,0
 rancher/hardened-flannel:v0.27.3-build20250901,0,0,0
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,0,0
-rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,3,3
+rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,1,1
 rancher/hardened-multus-cni:v4.2.2-build20250909,0,0,0
 rancher/harvester-cluster-repo:v1.6-head,0,0,0
-rancher/harvester-eventrouter:v1.6.1-rc2,0,1,1
+rancher/harvester-eventrouter:v1.6.1,0,1,1
 rancher/harvester-kubeovn-operator:v1.13.13,0,8,8
 rancher/harvester-load-balancer-webhook:v1.6.1-rc2,0,3,3
 rancher/harvester-load-balancer:v1.6.1-rc2,0,0,0
@@ -42,10 +42,10 @@ rancher/harvester-node-disk-manager-webhook:v1.6.1-rc2,0,0,0
 rancher/harvester-node-disk-manager:v1.6.1-rc2,0,0,0
 rancher/harvester-node-manager-webhook:v1.6.1-rc2,0,0,0
 rancher/harvester-node-manager:v1.6.1-rc2,0,0,0
-rancher/harvester-pcidevices:v1.6.1-rc2,0,0,0
-rancher/harvester-seeder:v1.6.1-rc2,0,0,0
+rancher/harvester-pcidevices:v1.6.1,0,0,0
+rancher/harvester-seeder:v1.6.1,0,0,0
 rancher/harvester-upgrade:v1.6-head,1,5,6
-rancher/harvester-vm-import-controller:v1.6.1-rc2,0,0,0
+rancher/harvester-vm-import-controller:v1.6.1,0,0,0
 rancher/harvester-webhook:v1.6-head,0,2,2
 rancher/harvester:v1.6-head,0,2,2
 rancher/klipper-helm:v0.9.8-build20250709,0,0,0

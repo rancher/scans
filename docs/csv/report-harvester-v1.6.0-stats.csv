@@ -19,7 +19,7 @@ longhornio/support-bundle-kit:v0.0.61,0,9,9
 rancher/fleet-agent:v0.13.0,0,2,2
 rancher/fleet:v0.13.0,0,16,16
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
-rancher/hardened-calico:v3.30.2-build20250711,0,3,3
+rancher/hardened-calico:v3.30.2-build20250711,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,0,0
 rancher/hardened-cni-plugins:v1.7.1-build20250611,0,0,0
 rancher/hardened-coredns:v1.12.2-build20250611,0,1,1
