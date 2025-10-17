@@ -3607,8 +3607,6 @@ rancher/neuvector-prometheus-exporter:1.0.7,rancher/v2.11-head,python313-base,3.
 rancher/neuvector-prometheus-exporter:1.0.7,rancher/v2.11-head,python313-devel,3.13.5-150700.4.11.1,sles,SUSE-SU-2025:02767-1,HIGH,,rancher/neuvector-prometheus-exporter:1.0.7 (sles 15.7),3.13.5-150700.4.20.1,false,affected,
 rancher/neuvector-registry-adapter:0.1.9,rancher/v2.11-head,libopenssl3,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,rancher/neuvector-registry-adapter:0.1.9 (sles 15.7),3.2.3-150700.5.21.1,false,affected,
 rancher/neuvector-registry-adapter:0.1.9,rancher/v2.11-head,openssl-3,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,rancher/neuvector-registry-adapter:0.1.9 (sles 15.7),3.2.3-150700.5.21.1,false,affected,
-rancher/neuvector-scanner:6,rancher/v2.11-head,libopenssl3,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,rancher/neuvector-scanner:6 (sles 15.7),3.2.3-150700.5.21.1,false,affected,
-rancher/neuvector-scanner:6,rancher/v2.11-head,openssl-3,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,rancher/neuvector-scanner:6 (sles 15.7),3.2.3-150700.5.21.1,false,affected,
 rancher/neuvector-updater:0.0.5,rancher/v2.11-head,curl,8.6.0-150600.4.21.1,sles,SUSE-SU-2025:03198-1,HIGH,,rancher/neuvector-updater:0.0.5 (sles 15.7),8.14.1-150600.4.28.1,false,affected,
 rancher/neuvector-updater:0.0.5,rancher/v2.11-head,libbrotlicommon1,1.0.7-3.3.1,sles,SUSE-SU-2025:03268-1,HIGH,,rancher/neuvector-updater:0.0.5 (sles 15.7),1.0.7-150200.3.5.1,false,affected,
 rancher/neuvector-updater:0.0.5,rancher/v2.11-head,libbrotlidec1,1.0.7-3.3.1,sles,SUSE-SU-2025:03268-1,HIGH,,rancher/neuvector-updater:0.0.5 (sles 15.7),1.0.7-150200.3.5.1,false,affected,
