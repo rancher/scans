@@ -381,7 +381,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,0,3,3
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.27.2-alpine,0,11,11
+rancher/mirrored-library-nginx:1.27.2-alpine,1,10,11
 rancher/mirrored-library-traefik:2.10.7,0,11,11
 rancher/mirrored-library-traefik:2.11.10,0,3,3
 rancher/mirrored-library-traefik:2.11.18,0,3,3
@@ -507,4 +507,4 @@ rancher/system-agent-installer-rke2:v1.31.12-rke2r1,0,0,0
 rancher/system-agent:v0.3.11-suc,0,8,8
 rancher/system-upgrade-controller:v0.13.4,0,5,5
 rancher/system-upgrade-controller:v0.14.2,0,0,0
-rancher/ui-plugin-catalog:4.0.6,0,19,19
+rancher/ui-plugin-catalog:4.0.7,0,19,19

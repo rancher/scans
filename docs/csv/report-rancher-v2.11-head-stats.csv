@@ -2,11 +2,11 @@ image,critical,high,total
 rancher/aks-operator:v1.11.6,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,0,4,4
 rancher/appco-redis:8.0.3-2.1,0,1,1
-rancher/backup-restore-operator:v7.0.3-rc.1,0,1,1
-rancher/cis-operator:v1.4.3-rc.2,0,0,0
+rancher/backup-restore-operator:v7.0.3,0,1,1
+rancher/cis-operator:v1.4.4,0,0,0
 rancher/eks-operator:v1.11.6,0,0,0
-rancher/fleet-agent:v0.12.8-rc.1,0,0,0
-rancher/fleet:v0.12.8-rc.1,0,0,0
+rancher/fleet-agent:v0.12.8,0,0,0
+rancher/fleet:v0.12.8,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,1,1
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,0,0
@@ -307,7 +307,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,0,0,0
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.27.2-alpine,0,11,11
+rancher/mirrored-library-nginx:1.27.2-alpine,1,10,11
 rancher/mirrored-library-traefik:2.11.10,0,3,3
 rancher/mirrored-library-traefik:2.11.18,0,3,3
 rancher/mirrored-library-traefik:2.11.20,0,1,1
@@ -382,7 +382,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,0,0,0
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,0,0
 rancher/rancher-agent:v2.11-head,0,19,19
 rancher/rancher-csp-adapter:v6.0.0,0,1,1
-rancher/rancher-webhook:v0.7.7-rc.1,0,0,0
+rancher/rancher-webhook:v0.7.7,0,0,0
 rancher/rancher:v2.11-head,0,20,20
 rancher/remotedialer-proxy:v0.4.4,0,0,0
 rancher/rke2-cloud-provider:v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250613,0,0,0
@@ -399,7 +399,7 @@ rancher/rke2-runtime:v1.32.9-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.30.14-rke2r2,0,1,1
 rancher/rke2-upgrade:v1.31.13-rke2r1,0,1,1
 rancher/rke2-upgrade:v1.32.9-rke2r1,0,1,1
-rancher/security-scan:v0.6.3-rc.3,0,0,0
+rancher/security-scan:v0.6.4,0,0,0
 rancher/shell:v0.4.1,0,10,10
 rancher/supportability-review-app-frontend:latest,0,0,0
 rancher/supportability-review-internal:latest,0,0,0
@@ -431,4 +431,4 @@ rancher/system-agent-installer-rke2:v1.31.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.9-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,0,8,8
 rancher/system-upgrade-controller:v0.15.2,0,0,0
-rancher/ui-plugin-catalog:4.0.6,0,19,19
+rancher/ui-plugin-catalog:4.0.7,0,19,19
