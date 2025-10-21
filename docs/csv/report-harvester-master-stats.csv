@@ -32,7 +32,7 @@ rancher/hardened-multus-cni:v4.2.1-build20250627,0,0,0
 rancher/harvester-cluster-repo:master-head,0,0,0
 rancher/harvester-eventrouter:master-head,0,1,1
 rancher/harvester-kubeovn-operator:v1.14.10-dev.0,0,1,1
-rancher/harvester-load-balancer-webhook:master-head,0,3,3
+rancher/harvester-load-balancer-webhook:master-head,0,2,2
 rancher/harvester-load-balancer:master-head,0,0,0
 rancher/harvester-network-controller:master-head,0,0,0
 rancher/harvester-network-helper:master-head,0,0,0
