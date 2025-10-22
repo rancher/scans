@@ -5,8 +5,8 @@ rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/backup-restore-operator:v8.1.0,0,0,0
 rancher/compliance-operator:v1.2.1,0,0,0
 rancher/eks-operator:v1.12.2,0,0,0
-rancher/fleet-agent:v0.13.4-rc.2,0,0,0
-rancher/fleet:v0.13.4-rc.2,0,1,1
+rancher/fleet-agent:v0.13.4,0,0,0
+rancher/fleet:v0.13.4,0,0,0
 rancher/gke-operator:v1.12.2,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,1,1
@@ -302,9 +302,9 @@ rancher/mirrored-longhornio-csi-resizer:v1.14.0-20250709,0,0,0
 rancher/mirrored-longhornio-csi-resizer:v1.2.0,0,46,46
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,0,0
 rancher/mirrored-longhornio-livenessprobe:v2.16.0-20250709,0,0,0
-rancher/mirrored-longhornio-longhorn-engine:v1.9.2,0,5,5
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.9.2,0,6,6
-rancher/mirrored-longhornio-longhorn-manager:v1.9.2,0,5,5
+rancher/mirrored-longhornio-longhorn-engine:v1.9.2,2,5,7
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.9.2,2,6,8
+rancher/mirrored-longhornio-longhorn-manager:v1.9.2,2,5,7
 rancher/mirrored-longhornio-longhorn-share-manager:v1.9.2,0,4,4
 rancher/mirrored-longhornio-longhorn-ui:v1.9.2,0,4,4
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.69,0,3,3
@@ -376,9 +376,9 @@ rancher/rke2-upgrade:v1.33.5-rke2r1,0,1,1
 rancher/scc-operator:v0.3.0,0,0,0
 rancher/security-scan:v0.7.3,0,0,0
 rancher/shell:v0.5.0,0,7,7
-rancher/supportability-review-app-frontend:v0.15.0,0,1,1
+rancher/supportability-review-app-frontend:latest,0,1,1
 rancher/supportability-review-internal:latest,0,0,0
-rancher/supportability-review-operator:v0.15.0,0,0,0
+rancher/supportability-review-operator:latest,0,0,0
 rancher/supportability-review:latest,0,0,0
 rancher/system-agent-installer-k3s:v1.31.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.9-k3s1,0,0,0
@@ -388,4 +388,4 @@ rancher/system-agent-installer-rke2:v1.32.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.5-rke2r1,0,0,0
 rancher/system-agent:v0.3.13-suc,0,4,4
 rancher/system-upgrade-controller:v0.16.3,0,0,0
-rancher/ui-plugin-catalog:4.0.7,0,19,19
+rancher/ui-plugin-catalog:4.0.8,0,19,19

@@ -10,9 +10,9 @@ longhornio/csi-resizer:v1.14.0-20250709,0,0,0
 longhornio/csi-snapshotter:v8.3.0-20250709,0,0,0
 longhornio/livenessprobe:v2.16.0-20250709,0,0,0
 longhornio/longhorn-cli:v1.9.1,0,9,9
-longhornio/longhorn-engine:v1.9.1,0,15,15
-longhornio/longhorn-instance-manager:v1.9.1,0,18,18
-longhornio/longhorn-manager:v1.9.1,0,15,15
+longhornio/longhorn-engine:v1.9.1,2,15,17
+longhornio/longhorn-instance-manager:v1.9.1,2,18,20
+longhornio/longhorn-manager:v1.9.1,2,15,17
 longhornio/longhorn-share-manager:v1.9.1,0,11,11
 longhornio/longhorn-ui:v1.9.1,0,13,13
 longhornio/support-bundle-kit:v0.0.61,0,9,9
