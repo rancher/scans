@@ -508,8 +508,8 @@ rancher/neuvector-controller:5.4.7,0,0,0
 rancher/neuvector-enforcer:5.4.7,0,0,0
 rancher/neuvector-manager:5.4.7,0,0,0
 rancher/neuvector-prometheus-exporter:1.0.8,0,0,0
-rancher/neuvector-registry-adapter:0.2.0,0,0,0
-rancher/neuvector-scanner:6,0,0,0
+rancher/neuvector-registry-adapter:0.2.0,1,0,1
+rancher/neuvector-scanner:6,2,0,2
 rancher/neuvector-updater:0.0.6,0,0,0
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,5,5
 rancher/prometheus-federator:v0.4.4,0,8,8
