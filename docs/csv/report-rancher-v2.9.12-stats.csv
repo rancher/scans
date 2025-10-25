@@ -116,9 +116,9 @@ rancher/harvester-csi-driver:v0.1.7,0,27,27
 rancher/harvester-csi-driver:v0.2.1,0,28,28
 rancher/harvester-csi-driver:v0.2.2,0,28,28
 rancher/harvester-csi-driver:v0.2.3,0,11,11
-rancher/istio-installer:1.19.6-rancher1,0,55,55
-rancher/istio-installer:1.21.1-rancher1,0,44,44
-rancher/istio-installer:1.22.1-rancher1,0,43,43
+rancher/istio-installer:1.19.6-rancher1,0,56,56
+rancher/istio-installer:1.21.1-rancher1,0,45,45
+rancher/istio-installer:1.22.1-rancher1,0,44,44
 rancher/istio-installer:1.23.2-rancher1,0,28,28
 rancher/k3s-upgrade:v1.27.16-k3s1,0,6,6
 rancher/k3s-upgrade:v1.28.15-k3s1,0,0,0
@@ -361,9 +361,9 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,23,23
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,17,17
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,11,11
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,5,5
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,14,58,72
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.0,14,44,58
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,13,39,52
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,15,59,74
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.0,15,45,60
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,14,40,54
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,9,32,41
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.0,9,30,39
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,8,19,27
@@ -507,7 +507,7 @@ rancher/neuvector-enforcer:5.4.6,0,8,8
 rancher/neuvector-manager:5.4.6,0,4,4
 rancher/neuvector-prometheus-exporter:1.0.7,0,16,16
 rancher/neuvector-registry-adapter:0.1.9,1,2,3
-rancher/neuvector-scanner:6,2,0,2
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.5,0,6,6
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,5,5
 rancher/prometheus-federator:v0.4.4,0,8,8
@@ -539,7 +539,7 @@ rancher/shell:v0.3.0,0,20,20
 rancher/supportability-review-app-frontend:latest,0,1,1
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:latest,0,0,0
-rancher/supportability-review:latest,0,0,0
+rancher/supportability-review:latest,0,2,2
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.23.17-k3s1,0,0,0

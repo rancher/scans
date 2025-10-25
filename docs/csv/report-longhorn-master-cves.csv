@@ -1,9 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 longhornio/backing-image-manager:master-head,longhorn/master,iperf,3.19.1-lp156.95.1,sles,SUSE-SU-2025:02749-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),3.19.1-150000.3.15.1,false,affected,
 longhornio/backing-image-manager:master-head,longhorn/master,libiperf0,3.19.1-lp156.95.1,sles,SUSE-SU-2025:02749-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),3.19.1-150000.3.15.1,false,affected,
-longhornio/longhorn-cli:master-head,longhorn/master,libopenssl-3-fips-provider,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,longhornio/longhorn-cli:master-head (sles 15.7),3.2.3-150700.5.21.1,false,affected,
-longhornio/longhorn-cli:master-head,longhorn/master,libopenssl3,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,longhornio/longhorn-cli:master-head (sles 15.7),3.2.3-150700.5.21.1,false,affected,
-longhornio/longhorn-cli:master-head,longhorn/master,openssl-3,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,longhornio/longhorn-cli:master-head (sles 15.7),3.2.3-150700.5.21.1,false,affected,
 longhornio/longhorn-engine:master-head,longhorn/master,libldb2,4.21.6+git.493.f39e13aba14-150700.3.6.1,sles,SUSE-SU-2025:3676-1,CRITICAL,,longhornio/longhorn-engine:master-head (sles 15.7),4.21.8+git.418.e80c9b2a88c-150700.3.11.2,false,affected,
 longhornio/longhorn-engine:master-head,longhorn/master,samba-client-libs,4.21.6+git.493.f39e13aba14-150700.3.6.1,sles,SUSE-SU-2025:3676-1,CRITICAL,,longhornio/longhorn-engine:master-head (sles 15.7),4.21.8+git.418.e80c9b2a88c-150700.3.11.2,false,affected,
 longhornio/support-bundle-kit:v0.0.69,longhorn/master,libopenssl-3-fips-provider,3.2.3-150700.5.18.1,sles,SUSE-SU-2025:03546-1,HIGH,,longhornio/support-bundle-kit:v0.0.69 (sles 15.7),3.2.3-150700.5.21.1,false,affected,
