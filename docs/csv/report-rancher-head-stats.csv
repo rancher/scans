@@ -241,7 +241,7 @@ rancher/rke2-runtime:v1.34.1-rke2r1,0,0,0
 rancher/rke2-upgrade:v1.32.9-rke2r1,0,1,1
 rancher/rke2-upgrade:v1.33.5-rke2r1,0,1,1
 rancher/rke2-upgrade:v1.34.1-rke2r1,0,1,1
-rancher/scc-operator:head,0,0,0
+rancher/scc-operator:v0.3.1-rc.1,0,0,0
 rancher/shell:v0.6.0-rc.1,0,2,2
 rancher/system-agent-installer-k3s:v1.32.9-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.5-k3s1,0,0,0
