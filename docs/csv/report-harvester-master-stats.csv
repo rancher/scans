@@ -44,10 +44,10 @@ rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:master-head,0,0,0
 rancher/harvester-seeder:main-head,0,0,0
-rancher/harvester-upgrade:v1.7.0-dev-20251026,1,5,6
+rancher/harvester-upgrade:master-head,1,5,6
 rancher/harvester-vm-import-controller:main-head,0,0,0
-rancher/harvester-webhook:v1.7.0-dev-20251026,0,2,2
-rancher/harvester:v1.7.0-dev-20251026,0,2,2
+rancher/harvester-webhook:master-head,0,2,2
+rancher/harvester:master-head,0,2,2
 rancher/klipper-helm:v0.9.8-build20250709,0,0,0
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.29.2,0,6,6
