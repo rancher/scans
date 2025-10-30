@@ -64,7 +64,7 @@ rancher/hardened-flannel:v0.26.1-build20241211,0,28,28
 rancher/hardened-flannel:v0.26.3-build20250108,0,27,27
 rancher/hardened-flannel:v0.26.4-build20250218,0,24,24
 rancher/hardened-flannel:v0.26.5-build20250306,0,23,23
-rancher/hardened-flannel:v0.27.1-build20250710,0,7,7
+rancher/hardened-flannel:v0.27.1-build20250710,0,11,11
 rancher/hardened-ib-sriov-cni:v1.0.3-build20240327,0,34,34
 rancher/hardened-ib-sriov-cni:v1.1.1-build20240816,0,37,37
 rancher/hardened-k8s-metrics-server:v0.7.1-build20240401,0,0,0
@@ -107,9 +107,9 @@ rancher/hardened-whereabouts:v0.8.0-build20250131,0,1,1
 rancher/hardened-whereabouts:v0.9.0-build20250612,0,0,0
 rancher/hardened-whereabouts:v0.9.1-build20250704,0,1,1
 rancher/harvester-cloud-provider:v0.2.0,1,29,30
-rancher/harvester-cloud-provider:v0.2.1,1,14,15
-rancher/harvester-cloud-provider:v0.2.2,1,6,7
-rancher/harvester-cloud-provider:v0.2.4,1,7,8
+rancher/harvester-cloud-provider:v0.2.1,1,13,14
+rancher/harvester-cloud-provider:v0.2.2,1,5,6
+rancher/harvester-cloud-provider:v0.2.4,1,6,7
 rancher/harvester-csi-driver:v0.1.5,0,97,97
 rancher/harvester-csi-driver:v0.1.6,0,77,77
 rancher/harvester-csi-driver:v0.1.7,0,27,27
@@ -153,7 +153,7 @@ rancher/longhornio-csi-resizer:v1.2.0,0,46,46
 rancher/machine:v0.15.0-rancher125,0,18,18
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
-rancher/mirrored-calico-apiserver:v3.26.3,0,21,21
+rancher/mirrored-calico-apiserver:v3.26.3,0,20,20
 rancher/mirrored-calico-apiserver:v3.27.0,0,13,13
 rancher/mirrored-calico-apiserver:v3.27.2,0,13,13
 rancher/mirrored-calico-apiserver:v3.27.3,0,1,1
@@ -376,7 +376,7 @@ rancher/mirrored-coredns-coredns:1.11.1,0,12,12
 rancher/mirrored-coredns-coredns:1.11.3,0,1,1
 rancher/mirrored-coredns-coredns:1.12.0,0,2,2
 rancher/mirrored-coredns-coredns:1.12.1,0,3,3
-rancher/mirrored-coreos-etcd:v3.5.10,0,20,20
+rancher/mirrored-coreos-etcd:v3.5.10,0,19,19
 rancher/mirrored-coreos-etcd:v3.5.12,0,16,16
 rancher/mirrored-curlimages-curl:7.85.0,0,12,12
 rancher/mirrored-curlimages-curl:8.10.1,0,2,2
