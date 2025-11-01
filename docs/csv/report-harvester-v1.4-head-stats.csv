@@ -16,7 +16,7 @@ longhornio/longhorn-engine:v1.7.3,1,35,36
 longhornio/longhorn-instance-manager:v1.7.3,1,40,41
 longhornio/longhorn-manager:v1.7.3,1,30,31
 longhornio/longhorn-share-manager:v1.7.3,0,26,26
-longhornio/longhorn-ui:v1.7.3,0,29,29
+longhornio/longhorn-ui:v1.7.3,0,30,30
 longhornio/support-bundle-kit:v0.0.51,0,25,25
 rancher/fleet-agent:v0.11.2,0,7,7
 rancher/fleet:v0.11.2,0,42,42
@@ -31,7 +31,7 @@ rancher/hardened-flannel:v0.26.5-build20250306,0,29,29
 rancher/hardened-k8s-metrics-server:v0.7.2-build20250110,0,2,2
 rancher/hardened-kubernetes:v1.31.7-rke2r1-build20250312,0,23,23
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,10,10
-rancher/harvester-cluster-repo:v1.4-head,0,16,16
+rancher/harvester-cluster-repo:v1.4-head,0,17,17
 rancher/harvester-eventrouter:v0.3.3,0,5,5
 rancher/harvester-load-balancer-webhook:v0.4.4,1,8,9
 rancher/harvester-load-balancer:v0.4.4,1,8,9
@@ -45,7 +45,7 @@ rancher/harvester-node-manager-webhook:v0.3.4,0,21,21
 rancher/harvester-node-manager:v0.3.4,0,21,21
 rancher/harvester-pcidevices:v0.4.3,0,17,17
 rancher/harvester-seeder:v0.4.3,0,17,17
-rancher/harvester-upgrade:v1.4-head,0,29,29
+rancher/harvester-upgrade:v1.4-head,0,30,30
 rancher/harvester-vm-import-controller:v0.4.3,0,23,23
 rancher/harvester-webhook:v1.4-head,0,21,21
 rancher/harvester:v1.4-head,0,21,21
@@ -89,7 +89,7 @@ rancher/system-upgrade-controller:v0.14.2,0,2,2
 registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,0,10,10
 registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3,0,10,10
 registry.suse.com/bci/bci-base:15.6,0,0,0
-registry.suse.com/suse/sles/15.6/libguestfs-tools:1.3.1-150600.5.9.1,0,79,79
+registry.suse.com/suse/sles/15.6/libguestfs-tools:1.3.1-150600.5.9.1,0,80,80
 registry.suse.com/suse/sles/15.6/virt-api:1.3.1-150600.5.9.1,0,32,32
 registry.suse.com/suse/sles/15.6/virt-controller:1.3.1-150600.5.9.1,0,32,32
 registry.suse.com/suse/sles/15.6/virt-handler:1.3.1-150600.5.9.1,0,40,40
