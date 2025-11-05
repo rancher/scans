@@ -1,10 +1,10 @@
 image,critical,high,total
-rancher/aks-operator:v1.11.6,0,2,2
+rancher/aks-operator:v1.11.7-rc.2,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,0,5,5
 rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/backup-restore-operator:v7.0.4-rc.1,0,3,3
 rancher/cis-operator:v1.4.4,0,2,2
-rancher/eks-operator:v1.11.6,0,2,2
+rancher/eks-operator:v1.11.7-rc.1,0,0,0
 rancher/fleet-agent:v0.12.9-beta.2,0,2,2
 rancher/fleet:v0.12.9-beta.2,0,4,4
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,2,2
