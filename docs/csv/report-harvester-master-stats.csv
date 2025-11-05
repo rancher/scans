@@ -17,7 +17,9 @@ longhornio/longhorn-share-manager:v1.10.0,0,6,6
 longhornio/longhorn-ui:v1.10.0,0,5,5
 longhornio/support-bundle-kit:v0.0.69,0,7,7
 rancher/fleet-agent:v0.14.0-alpha.3,0,2,2
+rancher/fleet-agent:v0.14.0-rc.1,0,0,0
 rancher/fleet:v0.14.0-alpha.3,0,8,8
+rancher/fleet:v0.14.0-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,2,2
 rancher/hardened-calico:v3.30.2-build20250711,0,58,58
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,2,2
