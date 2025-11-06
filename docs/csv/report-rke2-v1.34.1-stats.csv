@@ -15,4 +15,4 @@ rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,2,2
 rancher/nginx-ingress-controller:v1.12.6-hardened1,0,9,9
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908,0,2,2
-rancher/rke2-runtime:v1.34.1-rke2r1,0,14,14
+rancher/rke2-runtime:v1.34.1-rke2r1,0,16,16

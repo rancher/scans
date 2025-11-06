@@ -34,9 +34,9 @@ rancher/harvester-eventrouter:v1.6.1,0,3,3
 rancher/harvester-kubeovn-operator:v1.13.13,0,10,10
 rancher/harvester-load-balancer-webhook:v1.6.1,0,5,5
 rancher/harvester-load-balancer:v1.6.1,0,2,2
-rancher/harvester-network-controller:v1.6.1,0,3,3
-rancher/harvester-network-helper:v1.6.1,0,3,3
-rancher/harvester-network-webhook:v1.6.1,0,3,3
+rancher/harvester-network-controller:v1.6.1,0,5,5
+rancher/harvester-network-helper:v1.6.1,0,5,5
+rancher/harvester-network-webhook:v1.6.1,0,5,5
 rancher/harvester-networkfs-manager:v1.6.1,0,3,3
 rancher/harvester-node-disk-manager-webhook:v1.6.1,0,2,2
 rancher/harvester-node-disk-manager:v1.6.1,0,3,3
@@ -45,9 +45,9 @@ rancher/harvester-node-manager:v1.6.1,0,2,2
 rancher/harvester-pcidevices:v1.6.1,0,2,2
 rancher/harvester-seeder:v1.6.1,0,0,0
 rancher/harvester-upgrade:v1.6-head,1,15,16
-rancher/harvester-vm-import-controller:v1.6.1,0,3,3
-rancher/harvester-webhook:v1.6-head,0,3,3
-rancher/harvester:v1.6-head,0,3,3
+rancher/harvester-vm-import-controller:v1.6.1,0,5,5
+rancher/harvester-webhook:v1.6-head,0,5,5
+rancher/harvester:v1.6-head,0,5,5
 rancher/klipper-helm:v0.9.8-build20250709,0,6,6
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.29.2,0,8,8
@@ -77,9 +77,9 @@ rancher/mirrored-prometheus-prometheus:v2.53.1,0,4,4
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,2,2
 rancher/nginx-ingress-controller:v1.12.6-hardened1,0,9,9
 rancher/rancher-webhook:v0.8.2,0,3,3
-rancher/rancher:v2.12.2,0,39,39
+rancher/rancher:v2.12.2,0,45,45
 rancher/rke2-cloud-provider:v1.33.4-rc1.0.20250814212538-148243c49519-build20250908,0,2,2
-rancher/rke2-runtime:v1.33.5-rke2r1,0,14,14
+rancher/rke2-runtime:v1.33.5-rke2r1,0,16,16
 rancher/shell:v0.3.0,0,28,28
 rancher/shell:v0.5.0,0,15,15
 rancher/support-bundle-kit:v0.0.57,0,19,19

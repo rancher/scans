@@ -27,7 +27,7 @@ rancher/hardened-dns-node-cache:1.26.0-build20250611,0,3,3
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,4,4
 rancher/hardened-flannel:v0.27.1-build20250710,0,13,13
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,2,2
-rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,17,17
+rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,23,23
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,10,10
 rancher/harvester-cluster-repo:v1.5-head,0,7,7
 rancher/harvester-eventrouter:v1.5.1,0,3,3
@@ -43,10 +43,10 @@ rancher/harvester-node-manager-webhook:v1.5.2,0,7,7
 rancher/harvester-node-manager:v1.5.2,0,7,7
 rancher/harvester-pcidevices:v1.5.2,0,7,7
 rancher/harvester-seeder:v1.5.2,0,7,7
-rancher/harvester-upgrade:v1.5-head,1,24,25
+rancher/harvester-upgrade:v1.5-head,1,26,27
 rancher/harvester-vm-import-controller:v1.5.2,0,9,9
-rancher/harvester-webhook:v1.5-head,0,10,10
-rancher/harvester:v1.5-head,0,10,10
+rancher/harvester-webhook:v1.5-head,0,12,12
+rancher/harvester:v1.5-head,0,12,12
 rancher/klipper-helm:v0.9.8-build20250709,0,6,6
 rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kubectl:v1.29.2,0,8,8
@@ -73,11 +73,11 @@ rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,3,3
 rancher/mirrored-prometheus-prometheus:v2.53.1,0,4,4
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,2,2
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,11,11
-rancher/rancher-agent:v2.11.3,0,27,27
+rancher/rancher-agent:v2.11.3,0,29,29
 rancher/rancher-webhook:v0.7.3,0,2,2
-rancher/rancher:v2.11.3,0,49,49
+rancher/rancher:v2.11.3,0,51,51
 rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,2,2
-rancher/rke2-runtime:v1.32.7-rke2r1,0,14,14
+rancher/rke2-runtime:v1.32.7-rke2r1,0,16,16
 rancher/shell:v0.3.0,0,28,28
 rancher/shell:v0.4.1,0,18,18
 rancher/support-bundle-kit:v0.0.65,0,11,11
