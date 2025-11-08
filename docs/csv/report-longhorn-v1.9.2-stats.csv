@@ -10,6 +10,6 @@ longhornio/longhorn-cli:v1.9.2,0,7,7
 longhornio/longhorn-engine:v1.9.2,2,11,13
 longhornio/longhorn-instance-manager:v1.9.2,2,12,14
 longhornio/longhorn-manager:v1.9.2,2,8,10
-longhornio/longhorn-share-manager:v1.9.2,0,6,6
-longhornio/longhorn-ui:v1.9.2,0,5,5
-longhornio/support-bundle-kit:v0.0.69,0,7,7
+longhornio/longhorn-share-manager:v1.9.2,0,7,7
+longhornio/longhorn-ui:v1.9.2,0,6,6
+longhornio/support-bundle-kit:v0.0.69,0,8,8
