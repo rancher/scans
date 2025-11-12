@@ -520,10 +520,10 @@ rancher/rke2-runtime:v1.28.15-rke2r1,0,31,31
 rancher/rke2-runtime:v1.29.15-rke2r1,0,24,24
 rancher/rke2-runtime:v1.30.14-rke2r2,0,24,24
 rancher/rke2-runtime:v1.31.13-rke2r1,0,27,27
-rancher/rke2-upgrade:v1.28.15-rke2r1,0,6,6
-rancher/rke2-upgrade:v1.29.15-rke2r1,0,9,9
-rancher/rke2-upgrade:v1.30.14-rke2r2,0,9,9
-rancher/rke2-upgrade:v1.31.13-rke2r1,0,9,9
+rancher/rke2-upgrade:v1.28.15-rke2r1,0,5,5
+rancher/rke2-upgrade:v1.29.15-rke2r1,0,8,8
+rancher/rke2-upgrade:v1.30.14-rke2r2,0,8,8
+rancher/rke2-upgrade:v1.31.13-rke2r1,0,8,8
 rancher/security-scan:v0.5.9-rc.1,0,4,4
 rancher/shell:v0.3.1,0,23,23
 rancher/supportability-review-app-frontend:v0.15.0,0,1,1

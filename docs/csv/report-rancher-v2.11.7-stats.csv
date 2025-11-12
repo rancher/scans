@@ -396,9 +396,9 @@ rancher/rke2-cloud-provider:v1.32.8-rc1.0.20250814215348-fe896f7e7cf8-build20250
 rancher/rke2-runtime:v1.30.14-rke2r2,0,24,24
 rancher/rke2-runtime:v1.31.13-rke2r1,0,27,27
 rancher/rke2-runtime:v1.32.9-rke2r1,0,27,27
-rancher/rke2-upgrade:v1.30.14-rke2r2,0,9,9
-rancher/rke2-upgrade:v1.31.13-rke2r1,0,9,9
-rancher/rke2-upgrade:v1.32.9-rke2r1,0,9,9
+rancher/rke2-upgrade:v1.30.14-rke2r2,0,8,8
+rancher/rke2-upgrade:v1.31.13-rke2r1,0,8,8
+rancher/rke2-upgrade:v1.32.9-rke2r1,0,8,8
 rancher/security-scan:v0.6.4,0,4,4
 rancher/shell:v0.4.1,0,21,21
 rancher/supportability-review-app-frontend:latest,0,1,1
