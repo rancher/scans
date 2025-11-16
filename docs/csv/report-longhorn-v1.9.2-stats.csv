@@ -8,7 +8,7 @@ longhornio/csi-snapshotter:v8.3.0-20250709,0,2,2
 longhornio/livenessprobe:v2.16.0-20250709,0,2,2
 longhornio/longhorn-cli:v1.9.2,0,7,7
 longhornio/longhorn-engine:v1.9.2,2,11,13
-longhornio/longhorn-instance-manager:v1.9.2,2,12,14
+longhornio/longhorn-instance-manager:v1.9.2,2,15,17
 longhornio/longhorn-manager:v1.9.2,2,8,10
 longhornio/longhorn-share-manager:v1.9.2,0,7,7
 longhornio/longhorn-ui:v1.9.2,0,6,6
