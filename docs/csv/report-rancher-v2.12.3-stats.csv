@@ -252,7 +252,7 @@ rancher/mirrored-coredns-coredns:1.12.3,0,4,4
 rancher/mirrored-curlimages-curl:8.9.1,0,4,4
 rancher/mirrored-elemental-operator:1.7.3,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,9,10
+rancher/mirrored-fluent-fluent-bit:3.1.8,1,10,11
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,0,2,2
 rancher/mirrored-grafana-grafana:11.5.5,0,9,9
@@ -379,7 +379,7 @@ rancher/shell:v0.5.0,0,18,18
 rancher/supportability-review-app-frontend:latest,0,1,1
 rancher/supportability-review-internal:latest,1,5,6
 rancher/supportability-review-operator:latest,0,0,0
-rancher/supportability-review:latest,1,10,11
+rancher/supportability-review:latest,1,11,12
 rancher/system-agent-installer-k3s:v1.31.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.9-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.5-k3s1,0,0,0
