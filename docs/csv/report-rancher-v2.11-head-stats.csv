@@ -5,8 +5,8 @@ rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/backup-restore-operator:v7.0.4,0,3,3
 rancher/cis-operator:v1.4.5,0,0,0
 rancher/eks-operator:v1.11.7,0,0,0
-rancher/fleet-agent:v0.12.9-beta.2,0,3,3
-rancher/fleet:v0.12.9-beta.2,0,6,6
+rancher/fleet-agent:v0.12.9,0,0,0
+rancher/fleet:v0.12.9,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,2,2
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,3,3
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,2,2
@@ -242,7 +242,7 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,13,13
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,7,7
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,15,72,87
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,14,53,67
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,5,28,33
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,5,29,34
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,9,40,49
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,8,27,35
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,2,14,16
