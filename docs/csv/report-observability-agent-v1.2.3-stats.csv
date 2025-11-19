@@ -1,0 +1,10 @@
+image,critical,high,total
+registry.rancher.com/suse-observability/container-tools:1.8.0-bci,0,19,19
+registry.rancher.com/suse-observability/generic-sidecar-injector:sha-5678567f,3,26,29
+registry.rancher.com/suse-observability/http-header-injector-proxy-init:sha-5ff79451,1,15,16
+registry.rancher.com/suse-observability/http-header-injector-proxy:sha-5ff79451,0,0,0
+registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206,0,2,2
+registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100,0,2,2
+registry.rancher.com/suse-observability/stackstate-k8s-agent:de9360ab,0,19,19
+registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:de9360ab,0,12,12
+registry.rancher.com/suse-observability/stackstate-k8s-process-agent:644a2640,0,4,4

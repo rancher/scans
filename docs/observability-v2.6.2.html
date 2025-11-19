@@ -1,0 +1,5483 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>SUSE Rancher - Images CVE Scans</title>
+<style>
+body { background: #ffffff; color: #1d2327; font-family: sans-serif; }
+body.index { padding: 10px; margin: auto; max-width: 70%; }
+h1 { color: #2453ff; }
+table { border-collapse: collapse; margin: 10px; }
+th { padding: 10px; text-align: center; background-color: #2453ff; color: white; }
+th, td { border-bottom: 2px solid #ddd; }
+tr:hover { background-color: #f0f0f1; }
+#cves_table th { cursor: pointer; }
+.not_affected { color: grey; }
+td { padding: 7px; }
+#center_row { text-align: center; }
+/* Tooltip inspired from www.w3schools.com */
+.cve_sev { position: relative; display: inline-block; border-bottom: 1px dotted black; }
+.cve_sev:hover .cve_sev_note { visibility: visible; }
+.cve_sev .cve_sev_note { visibility: hidden; width: 150px; background-color: #000000; color: #ffffff; text-align: center; border-radius: 6px; padding: 8px 0; position: absolute; z-index: 1; bottom: 150%; left: 50%; margin-left: -70px; }
+.cve_sev .cve_sev_note::after { content: " "; position: absolute; top: 100%; left: 50%; margin-left: -8px; border-width: 8px; border-style: solid; border-color: black transparent transparent transparent; }
+</style>
+</head>
+<body>
+<h1>SUSE Rancher - Observability v2.6.2 version - CVE Scans - 2025-11-19</h1>
+
+<h3>How to use this page</h3>
+
+<ul>
+<li>You can click a column header to sort by column.</li>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false),<br>release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity,<br>status (if affected or not affected/false-positive),
+justification (for false-positives),<br>vulnerability type (related to the programming
+language or container OS).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected" with the severity set to "none",<br>because they do not affect the
+binary/package/image. The justification explains why they are false-positives,<br>
+according to the VEX statuses as explained in <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>.</li>
+<li>For further instructions about scanned versions, scanning frequency, tooling
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners.<br>This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being<br>exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS<br>severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
+</ul>
+
+<div>
+<p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
+<p style="display:none;" id="search_count"></p>
+</div>
+
+<table id="cves_table">
+<tr>
+<th onclick="sort(0)">Image</th>
+<th onclick="sort(1)">Mirrored</th>
+<th onclick="sort(2)">Release</th>
+<th onclick="sort(3)">Binary/Package</th>
+<th onclick="sort(4)">Dependency</th>
+<th onclick="sort(5)">Vulnerability ID (CVE)</th>
+<th onclick="sort(6)">Severity</th>
+<th onclick="sort(7)">Status</th>
+<th onclick="sort(8)">Justification (for status not affected)</th>
+<th onclick="sort(9)">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/clickhouse-backup</td>
+<td>github.com/nwaples/rardecode/v2@v2.1.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-11579.html">CVE-2025-11579</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/clickhouse-backup</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/clickhouse-backup</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/clickhouse-backup</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/clickhouse-backup</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/clickhouse-backup</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>google.golang.org/protobuf@v1.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24786.html">CVE-2024-24786</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24790.html">CVE-2024-24790</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45288.html">CVE-2023-45288</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45289.html">CVE-2023-45289</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45290.html">CVE-2023-45290</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24783.html">CVE-2024-24783</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24784.html">CVE-2024-24784</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24785.html">CVE-2024-24785</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.21.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libc-bin</td>
+<td>libc-bin@2.36-9+deb12u10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-4802.html">CVE-2025-4802</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libc6</td>
+<td>libc6@2.36-9+deb12u10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-4802.html">CVE-2025-4802</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libgnutls30</td>
+<td>libgnutls30@3.7.9-2+deb12u4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-32988.html">CVE-2025-32988</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libgnutls30</td>
+<td>libgnutls30@3.7.9-2+deb12u4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-32990.html">CVE-2025-32990</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libicu72</td>
+<td>libicu72@72.1-3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-5222.html">CVE-2025-5222</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libpam-modules</td>
+<td>libpam-modules@1.5.2-6+deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6020.html">CVE-2025-6020</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libpam-modules-bin</td>
+<td>libpam-modules-bin@1.5.2-6+deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6020.html">CVE-2025-6020</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libpam-runtime</td>
+<td>libpam-runtime@1.5.2-6+deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6020.html">CVE-2025-6020</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libpam0g</td>
+<td>libpam0g@1.5.2-6+deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6020.html">CVE-2025-6020</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libperl5.36</td>
+<td>libperl5.36@5.36.0-7+deb12u2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-31484.html">CVE-2023-31484</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56171.html">CVE-2024-56171</a></td>
+<td>CRITICAL</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-49794.html">CVE-2025-49794</a></td>
+<td>CRITICAL</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-49796.html">CVE-2025-49796</a></td>
+<td>CRITICAL</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-49043.html">CVE-2022-49043</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-25062.html">CVE-2024-25062</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-12863.html">CVE-2025-12863</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-24928.html">CVE-2025-24928</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-27113.html">CVE-2025-27113</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-32414.html">CVE-2025-32414</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-32415.html">CVE-2025-32415</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.14+dfsg-1.3~deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6021.html">CVE-2025-6021</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxslt1.1</td>
+<td>libxslt1.1@1.1.35-1+deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-7424.html">CVE-2025-7424</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxslt1.1</td>
+<td>libxslt1.1@1.1.35-1+deb12u1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-7425.html">CVE-2025-7425</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>perl</td>
+<td>perl@5.36.0-7+deb12u2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-31484.html">CVE-2023-31484</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>perl-base</td>
+<td>perl-base@5.36.0-7+deb12u2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-31484.html">CVE-2023-31484</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>perl-modules-5.36</td>
+<td>perl-modules-5.36@5.36.0-7+deb12u2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-31484.html">CVE-2023-31484</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>zlib1g</td>
+<td>zlib1g@1:1.2.13.dfsg-1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45853.html">CVE-2023-45853</a></td>
+<td>CRITICAL</td>
+<td>affected</td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bind-utils</td>
+<td>bind-utils@9.18.33-150600.3.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20254110-1">SUSE-SU-2025:4110-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>binutils</td>
+<td>binutils@2.43-150100.7.52.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20254096-1">SUSE-SU-2025:4096-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libctf-nobfd0</td>
+<td>libctf-nobfd0@2.43-150100.7.52.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20254096-1">SUSE-SU-2025:4096-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libctf0</td>
+<td>libctf0@2.43-150100.7.52.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20254096-1">SUSE-SU-2025:4096-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>runc</td>
+<td>runc@1.2.6-150000.73.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253950-1">SUSE-SU-2025:3950-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>runc</td>
+<td>runc@1.2.6-150000.73.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20254073-1">SUSE-SU-2025:4073-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/helm</td>
+<td>github.com/containerd/containerd@v1.7.28</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-25621.html">CVE-2024-25621</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/helm</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/helm</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/helm</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/helm</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/helm</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/mc</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/mc</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/mc</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/mc</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/mc</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/sts</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/sts</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/sts</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/sts</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/sts</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.0-bci</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>golang.org/x/crypto@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>golang.org/x/oauth2@v0.16.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>bin/elasticsearch_exporter</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.fasterxml.jackson.core:jackson-core@2.12.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-52999.html">CVE-2025-52999</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.fasterxml.jackson.core:jackson-core@2.12.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-52999.html">CVE-2025-52999</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.code.gson:gson@2.8.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-25647.html">CVE-2022-25647</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.microsoft.sqlserver:mssql-jdbc@6.2.1.jre7</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-59250">CVE-2025-59250</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>commons-beanutils:commons-beanutils@1.9.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-48734.html">CVE-2025-48734</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>commons-beanutils:commons-beanutils@1.9.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-48734.html">CVE-2025-48734</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.grpc:grpc-protobuf@1.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-32731.html">CVE-2023-32731</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-handler@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-24970.html">CVE-2025-24970</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-handler@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-24970.html">CVE-2025-24970</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-handler@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-24970.html">CVE-2025-24970</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.eclipse.jetty:jetty-server@9.4.53.v20231009</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-13009.html">CVE-2024-13009</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.eclipse.jetty:jetty-server@9.4.53.v20231009</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-13009.html">CVE-2024-13009</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.4.1-java21-8-11835454</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.ini4j:ini4j@0.5.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-41404">CVE-2022-41404</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503508-1">SUSE-SU-2025:03508-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503508-1">SUSE-SU-2025:03508-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.yaml:snakeyaml@1.30</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-1471.html">CVE-2022-1471</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.yaml:snakeyaml@1.30</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-1471.html">CVE-2022-1471</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.yaml:snakeyaml@1.30</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-25857.html">CVE-2022-25857</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.yaml:snakeyaml@1.30</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-25857.html">CVE-2022-25857</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.6.2-aec2a402</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.fasterxml.jackson.core:jackson-core@2.13.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-52999.html">CVE-2025-52999</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.6.2-aec2a402</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>commons-beanutils:commons-beanutils@1.9.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-48734.html">CVE-2025-48734</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.6.2-aec2a402</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>commons-io:commons-io@2.11.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-47554.html">CVE-2024-47554</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.6.2-aec2a402</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-handler@4.1.100.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-24970.html">CVE-2025-24970</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.6.2-aec2a402</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.eclipse.jetty:jetty-server@9.4.53.v20231009</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-13009.html">CVE-2024-13009</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.6.2-aec2a402</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.glassfish.jersey.core:jersey-client@2.39.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-12383">CVE-2025-12383</a></td>
+<td>CRITICAL</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>golang.org/x/crypto@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>gopkg.in/yaml.v3@v3.0.0-20220521103104-8f96da9f5d5e</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-28948.html">CVE-2022-28948</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>stdlib@v1.22.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>stdlib@v1.22.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>stdlib@v1.22.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>stdlib@v1.22.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>stdlib@v1.22.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.4</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>kafkaup-operator</td>
+<td>stdlib@v1.22.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.24.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>expat</td>
+<td>expat@2.2.5-17.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59375.html">CVE-2025-59375</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libarchive</td>
+<td>libarchive@3.3.3-5.el8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-5914.html">CVE-2025-5914</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.7-20.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-12863.html">CVE-2025-12863</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.7-20.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-49794.html">CVE-2025-49794</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.7-20.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-49796.html">CVE-2025-49796</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libxml2</td>
+<td>libxml2@2.9.7-20.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-7425.html">CVE-2025-7425</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>pam</td>
+<td>pam@1.3.1-37.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6020.html">CVE-2025-6020</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>pam</td>
+<td>pam@1.3.1-37.el8_10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-8941.html">CVE-2025-8941</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>sqlite-libs</td>
+<td>sqlite-libs@3.26.0-19.el8_9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-6965.html">CVE-2025-6965</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>github.com/coredns/coredns@v1.4.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-28452">CVE-2023-28452</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>github.com/coredns/coredns@v1.4.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47950.html">CVE-2025-47950</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>github.com/coredns/coredns@v1.4.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58063.html">CVE-2025-58063</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>github.com/dgrijalva/jwt-go@v3.2.0+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-26160">CVE-2020-26160</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>go.etcd.io/etcd@v0.5.0-alpha.5.0.20190108173120-83c051b701d3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2020-15114.html">CVE-2020-15114</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>go.etcd.io/etcd@v0.5.0-alpha.5.0.20190108173120-83c051b701d3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2018-1099.html">CVE-2018-1099</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>golang.org/x/crypto@v0.31.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>golang.org/x/oauth2@v0.0.0-20190226205417-e64efc72b421</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>google.golang.org/grpc@v1.26.0</td>
+<td><a href="https://github.com/advisories/GHSA-m425-mq94-257g">GHSA-m425-mq94-257g</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>google.golang.org/protobuf@v1.26.0-rc.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24786.html">CVE-2024-24786</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/minio:RELEASE.2025-01-13T16-22-00Z-4ae4220f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/minio</td>
+<td>stdlib@v1.22.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-45337.html">CVE-2024-45337</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>golang.org/x/crypto@v0.28.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>golang.org/x/oauth2@v0.23.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>stdlib@v1.23.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>stdlib@v1.23.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>stdlib@v1.23.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>stdlib@v1.23.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>stdlib@v1.23.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>stdlib@v1.23.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>git</td>
+<td>git@1:2.34.1-1ubuntu1.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-48384.html">CVE-2025-48384</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>git-man</td>
+<td>git-man@1:2.34.1-1ubuntu1.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-48384.html">CVE-2025-48384</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2020-12351.html">CVE-2020-12351</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2022-0995.html">CVE-2022-0995</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-20569.html">CVE-2023-20569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-52447.html">CVE-2023-52447</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-52620.html">CVE-2023-52620</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-52664.html">CVE-2023-52664</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-52880.html">CVE-2023-52880</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-52927.html">CVE-2023-52927</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-6270.html">CVE-2023-6270</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26583.html">CVE-2024-26583</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26584.html">CVE-2024-26584</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26585.html">CVE-2024-26585</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26642.html">CVE-2024-26642</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26643.html">CVE-2024-26643</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26800.html">CVE-2024-26800</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26809.html">CVE-2024-26809</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26828.html">CVE-2024-26828</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26921.html">CVE-2024-26921</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26923.html">CVE-2024-26923</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26924.html">CVE-2024-26924</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26925.html">CVE-2024-26925</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26928.html">CVE-2024-26928</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-26960.html">CVE-2024-26960</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-27397.html">CVE-2024-27397</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-27398.html">CVE-2024-27398</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-27407.html">CVE-2024-27407</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-35864.html">CVE-2024-35864</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-35870.html">CVE-2024-35870</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-36016.html">CVE-2024-36016</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-36971.html">CVE-2024-36971</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-36972.html">CVE-2024-36972</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-38558.html">CVE-2024-38558</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-38630.html">CVE-2024-38630</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-43882.html">CVE-2024-43882</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-47685.html">CVE-2024-47685</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-49883.html">CVE-2024-49883</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-49958.html">CVE-2024-49958</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-50047.html">CVE-2024-50047</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-50264.html">CVE-2024-50264</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-50299.html">CVE-2024-50299</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-50302.html">CVE-2024-50302</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53063.html">CVE-2024-53063</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53103.html">CVE-2024-53103</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53104.html">CVE-2024-53104</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53140.html">CVE-2024-53140</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53150.html">CVE-2024-53150</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53168.html">CVE-2024-53168</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53171.html">CVE-2024-53171</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53179.html">CVE-2024-53179</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53197.html">CVE-2024-53197</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53217.html">CVE-2024-53217</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56551.html">CVE-2024-56551</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56593.html">CVE-2024-56593</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56595.html">CVE-2024-56595</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56596.html">CVE-2024-56596</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56598.html">CVE-2024-56598</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56608.html">CVE-2024-56608</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56658.html">CVE-2024-56658</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-56672.html">CVE-2024-56672</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-57798.html">CVE-2024-57798</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-57850.html">CVE-2024-57850</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-58083.html">CVE-2024-58083</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21647.html">CVE-2025-21647</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21692.html">CVE-2025-21692</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21703.html">CVE-2025-21703</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21704.html">CVE-2025-21704</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21715.html">CVE-2025-21715</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21726.html">CVE-2025-21726</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21727.html">CVE-2025-21727</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21761.html">CVE-2025-21761</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21791.html">CVE-2025-21791</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-21887.html">CVE-2025-21887</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-38118.html">CVE-2025-38118</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-38352.html">CVE-2025-38352</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-39735.html">CVE-2025-39735</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@5.15.0-106.116</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-40300.html">CVE-2025-40300</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Python</td>
+<td>setuptools@68.2.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-6345.html">CVE-2024-6345</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Python</td>
+<td>setuptools@68.2.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47273.html">CVE-2025-47273</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Python</td>
+<td>urllib3@1.26.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-43804.html">CVE-2023-43804</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Python</td>
+<td>virtualenv@20.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53899.html">CVE-2024-53899</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-4517.html">CVE-2025-4517</a></td>
+<td>CRITICAL</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-4032.html">CVE-2024-4032</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-6232.html">CVE-2024-6232</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7592.html">CVE-2024-7592</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-8088.html">CVE-2024-8088</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-9287.html">CVE-2024-9287</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-4138.html">CVE-2025-4138</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-4330.html">CVE-2025-4330</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-4435.html">CVE-2025-4435</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>python@3.11.9-8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-8194.html">CVE-2025-8194</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>setuptools@68.2.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-6345.html">CVE-2024-6345</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>setuptools@68.2.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47273.html">CVE-2025-47273</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.168</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>opt/bitnami/python</td>
+<td>virtualenv@20.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-53899.html">CVE-2024-53899</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>bitnami</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503508-1">SUSE-SU-2025:03508-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.121.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.121.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503508-1">SUSE-SU-2025:03508-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20251030130227-master-9bdda25</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.squareup.okhttp3:okhttp@3.12.12</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-0341">CVE-2021-0341</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.121.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.121.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20251030130227-master-9bdda25-2.5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk</td>
+<td>java-21-openjdk@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>java-21-openjdk-headless</td>
+<td>java-21-openjdk-headless@21.0.8.0-150600.3.15.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253859-1">SUSE-SU-2025:3859-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503508-1">SUSE-SU-2025:03508-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libfreebl3</td>
+<td>libfreebl3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>libsoftokn3</td>
+<td>libsoftokn3@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss</td>
+<td>mozilla-nss@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>mozilla-nss-certs</td>
+<td>mozilla-nss-certs@3.112-150400.3.57.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-20253804-1">SUSE-SU-2025:3804-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2025/suse-su-202503546-1">SUSE-SU-2025:03546-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2021-22569.html">CVE-2021-22569</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>com.google.protobuf:protobuf-java@2.5.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-7254.html">CVE-2024-7254</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-http2@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-55163.html">CVE-2025-55163</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-7.11.11</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-codec-smtp@4.1.123.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-59419.html">CVE-2025-59419</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>golang.org/x/oauth2@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>golang.org/x/oauth2@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>google.golang.org/protobuf@v1.30.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24786.html">CVE-2024-24786</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24790.html">CVE-2024-24790</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-39325.html">CVE-2023-39325</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45283.html">CVE-2023-45283</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45288.html">CVE-2023-45288</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-29409.html">CVE-2023-29409</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-39326.html">CVE-2023-39326</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45289.html">CVE-2023-45289</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2023-45290.html">CVE-2023-45290</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24783.html">CVE-2024-24783</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24784.html">CVE-2024-24784</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-24785.html">CVE-2024-24785</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.20.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>github.com/golang-jwt/jwt/v5@v5.2.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-30204.html">CVE-2025-30204</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>golang.org/x/crypto@v0.32.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>golang.org/x/oauth2@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>github.com/golang-jwt/jwt/v5@v5.2.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-30204.html">CVE-2025-30204</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>golang.org/x/crypto@v0.32.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>golang.org/x/oauth2@v0.25.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58186.html">CVE-2025-58186</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58187.html">CVE-2025-58187</a></td>
+<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.23.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/wait:1.0.11-04b49abf</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>sudo</td>
+<td>sudo@1.9.16_p2-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-32462.html">CVE-2025-32462</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/wait:1.0.11-04b49abf</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>sudo</td>
+<td>sudo@1.9.16_p2-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-32463.html">CVE-2025-32463</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/zookeeper:3.8.4-85653dc7</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>commons-io:commons-io@2.11.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-47554.html">CVE-2024-47554</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/zookeeper:3.8.4-85653dc7</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>io.netty:netty-handler@4.1.105.Final</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-24970.html">CVE-2025-24970</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/zookeeper:3.8.4-85653dc7</td>
+<td>false</td>
+<td>Observability v2.6.2</td>
+<td>Java</td>
+<td>org.eclipse.jetty:jetty-server@9.4.53.v20231009</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2024-13009.html">CVE-2024-13009</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>jar</td>
+</tr>
+
+
+</table>
+
+<footer>
+<p>Note: This page uses embedded JavaScript for filtering and search
+functionalities. If support to JavaScript is disabled in your browser, the page
+will still be usable,<br>but those functions will not work as expected. No external
+code or dependencies are imported by this page.</p>
+<p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
+Commons license with Attribution (CC-BY-4.0). See the
+<a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</b></p>
+</footer>
+
+<script>
+function search() {
+    let searchBar, searchCount, query, tr, td;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity;
+    let status, justification, type;
+
+    searchBar = document.getElementById("searchBar");
+    query = searchBar.value.toUpperCase();
+    tr = document.getElementById("cves_table").rows;
+
+    found = 0
+    for (var i = 1; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")
+
+        image = td[0].textContent.toUpperCase();
+        mirrored = td[1].textContent.toUpperCase();
+        release = td[2].textContent.toUpperCase();
+        affected_binary = td[3].textContent.toUpperCase();
+        vuln_dep = td[4].textContent.toUpperCase();
+        vuln_id= td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        status = td[7].textContent.toUpperCase();
+        justification = td[8].textContent.toUpperCase();
+        type = td[9].textContent.toUpperCase();
+
+        // Use startsWith() when searching for the status in order for
+        // `affected` to not match `not affected` entries.
+        if (status.startsWith(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else if (image.includes(query) || mirrored.includes(query) ||
+            release.includes(query) || affected_binary.includes(query) ||
+            vuln_dep.includes(query) || vuln_id.includes(query) ||
+            severity.includes(query) || justification.includes(query) ||
+            type.includes(query)) {
+            tr[i].style.display = "";
+            found++;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+
+    searchCount = document.getElementById("search_count");
+    searchCount.style.display = "";
+    if (query == "") {
+        searchCount.textContent = "Total results: " + found;
+    } else {
+        searchCount.textContent = "Found " + found + " results";
+    }
+}
+</script>
+<script>
+let lastColumn = 0
+
+function sort(col) {
+    var table = document.getElementById("cves_table")
+    if (col === lastColumn) {
+        const rows = table.rows
+        for (let i = rows.length - 1; i > 0; i--) {
+            table.appendChild(rows[i])
+        }
+        return
+    }
+    lastColumn = col
+    const rows = mergeSort(Array.from(table.getElementsByClassName("issue")), col)
+    rows.forEach(tr => table.appendChild(tr))
+}
+
+function mergeSort(array, col) {
+    if (array.length < 2) {
+        return array
+    }
+    const half = array.length / 2
+    return merge(mergeSort(array.splice(0, half), col), mergeSort(array, col), col)
+}
+
+function merge(left, right, col) {
+    let arr = []
+    while (left.length && right.length) {
+        if (left[0].getElementsByTagName("td")[col].innerHTML.toLowerCase() < right[0].getElementsByTagName("td")[col].innerHTML.toLowerCase()) {
+            arr.push(left.shift())
+        } else {
+            arr.push(right.shift())
+        }
+    }
+    return [...arr, ...left, ...right]
+}
+</script>
+
+</body>
+</html>

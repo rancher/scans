@@ -1,0 +1,11 @@
+image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:v1.10.1,longhorn/v1.10.1,iperf,3.19.1-lp156.95.1,sles,SUSE-SU-2025:02749-1,HIGH,,longhornio/backing-image-manager:v1.10.1 (sles 15.7),3.19.1-150000.3.15.1,false,affected,
+longhornio/backing-image-manager:v1.10.1,longhorn/v1.10.1,libiperf0,3.19.1-lp156.95.1,sles,SUSE-SU-2025:02749-1,HIGH,,longhornio/backing-image-manager:v1.10.1 (sles 15.7),3.19.1-150000.3.15.1,false,affected,
+longhornio/longhorn-engine:v1.10.1,longhorn/v1.10.1,stdlib,v1.24.8,gobinary,CVE-2025-58187,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58187,usr/local/bin/grpc_health_probe,"1.24.9, 1.25.3",false,affected,severity_changed_due_to_suse_cvss_score
+longhornio/longhorn-instance-manager:v1.10.1,longhorn/v1.10.1,binutils,2.43-150100.7.52.1,sles,SUSE-SU-2025:4096-1,HIGH,,longhornio/longhorn-instance-manager:v1.10.1 (sles 15.7),2.45-150100.7.57.1,false,affected,
+longhornio/longhorn-instance-manager:v1.10.1,longhorn/v1.10.1,libctf-nobfd0,2.43-150100.7.52.1,sles,SUSE-SU-2025:4096-1,HIGH,,longhornio/longhorn-instance-manager:v1.10.1 (sles 15.7),2.45-150100.7.57.1,false,affected,
+longhornio/longhorn-instance-manager:v1.10.1,longhorn/v1.10.1,libctf0,2.43-150100.7.52.1,sles,SUSE-SU-2025:4096-1,HIGH,,longhornio/longhorn-instance-manager:v1.10.1 (sles 15.7),2.45-150100.7.57.1,false,affected,
+longhornio/longhorn-instance-manager:v1.10.1,longhorn/v1.10.1,stdlib,v1.24.8,gobinary,CVE-2025-58187,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58187,usr/local/bin/grpc_health_probe,"1.24.9, 1.25.3",false,affected,severity_changed_due_to_suse_cvss_score
+longhornio/longhorn-share-manager:v1.10.1,longhorn/v1.10.1,github.com/opencontainers/selinux,v1.11.1,gobinary,CVE-2025-52881,HIGH,https://avd.aquasec.com/nvd/cve-2025-52881,longhorn-share-manager,1.13.0,false,affected,
+longhornio/support-bundle-kit:v0.0.71,longhorn/v1.10.1,github.com/opencontainers/selinux,v1.11.1,gobinary,CVE-2025-52881,HIGH,https://avd.aquasec.com/nvd/cve-2025-52881,usr/bin/support-bundle-kit,1.13.0,false,affected,
+longhornio/support-bundle-kit:v0.0.71,longhorn/v1.10.1,stdlib,v1.25.2,gobinary,CVE-2025-58187,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58187,usr/bin/yq,"1.24.9, 1.25.3",false,affected,severity_changed_due_to_suse_cvss_score
