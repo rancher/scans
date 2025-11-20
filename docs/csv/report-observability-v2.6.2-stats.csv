@@ -1,6 +1,6 @@
 image,critical,high,total
 registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e,0,10,10
-registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972,4,23,27
+registry.rancher.com/suse-observability/clickhouse:24.12.3-debian-12-r1-59d02972,4,22,26
 registry.rancher.com/suse-observability/container-tools:1.8.0-bci,0,19,19
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,5,5
 registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,0,0
