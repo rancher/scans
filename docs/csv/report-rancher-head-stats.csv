@@ -4,8 +4,6 @@ rancher/appco-k8s-sidecar:1.30.7-11.3,0,5,5
 rancher/backup-restore-operator:v9.0.0,0,0,0
 rancher/compliance-operator:v1.3.0,0,0,0
 rancher/eks-operator:v1.13.0,0,0,0
-rancher/fleet-agent:v0.14.0,0,0,0
-rancher/fleet:v0.14.0,0,0,0
 rancher/gke-operator:v1.13.0,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,2,2
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,3,3
@@ -236,7 +234,7 @@ rancher/nginx-ingress-controller:v1.12.4-hardened2,0,11,11
 rancher/nginx-ingress-controller:v1.12.4-hardened7,0,9,9
 rancher/nginx-ingress-controller:v1.12.6-hardened1,0,9,9
 rancher/prom-prometheus:v3.5.0,0,4,4
-rancher/prometheus-federator:v5.0.0-rc.3,0,0,0
+rancher/prometheus-federator:v5.0.0,0,0,0
 rancher/pushprox-client:v0.1.5-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,2,2
 rancher/rancher-agent:head,0,3,3
