@@ -22,8 +22,8 @@ rancher/hardened-calico:v3.29.1-build20241211,0,72,72
 rancher/hardened-calico:v3.29.1-build20250110,0,72,72
 rancher/hardened-calico:v3.29.2-build20250218,0,69,69
 rancher/hardened-calico:v3.29.2-build20250306,0,68,68
-rancher/hardened-calico:v3.30.0-build20250515,0,73,73
-rancher/hardened-calico:v3.30.2-build20250711,0,59,59
+rancher/hardened-calico:v3.30.0-build20250515,0,72,72
+rancher/hardened-calico:v3.30.2-build20250711,0,58,58
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,2,2
 rancher/hardened-cluster-autoscaler:v1.8.10-build20240124,0,10,10
 rancher/hardened-cluster-autoscaler:v1.8.11-build20240910,0,3,3
@@ -34,7 +34,7 @@ rancher/hardened-cni-plugins:v1.5.1-build20240910,0,40,40
 rancher/hardened-cni-plugins:v1.5.1-build20241009,0,40,40
 rancher/hardened-cni-plugins:v1.6.0-build20241022,0,40,40
 rancher/hardened-cni-plugins:v1.6.2-build20250124,0,40,40
-rancher/hardened-cni-plugins:v1.7.1-build20250611,0,41,41
+rancher/hardened-cni-plugins:v1.7.1-build20250611,0,40,40
 rancher/hardened-coredns:v1.11.1-build20240305,0,15,15
 rancher/hardened-coredns:v1.11.1-build20240910,0,7,7
 rancher/hardened-coredns:v1.11.3-build20241018,0,3,3
@@ -76,8 +76,8 @@ rancher/hardened-k8s-metrics-server:v0.7.2-build20250612,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,2,2
 rancher/hardened-kubernetes:v1.27.16-rke2r2-build20240819,0,27,27
 rancher/hardened-kubernetes:v1.28.15-rke2r1-build20241023,0,27,27
-rancher/hardened-kubernetes:v1.29.15-rke2r1-build20250312,0,36,36
-rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,30,30
+rancher/hardened-kubernetes:v1.29.15-rke2r1-build20250312,0,32,32
+rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,26,26
 rancher/hardened-multus-cni:v4.0.2-build20240612,0,5,5
 rancher/hardened-multus-cni:v4.1.0-build20240910,0,10,10
 rancher/hardened-multus-cni:v4.1.2-build20241011,0,10,10
@@ -502,12 +502,12 @@ rancher/mirrored-sig-storage-snapshot-validation-webhook:v8.1.0,0,2,2
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,2,2
 rancher/mirrored-thanos-thanos:v0.34.1,0,8,8
 rancher/neuvector-compliance-config:1.0.8,0,0,0
-rancher/neuvector-controller:5.4.7,0,9,9
-rancher/neuvector-enforcer:5.4.7,0,8,8
+rancher/neuvector-controller:5.4.7,0,6,6
+rancher/neuvector-enforcer:5.4.7,0,6,6
 rancher/neuvector-manager:5.4.7,0,0,0
 rancher/neuvector-prometheus-exporter:1.0.8,0,0,0
-rancher/neuvector-registry-adapter:0.2.0,1,5,6
-rancher/neuvector-scanner:6,0,2,2
+rancher/neuvector-registry-adapter:0.2.0,1,4,5
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.6,0,0,0
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,11,11
 rancher/prometheus-federator:v0.4.4,0,10,10
@@ -526,8 +526,8 @@ rancher/rke2-cloud-provider:v1.30.13-rc1.0.20250516172343-e77f78ee9466-build2025
 rancher/rke2-cloud-provider:v1.30.4-build20240910,0,4,4
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,2,2
 rancher/rke2-runtime:v1.28.15-rke2r1,0,31,31
-rancher/rke2-runtime:v1.29.15-rke2r1,0,24,24
-rancher/rke2-runtime:v1.30.14-rke2r2,0,24,24
+rancher/rke2-runtime:v1.29.15-rke2r1,0,23,23
+rancher/rke2-runtime:v1.30.14-rke2r2,0,23,23
 rancher/rke2-upgrade:v1.27.16-rke2r2,0,7,7
 rancher/rke2-upgrade:v1.28.15-rke2r1,0,5,5
 rancher/rke2-upgrade:v1.29.15-rke2r1,0,8,8
@@ -539,7 +539,7 @@ rancher/shell:v0.3.0,0,31,31
 rancher/supportability-review-app-frontend:v0.15.0,0,1,1
 rancher/supportability-review-internal:latest,1,5,6
 rancher/supportability-review-operator:v0.15.0,0,0,0
-rancher/supportability-review:latest,1,10,11
+rancher/supportability-review:latest,1,9,10
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.23.17-k3s1,0,0,0
