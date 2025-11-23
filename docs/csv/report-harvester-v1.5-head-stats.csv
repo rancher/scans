@@ -58,7 +58,7 @@ rancher/mirrored-grafana-grafana:11.1.0,0,14,14
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,2,2
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,2,10,12
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,3,3
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,13,14
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,11,12
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,2,2
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0,0,5,5
 rancher/mirrored-library-busybox:1.31.1,0,0,0
