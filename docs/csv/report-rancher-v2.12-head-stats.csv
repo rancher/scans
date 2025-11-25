@@ -357,7 +357,7 @@ rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,2,2
 rancher/rancher-agent:v2.12-head,0,7,7
 rancher/rancher-csp-adapter:v7.0.0,0,3,3
 rancher/rancher-webhook:v0.8.4,0,3,3
-rancher/rancher:v2.12-head,0,48,48
+rancher/rancher:v2.12-head,0,46,46
 rancher/remotedialer-proxy:v0.5.0,0,2,2
 rancher/rke2-cloud-provider:v1.31.12-rc1.0.20250814215358-2b53c7e4c817-build20250908,0,2,2
 rancher/rke2-cloud-provider:v1.31.2-0.20241016053446-0955fa330f90-build20241016,0,2,2
@@ -378,9 +378,9 @@ rancher/scc-operator:v0.3.1,0,0,0
 rancher/security-scan:v0.7.4,0,4,4
 rancher/shell:v0.5.1,0,9,9
 rancher/supportability-review-app-frontend:v0.15.0,0,1,1
-rancher/supportability-review-internal:latest,1,5,6
+rancher/supportability-review-internal:latest,0,2,2
 rancher/supportability-review-operator:v0.15.0,0,0,0
-rancher/supportability-review:latest,1,9,10
+rancher/supportability-review:latest,0,2,2
 rancher/system-agent-installer-k3s:v1.31.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.9-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.5-k3s1,0,0,0

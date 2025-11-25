@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - K3s v1.33.6 version - CVE Scans - 2025-11-23</h1>
+<h1>SUSE Rancher - K3s v1.33.6 version - CVE Scans - 2025-11-25</h1>
 
 <h3>How to use this page</h3>
 
@@ -71,18 +71,6 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort(7)">Status</th>
 <th onclick="sort(8)">Justification (for status not affected)</th>
 <th onclick="sort(9)">Type (language or OS)</th>
-</tr>
-<tr class="issue">
-<td>rancher/k3s:v1.33.6-k3s1</td>
-<td>false</td>
-<td>K3s v1.33.6</td>
-<td>bin/k3s</td>
-<td>github.com/opencontainers/selinux@v1.11.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-52881.html">CVE-2025-52881</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/local-path-provisioner:v0.0.32</td>
@@ -342,11 +330,167 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>K3s v1.33.6</td>
 <td>bin/k3s</td>
+<td>github.com/opencontainers/selinux@v1.11.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-52881.html">CVE-2025-52881</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.33.6-k3s1</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>bin/k3s</td>
 <td>github.com/quic-go/quic-go@v0.54.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-59530">CVE-2025-59530</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.33.6-k3s1</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.36.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.33.6-k3s1</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.36.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.10-build20251111</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.10-build20251111</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.10-build20251111</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.10-build20251111</td>
+<td>false</td>
+<td>K3s v1.33.6</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-coredns-coredns:1.13.1</td>
+<td>true</td>
+<td>K3s v1.33.6</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-coredns-coredns:1.13.1</td>
+<td>true</td>
+<td>K3s v1.33.6</td>
+<td>coredns</td>
+<td>golang.org/x/crypto@v0.42.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:3.5.1</td>
+<td>true</td>
+<td>K3s v1.33.6</td>
+<td>usr/local/bin/traefik</td>
+<td>golang.org/x/crypto@v0.40.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:3.5.1</td>
+<td>true</td>
+<td>K3s v1.33.6</td>
+<td>usr/local/bin/traefik</td>
+<td>golang.org/x/crypto@v0.40.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-metrics-server:v0.8.0</td>
+<td>true</td>
+<td>K3s v1.33.6</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-metrics-server:v0.8.0</td>
+<td>true</td>
+<td>K3s v1.33.6</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 
