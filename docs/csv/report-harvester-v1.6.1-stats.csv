@@ -44,7 +44,7 @@ rancher/harvester-node-manager-webhook:v1.6.1,0,2,2
 rancher/harvester-node-manager:v1.6.1,0,2,2
 rancher/harvester-pcidevices:v1.6.1,0,3,3
 rancher/harvester-seeder:v1.6.1,0,0,0
-rancher/harvester-upgrade:v1.6.1,1,18,19
+rancher/harvester-upgrade:v1.6.1,1,19,20
 rancher/harvester-vm-import-controller:v1.6.1,0,5,5
 rancher/harvester-webhook:v1.6.1,0,6,6
 rancher/harvester:v1.6.1,0,6,6
@@ -80,8 +80,8 @@ rancher/rancher-webhook:v0.8.2,0,3,3
 rancher/rancher:v2.12.2,0,51,51
 rancher/rke2-cloud-provider:v1.33.4-rc1.0.20250814212538-148243c49519-build20250908,0,2,2
 rancher/rke2-runtime:v1.33.5-rke2r1,0,18,18
-rancher/shell:v0.3.0,0,31,31
-rancher/shell:v0.5.0,0,18,18
+rancher/shell:v0.3.0,0,32,32
+rancher/shell:v0.5.0,0,19,19
 rancher/support-bundle-kit:v0.0.57,0,20,20
 rancher/system-agent-installer-rancher:v2.12.2,0,3,3
 rancher/system-agent-installer-rke2:v1.33.5-rke2r1,0,0,0

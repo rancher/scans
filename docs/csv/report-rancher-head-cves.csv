@@ -5121,6 +5121,7 @@ rancher/shell:v0.6.0-rc.1,rancher/head,stdlib,v1.24.6,gobinary,CVE-2025-58188,HI
 rancher/shell:v0.6.0-rc.1,rancher/head,stdlib,v1.24.6,gobinary,CVE-2025-47912,HIGH,https://avd.aquasec.com/nvd/cve-2025-47912,usr/local/bin/helm,"1.24.8, 1.25.2",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/shell:v0.6.0-rc.1,rancher/head,golang.org/x/crypto,v0.41.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,usr/local/bin/helm,0.45.0,false,not_affected,vulnerable_code_not_present
 rancher/shell:v0.6.0-rc.1,rancher/head,golang.org/x/crypto,v0.41.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,usr/local/bin/helm,0.45.0,false,not_affected,vulnerable_code_not_present
+rancher/shell:v0.6.0-rc.1,rancher/head,github.com/anchore/grype,v0.96.0,gobinary,CVE-2025-65965,HIGH,https://avd.aquasec.com/nvd/cve-2025-65965,usr/local/bin/k9s,0.104.1,false,affected,
 rancher/shell:v0.6.0-rc.1,rancher/head,github.com/containerd/containerd,v1.7.28,gobinary,CVE-2024-25621,HIGH,https://avd.aquasec.com/nvd/cve-2024-25621,usr/local/bin/k9s,1.7.29,false,affected,
 rancher/shell:v0.6.0-rc.1,rancher/head,github.com/nwaples/rardecode/v2,v2.1.0,gobinary,CVE-2025-11579,LOW,https://avd.aquasec.com/nvd/cve-2025-11579,usr/local/bin/k9s,2.2.0,false,affected,severity_changed_due_to_suse_cvss_score
 rancher/shell:v0.6.0-rc.1,rancher/head,github.com/opencontainers/selinux,v1.11.1,gobinary,CVE-2025-52881,HIGH,https://avd.aquasec.com/nvd/cve-2025-52881,usr/local/bin/k9s,1.13.0,false,affected,

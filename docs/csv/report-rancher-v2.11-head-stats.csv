@@ -399,7 +399,7 @@ rancher/rke2-upgrade:v1.30.14-rke2r2,0,8,8
 rancher/rke2-upgrade:v1.31.13-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.32.9-rke2r1,0,6,6
 rancher/security-scan:v0.6.5,0,4,4
-rancher/shell:v0.4.2,0,13,13
+rancher/shell:v0.4.2,0,14,14
 rancher/supportability-review-app-frontend:v0.15.0,0,1,1
 rancher/supportability-review-internal:latest,0,2,2
 rancher/supportability-review-operator:v0.15.0,0,0,0

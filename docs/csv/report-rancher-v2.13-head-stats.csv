@@ -259,7 +259,7 @@ rancher/rke2-upgrade:v1.33.5-rke2r1,0,5,5
 rancher/rke2-upgrade:v1.34.1-rke2r1,0,5,5
 rancher/scc-operator:v0.3.1,0,0,0
 rancher/security-scan:v0.8.0,0,4,4
-rancher/shell:v0.6.0,0,9,9
+rancher/shell:v0.6.0,0,10,10
 rancher/system-agent-installer-k3s:v1.32.9-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.5-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.1-k3s1,0,0,0
