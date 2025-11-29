@@ -239,7 +239,7 @@ rancher/prom-prometheus:v3.5.0,0,4,4
 rancher/prometheus-federator:v5.0.0,0,0,0
 rancher/pushprox-client:v0.1.5-rancher2-client,0,2,2
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,0,2,2
-rancher/rancher-agent:v2.13-head,0,3,3
+rancher/rancher-agent:v2.13-head,0,1,1
 rancher/rancher-csp-adapter:v8.0.0,0,2,2
 rancher/rancher-webhook:v0.9.1,0,3,3
 rancher/rancher:v2.13-head,0,29,29
