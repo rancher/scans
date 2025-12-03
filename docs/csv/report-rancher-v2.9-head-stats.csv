@@ -23,7 +23,7 @@ rancher/hardened-calico:v3.29.1-build20250110,0,72,72
 rancher/hardened-calico:v3.29.2-build20250218,0,69,69
 rancher/hardened-calico:v3.29.2-build20250306,0,68,68
 rancher/hardened-calico:v3.30.0-build20250515,0,72,72
-rancher/hardened-calico:v3.30.2-build20250711,0,58,58
+rancher/hardened-calico:v3.30.2-build20250711,0,57,57
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,2,2
 rancher/hardened-cluster-autoscaler:v1.8.10-build20240124,0,10,10
 rancher/hardened-cluster-autoscaler:v1.8.11-build20240910,0,3,3
@@ -511,7 +511,7 @@ rancher/neuvector-prometheus-exporter:1.0.8,0,0,0
 rancher/neuvector-registry-adapter:0.2.0,1,4,5
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.6,0,0,0
-rancher/nginx-ingress-controller:v1.12.4-hardened2,0,11,11
+rancher/nginx-ingress-controller:v1.12.4-hardened2,0,10,10
 rancher/prometheus-federator:v0.4.4,0,10,10
 rancher/pushprox-client:v0.1.4-rancher2-client,0,4,4
 rancher/pushprox-proxy:v0.1.4-rancher2-proxy,0,4,4
@@ -564,4 +564,4 @@ rancher/system-agent-installer-rke2:v1.29.15-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.30.14-rke2r2,0,0,0
 rancher/system-agent:v0.3.10-suc,0,12,12
 rancher/system-upgrade-controller:v0.13.4,0,7,7
-rancher/ui-plugin-catalog:4.0.10,0,20,20
+rancher/ui-plugin-catalog:4.1.0,0,20,20

@@ -19,7 +19,7 @@ longhornio/support-bundle-kit:v0.0.69,0,8,8
 rancher/fleet-agent:v0.13.2,0,3,3
 rancher/fleet:v0.13.2,0,10,10
 rancher/hardened-addon-resizer:1.8.23-build20250909,0,2,2
-rancher/hardened-calico:v3.30.3-build20250909,0,57,57
+rancher/hardened-calico:v3.30.3-build20250909,0,56,56
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250909,0,2,2
 rancher/hardened-cni-plugins:v1.8.0-build20250909,0,40,40
 rancher/hardened-coredns:v1.12.3-build20250909,0,3,3
@@ -27,7 +27,7 @@ rancher/hardened-dns-node-cache:1.26.0-build20250909,0,3,3
 rancher/hardened-etcd:v3.5.21-k3s1-build20250910,0,4,4
 rancher/hardened-flannel:v0.27.3-build20250901,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,2,2
-rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,13,13
+rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,12,12
 rancher/hardened-multus-cni:v4.2.2-build20250909,0,10,10
 rancher/harvester-cluster-repo:v1.6.1,0,3,3
 rancher/harvester-eventrouter:v1.6.1,0,3,3
@@ -75,7 +75,7 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1,0,5,5
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,3,3
 rancher/mirrored-prometheus-prometheus:v2.53.1,0,4,4
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,2,2
-rancher/nginx-ingress-controller:v1.12.6-hardened1,0,9,9
+rancher/nginx-ingress-controller:v1.12.6-hardened1,0,8,8
 rancher/rancher-webhook:v0.8.2,0,3,3
 rancher/rancher:v2.12.2,0,51,51
 rancher/rke2-cloud-provider:v1.33.4-rc1.0.20250814212538-148243c49519-build20250908,0,2,2
