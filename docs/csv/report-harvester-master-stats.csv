@@ -67,7 +67,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,11,12
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,4,4
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,6,6
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.27.2-alpine,1,10,11
+rancher/mirrored-library-nginx:1.27.2-alpine,1,13,14
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,4,4
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,8,8

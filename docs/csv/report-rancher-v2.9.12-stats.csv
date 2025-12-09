@@ -386,7 +386,7 @@ rancher/mirrored-flannel-flannel:v0.24.2,0,29,29
 rancher/mirrored-flannel-flannel:v0.25.1,0,17,17
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,19,24
 rancher/mirrored-fluent-fluent-bit:3.0.4-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:3.10.5,9,52,61
+rancher/mirrored-grafana-grafana-image-renderer:3.10.5,9,55,64
 rancher/mirrored-grafana-grafana:10.4.9,0,16,16
 rancher/mirrored-idealista-prom2teams:4.2.1,3,39,42
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,4,4

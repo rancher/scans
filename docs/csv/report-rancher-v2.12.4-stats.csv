@@ -285,7 +285,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,0,4,4
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.27.2-alpine,1,10,11
+rancher/mirrored-library-nginx:1.27.2-alpine,1,13,14
 rancher/mirrored-library-traefik:2.11.10,0,7,7
 rancher/mirrored-library-traefik:2.11.18,0,7,7
 rancher/mirrored-library-traefik:2.11.20,0,5,5
