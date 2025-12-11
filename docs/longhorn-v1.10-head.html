@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Longhorn v1.10 head version - CVE Scans - 2025-12-09</h1>
+<h1>SUSE Rancher - Longhorn v1.10 head version - CVE Scans - 2025-12-11</h1>
 
 <h3>How to use this page</h3>
 
@@ -388,30 +388,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-instance-manager:v1.10.x-head</td>
 <td>false</td>
 <td>Longhorn v1.10 head</td>
-<td>usr/local/bin/go-spdk-helper</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-instance-manager:v1.10.x-head</td>
-<td>false</td>
-<td>Longhorn v1.10 head</td>
-<td>usr/local/bin/go-spdk-helper</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-instance-manager:v1.10.x-head</td>
-<td>false</td>
-<td>Longhorn v1.10 head</td>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
@@ -564,30 +540,6 @@ the distinctive tag '*' close to its severity.</li>
 <td></td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.71</td>
-<td>false</td>
-<td>Longhorn v1.10 head</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.25.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.71</td>
-<td>false</td>
-<td>Longhorn v1.10 head</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.25.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
 
 <tr class="issue not_affected">
 <td>longhornio/csi-attacher:v4.10.0-20251030</td>
@@ -638,6 +590,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.10.x-head</td>
+<td>false</td>
+<td>Longhorn v1.10 head</td>
+<td>usr/local/bin/go-spdk-helper</td>
+<td>stdlib@v1.25.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.10.x-head</td>
+<td>false</td>
+<td>Longhorn v1.10 head</td>
+<td>usr/local/bin/go-spdk-helper</td>
+<td>stdlib@v1.25.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.10.x-head</td>
+<td>false</td>
+<td>Longhorn v1.10 head</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.10.x-head</td>
+<td>false</td>
+<td>Longhorn v1.10 head</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>longhornio/support-bundle-kit:v0.0.71</td>
 <td>false</td>
 <td>Longhorn v1.10 head</td>
@@ -659,6 +659,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.71</td>
+<td>false</td>
+<td>Longhorn v1.10 head</td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.25.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.71</td>
+<td>false</td>
+<td>Longhorn v1.10 head</td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.25.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 

@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Observability agent v1.2 dev version - CVE Scans - 2025-12-09</h1>
+<h1>SUSE Rancher - Observability agent v1.2 dev version - CVE Scans - 2025-12-11</h1>
 
 <h3>How to use this page</h3>
 
@@ -613,30 +613,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.1-bci</td>
-<td>false</td>
-<td>Observability agent v1.2 dev</td>
-<td>usr/local/bin/yq</td>
-<td>stdlib@v1.25.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.1-bci</td>
-<td>false</td>
-<td>Observability agent v1.2 dev</td>
-<td>usr/local/bin/yq</td>
-<td>stdlib@v1.25.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>registry.rancher.com/suse-observability/generic-sidecar-injector:d03e11f3-21</td>
 <td>false</td>
 <td>Observability agent v1.2 dev</td>
@@ -740,18 +716,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.24.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100</td>
-<td>false</td>
-<td>Observability agent v1.2 dev</td>
-<td>usr/bin/promtail</td>
-<td>stdlib@v1.24.6</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -848,18 +812,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>github.com/opencontainers/selinux@v1.11.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-52881.html">CVE-2025-52881</a></td>
 <td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5d0ec298</td>
-<td>false</td>
-<td>Observability agent v1.2 dev</td>
-<td>opt/stackstate-agent/bin/agent/process-agent</td>
-<td>stdlib@v1.24.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1178,6 +1130,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.1-bci</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.1-bci</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>usr/local/bin/yq</td>
+<td>stdlib@v1.25.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100</td>
 <td>false</td>
 <td>Observability agent v1.2 dev</td>
@@ -1202,6 +1178,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>usr/bin/promtail</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>usr/bin/promtail</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61724.html">CVE-2025-61724</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>usr/bin/promtail</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5d0ec298</td>
 <td>false</td>
 <td>Observability agent v1.2 dev</td>
@@ -1220,6 +1232,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>golang.org/x/crypto@v0.40.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5d0ec298</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>opt/stackstate-agent/bin/agent/process-agent</td>
+<td>stdlib@v1.24.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5d0ec298</td>
+<td>false</td>
+<td>Observability agent v1.2 dev</td>
+<td>opt/stackstate-agent/bin/agent/process-agent</td>
+<td>stdlib@v1.24.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>

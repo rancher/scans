@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20251016,0,2,2
-rancher/hardened-calico:v3.30.3-build20251015,0,56,56
+rancher/hardened-calico:v3.30.3-build20251015,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.2-build20251015,0,2,2
 rancher/hardened-coredns:v1.13.1-build20251015,0,2,2
 rancher/hardened-dns-node-cache:1.26.7-build20251016,0,2,2
@@ -15,4 +15,4 @@ rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,4,4
 rancher/nginx-ingress-controller:v1.13.4-hardened1,0,6,6
 rancher/rke2-cloud-provider:v1.31.14-0.20251010190929-c49b201b7cf5-build20251017,0,2,2
-rancher/rke2-runtime:v1.31.14-rke2r1,0,16,16
+rancher/rke2-runtime:v1.31.14-rke2r1,0,14,14

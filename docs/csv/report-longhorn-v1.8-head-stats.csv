@@ -8,8 +8,8 @@ longhornio/csi-snapshotter:v8.2.0,0,4,4
 longhornio/livenessprobe:v2.16.0,0,5,5
 longhornio/longhorn-cli:v1.8.x-head,0,8,8
 longhornio/longhorn-engine:v1.8.x-head,1,26,27
-longhornio/longhorn-instance-manager:v1.8.x-head,1,33,34
+longhornio/longhorn-instance-manager:v1.8.x-head,1,29,30
 longhornio/longhorn-manager:v1.8.x-head,0,5,5
 longhornio/longhorn-share-manager:v1.8.x-head,0,6,6
 longhornio/longhorn-ui:v1.8.x-head,0,15,15
-longhornio/support-bundle-kit:v0.0.58,0,23,23
+longhornio/support-bundle-kit:v0.0.58,0,19,19

@@ -1,7 +1,7 @@
 image,critical,high,total
-registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e,0,13,13
+registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e,0,11,11
 registry.rancher.com/suse-observability/clickhouse:25.9.5-85835861-137,0,0,0
-registry.rancher.com/suse-observability/container-tools:1.8.0-bci,0,31,31
+registry.rancher.com/suse-observability/container-tools:1.8.0-bci,0,28,28
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,4,4
 registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,2,2
 registry.rancher.com/suse-observability/envoy:v1.31.1-92f410cd,0,0,0
@@ -27,7 +27,7 @@ registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.23,0,2,
 registry.rancher.com/suse-observability/tephra-server:2.5-7.13.3,0,4,4
 registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f,0,4,4
 registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb,0,4,4
-registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9,0,17,17
+registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9,0,15,15
 registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5,0,4,4
 registry.rancher.com/suse-observability/wait:1.0.11-04b49abf,0,2,2
 registry.rancher.com/suse-observability/zookeeper:3.8.4-85653dc7,0,3,3
