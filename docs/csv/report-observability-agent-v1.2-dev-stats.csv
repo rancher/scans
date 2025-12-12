@@ -1,7 +1,7 @@
 image,critical,high,total
 quay.io/stackstate/stackstate-k8s-agent:ab709837,0,18,18
 quay.io/stackstate/stackstate-k8s-cluster-agent:ab709837,0,8,8
-registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,11,11
+registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,12,12
 registry.rancher.com/suse-observability/generic-sidecar-injector:d03e11f3-21,0,2,2
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:cb2eb8ab-194,0,0,0
 registry.rancher.com/suse-observability/http-header-injector-proxy:cb2eb8ab-194,0,0,0

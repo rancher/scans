@@ -61,13 +61,13 @@ rancher/mirrored-cluster-api-controller:v1.10.6,0,4,4
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,10,11
 rancher/mirrored-grafana-grafana:11.5.5,0,1,1
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,2,2
-rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,2,7,9
+rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,2,9,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,5,5
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,11,12
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,1,12,13
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,4,4
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,6,6
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.27.2-alpine,1,13,14
+rancher/mirrored-library-nginx:1.27.2-alpine,1,15,16
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,4,4
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,8,8
@@ -83,8 +83,8 @@ rancher/rancher-webhook:v0.9.1,0,5,5
 rancher/rancher:v2.13.0,0,52,52
 rancher/rke2-cloud-provider:v1.34.2-0.20251010190833-cf0d35a732d1-build20251017,0,2,2
 rancher/rke2-runtime:v1.34.2-rke2r1,0,12,12
-rancher/shell:v0.5.0,0,27,27
-rancher/shell:v0.6.0,0,18,18
+rancher/shell:v0.5.0,0,26,26
+rancher/shell:v0.6.0,0,17,17
 rancher/support-bundle-kit:master-head,0,3,3
 rancher/system-agent-installer-rancher:v2.13.0,0,5,5
 rancher/system-agent-installer-rke2:v1.34.2-rke2r1,0,0,0

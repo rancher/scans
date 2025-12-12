@@ -19,7 +19,7 @@ quay.io/stackstate/tephra-server:2.5-7.13.6,0,4,4
 quay.io/stackstate/workload-observer:c2e8e7ad,0,2,2
 quay.io/stackstate/zookeeper:3.9.3-eda4e09e-204,0,2,2
 registry.rancher.com/suse-observability/clickhouse:25.9.5-85835861-137,0,0,0
-registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,11,11
+registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,12,12
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,4,4
 registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,2,2
 registry.rancher.com/suse-observability/envoy:v1.31.1-92f410cd,0,0,0
