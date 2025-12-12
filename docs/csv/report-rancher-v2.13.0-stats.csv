@@ -164,7 +164,7 @@ rancher/mirrored-cilium-operator-generic:v1.17.6,0,4,4
 rancher/mirrored-cilium-operator-generic:v1.18.0,0,4,4
 rancher/mirrored-cilium-operator-generic:v1.18.1,0,4,4
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,14,56,70
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,5,31,36
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,5,33,38
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,8,28,36
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,2,16,18
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,8,8
