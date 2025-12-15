@@ -416,7 +416,7 @@ rancher/neuvector-enforcer:5.4.7,0,14,14
 rancher/neuvector-manager:5.4.7,0,2,2
 rancher/neuvector-prometheus-exporter:1.0.8,0,2,2
 rancher/neuvector-registry-adapter:0.2.0,1,6,7
-rancher/neuvector-scanner:6,0,1,1
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.6,0,0,0
 rancher/nginx-ingress-controller:nginx-1.12.1-rancher4,2,20,22
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,16,16
