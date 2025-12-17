@@ -24,7 +24,7 @@ rancher/gitjob:v0.9.8,0,44,44
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,4,4
 rancher/hardened-calico:v3.29.2-build20250306,0,118,118
 rancher/hardened-cluster-autoscaler:v1.9.0-build20241126,0,5,5
-rancher/hardened-coredns:v1.12.0-build20241126,0,6,6
+rancher/hardened-coredns:v1.12.0-build20241126,0,7,7
 rancher/hardened-dns-node-cache:1.24.0-build20241211,0,5,5
 rancher/hardened-etcd:v3.5.19-k3s1-build20250306,0,8,8
 rancher/hardened-flannel:v0.26.5-build20250306,0,31,31

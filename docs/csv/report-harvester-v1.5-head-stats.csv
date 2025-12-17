@@ -22,7 +22,7 @@ rancher/hardened-addon-resizer:1.8.23-build20250612,0,4,4
 rancher/hardened-calico:v3.30.2-build20250711,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,4,4
 rancher/hardened-cni-plugins:v1.7.1-build20250611,0,0,0
-rancher/hardened-coredns:v1.12.2-build20250611,0,5,5
+rancher/hardened-coredns:v1.12.2-build20250611,0,6,6
 rancher/hardened-dns-node-cache:1.26.0-build20250611,0,5,5
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,8,8
 rancher/hardened-flannel:v0.27.1-build20250710,0,15,15
@@ -76,7 +76,7 @@ rancher/nginx-ingress-controller:v1.12.4-hardened2,0,16,16
 rancher/rancher-agent:v2.11.3,0,33,33
 rancher/rancher-webhook:v0.7.3,0,4,4
 rancher/rancher:v2.11.3,0,76,76
-rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,4,4
+rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,5,5
 rancher/rke2-runtime:v1.32.7-rke2r1,0,28,28
 rancher/shell:v0.3.0,0,38,38
 rancher/shell:v0.4.1,0,29,29
