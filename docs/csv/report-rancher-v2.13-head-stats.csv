@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.13.1-rc.1,0,2,2
+rancher/aks-operator:v1.13.1,0,2,2
 rancher/appco-alertmanager:0.28.1-12.7,0,2,2
 rancher/appco-grafana:12.1.1-2.2,3,13,16
 rancher/appco-k8s-sidecar:1.30.7-11.3,0,7,7
@@ -10,7 +10,7 @@ rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/appco-thanos:0.39.2-7.3,0,2,2
 rancher/backup-restore-operator:v9.0.0,0,2,2
 rancher/compliance-operator:v1.3.1,0,2,2
-rancher/eks-operator:v1.13.1-rc.1,0,2,2
+rancher/eks-operator:v1.13.1,0,2,2
 rancher/fleet-agent:v0.14.1,0,0,0
 rancher/fleet:v0.14.1,0,0,0
 rancher/gke-operator:v1.13.1,0,2,2
@@ -223,6 +223,8 @@ rancher/mirrored-coredns-coredns:1.12.1,0,7,7
 rancher/mirrored-coredns-coredns:1.12.3,0,6,6
 rancher/mirrored-coredns-coredns:1.13.1,0,3,3
 rancher/mirrored-curlimages-curl:8.9.1,0,6,6
+rancher/mirrored-elemental-operator:1.7.3,0,0,0
+rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,1,10,11
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.15,0,2,2
@@ -282,14 +284,14 @@ rancher/mirrored-sig-storage-livenessprobe:v2.14.0,0,4,4
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,4,4
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,4,4
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,5,5
-rancher/neuvector-compliance-config:1.0.8,0,0,0
-rancher/neuvector-controller:5.4.7,0,14,14
-rancher/neuvector-enforcer:5.4.7,0,14,14
-rancher/neuvector-manager:5.4.7,0,2,2
-rancher/neuvector-prometheus-exporter:1.0.8,0,2,2
-rancher/neuvector-registry-adapter:0.2.0,1,6,7
+rancher/neuvector-compliance-config:1.0.9,0,0,0
+rancher/neuvector-controller:5.4.8,0,0,0
+rancher/neuvector-enforcer:5.4.8,0,0,0
+rancher/neuvector-manager:5.4.8,0,0,0
+rancher/neuvector-prometheus-exporter:1.0.9,0,0,0
+rancher/neuvector-registry-adapter:0.2.2,0,0,0
 rancher/neuvector-scanner:6,0,0,0
-rancher/neuvector-updater:0.0.6,0,0,0
+rancher/neuvector-updater:0.0.7,0,0,0
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,16,16
 rancher/nginx-ingress-controller:v1.12.4-hardened7,0,14,14
 rancher/nginx-ingress-controller:v1.12.6-hardened1,0,14,14
@@ -321,7 +323,7 @@ rancher/rke2-upgrade:v1.33.6-rke2r1,0,5,5
 rancher/rke2-upgrade:v1.34.2-rke2r1,0,5,5
 rancher/scc-operator:v0.3.1,0,2,2
 rancher/security-scan:v0.8.1,0,11,11
-rancher/shell:v0.6.1-rc.1,0,18,18
+rancher/shell:v0.6.1,0,16,16
 rancher/supportability-review-app-frontend:v0.15.0,0,1,1
 rancher/supportability-review-internal:latest,0,13,13
 rancher/supportability-review-operator:v0.15.0,0,2,2
@@ -334,5 +336,5 @@ rancher/system-agent-installer-rke2:v1.33.6-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.34.2-rke2r1,0,0,0
 rancher/system-agent:v0.3.14-suc,0,6,6
 rancher/system-upgrade-controller:v0.17.0,0,4,4
-rancher/turtles:v0.25.1-rc.0,0,2,2
+rancher/turtles:v0.25.1,0,2,2
 rancher/ui-plugin-catalog:4.1.0,0,20,20
