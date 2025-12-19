@@ -88,7 +88,7 @@ rancher/harvester-cloud-provider:v0.2.5,0,10,10
 rancher/harvester-csi-driver:v0.2.2,0,33,33
 rancher/harvester-csi-driver:v0.2.3,0,17,17
 rancher/harvester-csi-driver:v0.2.4,0,7,7
-rancher/istio-installer:1.22.1-rancher1,0,53,53
+rancher/istio-installer:1.22.1-rancher1,0,54,54
 rancher/istio-installer:1.23.2-rancher1,0,38,38
 rancher/istio-installer:1.24.1-rancher1,0,36,36
 rancher/istio-installer:1.25.0-rancher1,0,30,30
@@ -480,4 +480,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.10-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,0,16,16
 rancher/system-upgrade-controller:v0.15.2,0,4,4
-rancher/ui-plugin-catalog:4.1.0,0,20,20
+rancher/ui-plugin-catalog:4.1.0,0,21,21

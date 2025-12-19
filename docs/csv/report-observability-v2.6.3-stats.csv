@@ -9,7 +9,7 @@ registry.rancher.com/suse-observability/hadoop:3.4.2-java21-8-be24ca0f,0,2,2
 registry.rancher.com/suse-observability/hbase-master:2.5-7.13.3,0,4,4
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.13.3,0,4,4
 registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0,0,4,4
-registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,0,3,3
+registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,0,4,4
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.4,0,6,6
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206,0,4,4
 registry.rancher.com/suse-observability/minio:RELEASE.2025-11-19T12-41-50Z-15bb6f44-162,0,2,2

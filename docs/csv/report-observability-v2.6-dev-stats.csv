@@ -3,7 +3,7 @@ quay.io/stackstate/clickhouse-backup:2.6.39-d0d7ba46-65,0,6,6
 quay.io/stackstate/hbase-master:2.5-7.13.12,0,4,4
 quay.io/stackstate/hbase-regionserver:2.5-7.13.12,0,4,4
 quay.io/stackstate/jmx-exporter:0.20.0-d19cf0ff-182,0,0,0
-quay.io/stackstate/kafka:3.9.1-4e2ea587-187,0,3,3
+quay.io/stackstate/kafka:3.9.1-4e2ea587-187,0,4,4
 quay.io/stackstate/kafkaup-operator:0.0.6,0,4,4
 quay.io/stackstate/kubernetes-rbac-agent:d8fef854,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.1-f5b5d433-31,0,2,2

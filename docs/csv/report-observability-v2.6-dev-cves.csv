@@ -19,6 +19,7 @@ quay.io/stackstate/hbase-regionserver:2.5-7.13.12,observability/v2.6-dev,com.goo
 quay.io/stackstate/hbase-regionserver:2.5-7.13.12,observability/v2.6-dev,io.netty:netty-codec-http2,4.1.123.Final,jar,CVE-2025-55163,HIGH,https://avd.aquasec.com/nvd/cve-2025-55163,Java,"4.2.4.Final, 4.1.124.Final",false,affected,
 quay.io/stackstate/hbase-regionserver:2.5-7.13.12,observability/v2.6-dev,io.netty:netty-codec-smtp,4.1.123.Final,jar,CVE-2025-59419,HIGH,https://avd.aquasec.com/nvd/cve-2025-59419,Java,"4.2.7.Final, 4.1.128.Final",false,affected,
 quay.io/stackstate/kafka:3.9.1-4e2ea587-187,observability/v2.6-dev,commons-beanutils:commons-beanutils,1.9.4,jar,CVE-2025-48734,HIGH,https://avd.aquasec.com/nvd/cve-2025-48734,Java,1.11.0,false,affected,
+quay.io/stackstate/kafka:3.9.1-4e2ea587-187,observability/v2.6-dev,org.bitbucket.b_c:jose4j,0.9.4,jar,CVE-2024-29371,HIGH,https://avd.aquasec.com/nvd/cve-2024-29371,Java,0.9.5,false,affected,
 quay.io/stackstate/kafka:3.9.1-4e2ea587-187,observability/v2.6-dev,org.lz4:lz4-java,1.8.0,jar,CVE-2025-12183,HIGH,https://avd.aquasec.com/nvd/cve-2025-12183,Java,1.8.1,false,affected,
 quay.io/stackstate/kafka:3.9.1-4e2ea587-187,observability/v2.6-dev,org.lz4:lz4-java,1.8.0,jar,CVE-2025-66566,HIGH,https://avd.aquasec.com/nvd/cve-2025-66566,Java,,false,affected,
 quay.io/stackstate/kafkaup-operator:0.0.6,observability/v2.6-dev,stdlib,v1.25.1,gobinary,CVE-2025-58183,LOW,https://avd.aquasec.com/nvd/cve-2025-58183,kafkaup-operator,"1.24.8, 1.25.2",false,affected,severity_changed_due_to_suse_cvss_score
