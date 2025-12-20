@@ -117,9 +117,9 @@ rancher/harvester-csi-driver:v0.2.1,0,33,33
 rancher/harvester-csi-driver:v0.2.2,0,33,33
 rancher/harvester-csi-driver:v0.2.3,0,17,17
 rancher/harvester-csi-driver:v0.2.4,0,7,7
-rancher/istio-installer:1.19.6-rancher1,0,67,67
-rancher/istio-installer:1.21.1-rancher1,0,55,55
-rancher/istio-installer:1.22.1-rancher1,0,54,54
+rancher/istio-installer:1.19.6-rancher1,0,68,68
+rancher/istio-installer:1.21.1-rancher1,0,56,56
+rancher/istio-installer:1.22.1-rancher1,0,55,55
 rancher/istio-installer:1.23.2-rancher1,0,38,38
 rancher/istio-installer:1.24.1-rancher1,0,36,36
 rancher/istio-installer:1.25.0-rancher1,0,30,30
