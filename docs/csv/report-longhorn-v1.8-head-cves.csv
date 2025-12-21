@@ -211,6 +211,7 @@ longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libcurl4,8.6.0-150600.4.21
 longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libexpat1,2.7.1-150400.3.28.1,sles,SUSE-SU-2025:03624-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),2.7.1-150400.3.31.1,false,affected,
 longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libopenssl-3-fips-provider,3.1.4-150600.5.33.1,sles,SUSE-SU-2025:03442-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),3.1.4-150600.5.39.1,false,affected,
 longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libopenssl3,3.1.4-150600.5.33.1,sles,SUSE-SU-2025:03442-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),3.1.4-150600.5.39.1,false,affected,
+longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libpng16-16,1.6.40-150600.1.3,sles,SUSE-SU-2025:4494-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),1.6.40-150600.3.3.1,false,affected,
 longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libsqlite3-0,3.49.1-150000.3.27.1,sles,SUSE-SU-2025:02672-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),3.50.2-150000.3.33.1,false,affected,
 longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:02815-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),4.0.9-150000.45.50.1,false,affected,
 longhornio/longhorn-ui:v1.8.x-head,longhorn/v1.8-head,libtiff5,4.0.9-150000.45.47.1,sles,SUSE-SU-2025:3941-1,HIGH,,longhornio/longhorn-ui:v1.8.x-head (sles 15.6),4.0.9-150000.45.60.1,false,affected,

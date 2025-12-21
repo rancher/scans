@@ -119,7 +119,7 @@ rancher/harvester-csi-driver:v0.2.3,0,17,17
 rancher/istio-installer:1.19.6-rancher1,0,68,68
 rancher/istio-installer:1.21.1-rancher1,0,56,56
 rancher/istio-installer:1.22.1-rancher1,0,55,55
-rancher/istio-installer:1.23.2-rancher1,0,38,38
+rancher/istio-installer:1.23.2-rancher1,0,39,39
 rancher/k3s-upgrade:v1.27.16-k3s1,0,12,12
 rancher/k3s-upgrade:v1.28.15-k3s1,0,6,6
 rancher/k3s-upgrade:v1.29.15-k3s1,0,4,4
@@ -459,7 +459,7 @@ rancher/mirrored-longhornio-longhorn-engine:v1.9.1,2,27,29
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.9.1,2,29,31
 rancher/mirrored-longhornio-longhorn-manager:v1.9.1,2,20,22
 rancher/mirrored-longhornio-longhorn-share-manager:v1.9.1,0,16,16
-rancher/mirrored-longhornio-longhorn-ui:v1.9.1,0,15,15
+rancher/mirrored-longhornio-longhorn-ui:v1.9.1,0,16,16
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.61,0,15,15
 rancher/mirrored-messagebird-sachet:0.3.1,1,40,41
 rancher/mirrored-metrics-server:v0.6.3,0,19,19
