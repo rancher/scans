@@ -66,9 +66,10 @@ rancher/harvester-cloud-provider:v0.2.5,0,10,10
 rancher/harvester-csi-driver:v0.2.2,0,33,33
 rancher/harvester-csi-driver:v0.2.3,0,17,17
 rancher/harvester-csi-driver:v0.2.4,0,7,7
-rancher/k3s-upgrade:v1.33.6-k3s1,0,2,2
-rancher/k3s-upgrade:v1.34.2-k3s1,0,2,2
+rancher/k3s-upgrade:v1.33.7-k3s1,0,0,0
+rancher/k3s-upgrade:v1.34.3-k3s1,0,0,0
 rancher/klipper-helm:v0.9.10-build20251111,0,6,6
+rancher/klipper-helm:v0.9.12-build20251215,0,0,0
 rancher/klipper-helm:v0.9.5-build20250306,0,19,19
 rancher/klipper-helm:v0.9.7-build20250616,0,16,16
 rancher/klipper-helm:v0.9.8-build20250709,0,15,15
@@ -206,6 +207,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,2,2
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,0,9,9
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,0,4,4
 rancher/mirrored-library-busybox:1.36.1,0,0,0
+rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-traefik:3.3.6,0,5,5
 rancher/mirrored-library-traefik:3.5.1,0,5,5
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,50,50
@@ -248,11 +250,11 @@ rancher/rke2-upgrade:v1.33.6-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.34.2-rke2r1,0,6,6
 rancher/scc-operator:v0.3.1-rc.2,0,2,2
 rancher/shell:v0.6.1-rc.1,0,18,18
-rancher/system-agent-installer-k3s:v1.32.10-k3s1,0,0,0
-rancher/system-agent-installer-k3s:v1.33.6-k3s1,0,0,0
-rancher/system-agent-installer-k3s:v1.34.2-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.32.11-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.33.7-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.34.3-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.10-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.6-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.34.2-rke2r1,0,0,0
-rancher/system-agent:v0.3.15-rc.0-suc,0,6,6
+rancher/system-agent:v0.3.15-rc.1-suc,0,4,4
 rancher/ui-plugin-catalog:4.1.0,0,21,21
