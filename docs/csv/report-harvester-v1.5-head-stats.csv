@@ -17,7 +17,7 @@ longhornio/longhorn-ui:v1.8.2,0,21,21
 longhornio/support-bundle-kit:v0.0.56,0,19,19
 rancher/fleet-agent:v0.12.4,0,8,8
 rancher/fleet:v0.12.4,0,31,31
-rancher/gitjob:v0.9.8,0,44,44
+rancher/gitjob:v0.9.8,0,45,45
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,4,4
 rancher/hardened-calico:v3.30.2-build20250711,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,4,4
@@ -27,7 +27,7 @@ rancher/hardened-dns-node-cache:1.26.0-build20250611,0,5,5
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,8,8
 rancher/hardened-flannel:v0.27.1-build20250710,0,15,15
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,4,4
-rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,29,29
+rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,30,30
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,20,20
 rancher/harvester-cluster-repo:v1.5-head,0,9,9
 rancher/harvester-eventrouter:v1.5.1,0,5,5

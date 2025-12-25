@@ -62,7 +62,7 @@ rancher/hardened-k8s-metrics-server:v0.7.2-build20250612,0,4,4
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,4,4
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,4,4
 rancher/hardened-k8s-metrics-server:v0.8.0-build20251015,0,2,2
-rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,41,41
+rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,42,42
 rancher/hardened-kubernetes:v1.31.14-rke2r1-build20251112,0,22,22
 rancher/hardened-kubernetes:v1.32.10-rke2r1-build20251112,0,12,12
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,20,20
@@ -481,4 +481,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.10-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,0,16,16
 rancher/system-upgrade-controller:v0.15.2,0,4,4
-rancher/ui-plugin-catalog:4.2.0,0,21,21
+rancher/ui-plugin-catalog:4.3.0,0,22,22

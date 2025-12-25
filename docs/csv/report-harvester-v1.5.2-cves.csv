@@ -499,6 +499,7 @@ rancher/gitjob:v0.9.8,harvester/v1.5.2,libcurl4,8.0.1-150400.5.44.1,sles,SUSE-SU
 rancher/gitjob:v0.9.8,harvester/v1.5.2,libexpat1,2.4.4-150400.3.17.1,sles,SUSE-SU-2025:03624-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.7.1-150400.3.31.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.5.2,libexpat1,2.4.4-150400.3.17.1,sles,SUSE-SU-2025:1201-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.7.1-150400.3.28.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.5.2,libglib-2_0-0,2.70.5-150400.3.11.1,sles,SUSE-SU-2024:4078-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.70.5-150400.3.17.1,false,affected,
+rancher/gitjob:v0.9.8,harvester/v1.5.2,libglib-2_0-0,2.70.5-150400.3.11.1,sles,SUSE-SU-2025:4504-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),2.70.5-150400.3.29.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.5.2,libopenssl1_1,1.1.1l-150500.17.28.2,sles,SUSE-SU-2024:2051-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),1.1.1l-150500.17.31.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.5.2,libopenssl1_1,1.1.1l-150500.17.28.2,sles,SUSE-SU-2025:03438-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),1.1.1l-150500.17.43.1,false,affected,
 rancher/gitjob:v0.9.8,harvester/v1.5.2,libopenssl1_1-hmac,1.1.1l-150500.17.28.2,sles,SUSE-SU-2024:2051-1,HIGH,,rancher/gitjob:v0.9.8 (sles 15.5),1.1.1l-150500.17.31.1,false,affected,
@@ -1356,6 +1357,7 @@ rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,harvester/v1.5.2,stdlib
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,harvester/v1.5.2,stdlib,v1.24.4,gobinary,CVE-2025-61725,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-61725,metrics-server,"1.24.8, 1.25.2",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,harvester/v1.5.2,curl,8.0.1-150400.5.62.1,sles,SUSE-SU-2025:03267-1,HIGH,,rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716 (sles 15.5),8.14.1-150400.5.69.1,false,affected,
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,harvester/v1.5.2,libcurl4,8.0.1-150400.5.62.1,sles,SUSE-SU-2025:03267-1,HIGH,,rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716 (sles 15.5),8.14.1-150400.5.69.1,false,affected,
+rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,harvester/v1.5.2,libglib-2_0-0,2.70.5-150400.3.20.1,sles,SUSE-SU-2025:4504-1,HIGH,,rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716 (sles 15.5),2.70.5-150400.3.29.1,false,affected,
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,harvester/v1.5.2,libopenssl1_1,1.1.1l-150500.17.40.1,sles,SUSE-SU-2025:03438-1,HIGH,,rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716 (sles 15.5),1.1.1l-150500.17.43.1,false,affected,
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,harvester/v1.5.2,libopenssl1_1-hmac,1.1.1l-150500.17.40.1,sles,SUSE-SU-2025:03438-1,HIGH,,rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716 (sles 15.5),1.1.1l-150500.17.43.1,false,affected,
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,harvester/v1.5.2,openssl-1_1,1.1.1l-150500.17.40.1,sles,SUSE-SU-2025:03438-1,HIGH,,rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716 (sles 15.5),1.1.1l-150500.17.43.1,false,affected,
