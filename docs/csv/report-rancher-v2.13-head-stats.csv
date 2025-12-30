@@ -11,8 +11,6 @@ rancher/appco-thanos:0.39.2-7.3,0,2,2
 rancher/backup-restore-operator:v9.0.0,0,2,2
 rancher/compliance-operator:v1.3.1,0,2,2
 rancher/eks-operator:v1.13.1,0,2,2
-rancher/fleet-agent:v0.14.1,0,0,0
-rancher/fleet:v0.14.1,0,0,0
 rancher/gke-operator:v1.13.1,0,2,2
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,5,5
