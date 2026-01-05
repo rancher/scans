@@ -1,5 +1,7 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
+longhornio/csi-resizer:v2.0.0-20251226,longhorn/master,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-resizer,0.45.0,false,not_affected,vulnerable_code_not_present
+longhornio/csi-resizer:v2.0.0-20251226,longhorn/master,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,csi-resizer,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-snapshotter:v8.4.0-20251226,longhorn/master,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-snapshotter,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-snapshotter:v8.4.0-20251226,longhorn/master,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,csi-snapshotter,0.45.0,false,not_affected,vulnerable_code_not_present
