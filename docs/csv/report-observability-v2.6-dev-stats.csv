@@ -12,11 +12,11 @@ quay.io/stackstate/nginx-prometheus-exporter:1.5.1-f5b5d433-31,0,2,2
 quay.io/stackstate/stackgraph-console:2.5-7.13.16,0,4,4
 quay.io/stackstate/stackgraph-hbase:2.5-7.13.16,0,4,4
 quay.io/stackstate/stackpacks:20260106155823-master-7725f27-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260106125620-master-adcb7ee,0,7,7
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260106125620-master-adcb7ee,0,7,7
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260106125620-master-adcb7ee,0,7,7
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260106125620-master-adcb7ee-2.5,0,12,12
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260106125620-master-adcb7ee,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260107162637-master-7600a74,0,7,7
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260107162637-master-7600a74,0,7,7
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260107162637-master-7600a74,0,7,7
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260107162637-master-7600a74-2.5,0,12,12
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260107162637-master-7600a74,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.25,0,1,1
 quay.io/stackstate/tephra-server:2.5-7.13.16,0,4,4
 quay.io/stackstate/vmbackup:v1.109.0-4c7c50f9,0,15,15

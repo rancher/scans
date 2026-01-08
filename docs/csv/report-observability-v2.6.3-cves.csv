@@ -120,7 +120,7 @@ registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0,observabili
 registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0,observability/v2.6.3,org.yaml:snakeyaml,1.30,jar,CVE-2022-25857,HIGH,https://avd.aquasec.com/nvd/cve-2022-25857,Java,1.31,false,affected,
 registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0,observability/v2.6.3,org.yaml:snakeyaml,1.30,jar,CVE-2022-25857,HIGH,https://avd.aquasec.com/nvd/cve-2022-25857,Java,1.31,false,affected,
 registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,observability/v2.6.3,commons-beanutils:commons-beanutils,1.9.4,jar,CVE-2025-48734,HIGH,https://avd.aquasec.com/nvd/cve-2025-48734,Java,1.11.0,false,affected,
-registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,observability/v2.6.3,org.bitbucket.b_c:jose4j,0.9.4,jar,CVE-2024-29371,HIGH,https://avd.aquasec.com/nvd/cve-2024-29371,Java,0.9.5,false,affected,
+registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,observability/v2.6.3,org.bitbucket.b_c:jose4j,0.9.4,jar,CVE-2024-29371,HIGH,https://avd.aquasec.com/nvd/cve-2024-29371,Java,0.9.6,false,affected,
 registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,observability/v2.6.3,org.lz4:lz4-java,1.8.0,jar,CVE-2025-12183,HIGH,https://avd.aquasec.com/nvd/cve-2025-12183,Java,1.8.1,false,affected,
 registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,observability/v2.6.3,org.lz4:lz4-java,1.8.0,jar,CVE-2025-66566,HIGH,https://avd.aquasec.com/nvd/cve-2025-66566,Java,,false,affected,
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.4,observability/v2.6.3,golang.org/x/crypto,v0.31.0,gobinary,CVE-2025-22869,HIGH,https://avd.aquasec.com/nvd/cve-2025-22869,kafkaup-operator,0.35.0,false,affected,
