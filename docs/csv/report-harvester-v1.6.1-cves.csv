@@ -1445,6 +1445,7 @@ rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,harvester/v1.6.1,setuptools,70.0.0,
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,harvester/v1.6.1,setuptools,70.0.0,python-pkg,CVE-2025-47273,HIGH,https://avd.aquasec.com/nvd/cve-2025-47273,Python,78.1.1,true,affected,
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,harvester/v1.6.1,urllib3,2.2.1,python-pkg,CVE-2025-66418,HIGH,https://avd.aquasec.com/nvd/cve-2025-66418,Python,2.6.0,true,affected,
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,harvester/v1.6.1,urllib3,2.2.1,python-pkg,CVE-2025-66471,HIGH,https://avd.aquasec.com/nvd/cve-2025-66471,Python,2.6.0,true,affected,
+rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,harvester/v1.6.1,urllib3,2.2.1,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,true,affected,
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,harvester/v1.6.1,google.golang.org/protobuf,v1.28.1,gobinary,CVE-2024-24786,HIGH,https://avd.aquasec.com/nvd/cve-2024-24786,config-reloader,1.33.0,true,affected,severity_changed_due_to_suse_cvss_score
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,harvester/v1.6.1,stdlib,v1.23.1,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,config-reloader,"1.23.12, 1.24.6",true,affected,severity_changed_due_to_suse_cvss_score
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,harvester/v1.6.1,stdlib,v1.23.1,gobinary,CVE-2025-58183,LOW,https://avd.aquasec.com/nvd/cve-2025-58183,config-reloader,"1.24.8, 1.25.2",true,affected,severity_changed_due_to_suse_cvss_score

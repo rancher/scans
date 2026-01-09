@@ -12,11 +12,11 @@ quay.io/stackstate/nginx-prometheus-exporter:1.5.1-f5b5d433-31,0,2,2
 quay.io/stackstate/stackgraph-console:2.5-7.13.16,0,4,4
 quay.io/stackstate/stackgraph-hbase:2.5-7.13.16,0,4,4
 quay.io/stackstate/stackpacks:20260106155823-master-7725f27-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260107162637-master-7600a74,0,7,7
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260107162637-master-7600a74,0,7,7
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260107162637-master-7600a74,0,7,7
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260107162637-master-7600a74-2.5,0,12,12
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260107162637-master-7600a74,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260108103143-master-ead8b69,0,7,7
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260108103143-master-ead8b69,0,7,7
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260108103143-master-ead8b69,0,7,7
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260108103143-master-ead8b69-2.5,0,12,12
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260108103143-master-ead8b69,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.25,0,1,1
 quay.io/stackstate/tephra-server:2.5-7.13.16,0,4,4
 quay.io/stackstate/vmbackup:v1.109.0-4c7c50f9,0,15,15
@@ -28,7 +28,7 @@ registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,17,17
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,4,4
 registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,2,2
 registry.rancher.com/suse-observability/envoy:v1.31.1-92f410cd,0,0,0
-registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.175,0,7,7
+registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.175,0,8,8
 registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f,0,4,4
 registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb,0,4,4
 registry.rancher.com/suse-observability/wait:1.0.11-04b49abf,0,2,2

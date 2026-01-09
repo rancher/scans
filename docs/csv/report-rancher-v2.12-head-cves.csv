@@ -10,6 +10,7 @@ rancher/appco-k8s-sidecar:1.30.7-11.3,rancher/v2.12-head,python311,3.11.13-15060
 rancher/appco-k8s-sidecar:1.30.7-11.3,rancher/v2.12-head,python311-base,3.11.13-150600.3.30.1,sles,SUSE-SU-2025:02717-1,HIGH,,rancher/appco-k8s-sidecar:1.30.7-11.3 (sles 15.6),3.11.13-150600.3.35.1,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,rancher/v2.12-head,urllib3,2.5.0,python-pkg,CVE-2025-66418,HIGH,https://avd.aquasec.com/nvd/cve-2025-66418,Python,2.6.0,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,rancher/v2.12-head,urllib3,2.5.0,python-pkg,CVE-2025-66471,HIGH,https://avd.aquasec.com/nvd/cve-2025-66471,Python,2.6.0,false,affected,
+rancher/appco-k8s-sidecar:1.30.7-11.3,rancher/v2.12-head,urllib3,2.5.0,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
 rancher/appco-redis:8.0.3-2.1,rancher/v2.12-head,libopenssl3,3.1.4-150600.5.33.1,sles,SUSE-SU-2025:03442-1,HIGH,,rancher/appco-redis:8.0.3-2.1 (sles 15.6),3.1.4-150600.5.39.1,false,affected,
 rancher/backup-restore-operator:v8.1.1,rancher/v2.12-head,stdlib,v1.24.10,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,usr/bin/backup-restore-operator,"1.24.11, 1.25.5",false,affected,
 rancher/backup-restore-operator:v8.1.1,rancher/v2.12-head,stdlib,v1.24.10,gobinary,CVE-2025-61727,HIGH,https://avd.aquasec.com/nvd/cve-2025-61727,usr/bin/backup-restore-operator,"1.24.11, 1.25.5",false,affected,severity_changed_due_to_suse_cvss_score
@@ -10435,6 +10436,7 @@ rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.12-head,uWSGI,2.0.20,pyth
 rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.12-head,urllib3,1.24.3,python-pkg,CVE-2023-43804,HIGH,https://avd.aquasec.com/nvd/cve-2023-43804,Python,"2.0.6, 1.26.17",true,affected,
 rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.12-head,urllib3,1.24.3,python-pkg,CVE-2025-66418,HIGH,https://avd.aquasec.com/nvd/cve-2025-66418,Python,2.6.0,true,affected,
 rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.12-head,urllib3,1.24.3,python-pkg,CVE-2025-66471,HIGH,https://avd.aquasec.com/nvd/cve-2025-66471,Python,2.6.0,true,affected,
+rancher/mirrored-idealista-prom2teams:4.2.1,rancher/v2.12-head,urllib3,1.24.3,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,true,affected,
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,rancher/v2.12-head,stdlib,v1.24.4,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,kube-webhook-certgen,"1.23.12, 1.24.6",true,affected,severity_changed_due_to_suse_cvss_score
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,rancher/v2.12-head,stdlib,v1.24.4,gobinary,CVE-2025-58183,LOW,https://avd.aquasec.com/nvd/cve-2025-58183,kube-webhook-certgen,"1.24.8, 1.25.2",true,affected,severity_changed_due_to_suse_cvss_score
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,rancher/v2.12-head,stdlib,v1.24.4,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,kube-webhook-certgen,"1.24.11, 1.25.5",true,affected,
@@ -11841,7 +11843,9 @@ rancher/neuvector-enforcer:5.4.8,rancher/v2.12-head,libgio-2_0-0,2.78.6-150600.4
 rancher/neuvector-enforcer:5.4.8,rancher/v2.12-head,libglib-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/neuvector-enforcer:5.4.8 (sles 15.7),2.78.6-150600.4.25.1,false,affected,
 rancher/neuvector-enforcer:5.4.8,rancher/v2.12-head,libgmodule-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/neuvector-enforcer:5.4.8 (sles 15.7),2.78.6-150600.4.25.1,false,affected,
 rancher/neuvector-enforcer:5.4.8,rancher/v2.12-head,libgobject-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/neuvector-enforcer:5.4.8 (sles 15.7),2.78.6-150600.4.25.1,false,affected,
+rancher/neuvector-manager:5.4.8,rancher/v2.12-head,urllib3,2.6.0,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
 rancher/neuvector-prometheus-exporter:1.0.9,rancher/v2.12-head,libglib-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/neuvector-prometheus-exporter:1.0.9 (sles 15.7),2.78.6-150600.4.25.1,false,affected,
+rancher/neuvector-prometheus-exporter:1.0.9,rancher/v2.12-head,urllib3,2.6.2,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
 rancher/nginx-ingress-controller:v1.12.4-hardened2,rancher/v2.12-head,glib2-tools,2.78.6-150600.4.16.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/nginx-ingress-controller:v1.12.4-hardened2 (sles 15.6),2.78.6-150600.4.25.1,false,affected,
 rancher/nginx-ingress-controller:v1.12.4-hardened2,rancher/v2.12-head,libexpat1,2.7.1-150400.3.28.1,sles,SUSE-SU-2025:03624-1,HIGH,,rancher/nginx-ingress-controller:v1.12.4-hardened2 (sles 15.6),2.7.1-150400.3.31.1,false,affected,
 rancher/nginx-ingress-controller:v1.12.4-hardened2,rancher/v2.12-head,libgio-2_0-0,2.78.6-150600.4.16.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/nginx-ingress-controller:v1.12.4-hardened2 (sles 15.6),2.78.6-150600.4.25.1,false,affected,
@@ -12490,6 +12494,7 @@ rancher/supportability-review-app-frontend:v0.15.0,rancher/v2.12-head,libexpat1,
 rancher/supportability-review-app-frontend:v0.15.0,rancher/v2.12-head,libglib-2_0-0,2.78.6-150600.4.16.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/supportability-review-app-frontend:v0.15.0 (sles 15.6),2.78.6-150600.4.25.1,false,affected,
 rancher/supportability-review-app-frontend:v0.15.0,rancher/v2.12-head,qs,6.14.0,node-pkg,CVE-2025-15284,HIGH,https://avd.aquasec.com/nvd/cve-2025-15284,Node.js,6.14.1,false,affected,
 rancher/supportability-review-internal:latest,rancher/v2.12-head,libglib-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/supportability-review-internal:latest (sles 15.7),2.78.6-150600.4.25.1,false,affected,
+rancher/supportability-review-internal:latest,rancher/v2.12-head,urllib3,2.6.0,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
 rancher/supportability-review-internal:latest,rancher/v2.12-head,stdlib,v1.24.4,gobinary,CVE-2025-47907,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47907,usr/local/bin/kube-bench,"1.23.12, 1.24.6",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/supportability-review-internal:latest,rancher/v2.12-head,stdlib,v1.24.4,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,usr/local/bin/kube-bench,"1.24.11, 1.25.5",false,affected,
 rancher/supportability-review-internal:latest,rancher/v2.12-head,stdlib,v1.24.4,gobinary,CVE-2025-47912,HIGH,https://avd.aquasec.com/nvd/cve-2025-47912,usr/local/bin/kube-bench,"1.24.8, 1.25.2",false,affected,severity_changed_due_to_suse_cvss_score
@@ -12505,6 +12510,7 @@ rancher/supportability-review-internal:latest,rancher/v2.12-head,stdlib,v1.24.9,
 rancher/supportability-review-operator:v0.15.0,rancher/v2.12-head,stdlib,v1.24.8,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,supportability-review-operator,"1.24.11, 1.25.5",false,affected,
 rancher/supportability-review-operator:v0.15.0,rancher/v2.12-head,stdlib,v1.24.8,gobinary,CVE-2025-61727,HIGH,https://avd.aquasec.com/nvd/cve-2025-61727,supportability-review-operator,"1.24.11, 1.25.5",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/supportability-review:latest,rancher/v2.12-head,libglib-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,rancher/supportability-review:latest (sles 15.7),2.78.6-150600.4.25.1,false,affected,
+rancher/supportability-review:latest,rancher/v2.12-head,urllib3,2.6.0,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
 rancher/supportability-review:latest,rancher/v2.12-head,stdlib,v1.24.9,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,usr/local/bin/kubectl,"1.24.11, 1.25.5",false,affected,
 rancher/supportability-review:latest,rancher/v2.12-head,stdlib,v1.24.9,gobinary,CVE-2025-61727,HIGH,https://avd.aquasec.com/nvd/cve-2025-61727,usr/local/bin/kubectl,"1.24.11, 1.25.5",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/supportability-review:latest,rancher/v2.12-head,github.com/sirupsen/logrus,v1.9.0,gobinary,CVE-2025-65637,HIGH,https://avd.aquasec.com/nvd/cve-2025-65637,usr/local/bin/sonobuoy,"1.8.3, 1.9.1, 1.9.3",false,affected,
