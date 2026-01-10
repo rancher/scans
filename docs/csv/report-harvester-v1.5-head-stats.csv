@@ -23,7 +23,7 @@ rancher/hardened-calico:v3.30.2-build20250711,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,4,4
 rancher/hardened-cni-plugins:v1.7.1-build20250611,0,0,0
 rancher/hardened-coredns:v1.12.2-build20250611,0,6,6
-rancher/hardened-dns-node-cache:1.26.0-build20250611,0,5,5
+rancher/hardened-dns-node-cache:1.26.0-build20250611,0,6,6
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,8,8
 rancher/hardened-flannel:v0.27.1-build20250710,0,20,20
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,4,4

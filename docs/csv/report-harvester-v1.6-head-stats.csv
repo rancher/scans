@@ -1,7 +1,7 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.8.0,0,16,16
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,0,11,11
-kubeovn/kube-ovn:v1.13.13,0,27,27
+kubeovn/kube-ovn:v1.13.13,0,28,28
 longhornio/backing-image-manager:v1.9.2,0,16,16
 longhornio/csi-attacher:v4.9.0-20250709,0,4,4
 longhornio/csi-node-driver-registrar:v2.14.0-20250709,0,4,4
@@ -22,8 +22,8 @@ rancher/hardened-addon-resizer:1.8.23-build20250909,0,4,4
 rancher/hardened-calico:v3.30.3-build20250909,0,104,104
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250909,0,4,4
 rancher/hardened-cni-plugins:v1.8.0-build20250909,0,72,72
-rancher/hardened-coredns:v1.12.3-build20250909,0,6,6
-rancher/hardened-dns-node-cache:1.26.0-build20250909,0,5,5
+rancher/hardened-coredns:v1.12.3-build20250909,0,7,7
+rancher/hardened-dns-node-cache:1.26.0-build20250909,0,6,6
 rancher/hardened-etcd:v3.5.21-k3s1-build20250910,0,8,8
 rancher/hardened-flannel:v0.27.3-build20250901,0,4,4
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,4,4

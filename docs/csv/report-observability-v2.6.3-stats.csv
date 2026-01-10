@@ -1,15 +1,15 @@
 image,critical,high,total
 registry.rancher.com/suse-observability/clickhouse-backup:2.6.38-9157204e,0,11,11
-registry.rancher.com/suse-observability/clickhouse:25.9.5-85835861-137,0,0,0
+registry.rancher.com/suse-observability/clickhouse:25.9.5-85835861-137,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.0-bci,0,34,34
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,4,4
-registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,2,2
-registry.rancher.com/suse-observability/envoy:v1.31.1-92f410cd,0,0,0
+registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,3,3
+registry.rancher.com/suse-observability/envoy:v1.31.1-92f410cd,0,1,1
 registry.rancher.com/suse-observability/hadoop:3.4.2-java21-8-be24ca0f,0,4,4
 registry.rancher.com/suse-observability/hbase-master:2.5-7.13.3,0,6,6
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-7.13.3,0,6,6
-registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0,0,4,4
-registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,0,4,4
+registry.rancher.com/suse-observability/jmx-exporter:0.17.0-e3374eb0,0,5,5
+registry.rancher.com/suse-observability/kafka:3.9.1-17ef1d95,0,13,13
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.4,0,6,6
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:35ec5206,0,4,4
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.4.0-11589218739,0,4,4
@@ -27,4 +27,4 @@ registry.rancher.com/suse-observability/tephra-server:2.5-7.13.3,0,6,6
 registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f,0,4,4
 registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb,0,4,4
 registry.rancher.com/suse-observability/wait:1.0.11-04b49abf,0,2,2
-registry.rancher.com/suse-observability/zookeeper:3.8.4-85653dc7,0,3,3
+registry.rancher.com/suse-observability/zookeeper:3.8.4-85653dc7,0,12,12
