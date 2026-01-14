@@ -8,12 +8,12 @@ rancher/appco-kube-state-metrics:2.17.0-10.7,0,2,2
 rancher/appco-node-exporter:1.9.1-11.3,0,3,3
 rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/appco-thanos:0.39.2-7.3,0,2,2
-rancher/backup-restore-operator:v9.0.0,0,2,2
+rancher/backup-restore-operator:v9.0.1-rc.1,0,0,0
 rancher/compliance-operator:v1.3.2-rc.1,0,0,0
-rancher/eks-operator:v1.13.1,0,2,2
+rancher/eks-operator:v1.13.2-rc.1,0,0,0
 rancher/fleet-agent:v0.14.2-beta.1,0,0,0
 rancher/fleet:v0.14.2-beta.1,0,0,0
-rancher/gke-operator:v1.13.1,0,2,2
+rancher/gke-operator:v1.13.2-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,5,5
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,4,4

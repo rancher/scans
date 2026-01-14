@@ -1,10 +1,10 @@
 image,critical,high,total
+quay.io/stackstate/stackstate-k8s-agent:b85512ad,0,19,19
+quay.io/stackstate/stackstate-k8s-cluster-agent:b85512ad,0,8,8
 registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,17,17
 registry.rancher.com/suse-observability/generic-sidecar-injector:d03e11f3-21,0,3,3
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:cb2eb8ab-194,0,1,1
 registry.rancher.com/suse-observability/http-header-injector-proxy:cb2eb8ab-194,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:d8fef854,0,0,0
 registry.rancher.com/suse-observability/promtail:2.9.15-2a5cc100,0,5,5
-registry.rancher.com/suse-observability/stackstate-k8s-agent:3b4184c2,0,19,19
-registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:3b4184c2,0,8,8
 registry.rancher.com/suse-observability/stackstate-k8s-process-agent:5d0ec298,0,11,11

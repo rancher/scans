@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.10.9,0,4,4
 rancher/appco-redis:8.0.3-2.1,0,1,1
-rancher/backup-restore-operator:v6.0.2,0,5,5
+rancher/backup-restore-operator:v6.0.3-rc.1,0,4,4
 rancher/cis-operator:v1.3.11-rc.1,0,2,2
 rancher/eks-operator:v1.10.9,0,4,4
 rancher/fleet-agent:v0.11.11,0,6,6
