@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.12.4,0,2,2
+rancher/aks-operator:v1.12.5-rc.1,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,0,8,8
 rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/backup-restore-operator:v8.1.2-rc.1,0,0,0
@@ -204,12 +204,12 @@ rancher/mirrored-calico-node:v3.30.4,0,2,2
 rancher/mirrored-calico-node:v3.31.2,0,2,2
 rancher/mirrored-calico-operator:v1.36.2,0,7,7
 rancher/mirrored-calico-operator:v1.36.5,0,6,6
-rancher/mirrored-calico-operator:v1.38.0,0,5,5
-rancher/mirrored-calico-operator:v1.38.1,0,5,5
-rancher/mirrored-calico-operator:v1.38.3,0,4,4
-rancher/mirrored-calico-operator:v1.38.6,0,4,4
-rancher/mirrored-calico-operator:v1.38.7,0,2,2
-rancher/mirrored-calico-operator:v1.40.2,0,2,2
+rancher/mirrored-calico-operator:v1.38.0,0,6,6
+rancher/mirrored-calico-operator:v1.38.1,0,6,6
+rancher/mirrored-calico-operator:v1.38.3,0,5,5
+rancher/mirrored-calico-operator:v1.38.6,0,5,5
+rancher/mirrored-calico-operator:v1.38.7,0,3,3
+rancher/mirrored-calico-operator:v1.40.2,0,3,3
 rancher/mirrored-calico-pod2daemon-flexvol:v3.29.1,0,4,4
 rancher/mirrored-calico-pod2daemon-flexvol:v3.29.2,0,4,4
 rancher/mirrored-calico-pod2daemon-flexvol:v3.29.3,0,4,4
@@ -254,7 +254,7 @@ rancher/mirrored-cilium-cilium:v1.17.6,0,37,37
 rancher/mirrored-cilium-cilium:v1.18.0,0,37,37
 rancher/mirrored-cilium-cilium:v1.18.1,0,37,37
 rancher/mirrored-cilium-cilium:v1.18.3,0,19,19
-rancher/mirrored-cilium-cilium:v1.18.4,0,25,25
+rancher/mirrored-cilium-cilium:v1.18.4,0,23,23
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.5,0,9,9
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.0,0,8,8
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.1,0,8,8
@@ -264,7 +264,7 @@ rancher/mirrored-cilium-clustermesh-apiserver:v1.17.6,0,8,8
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.0,0,8,8
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.1,0,8,8
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.3,0,6,6
-rancher/mirrored-cilium-clustermesh-apiserver:v1.18.4,0,8,8
+rancher/mirrored-cilium-clustermesh-apiserver:v1.18.4,0,6,6
 rancher/mirrored-cilium-hubble-relay:v1.16.5,0,8,8
 rancher/mirrored-cilium-hubble-relay:v1.17.0,0,8,8
 rancher/mirrored-cilium-hubble-relay:v1.17.1,0,8,8
@@ -274,7 +274,7 @@ rancher/mirrored-cilium-hubble-relay:v1.17.6,0,4,4
 rancher/mirrored-cilium-hubble-relay:v1.18.0,0,4,4
 rancher/mirrored-cilium-hubble-relay:v1.18.1,0,4,4
 rancher/mirrored-cilium-hubble-relay:v1.18.3,0,2,2
-rancher/mirrored-cilium-hubble-relay:v1.18.4,0,4,4
+rancher/mirrored-cilium-hubble-relay:v1.18.4,0,2,2
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.1,0,6,6
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.2,0,5,5
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.3,0,4,4
@@ -290,7 +290,7 @@ rancher/mirrored-cilium-operator-aws:v1.17.6,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.18.0,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.18.1,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.18.3,0,2,2
-rancher/mirrored-cilium-operator-aws:v1.18.4,0,4,4
+rancher/mirrored-cilium-operator-aws:v1.18.4,0,2,2
 rancher/mirrored-cilium-operator-azure:v1.16.5,0,6,6
 rancher/mirrored-cilium-operator-azure:v1.17.0,0,6,6
 rancher/mirrored-cilium-operator-azure:v1.17.1,0,6,6
@@ -300,7 +300,7 @@ rancher/mirrored-cilium-operator-azure:v1.17.6,0,4,4
 rancher/mirrored-cilium-operator-azure:v1.18.0,0,4,4
 rancher/mirrored-cilium-operator-azure:v1.18.1,0,4,4
 rancher/mirrored-cilium-operator-azure:v1.18.3,0,2,2
-rancher/mirrored-cilium-operator-azure:v1.18.4,0,4,4
+rancher/mirrored-cilium-operator-azure:v1.18.4,0,2,2
 rancher/mirrored-cilium-operator-generic:v1.16.5,0,6,6
 rancher/mirrored-cilium-operator-generic:v1.17.0,0,6,6
 rancher/mirrored-cilium-operator-generic:v1.17.1,0,6,6
@@ -310,7 +310,7 @@ rancher/mirrored-cilium-operator-generic:v1.17.6,0,4,4
 rancher/mirrored-cilium-operator-generic:v1.18.0,0,4,4
 rancher/mirrored-cilium-operator-generic:v1.18.1,0,4,4
 rancher/mirrored-cilium-operator-generic:v1.18.3,0,2,2
-rancher/mirrored-cilium-operator-generic:v1.18.4,0,4,4
+rancher/mirrored-cilium-operator-generic:v1.18.4,0,2,2
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,27,27
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,21,21
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,15,15
@@ -429,8 +429,8 @@ rancher/mirrored-thanos-thanos:v0.37.2,0,4,4
 rancher/neuvector-compliance-config:1.0.9,0,0,0
 rancher/neuvector-controller:5.4.8,0,2,2
 rancher/neuvector-enforcer:5.4.8,0,6,6
-rancher/neuvector-manager:5.4.8,0,1,1
-rancher/neuvector-prometheus-exporter:1.0.9,0,2,2
+rancher/neuvector-manager:5.4.8,0,2,2
+rancher/neuvector-prometheus-exporter:1.0.9,0,4,4
 rancher/neuvector-registry-adapter:0.2.2,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.7,0,0,0
@@ -472,9 +472,9 @@ rancher/scc-operator:v0.3.1,0,2,2
 rancher/security-scan:v0.7.6-rc.1,0,1,1
 rancher/shell:v0.5.1,0,17,17
 rancher/supportability-review-app-frontend:v0.15.0,0,3,3
-rancher/supportability-review-internal:latest,0,8,8
+rancher/supportability-review-internal:latest,0,9,9
 rancher/supportability-review-operator:v0.15.0,0,2,2
-rancher/supportability-review:latest,0,10,10
+rancher/supportability-review:latest,0,11,11
 rancher/system-agent-installer-k3s:v1.31.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.11-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.7-k3s1,0,0,0
