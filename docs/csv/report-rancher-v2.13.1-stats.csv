@@ -225,9 +225,9 @@ rancher/mirrored-coredns-coredns:1.13.1,0,5,5
 rancher/mirrored-curlimages-curl:8.9.1,0,6,6
 rancher/mirrored-elemental-operator:1.7.3,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,10,11
+rancher/mirrored-fluent-fluent-bit:3.1.8,2,10,12
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v4.0.15,0,3,3
+rancher/mirrored-grafana-grafana-image-renderer:v4.0.15,1,3,4
 rancher/mirrored-idealista-prom2teams:4.2.1,3,43,46
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,4,4
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,4,4

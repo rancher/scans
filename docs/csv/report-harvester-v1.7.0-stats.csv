@@ -58,7 +58,7 @@ rancher/kubectl:v1.34.0,0,4,4
 rancher/kubectl:v1.34.1,0,4,4
 rancher/kuberlr-kubectl:v5.0.0,0,17,17
 rancher/mirrored-cluster-api-controller:v1.10.6,0,4,4
-rancher/mirrored-fluent-fluent-bit:3.1.8,1,10,11
+rancher/mirrored-fluent-fluent-bit:3.1.8,2,10,12
 rancher/mirrored-grafana-grafana:11.5.5,0,1,1
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,2,2
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,2,11,13
