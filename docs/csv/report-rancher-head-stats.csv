@@ -94,7 +94,7 @@ rancher/klipper-lb:v0.4.13,0,0,0
 rancher/kube-api-auth:v0.2.5,0,3,3
 rancher/local-path-provisioner:v0.0.31,0,6,6
 rancher/local-path-provisioner:v0.0.32,0,4,4
-rancher/machine:v0.15.0-rancher137,0,4,4
+rancher/machine:v0.15.0-rancher138,0,4,4
 rancher/mirrored-bci-busybox:15.6.24.2,0,1,1
 rancher/mirrored-bci-micro:15.6.24.2,0,1,1
 rancher/mirrored-calico-apiserver:v3.29.3,0,0,0
