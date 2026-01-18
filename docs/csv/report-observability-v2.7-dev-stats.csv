@@ -20,7 +20,7 @@ registry.rancher.com/suse-observability/kafkaup-operator:0.0.6,0,4,4
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:d8fef854,0,0,0
 registry.rancher.com/suse-observability/minio:RELEASE.2025-11-19T12-41-50Z-15bb6f44-162,0,4,4
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-f5b5d433-31,0,2,2
-registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.175,0,9,9
+registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.175,0,10,10
 registry.rancher.com/suse-observability/stackgraph-console:2.5-7.13.16,0,4,4
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.13.16,0,4,4
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.25,0,1,1

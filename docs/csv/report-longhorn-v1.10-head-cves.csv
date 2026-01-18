@@ -1,9 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:v1.10.x-head,longhorn/v1.10-head,glib2-tools,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,longhornio/backing-image-manager:v1.10.x-head (sles 15.7),2.78.6-150600.4.25.1,false,affected,
-longhornio/backing-image-manager:v1.10.x-head,longhorn/v1.10-head,libgio-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,longhornio/backing-image-manager:v1.10.x-head (sles 15.7),2.78.6-150600.4.25.1,false,affected,
-longhornio/backing-image-manager:v1.10.x-head,longhorn/v1.10-head,libglib-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,longhornio/backing-image-manager:v1.10.x-head (sles 15.7),2.78.6-150600.4.25.1,false,affected,
-longhornio/backing-image-manager:v1.10.x-head,longhorn/v1.10-head,libgmodule-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,longhornio/backing-image-manager:v1.10.x-head (sles 15.7),2.78.6-150600.4.25.1,false,affected,
-longhornio/backing-image-manager:v1.10.x-head,longhorn/v1.10-head,libgobject-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,longhornio/backing-image-manager:v1.10.x-head (sles 15.7),2.78.6-150600.4.25.1,false,affected,
 longhornio/csi-attacher:v4.10.0-20251030,longhorn/v1.10-head,stdlib,v1.24.9,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,csi-attacher,"1.24.11, 1.25.5",false,affected,
 longhornio/csi-attacher:v4.10.0-20251030,longhorn/v1.10-head,stdlib,v1.24.9,gobinary,CVE-2025-61727,HIGH,https://avd.aquasec.com/nvd/cve-2025-61727,csi-attacher,"1.24.11, 1.25.5",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/csi-attacher:v4.10.0-20251030,longhorn/v1.10-head,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
