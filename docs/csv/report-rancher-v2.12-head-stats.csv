@@ -5,8 +5,8 @@ rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/backup-restore-operator:v8.1.2-rc.1,0,0,0
 rancher/compliance-operator:v1.2.4-rc.1,0,0,0
 rancher/eks-operator:v1.12.5-rc.1,0,0,0
-rancher/fleet-agent:v0.13.7-alpha.2,0,0,0
-rancher/fleet:v0.13.7-alpha.2,0,0,0
+rancher/fleet-agent:v0.13.7-rc.1,0,0,0
+rancher/fleet:v0.13.7-rc.1,0,0,0
 rancher/gke-operator:v1.12.5-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,5,5
