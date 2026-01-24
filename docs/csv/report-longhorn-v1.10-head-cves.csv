@@ -1,6 +1,14 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/backing-image-manager:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/v1.10-head,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/v1.10-head,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-snapshotter:v8.4.0-20251226,longhorn/v1.10-head,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-snapshotter,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-snapshotter:v8.4.0-20251226,longhorn/v1.10-head,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,csi-snapshotter,0.45.0,false,not_affected,vulnerable_code_not_present
-longhornio/longhorn-ui:v1.10.x-head,longhorn/v1.10-head,libglib-2_0-0,2.78.6-150600.4.22.1,sles,SUSE-SU-2026:0018-1,HIGH,,longhornio/longhorn-ui:v1.10.x-head (sles 15.7),2.78.6-150600.4.25.1,false,affected,
+longhornio/longhorn-cli:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/longhorn-cli:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
+longhornio/longhorn-engine:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/longhorn-engine:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
+longhornio/longhorn-instance-manager:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/longhorn-instance-manager:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
+longhornio/longhorn-instance-manager:v1.10.2-rc1,longhorn/v1.10-head,protobuf,6.33.4,python-pkg,CVE-2026-0994,HIGH,https://avd.aquasec.com/nvd/cve-2026-0994,Python,,false,affected,
+longhornio/longhorn-manager:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/longhorn-manager:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
+longhornio/longhorn-share-manager:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/longhorn-share-manager:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
+longhornio/longhorn-ui:v1.10.2-rc1,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/longhorn-ui:v1.10.2-rc1 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
+longhornio/support-bundle-kit:v0.0.78,longhorn/v1.10-head,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/support-bundle-kit:v0.0.78 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
