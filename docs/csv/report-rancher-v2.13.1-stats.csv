@@ -55,7 +55,7 @@ rancher/hardened-etcd:v3.5.25-k3s1-build20251210,0,0,0
 rancher/hardened-etcd:v3.6.4-k3s3-build20250908,0,8,8
 rancher/hardened-etcd:v3.6.5-k3s1-build20251017,0,4,4
 rancher/hardened-etcd:v3.6.6-k3s1-build20251210,0,0,0
-rancher/hardened-flannel:v0.27.1-build20250710,0,21,21
+rancher/hardened-flannel:v0.27.1-build20250710,0,22,22
 rancher/hardened-flannel:v0.27.2-build20250723,0,5,5
 rancher/hardened-flannel:v0.27.3-build20250901,0,5,5
 rancher/hardened-flannel:v0.27.4-build20251015,0,3,3
@@ -371,7 +371,7 @@ rancher/shell:v0.6.1,0,17,17
 rancher/supportability-review-app-frontend:v0.15.0,0,4,4
 rancher/supportability-review-internal:latest,0,10,10
 rancher/supportability-review-operator:v0.15.0,0,2,2
-rancher/supportability-review:latest,0,11,11
+rancher/supportability-review:latest,0,12,12
 rancher/system-agent-installer-k3s:v1.32.11-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.7-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.3-k3s1,0,0,0
