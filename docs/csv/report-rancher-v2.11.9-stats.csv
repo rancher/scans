@@ -364,7 +364,7 @@ rancher/mirrored-istio-pilot:1.24.1-distroless,0,4,4
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,4,4
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,6,6
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,7,7
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,7,7
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,5,5
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,7,7
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,10,10
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,0,11,11

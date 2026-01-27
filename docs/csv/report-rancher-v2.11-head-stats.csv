@@ -3,7 +3,7 @@ rancher/aks-operator:v1.11.9,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,0,9,9
 rancher/appco-redis:8.0.3-2.1,0,1,1
 rancher/backup-restore-operator:v7.0.5,0,5,5
-rancher/cis-operator:v1.4.7-rc.2,0,0,0
+rancher/cis-operator:v1.4.7,0,0,0
 rancher/eks-operator:v1.11.9,0,0,0
 rancher/fleet-agent:v0.12.11,0,1,1
 rancher/fleet:v0.12.11,0,1,1
@@ -364,7 +364,7 @@ rancher/mirrored-istio-pilot:1.24.1-distroless,0,4,4
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,4,4
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,6,6
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,7,7
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,7,7
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,5,5
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,7,7
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,10,10
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,0,11,11
@@ -488,7 +488,7 @@ rancher/rke2-runtime:v1.32.11-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.30.14-rke2r2,0,13,13
 rancher/rke2-upgrade:v1.31.14-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.32.11-rke2r1,0,1,1
-rancher/security-scan:v0.6.7-rc.1,0,0,0
+rancher/security-scan:v0.6.7,0,0,0
 rancher/shell:v0.4.2,0,22,22
 rancher/supportability-review-app-frontend:v0.15.0,0,4,4
 rancher/supportability-review-internal:latest,0,10,10

@@ -344,11 +344,11 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,2,2
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,2,2
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,11,11
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,11,11
-rancher/mirrored-istio-install-cni:1.26.2-distroless,0,21,21
+rancher/mirrored-istio-install-cni:1.26.2-distroless,0,19,19
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,4,4
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,4,4
 rancher/mirrored-istio-pilot:1.26.2-distroless,0,9,9
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,7,7
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,5,5
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,7,7
 rancher/mirrored-istio-proxyv2:1.26.2-distroless,0,12,12
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,0,8,8
