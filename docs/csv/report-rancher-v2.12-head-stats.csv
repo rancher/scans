@@ -345,11 +345,11 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,2,2
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,2,2
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,11,11
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,11,11
-rancher/mirrored-istio-install-cni:1.26.2-distroless,0,19,19
+rancher/mirrored-istio-install-cni:1.26.2-distroless,0,21,21
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,4,4
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,4,4
 rancher/mirrored-istio-pilot:1.26.2-distroless,0,9,9
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,5,5
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,7,7
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,7,7
 rancher/mirrored-istio-proxyv2:1.26.2-distroless,0,12,12
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,0,8,8
@@ -377,7 +377,7 @@ rancher/mirrored-library-traefik:2.11.30,0,2,2
 rancher/mirrored-library-traefik:3.3.2,0,9,9
 rancher/mirrored-library-traefik:3.3.6,0,5,5
 rancher/mirrored-library-traefik:3.5.1,0,5,5
-rancher/mirrored-longhornio-backing-image-manager:v1.10.1,0,10,10
+rancher/mirrored-longhornio-backing-image-manager:v1.10.1,0,14,14
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,50,50
 rancher/mirrored-longhornio-csi-attacher:v4.10.0-20251030,0,2,2
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.15.0-20251030,0,2,2
@@ -390,8 +390,8 @@ rancher/mirrored-longhornio-csi-resizer:v1.2.0,0,50,50
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,4,4
 rancher/mirrored-longhornio-csi-snapshotter:v8.4.0-20251030,0,2,2
 rancher/mirrored-longhornio-livenessprobe:v2.17.0-20251030,0,2,2
-rancher/mirrored-longhornio-longhorn-engine:v1.10.1,0,9,9
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.10.1,0,11,11
+rancher/mirrored-longhornio-longhorn-engine:v1.10.1,0,13,13
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.10.1,0,15,15
 rancher/mirrored-longhornio-longhorn-manager:v1.10.1,0,4,4
 rancher/mirrored-longhornio-longhorn-share-manager:v1.10.1,0,5,5
 rancher/mirrored-longhornio-longhorn-ui:v1.10.1,0,3,3

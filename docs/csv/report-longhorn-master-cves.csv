@@ -1,4 +1,8 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:master-head,longhorn/master,qemu-img,9.2.4-150700.3.8.1,sles,SUSE-SU-2026:0288-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),9.2.4-150700.3.11.1,false,affected,
+longhornio/backing-image-manager:master-head,longhorn/master,qemu-pr-helper,9.2.4-150700.3.8.1,sles,SUSE-SU-2026:0288-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),9.2.4-150700.3.11.1,false,affected,
+longhornio/backing-image-manager:master-head,longhorn/master,qemu-tools,9.2.4-150700.3.8.1,sles,SUSE-SU-2026:0288-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),9.2.4-150700.3.11.1,false,affected,
+longhornio/backing-image-manager:master-head,longhorn/master,qemu-vmsr-helper,9.2.4-150700.3.8.1,sles,SUSE-SU-2026:0288-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),9.2.4-150700.3.11.1,false,affected,
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,golang.org/x/crypto,v0.38.0,gobinary,CVE-2025-58181,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58181,csi-attacher,0.45.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-resizer:v2.0.0-20251226,longhorn/master,golang.org/x/crypto,v0.37.0,gobinary,CVE-2025-47914,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47914,csi-resizer,0.45.0,false,not_affected,vulnerable_code_not_present
