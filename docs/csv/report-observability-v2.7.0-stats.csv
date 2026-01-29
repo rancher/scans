@@ -1,5 +1,5 @@
 image,critical,high,total
-registry.rancher.com/suse-observability/clickhouse-backup:2.6.39-d0d7ba46-65,0,6,6
+registry.rancher.com/suse-observability/clickhouse-backup:2.6.39-d0d7ba46-65,2,8,10
 registry.rancher.com/suse-observability/clickhouse:25.9.5-85835861-137,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.1-bci,0,20,20
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,4,4
@@ -22,13 +22,13 @@ registry.rancher.com/suse-observability/stackstate-correlate:7.0.0-snapshot.2026
 registry.rancher.com/suse-observability/stackstate-kafka-to-es:7.0.0-snapshot.20260112180233-master-bdc7466,0,8,8
 registry.rancher.com/suse-observability/stackstate-receiver:7.0.0-snapshot.20260112180233-master-bdc7466,0,8,8
 registry.rancher.com/suse-observability/stackstate-server:7.0.0-snapshot.20260112180233-master-bdc7466-2.5,0,13,13
-registry.rancher.com/suse-observability/stackstate-ui:7.0.0-snapshot.20260112180233-master-bdc7466,0,2,2
+registry.rancher.com/suse-observability/stackstate-ui:7.0.0-snapshot.20260112180233-master-bdc7466,2,4,6
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.25,0,1,1
 registry.rancher.com/suse-observability/tephra-server:2.5-7.13.16,0,5,5
-registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f,0,4,4
-registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb,0,4,4
-registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9,0,15,15
-registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5,0,4,4
-registry.rancher.com/suse-observability/wait:1.0.11-04b49abf,0,2,2
+registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-accea47f,2,6,8
+registry.rancher.com/suse-observability/vmagent:v1.109.0-e6dc53fb,2,6,8
+registry.rancher.com/suse-observability/vmbackup:v1.109.0-4c7c50f9,2,17,19
+registry.rancher.com/suse-observability/vmrestore:v1.109.0-4af7dbf5,2,6,8
+registry.rancher.com/suse-observability/wait:1.0.11-04b49abf,2,4,6
 registry.rancher.com/suse-observability/workload-observer:53fa70d5,0,2,2
 registry.rancher.com/suse-observability/zookeeper:3.9.3-eda4e09e-204,0,5,5

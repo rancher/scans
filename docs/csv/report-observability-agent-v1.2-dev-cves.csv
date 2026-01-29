@@ -2,7 +2,7 @@ image,release,package_name,package_version,type,vulnerability_id,severity,url,ta
 quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,pg8000,1.10.1,python-pkg,CVE-2025-61385,HIGH,https://avd.aquasec.com/nvd/cve-2025-61385,Python,1.31.5,false,affected,
 quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,protobuf,3.20.2,python-pkg,CVE-2025-4565,HIGH,https://avd.aquasec.com/nvd/cve-2025-4565,Python,"4.25.8, 5.29.5, 6.31.1",false,affected,
 quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,protobuf,3.20.2,python-pkg,CVE-2026-0994,HIGH,https://avd.aquasec.com/nvd/cve-2026-0994,Python,,false,affected,
-quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,setuptools,70.0.0.post20260127,python-pkg,CVE-2025-47273,HIGH,https://avd.aquasec.com/nvd/cve-2025-47273,Python,78.1.1,false,affected,
+quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,setuptools,70.0.0.post20260128,python-pkg,CVE-2025-47273,HIGH,https://avd.aquasec.com/nvd/cve-2025-47273,Python,78.1.1,false,affected,
 quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,urllib3,1.26.19,python-pkg,CVE-2025-66418,HIGH,https://avd.aquasec.com/nvd/cve-2025-66418,Python,2.6.0,false,affected,
 quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,urllib3,1.26.19,python-pkg,CVE-2025-66471,HIGH,https://avd.aquasec.com/nvd/cve-2025-66471,Python,2.6.0,false,affected,
 quay.io/stackstate/stackstate-k8s-agent:b85512ad,observability-agent/v1.2-dev,urllib3,1.26.19,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
