@@ -284,7 +284,7 @@ rancher/nginx-ingress-controller:v1.13.4-hardened1,4,12,16
 rancher/nginx-ingress-controller:v1.13.5-hardened2,4,6,10
 rancher/rancher-agent:head,0,5,5
 rancher/rancher:head,0,50,50
-rancher/remotedialer-proxy:v0.6.0,0,2,2
+rancher/remotedialer-proxy:v0.7.0-rc.4,0,0,0
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,5,5
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908,0,5,5
 rancher/rke2-cloud-provider:v1.33.1-0.20250516163953-99d91538b132-build20250612,0,5,5
