@@ -12,7 +12,7 @@ longhornio/livenessprobe:v2.16.0-20250709,0,4,4
 longhornio/longhorn-cli:v1.9.2,3,13,16
 longhornio/longhorn-engine:v1.9.2,5,24,29
 longhornio/longhorn-instance-manager:v1.9.2,6,25,31
-longhornio/longhorn-manager:v1.9.2,5,12,17
+longhornio/longhorn-manager:v1.9.2,5,13,18
 longhornio/longhorn-share-manager:v1.9.2,3,11,14
 longhornio/longhorn-ui:v1.9.2,3,9,12
 longhornio/support-bundle-kit:v0.0.69,3,11,14
@@ -97,7 +97,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,6,14,20
 registry.suse.com/suse/sles/15.7/cdi-operator:1.62.0-150700.9.3.1,6,11,17
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,6,11,17
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.62.0-150700.9.3.1,6,14,20
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.5.2-150700.3.5.2,3,38,41
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.5.2-150700.3.5.2,3,39,42
 registry.suse.com/suse/sles/15.7/virt-api:1.5.2-150700.3.5.2,3,11,14
 registry.suse.com/suse/sles/15.7/virt-controller:1.5.2-150700.3.5.2,3,11,14
 registry.suse.com/suse/sles/15.7/virt-handler:1.5.2-150700.3.5.2,3,16,19

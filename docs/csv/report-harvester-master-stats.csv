@@ -12,7 +12,7 @@ longhornio/livenessprobe:v2.17.0-20251226,0,0,0
 longhornio/longhorn-cli:v1.10.2,3,0,3
 longhornio/longhorn-engine:v1.10.2,3,0,3
 longhornio/longhorn-instance-manager:v1.10.2,4,1,5
-longhornio/longhorn-manager:v1.10.2,3,0,3
+longhornio/longhorn-manager:v1.10.2,3,1,4
 longhornio/longhorn-share-manager:v1.10.2,3,0,3
 longhornio/longhorn-ui:v1.10.2,3,0,3
 longhornio/support-bundle-kit:v0.0.79,3,1,4
@@ -76,7 +76,7 @@ rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,4,4
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,4,4
 rancher/nginx-ingress-controller:v1.13.4-hardened1,4,12,16
 rancher/prom-prometheus:v3.2.1,0,8,8
-rancher/rancher-agent:v2.13.0,1,7,8
+rancher/rancher-agent:v2.13.0,1,8,9
 rancher/rancher-webhook:v0.9.1,0,5,5
 rancher/rancher:v2.13.0,1,54,55
 rancher/rke2-cloud-provider:v1.34.2-0.20251010190833-cf0d35a732d1-build20251017,0,3,3
@@ -100,7 +100,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,6,14,20
 registry.suse.com/suse/sles/15.7/cdi-operator:1.62.0-150700.9.3.1,6,11,17
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,6,11,17
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.62.0-150700.9.3.1,6,14,20
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.3-150700.3.13.1,3,19,22
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.3-150700.3.13.1,3,20,23
 registry.suse.com/suse/sles/15.7/virt-api:1.6.3-150700.3.13.1,3,2,5
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.3-150700.3.13.1,3,2,5
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.3-150700.3.13.1,3,4,7
