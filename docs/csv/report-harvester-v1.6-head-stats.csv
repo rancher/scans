@@ -65,7 +65,7 @@ rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0,0,8,8
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.24.0-alpine,2,9,11
+rancher/mirrored-library-nginx:1.24.0-alpine,4,13,17
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,5,5
 rancher/mirrored-prometheus-alertmanager:v0.27.0,0,20,20
