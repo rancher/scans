@@ -305,8 +305,8 @@ rancher/mirrored-coredns-coredns:1.12.3,0,9,9
 rancher/mirrored-coredns-coredns:1.13.1,0,6,6
 rancher/mirrored-coredns-coredns:1.14.0,0,3,3
 rancher/mirrored-curlimages-curl:8.9.1,2,10,12
-rancher/mirrored-elemental-operator:1.7.3,0,0,0
-rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
+rancher/mirrored-elemental-operator:1.8.1,0,0,0
+rancher/mirrored-elemental-seedimage-builder:1.8.1,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,2,13,15
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.15,1,6,7
@@ -343,7 +343,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,5,5
 rancher/mirrored-longhornio-csi-snapshotter:v8.4.0-20251226,0,1,1
 rancher/mirrored-longhornio-livenessprobe:v2.17.0-20251226,0,1,1
 rancher/mirrored-longhornio-longhorn-engine:v1.10.2,3,6,9
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.10.2,4,7,11
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.10.2,4,8,12
 rancher/mirrored-longhornio-longhorn-manager:v1.10.2,3,4,7
 rancher/mirrored-longhornio-longhorn-share-manager:v1.10.2,3,3,6
 rancher/mirrored-longhornio-longhorn-ui:v1.10.2,3,2,5
@@ -386,10 +386,10 @@ rancher/nginx-ingress-controller:v1.14.3-hardened1,0,10,10
 rancher/prom-prometheus:v3.5.0,0,10,10
 rancher/prometheus-federator:v5.0.0,0,4,4
 rancher/pushprox:v0.1.9,0,11,11
-rancher/rancher-agent:v2.13-head,0,5,5
+rancher/rancher-agent:v2.13-head,0,4,4
 rancher/rancher-csp-adapter:v8.0.0,0,6,6
 rancher/rancher-webhook:v0.9.2,0,7,7
-rancher/rancher:v2.13-head,0,62,62
+rancher/rancher:v2.13-head,0,60,60
 rancher/remotedialer-proxy:v0.6.0,0,3,3
 rancher/rke2-cloud-provider:v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101,0,6,6
 rancher/rke2-cloud-provider:v1.32.10-0.20251010190908-d439f1a03318-build20251017,0,4,4
@@ -414,9 +414,9 @@ rancher/scc-operator:v0.3.1,0,4,4
 rancher/security-scan:v0.8.3-rc.1,0,5,5
 rancher/shell:v0.6.2-rc.1,1,22,23
 rancher/supportability-review-app-frontend:v0.15.0,3,6,9
-rancher/supportability-review-internal:latest,0,8,8
+rancher/supportability-review-internal:latest,0,9,9
 rancher/supportability-review-operator:v0.15.0,0,3,3
-rancher/supportability-review:latest,0,4,4
+rancher/supportability-review:latest,0,5,5
 rancher/system-agent-installer-k3s:v1.32.11-k3s3,0,0,0
 rancher/system-agent-installer-k3s:v1.33.7-k3s3,0,0,0
 rancher/system-agent-installer-k3s:v1.34.3-k3s3,0,0,0
