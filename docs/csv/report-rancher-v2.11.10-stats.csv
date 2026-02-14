@@ -81,7 +81,7 @@ rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,5,5
 rancher/hardened-k8s-metrics-server:v0.8.0-build20251015,0,3,3
 rancher/hardened-k8s-metrics-server:v0.8.0-build20251204,0,1,1
 rancher/hardened-k8s-metrics-server:v0.8.0-build20260116,0,1,1
-rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,46,46
+rancher/hardened-kubernetes:v1.30.14-rke2r2-build20250716,0,47,47
 rancher/hardened-kubernetes:v1.31.14-rke2r1-build20251112,0,33,33
 rancher/hardened-kubernetes:v1.32.11-rke2r3-build20260127,0,9,9
 rancher/hardened-multus-cni:v4.1.4-build20250108,0,25,25
@@ -361,10 +361,10 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,16,16
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,10,10
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,85,101
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,66,81
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,7,48,55
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,7,51,58
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,10,47,57
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,34,43
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,3,23,26
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,3,25,28
 rancher/mirrored-cloud-provider-vsphere:v1.31.0,0,9,9
 rancher/mirrored-cloud-provider-vsphere:v1.31.1,0,9,9
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,9,9
@@ -386,7 +386,7 @@ rancher/mirrored-elemental-operator:1.7.3,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,2,21,23
 rancher/mirrored-flannel-flannel:v0.26.4,2,15,17
-rancher/mirrored-fluent-fluent-bit:3.1.8,2,13,15
+rancher/mirrored-fluent-fluent-bit:3.1.8,2,16,18
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,1,6,7
 rancher/mirrored-grafana-grafana:11.5.5,2,5,7
@@ -397,7 +397,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,12,12
-rancher/mirrored-istio-install-cni:1.23.2-distroless,0,13,13
+rancher/mirrored-istio-install-cni:1.23.2-distroless,0,11,11
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,13,13
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,13,13
 rancher/mirrored-istio-pilot:1.22.1-distroless,0,5,5
@@ -564,4 +564,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.11-rke2r3,0,0,0
 rancher/system-agent:v0.3.12-suc,3,19,22
 rancher/system-upgrade-controller:v0.15.2,0,5,5
-rancher/ui-plugin-catalog:4.6.0,0,23,23
+rancher/ui-plugin-catalog:4.6.0,0,24,24

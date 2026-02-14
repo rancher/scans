@@ -17,7 +17,7 @@ longhornio/longhorn-ui:v1.8.2,3,26,29
 longhornio/support-bundle-kit:v0.0.56,3,25,28
 rancher/fleet-agent:v0.12.4,0,11,11
 rancher/fleet:v0.12.4,3,38,41
-rancher/gitjob:v0.9.8,0,48,48
+rancher/gitjob:v0.9.8,0,49,49
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,5,5
 rancher/hardened-calico:v3.30.2-build20250711,1,6,7
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,5,5
@@ -27,7 +27,7 @@ rancher/hardened-dns-node-cache:1.26.0-build20250611,0,9,9
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,10,10
 rancher/hardened-flannel:v0.27.1-build20250710,3,30,33
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,5,5
-rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,37,37
+rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,38,38
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,25,25
 rancher/harvester-cluster-repo:v1.5.2,3,14,17
 rancher/harvester-eventrouter:v1.5.1,0,7,7
@@ -53,7 +53,7 @@ rancher/kubectl:v1.29.2,0,11,11
 rancher/kubectl:v1.32.2,0,5,5
 rancher/kubectl:v1.32.3,0,5,5
 rancher/mirrored-cluster-api-controller:v1.9.5,0,5,5
-rancher/mirrored-fluent-fluent-bit:3.1.8,2,13,15
+rancher/mirrored-fluent-fluent-bit:3.1.8,2,16,18
 rancher/mirrored-grafana-grafana:11.1.0,0,10,10
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,5,5
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,5,20,25
