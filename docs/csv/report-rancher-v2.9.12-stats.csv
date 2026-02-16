@@ -397,7 +397,7 @@ rancher/mirrored-istio-install-cni:1.19.6-distroless,0,22,22
 rancher/mirrored-istio-install-cni:1.20.3-distroless,0,23,23
 rancher/mirrored-istio-install-cni:1.21.1-distroless,0,15,15
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,12,12
-rancher/mirrored-istio-install-cni:1.23.2-distroless,0,11,11
+rancher/mirrored-istio-install-cni:1.23.2-distroless,0,13,13
 rancher/mirrored-istio-pilot:1.18.2-distroless,0,18,18
 rancher/mirrored-istio-pilot:1.19.6-distroless,0,12,12
 rancher/mirrored-istio-pilot:1.20.3-distroless,0,12,12
