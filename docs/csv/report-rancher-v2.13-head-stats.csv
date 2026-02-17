@@ -11,8 +11,8 @@ rancher/appco-thanos:0.39.2-7.3,0,4,4
 rancher/backup-restore-operator:v9.0.1,0,2,2
 rancher/compliance-operator:v1.3.3-rc.1,0,1,1
 rancher/eks-operator:v1.13.3-rc.2,0,1,1
-rancher/fleet-agent:v0.14.3-rc.1,0,0,0
-rancher/fleet:v0.14.3-rc.1,0,0,0
+rancher/fleet-agent:v0.14.3-rc.2,0,0,0
+rancher/fleet:v0.14.3-rc.2,0,0,0
 rancher/gke-operator:v1.13.3-rc.2,0,1,1
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,5,5
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,6,6
@@ -425,5 +425,5 @@ rancher/system-agent-installer-rke2:v1.33.7-rke2r3,0,0,0
 rancher/system-agent-installer-rke2:v1.34.3-rke2r3,0,0,0
 rancher/system-agent:v0.3.14-suc,3,9,12
 rancher/system-upgrade-controller:v0.17.0,0,5,5
-rancher/turtles:v0.25.2,0,1,1
+rancher/turtles:v0.25.3,0,0,0
 rancher/ui-plugin-catalog:4.6.0,0,24,24
