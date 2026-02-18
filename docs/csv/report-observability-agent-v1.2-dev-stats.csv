@@ -1,6 +1,6 @@
 image,critical,high,total
 quay.io/stackstate/kubernetes-rbac-agent:042257c3-575,0,0,0
-quay.io/stackstate/stackstate-k8s-process-agent:08d5aa39,0,9,9
+quay.io/stackstate/stackstate-k8s-process-agent:19a5b791,0,8,8
 registry.rancher.com/suse-observability/container-tools:1.8.2-bci-517,1,22,23
 registry.rancher.com/suse-observability/generic-sidecar-injector:d03e11f3-22,0,4,4
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:4091544b-205,0,3,3

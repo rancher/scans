@@ -9,7 +9,7 @@ quay.io/stackstate/minio:RELEASE.2025-11-19T12-41-50Z-15bb6f44-173,0,7,7
 quay.io/stackstate/spotlight:5.2.0-snapshot.177,3,21,24
 quay.io/stackstate/stackgraph-console:2.5-7.13.18,0,9,9
 quay.io/stackstate/stackgraph-hbase:2.5-7.13.18,0,9,9
-quay.io/stackstate/stackpacks:20260216134038-master-fcf903b-prime-selfhosted,0,0,0
+quay.io/stackstate/stackpacks:20260217135717-master-6ce0195-prime-selfhosted,0,0,0
 quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260216150530-master-383d975,0,8,8
 quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260216150530-master-383d975,0,8,8
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260216150530-master-383d975,0,8,8
