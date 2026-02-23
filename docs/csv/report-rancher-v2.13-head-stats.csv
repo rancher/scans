@@ -27,7 +27,7 @@ rancher/hardened-calico:v3.30.2-build20250711,1,6,7
 rancher/hardened-calico:v3.30.2-build20250731,1,6,7
 rancher/hardened-calico:v3.30.3-build20250909,0,133,133
 rancher/hardened-calico:v3.30.3-build20251015,0,1,1
-rancher/hardened-calico:v3.31.2-build20251205,0,1,1
+rancher/hardened-calico:v3.31.2-build20251205,0,0,0
 rancher/hardened-calico:v3.31.3-build20260119,0,27,27
 rancher/hardened-calico:v3.31.3-build20260206,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,5,5
