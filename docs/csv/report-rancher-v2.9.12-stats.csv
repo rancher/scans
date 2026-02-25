@@ -397,7 +397,7 @@ rancher/mirrored-istio-install-cni:1.19.6-distroless,0,22,22
 rancher/mirrored-istio-install-cni:1.20.3-distroless,0,23,23
 rancher/mirrored-istio-install-cni:1.21.1-distroless,0,15,15
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,12,12
-rancher/mirrored-istio-install-cni:1.23.2-distroless,0,13,13
+rancher/mirrored-istio-install-cni:1.23.2-distroless,0,11,11
 rancher/mirrored-istio-pilot:1.18.2-distroless,0,18,18
 rancher/mirrored-istio-pilot:1.19.6-distroless,0,12,12
 rancher/mirrored-istio-pilot:1.20.3-distroless,0,12,12
@@ -407,7 +407,7 @@ rancher/mirrored-istio-pilot:1.23.2-distroless,0,5,5
 rancher/mirrored-istio-proxyv2:1.19.6-distroless,0,17,17
 rancher/mirrored-istio-proxyv2:1.21.1-distroless,0,10,10
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,7,7
-rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,8,8
+rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,6,6
 rancher/mirrored-jaegertracing-all-in-one:1.52.0,0,18,18
 rancher/mirrored-jaegertracing-all-in-one:1.56.0,0,11,11
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,11,11
@@ -537,9 +537,9 @@ rancher/shell:v0.2.1,1,49,50
 rancher/shell:v0.2.4,1,37,38
 rancher/shell:v0.3.0,1,44,45
 rancher/supportability-review-app-frontend:v0.15.0,3,9,12
-rancher/supportability-review-internal:latest,0,8,8
+rancher/supportability-review-internal:latest,0,6,6
 rancher/supportability-review-operator:v0.15.0,0,3,3
-rancher/supportability-review:latest,0,4,4
+rancher/supportability-review:latest,0,2,2
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.23.17-k3s1,0,0,0

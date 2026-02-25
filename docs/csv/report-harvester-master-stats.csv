@@ -1,6 +1,5 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.2,2,19,21
-ghcr.io/kube-vip/kube-vip-iptables:v0.9.2,2,9,11
 kubeovn/kube-ovn:v1.14.10,0,31,31
 longhornio/backing-image-manager:v1.11.0,0,9,9
 longhornio/csi-attacher:v4.10.0-20251226,0,1,1
@@ -67,6 +66,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,6,6
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,20,23
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,5,5
+rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,9,11
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,5,12,17
 rancher/mirrored-pause:3.6,0,0,0
@@ -82,7 +82,7 @@ rancher/rancher:v2.14.0-alpha5,0,19,19
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,0,0
 rancher/rke2-runtime:v1.35.1-rke2r1,0,6,6
 rancher/shell:v0.7.0-rc.3,0,13,13
-rancher/support-bundle-kit:master-head,3,6,9
+rancher/support-bundle-kit:master-head,0,0,0
 rancher/system-agent-installer-rancher:v2.14.0-alpha5,0,1,1
 rancher/system-agent-installer-rke2:v1.35.1-rke2r1,0,0,0
 rancher/system-agent:v0.3.15-rc.3-suc,3,6,9

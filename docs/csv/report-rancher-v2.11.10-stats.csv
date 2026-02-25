@@ -313,7 +313,7 @@ rancher/mirrored-cilium-cilium:v1.18.1,0,46,46
 rancher/mirrored-cilium-cilium:v1.18.3,0,28,28
 rancher/mirrored-cilium-cilium:v1.18.4,0,33,33
 rancher/mirrored-cilium-cilium:v1.18.6,0,12,12
-rancher/mirrored-cilium-cilium:v1.19.0,0,13,13
+rancher/mirrored-cilium-cilium:v1.19.0,0,12,12
 rancher/mirrored-cilium-clustermesh-apiserver:v1.16.5,0,11,11
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.0,0,10,10
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.1,0,10,10
@@ -325,7 +325,7 @@ rancher/mirrored-cilium-clustermesh-apiserver:v1.18.1,0,10,10
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.3,0,8,8
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.4,0,8,8
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.6,0,2,2
-rancher/mirrored-cilium-clustermesh-apiserver:v1.19.0,0,3,3
+rancher/mirrored-cilium-clustermesh-apiserver:v1.19.0,0,2,2
 rancher/mirrored-cilium-hubble-relay:v1.16.5,0,10,10
 rancher/mirrored-cilium-hubble-relay:v1.17.0,0,10,10
 rancher/mirrored-cilium-hubble-relay:v1.17.1,0,10,10
@@ -337,7 +337,7 @@ rancher/mirrored-cilium-hubble-relay:v1.18.1,0,5,5
 rancher/mirrored-cilium-hubble-relay:v1.18.3,0,3,3
 rancher/mirrored-cilium-hubble-relay:v1.18.4,0,3,3
 rancher/mirrored-cilium-hubble-relay:v1.18.6,0,1,1
-rancher/mirrored-cilium-hubble-relay:v1.19.0,0,2,2
+rancher/mirrored-cilium-hubble-relay:v1.19.0,0,1,1
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.1,0,7,7
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.2,0,6,6
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.3,0,5,5
@@ -355,7 +355,7 @@ rancher/mirrored-cilium-operator-aws:v1.18.1,0,5,5
 rancher/mirrored-cilium-operator-aws:v1.18.3,0,3,3
 rancher/mirrored-cilium-operator-aws:v1.18.4,0,3,3
 rancher/mirrored-cilium-operator-aws:v1.18.6,0,1,1
-rancher/mirrored-cilium-operator-aws:v1.19.0,0,2,2
+rancher/mirrored-cilium-operator-aws:v1.19.0,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.16.5,0,7,7
 rancher/mirrored-cilium-operator-azure:v1.17.0,0,7,7
 rancher/mirrored-cilium-operator-azure:v1.17.1,0,7,7
@@ -367,7 +367,7 @@ rancher/mirrored-cilium-operator-azure:v1.18.1,0,5,5
 rancher/mirrored-cilium-operator-azure:v1.18.3,0,3,3
 rancher/mirrored-cilium-operator-azure:v1.18.4,0,3,3
 rancher/mirrored-cilium-operator-azure:v1.18.6,0,1,1
-rancher/mirrored-cilium-operator-azure:v1.19.0,0,2,2
+rancher/mirrored-cilium-operator-azure:v1.19.0,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.16.5,0,7,7
 rancher/mirrored-cilium-operator-generic:v1.17.0,0,7,7
 rancher/mirrored-cilium-operator-generic:v1.17.1,0,7,7
@@ -379,7 +379,7 @@ rancher/mirrored-cilium-operator-generic:v1.18.1,0,5,5
 rancher/mirrored-cilium-operator-generic:v1.18.3,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.18.4,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.18.6,0,1,1
-rancher/mirrored-cilium-operator-generic:v1.19.0,0,2,2
+rancher/mirrored-cilium-operator-generic:v1.19.0,0,1,1
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,28,28
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,22,22
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,16,16
@@ -423,17 +423,17 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,12,12
-rancher/mirrored-istio-install-cni:1.23.2-distroless,0,13,13
+rancher/mirrored-istio-install-cni:1.23.2-distroless,0,11,11
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,13,13
-rancher/mirrored-istio-install-cni:1.25.0-distroless,0,13,13
+rancher/mirrored-istio-install-cni:1.25.0-distroless,0,11,11
 rancher/mirrored-istio-pilot:1.22.1-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.23.2-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,5,5
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,7,7
-rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,8,8
+rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,6,6
 rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,8,8
-rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,6,6
+rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,8,8
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,11,11
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,2,16,18
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,2,13,15
@@ -564,9 +564,9 @@ rancher/rke2-upgrade:v1.32.12-rke2r1,0,2,2
 rancher/security-scan:v0.6.8,0,3,3
 rancher/shell:v0.4.2,1,27,28
 rancher/supportability-review-app-frontend:v0.15.0,3,9,12
-rancher/supportability-review-internal:latest,0,8,8
+rancher/supportability-review-internal:latest,0,6,6
 rancher/supportability-review-operator:v0.15.0,0,3,3
-rancher/supportability-review:latest,0,4,4
+rancher/supportability-review:latest,0,2,2
 rancher/system-agent-installer-k3s:v1.21.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.22.17-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.23.17-k3s1,0,0,0
