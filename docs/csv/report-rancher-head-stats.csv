@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.14.0-rc.1,0,0,0
 rancher/compliance-operator:v1.4.0-rc.2,0,0,0
-rancher/eks-operator:v1.14.0-rc.1,0,0,0
+rancher/eks-operator:v1.14.0-rc.4,0,0,0
 rancher/fleet-agent:v0.15.0-beta.3,0,0,0
 rancher/fleet:v0.15.0-beta.3,0,0,0
 rancher/gke-operator:v1.14.0-rc.2,0,0,0
@@ -401,7 +401,7 @@ rancher/rke2-runtime:v1.35.1-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.33.8-rke2r1,0,2,2
 rancher/rke2-upgrade:v1.34.4-rke2r1,0,2,2
 rancher/rke2-upgrade:v1.35.1-rke2r1,0,2,2
-rancher/scc-operator:v0.3.1-rc.2,0,4,4
+rancher/scc-operator:v0.4.0-rc.0,0,0,0
 rancher/security-scan:v0.9.0-rc.1,0,2,2
 rancher/shell:v0.7.0-rc.3,0,13,13
 rancher/system-agent-installer-k3s:v1.32.12-k3s1,0,0,0
@@ -415,4 +415,4 @@ rancher/system-agent-installer-rke2:v1.35.1-rke2r1,0,0,0
 rancher/system-agent:v0.3.15-rc.3-suc,3,6,9
 rancher/system-upgrade-controller:v0.19.0,0,0,0
 rancher/turtles:v0.26.0-rc.5,0,0,0
-rancher/ui-plugin-catalog:4.7.0,0,25,25
+rancher/ui-plugin-catalog:4.7.0,0,26,26
