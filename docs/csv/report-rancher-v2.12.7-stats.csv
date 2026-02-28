@@ -140,8 +140,8 @@ rancher/k3s-upgrade:v1.31.14-k3s1,2,7,9
 rancher/k3s-upgrade:v1.32.12-k3s1,0,1,1
 rancher/k3s-upgrade:v1.33.8-k3s1,0,1,1
 rancher/klipper-helm:v0.9.10-build20251111,0,12,12
-rancher/klipper-helm:v0.9.12-build20251215,0,6,6
-rancher/klipper-helm:v0.9.14-build20260210,0,1,1
+rancher/klipper-helm:v0.9.12-build20251215,0,5,5
+rancher/klipper-helm:v0.9.14-build20260210,0,0,0
 rancher/klipper-helm:v0.9.3-build20241008,0,25,25
 rancher/klipper-helm:v0.9.4-build20250113,0,25,25
 rancher/klipper-helm:v0.9.5-build20250306,0,25,25
@@ -380,8 +380,8 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,28,28
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,22,22
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,16,16
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,10,10
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,85,101
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,66,81
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,83,99
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,64,79
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,7,51,58
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,10,47,57
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,34,43
@@ -499,8 +499,8 @@ rancher/mirrored-thanos-thanos:v0.37.2,0,5,5
 rancher/neuvector-compliance-config:1.0.10,0,0,0
 rancher/neuvector-controller:5.4.9,0,0,0
 rancher/neuvector-enforcer:5.4.9,0,0,0
-rancher/neuvector-manager:5.4.9,0,0,0
-rancher/neuvector-prometheus-exporter:1.0.10,0,1,1
+rancher/neuvector-manager:5.4.9,0,3,3
+rancher/neuvector-prometheus-exporter:1.0.10,0,5,5
 rancher/neuvector-registry-adapter:0.2.3,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.8,0,0,0

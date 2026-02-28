@@ -362,9 +362,9 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,28,28
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,22,22
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,16,16
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,10,10
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,85,101
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.0,16,71,87
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,66,81
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,83,99
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.0,16,69,85
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,64,79
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,10,47,57
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.0,10,45,55
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,34,43
@@ -387,7 +387,7 @@ rancher/mirrored-flannel-flannel:v0.24.2,2,28,30
 rancher/mirrored-flannel-flannel:v0.25.1,2,21,23
 rancher/mirrored-fluent-fluent-bit:3.0.4,5,27,32
 rancher/mirrored-fluent-fluent-bit:3.0.4-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:3.10.5,13,77,90
+rancher/mirrored-grafana-grafana-image-renderer:3.10.5,13,81,94
 rancher/mirrored-grafana-grafana:10.4.9,0,6,6
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,5,5
@@ -506,8 +506,8 @@ rancher/mirrored-thanos-thanos:v0.34.1,0,11,11
 rancher/neuvector-compliance-config:1.0.9,0,1,1
 rancher/neuvector-controller:5.4.8,2,9,11
 rancher/neuvector-enforcer:5.4.8,2,19,21
-rancher/neuvector-manager:5.4.8,2,4,6
-rancher/neuvector-prometheus-exporter:1.0.9,3,11,14
+rancher/neuvector-manager:5.4.8,2,7,9
+rancher/neuvector-prometheus-exporter:1.0.9,3,15,18
 rancher/neuvector-registry-adapter:0.2.2,2,2,4
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.7,2,1,3
