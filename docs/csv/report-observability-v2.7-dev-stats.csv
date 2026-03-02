@@ -15,11 +15,11 @@ quay.io/stackstate/spotlight:5.2.0-snapshot.179,3,20,23
 quay.io/stackstate/stackgraph-console:2.5-7.13.18,0,13,13
 quay.io/stackstate/stackgraph-hbase:2.5-7.13.18,0,12,12
 quay.io/stackstate/stackpacks:20260227100514-master-916d9dc-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260227114630-master-dfb9ea3,0,10,10
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260227114630-master-dfb9ea3,0,10,10
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260227114630-master-dfb9ea3,0,10,10
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260227114630-master-dfb9ea3-2.5,0,18,18
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260227114630-master-dfb9ea3,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260302132357-master-88307c9,0,8,8
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260302132357-master-88307c9,0,8,8
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260302132357-master-88307c9,0,8,8
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260302132357-master-88307c9-2.5,0,16,16
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260302132357-master-88307c9,0,0,0
 quay.io/stackstate/tephra-server:2.5-7.13.18,0,12,12
 quay.io/stackstate/victoria-metrics:v1.109.0-614527d8-140,0,5,5
 quay.io/stackstate/vmagent:v1.109.0-305c94e0-133,0,5,5
@@ -28,7 +28,7 @@ quay.io/stackstate/vmrestore:v1.109.0-3c122dc6-37,0,6,6
 quay.io/stackstate/wait:1.0.12-ee4bfadf-180,0,0,0
 quay.io/stackstate/workload-observer:f40221cf-80,0,0,0
 quay.io/stackstate/zookeeper:3.9.3-33ea3d15-267,0,4,4
-registry.rancher.com/suse-observability/container-tools:1.8.3-610,0,14,14
+registry.rancher.com/suse-observability/container-tools:1.8.3-610,0,16,16
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.6,0,5,5
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:13b1a255-590,0,0,0
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.25,0,3,3

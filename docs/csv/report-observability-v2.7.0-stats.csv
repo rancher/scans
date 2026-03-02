@@ -1,7 +1,7 @@
 image,critical,high,total
 registry.rancher.com/suse-observability/clickhouse-backup:2.6.39-d0d7ba46-65,2,13,15
 registry.rancher.com/suse-observability/clickhouse:25.9.5-85835861-137,0,1,1
-registry.rancher.com/suse-observability/container-tools:1.8.1-bci,4,34,38
+registry.rancher.com/suse-observability/container-tools:1.8.1-bci,4,36,40
 registry.rancher.com/suse-observability/elasticsearch-exporter:v1.8.0-d2aa61ab,0,5,5
 registry.rancher.com/suse-observability/elasticsearch:8.19.4-8fb32031,0,15,15
 registry.rancher.com/suse-observability/envoy:v1.31.1-92f410cd,0,1,1
