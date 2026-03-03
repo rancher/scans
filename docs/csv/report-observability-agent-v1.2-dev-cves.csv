@@ -1,5 +1,5 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-quay.io/stackstate/stackstate-k8s-agent:58971bde,observability-agent/v1.2-dev,setuptools,70.0.0.post20260227,python-pkg,CVE-2025-47273,HIGH,https://avd.aquasec.com/nvd/cve-2025-47273,Python,78.1.1,false,affected,
+quay.io/stackstate/stackstate-k8s-agent:58971bde,observability-agent/v1.2-dev,setuptools,70.0.0.post20260302,python-pkg,CVE-2025-47273,HIGH,https://avd.aquasec.com/nvd/cve-2025-47273,Python,78.1.1,false,affected,
 quay.io/stackstate/stackstate-k8s-agent:58971bde,observability-agent/v1.2-dev,github.com/mholt/archiver/v3,v3.5.1,gobinary,CVE-2025-3445,HIGH,https://avd.aquasec.com/nvd/cve-2025-3445,opt/stackstate-agent/bin/agent/agent,,false,affected,
 quay.io/stackstate/stackstate-k8s-agent:58971bde,observability-agent/v1.2-dev,github.com/nwaples/rardecode,v1.1.0,gobinary,CVE-2025-11579,LOW,https://avd.aquasec.com/nvd/cve-2025-11579,opt/stackstate-agent/bin/agent/agent,,false,affected,severity_changed_due_to_suse_cvss_score
 quay.io/stackstate/stackstate-k8s-agent:58971bde,observability-agent/v1.2-dev,go.opentelemetry.io/collector/config/configgrpc,v0.91.0,gobinary,CVE-2024-36129,HIGH,https://avd.aquasec.com/nvd/cve-2024-36129,opt/stackstate-agent/bin/agent/agent,0.102.1,false,affected,

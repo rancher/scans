@@ -135,7 +135,7 @@ rancher/kuberlr-kubectl:v7.0.1,0,8,8
 rancher/local-path-provisioner:v0.0.31,3,11,14
 rancher/local-path-provisioner:v0.0.32,3,9,12
 rancher/local-path-provisioner:v0.0.34,2,5,7
-rancher/machine:v0.15.0-rancher139,3,2,5
+rancher/machine:v0.15.0-rancher140,3,2,5
 rancher/mirrored-bci-busybox:15.6.24.2,0,3,3
 rancher/mirrored-bci-micro:15.6.24.2,0,2,2
 rancher/mirrored-calico-apiserver:v3.29.3,0,1,1
