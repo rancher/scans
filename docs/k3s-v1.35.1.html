@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - K3s v1.35.1 version - CVE Scans - 2026-03-03</h1>
+<h1>SUSE Rancher - K3s v1.35.1 version - CVE Scans - 2026-03-04</h1>
 
 <h3>How to use this page</h3>
 
@@ -92,18 +92,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
 <td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/k3s:v1.35.1-k3s1</td>
-<td>false</td>
-<td>K3s v1.35.1</td>
-<td>bin/k3s</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -281,18 +269,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>K3s v1.35.1</td>
 <td>coredns</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-coredns-coredns:1.14.1</td>
-<td>true</td>
-<td>K3s v1.35.1</td>
-<td>coredns</td>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
 <td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -377,18 +353,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>K3s v1.35.1</td>
 <td>usr/local/bin/traefik</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-library-traefik:3.6.7</td>
-<td>true</td>
-<td>K3s v1.35.1</td>
-<td>usr/local/bin/traefik</td>
 <td>stdlib@v1.24.11</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
 <td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -425,18 +389,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>K3s v1.35.1</td>
 <td>metrics-server</td>
-<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-metrics-server:v0.8.1</td>
-<td>true</td>
-<td>K3s v1.35.1</td>
-<td>metrics-server</td>
 <td>stdlib@v1.24.12</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
 <td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -452,6 +404,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/containerd-shim-runc-v2</td>
 <td>github.com/containerd/containerd/v2@v2.1.5-k3s1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-25621.html">CVE-2024-25621</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.35.1-k3s1</td>
+<td>false</td>
+<td>K3s v1.35.1</td>
+<td>bin/k3s</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -518,6 +482,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-coredns-coredns:1.14.1</td>
+<td>true</td>
+<td>K3s v1.35.1</td>
+<td>coredns</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:3.6.7</td>
+<td>true</td>
+<td>K3s v1.35.1</td>
+<td>usr/local/bin/traefik</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-library-traefik:3.6.7</td>
 <td>true</td>
 <td>K3s v1.35.1</td>
@@ -527,6 +515,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-metrics-server:v0.8.1</td>
+<td>true</td>
+<td>K3s v1.35.1</td>
+<td>metrics-server</td>
+<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
