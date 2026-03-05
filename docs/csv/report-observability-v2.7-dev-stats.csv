@@ -11,7 +11,7 @@ quay.io/stackstate/jmx-exporter:0.20.0-59972f41-263,0,1,1
 quay.io/stackstate/kafka:3.9.1-9dbceaa9-262,0,6,6
 quay.io/stackstate/minio:RELEASE.2025-11-19T12-41-50Z-58a322fd-180,0,4,4
 quay.io/stackstate/nginx-prometheus-exporter:1.5.1-65df9700-71,0,3,3
-quay.io/stackstate/spotlight:5.2.0-snapshot.179,3,20,23
+quay.io/stackstate/spotlight:5.2.0-snapshot.179,3,25,28
 quay.io/stackstate/stackgraph-console:2.5-7.13.18,0,13,13
 quay.io/stackstate/stackgraph-hbase:2.5-7.13.18,0,12,12
 quay.io/stackstate/stackpacks:20260227100514-master-916d9dc-prime-selfhosted,0,0,0
