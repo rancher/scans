@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Observability agent v1.2.22 version - CVE Scans - 2026-03-05</h1>
+<h1>SUSE Rancher - Observability agent v1.2.22 version - CVE Scans - 2026-03-06</h1>
 
 <h3>How to use this page</h3>
 
@@ -61,16 +61,16 @@ the distinctive tag '*' close to its severity.</li>
 
 <table id="cves_table">
 <tr>
-<th onclick="sort(0)">Image</th>
-<th onclick="sort(1)">Mirrored</th>
-<th onclick="sort(2)">Release</th>
-<th onclick="sort(3)">Binary/Package</th>
-<th onclick="sort(4)">Dependency</th>
-<th onclick="sort(5)">Vulnerability ID (CVE)</th>
-<th onclick="sort(6)">Severity</th>
-<th onclick="sort(7)">Status</th>
-<th onclick="sort(8)">Justification (for status not affected)</th>
-<th onclick="sort(9)">Type (language or OS)</th>
+<th onclick="sort( 0 )">Image</th>
+<th onclick="sort( 1 )">Mirrored</th>
+<th onclick="sort( 2 )">Release</th>
+<th onclick="sort( 3 )">Binary/Package</th>
+<th onclick="sort( 4 )">Dependency</th>
+<th onclick="sort( 5 )">Vulnerability ID (CVE)</th>
+<th onclick="sort( 6 )">Severity</th>
+<th onclick="sort( 7 )">Status</th>
+<th onclick="sort( 8 )">Justification (for status not affected)</th>
+<th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/container-tools:1.8.3-610</td>
@@ -113,9 +113,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability agent v1.2.22</td>
 <td>usr/bin/sts-toolbox</td>
+<td>github.com/docker/cli@v26.0.1+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.3-610</td>
+<td>false</td>
+<td>Observability agent v1.2.22</td>
+<td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -127,7 +139,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -139,7 +151,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -163,7 +175,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -175,7 +187,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -187,7 +199,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/helm</td>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -199,7 +211,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -211,7 +223,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -235,7 +247,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -247,7 +259,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -259,7 +271,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/mc</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -271,7 +283,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/mc</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -295,7 +307,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/mc</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -307,7 +319,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/mc</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -319,7 +331,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/sts</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -331,7 +343,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/sts</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -355,7 +367,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/sts</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -367,7 +379,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/sts</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -415,7 +427,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sidecarinjector</td>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -475,7 +487,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/promtail</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -487,7 +499,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/promtail</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -511,7 +523,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/promtail</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -523,7 +535,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/promtail</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -535,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/promtail</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -547,7 +559,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/promtail</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -677,9 +689,21 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability agent v1.2.22</td>
 <td>opt/stackstate-agent/bin/agent/agent</td>
+<td>github.com/docker/cli@v24.0.7+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-agent:b85512ad</td>
+<td>false</td>
+<td>Observability agent v1.2.22</td>
+<td>opt/stackstate-agent/bin/agent/agent</td>
 <td>github.com/go-git/go-git/v5@v5.11.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-21613.html">CVE-2025-21613</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -727,7 +751,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>github.com/nwaples/rardecode@v1.1.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-11579.html">CVE-2025-11579</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -787,7 +811,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -799,7 +823,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -811,7 +835,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -823,7 +847,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -835,7 +859,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -859,7 +883,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -871,7 +895,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -883,7 +907,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -895,7 +919,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -943,7 +967,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>github.com/nwaples/rardecode@v1.1.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-11579.html">CVE-2025-11579</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -979,7 +1003,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -991,7 +1015,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1003,7 +1027,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1015,7 +1039,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1027,7 +1051,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1051,7 +1075,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1063,7 +1087,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1075,7 +1099,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1087,7 +1111,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
 <td>stdlib@v1.22.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1135,7 +1159,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1147,7 +1171,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1159,7 +1183,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1171,7 +1195,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td><div class=cve_sev>MEDIUM*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1195,7 +1219,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class=cve_sev>LOW*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1207,7 +1231,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1219,7 +1243,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1231,12 +1255,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>stdlib@v1.24.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class=cve_sev>HIGH*<span class=cve_sev_note>Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
-
 <tr class="issue not_affected">
 <td>registry.rancher.com/suse-observability/container-tools:1.8.3-610</td>
 <td>false</td>
@@ -1729,17 +1752,20 @@ the distinctive tag '*' close to its severity.</li>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
-
 </table>
 
 <footer>
-<p>Note: This page uses embedded JavaScript for filtering and search
-functionalities. If support to JavaScript is disabled in your browser, the page
+<p>
+Note: This page uses embedded JavaScript for filtering and search
+functionalities. If JavaScript support is disabled in your browser, the page
 will still be usable,<br>but those functions will not work as expected. No external
-code or dependencies are imported by this page.</p>
-<p><b>The SUSE Rancher CVE data is provided by SUSE under the Creative
+code or dependencies are imported by this page.
+</p>
+<p><b>
+The SUSE Rancher CVE data is provided by SUSE under the Creative
 Commons license with Attribution (CC-BY-4.0). See the
-<a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.</b></p>
+<a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.
+</b></p>
 </footer>
 
 <script>
