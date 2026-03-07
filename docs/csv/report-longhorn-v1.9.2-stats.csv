@@ -1,5 +1,5 @@
 image,critical,high,total
-longhornio/backing-image-manager:v1.9.2,3,32,35
+longhornio/backing-image-manager:v1.9.2,3,33,36
 longhornio/csi-attacher:v4.9.0-20250709,0,5,5
 longhornio/csi-node-driver-registrar:v2.14.0-20250709,0,5,5
 longhornio/csi-provisioner:v5.3.0-20250709,0,5,5
@@ -7,8 +7,8 @@ longhornio/csi-resizer:v1.14.0-20250709,0,5,5
 longhornio/csi-snapshotter:v8.3.0-20250709,0,5,5
 longhornio/livenessprobe:v2.16.0-20250709,0,5,5
 longhornio/longhorn-cli:v1.9.2,3,18,21
-longhornio/longhorn-engine:v1.9.2,5,33,38
-longhornio/longhorn-instance-manager:v1.9.2,6,37,43
+longhornio/longhorn-engine:v1.9.2,5,34,39
+longhornio/longhorn-instance-manager:v1.9.2,6,38,44
 longhornio/longhorn-manager:v1.9.2,5,19,24
 longhornio/longhorn-share-manager:v1.9.2,3,15,18
 longhornio/longhorn-ui:v1.9.2,3,13,16
