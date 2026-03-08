@@ -12,7 +12,7 @@ registry.rancher.com/suse-observability/jmx-exporter:0.20.0-59972f41-263,0,6,6
 registry.rancher.com/suse-observability/kafka:3.9.1-9dbceaa9-262,0,11,11
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.6,0,5,5
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:13b1a255-590,0,0,0
-registry.rancher.com/suse-observability/minio:RELEASE.2025-11-19T12-41-50Z-58a322fd-180,0,5,5
+registry.rancher.com/suse-observability/minio:RELEASE.2025-11-19T12-41-50Z-58a322fd-180,0,6,6
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-65df9700-71,0,3,3
 registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.179,3,25,28
 registry.rancher.com/suse-observability/stackgraph-console:2.5-7.13.18,0,18,18

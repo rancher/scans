@@ -27,8 +27,8 @@ rancher/hardened-addon-resizer:1.8.23-build20260206,0,0,0
 rancher/hardened-calico:v3.31.3-build20260206,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260206,0,0,0
 rancher/hardened-cni-plugins:v1.9.0-build20260206,0,1,1
-rancher/hardened-coredns:v1.14.1-build20260206,0,2,2
-rancher/hardened-dns-node-cache:1.26.7-build20260206,0,3,3
+rancher/hardened-coredns:v1.14.1-build20260206,0,3,3
+rancher/hardened-dns-node-cache:1.26.7-build20260206,0,4,4
 rancher/hardened-etcd:v3.6.7-k3s1-build20260126,0,2,2
 rancher/hardened-flannel:v0.28.1-build20260206,0,1,1
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260206,0,0,0
@@ -74,7 +74,7 @@ rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,5,5
 rancher/mirrored-prometheus-operator-admission-webhook:v0.85.0,0,5,5
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,5,5
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.85.0,0,5,5
-rancher/nginx-ingress-controller:v1.14.3-hardened2,0,3,3
+rancher/nginx-ingress-controller:v1.14.3-hardened2,0,4,4
 rancher/prom-prometheus:v3.5.0,0,10,10
 rancher/rancher-agent:v2.14.0-alpha5,0,1,1
 rancher/rancher-webhook:v0.10.0-rc.11,0,0,0
