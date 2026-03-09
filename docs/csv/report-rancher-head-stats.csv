@@ -124,7 +124,7 @@ rancher/harvester-cloud-provider:v0.2.5,0,13,13
 rancher/harvester-csi-driver:v0.2.2,3,39,42
 rancher/harvester-csi-driver:v0.2.3,3,23,26
 rancher/harvester-csi-driver:v0.2.4,3,13,16
-rancher/helm-controller:v0.16.10,2,10,12
+rancher/helm-controller:v0.16.10,2,9,11
 rancher/k3s-upgrade:v1.33.8-k3s1,0,1,1
 rancher/k3s-upgrade:v1.34.4-k3s1,0,1,1
 rancher/k3s-upgrade:v1.35.1-k3s1,0,1,1
