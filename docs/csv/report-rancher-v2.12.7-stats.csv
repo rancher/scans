@@ -115,10 +115,10 @@ rancher/hardened-multus-thick:v4.2.3-build20260120,0,7,7
 rancher/hardened-multus-thick:v4.2.3-build20260206,0,1,1
 rancher/hardened-snapshot-controller:v8.4.0-build20260108,0,1,1
 rancher/hardened-snapshot-controller:v8.4.0-build20260205,0,0,0
-rancher/hardened-traefik:v3.5.4-build20251103,1,7,8
-rancher/hardened-traefik:v3.6.4-build20251208,1,6,7
-rancher/hardened-traefik:v3.6.7-build20260115,1,4,5
-rancher/hardened-traefik:v3.6.7-build20260206,1,3,4
+rancher/hardened-traefik:v3.5.4-build20251103,0,8,8
+rancher/hardened-traefik:v3.6.4-build20251208,0,7,7
+rancher/hardened-traefik:v3.6.7-build20260115,0,5,5
+rancher/hardened-traefik:v3.6.7-build20260206,0,4,4
 rancher/hardened-whereabouts:v0.8.0-build20241011,0,14,14
 rancher/hardened-whereabouts:v0.8.0-build20250131,0,14,14
 rancher/hardened-whereabouts:v0.9.0-build20250612,0,13,13
@@ -413,7 +413,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,13,13
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,13,13
-rancher/mirrored-istio-install-cni:1.26.2-distroless,0,21,21
+rancher/mirrored-istio-install-cni:1.26.2-distroless,0,23,23
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.26.2-distroless,0,10,10
@@ -546,9 +546,9 @@ rancher/scc-operator:v0.3.1,0,4,4
 rancher/security-scan:v0.7.7,0,2,2
 rancher/shell:v0.5.1,1,24,25
 rancher/supportability-review-app-frontend:v0.15.0,3,8,11
-rancher/supportability-review-internal:latest,0,1,1
+rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.15.0,0,3,3
-rancher/supportability-review:latest,0,1,1
+rancher/supportability-review:latest,0,0,0
 rancher/system-agent-installer-k3s:v1.31.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.12-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.8-k3s1,0,0,0
