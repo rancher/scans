@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - K3s v1.34.5 version - CVE Scans - 2026-03-12</h1>
+<h1>SUSE Rancher - K3s v1.34.5 version - CVE Scans - 2026-03-13</h1>
 
 <h3>How to use this page</h3>
 
@@ -124,18 +124,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/klipper-helm:v0.9.14-build20260210</td>
 <td>false</td>
 <td>K3s v1.34.5</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>CRITICAL</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.9.14-build20260210</td>
-<td>false</td>
-<td>K3s v1.34.5</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
@@ -193,18 +181,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/klipper-lb:v0.4.14</td>
-<td>false</td>
-<td>K3s v1.34.5</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>CRITICAL</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
 <td>rancher/local-path-provisioner:v0.0.34</td>
 <td>false</td>
 <td>K3s v1.34.5</td>
@@ -272,18 +248,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3@3.5.4-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-69421.html">CVE-2025-69421</a></td>
 <td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/local-path-provisioner:v0.0.34</td>
-<td>false</td>
-<td>K3s v1.34.5</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>CRITICAL</td>
 <td>affected</td>
 <td></td>
 <td>alpine</td>
@@ -412,13 +376,13 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-library-traefik:3.6.9</td>
 <td>true</td>
 <td>K3s v1.34.5</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>CRITICAL</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/traefik/traefik/v3@v3.6.9</td>
+<td><a href="https://github.com/advisories/GHSA-4hjq-9h5c-252j">GHSA-4hjq-9h5c-252j</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
-<td>alpine</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-library-traefik:3.6.9</td>
@@ -520,6 +484,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/klipper-helm:v0.9.14-build20260210</td>
 <td>false</td>
 <td>K3s v1.34.5</td>
+<td>zlib</td>
+<td>zlib@1.3.1-r2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.14-build20260210</td>
+<td>false</td>
+<td>K3s v1.34.5</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
@@ -551,6 +527,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-lb:v0.4.14</td>
+<td>false</td>
+<td>K3s v1.34.5</td>
+<td>zlib</td>
+<td>zlib@1.3.1-r2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.34</td>
+<td>false</td>
+<td>K3s v1.34.5</td>
+<td>zlib</td>
+<td>zlib@1.3.1-r2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>alpine</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/local-path-provisioner:v0.0.34</td>
@@ -599,6 +599,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>not affected</td>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:3.6.9</td>
+<td>true</td>
+<td>K3s v1.34.5</td>
+<td>zlib</td>
+<td>zlib@1.3.1-r2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>alpine</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/mirrored-library-traefik:3.6.9</td>

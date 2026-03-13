@@ -115,10 +115,10 @@ rancher/hardened-multus-thick:v4.2.3-build20260120,0,7,7
 rancher/hardened-multus-thick:v4.2.3-build20260206,0,1,1
 rancher/hardened-snapshot-controller:v8.4.0-build20260108,0,1,1
 rancher/hardened-snapshot-controller:v8.4.0-build20260205,0,0,0
-rancher/hardened-traefik:v3.5.4-build20251103,0,8,8
-rancher/hardened-traefik:v3.6.4-build20251208,0,7,7
-rancher/hardened-traefik:v3.6.7-build20260115,0,5,5
-rancher/hardened-traefik:v3.6.7-build20260206,0,4,4
+rancher/hardened-traefik:v3.5.4-build20251103,0,9,9
+rancher/hardened-traefik:v3.6.4-build20251208,0,8,8
+rancher/hardened-traefik:v3.6.7-build20260115,0,6,6
+rancher/hardened-traefik:v3.6.7-build20260206,0,5,5
 rancher/hardened-whereabouts:v0.8.0-build20241011,0,14,14
 rancher/hardened-whereabouts:v0.8.0-build20250131,0,14,14
 rancher/hardened-whereabouts:v0.9.0-build20250612,0,13,13
@@ -140,8 +140,8 @@ rancher/k3s-upgrade:v1.31.14-k3s1,2,7,9
 rancher/k3s-upgrade:v1.32.12-k3s1,0,1,1
 rancher/k3s-upgrade:v1.33.8-k3s1,0,1,1
 rancher/klipper-helm:v0.9.10-build20251111,0,12,12
-rancher/klipper-helm:v0.9.12-build20251215,1,5,6
-rancher/klipper-helm:v0.9.14-build20260210,1,0,1
+rancher/klipper-helm:v0.9.12-build20251215,0,5,5
+rancher/klipper-helm:v0.9.14-build20260210,0,0,0
 rancher/klipper-helm:v0.9.3-build20241008,0,25,25
 rancher/klipper-helm:v0.9.4-build20250113,0,25,25
 rancher/klipper-helm:v0.9.5-build20250306,0,25,25
@@ -149,7 +149,7 @@ rancher/klipper-helm:v0.9.7-build20250616,0,22,22
 rancher/klipper-helm:v0.9.8-build20250709,0,21,21
 rancher/klipper-lb:v0.4.10,0,5,5
 rancher/klipper-lb:v0.4.13,0,3,3
-rancher/klipper-lb:v0.4.14,1,0,1
+rancher/klipper-lb:v0.4.14,0,0,0
 rancher/klipper-lb:v0.4.9,0,7,7
 rancher/kube-api-auth:v0.2.4,0,8,8
 rancher/kubectl:v1.33.1,0,6,6
@@ -159,7 +159,7 @@ rancher/kuberlr-kubectl:v5.0.1,0,23,23
 rancher/local-path-provisioner:v0.0.30,3,11,14
 rancher/local-path-provisioner:v0.0.31,3,11,14
 rancher/local-path-provisioner:v0.0.32,3,9,12
-rancher/local-path-provisioner:v0.0.34,3,5,8
+rancher/local-path-provisioner:v0.0.34,2,5,7
 rancher/machine:v0.15.0-rancher133,3,12,15
 rancher/mirrored-bci-busybox:15.6.24.2,0,4,4
 rancher/mirrored-bci-micro:15.6.24.2,0,2,2
@@ -380,11 +380,11 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,28,28
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,22,22
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,16,16
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,10,10
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,84,100
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,65,80
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,17,83,100
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,64,80
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,7,51,58
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,10,48,58
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,35,44
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,11,47,58
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,10,34,44
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,3,25,28
 rancher/mirrored-cloud-provider-vsphere:v1.31.0,0,9,9
 rancher/mirrored-cloud-provider-vsphere:v1.31.1,0,9,9
@@ -417,7 +417,7 @@ rancher/mirrored-istio-install-cni:1.26.2-distroless,0,23,23
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,5,5
 rancher/mirrored-istio-pilot:1.26.2-distroless,0,10,10
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,8,8
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,6,6
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,8,8
 rancher/mirrored-istio-proxyv2:1.26.2-distroless,0,13,13
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,2,13,15
@@ -445,7 +445,7 @@ rancher/mirrored-library-traefik:2.11.30,2,7,9
 rancher/mirrored-library-traefik:3.3.2,2,14,16
 rancher/mirrored-library-traefik:3.3.6,2,10,12
 rancher/mirrored-library-traefik:3.5.1,2,10,12
-rancher/mirrored-library-traefik:3.6.7,3,5,8
+rancher/mirrored-library-traefik:3.6.7,2,5,7
 rancher/mirrored-longhornio-backing-image-manager:v1.10.2,3,12,15
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,51,51
 rancher/mirrored-longhornio-csi-attacher:v4.10.0-20251226,0,1,1
