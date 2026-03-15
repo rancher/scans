@@ -1,5 +1,5 @@
 image,critical,high,total
-quay.io/stackstate/stackstate-k8s-agent:17f32f66,0,4,4
+quay.io/stackstate/stackstate-k8s-agent:17f32f66,0,6,6
 quay.io/stackstate/stackstate-k8s-cluster-agent:17f32f66,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.3-610,0,16,16
 registry.rancher.com/suse-observability/generic-sidecar-injector:d03e11f3-22,0,4,4
