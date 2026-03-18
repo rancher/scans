@@ -62,7 +62,7 @@ rancher/mirrored-cluster-api-controller:v1.10.6,0,5,5
 rancher/mirrored-fluent-fluent-bit:3.1.8,2,16,18
 rancher/mirrored-grafana-grafana:11.5.5,2,5,7
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
-rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,4,17,21
+rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,4,18,22
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,6,6
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,20,23
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,5,5

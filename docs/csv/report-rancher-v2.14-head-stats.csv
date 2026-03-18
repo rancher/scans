@@ -2,12 +2,12 @@ image,critical,high,total
 rancher/aks-operator:v1.14.0-rc.2,0,0,0
 rancher/appco-alertmanager:0.30.0-12.15,0,3,3
 rancher/appco-grafana:12.3.1-1.6,0,6,6
-rancher/appco-k8s-sidecar:2.1.2-1.10,1,8,9
+rancher/appco-k8s-sidecar:2.1.2-1.10,1,9,10
 rancher/appco-kube-rbac-proxy:0.20.1-16.14,0,3,3
 rancher/appco-kube-state-metrics:2.17.0-10.11,0,2,2
 rancher/appco-node-exporter:1.10.2-11.21,0,3,3
 rancher/appco-thanos:0.40.1-7.13,0,2,2
-rancher/backup-restore-operator:v10.0.0-rc.1,0,1,1
+rancher/backup-restore-operator:v10.0.0-rc.3,0,1,1
 rancher/compliance-operator:v1.4.0-rc.4,0,0,0
 rancher/eks-operator:v1.14.0-rc.5,0,0,0
 rancher/fleet-agent:v0.15.0-rc.3,0,0,0
@@ -128,6 +128,7 @@ rancher/harvester-cloud-provider:v0.2.5,0,13,13
 rancher/harvester-csi-driver:v0.2.2,3,41,44
 rancher/harvester-csi-driver:v0.2.3,3,25,28
 rancher/harvester-csi-driver:v0.2.4,3,15,18
+rancher/harvester-csi-driver:v0.2.6,0,1,1
 rancher/helm-controller:v0.16.10,2,9,11
 rancher/k3s-upgrade:v1.33.9-k3s1,0,0,0
 rancher/k3s-upgrade:v1.34.5-k3s1,0,0,0
@@ -141,7 +142,7 @@ rancher/klipper-helm:v0.9.7-build20250616,0,22,22
 rancher/klipper-helm:v0.9.8-build20250709,0,21,21
 rancher/klipper-lb:v0.4.13,0,3,3
 rancher/klipper-lb:v0.4.14,0,0,0
-rancher/kube-api-auth:v0.2.5,0,5,5
+rancher/kube-api-auth:v0.2.6,0,0,0
 rancher/kubectl:v1.35.1,0,1,1
 rancher/kuberlr-kubectl:v5.0.0,0,24,24
 rancher/kuberlr-kubectl:v6.0.0,0,23,23
@@ -329,11 +330,11 @@ rancher/mirrored-cilium-operator-generic:v1.18.6,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.0,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.1,0,0,0
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,64,80
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,7,51,58
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,3,25,28
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,7,53,60
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,3,27,30
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,10,34,44
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,3,25,28
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,1,12,13
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,3,27,30
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,1,14,15
 rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,6,6
 rancher/mirrored-cloud-provider-vsphere:v1.34.0,0,5,5
 rancher/mirrored-cloud-provider-vsphere:v1.35.0,0,5,5
@@ -343,6 +344,8 @@ rancher/mirrored-coredns-coredns:1.13.1,0,8,8
 rancher/mirrored-coredns-coredns:1.14.0,0,5,5
 rancher/mirrored-coredns-coredns:1.14.1,0,5,5
 rancher/mirrored-curlimages-curl:8.9.1,2,10,12
+rancher/mirrored-elemental-operator:1.9.0,0,0,0
+rancher/mirrored-elemental-seedimage-builder:1.9.0,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,2,16,18
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,21,193,214
@@ -451,7 +454,7 @@ rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.34.5-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.2-rke2r1,0,0,0
-rancher/system-agent:v0.3.15-rc.4-suc,0,5,5
+rancher/system-agent:v0.3.15-suc,0,5,5
 rancher/system-upgrade-controller:v0.19.0,0,0,0
 rancher/turtles:v0.26.0-rc.10,0,0,0
 rancher/ui-plugin-catalog:4.8.0,0,27,27

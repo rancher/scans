@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Harvester master version - CVE Scans - 2026-03-17</h1>
+<h1>SUSE Rancher - Harvester master version - CVE Scans - 2026-03-18</h1>
 
 <h3>How to use this page</h3>
 
@@ -1541,6 +1541,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>Python</td>
+<td>pyasn1@0.6.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-30922">CVE-2026-30922</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>rancher/appco-k8s-sidecar:1.30.7-11.3</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>Python</td>
 <td>urllib3@2.5.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-66418.html">CVE-2025-66418</a></td>
 <td>HIGH</td>
@@ -1866,54 +1878,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>manager</td>
 <td>stdlib@v1.24.6</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/fleet-agent:v0.15.0-beta.4</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>busybox</td>
-<td>busybox@1.37.0-150700.18.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260759-1">SUSE-SU-2026:0759-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/fleet-agent:v0.15.0-beta.4</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/fleetagent</td>
-<td>stdlib@v1.25.7</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/fleet:v0.15.0-beta.4</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/fleet</td>
-<td>stdlib@v1.25.7</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/fleet:v0.15.0-beta.4</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/fleetcontroller</td>
-<td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -6769,7 +6733,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher-agent:v2.14.0-alpha9</td>
+<td>rancher/rancher-agent:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/agent</td>
@@ -6781,7 +6745,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher-agent:v2.14.0-alpha9</td>
+<td>rancher/rancher-agent:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/kubectl</td>
@@ -6793,7 +6757,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher-agent:v2.14.0-alpha9</td>
+<td>rancher/rancher-agent:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/kubectl</td>
@@ -6817,7 +6781,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -6829,7 +6793,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -6841,7 +6805,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -6853,7 +6817,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -6865,7 +6829,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -6877,7 +6841,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -6889,7 +6853,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6901,7 +6865,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6913,7 +6877,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6925,7 +6889,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6937,7 +6901,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6949,7 +6913,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6961,7 +6925,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6973,7 +6937,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6985,7 +6949,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -6997,7 +6961,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -7009,7 +6973,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -7021,7 +6985,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
@@ -7033,7 +6997,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/bandwidth</td>
@@ -7045,7 +7009,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/bandwidth</td>
@@ -7057,7 +7021,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/cni</td>
@@ -7069,7 +7033,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/cni</td>
@@ -7081,7 +7045,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd</td>
@@ -7093,7 +7057,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd</td>
@@ -7105,7 +7069,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd-shim-runc-v2</td>
@@ -7117,7 +7081,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd-shim-runc-v2</td>
@@ -7129,7 +7093,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
@@ -7141,7 +7105,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
@@ -7153,7 +7117,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
@@ -7165,7 +7129,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/firewall</td>
@@ -7177,7 +7141,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/firewall</td>
@@ -7189,7 +7153,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/k3s</td>
@@ -7201,7 +7165,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/k3s</td>
@@ -7213,7 +7177,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher</td>
@@ -7225,7 +7189,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher-machine</td>
@@ -7237,7 +7201,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/runc</td>
@@ -7249,7 +7213,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/share/rancher/ui/assets/wins.exe</td>
@@ -7657,7 +7621,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/system-agent-installer-rancher:v2.14.0-alpha9</td>
+<td>rancher/system-agent-installer-rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>helm</td>
@@ -7669,7 +7633,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/system-agent-installer-rancher:v2.14.0-alpha9</td>
+<td>rancher/system-agent-installer-rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>helm</td>
@@ -7861,7 +7825,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/turtles:v0.26.0-rc.5</td>
+<td>rancher/turtles:v0.26.0-rc.6</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>manager</td>
@@ -13321,7 +13285,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher-agent:v2.14.0-alpha9</td>
+<td>rancher/rancher-agent:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/agent</td>
@@ -13333,7 +13297,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -13345,7 +13309,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -13357,7 +13321,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
@@ -13369,7 +13333,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd</td>
@@ -13381,7 +13345,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd</td>
@@ -13393,7 +13357,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd-shim-runc-v2</td>
@@ -13405,7 +13369,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
@@ -13417,7 +13381,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
@@ -13429,7 +13393,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
@@ -13441,7 +13405,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/k3s</td>
@@ -13453,7 +13417,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/k3s</td>
@@ -13465,7 +13429,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher</td>
@@ -13477,7 +13441,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher-machine</td>
@@ -13489,7 +13453,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher-machine</td>
@@ -13501,7 +13465,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher-machine</td>
@@ -13513,7 +13477,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/runc</td>
@@ -13525,7 +13489,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/share/rancher/ui/assets/wins.exe</td>
@@ -13537,7 +13501,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/rancher:v2.14.0-alpha9</td>
+<td>rancher/rancher:v2.14.0-alpha12</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/share/rancher/ui/assets/wins.exe</td>
@@ -13837,7 +13801,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/turtles:v0.26.0-rc.5</td>
+<td>rancher/turtles:v0.26.0-rc.6</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>manager</td>
