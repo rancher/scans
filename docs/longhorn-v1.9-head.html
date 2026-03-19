@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Longhorn v1.9 head version - CVE Scans - 2026-03-18</h1>
+<h1>SUSE Rancher - Longhorn v1.9 head version - CVE Scans - 2026-03-19</h1>
 
 <h3>How to use this page</h3>
 
@@ -71,6 +71,30 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 7 )">Status</th>
 <th onclick="sort( 8 )">Justification (for status not affected)</th>
 <th onclick="sort( 9 )">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>longhornio/backing-image-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/backing-image-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/backing-image-manager:v1.9.x-head</td>
@@ -126,6 +150,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>csi-attacher</td>
 <td>stdlib@v1.24.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-attacher:v4.10.0-20251030</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -145,18 +181,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-attacher:v4.10.0-20251030</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>longhornio/csi-node-driver-registrar:v2.15.0-20251030</td>
 <td>false</td>
 <td>Longhorn v1.9 head</td>
@@ -198,6 +222,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.24.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-node-driver-registrar:v2.15.0-20251030</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>csi-node-driver-registrar</td>
+<td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -211,18 +247,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.15.0-20251030</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>csi-node-driver-registrar</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -270,6 +294,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>csi-provisioner</td>
 <td>stdlib@v1.24.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-provisioner:v5.3.0-20251030</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>csi-provisioner</td>
+<td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -289,18 +325,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20251030</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>longhornio/csi-resizer:v1.14.0-20251030</td>
 <td>false</td>
 <td>Longhorn v1.9 head</td>
@@ -342,6 +366,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>csi-resizer</td>
 <td>stdlib@v1.24.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-resizer:v1.14.0-20251030</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>csi-resizer</td>
+<td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -355,18 +391,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-resizer</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-resizer:v1.14.0-20251030</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -414,6 +438,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>csi-snapshotter</td>
 <td>stdlib@v1.24.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-snapshotter:v8.4.0-20251030</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>csi-snapshotter</td>
+<td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -427,18 +463,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-snapshotter</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-snapshotter:v8.4.0-20251030</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>csi-snapshotter</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -486,6 +510,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>livenessprobe</td>
 <td>stdlib@v1.24.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/livenessprobe:v2.17.0-20251030</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>livenessprobe</td>
+<td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -505,16 +541,28 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/livenessprobe:v2.17.0-20251030</td>
+<td>longhornio/longhorn-cli:v1.9.x-head</td>
 <td>false</td>
 <td>Longhorn v1.9 head</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
-<td>gobinary</td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-cli:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-cli:v1.9.x-head</td>
@@ -539,6 +587,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.5.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-engine:v1.9.x-head</td>
@@ -571,6 +631,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gpg2</td>
 <td>gpg2@2.4.4-150600.3.9.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260434-1">SUSE-SU-2026:0434-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.5.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -774,6 +846,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.24.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -787,18 +871,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.9.x-head</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>usr/local/bin/grpc_health_probe</td>
-<td>stdlib@v1.24.10</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -846,6 +918,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>usr/local/bin/longhorn</td>
 <td>stdlib@v1.24.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>usr/local/bin/longhorn</td>
+<td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -859,18 +943,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/longhorn</td>
 <td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.9.x-head</td>
-<td>false</td>
-<td>Longhorn v1.9 head</td>
-<td>usr/local/bin/longhorn</td>
-<td>stdlib@v1.24.10</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -918,6 +990,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>usr/local/bin/longhorn-instance-manager</td>
 <td>stdlib@v1.24.10</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-engine:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>usr/local/bin/longhorn-instance-manager</td>
+<td>stdlib@v1.24.10</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -937,16 +1021,16 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/longhorn-engine:v1.9.x-head</td>
+<td>longhornio/longhorn-instance-manager:v1.9.x-head</td>
 <td>false</td>
 <td>Longhorn v1.9 head</td>
-<td>usr/local/bin/longhorn-instance-manager</td>
-<td>stdlib@v1.24.10</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
-<td>gobinary</td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-instance-manager:v1.9.x-head</td>
@@ -979,6 +1063,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gpg2</td>
 <td>gpg2@2.4.4-150600.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260434-1">SUSE-SU-2026:0434-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -1132,6 +1228,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-manager:v1.9.x-head</td>
 <td>false</td>
 <td>Longhorn v1.9 head</td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
 <td>usr/local/sbin/longhorn-manager</td>
 <td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
@@ -1139,6 +1259,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-share-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-share-manager:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-share-manager:v1.9.x-head</td>
@@ -1163,6 +1307,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-ui:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-ui:v1.9.x-head</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/support-bundle-kit:v0.0.76</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>curl</td>
+<td>curl@8.14.1-150700.7.5.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/support-bundle-kit:v0.0.76</td>
@@ -1195,6 +1375,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gpg2</td>
 <td>gpg2@2.4.4-150600.3.9.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260434-1">SUSE-SU-2026:0434-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/support-bundle-kit:v0.0.76</td>
+<td>false</td>
+<td>Longhorn v1.9 head</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-150700.7.5.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20260903-1">SUSE-SU-2026:0903-1</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -1302,7 +1494,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>usr/bin/support-bundle-kit</td>
 <td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -1314,7 +1506,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn v1.9 head</td>
 <td>usr/bin/support-bundle-kit</td>
 <td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
