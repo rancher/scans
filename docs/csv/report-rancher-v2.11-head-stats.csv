@@ -433,8 +433,8 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-istio-install-cni:1.22.1-distroless,2,12,14
-rancher/mirrored-istio-install-cni:1.23.2-distroless,2,13,15
-rancher/mirrored-istio-install-cni:1.24.1-distroless,2,11,13
+rancher/mirrored-istio-install-cni:1.23.2-distroless,2,11,13
+rancher/mirrored-istio-install-cni:1.24.1-distroless,2,13,15
 rancher/mirrored-istio-install-cni:1.25.0-distroless,2,13,15
 rancher/mirrored-istio-pilot:1.22.1-distroless,1,5,6
 rancher/mirrored-istio-pilot:1.23.2-distroless,1,5,6
