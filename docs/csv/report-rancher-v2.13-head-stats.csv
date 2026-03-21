@@ -90,7 +90,7 @@ rancher/hardened-k8s-metrics-server:v0.8.0-build20251204,1,1,2
 rancher/hardened-k8s-metrics-server:v0.8.0-build20260116,1,1,2
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260206,1,0,1
 rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,5,2,7
-rancher/hardened-kubernetes:v1.33.9-rke2r1-build20260227,5,2,7
+rancher/hardened-kubernetes:v1.33.8-rke2r1-build20260210,5,9,14
 rancher/hardened-kubernetes:v1.34.5-rke2r1-build20260227,5,2,7
 rancher/hardened-multus-cni:v4.2.1-build20250627,2,25,27
 rancher/hardened-multus-cni:v4.2.2-build20250729,2,25,27
@@ -450,7 +450,7 @@ rancher/rke2-cloud-provider:v1.34.2-0.20251010190833-cf0d35a732d1-build20251017,
 rancher/rke2-cloud-provider:v1.34.3-0.20251210094406-1ff6ebef7028-build20251210,1,2,3
 rancher/rke2-cloud-provider:v1.34.4-0.20260211145917-c6017918a65c-build20260211,1,0,1
 rancher/rke2-runtime:v1.32.13-rke2r1,5,1,6
-rancher/rke2-runtime:v1.33.9-rke2r1,5,1,6
+rancher/rke2-runtime:v1.33.8-rke2r1,5,7,12
 rancher/rke2-runtime:v1.34.5-rke2r1,5,1,6
 rancher/rke2-upgrade:v1.32.13-rke2r1,1,1,2
 rancher/rke2-upgrade:v1.33.9-rke2r1,1,1,2
