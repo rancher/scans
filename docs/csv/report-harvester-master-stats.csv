@@ -83,14 +83,14 @@ rancher/rancher:v2.14.0-alpha12,0,27,27
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,1,1
 rancher/rke2-runtime:v1.35.2-rke2r1,0,6,6
 rancher/shell:v0.7.0-rc.6,0,14,14
-rancher/support-bundle-kit:master-head,0,3,3
+rancher/support-bundle-kit:master-head,0,1,1
 rancher/system-agent-installer-rancher:v2.14.0-alpha12,0,2,2
 rancher/system-agent-installer-rke2:v1.35.2-rke2r1,0,0,0
 rancher/system-agent:v0.3.15-rc.3-suc,3,7,10
 rancher/system-upgrade-controller:v0.19.0,0,0,0
 rancher/turtles:v0.26.0-rc.6,0,0,0
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,7,7
-registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,6,6
+registry.k8s.io/sig-storage/snapshot-controller:v8.5.0,0,1,1
 registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,16,22
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,16,22
