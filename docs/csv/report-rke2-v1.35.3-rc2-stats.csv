@@ -15,4 +15,4 @@ rancher/kube-webhook-certgen:v1.14.5-hardened1,0,0,0
 rancher/mirrored-pause:3.6,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened1,0,0,0
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,1,1
-rancher/rke2-runtime:v1.35.3-rc2-rke2r1,0,8,8
+rancher/rke2-runtime:v1.35.3-rc2-rke2r1,0,7,7

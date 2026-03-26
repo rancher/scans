@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - RKE2 v1.35.3-rc2 version - CVE Scans - 2026-03-25</h1>
+<h1>SUSE Rancher - RKE2 v1.35.3-rc2 version - CVE Scans - 2026-03-26</h1>
 
 <h3>How to use this page</h3>
 
@@ -677,18 +677,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35.3-rc2</td>
 <td>bin/containerd</td>
-<td>github.com/docker/cli@v29.1.5+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.3-rc2-rke2r1</td>
-<td>false</td>
-<td>RKE2 v1.35.3-rc2</td>
-<td>bin/containerd</td>
 <td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
 <td>HIGH</td>
@@ -798,18 +786,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.35.3-rc2</td>
 <td>bin/kubelet</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.3-rc2-rke2r1</td>
-<td>false</td>
-<td>RKE2 v1.35.3-rc2</td>
-<td>bin/runc</td>
-<td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -1204,6 +1180,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rke2-runtime:v1.35.3-rc2-rke2r1</td>
 <td>false</td>
 <td>RKE2 v1.35.3-rc2</td>
+<td>bin/containerd</td>
+<td>github.com/docker/cli@v29.1.5+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.3-rc2-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.3-rc2</td>
 <td>bin/crictl</td>
 <td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
@@ -1234,6 +1222,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.3-rc2-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.3-rc2</td>
+<td>bin/runc</td>
+<td>stdlib@v1.24.13</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
