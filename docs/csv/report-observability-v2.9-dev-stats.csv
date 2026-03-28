@@ -5,11 +5,11 @@ quay.io/stackstate/kafka:3.9.1-6.7,1,13,14
 quay.io/stackstate/stackgraph-console:2.5-7.13.21,0,11,11
 quay.io/stackstate/stackgraph-hbase:2.5-7.13.21,0,8,8
 quay.io/stackstate/stackpacks:20260325085944-master-ab602c4-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260326142141-master-db491a8,0,16,16
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260326142141-master-db491a8,0,16,16
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260326142141-master-db491a8,0,16,16
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260326142141-master-db491a8-2.5,0,28,28
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260326142141-master-db491a8,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260327144011-master-e00e098,0,16,16
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260327144011-master-e00e098,0,16,16
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260327144011-master-e00e098,0,16,16
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260327144011-master-e00e098-2.5,0,28,28
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260327144011-master-e00e098,0,0,0
 quay.io/stackstate/suse-observability-mcp:20260326141755-fe7a6469,0,1,1
 quay.io/stackstate/tephra-server:2.5-7.13.21,0,8,8
 registry.rancher.com/suse-observability/clickhouse-backup:2.6.39-a7171eea-149-release,0,9,9
