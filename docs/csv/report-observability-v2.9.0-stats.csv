@@ -24,8 +24,8 @@ registry.rancher.com/suse-observability/stackstate-receiver:2.9.0,1,19,20
 registry.rancher.com/suse-observability/stackstate-server:2.9.0-2.5,1,32,33
 registry.rancher.com/suse-observability/stackstate-ui:2.9.0,0,5,5
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.25,0,5,5
-registry.rancher.com/suse-observability/suse-observability-borg:20260318165448-8cc501ea,0,3,3
-registry.rancher.com/suse-observability/suse-observability-mcp:20260320080627-affe318b,0,3,3
+registry.rancher.com/suse-observability/suse-observability-borg:20260318165448-8cc501ea,0,4,4
+registry.rancher.com/suse-observability/suse-observability-mcp:20260320080627-affe318b,0,4,4
 registry.rancher.com/suse-observability/tephra-server:2.5-7.13.18,0,26,26
 registry.rancher.com/suse-observability/victoria-metrics:v1.109.0-3d9ca9db-release-149,0,5,5
 registry.rancher.com/suse-observability/vmagent:v1.109.0-4a074fa6-release-143,0,5,5

@@ -135,7 +135,7 @@ rancher/harvester-cloud-provider:v0.2.5,0,13,13
 rancher/harvester-csi-driver:v0.2.2,3,45,48
 rancher/harvester-csi-driver:v0.2.3,3,29,32
 rancher/harvester-csi-driver:v0.2.4,3,19,22
-rancher/harvester-csi-driver:v0.2.6,0,2,2
+rancher/harvester-csi-driver:v0.2.6,0,8,8
 rancher/istio-installer:1.24.1-rancher1,2,44,46
 rancher/istio-installer:1.25.0-rancher1,2,38,40
 rancher/istio-installer:1.26.2-rancher1,2,33,35
@@ -391,11 +391,11 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,29,29
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.28.0,0,23,23
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,17,17
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,11,11
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,85,101
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,66,81
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,88,104
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,69,84
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,5,56,61
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,10,49,59
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,36,45
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,10,50,60
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,37,46
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,2,29,31
 rancher/mirrored-cloud-provider-vsphere:v1.31.0,0,10,10
 rancher/mirrored-cloud-provider-vsphere:v1.31.1,0,10,10
@@ -414,7 +414,7 @@ rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,2,18,20
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,2,11,13
+rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,2,12,14
 rancher/mirrored-grafana-grafana:11.5.5,2,7,9
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,5,5
@@ -424,11 +424,11 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,15,15
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,15,15
-rancher/mirrored-istio-install-cni:1.26.2-distroless,0,23,23
+rancher/mirrored-istio-install-cni:1.26.2-distroless,0,25,25
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,6,6
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,6,6
 rancher/mirrored-istio-pilot:1.26.2-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,7,7
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.26.2-distroless,0,14,14
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,2,14,16
@@ -523,7 +523,7 @@ rancher/nginx-ingress-controller:v1.13.4-hardened1,0,33,33
 rancher/nginx-ingress-controller:v1.13.5-hardened2,0,27,27
 rancher/nginx-ingress-controller:v1.14.3-hardened1,0,21,21
 rancher/nginx-ingress-controller:v1.14.3-hardened2,0,11,11
-rancher/nginx-ingress-controller:v1.14.3-hardened3,0,2,2
+rancher/nginx-ingress-controller:v1.14.3-hardened3,0,5,5
 rancher/prom-prometheus:v3.2.1,0,14,14
 rancher/prometheus-federator:v4.2.1,0,6,6
 rancher/pushprox-client:v0.1.5-rancher2-client,2,9,11
