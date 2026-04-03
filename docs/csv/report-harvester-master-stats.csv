@@ -16,7 +16,7 @@ longhornio/longhorn-share-manager:v1.11.1,0,7,7
 longhornio/longhorn-ui:v1.11.1,0,4,4
 longhornio/support-bundle-kit:v0.0.81,0,6,6
 rancher/appco-alertmanager:0.28.1-12.7,0,4,4
-rancher/appco-grafana:12.1.1-2.2,3,18,21
+rancher/appco-grafana:12.1.1-2.2,3,21,24
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,14,15
 rancher/appco-kube-state-metrics:2.17.0-10.7,0,5,5
 rancher/appco-node-exporter:1.9.1-11.3,0,5,5
@@ -66,7 +66,7 @@ rancher/mirrored-fluent-fluent-bit:3.1.8,2,18,20
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,5,5
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,6,6
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,20,23
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,23,26
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,5,5
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,10,12
 rancher/mirrored-library-busybox:1.37.0,0,0,0

@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.14.0,0,0,0
 rancher/appco-alertmanager:0.30.0-12.15,0,4,4
-rancher/appco-grafana:12.3.1-1.6,0,8,8
+rancher/appco-grafana:12.3.1-1.6,0,11,11
 rancher/appco-k8s-sidecar:2.1.2-1.10,1,9,10
 rancher/appco-kube-rbac-proxy:0.20.1-16.14,0,4,4
 rancher/appco-kube-state-metrics:2.17.0-10.11,0,3,3
@@ -356,7 +356,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,1,1
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,6,6
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,20,23
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,23,26
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,5,5
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,2,15,17
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,10,12

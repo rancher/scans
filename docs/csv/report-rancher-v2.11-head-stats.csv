@@ -420,8 +420,8 @@ rancher/mirrored-coreos-etcd:v3.5.16,0,16,16
 rancher/mirrored-curlimages-curl:8.9.1,2,10,12
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
-rancher/mirrored-flannel-flannel:v0.25.1,2,23,25
-rancher/mirrored-flannel-flannel:v0.26.4,2,17,19
+rancher/mirrored-flannel-flannel:v0.25.1,2,22,24
+rancher/mirrored-flannel-flannel:v0.26.4,2,16,18
 rancher/mirrored-fluent-fluent-bit:3.1.8,2,18,20
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,2,12,14
@@ -458,7 +458,7 @@ rancher/mirrored-kiali-kiali:v1.89.3,0,16,16
 rancher/mirrored-kiali-kiali:v2.1.0,0,20,20
 rancher/mirrored-kiali-kiali:v2.7.1,0,20,20
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,6,6
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,20,23
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,23,26
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,5,5
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,7,7
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,2,15,17
