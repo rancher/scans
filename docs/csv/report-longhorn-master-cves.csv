@@ -1,4 +1,5 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:master-head,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),1.34-150000.3.37.1,false,affected,
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,google.golang.org/grpc,v1.72.1,gobinary,CVE-2026-33186,HIGH,https://avd.aquasec.com/nvd/cve-2026-33186,csi-attacher,1.79.3,false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,stdlib,v1.24.11,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,csi-attacher,"1.24.13, 1.25.7, 1.26.0-rc.3",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/csi-attacher:v4.10.0-20251226,longhorn/master,stdlib,v1.24.11,gobinary,CVE-2025-61726,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-61726,csi-attacher,"1.24.12, 1.25.6",false,affected,severity_changed_due_to_suse_cvss_score
@@ -44,7 +45,14 @@ longhornio/livenessprobe:v2.17.0-20251226,longhorn/master,stdlib,v1.24.11,gobina
 longhornio/livenessprobe:v2.17.0-20251226,longhorn/master,stdlib,v1.24.11,gobinary,CVE-2026-25679,LOW,https://avd.aquasec.com/nvd/cve-2026-25679,livenessprobe,"1.25.8, 1.26.1",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/livenessprobe:v2.17.0-20251226,longhorn/master,stdlib,v1.24.11,gobinary,CVE-2025-61730,LOW,https://avd.aquasec.com/nvd/cve-2025-61730,livenessprobe,"1.24.12, 1.25.6",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/livenessprobe:v2.17.0-20251226,longhorn/master,stdlib,v1.24.11,gobinary,CVE-2025-61728,HIGH,https://avd.aquasec.com/nvd/cve-2025-61728,livenessprobe,"1.24.12, 1.25.6",false,not_affected,vulnerable_code_not_present
+longhornio/longhorn-cli:master-head,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/longhorn-cli:master-head (sles 15.7),1.34-150000.3.37.1,false,affected,
+longhornio/longhorn-engine:master-head,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/longhorn-engine:master-head (sles 15.7),1.34-150000.3.37.1,false,affected,
+longhornio/longhorn-engine:master-head,longhorn/master,github.com/go-jose/go-jose/v4,v4.1.3,gobinary,CVE-2026-34986,HIGH,https://avd.aquasec.com/nvd/cve-2026-34986,usr/local/bin/grpc_health_probe,4.1.4,false,affected,
 longhornio/longhorn-engine:master-head,longhorn/master,github.com/moby/moby,v26.1.5+incompatible,gobinary,CVE-2026-34040,HIGH,https://avd.aquasec.com/nvd/cve-2026-34040,usr/local/bin/longhorn,29.3.1,false,affected,
+longhornio/longhorn-instance-manager:master-head,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/longhorn-instance-manager:master-head (sles 15.7),1.34-150000.3.37.1,false,affected,
+longhornio/longhorn-instance-manager:master-head,longhorn/master,github.com/go-jose/go-jose/v4,v4.1.3,gobinary,CVE-2026-34986,HIGH,https://avd.aquasec.com/nvd/cve-2026-34986,usr/local/bin/grpc_health_probe,4.1.4,false,affected,
+longhornio/longhorn-share-manager:master-head,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.7),1.34-150000.3.37.1,false,affected,
+longhornio/longhorn-ui:master-head,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),1.34-150000.3.37.1,false,affected,
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,curl,8.14.1-150700.7.11.1,sles,SUSE-SU-2026:0903-1,HIGH,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),8.14.1-150700.7.14.1,false,affected,
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,glibc,2.38-150600.14.37.1,sles,SUSE-SU-2026:0371-1,HIGH,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),2.38-150600.14.40.1,false,affected,
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,gpg2,2.4.4-150600.3.9.1,sles,SUSE-SU-2026:0215-1,HIGH,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),2.4.4-150600.3.12.1,false,affected,
@@ -57,6 +65,7 @@ longhornio/support-bundle-kit:v0.0.79,longhorn/master,libopenssl3,3.2.3-150700.5
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,libsystemd0,254.27-150600.4.46.2,sles,SUSE-SU-2026:1040-1,HIGH,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),254.27-150600.4.62.1,false,affected,
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,libudev1,254.27-150600.4.46.2,sles,SUSE-SU-2026:1040-1,HIGH,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),254.27-150600.4.62.1,false,affected,
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,openssl-3,3.2.3-150700.5.21.1,sles,SUSE-SU-2026:0309-1,CRITICAL,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),3.2.3-150700.5.24.1,false,affected,
+longhornio/support-bundle-kit:v0.0.79,longhorn/master,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,longhornio/support-bundle-kit:v0.0.79 (sles 15.7),1.34-150000.3.37.1,false,affected,
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,google.golang.org/grpc,v1.71.1,gobinary,CVE-2026-33186,HIGH,https://avd.aquasec.com/nvd/cve-2026-33186,usr/bin/support-bundle-kit,1.79.3,false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,stdlib,v1.25.5,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,usr/bin/support-bundle-kit,"1.24.13, 1.25.7, 1.26.0-rc.3",false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/support-bundle-kit:v0.0.79,longhorn/master,stdlib,v1.25.5,gobinary,CVE-2025-61726,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-61726,usr/bin/support-bundle-kit,"1.24.12, 1.25.6",false,affected,severity_changed_due_to_suse_cvss_score
