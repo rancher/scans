@@ -50,7 +50,7 @@ rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:master-head,0,2,2
 rancher/harvester-seeder:main-head,3,9,12
-rancher/harvester-upgrade:master-head,1,23,24
+rancher/harvester-upgrade:master-head,1,25,26
 rancher/harvester-vm-import-controller:main-head,0,0,0
 rancher/harvester-webhook:master-head,0,6,6
 rancher/harvester:master-head,0,6,6
@@ -68,7 +68,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,6,6
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,3,23,26
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,5,5
-rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,10,12
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4,0,3,3
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,5,15,20
 rancher/mirrored-pause:3.6,0,0,0
