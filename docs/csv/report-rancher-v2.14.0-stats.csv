@@ -330,11 +330,11 @@ rancher/mirrored-cilium-operator-generic:v1.18.6,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.19.0,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.19.1,0,2,2
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,79,94
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,5,56,61
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,1,30,31
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,9,61,70
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,5,35,40
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,9,41,50
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,2,29,31
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,0,16,16
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,5,30,35
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,3,17,20
 rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,7,7
 rancher/mirrored-cloud-provider-vsphere:v1.34.0,0,6,6
 rancher/mirrored-cloud-provider-vsphere:v1.35.0,0,6,6
@@ -415,7 +415,7 @@ rancher/neuvector-enforcer:5.5.0,0,14,14
 rancher/neuvector-manager:5.5.0,0,1,1
 rancher/neuvector-prometheus-exporter:1.0.11,0,4,4
 rancher/neuvector-registry-adapter:0.2.4,0,3,3
-rancher/neuvector-scanner:6,0,4,4
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.9,0,1,1
 rancher/nginx-ingress-controller:v1.12.4-hardened2,0,44,44
 rancher/nginx-ingress-controller:v1.12.4-hardened7,0,42,42
