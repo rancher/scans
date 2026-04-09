@@ -423,7 +423,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.4,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,3,3
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,1,1
 rancher/mirrored-istio-install-cni:1.24.1-distroless,0,16,16
-rancher/mirrored-istio-install-cni:1.25.0-distroless,0,14,14
+rancher/mirrored-istio-install-cni:1.25.0-distroless,0,16,16
 rancher/mirrored-istio-install-cni:1.26.2-distroless,0,26,26
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,8,8
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,8,8
@@ -570,4 +570,4 @@ rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.9-rke2r1,0,0,0
 rancher/system-agent:v0.3.13-suc,3,15,18
 rancher/system-upgrade-controller:v0.16.3,0,5,5
-rancher/ui-plugin-catalog:4.11.0,0,33,33
+rancher/ui-plugin-catalog:4.12.0,0,33,33
