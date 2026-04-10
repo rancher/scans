@@ -1,5 +1,5 @@
 image,critical,high,total
-quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-153-release,0,11,11
+quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-153-release,0,12,12
 quay.io/stackstate/clickhouse:25.9.5-c65c568c-release-163,0,0,0
 quay.io/stackstate/container-tools:1.8.4-644,0,14,14
 quay.io/stackstate/elasticsearch-exporter:v1.8.0-58570ea7-release-163,0,5,5
@@ -20,13 +20,13 @@ quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260408145504-master-a
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260408145504-master-ad7b3a6,0,10,10
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260408145504-master-ad7b3a6-2.5,0,23,23
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260408145504-master-ad7b3a6,0,3,3
-quay.io/stackstate/sts-opentelemetry-collector:v0.0.29,0,4,4
+quay.io/stackstate/sts-opentelemetry-collector:v0.0.29,0,5,5
 quay.io/stackstate/suse-observability-mcp:20260326141755-fe7a6469,0,4,4
 quay.io/stackstate/tephra-server:2.5-7.13.22,0,11,11
 quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-150,0,5,5
 quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-144,0,5,5
-quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63,0,24,24
-quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-46,0,6,6
+quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63,0,25,25
+quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-46,0,7,7
 quay.io/stackstate/wait:1.0.12-9657337c-release-189,0,1,1
 quay.io/stackstate/workload-observer:ab88e7da-112-release,0,1,1
 quay.io/stackstate/zookeeper:3.9.3-352e04a1-303-release,0,5,5
