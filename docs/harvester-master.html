@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Harvester master version - CVE Scans - 2026-04-10</h1>
+<h1>SUSE Rancher - Harvester master version - CVE Scans - 2026-04-11</h1>
 
 <h3>How to use this page</h3>
 
@@ -71,6 +71,30 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 7 )">Status</th>
 <th onclick="sort( 8 )">Justification (for status not affected)</th>
 <th onclick="sort( 9 )">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
 </tr>
 <tr class="issue">
 <td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3</td>
@@ -269,18 +293,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-cmd</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>kubeovn/kube-ovn:v1.14.10</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>kube-ovn/kube-ovn-cmd</td>
 <td>google.golang.org/grpc@v1.73.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -380,18 +392,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>kubeovn/kube-ovn:v1.14.10</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>kube-ovn/kube-ovn-controller</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -511,18 +511,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>kube-ovn/kube-ovn-daemon</td>
 <td>github.com/docker/docker@v28.3.3+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>kubeovn/kube-ovn:v1.14.10</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>kube-ovn/kube-ovn-daemon</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -1100,18 +1088,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-snapshotter:v8.5.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>csi-snapshotter</td>
-<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1841,18 +1817,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/support-bundle-kit</td>
-<td>go.opentelemetry.io/otel/sdk@v1.41.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.81</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
 <td>google.golang.org/grpc@v1.71.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -2048,18 +2012,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>github.com/openfga/openfga@v1.8.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-64751.html">CVE-2025-64751</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/appco-grafana:12.1.1-2.2</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/share/grafana/bin/grafana</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -2693,18 +2645,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/kube-state-metrics</td>
-<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/appco-kube-state-metrics:2.17.0-10.7</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/kube-state-metrics</td>
 <td>google.golang.org/grpc@v1.68.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -2909,18 +2849,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>manager</td>
-<td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/cluster-api-controller:v1.12.2</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>manager</td>
 <td>google.golang.org/grpc@v1.72.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -3025,6 +2953,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/fleet-agent:v0.15.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/fleetagent</td>
+<td>helm.sh/helm/v4@v4.1.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-35204">CVE-2026-35204</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet-agent:v0.15.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/fleetagent</td>
+<td>helm.sh/helm/v4@v4.1.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-35205">CVE-2026-35205</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/fleet:v0.15.0</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -3059,6 +3011,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.15.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/fleet</td>
+<td>helm.sh/helm/v4@v4.1.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-35204">CVE-2026-35204</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.15.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/fleet</td>
+<td>helm.sh/helm/v4@v4.1.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-35205">CVE-2026-35205</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.15.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/fleetcontroller</td>
+<td>helm.sh/helm/v4@v4.1.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-35204">CVE-2026-35204</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.15.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/fleetcontroller</td>
+<td>helm.sh/helm/v4@v4.1.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-35205">CVE-2026-35205</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-addon-resizer:1.8.23-build20260206</td>
@@ -3344,18 +3344,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>google.golang.org/grpc@v1.72.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-calico:v3.31.3-build20260206</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/kube-controllers</td>
-<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -3653,18 +3641,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>coredns</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-coredns:v1.14.1-build20260206</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>coredns</td>
 <td>google.golang.org/grpc@v1.78.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -3737,18 +3713,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>node-cache</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-dns-node-cache:1.26.7-build20260206</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>node-cache</td>
 <td>google.golang.org/grpc@v1.75.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -3764,18 +3728,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-etcd:v3.6.7-k3s1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/etcd</td>
-<td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -3857,18 +3809,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>metrics-server</td>
-<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-k8s-metrics-server:v0.8.1-build20260206</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>metrics-server</td>
 <td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -3941,57 +3881,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/kube-apiserver</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-apiserver</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-apiserver</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-controller-manager</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -4013,57 +3905,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/kube-proxy</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-proxy</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-proxy</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kube-scheduler</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -4088,30 +3932,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kubelet</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/kubelet</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -4184,18 +4004,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-snapshot-controller:v8.4.0-build20260205</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>snapshot-controller</td>
-<td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -5070,8 +4878,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/elemental</td>
 <td>github.com/distribution/distribution@v2.8.1+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-33540">CVE-2026-33540</a></td>
-<td>HIGH</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33540.html">CVE-2026-33540</a></td>
+<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -5200,18 +5008,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-upgrade:master-head</td>
 <td>false</td>
 <td>Harvester master</td>
-<td>usr/local/bin/elemental</td>
-<td>stdlib@v1.25.7</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-upgrade:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
 <td>usr/local/bin/upgrade-helper</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
@@ -5309,18 +5105,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/harvester-webhook</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-webhook:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/harvester-webhook</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -5405,24 +5189,36 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/harvester</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/harvester</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.14-build20260210</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.9.14-build20260210</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
 </tr>
 <tr class="issue">
 <td>rancher/klipper-helm:v0.9.14-build20260210</td>
@@ -5495,6 +5291,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-lb:v0.4.14</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-lb:v0.4.14</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
 </tr>
 <tr class="issue">
 <td>rancher/kubectl:v1.32.3</td>
@@ -7084,6 +6904,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full</td>
 <td>true</td>
 <td>Harvester master</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.3.3-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full</td>
+<td>true</td>
+<td>Harvester master</td>
 <td>libssl3</td>
 <td>libssl3@3.3.3-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-15467.html">CVE-2025-15467</a></td>
@@ -7111,6 +6943,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>libssl3</td>
 <td>libssl3@3.3.3-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-69421.html">CVE-2025-69421</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full</td>
+<td>true</td>
+<td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.3.3-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -7492,6 +7336,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4</td>
 <td>true</td>
 <td>Harvester master</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4</td>
+<td>true</td>
+<td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.5.5-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4</td>
+<td>true</td>
+<td>Harvester master</td>
 <td>zlib</td>
 <td>zlib@1.3.1-r2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
@@ -7567,6 +7435,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcrypto3</td>
 <td>libcrypto3@3.5.1-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-69421.html">CVE-2025-69421</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-nginx:1.29.1-alpine</td>
+<td>true</td>
+<td>Harvester master</td>
+<td>libcrypto3</td>
+<td>libcrypto3@3.5.1-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -7720,6 +7600,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-library-nginx:1.29.1-alpine</td>
 <td>true</td>
 <td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.5.1-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-nginx:1.29.1-alpine</td>
+<td>true</td>
+<td>Harvester master</td>
 <td>libxml2</td>
 <td>libxml2@2.13.8-r0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-49794.html">CVE-2025-49794</a></td>
@@ -7775,18 +7667,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0</td>
-<td>true</td>
-<td>Harvester master</td>
-<td>adapter</td>
-<td>go.opentelemetry.io/otel/sdk@v1.21.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0</td>
@@ -8321,18 +8201,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>bin/prometheus</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prom-prometheus:v3.5.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/prometheus</td>
 <td>google.golang.org/grpc@v1.73.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -8443,18 +8311,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/promtool</td>
 <td>github.com/docker/docker@v28.2.2+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prom-prometheus:v3.5.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/promtool</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -8599,18 +8455,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/agent</td>
 <td>github.com/russellhaering/goxmldsig@v1.4.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-33487">CVE-2026-33487</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rancher-agent:v2.14.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/agent</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -9029,18 +8873,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/containerd</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rancher:v2.14.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/containerd</td>
 <td>google.golang.org/grpc@v1.72.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -9068,18 +8900,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rancher:v2.14.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/containerd-shim-runc-v2</td>
-<td>google.golang.org/grpc@v1.73.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -9281,18 +9101,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/k3s</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rancher:v2.14.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/k3s</td>
 <td>google.golang.org/grpc@v1.72.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -9365,18 +9173,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/rancher</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rancher:v2.14.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/rancher</td>
 <td>google.golang.org/grpc@v1.79.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -9416,18 +9212,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>github.com/buger/jsonparser@v1.1.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32285.html">CVE-2026-32285</a></td>
 <td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rancher:v2.14.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/share/rancher/ui/assets/wins.exe</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -9521,18 +9305,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/rke2-cloud-provider</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/local/bin/rke2-cloud-provider</td>
 <td>google.golang.org/grpc@v1.72.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -9569,45 +9341,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>bin/containerd</td>
-<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/containerd</td>
-<td>google.golang.org/grpc@v1.73.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/containerd</td>
 <td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/containerd-shim-runc-v2</td>
-<td>google.golang.org/grpc@v1.73.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -9641,33 +9377,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>bin/crictl</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/crictl</td>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/ctr</td>
-<td>google.golang.org/grpc@v1.73.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -9692,30 +9404,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/kubelet</td>
-<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/kubelet</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -9773,8 +9461,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/k9s</td>
-<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>github.com/hashicorp/go-getter@v1.8.3</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-4660">CVE-2026-4660</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -10057,18 +9745,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>rancher/support-bundle-kit:master-head</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>go.opentelemetry.io/otel/sdk@v1.41.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/system-agent-installer-rancher:v2.14.0</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -10088,18 +9764,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/system-agent:v0.3.15-suc</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>opt/rancher-system-agent-suc/rancher-system-agent</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -10229,18 +9893,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>bin/descheduler</td>
-<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.k8s.io/descheduler/descheduler:v0.33.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>bin/descheduler</td>
 <td>google.golang.org/grpc@v1.68.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
@@ -10352,18 +10004,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.24.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.k8s.io/sig-storage/snapshot-controller:v8.5.0</td>
-<td>false</td>
-<td>Harvester master</td>
-<td>snapshot-controller</td>
-<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -13350,7 +12990,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>ip-control-loop</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13362,7 +13002,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>ip-control-loop</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13386,7 +13026,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>node-slice-controller</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13398,7 +13038,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>node-slice-controller</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13422,7 +13062,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>whereabouts</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13434,7 +13074,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>whereabouts</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13482,7 +13122,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13505,6 +13145,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-cmd</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.14.10</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>kube-ovn/kube-ovn-cmd</td>
 <td>stdlib@v1.25.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
 <td>none</td>
@@ -13542,7 +13194,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-cmd</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13565,6 +13217,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-controller</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.14.10</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>kube-ovn/kube-ovn-controller</td>
 <td>stdlib@v1.25.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
 <td>none</td>
@@ -13602,7 +13266,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-controller</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13637,6 +13301,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-daemon</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.14.10</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>kube-ovn/kube-ovn-daemon</td>
 <td>stdlib@v1.25.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
 <td>none</td>
@@ -13674,7 +13350,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>kube-ovn/kube-ovn-daemon</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13902,7 +13578,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>loopback</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13914,7 +13590,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>loopback</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -13926,7 +13602,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>loopback</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14154,7 +13830,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>macvlan</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14166,7 +13842,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>macvlan</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14178,7 +13854,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>macvlan</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14406,7 +14082,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>portmap</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14418,7 +14094,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>portmap</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14430,7 +14106,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>portmap</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14478,7 +14154,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/gobgp</td>
 <td>stdlib@v1.25.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14490,7 +14166,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/backing-image-manager</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14514,7 +14190,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>csi-attacher</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14526,7 +14202,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14550,7 +14226,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>csi-provisioner</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14574,7 +14250,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>csi-resizer</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-snapshotter:v8.5.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>csi-snapshotter</td>
+<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14598,7 +14286,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>csi-snapshotter</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14622,7 +14310,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>livenessprobe</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14646,7 +14334,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14658,7 +14346,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/longhorn</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14670,7 +14358,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/longhorn-instance-manager</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14694,7 +14382,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/grpc_health_probe</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14706,7 +14394,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/longhorn-instance-manager</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14718,7 +14406,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/sbin/longhorn-manager</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -14730,7 +14418,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>longhorn-share-manager</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.81</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/support-bundle-kit</td>
+<td>go.opentelemetry.io/otel/sdk@v1.41.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14742,7 +14442,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/support-bundle-kit</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14778,7 +14478,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/yq</td>
 <td>stdlib@v1.26.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -14790,7 +14490,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/yq</td>
 <td>stdlib@v1.26.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14802,7 +14502,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/yq</td>
 <td>stdlib@v1.26.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14897,6 +14597,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/share/grafana/bin/grafana</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/appco-grafana:12.1.1-2.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/share/grafana/bin/grafana</td>
 <td>golang.org/x/crypto@v0.39.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
 <td>none</td>
@@ -14923,6 +14635,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/kube-state-metrics</td>
 <td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/appco-kube-state-metrics:2.17.0-10.7</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/kube-state-metrics</td>
+<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -14981,6 +14705,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>manager</td>
+<td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/cluster-api-controller:v1.12.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>manager</td>
 <td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
 <td>none</td>
@@ -15006,7 +14742,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>manager</td>
 <td>stdlib@v1.24.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15066,7 +14802,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>pod_nanny</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15078,7 +14814,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>pod_nanny</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15114,7 +14850,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>calicoctl</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15126,7 +14862,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>calicoctl</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15138,7 +14874,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>calicoctl</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15150,7 +14886,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/bandwidth</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15186,7 +14922,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/bridge</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15222,7 +14958,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/calico</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15234,7 +14970,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/calico</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15246,7 +14982,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/calico</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15282,7 +15018,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/calico-ipam</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15294,7 +15030,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/calico-ipam</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15306,7 +15042,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/calico-ipam</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15318,7 +15054,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/dhcp</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15330,7 +15066,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/dummy</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15342,7 +15078,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/firewall</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15378,7 +15114,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/host-device</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15390,7 +15126,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/host-local</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15426,7 +15162,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/install</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15438,7 +15174,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/install</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15450,7 +15186,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/install</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15462,7 +15198,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/ipvlan</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15474,7 +15210,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/loopback</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15486,7 +15222,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/macvlan</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15498,7 +15234,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/portmap</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15510,7 +15246,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/ptp</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15522,7 +15258,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/sbr</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15534,7 +15270,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/static</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15558,7 +15294,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/tap</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15570,7 +15306,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/tuning</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15582,7 +15318,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/vlan</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15594,7 +15330,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/vrf</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15630,7 +15366,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/calico-node</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15642,7 +15378,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/calico-node</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15654,7 +15390,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/calico-node</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15690,7 +15426,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/check-status</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15702,7 +15438,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/check-status</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15714,7 +15450,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/check-status</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15737,6 +15473,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/bin/kube-controllers</td>
+<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.31.3-build20260206</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/kube-controllers</td>
 <td>stdlib@v1.24.13</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td>none</td>
@@ -15762,7 +15510,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/kube-controllers</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15774,7 +15522,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/kube-controllers</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15786,7 +15534,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/kube-controllers</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15822,7 +15570,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/flexvol/flexvoldriver</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15834,7 +15582,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/flexvol/flexvoldriver</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15846,7 +15594,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/flexvol/flexvoldriver</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15894,7 +15642,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>cluster-proportional-autoscaler</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15906,7 +15654,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>cluster-proportional-autoscaler</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15918,7 +15666,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/bandwidth</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15954,7 +15702,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/bridge</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15966,7 +15714,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/dhcp</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15978,7 +15726,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/dummy</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -15990,7 +15738,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/firewall</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16026,7 +15774,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/host-device</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16038,7 +15786,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/host-local</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16050,7 +15798,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/ipvlan</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16062,7 +15810,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/loopback</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16074,7 +15822,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/macvlan</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16086,7 +15834,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/portmap</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16098,7 +15846,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/ptp</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16110,7 +15858,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/sbr</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16122,7 +15870,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/static</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16146,7 +15894,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/tap</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16158,7 +15906,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/tuning</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16170,7 +15918,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/vlan</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16182,7 +15930,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/cni/bin/vrf</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16195,6 +15943,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>coredns</td>
 <td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-coredns:v1.14.1-build20260206</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>coredns</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16219,6 +15979,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>node-cache</td>
 <td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-dns-node-cache:1.26.7-build20260206</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>node-cache</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16265,6 +16037,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/etcd</td>
+<td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.7-k3s1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/etcd</td>
 <td>golang.org/x/crypto@v0.42.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
 <td>none</td>
@@ -16290,7 +16074,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/etcd</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16326,7 +16110,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/etcdctl</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16350,7 +16134,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/bin/flanneld</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16363,6 +16147,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>metrics-server</td>
 <td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-k8s-metrics-server:v0.8.1-build20260206</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>metrics-server</td>
+<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16410,7 +16206,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>metrics-server</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16432,9 +16228,57 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kube-apiserver</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>usr/local/bin/kube-controller-manager</td>
 <td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kube-controller-manager</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16456,9 +16300,57 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kube-proxy</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>usr/local/bin/kube-scheduler</td>
 <td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kube-scheduler</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16477,12 +16369,36 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kubelet</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/kubelet</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-multus-cni:v4.2.3-build20260206</td>
 <td>false</td>
 <td>Harvester master</td>
 <td>cert-approver</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16494,7 +16410,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>install_multus</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16518,7 +16434,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>kubeconfig_generator</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16530,7 +16446,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>thin_entrypoint</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16554,7 +16470,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/src/multus-cni/bin/multus</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16567,6 +16483,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>snapshot-controller</td>
 <td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-snapshot-controller:v8.4.0-build20260205</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>snapshot-controller</td>
+<td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16602,7 +16530,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>snapshot-controller</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16662,7 +16590,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/eventrouter</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16674,7 +16602,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/eventrouter</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -16722,7 +16650,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-load-balancer-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16734,7 +16662,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-load-balancer-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16758,7 +16686,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-load-balancer</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16770,7 +16698,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-load-balancer</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16794,7 +16722,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-network-controller</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16806,7 +16734,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-network-controller</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16830,7 +16758,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-network-helper</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16842,7 +16770,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-network-helper</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16890,7 +16818,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-network-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16902,7 +16830,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-network-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16926,7 +16854,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/networkfs-manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16938,7 +16866,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/networkfs-manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16962,7 +16890,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/node-disk-manager-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -16974,7 +16902,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/node-disk-manager-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -16998,7 +16926,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/node-disk-manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -17010,7 +16938,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/node-disk-manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17046,7 +16974,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-node-manager-webhook</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17058,7 +16986,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/harvester-node-manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17154,7 +17082,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17166,7 +17094,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/manager</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17514,7 +17442,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/harvester-installer</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -17526,7 +17454,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/local/bin/harvester-installer</td>
 <td>stdlib@v1.25.8</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17550,7 +17478,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/vm-import-controller</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17587,6 +17515,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/harvester-webhook</td>
 <td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-webhook:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/harvester-webhook</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17635,6 +17575,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/harvester</td>
 <td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/harvester</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17694,7 +17646,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -17706,7 +17658,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -17922,7 +17874,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/kuberlr</td>
 <td>stdlib@v1.24.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -17934,7 +17886,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/kuberlr</td>
 <td>stdlib@v1.24.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -18102,7 +18054,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/kuberlr</td>
 <td>stdlib@v1.24.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18114,7 +18066,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/kuberlr</td>
 <td>stdlib@v1.24.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -18186,7 +18138,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/kuberlr</td>
 <td>stdlib@v1.24.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18198,7 +18150,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/kuberlr</td>
 <td>stdlib@v1.24.4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -18294,7 +18246,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>manager</td>
 <td>stdlib@v1.23.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18307,6 +18259,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>adapter</td>
 <td>go.opentelemetry.io/otel/sdk@v1.21.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0</td>
+<td>true</td>
+<td>Harvester master</td>
+<td>adapter</td>
+<td>go.opentelemetry.io/otel/sdk@v1.21.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18498,7 +18462,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>adapter</td>
 <td>stdlib@v1.22.2</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18558,7 +18522,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/admission-webhook</td>
 <td>stdlib@v1.24.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18702,7 +18666,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/prometheus-config-reloader</td>
 <td>stdlib@v1.23.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18762,7 +18726,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/operator</td>
 <td>stdlib@v1.24.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18775,6 +18739,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/prometheus</td>
 <td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/prom-prometheus:v3.5.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/prometheus</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18846,7 +18822,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/prometheus</td>
 <td>stdlib@v1.24.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -18859,6 +18835,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/promtool</td>
 <td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/prom-prometheus:v3.5.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/promtool</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -18930,7 +18918,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/promtool</td>
 <td>stdlib@v1.24.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -18949,6 +18937,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/rancher-agent:v2.14.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/agent</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/rancher:v2.14.0</td>
 <td>false</td>
 <td>Harvester master</td>
@@ -18990,7 +18990,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
 <td>stdlib@v1.25.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -19036,9 +19036,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rancher:v2.14.0</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>usr/bin/containerd</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.14.0</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>usr/bin/containerd-shim-runc-v2</td>
 <td>github.com/containerd/containerd/v2@v2.1.5-k3s1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-25621.html">CVE-2024-25621</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.14.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/containerd-shim-runc-v2</td>
+<td>google.golang.org/grpc@v1.73.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19098,7 +19122,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/etcdctl</td>
 <td>stdlib@v1.24.11</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19144,9 +19168,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rancher:v2.14.0</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>usr/bin/k3s</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.14.0</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>usr/bin/rancher</td>
 <td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.14.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/rancher</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19230,7 +19278,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/runc</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -19242,7 +19290,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/runc</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19254,7 +19302,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>usr/bin/runc</td>
 <td>stdlib@v1.25.6</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19279,6 +19327,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/share/rancher/ui/assets/wins.exe</td>
 <td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.14.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/share/rancher/ui/assets/wins.exe</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19313,8 +19373,20 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/rke2-cloud-provider</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -19373,6 +19445,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>bin/containerd</td>
+<td>go.opentelemetry.io/otel/sdk@v1.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/containerd</td>
 <td>golang.org/x/crypto@v0.36.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
 <td>none</td>
@@ -19396,9 +19480,33 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>bin/containerd</td>
+<td>google.golang.org/grpc@v1.73.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>bin/containerd-shim-runc-v2</td>
 <td>github.com/containerd/containerd/v2@v2.1.5-k3s1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2024-25621.html">CVE-2024-25621</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>google.golang.org/grpc@v1.73.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19423,6 +19531,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/crictl</td>
 <td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/crictl</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19458,7 +19578,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/crictl</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19492,9 +19612,45 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>bin/ctr</td>
+<td>google.golang.org/grpc@v1.73.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>bin/kubelet</td>
 <td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/kubelet</td>
+<td>go.opentelemetry.io/otel/sdk@v1.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.2-rke2r1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/kubelet</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19530,7 +19686,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/runc</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32281">CVE-2026-32281</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32281.html">CVE-2026-32281</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -19542,7 +19698,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/runc</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19554,7 +19710,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/runc</td>
 <td>stdlib@v1.24.13</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32289">CVE-2026-32289</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19601,6 +19757,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester master</td>
 <td>usr/local/bin/k9s</td>
+<td>go.opentelemetry.io/otel/sdk@v1.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/shell:v0.7.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/local/bin/k9s</td>
 <td>google.golang.org/grpc@v1.74.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td>none</td>
@@ -19630,6 +19798,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/support-bundle-kit:master-head</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>usr/bin/support-bundle-kit</td>
+<td>go.opentelemetry.io/otel/sdk@v1.41.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -19663,6 +19843,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>opt/rancher-system-agent-suc/rancher-system-agent</td>
 <td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/system-agent:v0.3.15-suc</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>opt/rancher-system-agent-suc/rancher-system-agent</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19710,7 +19902,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/system-upgrade-controller</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19723,6 +19915,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/descheduler</td>
 <td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.k8s.io/descheduler/descheduler:v0.33.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>bin/descheduler</td>
+<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19806,7 +20010,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>bin/descheduler</td>
 <td>stdlib@v1.24.2</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.k8s.io/sig-storage/snapshot-controller:v8.5.0</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>snapshot-controller</td>
+<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -19830,7 +20046,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester master</td>
 <td>snapshot-controller</td>
 <td>stdlib@v1.25.7</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32288">CVE-2026-32288</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
