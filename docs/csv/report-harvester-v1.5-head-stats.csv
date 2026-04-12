@@ -19,12 +19,12 @@ rancher/fleet-agent:v0.12.4,0,13,13
 rancher/fleet:v0.12.4,3,45,48
 rancher/gitjob:v0.9.8,0,56,56
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,5,5
-rancher/hardened-calico:v3.30.2-build20250711,1,18,19
+rancher/hardened-calico:v3.30.2-build20250711,1,12,13
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,5,5
 rancher/hardened-cni-plugins:v1.7.1-build20250611,0,3,3
 rancher/hardened-coredns:v1.12.2-build20250611,0,11,11
 rancher/hardened-dns-node-cache:1.26.0-build20250611,0,13,13
-rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,11,11
+rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,10,10
 rancher/hardened-flannel:v0.27.1-build20250710,3,45,48
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,5,5
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,44,44
