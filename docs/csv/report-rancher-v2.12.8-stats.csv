@@ -428,9 +428,9 @@ rancher/mirrored-istio-install-cni:1.26.2-distroless,0,26,26
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,8,8
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,8,8
 rancher/mirrored-istio-pilot:1.26.2-distroless,0,12,12
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,8,8
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,10,10
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,10,10
-rancher/mirrored-istio-proxyv2:1.26.2-distroless,0,13,13
+rancher/mirrored-istio-proxyv2:1.26.2-distroless,0,15,15
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,2,16,18
 rancher/mirrored-jaegertracing-all-in-one:1.67.0,2,13,15
 rancher/mirrored-jaegertracing-all-in-one:1.71.0,2,12,14

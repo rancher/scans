@@ -16,8 +16,8 @@ rancher/hardened-addon-resizer:1.8.23-build20250909,0,5,5
 rancher/hardened-addon-resizer:1.8.23-build20251016,0,3,3
 rancher/hardened-calico:v3.28.1-build20240911,3,41,44
 rancher/hardened-calico:v3.28.2-build20241016,3,73,76
-rancher/hardened-calico:v3.29.0-build20241104,3,70,73
-rancher/hardened-calico:v3.29.1-build20241211,3,34,37
+rancher/hardened-calico:v3.29.0-build20241104,3,69,72
+rancher/hardened-calico:v3.29.1-build20241211,3,33,36
 rancher/hardened-calico:v3.29.1-build20250110,3,68,71
 rancher/hardened-calico:v3.29.2-build20250218,3,155,158
 rancher/hardened-calico:v3.29.2-build20250306,3,154,157
@@ -430,7 +430,7 @@ rancher/mirrored-istio-proxyv2:1.19.6-distroless,0,19,19
 rancher/mirrored-istio-proxyv2:1.21.1-distroless,0,13,13
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,10,10
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,8,8
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,10,10
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,10,10
 rancher/mirrored-jaegertracing-all-in-one:1.52.0,0,19,19
 rancher/mirrored-jaegertracing-all-in-one:1.56.0,0,12,12
