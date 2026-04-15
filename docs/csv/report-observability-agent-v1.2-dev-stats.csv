@@ -1,7 +1,7 @@
 image,critical,high,total
 quay.io/stackstate/container-tools:1.8.4-644,0,17,17
 quay.io/stackstate/generic-sidecar-injector:638bbb3c-45-release,0,1,1
-quay.io/stackstate/kubernetes-rbac-agent:b67c9602-664-release,0,1,1
+quay.io/stackstate/kubernetes-rbac-agent:0ac70f3d-686-release,0,0,0
 quay.io/stackstate/stackstate-k8s-agent:99695b1a,0,11,11
 quay.io/stackstate/stackstate-k8s-cluster-agent:99695b1a,0,4,4
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:4091544b-205,0,9,9
