@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Observability v2.9 dev version - CVE Scans - 2026-04-15</h1>
+<h1>SUSE Rancher - Observability v2.9 dev version - CVE Scans - 2026-04-17</h1>
 
 <h3>How to use this page</h3>
 
@@ -73,7 +73,7 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>musl</td>
@@ -85,7 +85,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>musl-utils</td>
@@ -97,7 +97,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>zlib</td>
@@ -109,7 +109,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>bin/clickhouse-backup</td>
@@ -121,11 +121,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>bin/clickhouse-backup</td>
-<td>github.com/go-jose/go-jose/v4@v4.1.2</td>
+<td>github.com/buger/jsonparser@v1.1.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32285.html">CVE-2026-32285</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>bin/clickhouse-backup</td>
+<td>github.com/go-jose/go-jose/v4@v4.1.3</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34986">CVE-2026-34986</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -133,11 +145,35 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>bin/clickhouse-backup</td>
-<td>google.golang.org/grpc@v1.75.1</td>
+<td>go.opentelemetry.io/otel/sdk@v1.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>bin/clickhouse-backup</td>
+<td>go.opentelemetry.io/otel/sdk@v1.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>bin/clickhouse-backup</td>
+<td>google.golang.org/grpc@v1.79.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -145,59 +181,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
+<td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -205,11 +193,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
+<td>stdlib@v1.25.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -217,107 +205,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
+<td>stdlib@v1.25.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
 <td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
+<td>stdlib@v1.26.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -325,67 +229,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
+<td>quay.io/stackstate/clickhouse-backup:2.6.43-47a710b2-169-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>login_defs</td>
-<td>login_defs@4.8.1-150600.17.9.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/SUSE-RU-2026:1228-1">SUSE-RU-2026:1228-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>shadow</td>
-<td>shadow@4.8.1-150600.17.9.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/SUSE-RU-2026:1228-1">SUSE-RU-2026:1228-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>tar</td>
-<td>tar@1.34-150000.3.34.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20261177-1">SUSE-SU-2026:1177-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Python</td>
@@ -397,11 +265,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>python-pkg</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
-<td>github.com/docker/docker@v28.0.0+incompatible</td>
+<td>github.com/docker/cli@v26.0.2+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>usr/bin/sts-toolbox</td>
+<td>github.com/docker/docker@v28.0.4+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -409,95 +289,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
-<td>github.com/go-jose/go-jose/v4@v4.0.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34986">CVE-2026-34986</a></td>
+<td>go.opentelemetry.io/otel/sdk@v1.42.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
-<td>google.golang.org/grpc@v1.64.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
+<td>stdlib@v1.26.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -505,11 +313,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
+<td>stdlib@v1.26.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
 <td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -517,31 +325,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -553,7 +349,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -565,7 +361,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -577,7 +373,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -589,7 +385,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -601,7 +397,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -613,7 +409,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -625,7 +421,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -637,7 +433,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -649,7 +445,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -661,7 +457,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -673,7 +469,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -685,7 +481,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -697,7 +493,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -709,72 +505,12 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
 <td>stdlib@v1.25.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
@@ -2101,7 +1837,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>login_defs</td>
@@ -2113,7 +1849,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>shadow</td>
@@ -2125,7 +1861,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2137,7 +1873,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2149,7 +1885,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2161,7 +1897,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2173,7 +1909,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2185,7 +1921,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2197,7 +1933,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2209,7 +1945,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2221,7 +1957,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2233,7 +1969,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2245,7 +1981,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2257,7 +1993,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2269,7 +2005,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2281,7 +2017,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2293,7 +2029,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2305,7 +2041,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2317,7 +2053,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2329,7 +2065,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>login_defs</td>
@@ -2341,7 +2077,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>shadow</td>
@@ -2353,7 +2089,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2365,7 +2101,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2377,7 +2113,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2389,7 +2125,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2401,7 +2137,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2413,7 +2149,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2425,7 +2161,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2437,7 +2173,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2449,7 +2185,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2461,7 +2197,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2473,7 +2209,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2485,7 +2221,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2497,7 +2233,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2509,7 +2245,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2521,7 +2257,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2533,7 +2269,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2545,7 +2281,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2557,7 +2293,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>login_defs</td>
@@ -2569,7 +2305,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>shadow</td>
@@ -2581,7 +2317,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2593,7 +2329,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2605,7 +2341,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2617,7 +2353,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2629,7 +2365,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2641,7 +2377,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2653,7 +2389,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2665,7 +2401,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2677,7 +2413,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2689,7 +2425,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2701,7 +2437,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2713,7 +2449,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2725,7 +2461,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2737,7 +2473,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2749,7 +2485,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2761,7 +2497,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2773,7 +2509,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -2785,7 +2521,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>login_defs</td>
@@ -2797,7 +2533,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>shadow</td>
@@ -2809,7 +2545,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2821,7 +2557,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2833,7 +2569,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2845,7 +2581,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2857,7 +2593,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2869,7 +2605,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2881,7 +2617,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2893,7 +2629,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2905,7 +2641,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2917,7 +2653,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2929,7 +2665,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2941,7 +2677,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2953,7 +2689,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2965,7 +2701,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2977,7 +2713,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -2989,7 +2725,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -3001,7 +2737,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -3013,7 +2749,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>Java</td>
@@ -3025,7 +2761,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3037,7 +2773,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3049,7 +2785,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3061,7 +2797,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3073,7 +2809,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3085,7 +2821,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3097,7 +2833,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3109,7 +2845,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3121,7 +2857,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3133,7 +2869,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3145,7 +2881,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3157,7 +2893,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -3169,7 +2905,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>nginx</td>
@@ -3181,7 +2917,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>nginx</td>
@@ -3193,7 +2929,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>nginx</td>
@@ -3205,23 +2941,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.30</td>
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.31</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-opentelemetry-collector</td>
-<td>github.com/antchfx/xpath@v1.3.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-32287">CVE-2026-32287</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.30</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-opentelemetry-collector</td>
-<td>github.com/docker/docker@v28.5.1+incompatible</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -3229,25 +2953,13 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.30</td>
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.31</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-opentelemetry-collector</td>
-<td>github.com/expr-lang/expr@v1.17.6</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68156.html">CVE-2025-68156</a></td>
+<td>go.opentelemetry.io/otel/sdk@v1.42.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.30</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-opentelemetry-collector</td>
-<td>google.golang.org/grpc@v1.76.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -3469,59 +3181,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
+<td>quay.io/stackstate/victoria-metrics:v1.136.0-621be04a-release-155</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -3529,11 +3193,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
+<td>quay.io/stackstate/victoria-metrics:v1.136.0-621be04a-release-155</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27137.html">CVE-2026-27137</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/victoria-metrics:v1.136.0-621be04a-release-155</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -3541,347 +3217,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
+<td>quay.io/stackstate/victoria-metrics:v1.136.0-621be04a-release-155</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>libcrypto3</td>
-<td>libcrypto3@3.3.6-r0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>libssl3</td>
-<td>libssl3@3.3.6-r0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-28390.html">CVE-2026-28390</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>musl</td>
-<td>musl@1.2.5-r9</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-40200">CVE-2026-40200</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>musl-utils</td>
-<td>musl-utils@1.2.5-r9</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-40200">CVE-2026-40200</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>github.com/docker/docker@v28.0.0+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>github.com/go-jose/go-jose/v4@v4.0.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34986">CVE-2026-34986</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>google.golang.org/grpc@v1.64.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
 <td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -3889,131 +3229,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/victoria-metrics:v1.136.0-621be04a-release-155</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>stdlib@v1.24.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>github.com/sirupsen/logrus@v1.6.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-65637">CVE-2025-65637</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-24790.html">CVE-2024-24790</a></td>
+<td>victoria-metrics-prod</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
 <td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmagent:v1.136.0-068f508b-release-149</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-39325.html">CVE-2023-39325</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-45283.html">CVE-2023-45283</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-45288.html">CVE-2023-45288</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -4021,11 +3253,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmagent:v1.136.0-068f508b-release-149</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27137.html">CVE-2026-27137</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmagent:v1.136.0-068f508b-release-149</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -4033,119 +3277,155 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmagent:v1.136.0-068f508b-release-149</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-29409.html">CVE-2023-29409</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmagent:v1.136.0-068f508b-release-149</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-39326.html">CVE-2023-39326</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>vmagent-prod</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-45289.html">CVE-2023-45289</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>github.com/docker/cli@v26.0.2+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-45290.html">CVE-2023-45290</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>github.com/docker/docker@v28.0.4+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-24783.html">CVE-2024-24783</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>go.opentelemetry.io/otel/sdk@v1.42.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
+<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>usr/local/bin/supercronic-linux-amd64</td>
+<td>stdlib@v1.26.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmbackup-prod</td>
-<td>google.golang.org/grpc@v1.69.2</td>
+<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>vmbackup-prod</td>
+<td>google.golang.org/grpc@v1.78.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -4153,47 +3433,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -4201,11 +3445,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27137.html">CVE-2026-27137</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>vmbackup-prod</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -4213,71 +3469,47 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
+<td>quay.io/stackstate/vmbackup:v1.136.0-47ff639a-release-69</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>zlib</td>
-<td>zlib@1.3.1-r2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-22184.html">CVE-2026-22184</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmrestore-prod</td>
-<td>google.golang.org/grpc@v1.69.2</td>
+<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>vmrestore-prod</td>
+<td>google.golang.org/grpc@v1.78.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -4285,47 +3517,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61726.html">CVE-2025-61726</a></td>
-<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25679.html">CVE-2026-25679</a></td>
 <td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
@@ -4333,11 +3529,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27137.html">CVE-2026-27137</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>affected</td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
+<td>false</td>
+<td>Observability v2.9 dev</td>
+<td>vmrestore-prod</td>
+<td>stdlib@v1.26.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td>HIGH</td>
 <td>affected</td>
@@ -4345,79 +3553,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
+<td>quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-51</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
+<td>stdlib@v1.26.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33810.html">CVE-2026-33810</a></td>
+<td><div class="cve_sev">MEDIUM*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61730.html">CVE-2025-61730</a></td>
-<td><div class="cve_sev">LOW*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/workload-observer:864f55e0-153-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>login_defs</td>
-<td>login_defs@4.8.1-150600.17.9.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/SUSE-RU-2026:1228-1">SUSE-RU-2026:1228-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/workload-observer:864f55e0-153-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>shadow</td>
-<td>shadow@4.8.1-150600.17.9.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/SUSE-RU-2026:1228-1">SUSE-RU-2026:1228-1</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/workload-observer:864f55e0-153-release</td>
+<td>quay.io/stackstate/workload-observer:864f55e0-164-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/workload-observer</td>
@@ -4429,7 +3589,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/workload-observer:864f55e0-153-release</td>
+<td>quay.io/stackstate/workload-observer:864f55e0-164-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/workload-observer</td>
@@ -4441,7 +3601,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/workload-observer:864f55e0-153-release</td>
+<td>quay.io/stackstate/workload-observer:864f55e0-164-release</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/workload-observer</td>
@@ -4597,175 +3757,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>github.com/nwaples/rardecode/v2@v2.1.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-11579.html">CVE-2025-11579</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>golang.org/x/crypto@v0.42.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>golang.org/x/crypto@v0.42.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>stdlib@v1.25.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/clickhouse-backup:2.6.39-a7171eea-161-release</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic</td>
-<td>stdlib@v1.25.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-toolbox</td>
-<td>github.com/docker/cli@v26.0.1+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -4777,7 +3769,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/kubectl</td>
@@ -4789,7 +3781,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -4801,7 +3793,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -4813,7 +3805,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -4825,7 +3817,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -4837,7 +3829,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/sts</td>
@@ -4849,7 +3841,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4861,7 +3853,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4873,7 +3865,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4885,7 +3877,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4897,7 +3889,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4909,7 +3901,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4921,7 +3913,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4933,7 +3925,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4945,7 +3937,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4957,7 +3949,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4969,7 +3961,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
@@ -4981,48 +3973,12 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/container-tools:1.8.4-644</td>
+<td>quay.io/stackstate/container-tools:1.8.5-653</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/local/bin/yq</td>
 <td>stdlib@v1.25.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/elasticsearch-exporter:v1.10.0-2c0b3290-release-171</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>bin/elasticsearch_exporter</td>
-<td>stdlib@v1.25.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
@@ -5089,7 +4045,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -5101,7 +4057,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -5113,7 +4069,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260415100616-master-60d1f71</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260416151253-master-51a5e8a</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -5125,1044 +4081,12 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260415100616-master-60d1f71-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260416151253-master-51a5e8a-2.5</td>
 <td>false</td>
 <td>Observability v2.9 dev</td>
 <td>usr/bin/sts-toolbox</td>
 <td>github.com/docker/cli@v26.0.1+incompatible</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.30</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-opentelemetry-collector</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.30</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/bin/sts-opentelemetry-collector</td>
-<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22872.html">CVE-2025-22872</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>golang.org/x/oauth2@v0.25.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22873.html">CVE-2025-22873</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61724.html">CVE-2025-61724</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/victoria-metrics:v1.109.0-3d9ca9db-release-152</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>victoria-metrics-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22872.html">CVE-2025-22872</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>golang.org/x/oauth2@v0.25.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22873.html">CVE-2025-22873</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61724.html">CVE-2025-61724</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmagent:v1.109.0-4a074fa6-release-146</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmagent-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/sts-toolbox</td>
-<td>github.com/docker/cli@v26.0.1+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15558">CVE-2025-15558</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>google.golang.org/protobuf@v1.30.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-24786.html">CVE-2024-24786</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-34156.html">CVE-2024-34156</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-39318.html">CVE-2023-39318</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-39319.html">CVE-2023-39319</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2023-45284.html">CVE-2023-45284</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-24784.html">CVE-2024-24784</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-24785.html">CVE-2024-24785</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-24789.html">CVE-2024-24789</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-34155.html">CVE-2024-34155</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2024-34158.html">CVE-2024-34158</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22873.html">CVE-2025-22873</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>usr/local/bin/supercronic-linux-amd64</td>
-<td>stdlib@v1.20.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>github.com/golang-jwt/jwt/v5@v5.2.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-30204.html">CVE-2025-30204</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>golang.org/x/crypto@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>golang.org/x/crypto@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>golang.org/x/crypto@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22872.html">CVE-2025-22872</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>golang.org/x/oauth2@v0.25.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22873.html">CVE-2025-22873</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61724.html">CVE-2025-61724</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmbackup:v1.109.0-f74185cf-release-63</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmbackup-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>github.com/golang-jwt/jwt/v5@v5.2.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-30204.html">CVE-2025-30204</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>go.opentelemetry.io/otel/sdk@v1.33.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>golang.org/x/crypto@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22869.html">CVE-2025-22869</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>golang.org/x/crypto@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47914.html">CVE-2025-47914</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>golang.org/x/crypto@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58181.html">CVE-2025-58181</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22870.html">CVE-2025-22870</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>golang.org/x/net@v0.34.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22872.html">CVE-2025-22872</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>golang.org/x/oauth2@v0.25.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22868.html">CVE-2025-22868</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-47907.html">CVE-2025-47907</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-58183.html">CVE-2025-58183</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61728.html">CVE-2025-61728</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32282.html">CVE-2026-32282</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-22873.html">CVE-2025-22873</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61724.html">CVE-2025-61724</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2025-61725.html">CVE-2025-61725</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27142.html">CVE-2026-27142</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32288.html">CVE-2026-32288</a></td>
-<td>none</td>
-<td>not affected</td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/vmrestore:v1.109.0-97bc8d04-release-48</td>
-<td>false</td>
-<td>Observability v2.9 dev</td>
-<td>vmrestore-prod</td>
-<td>stdlib@v1.23.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-32289.html">CVE-2026-32289</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
