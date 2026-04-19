@@ -24,7 +24,7 @@ td { padding: 7px; }
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - RKE2 v1.35.4-rc2 version - CVE Scans - 2026-04-17</h1>
+<h1>SUSE Rancher - RKE2 v1.35.4-rc2 version - CVE Scans - 2026-04-19</h1>
 
 <h3>How to use this page</h3>
 
@@ -109,36 +109,12 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/klipper-helm:v0.9.16-build20260410</td>
-<td>false</td>
-<td>RKE2 v1.35.4-rc2</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>google.golang.org/grpc@v1.72.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
-<td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/rke2-runtime:v1.35.4-rc2-rke2r1</td>
 <td>false</td>
 <td>RKE2 v1.35.4-rc2</td>
 <td>bin/containerd</td>
 <td>github.com/go-jose/go-jose/v4@v4.1.3</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34986">CVE-2026-34986</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.35.4-rc2-rke2r1</td>
-<td>false</td>
-<td>RKE2 v1.35.4-rc2</td>
-<td>bin/crictl</td>
-<td>github.com/docker/docker@v27.1.1+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -544,6 +520,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/klipper-helm:v0.9.16-build20260410</td>
 <td>false</td>
 <td>RKE2 v1.35.4-rc2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>google.golang.org/grpc@v1.72.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.9.16-build20260410</td>
+<td>false</td>
+<td>RKE2 v1.35.4-rc2</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>google.golang.org/grpc@v1.72.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33186.html">CVE-2026-33186</a></td>
@@ -655,6 +643,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/crictl</td>
 <td>github.com/buger/jsonparser@v1.1.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-32285.html">CVE-2026-32285</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.35.4-rc2-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.4-rc2</td>
+<td>bin/crictl</td>
+<td>github.com/docker/docker@v27.1.1+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-34040">CVE-2026-34040</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>

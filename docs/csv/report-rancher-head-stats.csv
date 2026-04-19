@@ -463,9 +463,9 @@ rancher/rke2-cloud-provider:v1.34.3-0.20251210094406-1ff6ebef7028-build20251210,
 rancher/rke2-cloud-provider:v1.34.4-0.20260211145917-c6017918a65c-build20260211,0,7,7
 rancher/rke2-cloud-provider:v1.35.0-rc1.0.20251218152248-a6c6cd15c0c4-build20251219,0,9,9
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,7,7
-rancher/rke2-runtime:v1.33.10-rke2r3,0,8,8
-rancher/rke2-runtime:v1.34.6-rke2r3,0,8,8
-rancher/rke2-runtime:v1.35.3-rke2r3,0,8,8
+rancher/rke2-runtime:v1.33.10-rke2r3,0,7,7
+rancher/rke2-runtime:v1.34.6-rke2r3,0,7,7
+rancher/rke2-runtime:v1.35.3-rke2r3,0,7,7
 rancher/rke2-upgrade:v1.33.10-rke2r3,0,15,15
 rancher/rke2-upgrade:v1.34.6-rke2r3,0,15,15
 rancher/rke2-upgrade:v1.35.3-rke2r3,0,15,15

@@ -76,7 +76,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,6,6
 rancher/rancher-webhook:v0.8.2,0,8,8
 rancher/rancher:v2.12.2,1,130,131
 rancher/rke2-cloud-provider:v1.33.4-rc1.0.20250814212538-148243c49519-build20250908,0,14,14
-rancher/rke2-runtime:v1.33.5-rke2r1,0,43,43
+rancher/rke2-runtime:v1.33.5-rke2r1,0,42,42
 rancher/shell:v0.3.0,1,55,56
 rancher/shell:v0.5.0,1,42,43
 rancher/support-bundle-kit:v0.0.57,3,35,38
