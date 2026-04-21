@@ -449,7 +449,7 @@ rancher/pushprox:v0.1.9,0,13,13
 rancher/rancher-agent:head,0,4,4
 rancher/rancher-csp-adapter:v9.0.0,0,4,4
 rancher/rancher-webhook:v0.10.0,0,1,1
-rancher/rancher:head,0,41,41
+rancher/rancher:head,0,35,35
 rancher/remotedialer-proxy:v0.7.1,0,1,1
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,8,8
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908,0,13,13
