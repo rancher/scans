@@ -1,10 +1,10 @@
 image,critical,high,total
-registry.rancher.com/suse-observability/container-tools:1.8.5-653,0,13,13
-registry.rancher.com/suse-observability/generic-sidecar-injector:638bbb3c-46-release,0,1,1
-registry.rancher.com/suse-observability/http-header-injector-proxy-init:dab33b83-372-release,0,0,0
-registry.rancher.com/suse-observability/http-header-injector-proxy:dab33b83-372-release,0,0,0
+registry.rancher.com/suse-observability/container-tools:1.8.5-653,0,15,15
+registry.rancher.com/suse-observability/generic-sidecar-injector:638bbb3c-46-release,0,2,2
+registry.rancher.com/suse-observability/http-header-injector-proxy-init:dab33b83-372-release,0,5,5
+registry.rancher.com/suse-observability/http-header-injector-proxy:dab33b83-372-release,0,2,2
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:c96a7ba1-699-release,0,0,0
 registry.rancher.com/suse-observability/promtail:3.6.10-f51a4334-release-135,0,2,2
 registry.rancher.com/suse-observability/stackstate-k8s-agent:99695b1a,0,11,11
 registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:99695b1a,0,4,4
-registry.rancher.com/suse-observability/stackstate-k8s-process-agent:19a5b791,0,11,11
+registry.rancher.com/suse-observability/stackstate-k8s-process-agent:19a5b791,0,13,13
