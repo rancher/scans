@@ -11,8 +11,8 @@ rancher/appco-thanos:0.40.1-7.13,0,7,7
 rancher/backup-restore-operator:v10.0.1-rc.4,0,4,4
 rancher/compliance-operator:v1.4.1-rc.3,0,0,0
 rancher/eks-operator:v1.14.1-rc.2,0,1,1
-rancher/fleet-agent:v0.15.1-beta.4,0,0,0
-rancher/fleet:v0.15.1-beta.4,0,1,1
+rancher/fleet-agent:v0.15.1-rc.1,0,0,0
+rancher/fleet:v0.15.1-rc.1,0,0,0
 rancher/gke-operator:v1.14.1-rc.1,0,3,3
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,6,6
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,7,7
@@ -151,7 +151,6 @@ rancher/klipper-lb:v0.4.15,0,4,4
 rancher/kube-api-auth:v0.2.6,0,3,3
 rancher/kube-webhook-certgen:v1.14.5-hardened1,0,1,1
 rancher/kubectl:v1.35.2,0,1,1
-rancher/kuberlr-kubectl:v5.0.0,0,29,29
 rancher/kuberlr-kubectl:v6.0.0,0,28,28
 rancher/kuberlr-kubectl:v7.0.1,0,14,14
 rancher/kuberlr-kubectl:v7.0.3,0,11,11
@@ -373,7 +372,7 @@ rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,2,18,20
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,355,383,738
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,355,384,739
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,6,6
@@ -452,8 +451,8 @@ rancher/prometheus-federator:v6.0.0,0,3,3
 rancher/pushprox:v0.1.10,0,4,4
 rancher/rancher-agent:v2.14-head,0,5,5
 rancher/rancher-csp-adapter:v9.0.0,0,6,6
-rancher/rancher-webhook:v0.10.1-rc.4,0,1,1
-rancher/rancher:v2.14-head,0,36,36
+rancher/rancher-webhook:v0.10.1-rc.5,0,1,1
+rancher/rancher:v2.14-head,0,34,34
 rancher/remotedialer-proxy:v0.7.2-rc.2,0,0,0
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,9,9
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908,0,14,14
