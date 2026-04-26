@@ -1,5 +1,5 @@
 image,critical,high,total
-registry.rancher.com/suse-observability/container-tools:1.8.5-653,0,15,15
+registry.rancher.com/suse-observability/container-tools:1.8.5-653,0,17,17
 registry.rancher.com/suse-observability/generic-sidecar-injector:638bbb3c-46-release,0,2,2
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:dab33b83-372-release,0,5,5
 registry.rancher.com/suse-observability/http-header-injector-proxy:dab33b83-372-release,0,2,2

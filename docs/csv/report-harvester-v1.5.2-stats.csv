@@ -52,7 +52,7 @@ rancher/kubectl:v1.29.2,0,12,12
 rancher/kubectl:v1.32.2,0,6,6
 rancher/kubectl:v1.32.3,0,6,6
 rancher/mirrored-cluster-api-controller:v1.9.5,0,7,7
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,21,24
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,22,25
 rancher/mirrored-grafana-grafana:11.1.0,0,15,15
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,7,33,40
@@ -76,8 +76,8 @@ rancher/rancher-webhook:v0.7.3,0,9,9
 rancher/rancher:v2.11.3,1,127,128
 rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,15,15
 rancher/rke2-runtime:v1.32.7-rke2r1,0,41,41
-rancher/shell:v0.3.0,1,57,58
-rancher/shell:v0.4.1,1,48,49
+rancher/shell:v0.3.0,1,59,60
+rancher/shell:v0.4.1,1,50,51
 rancher/support-bundle-kit:v0.0.65,3,34,37
 rancher/system-agent-installer-rancher:v2.11.3,0,8,8
 rancher/system-agent-installer-rke2:v1.32.7-rke2r1,0,0,0
@@ -97,6 +97,6 @@ registry.suse.com/suse/sles/15.6/libguestfs-tools:1.4.1-150600.5.21.2,3,75,78
 registry.suse.com/suse/sles/15.6/virt-api:1.4.1-150600.5.21.2,3,24,27
 registry.suse.com/suse/sles/15.6/virt-controller:1.4.1-150600.5.21.2,3,24,27
 registry.suse.com/suse/sles/15.6/virt-handler:1.4.1-150600.5.21.2,3,32,35
-registry.suse.com/suse/sles/15.6/virt-launcher:1.4.1-150600.5.21.2,3,58,61
+registry.suse.com/suse/sles/15.6/virt-launcher:1.4.1-150600.5.21.2,3,60,63
 registry.suse.com/suse/sles/15.6/virt-operator:1.4.1-150600.5.21.2,3,24,27
 registry.suse.com/suse/vmdp/vmdp:2.5.4.2,0,0,0

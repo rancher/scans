@@ -8,7 +8,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.7,0,8,8
 rancher/appco-node-exporter:1.9.1-11.3,0,8,8
 rancher/appco-redis:8.0.3-2.1,1,5,6
 rancher/appco-thanos:0.39.2-7.3,0,8,8
-rancher/backup-restore-operator:v9.0.3-rc.1,0,5,5
+rancher/backup-restore-operator:v9.0.3,0,4,4
 rancher/compliance-operator:v1.3.5,0,0,0
 rancher/eks-operator:v1.13.5,0,1,1
 rancher/fleet-agent:v0.14.5-rc.1,0,0,0
@@ -129,9 +129,9 @@ rancher/hardened-whereabouts:v0.9.2-build20260206,0,5,5
 rancher/hardened-whereabouts:v0.9.3-build20260310,0,4,4
 rancher/harvester-cloud-provider:v0.2.4,1,17,18
 rancher/harvester-cloud-provider:v0.2.5,0,17,17
-rancher/harvester-csi-driver:v0.2.2,3,54,57
-rancher/harvester-csi-driver:v0.2.3,3,38,41
-rancher/harvester-csi-driver:v0.2.4,3,28,31
+rancher/harvester-csi-driver:v0.2.2,3,56,59
+rancher/harvester-csi-driver:v0.2.3,3,40,43
+rancher/harvester-csi-driver:v0.2.4,3,30,33
 rancher/harvester-csi-driver:v0.2.8,0,16,16
 rancher/k3s-upgrade:v1.32.13-k3s1,2,12,14
 rancher/k3s-upgrade:v1.33.10-k3s1,2,12,14
@@ -370,7 +370,7 @@ rancher/mirrored-coredns-coredns:1.14.2,0,6,6
 rancher/mirrored-curlimages-curl:8.9.1,4,21,25
 rancher/mirrored-elemental-operator:1.8.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.8.1,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,21,24
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,22,25
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.15,4,17,21
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
@@ -476,11 +476,11 @@ rancher/rke2-upgrade:v1.33.10-rke2r3,2,21,23
 rancher/rke2-upgrade:v1.34.6-rke2r3,2,21,23
 rancher/scc-operator:v0.4.0,0,3,3
 rancher/security-scan:v0.8.5,0,4,4
-rancher/shell:v0.6.3,0,21,21
+rancher/shell:v0.6.3,0,23,23
 rancher/supportability-review-app-frontend:v0.19.0,0,17,17
-rancher/supportability-review-internal:latest,0,0,0
+rancher/supportability-review-internal:latest,0,2,2
 rancher/supportability-review-operator:v0.19.0,0,1,1
-rancher/supportability-review:latest,0,2,2
+rancher/supportability-review:latest,0,4,4
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.10-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.6-k3s1,0,0,0

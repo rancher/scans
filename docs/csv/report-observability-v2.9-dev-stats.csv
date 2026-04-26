@@ -31,6 +31,6 @@ quay.io/stackstate/vmrestore:v1.136.0-2ca23936-release-52,0,3,3
 quay.io/stackstate/wait:1.0.12-9657337c-release-192,0,0,0
 quay.io/stackstate/workload-observer:864f55e0-164-release,0,6,6
 quay.io/stackstate/zookeeper:3.9.3-352e04a1-315-release,0,5,5
-registry.rancher.com/suse-observability/container-tools:1.8.5-653,0,15,15
+registry.rancher.com/suse-observability/container-tools:1.8.5-653,0,17,17
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:c96a7ba1-699-release,0,1,1
 registry.rancher.com/suse-observability/suse-observability-borg:20260318165448-8cc501ea,0,7,7
