@@ -82,7 +82,7 @@ rancher/rancher:v2.14.0,0,57,57
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,7,7
 rancher/rke2-runtime:v1.35.2-rke2r1,0,7,7
 rancher/shell:v0.7.0,0,22,22
-rancher/support-bundle-kit:master-head,0,9,9
+rancher/support-bundle-kit:master-head,0,0,0
 rancher/system-agent-installer-rancher:v2.14.0,0,2,2
 rancher/system-agent-installer-rke2:v1.35.2-rke2r1,0,0,0
 rancher/system-agent:v0.3.15-suc,0,12,12
