@@ -53,8 +53,8 @@ rancher/harvester-upgrade:master-head,1,33,34
 rancher/harvester-vm-import-controller:main-head,0,8,8
 rancher/harvester-webhook:master-head,0,14,14
 rancher/harvester:master-head,0,13,13
-rancher/klipper-helm:v0.9.14-build20260210,2,13,15
-rancher/klipper-lb:v0.4.14,2,10,12
+rancher/klipper-helm:v0.9.14-build20260210,0,5,5
+rancher/klipper-lb:v0.4.14,0,2,2
 rancher/kubectl:v1.32.3,0,6,6
 rancher/kubectl:v1.34.0,0,6,6
 rancher/kubectl:v1.35.1,0,2,2

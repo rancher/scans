@@ -46,8 +46,8 @@ rancher/harvester-upgrade:v1.5-head,4,71,75
 rancher/harvester-vm-import-controller:v1.5.2,3,41,44
 rancher/harvester-webhook:v1.5-head,3,38,41
 rancher/harvester:v1.5-head,3,38,41
-rancher/klipper-helm:v0.9.8-build20250709,2,35,37
-rancher/klipper-lb:v0.4.13,2,13,15
+rancher/klipper-helm:v0.9.8-build20250709,0,27,27
+rancher/klipper-lb:v0.4.13,0,5,5
 rancher/kubectl:v1.29.2,0,12,12
 rancher/kubectl:v1.32.2,0,6,6
 rancher/kubectl:v1.32.3,0,6,6
