@@ -389,7 +389,7 @@ rancher/mirrored-flannel-flannel:v0.24.2,4,43,47
 rancher/mirrored-flannel-flannel:v0.25.1,4,35,39
 rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:3.12.6,11,53,64
+rancher/mirrored-grafana-grafana-image-renderer:3.12.6,11,54,65
 rancher/mirrored-grafana-grafana:11.4.5,4,20,24
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6
@@ -400,7 +400,7 @@ rancher/mirrored-istio-install-cni:1.20.3-distroless,0,28,28
 rancher/mirrored-istio-install-cni:1.21.1-distroless,0,20,20
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,18,18
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,18,18
-rancher/mirrored-istio-install-cni:1.24.1-distroless,0,16,16
+rancher/mirrored-istio-install-cni:1.24.1-distroless,0,18,18
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,18,18
 rancher/mirrored-istio-pilot:1.19.6-distroless,0,16,16
 rancher/mirrored-istio-pilot:1.20.3-distroless,0,16,16
@@ -412,8 +412,8 @@ rancher/mirrored-istio-pilot:1.25.0-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.19.6-distroless,0,20,20
 rancher/mirrored-istio-proxyv2:1.21.1-distroless,0,14,14
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,10,10
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,9,9
+rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,12,12
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,11,11
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,11,11
 rancher/mirrored-jaegertracing-all-in-one:1.52.0,0,20,20
 rancher/mirrored-jaegertracing-all-in-one:1.56.0,0,13,13
@@ -422,8 +422,8 @@ rancher/mirrored-jaegertracing-all-in-one:1.60.0,4,29,33
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,4,26,30
 rancher/mirrored-jaegertracing-all-in-one:1.67.0,4,23,27
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,6,6
-rancher/mirrored-k8s-dns-dnsmasq-nanny:1.22.28,2,26,28
-rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,2,25,27
+rancher/mirrored-k8s-dns-dnsmasq-nanny:1.22.28,0,26,26
+rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,25,25
 rancher/mirrored-k8s-dns-kube-dns:1.22.28,0,10,10
 rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,9,9
 rancher/mirrored-k8s-dns-node-cache:1.22.28,2,41,43
