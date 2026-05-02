@@ -24,7 +24,7 @@ rancher/hardened-cni-plugins:v1.7.1-build20250611,0,4,4
 rancher/hardened-coredns:v1.12.2-build20250611,0,13,13
 rancher/hardened-dns-node-cache:1.26.0-build20250611,0,15,15
 rancher/hardened-etcd:v3.5.21-k3s1-build20250612,0,12,12
-rancher/hardened-flannel:v0.27.1-build20250710,3,54,57
+rancher/hardened-flannel:v0.27.1-build20250710,3,58,61
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250704,0,6,6
 rancher/hardened-kubernetes:v1.32.7-rke2r1-build20250716,0,55,55
 rancher/hardened-multus-cni:v4.2.1-build20250627,0,30,30
@@ -52,7 +52,7 @@ rancher/kubectl:v1.29.2,0,12,12
 rancher/kubectl:v1.32.2,0,6,6
 rancher/kubectl:v1.32.3,0,6,6
 rancher/mirrored-cluster-api-controller:v1.9.5,0,7,7
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,22,25
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
 rancher/mirrored-grafana-grafana:11.1.0,0,15,15
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,7,33,40

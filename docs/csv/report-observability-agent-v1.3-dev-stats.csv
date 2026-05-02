@@ -1,5 +1,5 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-4ac12b1a-main-16,0,0,0
+quay.io/stackstate/container-tools:1.8.6-7703df37-main-21,0,0,0
 quay.io/stackstate/generic-sidecar-injector:638bbb3c-47-release,0,1,1
 quay.io/stackstate/http-header-injector-proxy-init:ed1342da-380-release,0,1,1
 quay.io/stackstate/http-header-injector-proxy:ed1342da-380-release,0,2,2

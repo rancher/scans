@@ -63,7 +63,7 @@ rancher/hardened-etcd:v3.5.26-k3s1-build20260227,0,2,2
 rancher/hardened-flannel:v0.26.3-build20250108,3,72,75
 rancher/hardened-flannel:v0.26.4-build20250218,3,69,72
 rancher/hardened-flannel:v0.26.5-build20250306,3,68,71
-rancher/hardened-flannel:v0.27.1-build20250710,3,54,57
+rancher/hardened-flannel:v0.27.1-build20250710,3,58,61
 rancher/hardened-flannel:v0.27.2-build20250723,0,11,11
 rancher/hardened-flannel:v0.27.3-build20250901,0,11,11
 rancher/hardened-flannel:v0.27.4-build20251015,0,9,9
@@ -408,7 +408,7 @@ rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
 rancher/mirrored-flannel-flannel:v0.25.1,4,35,39
 rancher/mirrored-flannel-flannel:v0.26.4,4,29,33
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,22,25
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,4,17,21
 rancher/mirrored-grafana-grafana:11.5.5,4,20,24
@@ -420,15 +420,15 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,4,4
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,2,2
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,18,18
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,18,18
-rancher/mirrored-istio-install-cni:1.24.1-distroless,0,18,18
+rancher/mirrored-istio-install-cni:1.24.1-distroless,0,16,16
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,18,18
 rancher/mirrored-istio-pilot:1.22.1-distroless,0,10,10
 rancher/mirrored-istio-pilot:1.23.2-distroless,0,10,10
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,9,9
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,12,12
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,11,11
+rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,10,10
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,11,11
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,13,13
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,4,29,33

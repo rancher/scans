@@ -59,7 +59,7 @@ rancher/hardened-flannel:v0.26.1-build20241211,3,73,76
 rancher/hardened-flannel:v0.26.3-build20250108,3,72,75
 rancher/hardened-flannel:v0.26.4-build20250218,3,69,72
 rancher/hardened-flannel:v0.26.5-build20250306,3,68,71
-rancher/hardened-flannel:v0.27.1-build20250710,3,54,57
+rancher/hardened-flannel:v0.27.1-build20250710,3,58,61
 rancher/hardened-flannel:v0.27.2-build20250723,0,11,11
 rancher/hardened-flannel:v0.27.3-build20250901,0,11,11
 rancher/hardened-flannel:v0.27.4-build20251015,0,9,9
@@ -387,9 +387,9 @@ rancher/mirrored-elemental-operator:1.7.3,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.3,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,4,43,47
 rancher/mirrored-flannel-flannel:v0.25.1,4,35,39
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,22,25
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:3.12.6,11,51,62
+rancher/mirrored-grafana-grafana-image-renderer:3.12.6,11,53,64
 rancher/mirrored-grafana-grafana:11.4.5,4,20,24
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6
@@ -400,7 +400,7 @@ rancher/mirrored-istio-install-cni:1.20.3-distroless,0,28,28
 rancher/mirrored-istio-install-cni:1.21.1-distroless,0,20,20
 rancher/mirrored-istio-install-cni:1.22.1-distroless,0,18,18
 rancher/mirrored-istio-install-cni:1.23.2-distroless,0,18,18
-rancher/mirrored-istio-install-cni:1.24.1-distroless,0,18,18
+rancher/mirrored-istio-install-cni:1.24.1-distroless,0,16,16
 rancher/mirrored-istio-install-cni:1.25.0-distroless,0,18,18
 rancher/mirrored-istio-pilot:1.19.6-distroless,0,16,16
 rancher/mirrored-istio-pilot:1.20.3-distroless,0,16,16
@@ -412,8 +412,8 @@ rancher/mirrored-istio-pilot:1.25.0-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.19.6-distroless,0,20,20
 rancher/mirrored-istio-proxyv2:1.21.1-distroless,0,14,14
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,12,12
-rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,11,11
+rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,10,10
+rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,9,9
 rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,11,11
 rancher/mirrored-jaegertracing-all-in-one:1.52.0,0,20,20
 rancher/mirrored-jaegertracing-all-in-one:1.56.0,0,13,13
