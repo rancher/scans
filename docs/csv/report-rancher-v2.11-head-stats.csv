@@ -406,12 +406,12 @@ rancher/mirrored-coreos-etcd:v3.5.16,0,18,18
 rancher/mirrored-curlimages-curl:8.9.1,4,21,25
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
-rancher/mirrored-flannel-flannel:v0.25.1,4,35,39
-rancher/mirrored-flannel-flannel:v0.26.4,4,29,33
+rancher/mirrored-flannel-flannel:v0.25.1,4,36,40
+rancher/mirrored-flannel-flannel:v0.26.4,4,30,34
 rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,4,17,21
-rancher/mirrored-grafana-grafana:11.5.5,4,20,24
+rancher/mirrored-grafana-grafana:11.5.5,4,21,25
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,6,6

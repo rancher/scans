@@ -1,5 +1,5 @@
 image,critical,high,total
-longhornio/backing-image-manager:v1.9.2,3,55,58
+longhornio/backing-image-manager:v1.9.2,3,53,56
 longhornio/csi-attacher:v4.9.0-20250709,0,7,7
 longhornio/csi-node-driver-registrar:v2.14.0-20250709,0,7,7
 longhornio/csi-provisioner:v5.3.0-20250709,0,6,6

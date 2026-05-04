@@ -484,7 +484,7 @@ rancher/neuvector-prometheus-exporter:1.0.12,0,0,0
 rancher/neuvector-registry-adapter:0.2.6,0,2,2
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.10,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened1,0,16,16
+rancher/nginx-ingress-controller:v1.14.5-hardened1,0,19,19
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,12,12
 rancher/prom-prometheus:v3.5.0,0,16,16
 rancher/prometheus-federator:v5.0.1,0,3,3
