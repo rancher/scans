@@ -4,18 +4,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <title>SUSE Rancher - Images CVE Scans</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 <style>
-body { background: #ffffff; color: #1d2327; font-family: sans-serif; }
-body.index { padding: 10px; margin: auto; max-width: 70%; }
-h1 { color: #2453ff; }
-table { border-collapse: collapse; margin: 10px; }
-th { padding: 10px; text-align: center; background-color: #2453ff; color: white; }
-th, td { border-bottom: 2px solid #ddd; }
-tr:hover { background-color: #f0f0f1; }
-#cves_table th { cursor: pointer; }
-.not_affected { color: grey; }
-td { padding: 7px; }
+body { background: #ffffff; color: #141419; font-family: 'Lato', sans-serif; line-height: 1.5; }
+body.index { padding: 20px 40px; margin: auto; max-width: 70%; }
+h1, h2, h3 { font-family: 'Poppins', sans-serif; font-weight: 600; color: #3D98D3; }
+h1 { font-size: 1.8em; margin-bottom: 0.5em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.15em; }
+a { color: #3D98D3; text-decoration: none; }
+a:hover { color: #2b7ab5; text-decoration: underline; }
+table { border-collapse: collapse; margin: 10px 0; }
+th { padding: 10px 12px; text-align: left; background-color: #F4F5FA; color: #141419; font-weight: normal; font-size: 0.85em; border-bottom: 2px solid #DCDEE7; }
+td { padding: 8px 12px; border-bottom: 1px solid #DCDEE7; }
+tr:hover { background-color: #EEEFF4; }
+#cves_table th { cursor: pointer; color: #3D98D3; }
+.not_affected { color: #B6B6C2; }
 #center_row { text-align: center; }
+input[type="text"] { border: 1px solid #DCDEE7; border-radius: 4px; padding: 8px 12px; font-family: 'Lato', sans-serif; font-size: 14px; outline-color: #3D98D3; }
+footer { margin-top: 30px; padding-top: 15px; border-top: 1px solid #DCDEE7; color: #6C6C76; font-size: 0.9em; }
 /* Tooltip inspired from www.w3schools.com */
 .cve_sev { position: relative; display: inline-block; border-bottom: 1px dotted black; }
 .cve_sev:hover .cve_sev_note { visibility: visible; }
@@ -46938,8 +46947,9 @@ the distinctive tag '*' close to its severity.</li>
 <p>
 Note: This page uses embedded JavaScript for filtering and search
 functionalities. If JavaScript support is disabled in your browser, the page
-will still be usable,<br>but those functions will not work as expected. No external
-code or dependencies are imported by this page.
+will still be usable,<br>but those functions will not work as expected. This page loads
+fonts from Google Fonts (fonts.googleapis.com); no other external code or
+dependencies are imported by this page.
 </p>
 <p><b>
 The SUSE Rancher CVE data is provided by SUSE under the Creative
