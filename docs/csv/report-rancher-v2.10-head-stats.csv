@@ -387,9 +387,9 @@ rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
 rancher/mirrored-flannel-flannel:v0.24.2,4,44,48
 rancher/mirrored-flannel-flannel:v0.25.1,4,36,40
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,25,28
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:3.12.6,11,54,65
+rancher/mirrored-grafana-grafana-image-renderer:3.12.6,11,55,66
 rancher/mirrored-grafana-grafana:11.4.5,4,21,25
 rancher/mirrored-idealista-prom2teams:4.2.1,5,47,52
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,6,6

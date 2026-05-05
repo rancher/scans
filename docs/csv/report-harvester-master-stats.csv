@@ -61,7 +61,7 @@ rancher/kubectl:v1.35.1,0,2,2
 rancher/kuberlr-kubectl:v6.0.0,0,28,28
 rancher/kuberlr-kubectl:v7.0.1,0,14,14
 rancher/kuberlr-kubectl:v7.0.3,0,11,11
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,25,28
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,6,6
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,2,2
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,7,7

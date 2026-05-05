@@ -432,7 +432,7 @@ rancher/mirrored-coredns-coredns:1.14.2,0,6,6
 rancher/mirrored-curlimages-curl:8.9.1,4,21,25
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,24,27
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,25,28
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,4,17,21
 rancher/mirrored-grafana-grafana:11.5.5,4,21,25
