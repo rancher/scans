@@ -1,10 +1,10 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-ea7f41f9-main-40,0,0,0
+quay.io/stackstate/container-tools:1.8.6-f6a6e1a0-main-51,0,0,0
 quay.io/stackstate/generic-sidecar-injector:1d6fa71c-50-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy-init:32d30a44-453-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy:32d30a44-453-release,0,0,0
 quay.io/stackstate/kubernetes-rbac-agent:e78c10a7-716-release,0,0,0
-quay.io/stackstate/promtail:3.6.10-bc99e3ee-main-8,0,0,0
+quay.io/stackstate/promtail:3.6.10-bc99e3ee-main-8,0,2,2
 quay.io/stackstate/stackstate-k8s-agent:fc5e0b46,0,1,1
 quay.io/stackstate/stackstate-k8s-cluster-agent:fc5e0b46,0,1,1
 quay.io/stackstate/stackstate-k8s-process-agent:dc73c390,0,0,0

@@ -16,14 +16,14 @@ registry.rancher.com/suse-observability/minio:RELEASE.2025-11-19T12-41-50Z-e064c
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-fdbee6c2-99-release,0,4,4
 registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.179,3,43,46
 registry.rancher.com/suse-observability/stackgraph-console:2.5-7.13.18,0,39,39
-registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.13.18,0,39,39
+registry.rancher.com/suse-observability/stackgraph-hbase:2.5-7.13.18,1,39,40
 registry.rancher.com/suse-observability/stackpacks:20260319154911-master-d135a6d-prime-selfhosted,0,0,0
 registry.rancher.com/suse-observability/stackstate-correlate:2.9.0,1,33,34
 registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.9.0,1,33,34
 registry.rancher.com/suse-observability/stackstate-receiver:2.9.0,1,33,34
 registry.rancher.com/suse-observability/stackstate-server:2.9.0-2.5,1,48,49
 registry.rancher.com/suse-observability/stackstate-ui:2.9.0,2,15,17
-registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.25,0,7,7
+registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.25,0,9,9
 registry.rancher.com/suse-observability/suse-observability-borg:20260318165448-8cc501ea,0,7,7
 registry.rancher.com/suse-observability/suse-observability-mcp:20260320080627-affe318b,0,9,9
 registry.rancher.com/suse-observability/tephra-server:2.5-7.13.18,0,38,38

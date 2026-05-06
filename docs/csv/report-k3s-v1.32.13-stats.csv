@@ -6,5 +6,5 @@ rancher/local-path-provisioner:v0.0.34,0,4,4
 rancher/mirrored-coredns-coredns:1.14.1,0,13,13
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-traefik:3.6.9,0,14,14
-rancher/mirrored-metrics-server:v0.8.1,0,2,2
+rancher/mirrored-metrics-server:v0.8.1,0,4,4
 rancher/mirrored-pause:3.6,0,0,0

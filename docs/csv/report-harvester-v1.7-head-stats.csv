@@ -27,8 +27,8 @@ rancher/hardened-coredns:v1.14.2-build20260416,0,5,5
 rancher/hardened-dns-node-cache:1.26.8-build20260416,0,8,8
 rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,0,0
 rancher/hardened-flannel:v0.28.4-build20260415,0,1,1
-rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,0,0
-rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,7,7
+rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,2,2
+rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,6,6
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,5,5
 rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,1,1
 rancher/harvester-cluster-repo:v1.7-head,0,0,0
@@ -61,7 +61,7 @@ rancher/kubectl:v1.34.1,0,6,6
 rancher/kuberlr-kubectl:v5.0.0,0,29,29
 rancher/mirrored-cluster-api-controller:v1.10.6,0,7,7
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,24,28
-rancher/mirrored-grafana-grafana:11.5.5,4,23,27
+rancher/mirrored-grafana-grafana:11.5.5,4,25,29
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,6,29,35
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,7,7
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,5,40,45
@@ -73,10 +73,10 @@ rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,7,7
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,12,12
 rancher/mirrored-prometheus-node-exporter:v1.9.0,0,7,7
-rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,6,6
-rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,6,6
-rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,6,6
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,12,12
+rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,8,8
+rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,8,8
+rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,8,8
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,11,11
 rancher/prom-prometheus:v3.2.1,0,16,16
 rancher/rancher-agent:v2.13.3,0,18,18
 rancher/rancher-webhook:v0.9.3,0,10,10

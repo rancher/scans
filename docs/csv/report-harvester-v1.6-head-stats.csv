@@ -24,7 +24,7 @@ rancher/hardened-coredns:v1.12.3-build20250909,0,22,22
 rancher/hardened-dns-node-cache:1.26.0-build20250909,0,20,20
 rancher/hardened-etcd:v3.5.21-k3s1-build20250910,0,12,12
 rancher/hardened-flannel:v0.27.3-build20250901,0,11,11
-rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,6,6
+rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,8,8
 rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,50,50
 rancher/hardened-multus-cni:v4.2.2-build20250909,0,30,30
 rancher/harvester-cluster-repo:v1.6-head,3,22,25
@@ -53,7 +53,7 @@ rancher/kubectl:v1.32.3,0,6,6
 rancher/kubectl:v1.33.1,0,7,7
 rancher/mirrored-cluster-api-controller:v1.10.2,0,7,7
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,24,28
-rancher/mirrored-grafana-grafana:11.1.0,1,17,18
+rancher/mirrored-grafana-grafana:11.1.0,1,19,20
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,6,6
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,7,33,40
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,7,7
@@ -68,9 +68,9 @@ rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,7,7
 rancher/mirrored-prometheus-alertmanager:v0.27.0,0,22,22
 rancher/mirrored-prometheus-node-exporter:v1.8.2,0,7,7
-rancher/mirrored-prometheus-operator-admission-webhook:v0.75.1,0,7,7
-rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1,0,9,9
-rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,7,7
+rancher/mirrored-prometheus-operator-admission-webhook:v0.75.1,0,9,9
+rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1,0,11,11
+rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,9,9
 rancher/mirrored-prometheus-prometheus:v2.53.1,0,16,16
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,6,6
 rancher/rancher-webhook:v0.8.2,0,11,11
