@@ -1861,6 +1861,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,google-pr
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,net-imap,0.3.4.1,gemspec,CVE-2026-42246,HIGH,https://avd.aquasec.com/nvd/cve-2026-42246,Ruby,"0.6.4, 0.5.14, 0.4.24, 0.3.10",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,net-imap,0.4.19,gemspec,CVE-2026-42246,HIGH,https://avd.aquasec.com/nvd/cve-2026-42246,Ruby,"0.6.4, 0.5.14, 0.4.24, 0.3.10",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,nokogiri,1.18.4,gemspec,GHSA-353f-x4gh-cqq8,CRITICAL,https://github.com/advisories/GHSA-353f-x4gh-cqq8,Ruby,>= 1.18.9,true,affected,
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,nokogiri,1.18.4,gemspec,GHSA-c4rq-3m3g-8wgx,HIGH,https://github.com/advisories/GHSA-c4rq-3m3g-8wgx,Ruby,1.19.3,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,rack,3.0.14,gemspec,CVE-2025-46727,HIGH,https://avd.aquasec.com/nvd/cve-2025-46727,Ruby,"~> 2.2.14, ~> 3.0.16, >= 3.1.14",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,rack,3.0.14,gemspec,CVE-2025-61770,HIGH,https://avd.aquasec.com/nvd/cve-2025-61770,Ruby,"~> 2.2.19, ~> 3.1.17, >= 3.2.2",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.7.1,rack,3.0.14,gemspec,CVE-2025-61771,HIGH,https://avd.aquasec.com/nvd/cve-2025-61771,Ruby,"~> 2.2.19, ~> 3.1.17, >= 3.2.2",true,affected,

@@ -421,7 +421,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.5,0,4,4
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,2,2
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,6,6
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,7,7
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,5,40,45
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,5,41,46
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,6,6
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,4,27,31
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,4,22,26
