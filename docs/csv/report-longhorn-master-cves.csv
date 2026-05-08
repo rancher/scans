@@ -2,5 +2,3 @@ image,release,package_name,package_version,type,vulnerability_id,severity,url,ta
 longhornio/csi-node-driver-registrar:v2.16.0-20260428,longhorn/master,go.opentelemetry.io/otel,v1.40.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,csi-node-driver-registrar,1.41.0,false,affected,
 longhornio/csi-provisioner:v5.3.0-20260428,longhorn/master,go.opentelemetry.io/otel,v1.39.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,csi-provisioner,1.41.0,false,affected,
 longhornio/livenessprobe:v2.18.0-20260428,longhorn/master,go.opentelemetry.io/otel,v1.39.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,livenessprobe,1.41.0,false,affected,
-longhornio/longhorn-manager:master-head,longhorn/master,libpython3_6m1_0,3.6.15-150300.10.109.1,sles,SUSE-SU-2026:1715-1,HIGH,,longhornio/longhorn-manager:master-head (sles 15.7),3.6.15-150300.10.118.1,false,affected,
-longhornio/longhorn-manager:master-head,longhorn/master,python3-base,3.6.15-150300.10.109.1,sles,SUSE-SU-2026:1715-1,HIGH,,longhornio/longhorn-manager:master-head (sles 15.7),3.6.15-150300.10.118.1,false,affected,
