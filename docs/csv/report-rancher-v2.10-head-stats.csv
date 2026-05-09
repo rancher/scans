@@ -385,8 +385,8 @@ rancher/mirrored-coreos-etcd:v3.5.15,0,18,18
 rancher/mirrored-curlimages-curl:8.9.1,4,21,25
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
-rancher/mirrored-flannel-flannel:v0.24.2,4,43,47
-rancher/mirrored-flannel-flannel:v0.25.1,4,35,39
+rancher/mirrored-flannel-flannel:v0.24.2,4,44,48
+rancher/mirrored-flannel-flannel:v0.25.1,4,36,40
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,27,31
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
 rancher/mirrored-grafana-grafana-image-renderer:3.12.6,12,59,71
@@ -414,7 +414,7 @@ rancher/mirrored-istio-proxyv2:1.21.1-distroless,0,14,14
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,11,11
 rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,12,12
 rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,9,9
+rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,11,11
 rancher/mirrored-jaegertracing-all-in-one:1.52.0,0,21,21
 rancher/mirrored-jaegertracing-all-in-one:1.56.0,0,14,14
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,14,14
