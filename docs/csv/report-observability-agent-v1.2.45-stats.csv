@@ -7,4 +7,4 @@ registry.rancher.com/suse-observability/kubernetes-rbac-agent:c96a7ba1-699-relea
 registry.rancher.com/suse-observability/promtail:3.6.10-f51a4334-release-135,0,5,5
 registry.rancher.com/suse-observability/stackstate-k8s-agent:99695b1a,0,12,12
 registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:99695b1a,0,4,4
-registry.rancher.com/suse-observability/stackstate-k8s-process-agent:19a5b791,1,13,14
+registry.rancher.com/suse-observability/stackstate-k8s-process-agent:19a5b791,1,14,15
