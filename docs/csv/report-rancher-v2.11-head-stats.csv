@@ -121,9 +121,9 @@ rancher/harvester-csi-driver:v0.2.2,3,56,59
 rancher/harvester-csi-driver:v0.2.3,3,41,44
 rancher/harvester-csi-driver:v0.2.4,3,31,34
 rancher/istio-installer:1.22.1-rancher1,0,64,64
-rancher/istio-installer:1.23.2-rancher1,2,61,63
-rancher/istio-installer:1.24.1-rancher1,2,58,60
-rancher/istio-installer:1.25.0-rancher1,2,52,54
+rancher/istio-installer:1.23.2-rancher1,2,62,64
+rancher/istio-installer:1.24.1-rancher1,2,59,61
+rancher/istio-installer:1.25.0-rancher1,2,53,55
 rancher/k3s-upgrade:v1.30.14-k3s2,4,21,25
 rancher/k3s-upgrade:v1.31.14-k3s1,4,19,23
 rancher/k3s-upgrade:v1.32.13-k3s1,2,12,14
@@ -427,9 +427,9 @@ rancher/mirrored-istio-pilot:1.23.2-distroless,0,12,12
 rancher/mirrored-istio-pilot:1.24.1-distroless,0,11,11
 rancher/mirrored-istio-pilot:1.25.0-distroless,0,11,11
 rancher/mirrored-istio-proxyv2:1.22.1-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,10,10
+rancher/mirrored-istio-proxyv2:1.23.2-distroless,0,12,12
 rancher/mirrored-istio-proxyv2:1.24.1-distroless,0,11,11
-rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,11,11
+rancher/mirrored-istio-proxyv2:1.25.0-distroless,0,9,9
 rancher/mirrored-jaegertracing-all-in-one:1.57.0,0,14,14
 rancher/mirrored-jaegertracing-all-in-one:1.60.0,4,30,34
 rancher/mirrored-jaegertracing-all-in-one:1.63.0,4,27,31
@@ -480,7 +480,7 @@ rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,27,27
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,28,28
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,24,24
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,18,18
-rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,14,14
+rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,15,15
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,15,15
 rancher/mirrored-messagebird-sachet:0.3.1,1,41,42
 rancher/mirrored-metrics-server:v0.7.1,0,8,8
