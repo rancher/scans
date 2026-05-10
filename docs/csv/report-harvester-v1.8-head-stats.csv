@@ -14,7 +14,7 @@ longhornio/longhorn-instance-manager:v1.11.1,0,25,25
 longhornio/longhorn-manager:v1.11.1,0,20,20
 longhornio/longhorn-share-manager:v1.11.1,0,14,14
 longhornio/longhorn-ui:v1.11.1,0,12,12
-longhornio/support-bundle-kit:v0.0.81,0,14,14
+longhornio/support-bundle-kit:v0.0.81,0,12,12
 rancher/appco-alertmanager:0.28.1-12.7,0,7,7
 rancher/appco-grafana:12.1.1-2.2,3,35,38
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,21,22
