@@ -461,6 +461,7 @@ rancher/appco-alertmanager:0.28.1-12.7,harvester/v1.8-head,golang.org/x/oauth2,v
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,glibc,2.38-150600.14.37.1,sles,SUSE-SU-2026:0371-1,HIGH,,rancher/appco-grafana:12.1.1-2.2 (sles 15.7),2.38-150600.14.40.1,false,affected,
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,glibc,2.38-150600.14.37.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/appco-grafana:12.1.1-2.2 (sles 15.7),2.38-150600.14.46.1,false,affected,
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,libcap2,2.63-150400.3.3.1,sles,SUSE-SU-2026:1432-1,HIGH,,rancher/appco-grafana:12.1.1-2.2 (sles 15.7),2.63-150400.3.6.1,false,affected,
+rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/appco-grafana:12.1.1-2.2 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,github.com/apache/thrift,v0.21.0,gobinary,CVE-2026-41602,HIGH,https://avd.aquasec.com/nvd/cve-2026-41602,usr/share/grafana/bin/grafana,0.23.0,false,affected,
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,github.com/go-jose/go-jose/v3,v3.0.4,gobinary,CVE-2026-34986,HIGH,https://avd.aquasec.com/nvd/cve-2026-34986,usr/share/grafana/bin/grafana,3.0.5,false,affected,
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8-head,github.com/go-jose/go-jose/v4,v4.1.0,gobinary,CVE-2026-34986,HIGH,https://avd.aquasec.com/nvd/cve-2026-34986,usr/share/grafana/bin/grafana,4.1.4,false,affected,
