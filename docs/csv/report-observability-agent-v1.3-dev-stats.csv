@@ -1,10 +1,10 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-7c9dc1f5-main-55,0,0,0
-quay.io/stackstate/generic-sidecar-injector:1d6fa71c-50-release,0,0,0
+quay.io/stackstate/container-tools:1.8.6-dc2b5d73-main-98,0,9,9
+quay.io/stackstate/generic-sidecar-injector:1d6fa71c-51-release,0,5,5
 quay.io/stackstate/http-header-injector-proxy-init:32d30a44-453-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy:32d30a44-453-release,0,0,0
-quay.io/stackstate/kubernetes-rbac-agent:e78c10a7-720-release,0,0,0
-quay.io/stackstate/promtail:3.6.10-e50dd5f7-main-16,0,2,2
-quay.io/stackstate/stackstate-k8s-agent:8f254dcf,0,0,0
-quay.io/stackstate/stackstate-k8s-cluster-agent:8f254dcf,0,0,0
-quay.io/stackstate/stackstate-k8s-process-agent:dc73c390,0,0,0
+quay.io/stackstate/kubernetes-rbac-agent:e78c10a7-728-release,0,0,0
+quay.io/stackstate/promtail:3.6.10-dc2b5d73-main-63,0,4,4
+quay.io/stackstate/stackstate-k8s-agent:8f254dcf,0,12,12
+quay.io/stackstate/stackstate-k8s-cluster-agent:8f254dcf,0,5,5
+quay.io/stackstate/stackstate-k8s-process-agent:dc73c390,0,3,3
