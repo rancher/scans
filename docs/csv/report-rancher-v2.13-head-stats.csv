@@ -146,7 +146,7 @@ rancher/harvester-csi-driver:v0.2.2,3,54,57
 rancher/harvester-csi-driver:v0.2.3,3,43,46
 rancher/harvester-csi-driver:v0.2.4,3,33,36
 rancher/harvester-csi-driver:v0.2.8,0,19,19
-rancher/k3s-upgrade:v1.32.13-k3s1,2,16,18
+rancher/k3s-upgrade:v1.32.13-k3s1,0,5,5
 rancher/k3s-upgrade:v1.33.11-k3s1,0,4,4
 rancher/k3s-upgrade:v1.34.7-k3s1,0,4,4
 rancher/klipper-helm:v0.9.10-build20251111,0,26,26
@@ -515,10 +515,10 @@ rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,
 rancher/rke2-runtime:v1.32.13-rke2r1,0,23,23
 rancher/rke2-runtime:v1.33.11-rke2r1,0,17,17
 rancher/rke2-runtime:v1.34.7-rke2r1,0,18,18
-rancher/rke2-upgrade:v1.32.13-rke2r1,2,31,33
+rancher/rke2-upgrade:v1.32.13-rke2r1,0,20,20
 rancher/rke2-upgrade:v1.33.11-rke2r1,0,10,10
 rancher/rke2-upgrade:v1.34.7-rke2r1,0,10,10
-rancher/scc-operator:v0.4.0,0,8,8
+rancher/scc-operator:v0.4.1,0,0,0
 rancher/security-scan:v0.8.6-rc.1,0,10,10
 rancher/shell:v0.6.3,0,41,41
 rancher/supportability-review-app-frontend:v0.19.0,0,17,17
@@ -534,4 +534,4 @@ rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent:v0.3.14-suc,3,23,26
 rancher/system-upgrade-controller:v0.17.0,0,8,8
 rancher/turtles:v0.25.4,0,7,7
-rancher/ui-plugin-catalog:4.16.0,0,39,39
+rancher/ui-plugin-catalog:4.17.0,0,39,39

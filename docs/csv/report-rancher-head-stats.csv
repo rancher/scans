@@ -317,7 +317,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/nginx-ingress-controller:v1.14.5-hardened1,0,19,19
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,12,12
 rancher/rancher-agent:head,0,13,13
-rancher/rancher-webhook:v0.11.0-rc.6,0,5,5
+rancher/rancher-webhook:v0.11.0-rc.7,0,0,0
 rancher/rancher:head,0,66,66
 rancher/remotedialer-proxy:v0.8.0-rc.5,0,2,2
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908,0,17,17
@@ -332,7 +332,7 @@ rancher/rke2-runtime:v1.34.7-rke2r1,0,18,18
 rancher/rke2-runtime:v1.35.4-rke2r1,0,18,18
 rancher/rke2-upgrade:v1.34.7-rke2r1,0,10,10
 rancher/rke2-upgrade:v1.35.4-rke2r1,0,10,10
-rancher/scc-operator:v0.4.0-rc.1,0,8,8
+rancher/scc-operator:v0.4.1,0,0,0
 rancher/shell:v0.8.0-rc.2,0,24,24
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.11-k3s1,0,0,0
@@ -345,4 +345,4 @@ rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,15,15
 rancher/system-upgrade-controller:v0.19.1,0,3,3
-rancher/ui-plugin-catalog:4.16.0,0,39,39
+rancher/ui-plugin-catalog:4.17.0,0,39,39

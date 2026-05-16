@@ -413,7 +413,7 @@ rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,5,26,31
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,595,724,1319
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,730,864,1594
 rancher/mirrored-idealista-prom2teams:4.2.1,5,48,53
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,11,11
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,11,11
@@ -536,4 +536,4 @@ rancher/system-agent-installer-rke2:v1.35.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,15,15
 rancher/system-upgrade-controller:v0.19.1,0,3,3
 rancher/turtles:v0.26.1,0,2,2
-rancher/ui-plugin-catalog:4.16.0,0,39,39
+rancher/ui-plugin-catalog:4.17.0,0,39,39
