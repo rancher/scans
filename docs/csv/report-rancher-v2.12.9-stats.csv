@@ -146,7 +146,7 @@ rancher/harvester-cloud-provider:v0.2.5,0,23,23
 rancher/harvester-csi-driver:v0.2.2,3,42,45
 rancher/harvester-csi-driver:v0.2.3,3,36,39
 rancher/harvester-csi-driver:v0.2.4,3,26,29
-rancher/harvester-csi-driver:v0.2.8,0,19,19
+rancher/harvester-csi-driver:v0.2.8,0,14,14
 rancher/istio-installer:1.24.1-rancher1,2,65,67
 rancher/istio-installer:1.25.0-rancher1,2,59,61
 rancher/istio-installer:1.26.2-rancher1,2,56,58
