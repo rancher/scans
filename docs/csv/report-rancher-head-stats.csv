@@ -5,8 +5,8 @@ rancher/hardened-addon-resizer:1.8.23-build20251204,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260119,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,3,3
 rancher/hardened-addon-resizer:1.8.23-build20260413,0,2,2
-rancher/hardened-calico:v3.30.3-build20251015,0,6,6
-rancher/hardened-calico:v3.31.4-build20260327,0,40,40
+rancher/hardened-calico:v3.30.3-build20251015,0,4,4
+rancher/hardened-calico:v3.31.4-build20260327,0,38,38
 rancher/hardened-calico:v3.31.5-build20260415,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250909,0,8,8
 rancher/hardened-cluster-autoscaler:v1.10.2-build20251015,0,6,6

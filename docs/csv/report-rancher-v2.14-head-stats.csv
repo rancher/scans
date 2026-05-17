@@ -3,7 +3,7 @@ rancher/aks-operator:v1.14.2-rc.1,0,2,2
 rancher/appco-alertmanager:0.30.0-12.16,0,13,13
 rancher/appco-curl:8.14.1-7.1,0,0,0
 rancher/appco-grafana:12.3.1-1.12,0,39,39
-rancher/appco-k8s-sidecar:2.1.2-1.10,1,17,18
+rancher/appco-k8s-sidecar:2.1.2-1.10,1,16,17
 rancher/appco-kube-rbac-proxy:0.20.1-16.14,0,12,12
 rancher/appco-kube-rbac-proxy:0.20.1-16.15,0,12,12
 rancher/appco-kube-state-metrics:2.17.0-10.11,0,11,11
@@ -25,8 +25,8 @@ rancher/hardened-addon-resizer:1.8.23-build20251204,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260119,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,3,3
 rancher/hardened-addon-resizer:1.8.23-build20260413,0,2,2
-rancher/hardened-calico:v3.30.3-build20251015,0,6,6
-rancher/hardened-calico:v3.31.4-build20260327,0,40,40
+rancher/hardened-calico:v3.30.3-build20251015,0,4,4
+rancher/hardened-calico:v3.31.4-build20260327,0,38,38
 rancher/hardened-calico:v3.31.5-build20260415,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,8,8
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250909,0,8,8
@@ -80,7 +80,7 @@ rancher/hardened-etcd:v3.6.6-k3s1-build20251210,0,8,8
 rancher/hardened-etcd:v3.6.7-k3s1-build20260126,0,8,8
 rancher/hardened-etcd:v3.6.7-k3s1-build20260227,0,6,6
 rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,4,4
-rancher/hardened-flannel:v0.27.1-build20250710,3,60,63
+rancher/hardened-flannel:v0.27.1-build20250710,3,57,60
 rancher/hardened-flannel:v0.27.2-build20250723,0,13,13
 rancher/hardened-flannel:v0.27.3-build20250901,0,13,13
 rancher/hardened-flannel:v0.27.4-build20251015,0,11,11
