@@ -47,7 +47,7 @@ rancher/harvester-node-manager:v1.7.2-rc1,0,2,2
 rancher/harvester-pcidevices:v1.7.2-rc1,0,5,5
 rancher/harvester-seeder:v1.7.2-rc1,3,16,19
 rancher/harvester-upgrade:v1.7-head,1,52,53
-rancher/harvester-vm-import-controller:v1.7.2-rc1,0,6,6
+rancher/harvester-vm-import-controller:v1.7.2-rc1,0,5,5
 rancher/harvester-webhook:v1.7-head,0,13,13
 rancher/harvester:v1.7-head,0,13,13
 rancher/klipper-helm:v0.9.17-build20260422,0,9,9

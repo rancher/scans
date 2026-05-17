@@ -42,10 +42,10 @@ rancher/harvester-node-manager-webhook:v1.5.2,3,25,28
 rancher/harvester-node-manager:v1.5.2,3,25,28
 rancher/harvester-pcidevices:v1.5.2,3,28,31
 rancher/harvester-seeder:v1.5.2,3,27,30
-rancher/harvester-upgrade:v1.5.2,4,95,99
-rancher/harvester-vm-import-controller:v1.5.2,3,46,49
-rancher/harvester-webhook:v1.5.2,3,43,46
-rancher/harvester:v1.5.2,3,43,46
+rancher/harvester-upgrade:v1.5.2,4,90,94
+rancher/harvester-vm-import-controller:v1.5.2,3,38,41
+rancher/harvester-webhook:v1.5.2,3,38,41
+rancher/harvester:v1.5.2,3,38,41
 rancher/klipper-helm:v0.9.8-build20250709,0,41,41
 rancher/klipper-lb:v0.4.13,0,5,5
 rancher/kubectl:v1.29.2,0,16,16
