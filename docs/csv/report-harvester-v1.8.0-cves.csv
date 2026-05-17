@@ -1947,6 +1947,8 @@ rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,busybox,1.37.0-150700.18.4.1,sle
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,busybox,1.37.0-150700.18.4.1,sles,SUSE-SU-2026:0759-1,HIGH,,rancher/kuberlr-kubectl:v6.0.0 (sles 15.7),1.37.0-150700.18.15.1,false,affected,
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,glibc,2.38-150600.14.37.1,sles,SUSE-SU-2026:0371-1,HIGH,,rancher/kuberlr-kubectl:v6.0.0 (sles 15.7),2.38-150600.14.40.1,false,affected,
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,glibc,2.38-150600.14.37.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/kuberlr-kubectl:v6.0.0 (sles 15.7),2.38-150600.14.46.1,false,affected,
+rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/kuberlr-kubectl:v6.0.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/kuberlr-kubectl:v6.0.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,bin/kuberlr,"1.24.13, 1.25.7, 1.26.0-rc.3",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,bin/kuberlr,"1.24.11, 1.25.5",false,affected,
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,bin/kuberlr,"1.25.9, 1.26.2",false,affected,
@@ -2015,6 +2017,8 @@ rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,stdlib,v1.24.6,gobinary,CVE-2025
 rancher/kuberlr-kubectl:v6.0.0,harvester/v1.8.0,stdlib,v1.24.6,gobinary,CVE-2026-32282,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-32282,usr/bin/kubectl1.34.1,"1.25.9, 1.26.2",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,busybox,1.37.0-150700.18.12.1,sles,SUSE-SU-2026:0759-1,HIGH,,rancher/kuberlr-kubectl:v7.0.1 (sles 15.7),1.37.0-150700.18.15.1,false,affected,
 rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,glibc,2.38-150600.14.40.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/kuberlr-kubectl:v7.0.1 (sles 15.7),2.38-150600.14.46.1,false,affected,
+rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/kuberlr-kubectl:v7.0.1 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/kuberlr-kubectl:v7.0.1 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,bin/kuberlr,"1.24.13, 1.25.7, 1.26.0-rc.3",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,bin/kuberlr,"1.24.11, 1.25.5",false,affected,
 rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,bin/kuberlr,"1.25.9, 1.26.2",false,affected,
@@ -2064,6 +2068,8 @@ rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,stdlib,v1.25.6,gobinary,CVE-2026
 rancher/kuberlr-kubectl:v7.0.1,harvester/v1.8.0,stdlib,v1.25.6,gobinary,CVE-2026-32282,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-32282,usr/bin/kubectl1.35.1,"1.25.9, 1.26.2",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,busybox,1.37.0-150700.18.12.1,sles,SUSE-SU-2026:0759-1,HIGH,,rancher/kuberlr-kubectl:v7.0.3 (sles 15.7),1.37.0-150700.18.15.1,false,affected,
 rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,glibc,2.38-150600.14.40.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/kuberlr-kubectl:v7.0.3 (sles 15.7),2.38-150600.14.46.1,false,affected,
+rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/kuberlr-kubectl:v7.0.3 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/kuberlr-kubectl:v7.0.3 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,bin/kuberlr,"1.24.13, 1.25.7, 1.26.0-rc.3",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2025-61729,HIGH,https://avd.aquasec.com/nvd/cve-2025-61729,bin/kuberlr,"1.24.11, 1.25.5",false,affected,
 rancher/kuberlr-kubectl:v7.0.3,harvester/v1.8.0,stdlib,v1.24.4,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,bin/kuberlr,"1.25.9, 1.26.2",false,affected,

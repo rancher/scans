@@ -176,7 +176,7 @@ rancher/local-path-provisioner:v0.0.31,1,13,14
 rancher/local-path-provisioner:v0.0.32,1,11,12
 rancher/local-path-provisioner:v0.0.34,0,7,7
 rancher/local-path-provisioner:v0.0.35,0,6,6
-rancher/machine:v0.15.0-rancher142,0,18,18
+rancher/machine:v0.15.0-rancher142,0,17,17
 rancher/mirrored-bci-busybox:15.6.24.2,0,5,5
 rancher/mirrored-bci-micro:15.6.24.2,0,4,4
 rancher/mirrored-calico-apiserver:v3.29.3,0,0,0
@@ -437,7 +437,7 @@ rancher/mirrored-library-traefik:3.6.10,0,14,14
 rancher/mirrored-library-traefik:3.6.13,0,9,9
 rancher/mirrored-library-traefik:3.6.7,2,14,16
 rancher/mirrored-library-traefik:3.6.9,0,16,16
-rancher/mirrored-longhornio-backing-image-manager:v1.11.1,0,27,27
+rancher/mirrored-longhornio-backing-image-manager:v1.11.1,0,21,21
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,58,58
 rancher/mirrored-longhornio-csi-attacher:v4.11.0,0,9,9
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0,0,6,6
@@ -450,10 +450,10 @@ rancher/mirrored-longhornio-csi-resizer:v2.1.0,0,9,9
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,10,10
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0,0,7,7
 rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
-rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,34,34
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,33,33
-rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,26,26
-rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,20,20
+rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,28,28
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,26,26
+rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,19,19
+rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,15,15
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,19,19
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
