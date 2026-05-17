@@ -2,7 +2,7 @@ image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.2,4,39,43
 ghcr.io/kube-vip/kube-vip-iptables:v0.9.2,4,24,28
 kubeovn/kube-ovn:v1.14.10,0,69,69
-longhornio/backing-image-manager:v1.10.2,3,37,40
+longhornio/backing-image-manager:v1.10.2,3,31,34
 longhornio/csi-attacher:v4.10.0-20251226,0,8,8
 longhornio/csi-node-driver-registrar:v2.15.0-20251226,0,7,7
 longhornio/csi-provisioner:v5.3.0-20251226,0,5,5
@@ -10,12 +10,12 @@ longhornio/csi-resizer:v1.14.0-20260119,0,5,5
 longhornio/csi-snapshotter:v8.4.0-20251226,0,7,7
 longhornio/livenessprobe:v2.17.0-20251226,0,6,6
 longhornio/longhorn-cli:v1.10.2,3,19,22
-longhornio/longhorn-engine:v1.10.2,3,40,43
-longhornio/longhorn-instance-manager:v1.10.2,4,43,47
-longhornio/longhorn-manager:v1.10.2,3,27,30
-longhornio/longhorn-manager:v1.10.2-hotfix-1,0,25,25
+longhornio/longhorn-engine:v1.10.2,3,36,39
+longhornio/longhorn-instance-manager:v1.10.2,4,37,41
+longhornio/longhorn-manager:v1.10.2,3,23,26
+longhornio/longhorn-manager:v1.10.2-hotfix-1,0,21,21
 longhornio/longhorn-share-manager:v1.10.2,3,18,21
-longhornio/longhorn-ui:v1.10.2,3,15,18
+longhornio/longhorn-ui:v1.10.2,3,14,17
 longhornio/support-bundle-kit:v0.0.79,3,19,22
 rancher/fleet-agent:v0.14.1,1,9,10
 rancher/fleet:v0.14.1,5,32,37
