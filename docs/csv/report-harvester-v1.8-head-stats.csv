@@ -102,6 +102,6 @@ registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.0-150700.3.16.2,0,32,32
 registry.suse.com/suse/sles/15.7/virt-api:1.7.0-150700.3.16.2,0,11,11
 registry.suse.com/suse/sles/15.7/virt-controller:1.7.0-150700.3.16.2,0,11,11
 registry.suse.com/suse/sles/15.7/virt-handler:1.7.0-150700.3.16.2,0,13,13
-registry.suse.com/suse/sles/15.7/virt-launcher:1.7.0-150700.3.16.2,0,31,31
-registry.suse.com/suse/sles/15.7/virt-operator:1.7.0-150700.3.16.2,0,13,13
+registry.suse.com/suse/sles/15.7/virt-launcher:1.7.0-150700.3.16.2,0,26,26
+registry.suse.com/suse/sles/15.7/virt-operator:1.7.0-150700.3.16.2,0,11,11
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0
