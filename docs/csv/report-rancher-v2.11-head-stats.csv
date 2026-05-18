@@ -479,9 +479,9 @@ rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,28,28
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,26,26
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,19,19
-rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,18,18
-rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,15,15
-rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,19,19
+rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,16,16
+rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,11,11
+rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,16,16
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.7.1,0,13,13
 rancher/mirrored-metrics-server:v0.7.2,0,13,13
@@ -528,7 +528,7 @@ rancher/prom-prometheus:v3.2.1,0,26,26
 rancher/prometheus-federator:v3.2.2,0,11,11
 rancher/pushprox-client:v0.1.5-rancher2-client,4,23,27
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,4,23,27
-rancher/rancher-agent:v2.11-head,1,56,57
+rancher/rancher-agent:v2.11-head,1,47,48
 rancher/rancher-csp-adapter:v6.0.0,0,12,12
 rancher/rancher-webhook:v0.7.10-rc.1,0,3,3
 rancher/rancher:v2.11-head,1,173,174

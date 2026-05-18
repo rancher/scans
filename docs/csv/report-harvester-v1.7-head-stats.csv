@@ -78,7 +78,7 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,10,10
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,10,10
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,7,7
 rancher/prom-prometheus:v3.2.1,0,26,26
-rancher/rancher-agent:v2.13.3,0,27,27
+rancher/rancher-agent:v2.13.3,0,25,25
 rancher/rancher-webhook:v0.9.3,0,12,12
 rancher/rancher:v2.13.3,0,158,158
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,4,4
