@@ -531,7 +531,7 @@ rancher/pushprox-proxy:v0.1.5-rancher2-proxy,4,23,27
 rancher/rancher-agent:v2.11-head,1,47,48
 rancher/rancher-csp-adapter:v6.0.0,0,12,12
 rancher/rancher-webhook:v0.7.10-rc.1,0,3,3
-rancher/rancher:v2.11-head,1,173,174
+rancher/rancher:v2.11-head,1,166,167
 rancher/remotedialer-proxy:v0.4.4,0,8,8
 rancher/rke2-cloud-provider:v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250613,0,16,16
 rancher/rke2-cloud-provider:v1.30.6-0.20241016053533-5ec454f50e7a-build20241016,0,9,9
@@ -548,8 +548,8 @@ rancher/rke2-cloud-provider:v1.32.8-rc1.0.20250814215348-fe896f7e7cf8-build20250
 rancher/rke2-runtime:v1.32.13-rke2r1,0,23,23
 rancher/rke2-upgrade:v1.30.14-rke2r2,4,49,53
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,20,20
-rancher/security-scan:v0.6.8,0,20,20
-rancher/shell:v0.4.2,1,61,62
+rancher/security-scan:v0.6.8,0,19,19
+rancher/shell:v0.4.2,1,59,60
 rancher/supportability-review-app-frontend:v0.19.0,0,17,17
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.19.0,0,6,6

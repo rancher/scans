@@ -2292,6 +2292,8 @@ rancher/rancher-agent:v2.14.0,harvester/v1.8-head,stdlib,v1.25.6,gobinary,CVE-20
 rancher/rancher-agent:v2.14.0,harvester/v1.8-head,stdlib,v1.25.6,gobinary,CVE-2026-32282,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-32282,usr/bin/kubectl,"1.25.9, 1.26.2",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,glibc,2.38-150600.14.43.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/rancher-webhook:v0.10.0 (sles 15.7),2.38-150600.14.46.1,false,affected,
 rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,libcap2,2.63-150400.3.3.1,sles,SUSE-SU-2026:1432-1,HIGH,,rancher/rancher-webhook:v0.10.0 (sles 15.7),2.63-150400.3.6.1,false,affected,
+rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/rancher-webhook:v0.10.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/rancher-webhook:v0.10.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,go.opentelemetry.io/otel,v1.37.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,usr/bin/webhook,1.41.0,false,affected,
 rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,usr/bin/webhook,"1.25.9, 1.26.2",false,affected,
 rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/bin/webhook,"1.25.10, 1.26.3",false,affected,
@@ -2301,10 +2303,14 @@ rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-
 rancher/rancher-webhook:v0.10.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/bin/webhook,"1.25.10, 1.26.3",false,affected,
 rancher/rancher:v2.14.0,harvester/v1.8-head,glibc,2.38-150600.14.43.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),2.38-150600.14.46.1,false,affected,
 rancher/rancher:v2.14.0,harvester/v1.8-head,libcap2,2.63-150400.3.3.1,sles,SUSE-SU-2026:1432-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),2.63-150400.3.6.1,false,affected,
-rancher/rancher:v2.14.0,harvester/v1.8-head,libexpat1,2.7.1-150700.3.9.2,sles,SUSE-SU-2026:1352-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),2.7.1-150700.3.12.1,false,affected,
 rancher/rancher:v2.14.0,harvester/v1.8-head,libopenssl3,3.2.3-150700.5.24.1,sles,SUSE-SU-2026:1375-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),3.2.3-150700.5.31.1,false,affected,
-rancher/rancher:v2.14.0,harvester/v1.8-head,login_defs,4.8.1-150600.17.9.1,sles,SUSE-RU-2026:1228-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),4.17.2-150600.17.18.1,false,affected,
-rancher/rancher:v2.14.0,harvester/v1.8-head,shadow,4.8.1-150600.17.9.1,sles,SUSE-RU-2026:1228-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),4.17.2-150600.17.18.1,false,affected,
+rancher/rancher:v2.14.0,harvester/v1.8-head,libexpat1,2.7.1-150700.3.9.2,sles,SUSE-SU-2026:1352-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),2.7.1-150700.3.12.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher:v2.14.0,harvester/v1.8-head,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/rancher:v2.14.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher:v2.14.0,harvester/v1.8-head,libssh-config,0.9.8-150600.11.9.1,sles,SUSE-SU-2026:1310-1,MEDIUM,,rancher/rancher:v2.14.0 (sles 15.7),0.9.8-150600.11.12.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher:v2.14.0,harvester/v1.8-head,libssh4,0.9.8-150600.11.9.1,sles,SUSE-SU-2026:1310-1,MEDIUM,,rancher/rancher:v2.14.0 (sles 15.7),0.9.8-150600.11.12.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher:v2.14.0,harvester/v1.8-head,login_defs,4.8.1-150600.17.9.1,sles,SUSE-RU-2026:1228-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),4.17.2-150600.17.18.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher:v2.14.0,harvester/v1.8-head,shadow,4.8.1-150600.17.9.1,sles,SUSE-RU-2026:1228-1,HIGH,,rancher/rancher:v2.14.0 (sles 15.7),4.17.2-150600.17.18.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/rancher:v2.14.0,harvester/v1.8-head,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/rancher:v2.14.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher:v2.14.0,harvester/v1.8-head,github.com/harvester/harvester,v0.0.0-20251016061812-c537e12b7f09,gobinary,CVE-2025-71261,HIGH,https://avd.aquasec.com/nvd/cve-2025-71261,opt/drivers/management-state/bin/docker-machine-driver-harvester,1.8.0,false,affected,
 rancher/rancher:v2.14.0,harvester/v1.8-head,go.opentelemetry.io/otel,v1.36.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,opt/drivers/management-state/bin/docker-machine-driver-harvester,1.41.0,false,affected,
 rancher/rancher:v2.14.0,harvester/v1.8-head,kubevirt.io/kubevirt,v1.6.0,gobinary,CVE-2025-64324,HIGH,https://avd.aquasec.com/nvd/cve-2025-64324,opt/drivers/management-state/bin/docker-machine-driver-harvester,"1.6.1, 1.7.0-rc.0",false,affected,
@@ -2599,8 +2605,10 @@ rancher/rke2-runtime:v1.35.2-rke2r1,harvester/v1.8-head,stdlib,v1.24.13,gobinary
 rancher/shell:v0.7.0,harvester/v1.8-head,glibc,2.38-150600.14.43.1,sles,SUSE-SU-2026:1369-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),2.38-150600.14.46.1,false,affected,
 rancher/shell:v0.7.0,harvester/v1.8-head,libnghttp2-14,1.64.0-150700.1.5,sles,SUSE-SU-2026:1074-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),1.64.0-150700.3.3.1,false,affected,
 rancher/shell:v0.7.0,harvester/v1.8-head,libopenssl3,3.2.3-150700.5.24.1,sles,SUSE-SU-2026:1375-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),3.2.3-150700.5.31.1,false,affected,
-rancher/shell:v0.7.0,harvester/v1.8-head,vim,9.2.0110-150500.20.43.1,sles,SUSE-SU-2026:1607-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),9.2.0280-150500.20.46.1,false,affected,
-rancher/shell:v0.7.0,harvester/v1.8-head,vim-data-common,9.2.0110-150500.20.43.1,sles,SUSE-SU-2026:1607-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),9.2.0280-150500.20.46.1,false,affected,
+rancher/shell:v0.7.0,harvester/v1.8-head,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/shell:v0.7.0 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/shell:v0.7.0,harvester/v1.8-head,libssh-config,0.9.8-150600.11.9.1,sles,SUSE-SU-2026:1310-1,MEDIUM,,rancher/shell:v0.7.0 (sles 15.7),0.9.8-150600.11.12.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/shell:v0.7.0,harvester/v1.8-head,vim,9.2.0110-150500.20.43.1,sles,SUSE-SU-2026:1607-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),9.2.0280-150500.20.46.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/shell:v0.7.0,harvester/v1.8-head,vim-data-common,9.2.0110-150500.20.43.1,sles,SUSE-SU-2026:1607-1,HIGH,,rancher/shell:v0.7.0 (sles 15.7),9.2.0280-150500.20.46.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/shell:v0.7.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,usr/local/bin/helm,"1.25.9, 1.26.2",false,affected,
 rancher/shell:v0.7.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/helm,"1.25.10, 1.26.3",false,affected,
 rancher/shell:v0.7.0,harvester/v1.8-head,stdlib,v1.25.8,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/helm,"1.25.10, 1.26.3",false,affected,
