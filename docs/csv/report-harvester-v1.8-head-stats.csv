@@ -91,9 +91,9 @@ rancher/turtles:v0.26.0,0,3,3
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,13,13
 registry.k8s.io/sig-storage/snapshot-controller:v8.5.0,0,7,7
 registry.suse.com/bci/bci-base:16.0,0,0,0
-registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,26,32
-registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,26,32
-registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,26,32
+registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,23,29
+registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,23,29
+registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,24,30
 registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,6,30,36
 registry.suse.com/suse/sles/15.7/cdi-operator:1.62.0-150700.9.3.1,6,26,32
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,6,26,32

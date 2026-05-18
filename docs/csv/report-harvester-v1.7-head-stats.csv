@@ -85,7 +85,7 @@ rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,
 rancher/rke2-runtime:v1.34.7-rke2r1,0,18,18
 rancher/shell:v0.5.0,1,63,64
 rancher/shell:v0.6.2,0,50,50
-rancher/support-bundle-kit:v0.0.74,3,28,31
+rancher/support-bundle-kit:v0.0.74,3,23,26
 rancher/system-agent-installer-rancher:v2.13.3,0,9,9
 rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent:v0.3.14-suc,3,23,26
@@ -93,9 +93,9 @@ rancher/system-upgrade-controller:v0.17.0,0,8,8
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,13,13
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,11,11
 registry.suse.com/bci/bci-base:15.7,0,0,0
-registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,26,32
-registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,26,32
-registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,26,32
+registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,23,29
+registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,23,29
+registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,24,30
 registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,6,30,36
 registry.suse.com/suse/sles/15.7/cdi-operator:1.62.0-150700.9.3.1,6,26,32
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,6,26,32
