@@ -17,7 +17,7 @@ rancher/hardened-cluster-autoscaler:v1.10.3-build20260414,0,2,2
 rancher/hardened-cni-plugins:v1.8.0-build20251014,0,4,4
 rancher/hardened-cni-plugins:v1.8.0-build20251204,0,4,4
 rancher/hardened-cni-plugins:v1.9.0-build20260116,0,58,58
-rancher/hardened-cni-plugins:v1.9.0-build20260206,0,38,38
+rancher/hardened-cni-plugins:v1.9.0-build20260206,0,2,2
 rancher/hardened-cni-plugins:v1.9.0-build20260309,0,37,37
 rancher/hardened-cni-plugins:v1.9.1-build20260318,0,37,37
 rancher/hardened-cni-plugins:v1.9.1-build20260415,0,1,1
@@ -95,8 +95,8 @@ rancher/hardened-whereabouts:v0.9.3-build20260310,0,10,10
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,7,7
 rancher/harvester-cloud-provider:v0.2.4,1,20,21
 rancher/harvester-cloud-provider:v0.2.5,0,23,23
-rancher/harvester-csi-driver:v0.2.3,3,36,39
-rancher/harvester-csi-driver:v0.2.4,3,26,29
+rancher/harvester-csi-driver:v0.2.3,3,38,41
+rancher/harvester-csi-driver:v0.2.4,3,28,31
 rancher/harvester-csi-driver:v0.2.8,0,14,14
 rancher/k3s-upgrade:v1.34.7-k3s1,0,4,4
 rancher/k3s-upgrade:v1.35.4-k3s1,0,4,4
@@ -118,7 +118,7 @@ rancher/kuberlr-kubectl:v7.0.3,0,26,26
 rancher/local-path-provisioner:v0.0.32,1,11,12
 rancher/local-path-provisioner:v0.0.34,0,7,7
 rancher/local-path-provisioner:v0.0.35,0,6,6
-rancher/machine:v0.15.0-rancher142,0,19,19
+rancher/machine:v0.15.0-rancher142,0,22,22
 rancher/mirrored-bci-busybox:15.6.24.2,0,5,5
 rancher/mirrored-bci-micro:15.6.24.2,0,4,4
 rancher/mirrored-calico-apiserver:v3.30.3,0,0,0
@@ -232,7 +232,7 @@ rancher/mirrored-cilium-cilium:v1.18.4,0,98,98
 rancher/mirrored-cilium-cilium:v1.18.6,0,77,77
 rancher/mirrored-cilium-cilium:v1.19.0,0,78,78
 rancher/mirrored-cilium-cilium:v1.19.1,0,69,69
-rancher/mirrored-cilium-cilium:v1.19.3,0,44,44
+rancher/mirrored-cilium-cilium:v1.19.3,0,42,42
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.1,0,22,22
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.3,0,20,20
 rancher/mirrored-cilium-clustermesh-apiserver:v1.18.4,0,20,20
@@ -345,4 +345,4 @@ rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,15,15
 rancher/system-upgrade-controller:v0.19.1,0,3,3
-rancher/ui-plugin-catalog:4.18.0,0,33,33
+rancher/ui-plugin-catalog:4.19.0,0,35,35

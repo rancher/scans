@@ -13,8 +13,8 @@ rancher/appco-thanos:0.40.1-8.1,0,13,13
 rancher/backup-restore-operator:v10.0.4-rc.1,0,5,5
 rancher/compliance-operator:v1.4.2-rc.2,0,2,2
 rancher/eks-operator:v1.14.2-rc.2,0,3,3
-rancher/fleet-agent:v0.15.2-rc.1,0,2,2
-rancher/fleet:v0.15.2-rc.1,0,8,8
+rancher/fleet-agent:v0.15.2-rc.2,0,0,0
+rancher/fleet:v0.15.2-rc.2,0,0,0
 rancher/gke-operator:v1.14.2-rc.1,0,3,3
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,8,8
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,9,9
@@ -40,7 +40,7 @@ rancher/hardened-cni-plugins:v1.7.1-build20250725,0,4,4
 rancher/hardened-cni-plugins:v1.8.0-build20251014,0,4,4
 rancher/hardened-cni-plugins:v1.8.0-build20251204,0,4,4
 rancher/hardened-cni-plugins:v1.9.0-build20260116,0,58,58
-rancher/hardened-cni-plugins:v1.9.0-build20260206,0,38,38
+rancher/hardened-cni-plugins:v1.9.0-build20260206,0,2,2
 rancher/hardened-cni-plugins:v1.9.0-build20260309,0,37,37
 rancher/hardened-cni-plugins:v1.9.1-build20260318,0,37,37
 rancher/hardened-cni-plugins:v1.9.1-build20260415,0,1,1
@@ -144,9 +144,9 @@ rancher/hardened-whereabouts:v0.9.3-build20260310,0,10,10
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,7,7
 rancher/harvester-cloud-provider:v0.2.4,1,20,21
 rancher/harvester-cloud-provider:v0.2.5,0,23,23
-rancher/harvester-csi-driver:v0.2.2,3,42,45
-rancher/harvester-csi-driver:v0.2.3,3,36,39
-rancher/harvester-csi-driver:v0.2.4,3,26,29
+rancher/harvester-csi-driver:v0.2.2,3,44,47
+rancher/harvester-csi-driver:v0.2.3,3,38,41
+rancher/harvester-csi-driver:v0.2.4,3,28,31
 rancher/harvester-csi-driver:v0.2.8,0,14,14
 rancher/helm-controller:v0.16.10,4,23,27
 rancher/k3s-upgrade:v1.33.11-k3s1,0,4,4
@@ -176,7 +176,7 @@ rancher/local-path-provisioner:v0.0.31,1,13,14
 rancher/local-path-provisioner:v0.0.32,1,11,12
 rancher/local-path-provisioner:v0.0.34,0,7,7
 rancher/local-path-provisioner:v0.0.35,0,6,6
-rancher/machine:v0.15.0-rancher142,0,19,19
+rancher/machine:v0.15.0-rancher142,0,22,22
 rancher/mirrored-bci-busybox:15.6.24.2,0,5,5
 rancher/mirrored-bci-micro:15.6.24.2,0,4,4
 rancher/mirrored-calico-apiserver:v3.29.3,0,0,0
@@ -334,7 +334,7 @@ rancher/mirrored-cilium-cilium:v1.18.4,0,98,98
 rancher/mirrored-cilium-cilium:v1.18.6,0,77,77
 rancher/mirrored-cilium-cilium:v1.19.0,0,78,78
 rancher/mirrored-cilium-cilium:v1.19.1,0,69,69
-rancher/mirrored-cilium-cilium:v1.19.3,0,44,44
+rancher/mirrored-cilium-cilium:v1.19.3,0,42,42
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.3,0,20,20
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.4,0,22,22
 rancher/mirrored-cilium-clustermesh-apiserver:v1.17.6,0,21,21
@@ -394,10 +394,10 @@ rancher/mirrored-cilium-operator-generic:v1.18.6,0,11,11
 rancher/mirrored-cilium-operator-generic:v1.19.0,0,11,11
 rancher/mirrored-cilium-operator-generic:v1.19.1,0,10,10
 rancher/mirrored-cilium-operator-generic:v1.19.3,0,6,6
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,18,110,128
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,20,110,130
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,10,109,119
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,6,83,89
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,10,58,68
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,11,58,69
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,4,52,56
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,2,39,41
 rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,13,13
@@ -411,9 +411,9 @@ rancher/mirrored-coredns-coredns:1.14.1,0,15,15
 rancher/mirrored-coredns-coredns:1.14.2,0,14,14
 rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,5,30,35
+rancher/mirrored-fluent-fluent-bit:3.1.8,5,31,36
 rancher/mirrored-fluent-fluent-bit:3.1.8-debug,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,730,864,1594
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,730,865,1595
 rancher/mirrored-idealista-prom2teams:4.2.1,5,48,53
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,11,11
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,11,11
@@ -454,7 +454,7 @@ rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,30,30
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,26,26
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,19,19
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,16,16
-rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,11,11
+rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,12,12
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,16,16
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.7.2,0,13,13
@@ -494,7 +494,7 @@ rancher/prometheus-federator:v6.0.0,0,5,5
 rancher/pushprox:v0.1.10,0,8,8
 rancher/rancher-agent:v2.14-head,0,10,10
 rancher/rancher-csp-adapter:v9.0.0,0,8,8
-rancher/rancher-webhook:v0.10.5-rc.3,0,0,0
+rancher/rancher-webhook:v0.10.5-rc.4,0,0,0
 rancher/rancher:v2.14-head,0,69,69
 rancher/remotedialer-proxy:v0.7.2,0,2,2
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430,0,11,11
@@ -536,4 +536,4 @@ rancher/system-agent-installer-rke2:v1.35.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,15,15
 rancher/system-upgrade-controller:v0.19.1,0,3,3
 rancher/turtles:v0.26.2-rc.2,0,0,0
-rancher/ui-plugin-catalog:4.18.0,0,33,33
+rancher/ui-plugin-catalog:4.19.0,0,35,35
