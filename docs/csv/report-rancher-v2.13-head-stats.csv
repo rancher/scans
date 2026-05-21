@@ -10,9 +10,9 @@ rancher/appco-redis:8.0.3-2.1,1,5,6
 rancher/appco-thanos:0.39.2-7.3,0,14,14
 rancher/backup-restore-operator:v9.0.3,0,9,9
 rancher/compliance-operator:v1.3.6-rc.2,0,2,2
-rancher/eks-operator:v1.13.6-rc.1,0,4,4
-rancher/fleet-agent:v0.14.6-rc.2,0,0,0
-rancher/fleet:v0.14.6-rc.2,0,0,0
+rancher/eks-operator:v1.13.6,0,4,4
+rancher/fleet-agent:v0.14.6-rc.3,0,0,0
+rancher/fleet:v0.14.6-rc.3,0,0,0
 rancher/gke-operator:v1.13.6-rc.1,0,5,5
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,8,8
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,9,9
@@ -55,7 +55,7 @@ rancher/hardened-coredns:v1.14.2-build20260310,0,11,11
 rancher/hardened-coredns:v1.14.2-build20260416,0,7,7
 rancher/hardened-csi-snapshotter:v8.4.0-build20260108,0,7,7
 rancher/hardened-csi-snapshotter:v8.4.0-build20260205,0,6,6
-rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,6,6
+rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,5,5
 rancher/hardened-dns-node-cache:1.26.0-build20250515,0,22,22
 rancher/hardened-dns-node-cache:1.26.0-build20250611,0,22,22
 rancher/hardened-dns-node-cache:1.26.0-build20250909,0,22,22
@@ -123,7 +123,7 @@ rancher/hardened-multus-thick:v4.2.3-build20260206,0,14,14
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,13,13
 rancher/hardened-snapshot-controller:v8.4.0-build20260108,0,7,7
 rancher/hardened-snapshot-controller:v8.4.0-build20260205,0,6,6
-rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,6,6
+rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,5,5
 rancher/hardened-traefik:v3.5.4-build20251103,0,29,29
 rancher/hardened-traefik:v3.6.10-build20260309,0,15,15
 rancher/hardened-traefik:v3.6.13-build20260416,0,14,14
@@ -534,4 +534,4 @@ rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent:v0.3.14-suc,3,23,26
 rancher/system-upgrade-controller:v0.17.0,0,8,8
 rancher/turtles:v0.25.4,0,7,7
-rancher/ui-plugin-catalog:4.19.0,0,35,35
+rancher/ui-plugin-catalog:4.20.0,0,35,35

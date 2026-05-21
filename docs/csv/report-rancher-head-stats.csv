@@ -30,7 +30,7 @@ rancher/hardened-coredns:v1.14.2-build20260310,0,11,11
 rancher/hardened-coredns:v1.14.2-build20260416,0,7,7
 rancher/hardened-csi-snapshotter:v8.4.0-build20260108,0,7,7
 rancher/hardened-csi-snapshotter:v8.4.0-build20260205,0,6,6
-rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,6,6
+rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,5,5
 rancher/hardened-dns-node-cache:1.26.0-build20250909,0,22,22
 rancher/hardened-dns-node-cache:1.26.7-build20251016,0,20,20
 rancher/hardened-dns-node-cache:1.26.7-build20251204,0,18,18
@@ -78,7 +78,7 @@ rancher/hardened-multus-thick:v4.2.3-build20260206,0,14,14
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,13,13
 rancher/hardened-snapshot-controller:v8.4.0-build20260108,0,7,7
 rancher/hardened-snapshot-controller:v8.4.0-build20260205,0,6,6
-rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,6,6
+rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,5,5
 rancher/hardened-traefik:v3.5.4-build20251103,0,29,29
 rancher/hardened-traefik:v3.6.10-build20260309,0,15,15
 rancher/hardened-traefik:v3.6.13-build20260416,0,14,14
@@ -317,7 +317,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/nginx-ingress-controller:v1.14.5-hardened1,0,13,13
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,7,7
 rancher/rancher-agent:head,0,10,10
-rancher/rancher-webhook:v0.11.0-rc.7,0,0,0
+rancher/rancher-webhook:v0.11.0-rc.9,0,0,0
 rancher/rancher:head,0,72,72
 rancher/remotedialer-proxy:v0.8.0-rc.5,0,2,2
 rancher/rke2-cloud-provider:v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908,0,17,17
@@ -345,4 +345,4 @@ rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,15,15
 rancher/system-upgrade-controller:v0.19.1,0,3,3
-rancher/ui-plugin-catalog:4.19.0,0,35,35
+rancher/ui-plugin-catalog:4.20.0,0,35,35

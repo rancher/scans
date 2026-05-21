@@ -5,8 +5,8 @@ rancher/appco-redis:8.0.3-2.1,1,5,6
 rancher/backup-restore-operator:v7.0.6,0,9,9
 rancher/cis-operator:v1.4.8,0,6,6
 rancher/eks-operator:v1.11.11,0,6,6
-rancher/fleet-agent:v0.12.15-rc.2,0,0,0
-rancher/fleet:v0.12.15-rc.2,0,0,0
+rancher/fleet-agent:v0.12.15-rc.3,0,0,0
+rancher/fleet:v0.12.15-rc.3,0,0,0
 rancher/hardened-addon-resizer:1.8.22-build20250110,0,8,8
 rancher/hardened-addon-resizer:1.8.23-build20250507,0,9,9
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,8,8
@@ -580,4 +580,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,3,29,32
 rancher/system-upgrade-controller:v0.15.2,0,8,8
-rancher/ui-plugin-catalog:4.19.0,0,35,35
+rancher/ui-plugin-catalog:4.20.0,0,35,35
