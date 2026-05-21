@@ -1,6 +1,6 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3,2,23,25
-kubeovn/kube-ovn:v1.15.4,0,46,46
+kubeovn/kube-ovn:v1.15.4,0,45,45
 longhornio/backing-image-manager:v1.11.1,0,18,18
 longhornio/csi-attacher:v4.11.0,0,9,9
 longhornio/csi-node-driver-registrar:v2.16.0,0,6,6
@@ -31,7 +31,7 @@ rancher/hardened-dns-node-cache:1.26.7-build20260206,0,15,15
 rancher/hardened-etcd:v3.6.7-k3s1-build20260227,0,6,6
 rancher/hardened-flannel:v0.28.1-build20260206,0,6,6
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260206,0,7,7
-rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227,0,42,42
+rancher/hardened-kubernetes:v1.35.2-rke2r1-build20260227,0,36,36
 rancher/hardened-multus-cni:v4.2.3-build20260206,0,15,15
 rancher/hardened-snapshot-controller:v8.4.0-build20260205,0,6,6
 rancher/harvester-cluster-repo:v1.8-head,0,0,0
@@ -56,7 +56,7 @@ rancher/harvester:v1.8-head,0,16,16
 rancher/klipper-helm:v0.9.14-build20260210,0,14,14
 rancher/klipper-lb:v0.4.14,0,2,2
 rancher/kubectl:v1.35.1,0,7,7
-rancher/kuberlr-kubectl:v7.0.3,0,26,26
+rancher/kuberlr-kubectl:v7.0.3,0,25,25
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,30,34
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,7,7
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
@@ -75,8 +75,8 @@ rancher/rancher-agent:v2.14.0,0,24,24
 rancher/rancher-webhook:v0.10.0,0,9,9
 rancher/rancher:v2.14.0,0,123,123
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,10,10
-rancher/rke2-runtime:v1.35.2-rke2r1,0,29,29
-rancher/shell:v0.7.0,0,42,42
+rancher/rke2-runtime:v1.35.2-rke2r1,0,27,27
+rancher/shell:v0.7.0,0,41,41
 rancher/support-bundle-kit:v0.0.85,0,4,4
 rancher/system-agent-installer-rancher:v2.14.0,0,4,4
 rancher/system-agent-installer-rke2:v1.35.2-rke2r1,0,0,0

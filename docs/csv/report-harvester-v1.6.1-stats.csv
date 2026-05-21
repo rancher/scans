@@ -30,8 +30,8 @@ rancher/hardened-multus-cni:v4.2.2-build20250909,0,40,40
 rancher/harvester-cluster-repo:v1.6.1,3,19,22
 rancher/harvester-eventrouter:v1.6.1,0,12,12
 rancher/harvester-kubeovn-operator:v1.13.13,3,36,39
-rancher/harvester-load-balancer-webhook:v1.6.1,0,16,16
-rancher/harvester-load-balancer:v1.6.1,0,12,12
+rancher/harvester-load-balancer-webhook:v1.6.1,0,15,15
+rancher/harvester-load-balancer:v1.6.1,0,11,11
 rancher/harvester-network-controller:v1.6.1,3,28,31
 rancher/harvester-network-helper:v1.6.1,0,17,17
 rancher/harvester-network-webhook:v1.6.1,0,17,17
@@ -43,7 +43,7 @@ rancher/harvester-node-manager:v1.6.1,3,20,23
 rancher/harvester-pcidevices:v1.6.1,2,22,24
 rancher/harvester-seeder:v1.6.1,3,19,22
 rancher/harvester-upgrade:v1.6.1,4,90,94
-rancher/harvester-vm-import-controller:v1.6.1,3,38,41
+rancher/harvester-vm-import-controller:v1.6.1,3,35,38
 rancher/harvester-webhook:v1.6.1,3,36,39
 rancher/harvester:v1.6.1,3,37,40
 rancher/klipper-helm:v0.9.8-build20250709,0,40,40
