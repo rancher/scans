@@ -1,5 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:master-head,longhorn/master,sed,4.9-150600.1.4,sles,SUSE-SU-2026:1941-1,MEDIUM,,longhornio/backing-image-manager:master-head (sles 15.7),4.9-150600.3.3.1,false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/csi-attacher:v4.11.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,csi-attacher,"1.25.10, 1.26.3",false,affected,
 longhornio/csi-attacher:v4.11.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,csi-attacher,"1.25.10, 1.26.3",false,affected,
 longhornio/csi-attacher:v4.11.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,csi-attacher,"1.25.10, 1.26.3",false,affected,

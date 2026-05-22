@@ -144,7 +144,7 @@ rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,25,25
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,15,15
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,9,9
-rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,16,16
+rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,15,15
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.7.1,0,13,13
 rancher/mirrored-metrics-server:v0.7.2,0,13,13
