@@ -1,9 +1,9 @@
 image,critical,high,total
-rancher/k3s:v1.33.12-k3s1,0,16,16
-rancher/klipper-helm:v0.10.0-build20260513,0,0,0
+rancher/k3s:v1.33.12-k3s1,0,17,17
+rancher/klipper-helm:v0.10.0-build20260513,0,3,3
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/local-path-provisioner:v0.0.36,0,0,0
-rancher/mirrored-coredns-coredns:1.14.3,0,10,10
+rancher/mirrored-coredns-coredns:1.14.3,0,9,9
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-traefik:3.6.13,0,12,12
 rancher/mirrored-metrics-server:v0.8.1,0,8,8

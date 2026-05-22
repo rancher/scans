@@ -1,1 +1,3 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+registry.rancher.com/suse-observability/stackstate-k8s-agent:fc58e9ec,observability-agent/v1.3-dev,github.com/containerd/containerd,v1.7.29,gobinary,CVE-2026-46680,HIGH,https://avd.aquasec.com/nvd/cve-2026-46680,opt/stackstate-agent/bin/agent/agent,1.7.32,false,affected,
+registry.rancher.com/suse-observability/stackstate-k8s-process-agent:e504bc51,observability-agent/v1.3-dev,github.com/containerd/containerd,v1.7.29,gobinary,CVE-2026-46680,HIGH,https://avd.aquasec.com/nvd/cve-2026-46680,opt/stackstate-agent/bin/agent/process-agent,1.7.32,false,affected,

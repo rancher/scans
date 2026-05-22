@@ -15,8 +15,8 @@ longhornio/longhorn-manager:v1.8.2,4,42,46
 longhornio/longhorn-share-manager:v1.8.2,3,37,40
 longhornio/longhorn-ui:v1.8.2,3,32,35
 longhornio/support-bundle-kit:v0.0.56,3,37,40
-rancher/fleet-agent:v0.12.4,1,19,20
-rancher/fleet:v0.12.4,5,57,62
+rancher/fleet-agent:v0.12.4,1,20,21
+rancher/fleet:v0.12.4,5,59,64
 rancher/gitjob:v0.9.8,0,61,61
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,8,8
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,8,8
@@ -44,9 +44,9 @@ rancher/harvester-pcidevices:v1.5.2,2,26,28
 rancher/harvester-seeder:v1.5.2,3,26,29
 rancher/harvester-upgrade:v1.5-head,4,98,102
 rancher/harvester-vm-import-controller:v1.5.2,3,37,40
-rancher/harvester-webhook:v1.5-head,3,41,44
-rancher/harvester:v1.5-head,3,42,45
-rancher/klipper-helm:v0.9.8-build20250709,0,40,40
+rancher/harvester-webhook:v1.5-head,3,42,45
+rancher/harvester:v1.5-head,3,43,46
+rancher/klipper-helm:v0.9.8-build20250709,0,43,43
 rancher/klipper-lb:v0.4.13,0,4,4
 rancher/kubectl:v1.32.3,0,10,10
 rancher/mirrored-cluster-api-controller:v1.9.5,0,12,12
@@ -55,7 +55,7 @@ rancher/mirrored-grafana-grafana:11.1.0,1,19,20
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,11,11
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,5,34,39
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,7,44,51
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,44,52
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,8,8
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0,0,14,14
 rancher/mirrored-library-busybox:1.31.1,0,0,0
@@ -73,8 +73,8 @@ rancher/rancher-agent:v2.11.3,1,54,55
 rancher/rancher-webhook:v0.7.3,0,11,11
 rancher/rancher:v2.11.3,1,185,186
 rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,17,17
-rancher/rke2-runtime:v1.32.7-rke2r1,0,60,60
-rancher/shell:v0.4.1,1,73,74
+rancher/rke2-runtime:v1.32.7-rke2r1,0,63,63
+rancher/shell:v0.4.1,1,74,75
 rancher/support-bundle-kit:v0.0.65,3,32,35
 rancher/system-agent-installer-rancher:v2.11.3,0,15,15
 rancher/system-agent-installer-rke2:v1.32.7-rke2r1,0,0,0
