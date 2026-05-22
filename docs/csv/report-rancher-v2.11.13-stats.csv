@@ -79,7 +79,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.3,3,15,18
 rancher/mirrored-cilium-operator-aws:v1.19.1,0,10,10
 rancher/mirrored-cilium-operator-azure:v1.19.1,0,10,10
 rancher/mirrored-cilium-operator-generic:v1.19.1,0,10,10
-rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,23,23
+rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,22,22
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,17,17
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,25,130,155
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,24,111,135
@@ -143,7 +143,7 @@ rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,31,31
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,25,25
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,15,15
-rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,11,11
+rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,10,10
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,16,16
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.7.1,0,13,13
@@ -152,7 +152,7 @@ rancher/mirrored-metrics-server:v0.8.1,0,8,8
 rancher/mirrored-nginx-ingress-controller-defaultbackend:1.5-rancher2,0,0,0
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-pause:3.7,0,0,0
-rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,12,12
+rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,11,11
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,20,20
 rancher/mirrored-prometheus-node-exporter:v1.9.0,0,9,9
 rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,10,10
@@ -166,8 +166,8 @@ rancher/mirrored-sig-storage-csi-node-driver-registrar:v2.12.0,0,10,10
 rancher/mirrored-sig-storage-csi-node-driver-registrar:v2.13.0,0,10,10
 rancher/mirrored-sig-storage-csi-provisioner:v4.0.0,0,14,14
 rancher/mirrored-sig-storage-csi-provisioner:v4.0.1,0,14,14
-rancher/mirrored-sig-storage-csi-resizer:v1.10.0,0,14,14
-rancher/mirrored-sig-storage-csi-resizer:v1.10.1,0,14,14
+rancher/mirrored-sig-storage-csi-resizer:v1.10.0,0,13,13
+rancher/mirrored-sig-storage-csi-resizer:v1.10.1,0,13,13
 rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,10,10
 rancher/mirrored-sig-storage-csi-snapshotter:v7.0.1,0,13,13
 rancher/mirrored-sig-storage-csi-snapshotter:v7.0.2,0,13,13
@@ -204,7 +204,7 @@ rancher/shell:v0.4.2,1,67,68
 rancher/supportability-review-app-frontend:v0.19.0,0,13,13
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.19.0,0,6,6
-rancher/supportability-review:latest,0,4,4
+rancher/supportability-review:latest,0,1,1
 rancher/system-agent-installer-k3s:v1.30.14-k3s2,0,0,0
 rancher/system-agent-installer-k3s:v1.31.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0

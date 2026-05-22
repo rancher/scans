@@ -9,14 +9,14 @@ longhornio/csi-resizer:v1.13.2,0,9,9
 longhornio/csi-snapshotter:v8.2.0,0,9,9
 longhornio/livenessprobe:v2.16.0,0,11,11
 longhornio/longhorn-cli:v1.8.2,3,38,41
-longhornio/longhorn-engine:v1.8.2,4,71,75
+longhornio/longhorn-engine:v1.8.2,4,68,72
 longhornio/longhorn-instance-manager:v1.8.2,5,64,69
 longhornio/longhorn-manager:v1.8.2,4,42,46
 longhornio/longhorn-share-manager:v1.8.2,3,37,40
 longhornio/longhorn-ui:v1.8.2,3,32,35
 longhornio/support-bundle-kit:v0.0.56,3,37,40
 rancher/fleet-agent:v0.12.4,1,19,20
-rancher/fleet:v0.12.4,5,60,65
+rancher/fleet:v0.12.4,5,57,62
 rancher/gitjob:v0.9.8,0,61,61
 rancher/hardened-addon-resizer:1.8.23-build20250612,0,8,8
 rancher/hardened-cluster-autoscaler:v1.10.2-build20250611,0,8,8
@@ -39,7 +39,7 @@ rancher/harvester-networkfs-manager:v1.5.2,3,29,32
 rancher/harvester-node-disk-manager-webhook:v1.5.2,3,25,28
 rancher/harvester-node-disk-manager:v1.5.2,3,28,31
 rancher/harvester-node-manager-webhook:v1.5.2,3,25,28
-rancher/harvester-node-manager:v1.5.2,3,25,28
+rancher/harvester-node-manager:v1.5.2,3,23,26
 rancher/harvester-pcidevices:v1.5.2,2,26,28
 rancher/harvester-seeder:v1.5.2,3,26,29
 rancher/harvester-upgrade:v1.5.2,4,99,103
@@ -61,7 +61,7 @@ rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.12.0,0,14,14
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-nginx:1.24.0-alpine,2,11,13
 rancher/mirrored-pause:3.6,0,0,0
-rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,12,12
+rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,11,11
 rancher/mirrored-prometheus-alertmanager:v0.27.0,0,30,30
 rancher/mirrored-prometheus-node-exporter:v1.8.2,0,9,9
 rancher/mirrored-prometheus-operator-admission-webhook:v0.75.1,0,14,14
@@ -75,7 +75,7 @@ rancher/rancher:v2.11.3,1,185,186
 rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,17,17
 rancher/rke2-runtime:v1.32.7-rke2r1,0,60,60
 rancher/shell:v0.4.1,1,73,74
-rancher/support-bundle-kit:v0.0.65,3,33,36
+rancher/support-bundle-kit:v0.0.65,3,32,35
 rancher/system-agent-installer-rancher:v2.11.3,0,15,15
 rancher/system-agent-installer-rke2:v1.32.7-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,3,29,32

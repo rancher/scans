@@ -19,7 +19,7 @@ rancher/hardened-calico:v3.31.5-build20260415,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260414,0,2,2
 rancher/hardened-cni-plugins:v1.9.1-build20260415,0,1,1
 rancher/hardened-coredns:v1.14.2-build20260416,0,7,7
-rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,5,5
+rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,4,4
 rancher/hardened-dns-node-cache:1.26.8-build20260416,0,10,10
 rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,4,4
 rancher/hardened-flannel:v0.28.4-build20260415,0,2,2
@@ -30,7 +30,7 @@ rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,18,18
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,15,15
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,3,3
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,13,13
-rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,5,5
+rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,4,4
 rancher/hardened-traefik:v3.6.13-build20260416,0,14,14
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,7,7
 rancher/harvester-cloud-provider:v0.2.4,1,20,21
@@ -48,7 +48,7 @@ rancher/kube-api-auth:v0.2.6,0,6,6
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,5,5
 rancher/kubectl:v1.34.1,0,9,9
 rancher/kubectl:v1.34.5,0,5,5
-rancher/kuberlr-kubectl:v5.0.0,0,43,43
+rancher/kuberlr-kubectl:v5.0.0,0,42,42
 rancher/kuberlr-kubectl:v6.0.0,0,39,39
 rancher/kuberlr-kubectl:v6.0.3,0,25,25
 rancher/local-path-provisioner:v0.0.35,0,6,6
@@ -123,12 +123,12 @@ rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,31,31
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,25,25
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,15,15
-rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,11,11
+rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,10,10
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,16,16
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.8.1,0,8,8
 rancher/mirrored-pause:3.6,0,0,0
-rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,12,12
+rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,11,11
 rancher/mirrored-prometheus-operator-admission-webhook:v0.85.0,0,11,11
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,10,10
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.85.0,0,11,11
@@ -148,7 +148,7 @@ rancher/neuvector-prometheus-exporter:1.0.12,0,2,2
 rancher/neuvector-registry-adapter:0.2.6,0,8,8
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.10,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,7,7
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,4,4
 rancher/prom-prometheus:v3.5.0,0,34,34
 rancher/prometheus-federator:v5.0.1,0,5,5
 rancher/pushprox:v0.1.10,0,8,8
@@ -170,7 +170,7 @@ rancher/shell:v0.6.3,0,42,42
 rancher/supportability-review-app-frontend:v0.19.0,0,13,13
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.19.0,0,6,6
-rancher/supportability-review:latest,0,4,4
+rancher/supportability-review:latest,0,1,1
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.11-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.7-k3s1,0,0,0

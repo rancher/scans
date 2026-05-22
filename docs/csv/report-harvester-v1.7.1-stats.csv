@@ -10,14 +10,14 @@ longhornio/csi-resizer:v1.14.0-20260119,0,5,5
 longhornio/csi-snapshotter:v8.4.0-20251226,0,7,7
 longhornio/livenessprobe:v2.17.0-20251226,0,6,6
 longhornio/longhorn-cli:v1.10.2,3,18,21
-longhornio/longhorn-engine:v1.10.2,3,36,39
+longhornio/longhorn-engine:v1.10.2,3,35,38
 longhornio/longhorn-instance-manager:v1.10.2,4,33,37
 longhornio/longhorn-manager:v1.10.2,3,23,26
 longhornio/longhorn-share-manager:v1.10.2,3,18,21
 longhornio/longhorn-ui:v1.10.2,3,14,17
 longhornio/support-bundle-kit:v0.0.79,3,19,22
 rancher/fleet-agent:v0.14.1,1,9,10
-rancher/fleet:v0.14.1,5,27,32
+rancher/fleet:v0.14.1,5,26,31
 rancher/hardened-addon-resizer:1.8.23-build20260119,0,4,4
 rancher/hardened-cluster-autoscaler:v1.10.2-build20260116,0,4,4
 rancher/hardened-cni-plugins:v1.9.0-build20260116,0,58,58
@@ -41,9 +41,9 @@ rancher/harvester-networkfs-manager:v1.7.1,0,15,15
 rancher/harvester-node-disk-manager-webhook:v1.7.1,0,13,13
 rancher/harvester-node-disk-manager:v1.7.1,0,16,16
 rancher/harvester-node-manager-webhook:v1.7.1,0,13,13
-rancher/harvester-node-manager:v1.7.1,0,12,12
+rancher/harvester-node-manager:v1.7.1,0,11,11
 rancher/harvester-pcidevices:v1.7.1,0,14,14
-rancher/harvester-seeder:v1.7.1,3,16,19
+rancher/harvester-seeder:v1.7.1,3,15,18
 rancher/harvester-upgrade:v1.7.1,1,81,82
 rancher/harvester-vm-import-controller:v1.7.1,0,18,18
 rancher/harvester-webhook:v1.7.1,0,27,27
@@ -51,7 +51,7 @@ rancher/harvester:v1.7.1,0,28,28
 rancher/klipper-helm:v0.9.12-build20251215,0,18,18
 rancher/klipper-lb:v0.4.13,0,4,4
 rancher/kubectl:v1.34.1,0,9,9
-rancher/kuberlr-kubectl:v5.0.0,0,43,43
+rancher/kuberlr-kubectl:v5.0.0,0,42,42
 rancher/mirrored-cluster-api-controller:v1.10.6,0,12,12
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,30,34
 rancher/mirrored-grafana-grafana:11.5.5,2,26,28
@@ -64,7 +64,7 @@ rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,13,13
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.27.2-alpine,3,34,37
 rancher/mirrored-pause:3.6,0,0,0
-rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,12,12
+rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,11,11
 rancher/mirrored-prometheus-alertmanager:v0.28.1,0,20,20
 rancher/mirrored-prometheus-node-exporter:v1.9.0,0,9,9
 rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,10,10
@@ -76,7 +76,7 @@ rancher/rancher-webhook:v0.9.1,0,13,13
 rancher/rancher:v2.13.1,1,172,173
 rancher/rke2-cloud-provider:v1.34.3-0.20251210094406-1ff6ebef7028-build20251210,0,13,13
 rancher/rke2-runtime:v1.34.3-rke2r3,0,33,33
-rancher/shell:v0.6.1,1,55,56
+rancher/shell:v0.6.1,1,54,55
 rancher/support-bundle-kit:v0.0.74,3,23,26
 rancher/system-agent-installer-rancher:v2.13.1,0,9,9
 rancher/system-agent-installer-rke2:v1.34.3-rke2r3,0,0,0
@@ -95,7 +95,7 @@ registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.62.0-150700.9.3.1,5,26,31
 registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.3-150700.3.13.1,3,59,62
 registry.suse.com/suse/sles/15.7/virt-api:1.6.3-150700.3.13.1,3,14,17
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.3-150700.3.13.1,3,14,17
-registry.suse.com/suse/sles/15.7/virt-handler:1.6.3-150700.3.13.1,3,19,22
-registry.suse.com/suse/sles/15.7/virt-launcher:1.6.3-150700.3.13.1,3,49,52
-registry.suse.com/suse/sles/15.7/virt-operator:1.6.3-150700.3.13.1,3,13,16
+registry.suse.com/suse/sles/15.7/virt-handler:1.6.3-150700.3.13.1,3,17,20
+registry.suse.com/suse/sles/15.7/virt-launcher:1.6.3-150700.3.13.1,3,46,49
+registry.suse.com/suse/sles/15.7/virt-operator:1.6.3-150700.3.13.1,3,11,14
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0
