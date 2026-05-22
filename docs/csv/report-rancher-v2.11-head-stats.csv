@@ -179,8 +179,8 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,8,8
 rancher/mirrored-thanos-thanos:v0.37.2,0,14,14
 rancher/neuvector-compliance-config:1.0.12,0,0,0
-rancher/neuvector-controller:5.5.1,0,29,29
-rancher/neuvector-enforcer:5.5.1,0,28,28
+rancher/neuvector-controller:5.5.1,0,25,25
+rancher/neuvector-enforcer:5.5.1,0,24,24
 rancher/neuvector-manager:5.5.1,0,2,2
 rancher/neuvector-prometheus-exporter:1.0.12,0,2,2
 rancher/neuvector-registry-adapter:0.2.6,0,7,7

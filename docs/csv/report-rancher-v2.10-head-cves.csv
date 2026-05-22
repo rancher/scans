@@ -8429,9 +8429,9 @@ rancher/neuvector-controller:5.5.1,rancher/v2.10-head,github.com/containerd/cont
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,go.opentelemetry.io/otel,v1.39.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,usr/local/bin/controller,1.41.0,false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/local/bin/controller,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/controller,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/controller,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/controller,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/local/bin/controller,"1.25.10, 1.26.3",false,affected,
+rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/controller,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
+rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/controller,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,github.com/containerd/containerd/v2,v2.2.1,gobinary,CVE-2026-46680,HIGH,https://avd.aquasec.com/nvd/cve-2026-46680,usr/local/bin/opa,"2.0.9, 2.2.4, 2.3.1",false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/local/bin/opa,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/opa,"1.25.10, 1.26.3",false,affected,
@@ -8442,9 +8442,9 @@ rancher/neuvector-controller:5.5.1,rancher/v2.10-head,github.com/containerd/cont
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,go.opentelemetry.io/otel,v1.39.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,usr/local/bin/upgrader,1.41.0,false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,affected,
+rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
+rancher/neuvector-controller:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/upgrader,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/bin/yq,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/bin/yq,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/bin/yq,"1.25.10, 1.26.3",false,affected,
@@ -8454,9 +8454,9 @@ rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,github.com/containerd/contai
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,go.opentelemetry.io/otel,v1.39.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,usr/local/bin/agent,1.41.0,false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/local/bin/agent,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/agent,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/agent,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/agent,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/local/bin/agent,"1.25.10, 1.26.3",false,affected,
+rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/agent,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
+rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/agent,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,github.com/coredns/coredns,v1.14.2,gobinary,CVE-2026-32934,HIGH,https://avd.aquasec.com/nvd/cve-2026-32934,usr/local/bin/consul,1.14.3,false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,github.com/coredns/coredns,v1.14.2,gobinary,CVE-2026-32936,HIGH,https://avd.aquasec.com/nvd/cve-2026-32936,usr/local/bin/consul,1.14.3,false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,github.com/coredns/coredns,v1.14.2,gobinary,CVE-2026-33190,HIGH,https://avd.aquasec.com/nvd/cve-2026-33190,usr/local/bin/consul,1.14.3,false,affected,
@@ -8471,9 +8471,9 @@ rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,github.com/containerd/contai
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,go.opentelemetry.io/otel,v1.39.0,gobinary,CVE-2026-29181,HIGH,https://avd.aquasec.com/nvd/cve-2026-29181,usr/local/bin/pathWalker,1.41.0,false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,affected,
-rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,affected,
 rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,affected,
+rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
+rancher/neuvector-enforcer:5.5.1,rancher/v2.10-head,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/local/bin/pathWalker,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/neuvector-manager:5.5.1,rancher/v2.10-head,urllib3,2.6.3,python-pkg,CVE-2026-44431,HIGH,https://avd.aquasec.com/nvd/cve-2026-44431,Python,2.7.0,false,affected,
 rancher/neuvector-manager:5.5.1,rancher/v2.10-head,urllib3,2.6.3,python-pkg,CVE-2026-44432,HIGH,https://avd.aquasec.com/nvd/cve-2026-44432,Python,2.7.0,false,affected,
 rancher/neuvector-prometheus-exporter:1.0.12,rancher/v2.10-head,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/neuvector-prometheus-exporter:1.0.12 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path

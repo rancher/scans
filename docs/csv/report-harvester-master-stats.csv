@@ -91,7 +91,7 @@ registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,23,29
 registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,22,28
 registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,5,25,30
 registry.suse.com/suse/sles/15.7/cdi-operator:1.62.0-150700.9.3.1,6,22,28
-registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,6,20,26
+registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,5,20,25
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.62.0-150700.9.3.1,5,25,30
 registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.0-150700.3.16.2,0,34,34
 registry.suse.com/suse/sles/15.7/virt-api:1.7.0-150700.3.16.2,0,11,11
