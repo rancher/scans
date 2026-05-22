@@ -36,9 +36,9 @@ rancher/harvester-network-controller:v1.5.2,4,38,42
 rancher/harvester-network-helper:v1.5.2,1,22,23
 rancher/harvester-network-webhook:v1.5.2,1,22,23
 rancher/harvester-networkfs-manager:v1.5.2,3,29,32
-rancher/harvester-node-disk-manager-webhook:v1.5.2,3,25,28
+rancher/harvester-node-disk-manager-webhook:v1.5.2,3,24,27
 rancher/harvester-node-disk-manager:v1.5.2,3,28,31
-rancher/harvester-node-manager-webhook:v1.5.2,3,25,28
+rancher/harvester-node-manager-webhook:v1.5.2,3,23,26
 rancher/harvester-node-manager:v1.5.2,3,23,26
 rancher/harvester-pcidevices:v1.5.2,2,26,28
 rancher/harvester-seeder:v1.5.2,3,26,29
@@ -50,7 +50,7 @@ rancher/klipper-helm:v0.9.8-build20250709,0,43,43
 rancher/klipper-lb:v0.4.13,0,4,4
 rancher/kubectl:v1.32.3,0,10,10
 rancher/mirrored-cluster-api-controller:v1.9.5,0,12,12
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,30,34
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
 rancher/mirrored-grafana-grafana:11.1.0,1,19,20
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.0,0,11,11
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,5,34,39
@@ -69,7 +69,7 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.75.1,0,16,16
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.75.1,0,14,14
 rancher/mirrored-prometheus-prometheus:v2.53.1,0,32,32
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
-rancher/rancher-agent:v2.11.3,1,54,55
+rancher/rancher-agent:v2.11.3,1,53,54
 rancher/rancher-webhook:v0.7.3,0,11,11
 rancher/rancher:v2.11.3,1,185,186
 rancher/rke2-cloud-provider:v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612,0,17,17
@@ -95,5 +95,5 @@ registry.suse.com/suse/sles/15.6/virt-api:1.4.1-150600.5.21.2,3,22,25
 registry.suse.com/suse/sles/15.6/virt-controller:1.4.1-150600.5.21.2,3,22,25
 registry.suse.com/suse/sles/15.6/virt-handler:1.4.1-150600.5.21.2,3,29,32
 registry.suse.com/suse/sles/15.6/virt-launcher:1.4.1-150600.5.21.2,3,55,58
-registry.suse.com/suse/sles/15.6/virt-operator:1.4.1-150600.5.21.2,3,23,26
+registry.suse.com/suse/sles/15.6/virt-operator:1.4.1-150600.5.21.2,3,22,25
 registry.suse.com/suse/vmdp/vmdp:2.5.4.2,0,0,0
