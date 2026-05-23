@@ -3,7 +3,7 @@ rancher/aks-operator:v1.13.5,0,3,3
 rancher/appco-alertmanager:0.28.1-12.7,0,12,12
 rancher/appco-grafana:12.1.1-2.2,3,52,55
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,20,21
-rancher/appco-kube-rbac-proxy:0.19.1-15.2,0,17,17
+rancher/appco-kube-rbac-proxy:0.19.1-15.2,0,16,16
 rancher/appco-kube-state-metrics:2.17.0-10.7,0,13,13
 rancher/appco-node-exporter:1.9.1-11.3,0,13,13
 rancher/appco-redis:8.0.3-2.1,1,5,6
@@ -23,7 +23,7 @@ rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,1,1
 rancher/hardened-dns-node-cache:1.26.8-build20260416,0,10,10
 rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,4,4
 rancher/hardened-flannel:v0.28.4-build20260415,0,2,2
-rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,5,5
+rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,4,4
 rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,36,36
 rancher/hardened-kubernetes:v1.33.11-rke2r1-build20260416,0,0,0
 rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,0,0
@@ -31,12 +31,12 @@ rancher/hardened-multus-cni:v4.2.4-build20260310,0,15,15
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,3,3
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,13,13
 rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,1,1
-rancher/hardened-traefik:v3.6.13-build20260416,0,13,13
+rancher/hardened-traefik:v3.6.13-build20260416,0,12,12
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,4,4
 rancher/harvester-cloud-provider:v0.2.4,1,20,21
 rancher/harvester-cloud-provider:v0.2.5,0,22,22
-rancher/harvester-csi-driver:v0.2.4,3,26,29
-rancher/harvester-csi-driver:v0.2.8,0,14,14
+rancher/harvester-csi-driver:v0.2.4,3,25,28
+rancher/harvester-csi-driver:v0.2.8,0,13,13
 rancher/k3s-upgrade:v1.32.13-k3s1,0,5,5
 rancher/k3s-upgrade:v1.33.11-k3s1,0,1,1
 rancher/k3s-upgrade:v1.34.7-k3s1,0,1,1
@@ -44,7 +44,7 @@ rancher/klipper-helm:v0.9.17-build20260422,0,12,12
 rancher/klipper-helm:v0.9.4-build20250113,0,56,56
 rancher/klipper-lb:v0.4.15,0,2,2
 rancher/klipper-lb:v0.4.16,0,0,0
-rancher/kube-api-auth:v0.2.6,0,7,7
+rancher/kube-api-auth:v0.2.6,0,6,6
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,5,5
 rancher/kubectl:v1.34.1,0,9,9
 rancher/kubectl:v1.34.5,0,5,5
@@ -52,7 +52,7 @@ rancher/kuberlr-kubectl:v5.0.0,0,42,42
 rancher/kuberlr-kubectl:v6.0.0,0,39,39
 rancher/kuberlr-kubectl:v6.0.3,0,25,25
 rancher/local-path-provisioner:v0.0.35,0,5,5
-rancher/machine:v0.15.0-rancher137,3,29,32
+rancher/machine:v0.15.0-rancher137,2,28,30
 rancher/mirrored-bci-busybox:15.6.24.2,0,5,5
 rancher/mirrored-bci-micro:15.6.24.2,0,4,4
 rancher/mirrored-calico-apiserver:v3.31.5,0,0,0
@@ -61,7 +61,7 @@ rancher/mirrored-calico-csi:v3.31.5,0,5,5
 rancher/mirrored-calico-ctl:v3.31.5,0,5,5
 rancher/mirrored-calico-envoy-gateway:v3.31.5,0,9,9
 rancher/mirrored-calico-envoy-proxy:v3.31.5,0,0,0
-rancher/mirrored-calico-envoy-ratelimit:v3.31.5,0,7,7
+rancher/mirrored-calico-envoy-ratelimit:v3.31.5,0,6,6
 rancher/mirrored-calico-goldmane:v3.31.5,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.31.5,0,0,0
 rancher/mirrored-calico-node-driver-registrar:v3.31.5,0,5,5
@@ -141,8 +141,8 @@ rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,10,10
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,8,8
 rancher/neuvector-compliance-config:1.0.12,0,0,0
-rancher/neuvector-controller:5.5.1,0,25,25
-rancher/neuvector-enforcer:5.5.1,0,24,24
+rancher/neuvector-controller:5.5.1,0,21,21
+rancher/neuvector-enforcer:5.5.1,0,20,20
 rancher/neuvector-manager:5.5.1,0,2,2
 rancher/neuvector-prometheus-exporter:1.0.12,0,2,2
 rancher/neuvector-registry-adapter:0.2.6,0,7,7
@@ -159,8 +159,8 @@ rancher/rancher:v2.13.5,0,150,150
 rancher/remotedialer-proxy:v0.6.0,0,6,6
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,4,4
 rancher/rke2-runtime:v1.32.13-rke2r1,0,29,29
-rancher/rke2-runtime:v1.33.11-rke2r1,0,17,17
-rancher/rke2-runtime:v1.34.7-rke2r1,0,18,18
+rancher/rke2-runtime:v1.33.11-rke2r1,0,11,11
+rancher/rke2-runtime:v1.34.7-rke2r1,0,12,12
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,23,23
 rancher/rke2-upgrade:v1.33.11-rke2r1,0,9,9
 rancher/rke2-upgrade:v1.34.7-rke2r1,0,9,9
@@ -177,7 +177,7 @@ rancher/system-agent-installer-k3s:v1.34.7-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.11-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
-rancher/system-agent:v0.3.14-suc,3,22,25
+rancher/system-agent:v0.3.14-suc,3,21,24
 rancher/system-upgrade-controller:v0.17.0,0,8,8
 rancher/turtles:v0.25.4,0,7,7
 rancher/ui-plugin-catalog:4.20.0,0,35,35
