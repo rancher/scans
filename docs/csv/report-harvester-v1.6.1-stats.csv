@@ -2,7 +2,7 @@ image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.8.0,2,45,47
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,2,31,33
 kubeovn/kube-ovn:v1.13.13,0,76,76
-longhornio/backing-image-manager:v1.9.2,3,42,45
+longhornio/backing-image-manager:v1.9.2,3,41,44
 longhornio/csi-attacher:v4.9.0-20250709,0,10,10
 longhornio/csi-node-driver-registrar:v2.14.0-20250709,0,11,11
 longhornio/csi-provisioner:v5.3.0-20250709,0,9,9
