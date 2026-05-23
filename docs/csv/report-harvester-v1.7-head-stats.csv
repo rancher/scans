@@ -87,10 +87,10 @@ rancher/system-upgrade-controller:v0.17.0,0,8,8
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,13,13
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,11,11
 registry.suse.com/bci/bci-base:15.7,0,0,0
-registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,22,28
+registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,20,26
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,23,29
 registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,22,28
-registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,5,24,29
+registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,4,24,28
 registry.suse.com/suse/sles/15.7/cdi-operator:1.62.0-150700.9.3.1,6,20,26
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.62.0-150700.9.3.1,5,20,25
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.62.0-150700.9.3.1,5,23,28

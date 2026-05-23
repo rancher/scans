@@ -13,7 +13,7 @@ longhornio/longhorn-engine:v1.8.2,4,65,69
 longhornio/longhorn-instance-manager:v1.8.2,5,62,67
 longhornio/longhorn-manager:v1.8.2,4,40,44
 longhornio/longhorn-share-manager:v1.8.2,3,37,40
-longhornio/longhorn-ui:v1.8.2,3,32,35
+longhornio/longhorn-ui:v1.8.2,3,30,33
 longhornio/support-bundle-kit:v0.0.56,3,37,40
 rancher/fleet-agent:v0.12.4,1,20,21
 rancher/fleet:v0.12.4,5,59,64
