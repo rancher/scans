@@ -9,7 +9,7 @@ rancher/appco-node-exporter:1.9.1-11.3,0,13,13
 rancher/appco-redis:8.0.3-2.1,1,5,6
 rancher/appco-thanos:0.39.2-7.3,0,14,14
 rancher/backup-restore-operator:v9.0.3,0,9,9
-rancher/compliance-operator:v1.3.5,0,5,5
+rancher/compliance-operator:v1.3.5,0,4,4
 rancher/eks-operator:v1.13.5,0,4,4
 rancher/fleet-agent:v0.14.5,0,3,3
 rancher/fleet:v0.14.5,0,13,13
@@ -31,7 +31,7 @@ rancher/hardened-multus-cni:v4.2.4-build20260310,0,15,15
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,3,3
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,13,13
 rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,1,1
-rancher/hardened-traefik:v3.6.13-build20260416,0,12,12
+rancher/hardened-traefik:v3.6.13-build20260416,0,11,11
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,4,4
 rancher/harvester-cloud-provider:v0.2.4,1,20,21
 rancher/harvester-cloud-provider:v0.2.5,0,22,22
@@ -40,7 +40,7 @@ rancher/harvester-csi-driver:v0.2.8,0,13,13
 rancher/k3s-upgrade:v1.32.13-k3s1,0,5,5
 rancher/k3s-upgrade:v1.33.11-k3s1,0,1,1
 rancher/k3s-upgrade:v1.34.7-k3s1,0,1,1
-rancher/klipper-helm:v0.9.17-build20260422,0,12,12
+rancher/klipper-helm:v0.9.17-build20260422,0,10,10
 rancher/klipper-helm:v0.9.4-build20250113,0,56,56
 rancher/klipper-lb:v0.4.15,0,2,2
 rancher/klipper-lb:v0.4.16,0,0,0
@@ -81,7 +81,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.3,3,15,18
 rancher/mirrored-cilium-operator-aws:v1.19.3,0,3,3
 rancher/mirrored-cilium-operator-azure:v1.19.3,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.19.3,0,3,3
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,12,107,119
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,14,110,124
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,4,52,56
 rancher/mirrored-cloud-provider-vsphere:v1.34.0,0,12,12
 rancher/mirrored-cluster-api-controller:v1.10.6,0,12,12

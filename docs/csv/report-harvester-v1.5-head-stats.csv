@@ -1,7 +1,7 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.8.0,2,45,47
 ghcr.io/kube-vip/kube-vip-iptables:v0.8.1,2,31,33
-longhornio/backing-image-manager:v1.8.2,3,58,61
+longhornio/backing-image-manager:v1.8.2,3,55,58
 longhornio/csi-attacher:v4.9.0,0,11,11
 longhornio/csi-node-driver-registrar:v2.14.0,0,12,12
 longhornio/csi-provisioner:v5.3.0,0,9,9
@@ -9,7 +9,7 @@ longhornio/csi-resizer:v1.13.2,0,9,9
 longhornio/csi-snapshotter:v8.2.0,0,9,9
 longhornio/livenessprobe:v2.16.0,0,11,11
 longhornio/longhorn-cli:v1.8.2,3,33,36
-longhornio/longhorn-engine:v1.8.2,4,68,72
+longhornio/longhorn-engine:v1.8.2,4,65,69
 longhornio/longhorn-instance-manager:v1.8.2,5,62,67
 longhornio/longhorn-manager:v1.8.2,4,40,44
 longhornio/longhorn-share-manager:v1.8.2,3,37,40
@@ -35,7 +35,7 @@ rancher/harvester-load-balancer:v1.5.2,1,18,19
 rancher/harvester-network-controller:v1.5.2,4,36,40
 rancher/harvester-network-helper:v1.5.2,1,22,23
 rancher/harvester-network-webhook:v1.5.2,1,22,23
-rancher/harvester-networkfs-manager:v1.5.2,2,25,27
+rancher/harvester-networkfs-manager:v1.5.2,2,24,26
 rancher/harvester-node-disk-manager-webhook:v1.5.2,3,23,26
 rancher/harvester-node-disk-manager:v1.5.2,3,28,31
 rancher/harvester-node-manager-webhook:v1.5.2,3,23,26
