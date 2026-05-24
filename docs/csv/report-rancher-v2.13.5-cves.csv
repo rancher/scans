@@ -5103,10 +5103,10 @@ rancher/scc-operator:v0.4.0,rancher/v2.13.5,stdlib,v1.25.8,gobinary,CVE-2026-338
 rancher/scc-operator:v0.4.0,rancher/v2.13.5,stdlib,v1.25.8,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/bin/scc-operator,"1.25.10, 1.26.3",false,affected,
 rancher/scc-operator:v0.4.0,rancher/v2.13.5,stdlib,v1.25.8,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/bin/scc-operator,"1.25.10, 1.26.3",false,affected,
 rancher/scc-operator:v0.4.0,rancher/v2.13.5,stdlib,v1.25.8,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/bin/scc-operator,"1.25.10, 1.26.3",false,affected,
-rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/bin/kb-summarizer,"1.25.10, 1.26.3",false,affected,
 rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,usr/bin/kb-summarizer,"1.25.10, 1.26.3",false,affected,
 rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,usr/bin/kb-summarizer,"1.25.10, 1.26.3",false,affected,
 rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,usr/bin/kb-summarizer,"1.25.10, 1.26.3",false,affected,
+rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,usr/bin/kb-summarizer,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
 rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/bin/kb-summarizer,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.24.11,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,usr/bin/kube-bench,"1.24.13, 1.25.7, 1.26.0-rc.3",false,affected,severity_changed_due_to_suse_cvss_score
 rancher/security-scan:v0.8.5,rancher/v2.13.5,stdlib,v1.24.11,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,usr/bin/kube-bench,"1.25.9, 1.26.2",false,affected,
