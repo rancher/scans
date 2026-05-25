@@ -115,7 +115,7 @@ rancher/mirrored-library-nginx:1.27.2-alpine,3,34,37
 rancher/mirrored-library-traefik:2.11.30,0,19,19
 rancher/mirrored-library-traefik:3.3.6,0,21,21
 rancher/mirrored-library-traefik:3.6.13,0,12,12
-rancher/mirrored-longhornio-backing-image-manager:v1.11.1,0,21,21
+rancher/mirrored-longhornio-backing-image-manager:v1.11.1,0,20,20
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,58,58
 rancher/mirrored-longhornio-csi-attacher:v4.11.0,0,9,9
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0,0,6,6
