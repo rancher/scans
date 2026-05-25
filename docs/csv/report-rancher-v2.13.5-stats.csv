@@ -35,7 +35,7 @@ rancher/hardened-traefik:v3.6.13-build20260416,0,11,11
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,4,4
 rancher/harvester-cloud-provider:v0.2.4,1,20,21
 rancher/harvester-cloud-provider:v0.2.5,0,22,22
-rancher/harvester-csi-driver:v0.2.4,3,25,28
+rancher/harvester-csi-driver:v0.2.4,3,24,27
 rancher/harvester-csi-driver:v0.2.8,0,13,13
 rancher/k3s-upgrade:v1.32.13-k3s1,0,5,5
 rancher/k3s-upgrade:v1.33.11-k3s1,0,1,1
@@ -120,7 +120,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,10,10
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0,0,7,7
 rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,31,31
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,24,24
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,23,23
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,14,14
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,9,9
