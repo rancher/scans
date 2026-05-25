@@ -2071,7 +2071,7 @@ rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,libtiff5,4.0.9-150000.45.60.1,
 rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,libudev1,254.27-150600.4.46.2,sles,SUSE-SU-2026:1040-1,HIGH,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),254.27-150600.4.62.1,false,affected,
 rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,nginx,1.21.5-150600.10.12.1,sles,SUSE-SU-2026:1761-1,HIGH,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),1.21.5-150600.10.15.1,false,affected,
 rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,openssl-3,3.2.3-150700.5.24.1,sles,SUSE-SU-2026:1375-1,HIGH,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),3.2.3-150700.5.31.1,false,affected,
-rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,rsync,3.2.7-150600.3.14.1,sles,SUSE-SU-2026:2038-1,HIGH,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),3.2.7-150600.3.21.1,false,affected,
+rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,rsync,3.2.7-150600.3.14.1,sles,SUSE-SU-2026:2038-1,CRITICAL,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),3.2.7-150600.3.21.1,false,affected,
 rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,gpg2,2.4.4-150600.3.12.1,sles,SUSE-SU-2026:0434-1,HIGH,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),2.4.4-150600.3.15.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,libexpat1,2.7.1-150700.3.6.1,sles,SUSE-SU-2026:1352-1,HIGH,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),2.7.1-150700.3.12.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-upgrade:v1.7.1,harvester/v1.7.1,libexpat1,2.7.1-150700.3.6.1,sles,SUSE-SU-2026:0646-1,MEDIUM,,rancher/harvester-upgrade:v1.7.1 (sles 15.7),2.7.1-150700.3.9.2,false,not_affected,vulnerable_code_not_in_execute_path
