@@ -140,7 +140,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,10,10
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0,0,7,7
 rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.1,0,31,31
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,25,25
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,24,24
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,14,14
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,9,9
@@ -213,4 +213,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,3,28,31
 rancher/system-upgrade-controller:v0.15.2,0,8,8
-rancher/ui-plugin-catalog:4.22.0,0,35,35
+rancher/ui-plugin-catalog:4.22.0,0,33,33
