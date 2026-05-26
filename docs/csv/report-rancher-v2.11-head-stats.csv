@@ -41,7 +41,7 @@ rancher/kuberlr-kubectl:v4.0.2,0,43,43
 rancher/kuberlr-kubectl:v4.0.4,0,40,40
 rancher/kuberlr-kubectl:v4.0.7,0,33,33
 rancher/local-path-provisioner:v0.0.34,0,7,7
-rancher/machine:v0.15.0-rancher127,2,37,39
+rancher/machine:v0.15.0-rancher127,2,34,36
 rancher/mirrored-bci-busybox:15.6.24.2,0,5,5
 rancher/mirrored-bci-micro:15.6.24.2,0,4,4
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.2,0,14,14
@@ -144,7 +144,7 @@ rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,23,23
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,0,18,18
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,14,14
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,9,9
-rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,15,15
+rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,14,14
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.7.1,0,13,13
 rancher/mirrored-metrics-server:v0.7.2,0,13,13
@@ -213,4 +213,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,3,28,31
 rancher/system-upgrade-controller:v0.15.2,0,8,8
-rancher/ui-plugin-catalog:4.22.0,0,33,33
+rancher/ui-plugin-catalog:4.23.0,0,33,33

@@ -2,7 +2,7 @@ image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.2,2,39,41
 ghcr.io/kube-vip/kube-vip-iptables:v0.9.2,2,24,26
 kubeovn/kube-ovn:v1.14.10,0,74,74
-longhornio/backing-image-manager:v1.10.2,3,24,27
+longhornio/backing-image-manager:v1.10.2,3,23,26
 longhornio/csi-attacher:v4.10.0-20251226,0,8,8
 longhornio/csi-node-driver-registrar:v2.15.0-20251226,0,7,7
 longhornio/csi-provisioner:v5.3.0-20251226,0,5,5
@@ -17,7 +17,7 @@ longhornio/longhorn-share-manager:v1.10.2,3,18,21
 longhornio/longhorn-ui:v1.10.2,3,14,17
 longhornio/support-bundle-kit:v0.0.79,3,19,22
 rancher/fleet-agent:v0.14.1,1,10,11
-rancher/fleet:v0.14.1,5,28,33
+rancher/fleet:v0.14.1,5,27,32
 rancher/hardened-addon-resizer:1.8.23-build20260119,0,4,4
 rancher/hardened-cluster-autoscaler:v1.10.2-build20260116,0,4,4
 rancher/hardened-cni-plugins:v1.9.0-build20260116,0,58,58
@@ -29,7 +29,7 @@ rancher/hardened-k8s-metrics-server:v0.8.0-build20260116,0,8,8
 rancher/hardened-kubernetes:v1.34.3-rke2r3-build20260127,0,44,44
 rancher/hardened-multus-cni:v4.2.3-build20260120,0,20,20
 rancher/hardened-snapshot-controller:v8.4.0-build20260108,0,7,7
-rancher/harvester-cluster-repo:v1.7.1,0,12,12
+rancher/harvester-cluster-repo:v1.7.1,0,10,10
 rancher/harvester-eventrouter:v1.7.1,0,7,7
 rancher/harvester-kubeovn-operator:v1.14.10,3,24,27
 rancher/harvester-load-balancer-webhook:v1.7.1,0,13,13
@@ -85,7 +85,7 @@ rancher/system-upgrade-controller:v0.17.0,0,8,8
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,13,13
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,11,11
 registry.suse.com/bci/bci-base:15.7,0,0,0
-registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,20,26
+registry.suse.com/suse/sles/15.7/cdi-apiserver:1.62.0-150700.9.3.1,6,18,24
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.62.0-150700.9.3.1,6,22,28
 registry.suse.com/suse/sles/15.7/cdi-controller:1.62.0-150700.9.3.1,6,22,28
 registry.suse.com/suse/sles/15.7/cdi-importer:1.62.0-150700.9.3.1,4,24,28

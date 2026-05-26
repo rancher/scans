@@ -35,7 +35,7 @@ rancher/kube-webhook-certgen:v1.14.5-hardened2,0,5,5
 rancher/kuberlr-kubectl:v7.0.3,0,24,24
 rancher/kuberlr-kubectl:v8.0.0,0,18,18
 rancher/local-path-provisioner:v0.0.36,0,0,0
-rancher/machine:v0.15.0-rancher142,0,22,22
+rancher/machine:v0.15.0-rancher142,0,19,19
 rancher/mirrored-bci-busybox:15.6.24.2,0,5,5
 rancher/mirrored-bci-micro:15.6.24.2,0,4,4
 rancher/mirrored-calico-apiserver:v3.31.5,0,0,0
@@ -108,4 +108,4 @@ rancher/system-agent-installer-rke2:v1.35.4-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,13,13
 rancher/system-upgrade-controller:v0.19.1,0,3,3
 rancher/turtles:v0.27.0-rc.1,0,0,0
-rancher/ui-plugin-catalog:4.22.0,0,33,33
+rancher/ui-plugin-catalog:4.23.0,0,33,33
