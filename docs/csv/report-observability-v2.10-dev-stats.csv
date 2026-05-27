@@ -1,10 +1,10 @@
 image,critical,high,total
-quay.io/stackstate/stackpacks:20260522170547-master-31ffc16-prime-selfhosted,0,1,1
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260524195840-master-7576e86,0,1,1
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260524195840-master-7576e86,0,1,1
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260524195840-master-7576e86,0,1,1
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260524195840-master-7576e86-2.5,0,1,1
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260524195840-master-7576e86,0,0,0
+quay.io/stackstate/stackpacks:20260526120532-master-e18c0f1-prime-selfhosted,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260526142525-master-345bb0b,0,1,1
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260526142525-master-345bb0b,0,1,1
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260526142525-master-345bb0b,0,1,1
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260526142525-master-345bb0b-2.5,0,1,1
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260526142525-master-345bb0b,0,0,0
 registry.rancher.com/suse-observability/clickhouse-backup:2.6.43-566580fb-main-104,0,1,1
 registry.rancher.com/suse-observability/clickhouse:rebuilt_zero_cve_25.9.6-566580fb-main-18,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.6-566580fb-main-107,0,1,1
@@ -29,7 +29,7 @@ registry.rancher.com/suse-observability/suse-observability-mcp:20260520044726-ce
 registry.rancher.com/suse-observability/tephra-server:2.5-8.0.7,0,1,1
 registry.rancher.com/suse-observability/victoria-metrics:v1.143.0-566580fb-main-74,0,0,0
 registry.rancher.com/suse-observability/vmagent:v1.143.0-566580fb-main-74,0,0,0
-registry.rancher.com/suse-observability/vmbackup:v1.143.0-566580fb-main-74,0,1,1
+registry.rancher.com/suse-observability/vmbackup:v1.143.0-566580fb-main-74,0,0,0
 registry.rancher.com/suse-observability/vmrestore:v1.143.0-566580fb-main-74,0,0,0
 registry.rancher.com/suse-observability/wait:1.0.12-18e7ac19-main-10,0,0,0
 registry.rancher.com/suse-observability/workload-observer:5fe52727-200-release,0,0,0
