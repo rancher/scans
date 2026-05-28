@@ -57,7 +57,7 @@ rancher/klipper-helm:v0.9.14-build20260210,0,17,17
 rancher/klipper-lb:v0.4.14,0,2,2
 rancher/kubectl:v1.35.1,0,6,6
 rancher/kuberlr-kubectl:v7.0.3,0,25,25
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,21,25
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,22,26
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,7,7
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,44,52
