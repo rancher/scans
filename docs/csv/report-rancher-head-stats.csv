@@ -11,7 +11,7 @@ rancher/hardened-csi-snapshotter:v8.5.0-build20260410,0,1,1
 rancher/hardened-dns-node-cache:1.26.8-build20260416,0,11,11
 rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,4,4
 rancher/hardened-flannel:v0.28.4-build20260415,0,3,3
-rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,4,4
+rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,3,3
 rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,0,0
 rancher/hardened-kubernetes:v1.35.4-rke2r1-build20260416,0,0,0
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,15,15
@@ -21,7 +21,7 @@ rancher/hardened-snapshot-controller:v8.5.0-build20260410,0,1,1
 rancher/hardened-traefik:v3.6.13-build20260416,0,11,11
 rancher/hardened-whereabouts:v0.9.3-build20260408,0,5,5
 rancher/harvester-cloud-provider:v0.2.5,0,23,23
-rancher/harvester-csi-driver:v0.2.8,0,12,12
+rancher/harvester-csi-driver:v0.2.8,0,11,11
 rancher/k3s-upgrade:v1.34.8-k3s1,0,1,1
 rancher/k3s-upgrade:v1.35.5-k3s1,0,1,1
 rancher/k3s-upgrade:v1.36.1-k3s1,0,0,0
@@ -42,7 +42,7 @@ rancher/mirrored-calico-apiserver:v3.31.5,0,0,0
 rancher/mirrored-calico-cni:v3.31.5,0,0,0
 rancher/mirrored-calico-csi:v3.31.5,0,5,5
 rancher/mirrored-calico-ctl:v3.31.5,0,5,5
-rancher/mirrored-calico-envoy-gateway:v3.31.5,0,9,9
+rancher/mirrored-calico-envoy-gateway:v3.31.5,0,8,8
 rancher/mirrored-calico-envoy-proxy:v3.31.5,0,0,0
 rancher/mirrored-calico-envoy-ratelimit:v3.31.5,0,5,5
 rancher/mirrored-calico-goldmane:v3.31.5,0,0,0
