@@ -1,10 +1,10 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-b3764ea5-main-109,0,0,0
 quay.io/stackstate/generic-sidecar-injector:0522e5e9-61-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy-init:9c58e521-569-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy:9c58e521-569-release,0,0,0
-quay.io/stackstate/kubernetes-rbac-agent:e78c10a7-740-release,0,1,1
-quay.io/stackstate/promtail:3.6.10-b3764ea5-main-74,0,0,0
+quay.io/stackstate/promtail:3.6.10-so1,0,0,0
 quay.io/stackstate/stackstate-k8s-agent:efe6afa5,0,0,0
 quay.io/stackstate/stackstate-k8s-cluster-agent:efe6afa5,0,0,0
+registry.rancher.com/suse-observability/container-tools:1.8.6-so1,0,0,0
+registry.rancher.com/suse-observability/kubernetes-rbac-agent:e460efff-757-release,0,0,0
 registry.rancher.com/suse-observability/stackstate-k8s-process-agent:f9ba81a8,0,0,0
