@@ -976,7 +976,6 @@ rancher/fleet:v0.14.1,harvester/v1.7.1,libopenssl3,3.2.3-150700.5.21.1,sles,SUSE
 rancher/fleet:v0.14.1,harvester/v1.7.1,libopenssl3,3.2.3-150700.5.21.1,sles,SUSE-SU-2026:1375-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),3.2.3-150700.5.31.1,false,affected,
 rancher/fleet:v0.14.1,harvester/v1.7.1,libudev1,254.27-150600.4.46.2,sles,SUSE-SU-2026:1040-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),254.27-150600.4.62.1,false,affected,
 rancher/fleet:v0.14.1,harvester/v1.7.1,openssh-clients,9.6p1-150600.6.34.1,sles,SUSE-SU-2026:1876-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),9.6p1-150600.6.37.1,false,affected,
-rancher/fleet:v0.14.1,harvester/v1.7.1,openssh-common,9.6p1-150600.6.34.1,sles,SUSE-SU-2026:1876-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),9.6p1-150600.6.37.1,false,affected,
 rancher/fleet:v0.14.1,harvester/v1.7.1,openssh-fips,9.6p1-150600.6.34.1,sles,SUSE-SU-2026:1876-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),9.6p1-150600.6.37.1,false,affected,
 rancher/fleet:v0.14.1,harvester/v1.7.1,openssl-3,3.2.3-150700.5.21.1,sles,SUSE-SU-2026:0309-1,CRITICAL,,rancher/fleet:v0.14.1 (sles 15.7),3.2.3-150700.5.24.1,false,affected,
 rancher/fleet:v0.14.1,harvester/v1.7.1,openssl-3,3.2.3-150700.5.21.1,sles,SUSE-SU-2026:1375-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),3.2.3-150700.5.31.1,false,affected,
@@ -1004,6 +1003,7 @@ rancher/fleet:v0.14.1,harvester/v1.7.1,libssh4,0.9.8-150600.11.6.1,sles,SUSE-SU-
 rancher/fleet:v0.14.1,harvester/v1.7.1,libtasn1-6,4.13-150000.4.11.1,sles,SUSE-SU-2026:0224-1,MEDIUM,,rancher/fleet:v0.14.1 (sles 15.7),4.13-150000.4.14.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet:v0.14.1,harvester/v1.7.1,login_defs,4.8.1-150600.17.9.1,sles,SUSE-RU-2026:1228-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),4.17.2-150600.17.18.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet:v0.14.1,harvester/v1.7.1,ncurses-utils,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/fleet:v0.14.1 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/fleet:v0.14.1,harvester/v1.7.1,openssh-common,9.6p1-150600.6.34.1,sles,SUSE-SU-2026:1876-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),9.6p1-150600.6.37.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet:v0.14.1,harvester/v1.7.1,shadow,4.8.1-150600.17.9.1,sles,SUSE-RU-2026:1228-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),4.17.2-150600.17.18.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet:v0.14.1,harvester/v1.7.1,tar,1.34-150000.3.34.1,sles,SUSE-SU-2026:1177-1,HIGH,,rancher/fleet:v0.14.1 (sles 15.7),1.34-150000.3.37.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/fleet:v0.14.1,harvester/v1.7.1,terminfo-base,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/fleet:v0.14.1 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
@@ -2360,6 +2360,7 @@ rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,gpg2,2.4.4-150600.3.12.1,sles,
 rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libexpat1,2.7.1-150700.3.6.1,sles,SUSE-SU-2026:1352-1,HIGH,,rancher/harvester-webhook:v1.7.1 (sles 15.7),2.7.1-150700.3.12.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libexpat1,2.7.1-150700.3.6.1,sles,SUSE-SU-2026:0646-1,MEDIUM,,rancher/harvester-webhook:v1.7.1 (sles 15.7),2.7.1-150700.3.9.2,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,rancher/harvester-webhook:v1.7.1 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
+rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libnfsidmap1,1.0-150600.28.12.1,sles,SUSE-SU-2026:1356-1,MEDIUM,,rancher/harvester-webhook:v1.7.1 (sles 15.7),1.0-150600.28.19.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libssh-config,0.9.8-150600.11.6.1,sles,SUSE-SU-2026:0779-1,MEDIUM,,rancher/harvester-webhook:v1.7.1 (sles 15.7),0.9.8-150600.11.9.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libssh-config,0.9.8-150600.11.6.1,sles,SUSE-SU-2026:1310-1,MEDIUM,,rancher/harvester-webhook:v1.7.1 (sles 15.7),0.9.8-150600.11.12.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/harvester-webhook:v1.7.1,harvester/v1.7.1,libssh4,0.9.8-150600.11.6.1,sles,SUSE-SU-2026:0779-1,MEDIUM,,rancher/harvester-webhook:v1.7.1 (sles 15.7),0.9.8-150600.11.9.1,false,not_affected,vulnerable_code_not_in_execute_path

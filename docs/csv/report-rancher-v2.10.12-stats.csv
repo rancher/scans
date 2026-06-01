@@ -198,9 +198,9 @@ rancher/rke2-upgrade:v1.30.14-rke2r2,2,52,54
 rancher/security-scan:v0.5.7,0,50,50
 rancher/shell:v0.3.1,1,75,76
 rancher/supportability-review-app-frontend:v0.15.0,3,20,23
-rancher/supportability-review-internal:latest,0,1,1
+rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.15.0,0,9,9
-rancher/supportability-review:latest,0,2,2
+rancher/supportability-review:latest,0,1,1
 rancher/system-agent-installer-k3s:v1.28.15-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.29.15-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.30.14-k3s2,0,0,0

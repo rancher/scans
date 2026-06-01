@@ -22,7 +22,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.7,0,13,13
 rancher/appco-node-exporter:1.9.1-11.3,0,13,13
 rancher/cluster-api-controller:v1.12.2,0,12,12
 rancher/fleet-agent:v0.15.0,1,7,8
-rancher/fleet:v0.15.0,2,24,26
+rancher/fleet:v0.15.0,2,23,25
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,3,3
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260206,0,3,3
 rancher/hardened-cni-plugins:v1.9.0-build20260206,0,3,3

@@ -7,7 +7,7 @@ rancher/hardened-dns-node-cache:1.26.8-build20260511,0,1,1
 rancher/hardened-etcd:v3.6.7-k3s1-build20260512,0,0,0
 rancher/hardened-flannel:v0.28.4-build20260511,0,1,1
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260513,0,0,0
-rancher/hardened-kubernetes:v1.33.12-rke2r1-build20260512,0,2,2
+rancher/hardened-kubernetes:v1.33.12-rke2r2-build20260521,0,2,2
 rancher/hardened-snapshot-controller:v8.5.0-build20260513,0,0,0
 rancher/klipper-helm:v0.10.0-build20260513,0,3,3
 rancher/klipper-lb:v0.4.17,0,0,0
@@ -15,4 +15,4 @@ rancher/kube-webhook-certgen:v1.14.5-hardened2,0,5,5
 rancher/mirrored-pause:3.6,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,4,4
 rancher/rke2-cloud-provider:v1.33.11-0.20260415182038-2566e39d309b-build20260416,0,3,3
-rancher/rke2-runtime:v1.33.12-rke2r1,0,9,9
+rancher/rke2-runtime:v1.33.12-rke2r2,0,9,9
