@@ -8,13 +8,13 @@ rancher/fleet-agent:v0.11.14,0,7,7
 rancher/fleet:v0.11.14,0,7,7
 rancher/gke-operator:v1.10.9,0,13,13
 rancher/hardened-addon-resizer:1.8.23-build20251016,0,6,6
-rancher/hardened-calico:v3.30.3-build20251015,0,4,4
+rancher/hardened-calico:v3.30.3-build20251015,0,3,3
 rancher/hardened-cluster-autoscaler:v1.10.2-build20251015,0,6,6
 rancher/hardened-cni-plugins:v1.8.0-build20251014,0,5,5
-rancher/hardened-coredns:v1.13.1-build20251015,0,22,22
-rancher/hardened-dns-node-cache:1.26.7-build20251016,0,20,20
+rancher/hardened-coredns:v1.13.1-build20251015,0,21,21
+rancher/hardened-dns-node-cache:1.26.7-build20251016,0,19,19
 rancher/hardened-etcd:v3.5.21-k3s1-build20251017,0,12,12
-rancher/hardened-flannel:v0.27.4-build20251015,0,10,10
+rancher/hardened-flannel:v0.27.4-build20251015,0,9,9
 rancher/hardened-k8s-metrics-server:v0.8.0-build20251015,0,10,10
 rancher/hardened-multus-cni:v4.2.3-build20251031,0,30,30
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20251022,0,6,6

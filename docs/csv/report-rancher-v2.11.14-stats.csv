@@ -10,11 +10,11 @@ rancher/fleet:v0.12.15,0,3,3
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,3,3
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260206,0,3,3
 rancher/hardened-cni-plugins:v1.9.0-build20260206,0,3,3
-rancher/hardened-coredns:v1.14.1-build20260206,0,15,15
+rancher/hardened-coredns:v1.14.1-build20260206,0,14,14
 rancher/hardened-csi-snapshotter:v8.4.0-build20260205,0,6,6
-rancher/hardened-dns-node-cache:1.26.7-build20260206,0,16,16
+rancher/hardened-dns-node-cache:1.26.7-build20260206,0,15,15
 rancher/hardened-etcd:v3.5.26-k3s1-build20260227,0,6,6
-rancher/hardened-flannel:v0.28.1-build20260206,0,6,6
+rancher/hardened-flannel:v0.28.1-build20260206,0,5,5
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260206,0,7,7
 rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,36,36
 rancher/hardened-multus-cni:v4.2.3-build20260206,0,15,15
@@ -196,7 +196,7 @@ rancher/rancher-webhook:v0.7.9,0,3,3
 rancher/rancher:v2.11.14,0,157,157
 rancher/remotedialer-proxy:v0.4.4,0,8,8
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,10,10
-rancher/rke2-runtime:v1.32.13-rke2r1,0,29,29
+rancher/rke2-runtime:v1.32.13-rke2r1,0,27,27
 rancher/rke2-upgrade:v1.30.14-rke2r2,2,52,54
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,23,23
 rancher/security-scan:v0.6.8,0,20,20
