@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.13.6,0,3,3
 rancher/appco-alertmanager:0.28.1-12.7,0,12,12
-rancher/appco-grafana:12.1.1-2.2,3,53,56
+rancher/appco-grafana:12.1.1-2.2,3,54,57
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,20,21
 rancher/appco-kube-rbac-proxy:0.19.1-15.2,0,16,16
 rancher/appco-kube-state-metrics:2.17.0-10.7,0,13,13
@@ -25,8 +25,8 @@ rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,4,4
 rancher/hardened-flannel:v0.28.4-build20260415,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,3,3
 rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,36,36
-rancher/hardened-kubernetes:v1.33.11-rke2r1-build20260416,0,2,2
-rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,2,2
+rancher/hardened-kubernetes:v1.33.11-rke2r1-build20260416,0,4,4
+rancher/hardened-kubernetes:v1.34.7-rke2r1-build20260416,0,4,4
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,15,15
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,3,3
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,14,14
@@ -36,7 +36,7 @@ rancher/hardened-whereabouts:v0.9.3-build20260408,0,2,2
 rancher/harvester-cloud-provider:v0.2.4,1,21,22
 rancher/harvester-cloud-provider:v0.2.5,0,23,23
 rancher/harvester-csi-driver:v0.2.4,2,24,26
-rancher/harvester-csi-driver:v0.2.8,0,13,13
+rancher/harvester-csi-driver:v0.2.8,0,18,18
 rancher/k3s-upgrade:v1.32.13-k3s1,0,5,5
 rancher/k3s-upgrade:v1.33.11-k3s1,0,0,0
 rancher/k3s-upgrade:v1.34.7-k3s1,0,0,0
@@ -140,15 +140,15 @@ rancher/mirrored-sig-storage-csi-snapshotter:v8.2.0,0,9,9
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,10,10
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,8,8
-rancher/neuvector-compliance-config:1.0.12,0,0,0
-rancher/neuvector-controller:5.5.1,0,18,18
-rancher/neuvector-enforcer:5.5.1,0,14,14
-rancher/neuvector-manager:5.5.1,0,3,3
-rancher/neuvector-prometheus-exporter:1.0.12,0,3,3
-rancher/neuvector-registry-adapter:0.2.6,0,8,8
+rancher/neuvector-compliance-config:1.0.13,0,0,0
+rancher/neuvector-controller:5.5.2,0,3,3
+rancher/neuvector-enforcer:5.5.2,0,3,3
+rancher/neuvector-manager:5.5.2,0,0,0
+rancher/neuvector-prometheus-exporter:1.0.13,0,0,0
+rancher/neuvector-registry-adapter:0.2.7,0,1,1
 rancher/neuvector-scanner:6,0,0,0
-rancher/neuvector-updater:0.0.10,0,1,1
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,4,4
+rancher/neuvector-updater:0.0.11,0,0,0
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,6,6
 rancher/prom-prometheus:v3.5.0,0,34,34
 rancher/prometheus-federator:v5.0.1,0,5,5
 rancher/pushprox:v0.1.10,0,8,8
@@ -166,7 +166,7 @@ rancher/rke2-upgrade:v1.33.11-rke2r1,0,9,9
 rancher/rke2-upgrade:v1.34.7-rke2r1,0,9,9
 rancher/scc-operator:v0.4.1,0,0,0
 rancher/security-scan:v0.8.6,0,7,7
-rancher/shell:v0.6.3,0,45,45
+rancher/shell:v0.6.3,0,46,46
 rancher/supportability-review-app-frontend:v0.19.0,0,13,13
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.19.0,0,6,6
@@ -180,4 +180,4 @@ rancher/system-agent-installer-rke2:v1.34.7-rke2r1,0,0,0
 rancher/system-agent:v0.3.14-suc,2,21,23
 rancher/system-upgrade-controller:v0.17.0,0,8,8
 rancher/turtles:v0.25.4,0,7,7
-rancher/ui-plugin-catalog:4.24.0,0,29,29
+rancher/ui-plugin-catalog:4.25.0,0,26,26

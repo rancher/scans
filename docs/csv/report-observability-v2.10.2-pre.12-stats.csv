@@ -22,7 +22,7 @@ registry.rancher.com/suse-observability/stackstate-correlate:2.10.2-pre.12,0,0,0
 registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.2-pre.12,0,0,0
 registry.rancher.com/suse-observability/stackstate-receiver:2.10.2-pre.12,0,0,0
 registry.rancher.com/suse-observability/stackstate-server:2.10.2-pre.12-2.5,0,0,0
-registry.rancher.com/suse-observability/stackstate-ui:2.10.2-pre.12,0,0,0
+registry.rancher.com/suse-observability/stackstate-ui:2.10.2-pre.12,0,1,1
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.36,0,0,0
 registry.rancher.com/suse-observability/suse-observability-borg:20260529050212-45510412,0,0,0
 registry.rancher.com/suse-observability/suse-observability-mcp:20260529045049-ce870052,0,0,0
