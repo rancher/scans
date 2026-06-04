@@ -46,7 +46,7 @@ rancher/harvester-pcidevices:v1.7.1,0,14,14
 rancher/harvester-seeder:v1.7.1,3,14,17
 rancher/harvester-upgrade:v1.7.1,2,84,86
 rancher/harvester-vm-import-controller:v1.7.1,0,19,19
-rancher/harvester-webhook:v1.7.1,0,29,29
+rancher/harvester-webhook:v1.7.1,0,28,28
 rancher/harvester:v1.7.1,0,29,29
 rancher/klipper-helm:v0.9.12-build20251215,0,21,21
 rancher/klipper-lb:v0.4.13,0,4,4

@@ -81,9 +81,9 @@ rancher/mirrored-cilium-operator-azure:v1.18.3,0,12,12
 rancher/mirrored-cilium-operator-generic:v1.18.3,0,12,12
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,34,34
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,17,17
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,25,134,159
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,24,115,139
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,17,113,130
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,24,134,158
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,23,115,138
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,16,113,129
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,12,72,84
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,11,59,70
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,6,55,61
@@ -212,4 +212,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent:v0.3.11-suc,2,27,29
 rancher/system-upgrade-controller:v0.13.4,0,12,12
 rancher/system-upgrade-controller:v0.14.2,0,8,8
-rancher/ui-plugin-catalog:4.25.0,0,26,26
+rancher/ui-plugin-catalog:4.25.0,0,25,25
