@@ -38,12 +38,12 @@ rancher/harvester-load-balancer:v1.7.2-rc1,0,9,9
 rancher/harvester-network-controller:v1.7.2-rc1,0,9,9
 rancher/harvester-network-helper:v1.7.2-rc1,0,8,8
 rancher/harvester-network-webhook:v1.7.2-rc1,0,8,8
-rancher/harvester-networkfs-manager:v1.7.2-rc1,0,2,2
-rancher/harvester-node-disk-manager-webhook:v1.7.2-rc1,0,3,3
-rancher/harvester-node-disk-manager:v1.7.2-rc1,0,3,3
+rancher/harvester-networkfs-manager:v1.7.2-rc1,0,1,1
+rancher/harvester-node-disk-manager-webhook:v1.7.2-rc1,0,2,2
+rancher/harvester-node-disk-manager:v1.7.2-rc1,0,2,2
 rancher/harvester-node-manager-webhook:v1.7.2-rc1,0,2,2
 rancher/harvester-node-manager:v1.7.2-rc1,0,2,2
-rancher/harvester-pcidevices:v1.7.2-rc1,0,5,5
+rancher/harvester-pcidevices:v1.7.2-rc1,0,4,4
 rancher/harvester-seeder:v1.7.2-rc1,3,14,17
 rancher/harvester-upgrade:v1.7-head,1,47,48
 rancher/harvester-vm-import-controller:v1.7.2-rc1,0,5,5
@@ -55,7 +55,7 @@ rancher/kube-webhook-certgen:v1.14.5-hardened2,0,5,5
 rancher/kubectl:v1.34.1,0,9,9
 rancher/kuberlr-kubectl:v5.0.0,0,43,43
 rancher/mirrored-cluster-api-controller:v1.10.6,0,12,12
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,26,30
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,28,32
 rancher/mirrored-grafana-grafana:11.5.5,2,26,28
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,4,30,34
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
