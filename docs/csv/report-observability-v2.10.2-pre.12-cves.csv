@@ -1,2 +1,0 @@
-image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-registry.rancher.com/suse-observability/stackstate-ui:2.10.2-pre.12,observability/v2.10.2-pre.12,liblzma5,5.8.1-160000.2.2,sles,SUSE-SU-2026:21848-1,HIGH,,registry.rancher.com/suse-observability/stackstate-ui:2.10.2-pre.12 (sles 16.0),5.8.1-160000.3.1,false,affected,
