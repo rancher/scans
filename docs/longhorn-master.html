@@ -33,7 +33,7 @@ footer { margin-top: 30px; padding-top: 15px; border-top: 1px solid #DCDEE7; col
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - Longhorn master version - CVE Scans - 2026-06-06</h1>
+<h1>SUSE Rancher - Longhorn master version - CVE Scans - 2026-06-07</h1>
 
 <h3>How to use this page</h3>
 
@@ -160,30 +160,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-provisioner</td>
 <td>stdlib@v1.25.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -543,6 +519,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.25.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39823.html">CVE-2026-39823</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>csi-node-driver-registrar</td>
+<td>stdlib@v1.25.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39825.html">CVE-2026-39825</a></td>
 <td>none</td>
 <td>not affected</td>
@@ -639,10 +627,34 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
 <td>stdlib@v1.25.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>csi-provisioner</td>
+<td>stdlib@v1.25.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>csi-resizer</td>
+<td>stdlib@v1.25.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -831,6 +843,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
 <td>stdlib@v1.25.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:master-head</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:master-head</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>usr/local/bin/go-spdk-helper</td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:master-head</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
 <td>none</td>
 <td>not affected</td>
