@@ -76,7 +76,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,6,6
 rancher/prom-prometheus:v3.5.0,0,34,34
 rancher/rancher-agent:v2.14.2,0,8,8
 rancher/rancher-webhook:v0.10.6,0,1,1
-rancher/rancher:v2.14.2,0,57,57
+rancher/rancher:v2.14.2,0,56,56
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,1,1
 rancher/rke2-runtime:v1.35.5-rke2r1,0,5,5
 rancher/shell:v0.7.0,0,45,45

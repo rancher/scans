@@ -73,7 +73,7 @@ rancher/mirrored-prometheus-operator-prometheus-operator:v0.85.0,0,11,11
 rancher/prom-prometheus:v3.5.0,0,34,34
 rancher/rancher-agent:v2.14.0,0,26,26
 rancher/rancher-webhook:v0.10.0,0,10,10
-rancher/rancher:v2.14.0,0,121,121
+rancher/rancher:v2.14.0,0,120,120
 rancher/rke2-cloud-provider:v1.35.1-0.20260211145923-50fa2d70c239-build20260211,0,10,10
 rancher/rke2-runtime:v1.35.2-rke2r1,0,26,26
 rancher/shell:v0.7.0,0,45,45

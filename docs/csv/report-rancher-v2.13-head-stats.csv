@@ -52,7 +52,7 @@ rancher/kuberlr-kubectl:v5.0.0,0,44,44
 rancher/kuberlr-kubectl:v6.0.0,0,41,41
 rancher/kuberlr-kubectl:v6.0.3,0,27,27
 rancher/local-path-provisioner:v0.0.36,0,0,0
-rancher/machine:v0.15.0-rancher137.1,0,8,8
+rancher/machine:v0.15.0-rancher137.1,0,4,4
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
 rancher/mirrored-bci-micro:15.6.24.2,0,5,5
 rancher/mirrored-calico-apiserver:v3.32.0,0,0,0
@@ -156,7 +156,7 @@ rancher/rancher-agent:v2.13-head,0,28,28
 rancher/rancher-csp-adapter:v8.0.0,0,13,13
 rancher/rancher-webhook:v0.9.6-rc.3,0,1,1
 rancher/rancher:v2.13-head,0,168,168
-rancher/remotedialer-proxy:v0.6.2-rc.1,0,3,3
+rancher/remotedialer-proxy:v0.6.2-rc.2,0,0,0
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,3,3
 rancher/rke2-runtime:v1.32.13-rke2r1,0,27,27
 rancher/rke2-runtime:v1.33.12-rke2r2,0,5,5
