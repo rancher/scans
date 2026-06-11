@@ -1,2 +1,1 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-quay.io/stackstate/http-header-injector-proxy:84c82e1d-591-release,observability-agent/v1.3-dev,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,quay.io/stackstate/http-header-injector-proxy:84c82e1d-591-release (sles 15.7),2.38-150600.14.49.1,false,affected,

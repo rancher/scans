@@ -1,0 +1,2 @@
+image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+registry.rancher.com/suse-observability/envoy:1.38.0-so3,observability/v2.10.2-pre.61,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,registry.rancher.com/suse-observability/envoy:1.38.0-so3 (sles 15.7),2.38-150600.14.49.1,false,affected,
