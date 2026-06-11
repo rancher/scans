@@ -92,9 +92,9 @@ rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,10,10
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,8,8
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,5,5
-rancher/rancher-agent:head,0,5,5
+rancher/rancher-agent:head,0,0,0
 rancher/rancher-webhook:v0.11.0-rc.13,0,0,0
-rancher/rancher:head,0,45,45
+rancher/rancher:head,0,40,40
 rancher/remotedialer-proxy:v0.8.0-rc.9,0,0,0
 rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515,0,0,0
 rancher/rke2-runtime:v1.34.8-rke2r2,0,4,4

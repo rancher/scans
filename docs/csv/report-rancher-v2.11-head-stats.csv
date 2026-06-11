@@ -16,7 +16,7 @@ rancher/hardened-dns-node-cache:1.26.7-build20260206,0,16,16
 rancher/hardened-etcd:v3.5.26-k3s1-build20260227,0,6,6
 rancher/hardened-flannel:v0.28.1-build20260206,0,6,6
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260206,0,7,7
-rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,37,37
+rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,36,36
 rancher/hardened-multus-cni:v4.2.3-build20260206,0,15,15
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260207,0,3,3
 rancher/hardened-multus-thick:v4.2.3-build20260206,0,16,16
@@ -31,7 +31,7 @@ rancher/k3s-upgrade:v1.30.14-k3s2,2,26,28
 rancher/k3s-upgrade:v1.31.14-k3s1,2,24,26
 rancher/k3s-upgrade:v1.32.13-k3s1,0,7,7
 rancher/klipper-helm:v0.9.14-build20260210,0,19,19
-rancher/klipper-helm:v0.9.4-build20250113,0,56,56
+rancher/klipper-helm:v0.9.4-build20250113,0,57,57
 rancher/klipper-lb:v0.4.14,0,4,4
 rancher/kube-api-auth:v0.2.4,0,17,17
 rancher/kubectl:v1.31.13,0,9,9
@@ -92,7 +92,7 @@ rancher/mirrored-cluster-api-controller:v1.9.5,0,12,12
 rancher/mirrored-cluster-proportional-autoscaler:v1.9.0,0,12,12
 rancher/mirrored-coredns-coredns:1.11.3,0,10,10
 rancher/mirrored-coredns-coredns:1.14.1,0,15,15
-rancher/mirrored-coreos-etcd:v3.5.16,0,23,23
+rancher/mirrored-coreos-etcd:v3.5.16,0,24,24
 rancher/mirrored-curlimages-curl:8.9.1,2,22,24
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
@@ -187,7 +187,7 @@ rancher/pushprox-proxy:v0.1.5-rancher2-proxy,2,23,25
 rancher/rancher-agent:v2.11-head,0,47,47
 rancher/rancher-csp-adapter:v6.0.1,0,9,9
 rancher/rancher-webhook:v0.7.10-rc.5,0,0,0
-rancher/rancher:v2.11-head,1,182,183
+rancher/rancher:v2.11-head,1,184,185
 rancher/remotedialer-proxy:v0.4.4,0,8,8
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,10,10
 rancher/rke2-runtime:v1.32.13-rke2r1,0,26,26

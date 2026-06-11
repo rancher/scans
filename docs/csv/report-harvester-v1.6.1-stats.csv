@@ -25,7 +25,7 @@ rancher/hardened-dns-node-cache:1.26.0-build20250909,0,23,23
 rancher/hardened-etcd:v3.5.21-k3s1-build20250910,0,16,16
 rancher/hardened-flannel:v0.27.3-build20250901,0,12,12
 rancher/hardened-k8s-metrics-server:v0.8.0-build20250909,0,12,12
-rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,64,64
+rancher/hardened-kubernetes:v1.33.5-rke2r1-build20250910,0,63,63
 rancher/hardened-multus-cni:v4.2.2-build20250909,0,40,40
 rancher/harvester-cluster-repo:v1.6.1,2,18,20
 rancher/harvester-eventrouter:v1.6.1,0,14,14
@@ -51,7 +51,7 @@ rancher/klipper-lb:v0.4.13,0,4,4
 rancher/kubectl:v1.33.1,0,10,10
 rancher/mirrored-cluster-api-controller:v1.10.2,0,12,12
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
-rancher/mirrored-grafana-grafana:11.1.0,1,19,20
+rancher/mirrored-grafana-grafana:11.1.0,1,21,22
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,11,11
 rancher/mirrored-kiwigrid-k8s-sidecar:1.27.4,5,34,39
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
@@ -93,6 +93,6 @@ registry.suse.com/suse/sles/15.7/libguestfs-tools:1.5.2-150700.3.5.2,3,77,80
 registry.suse.com/suse/sles/15.7/virt-api:1.5.2-150700.3.5.2,2,18,20
 registry.suse.com/suse/sles/15.7/virt-controller:1.5.2-150700.3.5.2,3,24,27
 registry.suse.com/suse/sles/15.7/virt-handler:1.5.2-150700.3.5.2,3,27,30
-registry.suse.com/suse/sles/15.7/virt-launcher:1.5.2-150700.3.5.2,3,58,61
+registry.suse.com/suse/sles/15.7/virt-launcher:1.5.2-150700.3.5.2,3,57,60
 registry.suse.com/suse/sles/15.7/virt-operator:1.5.2-150700.3.5.2,3,20,23
 registry.suse.com/suse/vmdp/vmdp:2.5.4.2,0,0,0

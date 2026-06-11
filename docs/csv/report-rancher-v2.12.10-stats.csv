@@ -18,7 +18,7 @@ rancher/hardened-dns-node-cache:1.26.8-build20260416,0,10,10
 rancher/hardened-etcd:v3.6.7-k3s1-build20260415,0,4,4
 rancher/hardened-flannel:v0.28.4-build20260415,0,3,3
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260413,0,3,3
-rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,37,37
+rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,36,36
 rancher/hardened-kubernetes:v1.33.11-rke2r1-build20260416,0,2,2
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,15,15
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,3,3
@@ -34,7 +34,7 @@ rancher/k3s-upgrade:v1.31.14-k3s1,2,24,26
 rancher/k3s-upgrade:v1.32.13-k3s1,0,7,7
 rancher/k3s-upgrade:v1.33.11-k3s1,0,2,2
 rancher/klipper-helm:v0.9.17-build20260422,0,9,9
-rancher/klipper-helm:v0.9.4-build20250113,0,56,56
+rancher/klipper-helm:v0.9.4-build20250113,0,57,57
 rancher/klipper-lb:v0.4.15,0,4,4
 rancher/klipper-lb:v0.4.16,0,2,2
 rancher/kube-api-auth:v0.2.4,0,17,17
