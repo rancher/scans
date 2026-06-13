@@ -11,8 +11,8 @@ rancher/appco-thanos:0.39.2-7.3,0,15,15
 rancher/backup-restore-operator:v9.0.4-rc.1,0,0,0
 rancher/compliance-operator:v1.3.8-rc.1,0,0,0
 rancher/eks-operator:v1.13.7-rc.1,0,4,4
-rancher/fleet-agent:v0.14.6,0,3,3
-rancher/fleet:v0.14.6,0,4,4
+rancher/fleet-agent:v0.14.7-rc.1,0,0,0
+rancher/fleet:v0.14.7-rc.1,0,0,0
 rancher/gke-operator:v1.13.7-rc.1,0,5,5
 rancher/hardened-addon-resizer:1.8.23-build20260511,0,0,0
 rancher/hardened-calico:v3.32.0-build20260511,0,1,1
@@ -35,8 +35,8 @@ rancher/hardened-traefik:v3.6.16-build20260512,0,1,1
 rancher/hardened-whereabouts:v0.9.3-build20260511,0,2,2
 rancher/harvester-cloud-provider:v0.2.4,1,22,23
 rancher/harvester-cloud-provider:v0.2.5,0,24,24
-rancher/harvester-csi-driver:v0.2.4,2,25,27
-rancher/harvester-csi-driver:v0.2.8,0,15,15
+rancher/harvester-csi-driver:v0.2.8,0,14,14
+rancher/harvester-csi-driver:v0.2.9,0,0,0
 rancher/k3s-upgrade:v1.32.13-k3s1,0,7,7
 rancher/k3s-upgrade:v1.33.12-k3s1,0,2,2
 rancher/k3s-upgrade:v1.34.8-k3s1,0,2,2
@@ -52,7 +52,7 @@ rancher/kuberlr-kubectl:v6.0.0,0,41,41
 rancher/kuberlr-kubectl:v6.0.3,0,27,27
 rancher/kuberlr-kubectl:v6.1.0,0,6,6
 rancher/local-path-provisioner:v0.0.36,0,2,2
-rancher/machine:v0.15.0-rancher137.1,0,4,4
+rancher/machine:v0.15.0-rancher137.1,0,7,7
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
 rancher/mirrored-bci-micro:15.6.24.2,0,5,5
 rancher/mirrored-calico-apiserver:v3.32.0,0,0,0
@@ -154,9 +154,9 @@ rancher/prometheus-federator:v5.0.1,0,6,6
 rancher/pushprox:v0.1.10,0,9,9
 rancher/rancher-agent:v2.13-head,0,28,28
 rancher/rancher-csp-adapter:v8.0.0,0,13,13
-rancher/rancher-webhook:v0.9.6-rc.3,0,1,1
+rancher/rancher-webhook:v0.9.6-rc.4,0,0,0
 rancher/rancher:v2.13-head,0,168,168
-rancher/remotedialer-proxy:v0.6.2-rc.2,0,0,0
+rancher/remotedialer-proxy:v0.6.2-rc.3,0,0,0
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,3,3
 rancher/rke2-runtime:v1.32.13-rke2r1,0,26,26
 rancher/rke2-runtime:v1.33.12-rke2r2,0,4,4
@@ -164,9 +164,9 @@ rancher/rke2-runtime:v1.34.8-rke2r2,0,4,4
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,25,25
 rancher/rke2-upgrade:v1.33.12-rke2r2,0,10,10
 rancher/rke2-upgrade:v1.34.8-rke2r2,0,10,10
-rancher/scc-operator:v0.4.1,0,1,1
+rancher/scc-operator:v0.4.2-rc.1,0,0,0
 rancher/security-scan:v0.8.7-rc.1,0,0,0
-rancher/shell:v0.6.3,0,47,47
+rancher/shell:v0.6.4-rc.1,0,0,0
 rancher/supportability-review-app-frontend:v0.19.0,0,14,14
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.19.0,0,6,6
@@ -180,4 +180,4 @@ rancher/system-agent-installer-rke2:v1.34.8-rke2r2,0,0,0
 rancher/system-agent:v0.13.0-rc.1-suc,0,4,4
 rancher/system-upgrade-controller:v0.17.0,0,8,8
 rancher/turtles:v0.25.5-rc.0,0,2,2
-rancher/ui-plugin-catalog:4.25.0,0,25,25
+rancher/ui-plugin-catalog:4.25.0,0,27,27
