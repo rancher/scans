@@ -40,7 +40,7 @@ rancher/kuberlr-kubectl:v4.0.2,0,45,45
 rancher/kuberlr-kubectl:v4.0.4,0,42,42
 rancher/kuberlr-kubectl:v4.0.7,0,35,35
 rancher/local-path-provisioner:v0.0.34,0,9,9
-rancher/machine:v0.15.0-rancher127,2,39,41
+rancher/machine:v0.15.0-rancher142.2,0,3,3
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
 rancher/mirrored-bci-micro:15.6.24.2,0,5,5
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.2,0,14,14
@@ -98,7 +98,7 @@ rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
 rancher/mirrored-flannel-flannel:v0.26.4,3,36,39
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
-rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,3,25,28
+rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,3,28,31
 rancher/mirrored-grafana-grafana:11.5.5,2,26,28
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,7,7
@@ -186,7 +186,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,2,23,25
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,2,23,25
 rancher/rancher-agent:v2.11-head,0,47,47
 rancher/rancher-csp-adapter:v6.0.1,0,9,9
-rancher/rancher-webhook:v0.7.10-rc.6,0,0,0
+rancher/rancher-webhook:v0.7.10-rc.7,0,1,1
 rancher/rancher:v2.11-head,1,184,185
 rancher/remotedialer-proxy:v0.4.5-rc.2,0,0,0
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,10,10
@@ -207,4 +207,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,1,26,27
 rancher/system-upgrade-controller:v0.15.2,0,8,8
-rancher/ui-plugin-catalog:4.25.0,0,27,27
+rancher/ui-plugin-catalog:4.26.0,0,0,0

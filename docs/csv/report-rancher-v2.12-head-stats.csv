@@ -5,8 +5,8 @@ rancher/appco-redis:8.0.3-2.1,1,7,8
 rancher/backup-restore-operator:v8.1.5-rc.1,0,0,0
 rancher/compliance-operator:v1.2.10-rc.1,0,0,0
 rancher/eks-operator:v1.12.10-rc.1,0,4,4
-rancher/fleet-agent:v0.13.11,0,3,3
-rancher/fleet:v0.13.11,0,7,7
+rancher/fleet-agent:v0.13.12-rc.1,0,0,0
+rancher/fleet:v0.13.12-rc.1,0,0,0
 rancher/gke-operator:v1.12.10-rc.1,0,5,5
 rancher/hardened-addon-resizer:1.8.23-build20260511,0,0,0
 rancher/hardened-calico:v3.32.0-build20260511,0,1,1
@@ -46,7 +46,7 @@ rancher/kuberlr-kubectl:v5.0.0,0,44,44
 rancher/kuberlr-kubectl:v5.0.1,0,41,41
 rancher/kuberlr-kubectl:v5.0.4,0,30,30
 rancher/local-path-provisioner:v0.0.36,0,2,2
-rancher/machine:v0.15.0-rancher133,2,32,34
+rancher/machine:v0.15.0-rancher142.2,0,3,3
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
 rancher/mirrored-bci-micro:15.6.24.2,0,5,5
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.2,0,14,14
@@ -91,7 +91,7 @@ rancher/mirrored-curlimages-curl:8.9.1,2,22,24
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
-rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,3,25,28
+rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,3,28,31
 rancher/mirrored-grafana-grafana:11.5.5,2,26,28
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,7,7
@@ -172,7 +172,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,2,23,25
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,2,23,25
 rancher/rancher-agent:v2.12-head,0,35,35
 rancher/rancher-csp-adapter:v7.0.0,0,13,13
-rancher/rancher-webhook:v0.8.7-rc.5,0,0,0
+rancher/rancher-webhook:v0.8.7-rc.6,0,0,0
 rancher/rancher:v2.12-head,1,193,194
 rancher/remotedialer-proxy:v0.5.1-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.33.11-0.20260415182038-2566e39d309b-build20260416,0,3,3
@@ -195,4 +195,4 @@ rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.12-rke2r2,0,0,0
 rancher/system-agent:v0.3.13-suc,1,24,25
 rancher/system-upgrade-controller:v0.16.3,0,8,8
-rancher/ui-plugin-catalog:4.25.0,0,27,27
+rancher/ui-plugin-catalog:4.26.0,0,0,0

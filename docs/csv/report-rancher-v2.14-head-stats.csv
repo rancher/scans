@@ -11,8 +11,8 @@ rancher/appco-thanos:0.40.1-8.1,0,14,14
 rancher/backup-restore-operator:v10.0.5-rc.1,0,0,0
 rancher/compliance-operator:v1.4.4-rc.1,0,0,0
 rancher/eks-operator:v1.14.3-rc.1,0,0,0
-rancher/fleet-agent:v0.15.3-rc.1,0,0,0
-rancher/fleet:v0.15.3-rc.1,0,3,3
+rancher/fleet-agent:v0.15.3-rc.2,0,0,0
+rancher/fleet:v0.15.3-rc.2,0,0,0
 rancher/gke-operator:v1.14.3-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260511,0,0,0
 rancher/hardened-calico:v3.32.0-build20260511,0,1,1
@@ -44,7 +44,7 @@ rancher/klipper-helm:v0.10.0-build20260513,0,3,3
 rancher/klipper-helm:v0.9.4-build20250113,0,57,57
 rancher/klipper-lb:v0.4.16,0,2,2
 rancher/klipper-lb:v0.4.17,0,0,0
-rancher/kube-api-auth:v0.2.6,0,7,7
+rancher/kube-api-auth:v0.13.0-rc.1,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,5,5
 rancher/kubectl:v1.35.2,0,4,4
 rancher/kuberlr-kubectl:v6.0.0,0,41,41
@@ -177,4 +177,4 @@ rancher/system-agent-installer-rke2:v1.35.5-rke2r2,0,0,0
 rancher/system-agent:v0.14.0-rc.1-suc,0,0,0
 rancher/system-upgrade-controller:v0.19.1,0,3,3
 rancher/turtles:v0.26.3-rc.0,0,0,0
-rancher/ui-plugin-catalog:4.25.0,0,27,27
+rancher/ui-plugin-catalog:4.26.0,0,0,0
