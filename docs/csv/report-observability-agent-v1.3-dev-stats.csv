@@ -3,7 +3,7 @@ quay.io/stackstate/generic-sidecar-injector:15e759aa-1008-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy-init:7fa7b86b-626-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy:7fa7b86b-626-release,0,0,0
 quay.io/stackstate/promtail:3.6.11-so1,0,0,0
-quay.io/stackstate/stackstate-k8s-agent:e1076c57,0,0,0
+quay.io/stackstate/stackstate-k8s-agent:e1076c57,0,2,2
 quay.io/stackstate/stackstate-k8s-cluster-agent:e1076c57,0,0,0
 quay.io/stackstate/stackstate-k8s-process-agent:3c8e3d26,0,0,0
 registry.rancher.com/suse-observability/container-tools:1.8.6-so5,0,0,0

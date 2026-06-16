@@ -14,4 +14,4 @@ rancher/klipper-helm:v0.10.0-build20260513,0,3,3
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-pause:3.6,0,0,0
 rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515,0,0,0
-rancher/rke2-runtime:v1.36.1-rke2r2,0,4,4
+rancher/rke2-runtime:v1.36.1-rke2r2,0,0,0
