@@ -109,7 +109,7 @@ rancher/mirrored-library-nginx:1.27.2-alpine,3,34,37
 rancher/mirrored-library-traefik:2.11.30,0,21,21
 rancher/mirrored-library-traefik:3.3.6,0,21,21
 rancher/mirrored-library-traefik:3.6.13,0,14,14
-rancher/mirrored-longhornio-backing-image-manager:v1.11.2,0,10,10
+rancher/mirrored-longhornio-backing-image-manager:v1.11.2,0,9,9
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,58,58
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,2,2
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,0,3,3
@@ -122,8 +122,8 @@ rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,2,2
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,10,10
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,2,2
 rancher/mirrored-longhornio-livenessprobe:v2.18.0-20260428,0,2,2
-rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,9,11
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,12,13
+rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,8,10
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,11,12
 rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,4,6
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.2,0,3,3
 rancher/mirrored-longhornio-longhorn-ui:v1.11.2,0,5,5
@@ -158,7 +158,7 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,8,8
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,8,8
 rancher/mirrored-thanos-thanos:v0.37.2,0,14,14
 rancher/neuvector-compliance-config:1.0.13,0,0,0
-rancher/neuvector-controller:5.5.2,0,2,2
+rancher/neuvector-controller:5.5.2,0,1,1
 rancher/neuvector-enforcer:5.5.2,0,4,4
 rancher/neuvector-manager:5.5.2,0,1,1
 rancher/neuvector-prometheus-exporter:1.0.13,0,1,1
@@ -174,7 +174,7 @@ rancher/rancher-agent:v2.12-head,0,9,9
 rancher/rancher-csp-adapter:v7.0.0,0,13,13
 rancher/rancher-webhook:v0.8.7-rc.6,0,0,0
 rancher/rancher:v2.12-head,0,40,40
-rancher/remotedialer-proxy:v0.5.1-rc.1,0,0,0
+rancher/remotedialer-proxy:v0.5.1-rc.2,0,0,0
 rancher/rke2-cloud-provider:v1.33.11-0.20260415182038-2566e39d309b-build20260416,0,3,3
 rancher/rke2-runtime:v1.32.13-rke2r1,0,23,23
 rancher/rke2-runtime:v1.33.12-rke2r2,0,0,0

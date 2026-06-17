@@ -1,9 +1,9 @@
 image,critical,high,total
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260612140223-master-59c9372,0,0,0
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260612140223-master-59c9372,0,0,0
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260612140223-master-59c9372,0,0,0
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260612140223-master-59c9372-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260612140223-master-59c9372,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260616085820-master-47f20eb,0,0,0
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260616085820-master-47f20eb,0,0,0
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260616085820-master-47f20eb,0,0,0
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260616085820-master-47f20eb-2.5,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260616085820-master-47f20eb,0,0,0
 registry.rancher.com/suse-observability/clickhouse-backup:2.7.0-so2,0,0,0
 registry.rancher.com/suse-observability/clickhouse:25.9.6-so3,0,0,0
 registry.rancher.com/suse-observability/container-tools:1.8.6-so5,0,0,0

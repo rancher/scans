@@ -10,7 +10,7 @@ longhornio/csi-snapshotter:v8.5.0-20260428,0,2,2
 longhornio/livenessprobe:v2.18.0-20260428,0,2,2
 longhornio/longhorn-cli:v1.11.2,0,6,6
 longhornio/longhorn-engine:v1.11.2,2,8,10
-longhornio/longhorn-instance-manager:v1.11.2,1,11,12
+longhornio/longhorn-instance-manager:v1.11.2,1,10,11
 longhornio/longhorn-manager:v1.11.2,2,3,5
 longhornio/longhorn-share-manager:v1.11.2,0,4,4
 longhornio/longhorn-ui:v1.11.2,0,6,6
@@ -91,7 +91,7 @@ registry.k8s.io/sig-storage/snapshot-controller:v8.5.0,0,7,7
 registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.6.1,0,9,9
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.6.1,0,11,11
-registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.6.1,0,10,10
+registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.6.1,0,9,9
 registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.6.1,0,13,13
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.6.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.6.1,0,11,11
