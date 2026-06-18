@@ -11,5 +11,5 @@ longhornio/longhorn-engine:v1.9.2,6,57,63
 longhornio/longhorn-instance-manager:v1.9.2,5,50,55
 longhornio/longhorn-manager:v1.9.2,7,28,35
 longhornio/longhorn-share-manager:v1.9.2,3,29,32
-longhornio/longhorn-ui:v1.9.2,2,23,25
+longhornio/longhorn-ui:v1.9.2,2,20,22
 longhornio/support-bundle-kit:v0.0.69,2,28,30

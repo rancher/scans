@@ -36,7 +36,7 @@ rancher/hardened-traefik:v3.6.16-build20260512,0,1,1
 rancher/hardened-whereabouts:v0.9.3-build20260511,0,2,2
 rancher/harvester-cloud-provider:v0.2.5,0,24,24
 rancher/harvester-csi-driver:v0.2.4,1,27,28
-rancher/harvester-csi-driver:v0.2.8,0,14,14
+rancher/harvester-csi-driver:v0.2.8,0,12,12
 rancher/helm-controller:v0.16.10,2,23,25
 rancher/k3s-upgrade:v1.33.12-k3s1,0,2,2
 rancher/k3s-upgrade:v1.34.8-k3s1,0,2,2
@@ -81,14 +81,14 @@ rancher/mirrored-cilium-hubble-ui:v0.13.3,3,17,20
 rancher/mirrored-cilium-operator-aws:v1.19.3,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.3,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.3,0,1,1
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,12,99,111
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,4,46,50
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,14,96,110
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,5,53,58
 rancher/mirrored-cloud-provider-vsphere:v1.35.0,0,13,13
 rancher/mirrored-coredns-coredns:1.14.3,0,9,9
 rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,274,2704,2978
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,274,2698,2972
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,7,7
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,11,11
