@@ -1,5 +1,6 @@
 image,critical,high,total
 rancher/aks-operator:v1.15.0-rc.2,0,0,0
+rancher/backup-restore-operator:v11.0.0-rc.1,0,0,0
 rancher/compliance-operator:v1.5.0-rc.3,0,0,0
 rancher/eks-operator:v1.15.0-rc.2,0,0,0
 rancher/fleet-agent:v0.16.0-alpha.11,0,0,0
@@ -68,7 +69,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.3,3,17,20
 rancher/mirrored-cilium-operator-aws:v1.19.3,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.3,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.3,0,1,1
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,14,96,110
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,14,98,112
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,5,53,58
 rancher/mirrored-cloud-provider-vsphere:v1.36.0,0,3,3
 rancher/mirrored-coredns-coredns:1.14.3,0,9,9

@@ -82,7 +82,7 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.27.0,0,34,34
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,17,17
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,25,131,156
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,24,112,136
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,18,122,140
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,18,124,142
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,13,81,94
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,12,68,80
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,7,66,73

@@ -9,7 +9,7 @@ registry.rancher.com/suse-observability/hadoop:3.4.3-so6,0,0,0
 registry.rancher.com/suse-observability/hbase-master:2.5-8.1.2,0,0,0
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.1.2,0,0,0
 registry.rancher.com/suse-observability/jmx-exporter:0.20.0-so3,0,0,0
-registry.rancher.com/suse-observability/kafka:3.9.2-so4,0,0,0
+registry.rancher.com/suse-observability/kafka:3.9.2-so4,0,2,2
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.11,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:afed3f9c-1006-release,0,0,0
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-so4,0,0,0
@@ -18,10 +18,10 @@ registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.210,0,0,0
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.1.2,0,0,0
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.1.2,0,0,0
 registry.rancher.com/suse-observability/stackpacks:20260610110724-master-4814eb5-prime-selfhosted,0,0,0
-registry.rancher.com/suse-observability/stackstate-correlate:2.10.2-pre.70,0,0,0
-registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.2-pre.70,0,0,0
-registry.rancher.com/suse-observability/stackstate-receiver:2.10.2-pre.70,0,0,0
-registry.rancher.com/suse-observability/stackstate-server:2.10.2-pre.70-2.5,0,0,0
+registry.rancher.com/suse-observability/stackstate-correlate:2.10.2-pre.70,0,2,2
+registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.2-pre.70,0,2,2
+registry.rancher.com/suse-observability/stackstate-receiver:2.10.2-pre.70,0,2,2
+registry.rancher.com/suse-observability/stackstate-server:2.10.2-pre.70-2.5,0,2,2
 registry.rancher.com/suse-observability/stackstate-ui:2.10.2-pre.70,0,0,0
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.39,0,0,0
 registry.rancher.com/suse-observability/suse-observability-borg:20260615102436-848e61a4,0,0,0
@@ -33,4 +33,4 @@ registry.rancher.com/suse-observability/vmbackup:1.144.0-so3,0,0,0
 registry.rancher.com/suse-observability/vmrestore:1.144.0-so2,0,0,0
 registry.rancher.com/suse-observability/wait:1.0.12-so4,0,0,0
 registry.rancher.com/suse-observability/workload-observer:71a6e3c3-1005-release,0,0,0
-registry.rancher.com/suse-observability/zookeeper:3.9.5-so5,0,0,0
+registry.rancher.com/suse-observability/zookeeper:3.9.5-so5,0,2,2
