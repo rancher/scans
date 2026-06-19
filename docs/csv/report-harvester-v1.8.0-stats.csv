@@ -37,7 +37,7 @@ rancher/hardened-snapshot-controller:v8.4.0-build20260205,0,6,6
 rancher/harvester-cluster-repo:v1.8.0,0,7,7
 rancher/harvester-eventrouter:v1.8.0,0,6,6
 rancher/harvester-kubeovn-operator:v1.15.4,0,14,14
-rancher/harvester-load-balancer-webhook:v1.8.0,0,10,10
+rancher/harvester-load-balancer-webhook:v1.8.0,0,7,7
 rancher/harvester-load-balancer:v1.8.0,0,7,7
 rancher/harvester-network-controller:v1.8.0,0,10,10
 rancher/harvester-network-helper:v1.8.0,0,9,9
@@ -51,8 +51,8 @@ rancher/harvester-pcidevices:v1.8.0,0,12,12
 rancher/harvester-seeder:v1.8.0,3,18,21
 rancher/harvester-upgrade:v1.8.0,0,50,50
 rancher/harvester-vm-import-controller:v1.8.0,0,16,16
-rancher/harvester-webhook:v1.8.0,0,23,23
-rancher/harvester:v1.8.0,0,24,24
+rancher/harvester-webhook:v1.8.0,0,16,16
+rancher/harvester:v1.8.0,0,17,17
 rancher/klipper-helm:v0.9.14-build20260210,0,19,19
 rancher/klipper-lb:v0.4.14,0,4,4
 rancher/kubectl:v1.35.1,0,6,6
