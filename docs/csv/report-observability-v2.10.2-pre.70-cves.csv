@@ -1,4 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+registry.rancher.com/suse-observability/hadoop:3.4.3-so6,observability/v2.10.2-pre.70,org.eclipse.jetty:jetty-http,9.4.60.sts1,jar,CVE-2024-6763,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-6763,Java,12.0.12,false,not_affected,vulnerable_code_not_in_execute_path
+registry.rancher.com/suse-observability/hadoop:3.4.3-so6,observability/v2.10.2-pre.70,org.eclipse.jetty:jetty-http,9.4.60.sts1,jar,CVE-2024-6763,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-6763,Java,12.0.12,false,not_affected,vulnerable_code_not_in_execute_path
 registry.rancher.com/suse-observability/kafka:3.9.2-so4,observability/v2.10.2-pre.70,org.jline:jline-remote-telnet,3.25.1,jar,GHSA-2r2c-cx56-8933,HIGH,https://github.com/advisories/GHSA-2r2c-cx56-8933,Java,4.2.1,false,affected,
 registry.rancher.com/suse-observability/kafka:3.9.2-so4,observability/v2.10.2-pre.70,org.jline:jline-remote-telnet,3.25.1,jar,GHSA-47qp-hqvx-6r3f,HIGH,https://github.com/advisories/GHSA-47qp-hqvx-6r3f,Java,4.2.1,false,affected,
 registry.rancher.com/suse-observability/stackstate-correlate:2.10.2-pre.70,observability/v2.10.2-pre.70,org.jline:jline-remote-telnet,3.29.0,jar,GHSA-2r2c-cx56-8933,HIGH,https://github.com/advisories/GHSA-2r2c-cx56-8933,Java,4.2.1,false,affected,
