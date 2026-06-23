@@ -64,6 +64,7 @@ rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-39826,ME
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,golang.org/x/net,v0.43.0,gobinary,CVE-2026-25680,HIGH,https://avd.aquasec.com/nvd/cve-2026-25680,bin/runc,0.55.0,false,affected,
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,golang.org/x/net,v0.43.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,bin/runc,0.53.0,false,affected,
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,golang.org/x/net,v0.43.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,bin/runc,0.55.0,false,affected,
+rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-27145,HIGH,https://avd.aquasec.com/nvd/cve-2026-27145,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-39820,HIGH,https://avd.aquasec.com/nvd/cve-2026-39820,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
@@ -72,7 +73,6 @@ rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-39825,HI
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
-rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-27145,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-27145,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-39826,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-39826,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.33.12-k3s1,k3s/v1.33.12,stdlib,v1.25.9,gobinary,CVE-2026-42507,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42507,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
 rancher/klipper-helm:v0.10.0-build20260513,k3s/v1.33.12,github.com/containerd/containerd,v1.7.30,gobinary,CVE-2026-46680,HIGH,https://avd.aquasec.com/nvd/cve-2026-46680,home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis,1.7.32,false,affected,
