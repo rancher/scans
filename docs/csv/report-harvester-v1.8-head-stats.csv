@@ -10,7 +10,7 @@ longhornio/csi-snapshotter:v8.5.0-20260428,0,4,4
 longhornio/livenessprobe:v2.18.0-20260428,0,2,2
 longhornio/longhorn-cli:v1.11.2,0,10,10
 longhornio/longhorn-engine:v1.11.2,2,12,14
-longhornio/longhorn-instance-manager:v1.11.2,1,12,13
+longhornio/longhorn-instance-manager:v1.11.2,1,13,14
 longhornio/longhorn-manager:v1.11.2,2,5,7
 longhornio/longhorn-share-manager:v1.11.2,0,6,6
 longhornio/longhorn-ui:v1.11.2,0,6,6
@@ -22,7 +22,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.7,0,29,29
 rancher/appco-node-exporter:1.9.1-11.3,0,28,28
 rancher/cluster-api-controller:v1.12.7,0,6,6
 rancher/fleet-agent:v0.15.2,0,9,9
-rancher/fleet:v0.15.2,0,19,19
+rancher/fleet:v0.15.2,0,18,18
 rancher/hardened-addon-resizer:1.8.23-build20260511,0,2,2
 rancher/hardened-calico:v3.32.0-build20260511,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260511,0,2,2
@@ -93,7 +93,7 @@ registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.6.1,0,9,9
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.6.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.6.1,0,9,9
 registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.6.1,0,13,13
-registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.6.1,0,11,11
+registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.6.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.6.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.6.1,0,11,11
 registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.0-150700.3.21.1,0,22,22

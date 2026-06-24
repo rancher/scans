@@ -1733,8 +1733,8 @@ rancher/local-path-provisioner:v0.0.36,rancher/head,stdlib,v1.26.3,gobinary,CVE-
 rancher/machine:v0.15.0-rancher143,rancher/head,busybox,1.37.0-150700.18.15.1,sles,SUSE-SU-2026:2054-1,HIGH,,rancher/machine:v0.15.0-rancher143 (sles 15.7),1.37.0-150700.18.18.1,false,affected,
 rancher/machine:v0.15.0-rancher143,rancher/head,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,rancher/machine:v0.15.0-rancher143 (sles 15.7),2.38-150600.14.49.1,false,affected,
 rancher/machine:v0.15.0-rancher143,rancher/head,openssh-clients,9.6p1-150600.6.37.1,sles,SUSE-SU-2026:2371-1,HIGH,,rancher/machine:v0.15.0-rancher143 (sles 15.7),9.6p1-150600.6.42.1,false,affected,
-rancher/machine:v0.15.0-rancher143,rancher/head,openssh-common,9.6p1-150600.6.37.1,sles,SUSE-SU-2026:2371-1,HIGH,,rancher/machine:v0.15.0-rancher143 (sles 15.7),9.6p1-150600.6.42.1,false,affected,
 rancher/machine:v0.15.0-rancher143,rancher/head,openssh-fips,9.6p1-150600.6.37.1,sles,SUSE-SU-2026:2371-1,HIGH,,rancher/machine:v0.15.0-rancher143 (sles 15.7),9.6p1-150600.6.42.1,false,affected,
+rancher/machine:v0.15.0-rancher143,rancher/head,openssh-common,9.6p1-150600.6.37.1,sles,SUSE-SU-2026:2371-1,HIGH,,rancher/machine:v0.15.0-rancher143 (sles 15.7),9.6p1-150600.6.42.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/machine:v0.15.0-rancher143,rancher/head,github.com/docker/docker,v25.0.8+incompatible,gobinary,CVE-2026-34040,HIGH,https://avd.aquasec.com/nvd/cve-2026-34040,usr/local/bin/rancher-machine,29.3.1,false,affected,
 rancher/machine:v0.15.0-rancher143,rancher/head,github.com/docker/docker,v25.0.8+incompatible,gobinary,CVE-2026-41567,HIGH,https://avd.aquasec.com/nvd/cve-2026-41567,usr/local/bin/rancher-machine,,false,affected,
 rancher/machine:v0.15.0-rancher143,rancher/head,github.com/docker/docker,v25.0.8+incompatible,gobinary,CVE-2026-42306,HIGH,https://avd.aquasec.com/nvd/cve-2026-42306,usr/local/bin/rancher-machine,,false,affected,

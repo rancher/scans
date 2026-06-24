@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/aks-operator:v1.11.11,0,7,7
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,22,23
 rancher/appco-redis:8.0.3-2.1,1,8,9
-rancher/backup-restore-operator:v7.0.7-rc.1,0,14,14
+rancher/backup-restore-operator:v7.0.7,0,14,14
 rancher/cis-operator:v1.4.8,0,9,9
 rancher/eks-operator:v1.11.11,0,9,9
 rancher/fleet-agent:v0.12.16,0,8,8
@@ -25,7 +25,7 @@ rancher/hardened-traefik:v3.6.9-build20260226,0,22,22
 rancher/hardened-whereabouts:v0.9.2-build20260206,0,19,19
 rancher/harvester-cloud-provider:v0.2.4,1,23,24
 rancher/harvester-cloud-provider:v0.2.5,0,25,25
-rancher/harvester-csi-driver:v0.2.3,1,34,35
+rancher/harvester-csi-driver:v0.2.3,1,33,34
 rancher/harvester-csi-driver:v0.2.4,1,28,29
 rancher/k3s-upgrade:v1.30.14-k3s2,2,29,31
 rancher/k3s-upgrade:v1.31.14-k3s1,2,27,29
@@ -40,7 +40,7 @@ rancher/kuberlr-kubectl:v4.0.2,0,53,53
 rancher/kuberlr-kubectl:v4.0.4,0,50,50
 rancher/kuberlr-kubectl:v4.0.7,0,43,43
 rancher/local-path-provisioner:v0.0.34,0,11,11
-rancher/machine:v0.15.0-rancher127,2,48,50
+rancher/machine:v0.15.0-rancher127,2,45,47
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
 rancher/mirrored-bci-micro:15.6.24.2,0,5,5
 rancher/mirrored-brancz-kube-rbac-proxy:v0.18.2,0,16,16
@@ -134,7 +134,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,12,12
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0,0,9,9
 rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.1,2,37,39
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,1,32,33
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,1,33,34
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,2,22,24
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,14,14
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,12,12
@@ -186,15 +186,15 @@ rancher/pushprox-client:v0.1.5-rancher2-client,2,23,25
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,2,23,25
 rancher/rancher-agent:v2.11-head,0,23,23
 rancher/rancher-csp-adapter:v6.0.1,0,11,11
-rancher/rancher-webhook:v0.7.10-rc.11,0,2,2
+rancher/rancher-webhook:v0.7.10-rc.12,0,0,0
 rancher/rancher:v2.11-head,0,163,163
-rancher/remotedialer-proxy:v0.4.5-rc.3,0,0,0
+rancher/remotedialer-proxy:v0.4.5,0,0,0
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,12,12
 rancher/rke2-runtime:v1.32.13-rke2r1,0,50,50
 rancher/rke2-upgrade:v1.30.14-rke2r2,2,56,58
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,29,29
 rancher/security-scan:v0.6.8,0,27,27
-rancher/shell:v0.4.4-rc.1,0,20,20
+rancher/shell:v0.4.4,0,20,20
 rancher/supportability-review-app-frontend:v0.19.0,0,14,14
 rancher/supportability-review-internal:latest,0,1,1
 rancher/supportability-review-operator:v0.19.0,0,9,9
@@ -207,4 +207,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,1,33,34
 rancher/system-upgrade-controller:v0.15.2,0,10,10
-rancher/ui-plugin-catalog:4.26.0,0,0,0
+rancher/ui-plugin-catalog:4.28.0,0,0,0
