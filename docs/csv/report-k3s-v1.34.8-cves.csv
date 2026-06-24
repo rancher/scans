@@ -62,9 +62,15 @@ rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-39825,HIGH
 rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-39836,HIGH,https://avd.aquasec.com/nvd/cve-2026-39836,bin/k3s,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-42499,HIGH,https://avd.aquasec.com/nvd/cve-2026-42499,bin/k3s,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-39826,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-39826,bin/k3s,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
-rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-25680,HIGH,https://avd.aquasec.com/nvd/cve-2026-25680,bin/runc,0.55.0,false,affected,
-rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,bin/runc,0.53.0,false,affected,
-rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,bin/runc,0.55.0,false,affected,
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-25680,HIGH,https://avd.aquasec.com/nvd/cve-2026-25680,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-27136,HIGH,https://avd.aquasec.com/nvd/cve-2026-27136,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,bin/runc,0.53.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-42502,HIGH,https://avd.aquasec.com/nvd/cve-2026-42502,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2026-42506,HIGH,https://avd.aquasec.com/nvd/cve-2026-42506,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2025-47911,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-47911,bin/runc,0.45.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,golang.org/x/net,v0.43.0,gobinary,CVE-2025-58190,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-58190,bin/runc,0.45.0,false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-27145,HIGH,https://avd.aquasec.com/nvd/cve-2026-27145,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3s:v1.34.8-k3s1,k3s/v1.34.8,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,bin/runc,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
