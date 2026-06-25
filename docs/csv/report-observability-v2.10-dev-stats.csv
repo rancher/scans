@@ -4,11 +4,12 @@ quay.io/stackstate/container-tools:1.8.6-so7,0,4,4
 quay.io/stackstate/elasticsearch-exporter:1.10.0-so6,0,0,0
 quay.io/stackstate/kafka:3.9.2-so6,0,4,4
 quay.io/stackstate/nginx-prometheus-exporter:1.5.1-so6,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260623112734-master-3453430,0,6,6
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260623112734-master-3453430,0,6,6
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260623112734-master-3453430,0,6,6
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260623112734-master-3453430-2.5,0,8,8
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260623112734-master-3453430,0,1,1
+quay.io/stackstate/stackpacks:20260624090454-master-c599608-prime-selfhosted,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260624180322-master-0739bc9,0,6,6
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260624180322-master-0739bc9,0,6,6
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260624180322-master-0739bc9,0,6,6
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260624180322-master-0739bc9-2.5,0,8,8
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260624180322-master-0739bc9,0,0,0
 quay.io/stackstate/suse-observability-borg:20260623071537-d1593540,0,0,0
 quay.io/stackstate/suse-observability-mcp:20260623044525-5721dae6,0,0,0
 quay.io/stackstate/victoria-metrics:1.144.0-so4,0,0,0
@@ -29,7 +30,6 @@ registry.rancher.com/suse-observability/s3proxy:3.1.0-so5,0,6,6
 registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.210,0,4,4
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.1.2,0,8,8
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.1.2,0,6,6
-registry.rancher.com/suse-observability/stackpacks:20260617124234-master-d2bbe0a-prime-selfhosted,0,0,0
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.40,0,0,0
 registry.rancher.com/suse-observability/tephra-server:2.5-8.1.2,0,6,6
 registry.rancher.com/suse-observability/wait:1.0.12-so4,0,0,0

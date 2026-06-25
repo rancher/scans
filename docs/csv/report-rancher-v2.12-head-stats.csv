@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/aks-operator:v1.12.10,0,5,5
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,23,24
 rancher/appco-redis:8.0.3-2.1,1,8,9
-rancher/backup-restore-operator:v8.1.5,0,14,14
+rancher/backup-restore-operator:v8.1.6,0,0,0
 rancher/compliance-operator:v1.2.10,0,2,2
 rancher/eks-operator:v1.12.10,0,6,6
 rancher/fleet-agent:v0.13.12,0,8,8
@@ -172,7 +172,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,2,23,25
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,2,23,25
 rancher/rancher-agent:v2.12-head,0,20,20
 rancher/rancher-csp-adapter:v7.0.0,0,14,14
-rancher/rancher-webhook:v0.8.7-rc.10,0,0,0
+rancher/rancher-webhook:v0.8.7,0,0,0
 rancher/rancher:v2.12-head,0,126,126
 rancher/remotedialer-proxy:v0.5.1,0,0,0
 rancher/rke2-cloud-provider:v1.33.11-0.20260415182038-2566e39d309b-build20260416,0,17,17
@@ -180,7 +180,7 @@ rancher/rke2-runtime:v1.32.13-rke2r1,0,47,47
 rancher/rke2-runtime:v1.33.12-rke2r2,0,21,21
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,29,29
 rancher/rke2-upgrade:v1.33.12-rke2r2,0,15,15
-rancher/scc-operator:v0.4.2,0,3,3
+rancher/scc-operator:v0.4.3,0,0,0
 rancher/security-scan:v0.7.11,0,6,6
 rancher/shell:v0.5.3,0,20,20
 rancher/supportability-review-app-frontend:v0.19.0,0,18,18

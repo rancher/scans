@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/aks-operator:v1.11.11,0,7,7
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,23,24
 rancher/appco-redis:8.0.3-2.1,1,8,9
-rancher/backup-restore-operator:v7.0.7,0,14,14
+rancher/backup-restore-operator:v7.0.8,0,0,0
 rancher/cis-operator:v1.4.8,0,9,9
 rancher/eks-operator:v1.11.11,0,9,9
 rancher/fleet-agent:v0.12.16,0,8,8
@@ -186,7 +186,7 @@ rancher/pushprox-client:v0.1.5-rancher2-client,2,23,25
 rancher/pushprox-proxy:v0.1.5-rancher2-proxy,2,23,25
 rancher/rancher-agent:v2.11-head,0,23,23
 rancher/rancher-csp-adapter:v6.0.1,0,11,11
-rancher/rancher-webhook:v0.7.10-rc.12,0,0,0
+rancher/rancher-webhook:v0.7.10,0,0,0
 rancher/rancher:v2.11-head,0,163,163
 rancher/remotedialer-proxy:v0.4.5,0,0,0
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,12,12

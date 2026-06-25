@@ -8,7 +8,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.14,0,27,27
 rancher/appco-node-exporter:1.10.2-14.3,0,19,19
 rancher/appco-redis:8.0.3-2.1,1,8,9
 rancher/appco-thanos:0.40.1-8.1,0,28,28
-rancher/backup-restore-operator:v10.0.5,0,14,14
+rancher/backup-restore-operator:v10.0.7,0,0,0
 rancher/compliance-operator:v1.4.4,0,2,2
 rancher/eks-operator:v1.14.3,0,0,0
 rancher/fleet-agent:v0.15.3,0,7,7
@@ -160,7 +160,7 @@ rancher/rke2-runtime:v1.35.5-rke2r2,0,21,21
 rancher/rke2-upgrade:v1.33.12-rke2r2,0,15,15
 rancher/rke2-upgrade:v1.34.8-rke2r2,0,14,14
 rancher/rke2-upgrade:v1.35.5-rke2r2,0,14,14
-rancher/scc-operator:v0.4.2,0,3,3
+rancher/scc-operator:v0.4.3,0,0,0
 rancher/security-scan:v0.9.3,0,6,6
 rancher/shell:v0.7.1,0,20,20
 rancher/supportability-review-app-frontend:v0.19.0,0,18,18
