@@ -8,7 +8,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.14,0,27,27
 rancher/appco-node-exporter:1.10.2-14.3,0,19,19
 rancher/appco-redis:8.0.3-2.1,1,8,9
 rancher/appco-thanos:0.40.1-8.1,0,28,28
-rancher/backup-restore-operator:v10.0.7,0,0,0
+rancher/backup-restore-operator:v10.0.5,0,14,14
 rancher/compliance-operator:v1.4.4,0,2,2
 rancher/eks-operator:v1.14.3,0,0,0
 rancher/fleet-agent:v0.15.3,0,7,7
@@ -116,7 +116,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,12,12
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,4,4
 rancher/mirrored-longhornio-livenessprobe:v2.18.0-20260428,0,2,2
 rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,15,17
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,18,19
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,17,18
 rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,8,10
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.2,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.11.2,0,9,9
@@ -144,7 +144,7 @@ rancher/neuvector-prometheus-exporter:1.0.14,0,6,6
 rancher/neuvector-registry-adapter:0.2.8,0,0,0
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.12,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,11,11
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,10,10
 rancher/prom-prometheus:v3.8.1,0,31,31
 rancher/prometheus-federator:v6.0.0,0,7,7
 rancher/pushprox:v0.1.11,0,1,1

@@ -9,7 +9,7 @@ registry.rancher.com/suse-observability/hadoop:3.5.0-so1,0,7,7
 registry.rancher.com/suse-observability/hbase-master:2.5-8.1.2,0,4,4
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.1.2,0,6,6
 registry.rancher.com/suse-observability/jmx-exporter:0.20.0-so3,0,4,4
-registry.rancher.com/suse-observability/kafka:3.9.2-so5,0,5,5
+registry.rancher.com/suse-observability/kafka:3.9.2-so5,0,4,4
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.11,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:afed3f9c-1007-release,0,0,0
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-so5,0,0,0
@@ -33,4 +33,4 @@ registry.rancher.com/suse-observability/vmbackup:1.144.0-so4,0,2,2
 registry.rancher.com/suse-observability/vmrestore:1.144.0-so3,0,0,0
 registry.rancher.com/suse-observability/wait:1.0.12-so4,0,0,0
 registry.rancher.com/suse-observability/workload-observer:71a6e3c3-1006-release,0,0,0
-registry.rancher.com/suse-observability/zookeeper:3.9.5-so7,0,6,6
+registry.rancher.com/suse-observability/zookeeper:3.9.5-so7,0,5,5
