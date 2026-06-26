@@ -96,7 +96,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,14,14
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,10,10
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,69,77
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,66,74
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,2,31,33
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,28,30
@@ -145,7 +145,7 @@ rancher/neuvector-enforcer:5.5.3,0,3,3
 rancher/neuvector-manager:5.5.3,0,4,4
 rancher/neuvector-prometheus-exporter:1.0.14,0,6,6
 rancher/neuvector-registry-adapter:0.2.8,0,0,0
-rancher/neuvector-scanner:6,0,0,0
+rancher/neuvector-scanner:6,0,1,1
 rancher/neuvector-updater:0.0.12,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,10,10
 rancher/prom-prometheus:v3.5.0,0,38,38

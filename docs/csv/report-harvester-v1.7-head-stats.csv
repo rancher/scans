@@ -59,7 +59,7 @@ rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
 rancher/mirrored-grafana-grafana:11.5.5,2,28,30
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,4,30,34
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,69,77
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,66,74
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,28,28
 rancher/mirrored-library-busybox:1.37.0,0,0,0
@@ -86,7 +86,7 @@ rancher/system-agent:v0.3.14-suc,1,28,29
 rancher/system-upgrade-controller:v0.17.0,0,10,10
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,15,15
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,13,13
-registry.suse.com/bci/bci-base:15.7,0,4,4
+registry.suse.com/bci/bci-base:15.7,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.8.1,0,3,3
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.8.1,0,4,4
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.8.1,0,4,4
