@@ -35,8 +35,8 @@ rancher/hardened-traefik:v3.6.16-build20260512,0,14,14
 rancher/hardened-whereabouts:v0.9.3-build20260511,0,8,8
 rancher/harvester-cloud-provider:v0.2.4,1,23,24
 rancher/harvester-cloud-provider:v0.2.5,0,20,20
-rancher/harvester-csi-driver:v0.2.8,0,17,17
-rancher/harvester-csi-driver:v0.2.9,0,6,6
+rancher/harvester-csi-driver:v0.2.8,0,16,16
+rancher/harvester-csi-driver:v0.2.9,0,5,5
 rancher/k3s-upgrade:v1.32.13-k3s1,0,9,9
 rancher/k3s-upgrade:v1.33.12-k3s1,0,5,5
 rancher/k3s-upgrade:v1.34.8-k3s1,0,4,4
@@ -96,7 +96,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,14,14
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,10,10
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,8,66,74
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,9,75,84
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,2,31,33
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,28,30
@@ -118,8 +118,8 @@ rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,4,4
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,12,12
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,4,4
 rancher/mirrored-longhornio-livenessprobe:v2.18.0-20260428,0,2,2
-rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,15,17
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,17,18
+rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,14,16
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,15,16
 rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,8,10
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.2,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.11.2,0,9,9
@@ -151,10 +151,10 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,10,10
 rancher/prom-prometheus:v3.5.0,0,38,38
 rancher/prometheus-federator:v5.0.1,0,7,7
 rancher/pushprox:v0.1.11,0,1,1
-rancher/rancher-agent:v2.13-head,0,22,22
+rancher/rancher-agent:v2.13-head,0,10,10
 rancher/rancher-csp-adapter:v8.0.0,0,14,14
 rancher/rancher-webhook:v0.9.6,0,0,0
-rancher/rancher:v2.13-head,0,87,87
+rancher/rancher:v2.13-head,0,75,75
 rancher/remotedialer-proxy:v0.6.2,0,0,0
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,17,17
 rancher/rke2-runtime:v1.32.13-rke2r1,0,38,38
@@ -166,10 +166,10 @@ rancher/rke2-upgrade:v1.34.8-rke2r2,0,14,14
 rancher/scc-operator:v0.4.3,0,0,0
 rancher/security-scan:v0.8.7,0,6,6
 rancher/shell:v0.6.4,0,17,17
-rancher/supportability-review-app-frontend:v0.19.0,0,17,17
-rancher/supportability-review-internal:latest,0,1,1
+rancher/supportability-review-app-frontend:v0.19.0,0,16,16
+rancher/supportability-review-internal:latest,0,2,2
 rancher/supportability-review-operator:v0.19.0,0,9,9
-rancher/supportability-review:latest,0,5,5
+rancher/supportability-review:latest,0,6,6
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.12-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.8-k3s1,0,0,0

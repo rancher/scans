@@ -27,7 +27,7 @@ rancher/hardened-traefik:v3.6.16-build20260512,0,14,14
 rancher/hardened-whereabouts:v0.9.3-build20260511,0,8,8
 rancher/harvester-cloud-provider:v0.2.5,0,20,20
 rancher/harvester-cloud-provider:v0.2.6,0,9,9
-rancher/harvester-csi-driver:v0.2.8,0,17,17
+rancher/harvester-csi-driver:v0.2.8,0,16,16
 rancher/helm-controller:v0.16.10,2,25,27
 rancher/k3s-upgrade:v1.34.8-k3s1,0,4,4
 rancher/k3s-upgrade:v1.35.5-k3s1,0,4,4
