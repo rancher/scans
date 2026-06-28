@@ -1,12 +1,12 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-so7,0,4,4
+quay.io/stackstate/container-tools:1.8.6-so7,0,7,7
 quay.io/stackstate/http-header-injector-proxy-init:1.0.0-so2,0,0,0
 quay.io/stackstate/http-header-injector-proxy:1.38.2-so2,0,0,0
-quay.io/stackstate/promtail:3.6.11-so3,0,2,2
+quay.io/stackstate/promtail:3.6.11-so3,0,5,5
 registry.rancher.com/suse-observability/generic-sidecar-injector:15e759aa-1009-release,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:afed3f9c-1007-release,0,0,0
 registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so1,0,4,4
 registry.rancher.com/suse-observability/stackstate-k8s-agent:cef227ab,0,0,0
 registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:cef227ab,0,0,0
-registry.rancher.com/suse-observability/stackstate-k8s-process-agent:2f7e7bca,0,1,1
+registry.rancher.com/suse-observability/stackstate-k8s-process-agent:2f7e7bca,0,3,3
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.40,0,0,0
