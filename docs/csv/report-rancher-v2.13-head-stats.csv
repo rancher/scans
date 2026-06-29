@@ -11,8 +11,8 @@ rancher/appco-thanos:0.39.2-7.3,0,29,29
 rancher/backup-restore-operator:v9.0.4,0,14,14
 rancher/compliance-operator:v1.3.8,0,2,2
 rancher/eks-operator:v1.13.7,0,6,6
-rancher/fleet-agent:v0.14.7,0,8,8
-rancher/fleet:v0.14.7,0,22,22
+rancher/fleet-agent:v0.14.8,0,0,0
+rancher/fleet:v0.14.8,0,3,3
 rancher/gke-operator:v1.13.7,0,7,7
 rancher/hardened-addon-resizer:1.8.23-build20260511,0,2,2
 rancher/hardened-calico:v3.32.0-build20260511,0,3,3
@@ -44,7 +44,7 @@ rancher/klipper-helm:v0.10.0-build20260513,0,24,24
 rancher/klipper-helm:v0.9.4-build20250113,0,79,79
 rancher/klipper-lb:v0.4.16,0,2,2
 rancher/klipper-lb:v0.4.17,0,0,0
-rancher/kube-api-auth:v0.2.6,0,10,10
+rancher/kube-api-auth:v0.13.0-rc.2,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
 rancher/kubectl:v1.34.1,0,11,11
 rancher/kubectl:v1.34.5,0,7,7
@@ -145,9 +145,9 @@ rancher/neuvector-enforcer:5.5.3,0,5,5
 rancher/neuvector-manager:5.5.3,0,6,6
 rancher/neuvector-prometheus-exporter:1.0.14,0,9,9
 rancher/neuvector-registry-adapter:0.2.8,0,2,2
-rancher/neuvector-scanner:6,0,3,3
+rancher/neuvector-scanner:6,0,1,1
 rancher/neuvector-updater:0.0.12,0,2,2
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,10,10
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,9,9
 rancher/prom-prometheus:v3.5.0,0,38,38
 rancher/prometheus-federator:v5.0.1,0,7,7
 rancher/pushprox:v0.1.11,0,1,1
@@ -166,10 +166,10 @@ rancher/rke2-upgrade:v1.34.8-rke2r2,0,14,14
 rancher/scc-operator:v0.4.3,0,0,0
 rancher/security-scan:v0.8.7,0,7,7
 rancher/shell:v0.6.4,0,17,17
-rancher/supportability-review-app-frontend:v0.19.0,0,19,19
+rancher/supportability-review-app-frontend:v0.19.0,0,18,18
 rancher/supportability-review-internal:latest,0,5,5
 rancher/supportability-review-operator:v0.19.0,0,9,9
-rancher/supportability-review:latest,0,9,9
+rancher/supportability-review:latest,0,8,8
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.12-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.8-k3s1,0,0,0
