@@ -134,11 +134,11 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,12,12
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0,0,9,9
 rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.1,2,41,43
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,1,36,37
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,1,35,36
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,2,27,29
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,20,20
 rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,19,19
-rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,26,26
+rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,23,23
 rancher/mirrored-messagebird-sachet:0.3.1,1,45,46
 rancher/mirrored-metrics-server:v0.7.1,0,27,27
 rancher/mirrored-metrics-server:v0.7.2,0,27,27
