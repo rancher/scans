@@ -36,7 +36,7 @@ rancher/k3s-upgrade:v1.36.2-k3s1,0,0,0
 rancher/klipper-helm:v0.11.0-build20260602,0,10,10
 rancher/klipper-helm:v0.11.1-build20260615,0,10,10
 rancher/klipper-lb:v0.4.17,0,0,0
-rancher/kube-api-auth:v0.15.0-rc.2,0,0,0
+rancher/kube-api-auth:v0.15.0,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
 rancher/kubectl:v1.36.0,0,2,2
 rancher/kuberlr-kubectl:v6.0.0,0,49,49
@@ -55,7 +55,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.0,0,6,6
 rancher/mirrored-calico-goldmane:v3.32.0,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.32.0,0,0,0
 rancher/mirrored-calico-node-driver-registrar:v3.32.0,0,8,8
-rancher/mirrored-calico-node:v3.32.0,0,21,21
+rancher/mirrored-calico-node:v3.32.0,0,23,23
 rancher/mirrored-calico-operator:v1.42.0,0,20,20
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.0,0,5,5
 rancher/mirrored-calico-typha:v3.32.0,0,0,0
