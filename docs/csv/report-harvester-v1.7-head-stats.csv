@@ -12,7 +12,7 @@ longhornio/livenessprobe:v2.17.0-20251226,0,7,7
 longhornio/longhorn-cli:v1.10.2,1,25,26
 longhornio/longhorn-engine:v1.10.2,3,43,46
 longhornio/longhorn-instance-manager:v1.10.2,4,42,46
-longhornio/longhorn-manager:v1.10.2,5,27,32
+longhornio/longhorn-manager:v1.10.2,5,28,33
 longhornio/longhorn-share-manager:v1.10.2,3,28,31
 longhornio/longhorn-ui:v1.10.2,2,23,25
 longhornio/support-bundle-kit:v0.0.79,2,26,28
@@ -43,12 +43,12 @@ rancher/harvester-node-disk-manager-webhook:v1.7.2-rc3,0,4,4
 rancher/harvester-node-disk-manager:v1.7.2-rc3,0,7,7
 rancher/harvester-node-manager-webhook:v1.7.2-rc3,0,2,2
 rancher/harvester-node-manager:v1.7.2-rc3,0,2,2
-rancher/harvester-pcidevices:v1.7.2-rc3,0,4,4
+rancher/harvester-pcidevices:v1.7.2-rc3,1,4,5
 rancher/harvester-seeder:v1.7.2-rc3,1,20,21
-rancher/harvester-upgrade:v1.7-head,0,57,57
-rancher/harvester-vm-import-controller:v1.7.2-rc3,0,10,10
-rancher/harvester-webhook:v1.7-head,0,7,7
-rancher/harvester:v1.7-head,0,8,8
+rancher/harvester-upgrade:v1.7-head,1,57,58
+rancher/harvester-vm-import-controller:v1.7.2-rc3,1,10,11
+rancher/harvester-webhook:v1.7-head,1,7,8
+rancher/harvester:v1.7-head,1,8,9
 rancher/klipper-helm:v0.11.1-build20260615,0,10,10
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
@@ -73,9 +73,9 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,12,12
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,12,12
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,9,9
 rancher/prom-prometheus:v3.2.1,0,36,36
-rancher/rancher-agent:v2.13.3,0,42,42
+rancher/rancher-agent:v2.13.3,0,43,43
 rancher/rancher-webhook:v0.9.3,0,15,15
-rancher/rancher:v2.13.3,0,229,229
+rancher/rancher:v2.13.3,1,229,230
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,17,17
 rancher/rke2-runtime:v1.34.9-rke2r1,0,9,9
 rancher/shell:v0.6.2,0,72,72
@@ -94,7 +94,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,8,8
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,7,7
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,19,19
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,20,20
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,6,6
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,7,7
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.6-150700.15.7.1,0,8,8

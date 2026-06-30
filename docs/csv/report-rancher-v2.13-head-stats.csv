@@ -33,10 +33,10 @@ rancher/hardened-multus-thick:v4.2.4-build20260310,0,19,19
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
-rancher/harvester-cloud-provider:v0.2.4,1,23,24
-rancher/harvester-cloud-provider:v0.2.5,0,20,20
-rancher/harvester-csi-driver:v0.2.8,0,16,16
-rancher/harvester-csi-driver:v0.2.9,0,5,5
+rancher/harvester-cloud-provider:v0.2.4,2,23,25
+rancher/harvester-cloud-provider:v0.2.5,1,20,21
+rancher/harvester-csi-driver:v0.2.8,1,16,17
+rancher/harvester-csi-driver:v0.2.9,1,5,6
 rancher/k3s-upgrade:v1.32.13-k3s1,0,9,9
 rancher/k3s-upgrade:v1.33.13-k3s1,0,0,0
 rancher/k3s-upgrade:v1.34.9-k3s1,0,0,0
@@ -81,8 +81,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.4,0,2,2
 rancher/mirrored-cilium-operator-azure:v1.19.4,0,13,13
 rancher/mirrored-cilium-operator-generic:v1.19.4,0,2,2
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,17,129,146
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,6,72,78
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,18,129,147
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,7,72,79
 rancher/mirrored-cloud-provider-vsphere:v1.34.0,0,27,27
 rancher/mirrored-cluster-api-controller:v1.10.6,0,14,14
 rancher/mirrored-coredns-coredns:1.14.4,0,9,9
@@ -106,7 +106,7 @@ rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,3,31,34
 rancher/mirrored-library-traefik:3.3.6,0,23,23
 rancher/mirrored-library-traefik:3.7.4,0,2,2
-rancher/mirrored-longhornio-backing-image-manager:v1.11.2,0,15,15
+rancher/mirrored-longhornio-backing-image-manager:v1.11.2,0,14,14
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,58,58
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,4,4
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,0,3,3
@@ -120,7 +120,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,4,4
 rancher/mirrored-longhornio-livenessprobe:v2.18.0-20260428,0,2,2
 rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,17,19
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,16,17
-rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,11,13
+rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,12,14
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.2,0,10,10
 rancher/mirrored-longhornio-longhorn-ui:v1.11.2,0,11,11
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.84,0,10,10
@@ -154,7 +154,7 @@ rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.13-head,0,10,10
 rancher/rancher-csp-adapter:v8.0.0,0,14,14
 rancher/rancher-webhook:v0.9.6,0,0,0
-rancher/rancher:v2.13-head,0,75,75
+rancher/rancher:v2.13-head,1,75,76
 rancher/remotedialer-proxy:v0.6.2,0,0,0
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,17,17
 rancher/rke2-runtime:v1.32.13-rke2r1,0,38,38
@@ -167,9 +167,9 @@ rancher/scc-operator:v0.4.3,0,0,0
 rancher/security-scan:v0.8.7,0,7,7
 rancher/shell:v0.6.4,0,17,17
 rancher/supportability-review-app-frontend:v0.19.0,0,18,18
-rancher/supportability-review-internal:latest,0,5,5
+rancher/supportability-review-internal:latest,0,6,6
 rancher/supportability-review-operator:v0.19.0,0,9,9
-rancher/supportability-review:latest,0,8,8
+rancher/supportability-review:latest,0,9,9
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.9-k3s1,0,0,0
