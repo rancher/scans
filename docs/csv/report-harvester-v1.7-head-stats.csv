@@ -10,9 +10,9 @@ longhornio/csi-resizer:v1.14.0-20260119,0,7,7
 longhornio/csi-snapshotter:v8.4.0-20251226,0,9,9
 longhornio/livenessprobe:v2.17.0-20251226,0,7,7
 longhornio/longhorn-cli:v1.10.2,1,25,26
-longhornio/longhorn-engine:v1.10.2,3,44,47
-longhornio/longhorn-instance-manager:v1.10.2,4,45,49
-longhornio/longhorn-manager:v1.10.2,5,28,33
+longhornio/longhorn-engine:v1.10.2,3,43,46
+longhornio/longhorn-instance-manager:v1.10.2,4,42,46
+longhornio/longhorn-manager:v1.10.2,5,27,32
 longhornio/longhorn-share-manager:v1.10.2,3,28,31
 longhornio/longhorn-ui:v1.10.2,2,23,25
 longhornio/support-bundle-kit:v0.0.79,2,26,28
@@ -86,7 +86,7 @@ rancher/system-agent:v0.3.14-suc,1,28,29
 rancher/system-upgrade-controller:v0.17.0,0,10,10
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,15,15
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,13,13
-registry.suse.com/bci/bci-base:15.7,0,3,3
+registry.suse.com/bci/bci-base:15.7,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.8.1,0,7,7
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.8.1,0,6,6
@@ -94,7 +94,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,8,8
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,7,7
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,20,20
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,19,19
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,6,6
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,7,7
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.6-150700.15.7.1,0,8,8
