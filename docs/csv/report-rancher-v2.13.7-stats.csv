@@ -65,13 +65,13 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.0,0,6,6
 rancher/mirrored-calico-goldmane:v3.32.0,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.32.0,0,0,0
 rancher/mirrored-calico-node-driver-registrar:v3.32.0,0,8,8
-rancher/mirrored-calico-node:v3.32.0,0,23,23
+rancher/mirrored-calico-node:v3.32.0,0,22,22
 rancher/mirrored-calico-operator:v1.42.0,0,22,22
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.0,0,5,5
 rancher/mirrored-calico-typha:v3.32.0,0,0,0
 rancher/mirrored-calico-whisker-backend:v3.32.0,0,0,0
 rancher/mirrored-calico-whisker:v3.32.0,0,0,0
-rancher/mirrored-cilium-certgen:v0.4.3,0,16,16
+rancher/mirrored-cilium-certgen:v0.4.3,0,14,14
 rancher/mirrored-cilium-cilium-envoy:v1.36.6-1778235340-b87d1e32f522b33bd51701c6476d199326f01496,0,2,2
 rancher/mirrored-cilium-cilium:v1.19.4,0,16,16
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.4,0,5,5
@@ -179,4 +179,4 @@ rancher/system-agent-installer-rke2:v1.34.9-rke2r1,0,0,0
 rancher/system-agent:v0.13.0-suc,0,9,9
 rancher/system-upgrade-controller:v0.17.0,0,10,10
 rancher/turtles:v0.25.5,0,2,2
-rancher/ui-plugin-catalog:4.30.0,0,0,0
+rancher/ui-plugin-catalog:4.31.0,0,0,0

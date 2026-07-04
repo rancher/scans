@@ -58,9 +58,9 @@ rancher/mirrored-calico-kube-controllers:v3.28.1,0,2,2
 rancher/mirrored-calico-kube-controllers:v3.30.2,0,2,2
 rancher/mirrored-calico-kube-controllers:v3.31.3,0,2,2
 rancher/mirrored-calico-node-driver-registrar:v3.31.3,0,11,11
-rancher/mirrored-calico-node:v3.28.1,0,34,34
-rancher/mirrored-calico-node:v3.30.2,0,33,33
-rancher/mirrored-calico-node:v3.31.3,0,26,26
+rancher/mirrored-calico-node:v3.28.1,0,33,33
+rancher/mirrored-calico-node:v3.30.2,0,32,32
+rancher/mirrored-calico-node:v3.31.3,0,25,25
 rancher/mirrored-calico-operator:v1.40.3,0,27,27
 rancher/mirrored-calico-pod2daemon-flexvol:v3.28.1,0,11,11
 rancher/mirrored-calico-pod2daemon-flexvol:v3.30.2,0,11,11
@@ -207,4 +207,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,1,33,34
 rancher/system-upgrade-controller:v0.15.2,0,10,10
-rancher/ui-plugin-catalog:4.30.0,0,0,0
+rancher/ui-plugin-catalog:4.31.0,0,0,0

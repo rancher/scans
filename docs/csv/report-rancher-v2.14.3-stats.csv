@@ -64,13 +64,13 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.0,0,6,6
 rancher/mirrored-calico-goldmane:v3.32.0,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.32.0,0,0,0
 rancher/mirrored-calico-node-driver-registrar:v3.32.0,0,8,8
-rancher/mirrored-calico-node:v3.32.0,0,23,23
+rancher/mirrored-calico-node:v3.32.0,0,22,22
 rancher/mirrored-calico-operator:v1.42.0,0,22,22
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.0,0,5,5
 rancher/mirrored-calico-typha:v3.32.0,0,0,0
 rancher/mirrored-calico-whisker-backend:v3.32.0,0,0,0
 rancher/mirrored-calico-whisker:v3.32.0,0,0,0
-rancher/mirrored-cilium-certgen:v0.4.3,0,16,16
+rancher/mirrored-cilium-certgen:v0.4.3,0,14,14
 rancher/mirrored-cilium-cilium-envoy:v1.36.6-1778235340-b87d1e32f522b33bd51701c6476d199326f01496,0,2,2
 rancher/mirrored-cilium-cilium:v1.19.4,0,16,16
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.4,0,5,5
@@ -88,7 +88,7 @@ rancher/mirrored-curlimages-curl:8.20.0,0,5,5
 rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,345,3013,3358
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,345,3016,3361
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,10,10
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,11,11
@@ -176,4 +176,4 @@ rancher/system-agent-installer-rke2:v1.35.6-rke2r1,0,0,0
 rancher/system-agent:v0.14.0-suc,0,8,8
 rancher/system-upgrade-controller:v0.19.1,0,5,5
 rancher/turtles:v0.26.3,0,3,3
-rancher/ui-plugin-catalog:4.30.0,0,0,0
+rancher/ui-plugin-catalog:4.31.0,0,0,0

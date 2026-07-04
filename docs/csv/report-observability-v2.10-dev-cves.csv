@@ -1,1 +1,3 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+registry.rancher.com/suse-observability/hadoop:3.5.0-so7,observability/v2.10-dev,org.eclipse.jetty:jetty-http,9.4.60.sts1,jar,CVE-2024-6763,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-6763,Java,12.0.12,false,not_affected,vulnerable_code_not_in_execute_path
+registry.rancher.com/suse-observability/hadoop:3.5.0-so7,observability/v2.10-dev,org.eclipse.jetty:jetty-http,9.4.60.sts1,jar,CVE-2024-6763,MEDIUM,https://avd.aquasec.com/nvd/cve-2024-6763,Java,12.0.12,false,not_affected,vulnerable_code_not_in_execute_path
