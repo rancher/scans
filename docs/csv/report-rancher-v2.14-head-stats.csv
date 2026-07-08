@@ -9,8 +9,8 @@ rancher/appco-node-exporter:1.10.2-14.3,0,19,19
 rancher/appco-redis:8.0.3-2.1,1,7,8
 rancher/appco-thanos:0.40.1-8.1,0,27,27
 rancher/backup-restore-operator:v10.0.7,0,0,0
-rancher/compliance-operator:v1.4.4,0,2,2
-rancher/eks-operator:v1.14.3,0,0,0
+rancher/compliance-operator:v1.4.5-rc.1,0,0,0
+rancher/eks-operator:v1.14.4-rc.1,0,0,0
 rancher/fleet-agent:v0.15.4,0,2,2
 rancher/fleet:v0.15.4,0,7,7
 rancher/gke-operator:v1.14.3,0,0,0
@@ -47,7 +47,6 @@ rancher/klipper-lb:v0.4.16,0,2,2
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.13.0,0,2,2
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
-rancher/kubectl:v1.35.2,0,6,6
 rancher/kuberlr-kubectl:v6.0.0,0,43,43
 rancher/kuberlr-kubectl:v7.0.3,0,30,30
 rancher/kuberlr-kubectl:v7.1.0,0,8,8
@@ -96,7 +95,7 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,10,10
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,11,11
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,10,10
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,78,90
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,68,80
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,28,30
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,2,15,17
@@ -139,6 +138,7 @@ rancher/mirrored-sig-storage-csi-snapshotter:v8.2.0,0,11,11
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,11,11
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,10,10
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,10,10
+rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,0,0
 rancher/neuvector-compliance-config:1.0.14,0,0,0
 rancher/neuvector-controller:5.5.3,0,20,20
 rancher/neuvector-enforcer:5.5.3,0,5,5
@@ -164,7 +164,7 @@ rancher/rke2-upgrade:v1.33.13-rke2r1,0,7,7
 rancher/rke2-upgrade:v1.34.9-rke2r1,0,7,7
 rancher/rke2-upgrade:v1.35.6-rke2r1,0,7,7
 rancher/scc-operator:v0.4.3,0,0,0
-rancher/security-scan:v0.9.3,0,7,7
+rancher/security-scan:v0.9.4-rc.1,0,4,4
 rancher/shell:v0.7.1,0,22,22
 rancher/supportability-review-app-frontend:v0.23.0,0,0,0
 rancher/supportability-review-internal:latest,0,0,0
@@ -178,5 +178,5 @@ rancher/system-agent-installer-rke2:v1.34.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.6-rke2r1,0,0,0
 rancher/system-agent:v0.14.0-suc,0,8,8
 rancher/system-upgrade-controller:v0.19.1,0,5,5
-rancher/turtles:v0.26.4-rc.0,0,2,2
+rancher/turtles:v0.26.4-rc.1,0,1,1
 rancher/ui-plugin-catalog:4.31.0,0,0,0

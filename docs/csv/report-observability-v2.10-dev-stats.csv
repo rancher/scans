@@ -1,9 +1,12 @@
 image,critical,high,total
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260706110357-master-6bb2a2a,0,0,0
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260706110357-master-6bb2a2a,0,0,0
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260706110357-master-6bb2a2a,0,0,0
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260706110357-master-6bb2a2a-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260706110357-master-6bb2a2a,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260707194758-master-5999cf2,0,0,0
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260707194758-master-5999cf2,0,0,0
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260707194758-master-5999cf2,0,0,0
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260707194758-master-5999cf2-2.5,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260707194758-master-5999cf2,0,0,0
+quay.io/stackstate/sts-opentelemetry-collector:v0.0.47,0,0,0
+quay.io/stackstate/suse-observability-borg:20260707045305-0cb32305,0,0,0
+quay.io/stackstate/suse-observability-mcp:20260707043948-91337f25,0,0,0
 registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so4,0,0,0
 registry.rancher.com/suse-observability/clickhouse:26.5.1-so4,0,0,0
 registry.rancher.com/suse-observability/container-tools:1.8.6-so13,0,0,0
@@ -23,9 +26,6 @@ registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.212,0,0,0
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.1.9,0,0,0
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.1.9,0,0,0
 registry.rancher.com/suse-observability/stackpacks:20260701105843-master-ebe2992-prime-selfhosted,0,0,0
-registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.46,0,0,0
-registry.rancher.com/suse-observability/suse-observability-borg:20260703045141-0cb32305,0,0,0
-registry.rancher.com/suse-observability/suse-observability-mcp:20260703043458-91337f25,0,0,0
 registry.rancher.com/suse-observability/tephra-server:2.5-8.1.9,0,0,0
 registry.rancher.com/suse-observability/victoria-metrics:1.144.0-so8,0,0,0
 registry.rancher.com/suse-observability/vmagent:1.144.0-so8,0,0,0

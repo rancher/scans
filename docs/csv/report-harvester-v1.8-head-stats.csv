@@ -62,7 +62,7 @@ rancher/kuberlr-kubectl:v7.1.0,0,8,8
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,10,10
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,78,90
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,68,80
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4,2,20,22
 rancher/mirrored-library-busybox:1.37.0,0,0,0

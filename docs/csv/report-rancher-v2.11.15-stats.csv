@@ -108,7 +108,7 @@ rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,12,12
 rancher/mirrored-k8s-dns-node-cache:1.23.0,1,47,48
 rancher/mirrored-k8s-dns-sidecar:1.23.0,0,12,12
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,78,90
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,68,80
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0,0,28,28
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.8.7,2,31,33

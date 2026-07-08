@@ -1,0 +1,3 @@
+image,critical,high,total
+stgregistry.suse.com/rancher/rancher-ai-agent:head,0,0,0
+stgregistry.suse.com/rancher/rancher-ai-mcp:head,0,0,0
