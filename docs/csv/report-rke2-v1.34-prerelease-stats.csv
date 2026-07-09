@@ -12,7 +12,7 @@ rancher/hardened-k8s-metrics-server:v0.8.1-build20260604,0,2,2
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260709,0,8,8
-rancher/klipper-helm:v0.11.1-build20260615,0,10,10
+rancher/klipper-helm:v0.11.1-build20260615,0,8,8
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.15.1-prime5,0,2,2
 rancher/nginx-ingress-controller:v1.15.1-prime5,0,0,0

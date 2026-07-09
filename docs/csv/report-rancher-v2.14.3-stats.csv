@@ -40,7 +40,7 @@ rancher/helm-controller:v0.16.10,2,25,27
 rancher/k3s-upgrade:v1.33.13-k3s1,0,0,0
 rancher/k3s-upgrade:v1.34.9-k3s1,0,0,0
 rancher/k3s-upgrade:v1.35.6-k3s1,0,1,1
-rancher/klipper-helm:v0.11.1-build20260615,0,10,10
+rancher/klipper-helm:v0.11.1-build20260615,0,8,8
 rancher/klipper-helm:v0.9.4-build20250113,0,79,79
 rancher/klipper-lb:v0.4.16,0,2,2
 rancher/klipper-lb:v0.4.17,0,0,0
@@ -84,7 +84,7 @@ rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,18,104,122
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,6,59,65
 rancher/mirrored-cloud-provider-vsphere:v1.35.0,0,27,27
 rancher/mirrored-coredns-coredns:1.14.4,0,9,9
-rancher/mirrored-curlimages-curl:8.20.0,0,5,5
+rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
@@ -100,7 +100,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,28,30
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,34,37
+rancher/mirrored-library-nginx:1.29.1-alpine,3,35,38
 rancher/mirrored-library-traefik:3.3.6,0,23,23
 rancher/mirrored-library-traefik:3.7.4,0,2,2
 rancher/mirrored-longhornio-backing-image-manager:v1.11.2,0,13,13
@@ -116,7 +116,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,12,12
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,4,4
 rancher/mirrored-longhornio-livenessprobe:v2.18.0-20260428,0,2,2
 rancher/mirrored-longhornio-longhorn-engine:v1.11.2,2,17,19
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,1,17,18
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,0,16,16
 rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,11,13
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.2,0,10,10
 rancher/mirrored-longhornio-longhorn-ui:v1.11.2,0,11,11

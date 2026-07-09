@@ -49,14 +49,14 @@ rancher/harvester-upgrade:v1.7-head,1,51,52
 rancher/harvester-vm-import-controller:v1.7.2,1,4,5
 rancher/harvester-webhook:v1.7-head,3,3,6
 rancher/harvester:v1.7-head,3,3,6
-rancher/klipper-helm:v0.11.1-build20260615,0,10,10
+rancher/klipper-helm:v0.11.1-build20260615,0,8,8
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
 rancher/kubectl:v1.34.1,0,11,11
 rancher/kuberlr-kubectl:v5.0.0,0,46,46
 rancher/mirrored-cluster-api-controller:v1.10.6,0,14,14
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
-rancher/mirrored-grafana-grafana:11.5.5,2,29,31
+rancher/mirrored-grafana-grafana:11.5.5,2,30,32
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,3,31,34
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,68,80
@@ -73,7 +73,7 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,12,12
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,12,12
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,12,12
 rancher/prom-prometheus:v3.2.1,0,36,36
-rancher/rancher-agent:v2.13.3,2,44,46
+rancher/rancher-agent:v2.13.3,2,43,45
 rancher/rancher-webhook:v0.9.3,0,15,15
 rancher/rancher:v2.13.3,3,233,236
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,17,17
@@ -93,7 +93,7 @@ registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,7,7
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,6,6
-registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,7,7
+registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,19,19
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,6,6
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,6,6

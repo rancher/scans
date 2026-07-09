@@ -16,6 +16,8 @@ registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,joserfc,1.6.
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,langchain-classic,1.0.3,python-pkg,CVE-2026-45134,HIGH,https://avd.aquasec.com/nvd/cve-2026-45134,Python,1.0.7,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,langsmith,0.8.5,python-pkg,GHSA-f4xh-w4cj-qxq8,HIGH,https://github.com/advisories/GHSA-f4xh-w4cj-qxq8,Python,0.8.18,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,python-multipart,0.0.29,python-pkg,CVE-2026-53539,HIGH,https://avd.aquasec.com/nvd/cve-2026-53539,Python,0.0.30,false,affected,
+registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,soupsieve,2.8.3,python-pkg,CVE-2026-49476,HIGH,https://avd.aquasec.com/nvd/cve-2026-49476,Python,2.8.4,false,affected,
+registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,soupsieve,2.8.3,python-pkg,CVE-2026-49477,HIGH,https://avd.aquasec.com/nvd/cve-2026-49477,Python,2.8.4,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,starlette,1.0.0,python-pkg,CVE-2026-48818,HIGH,https://avd.aquasec.com/nvd/cve-2026-48818,Python,1.1.0,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,starlette,1.0.0,python-pkg,CVE-2026-54283,HIGH,https://avd.aquasec.com/nvd/cve-2026-54283,Python,1.3.1,false,affected,
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,registry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.38-150600.14.49.1,false,affected,
@@ -51,6 +53,7 @@ registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/n
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-42502,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42502,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-42506,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42506,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
+registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,stdlib,v1.25.10,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,usr/local/bin/mcp,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_in_execute_path
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),2.38-150600.14.49.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,liblzma5,5.4.1-150600.3.3.1,sles,SUSE-SU-2026:2051-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),5.4.1-150600.3.6.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
@@ -68,6 +71,8 @@ stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,joserfc,1
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,langchain-classic,1.0.3,python-pkg,CVE-2026-45134,HIGH,https://avd.aquasec.com/nvd/cve-2026-45134,Python,1.0.7,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,langsmith,0.8.5,python-pkg,GHSA-f4xh-w4cj-qxq8,HIGH,https://github.com/advisories/GHSA-f4xh-w4cj-qxq8,Python,0.8.18,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,python-multipart,0.0.29,python-pkg,CVE-2026-53539,HIGH,https://avd.aquasec.com/nvd/cve-2026-53539,Python,0.0.30,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,soupsieve,2.8.3,python-pkg,CVE-2026-49476,HIGH,https://avd.aquasec.com/nvd/cve-2026-49476,Python,2.8.4,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,soupsieve,2.8.3,python-pkg,CVE-2026-49477,HIGH,https://avd.aquasec.com/nvd/cve-2026-49477,Python,2.8.4,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,starlette,1.0.0,python-pkg,CVE-2026-48818,HIGH,https://avd.aquasec.com/nvd/cve-2026-48818,Python,1.1.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,starlette,1.0.0,python-pkg,CVE-2026-54283,HIGH,https://avd.aquasec.com/nvd/cve-2026-54283,Python,1.3.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.38-150600.14.49.1,false,affected,
@@ -103,3 +108,4 @@ stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-42502,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42502,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-42506,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42506,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
+stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,stdlib,v1.25.10,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,usr/local/bin/mcp,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_in_execute_path
