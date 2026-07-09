@@ -2,11 +2,11 @@ image,critical,high,total
 rancher/aks-operator:v1.11.12-rc.2,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,1,21,22
 rancher/appco-redis:8.0.3-2.1,1,7,8
-rancher/backup-restore-operator:v7.0.8,0,0,0
+rancher/backup-restore-operator:v7.0.9-rc.1,0,0,0
 rancher/cis-operator:v1.4.8,0,9,9
 rancher/eks-operator:v1.11.12-rc.1,0,0,0
-rancher/fleet-agent:v0.12.17,0,2,2
-rancher/fleet:v0.12.17,0,7,7
+rancher/fleet-agent:v0.12.18-rc.1,0,2,2
+rancher/fleet:v0.12.18-rc.1,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,5,5
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260206,0,5,5
 rancher/hardened-cni-plugins:v1.9.0-build20260206,0,4,4
@@ -38,7 +38,7 @@ rancher/kubectl:v1.31.13,0,11,11
 rancher/kubectl:v1.32.2,0,12,12
 rancher/kuberlr-kubectl:v4.0.2,0,46,46
 rancher/kuberlr-kubectl:v4.0.4,0,44,44
-rancher/kuberlr-kubectl:v4.0.7,0,39,39
+rancher/kuberlr-kubectl:v4.1.1,0,8,8
 rancher/local-path-provisioner:v0.0.34,0,11,11
 rancher/machine:v0.15.0-rancher127.1,2,34,36
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
@@ -176,9 +176,9 @@ rancher/neuvector-compliance-config:1.0.14,0,0,0
 rancher/neuvector-controller:5.5.3,0,20,20
 rancher/neuvector-enforcer:5.5.3,0,5,5
 rancher/neuvector-manager:5.5.3,0,6,6
-rancher/neuvector-prometheus-exporter:1.0.14,0,9,9
+rancher/neuvector-prometheus-exporter:1.0.14,0,8,8
 rancher/neuvector-registry-adapter:0.2.8,0,1,1
-rancher/neuvector-scanner:6,0,1,1
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.12,0,2,2
 rancher/prom-prometheus:v3.2.1,0,36,36
 rancher/prometheus-federator:v3.2.2,0,13,13
