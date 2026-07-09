@@ -59,14 +59,14 @@ rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
 rancher/kubectl:v1.35.1,0,8,8
 rancher/kuberlr-kubectl:v7.0.3,0,30,30
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,10,10
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,68,80
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4,2,20,22
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,31,34
+rancher/mirrored-library-nginx:1.29.1-alpine,3,34,37
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,13,13
 rancher/mirrored-prometheus-operator-admission-webhook:v0.85.0,0,13,13
@@ -76,7 +76,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,13,13
 rancher/prom-prometheus:v3.5.0,0,38,38
 rancher/rancher-agent:v2.14.2,0,22,22
 rancher/rancher-webhook:v0.10.6,0,2,2
-rancher/rancher:v2.14.2,1,83,84
+rancher/rancher:v2.14.2,1,82,83
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,15,15
 rancher/rke2-runtime:v1.35.6-rke2r1,0,8,8
 rancher/shell:v0.7.0,0,64,64

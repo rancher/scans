@@ -1,5 +1,5 @@
 image,critical,high,total
-neuvector/prometheus-exporter:1.0.14,0,11,11
+neuvector/prometheus-exporter:1.0.14,0,9,9
 neuvector/registry-adapter:0.2.8,0,2,2
 neuvector/scanner:3265,1,57,58
 neuvector/updater:0.0.12,0,2,2

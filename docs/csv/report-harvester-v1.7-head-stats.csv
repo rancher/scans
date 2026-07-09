@@ -55,7 +55,7 @@ rancher/kube-webhook-certgen:v1.14.5-hardened2,0,8,8
 rancher/kubectl:v1.34.1,0,11,11
 rancher/kuberlr-kubectl:v5.0.0,0,46,46
 rancher/mirrored-cluster-api-controller:v1.10.6,0,14,14
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,25,29
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
 rancher/mirrored-grafana-grafana:11.5.5,2,29,31
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,3,31,34
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,12,12
