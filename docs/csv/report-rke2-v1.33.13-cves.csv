@@ -657,4 +657,5 @@ rancher/rke2-runtime:v1.33.13-rke2r1,rke2/v1.33.13,golang.org/x/net,v0.43.0,gobi
 rancher/rke2-runtime:v1.33.13-rke2r1,rke2/v1.33.13,golang.org/x/net,v0.43.0,gobinary,CVE-2026-42506,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42506,bin/runc,0.55.0,false,not_affected,vulnerable_code_not_present
 rancher/rke2-runtime:v1.33.13-rke2r1,rke2/v1.33.13,stdlib,v1.25.10,gobinary,CVE-2026-27145,HIGH,https://avd.aquasec.com/nvd/cve-2026-27145,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
 rancher/rke2-runtime:v1.33.13-rke2r1,rke2/v1.33.13,stdlib,v1.25.10,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present
+rancher/rke2-runtime:v1.33.13-rke2r1,rke2/v1.33.13,stdlib,v1.25.10,gobinary,CVE-2026-42505,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42505,bin/runc,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_present
 rancher/rke2-runtime:v1.33.13-rke2r1,rke2/v1.33.13,stdlib,v1.25.10,gobinary,CVE-2026-42507,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42507,bin/runc,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_present

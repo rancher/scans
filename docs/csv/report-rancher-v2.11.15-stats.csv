@@ -9,7 +9,7 @@ rancher/fleet-agent:v0.12.17,0,2,2
 rancher/fleet:v0.12.17,0,7,7
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,5,5
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260206,0,5,5
-rancher/hardened-cni-plugins:v1.9.0-build20260206,0,4,4
+rancher/hardened-cni-plugins:v1.9.0-build20260206,0,2,2
 rancher/hardened-coredns:v1.14.1-build20260206,0,17,17
 rancher/hardened-csi-snapshotter:v8.4.0-build20260205,0,8,8
 rancher/hardened-dns-node-cache:1.26.7-build20260206,0,16,16
@@ -133,7 +133,7 @@ rancher/mirrored-longhornio-csi-resizer:v2.1.0,0,11,11
 rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,12,12
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0,0,9,9
 rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,5,5
-rancher/mirrored-longhornio-longhorn-engine:v1.11.1,2,41,43
+rancher/mirrored-longhornio-longhorn-engine:v1.11.1,1,41,42
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,31,31
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,2,25,27
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,20,20
