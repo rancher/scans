@@ -29,7 +29,7 @@ rancher/hardened-flannel:v0.28.5-build20260604,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260604,0,2,2
 rancher/hardened-kubernetes:v1.34.9-rke2r1-build20260612,0,32,32
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,21,21
-rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,2,2
+rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/harvester-cluster-repo:v1.7-head,0,0,0
 rancher/harvester-eventrouter:v1.7.2,0,3,3
 rancher/harvester-kubeovn-operator:v1.14.10,1,41,42
@@ -45,7 +45,7 @@ rancher/harvester-node-manager-webhook:v1.7.2,0,0,0
 rancher/harvester-node-manager:v1.7.2,0,0,0
 rancher/harvester-pcidevices:v1.7.2,1,2,3
 rancher/harvester-seeder:v1.7.2,1,20,21
-rancher/harvester-upgrade:v1.7-head,1,53,54
+rancher/harvester-upgrade:v1.7-head,1,52,53
 rancher/harvester-vm-import-controller:v1.7.2,1,4,5
 rancher/harvester-webhook:v1.7-head,3,3,6
 rancher/harvester:v1.7-head,3,3,6

@@ -8,7 +8,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.14,0,25,25
 rancher/appco-node-exporter:1.10.2-14.3,0,20,20
 rancher/appco-thanos:0.40.1-8.1,0,28,28
 rancher/backup-restore-operator:v11.0.0-rc.5,0,1,1
-rancher/compliance-operator:v1.5.0-rc.5,0,1,1
+rancher/compliance-operator:v1.5.0-rc.5,0,0,0
 rancher/eks-operator:v1.15.0-rc.3,0,0,0
 rancher/fleet-agent:v0.16.0-rc.4,0,1,1
 rancher/fleet:v0.16.0-rc.4,0,2,2
@@ -18,7 +18,7 @@ rancher/hardened-calico:v3.32.0-build20260604,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
 rancher/hardened-cni-plugins:v1.9.1-build20260608,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260610,0,0,0
-rancher/hardened-csi-snapshotter:v8.6.0-build20260608,0,2,2
+rancher/hardened-csi-snapshotter:v8.6.0-build20260608,0,1,1
 rancher/hardened-dns-node-cache:1.26.8-build20260608,0,2,2
 rancher/hardened-etcd:v3.6.12-k3s1-build20260603,0,0,0
 rancher/hardened-flannel:v0.28.5-build20260604,0,2,2
@@ -29,11 +29,11 @@ rancher/hardened-kubernetes:v1.36.2-rke2r1-build20260612,0,18,18
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,21,21
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,5,5
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,17,17
-rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,2,2
+rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
 rancher/harvester-cloud-provider:v0.2.5,3,22,25
-rancher/harvester-cloud-provider:v0.2.7,1,2,3
+rancher/harvester-cloud-provider:v0.2.7,1,1,2
 rancher/harvester-csi-driver:v0.2.8,1,19,20
 rancher/harvester-csi-driver:v0.2.9,1,10,11
 rancher/helm-controller:v0.16.10,2,25,27
@@ -130,7 +130,7 @@ rancher/rke2-runtime:v1.35.6-rke2r1,0,11,11
 rancher/rke2-runtime:v1.36.2-rke2r1,0,9,9
 rancher/rke2-upgrade:v1.34.9-rke2r1,0,7,7
 rancher/rke2-upgrade:v1.35.6-rke2r1,0,7,7
-rancher/rke2-upgrade:v1.36.2-rke2r1,0,8,8
+rancher/rke2-upgrade:v1.36.2-rke2r1,0,7,7
 rancher/scc-operator:v0.5.0-rc.2,0,0,0
 rancher/security-scan:v0.10.0-rc.3,0,6,6
 rancher/shell:v0.8.0-rc.4,0,23,23
