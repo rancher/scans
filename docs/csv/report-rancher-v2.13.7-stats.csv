@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/aks-operator:v1.13.7,0,5,5
 rancher/appco-alertmanager:0.28.1-12.7,0,15,15
 rancher/appco-grafana:12.1.1-2.2,3,74,77
-rancher/appco-k8s-sidecar:1.30.7-11.3,1,22,23
+rancher/appco-k8s-sidecar:1.30.7-11.3,1,21,22
 rancher/appco-kube-rbac-proxy:0.19.1-15.2,0,32,32
 rancher/appco-kube-state-metrics:2.17.0-10.7,0,27,27
 rancher/appco-node-exporter:1.9.1-11.3,0,29,29
@@ -36,7 +36,7 @@ rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
 rancher/harvester-cloud-provider:v0.2.4,4,25,29
 rancher/harvester-cloud-provider:v0.2.5,3,22,25
 rancher/harvester-csi-driver:v0.2.8,1,18,19
-rancher/harvester-csi-driver:v0.2.9,1,9,10
+rancher/harvester-csi-driver:v0.2.9,1,8,9
 rancher/k3s-upgrade:v1.32.13-k3s1,0,10,10
 rancher/k3s-upgrade:v1.33.13-k3s1,0,1,1
 rancher/k3s-upgrade:v1.34.9-k3s1,0,1,1
@@ -123,7 +123,7 @@ rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.2,0,17,17
 rancher/mirrored-longhornio-longhorn-manager:v1.11.2,2,12,14
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.2,0,11,11
 rancher/mirrored-longhornio-longhorn-ui:v1.11.2,0,12,12
-rancher/mirrored-longhornio-support-bundle-kit:v0.0.84,0,11,11
+rancher/mirrored-longhornio-support-bundle-kit:v0.0.84,0,10,10
 rancher/mirrored-messagebird-sachet:0.3.1,1,46,47
 rancher/mirrored-metrics-server:v0.8.1,0,9,9
 rancher/mirrored-pause:3.6,0,0,0
@@ -140,7 +140,7 @@ rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,11,11
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,10,10
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,11,11
 rancher/neuvector-compliance-config:1.0.14,0,0,0
-rancher/neuvector-controller:5.5.3,0,21,21
+rancher/neuvector-controller:5.5.3,0,20,20
 rancher/neuvector-enforcer:5.5.3,0,7,7
 rancher/neuvector-manager:5.5.3,0,6,6
 rancher/neuvector-prometheus-exporter:1.0.14,0,9,9

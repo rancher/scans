@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/aks-operator:v1.15.0-rc.4,0,0,0
 rancher/appco-alertmanager:0.30.0-12.16,0,28,28
 rancher/appco-grafana:12.3.1-1.12,0,62,62
-rancher/appco-k8s-sidecar:2.1.2-1.10,1,20,21
+rancher/appco-k8s-sidecar:2.1.2-1.10,1,19,20
 rancher/appco-kube-rbac-proxy:0.20.1-16.15,0,27,27
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,25,25
 rancher/appco-node-exporter:1.10.2-14.3,0,20,20
@@ -35,7 +35,7 @@ rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
 rancher/harvester-cloud-provider:v0.2.5,3,22,25
 rancher/harvester-cloud-provider:v0.2.7,1,1,2
 rancher/harvester-csi-driver:v0.2.8,1,18,19
-rancher/harvester-csi-driver:v0.2.9,1,9,10
+rancher/harvester-csi-driver:v0.2.9,1,8,9
 rancher/helm-controller:v0.16.10,2,25,27
 rancher/k3s-upgrade:v1.34.9-k3s1,0,1,1
 rancher/k3s-upgrade:v1.35.6-k3s1,0,2,2

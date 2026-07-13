@@ -1,7 +1,7 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-neuvector/controller:5.5.3,neuvector/v5.5,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),1.20.1-150600.11.19.1,false,affected,
 neuvector/controller:5.5.3,neuvector/v5.5,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
 neuvector/controller:5.5.3,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
+neuvector/controller:5.5.3,neuvector/v5.5,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),1.20.1-150600.11.19.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/controller:5.5.3,neuvector/v5.5,tar,1.34-150000.3.37.1,sles,SUSE-SU-2026:2714-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),1.34-150000.3.42.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/controller:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/consul,0.53.0,false,affected,
 neuvector/controller:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/consul,0.55.0,false,affected,
@@ -142,6 +142,6 @@ neuvector/scanner:6,neuvector/v5.5,stdlib,v1.26.4,gobinary,CVE-2026-39822,HIGH,h
 neuvector/scanner:6,neuvector/v5.5,stdlib,v1.26.4,gobinary,CVE-2026-42505,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42505,usr/local/bin/scannerTask,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
 neuvector/scanner:6,neuvector/v5.5,stdlib,v1.26.4,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/local/bin/sigstore-interface,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/scanner:6,neuvector/v5.5,stdlib,v1.26.4,gobinary,CVE-2026-42505,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42505,usr/local/bin/sigstore-interface,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
-neuvector/updater:0.0.12,neuvector/v5.5,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,neuvector/updater:0.0.12 (sles 15.7),1.20.1-150600.11.19.1,false,affected,
 neuvector/updater:0.0.12,neuvector/v5.5,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/updater:0.0.12 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
 neuvector/updater:0.0.12,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/updater:0.0.12 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
+neuvector/updater:0.0.12,neuvector/v5.5,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,neuvector/updater:0.0.12 (sles 15.7),1.20.1-150600.11.19.1,false,not_affected,vulnerable_code_not_in_execute_path
