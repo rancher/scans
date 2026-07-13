@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260708,0,0,0
-rancher/hardened-calico:v3.32.1-build20260709,0,0,0
+rancher/hardened-calico:v3.32.1-build20260709,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260709,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260709,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260709,0,0,0
@@ -16,16 +16,16 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260708,0,0,0
 rancher/hardened-traefik:v3.7.7-build20260710,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260710,0,0,0
 rancher/harvester-cloud-provider:v0.2.7,1,1,2
-rancher/harvester-csi-driver:v0.2.9,1,10,11
+rancher/harvester-csi-driver:v0.2.9,1,9,10
 rancher/klipper-helm:v0.12.1-build20260709,0,6,6
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,0,0
 rancher/mirrored-calico-cni:v3.32.1,0,0,0
 rancher/mirrored-calico-csi:v3.32.1,0,1,1
 rancher/mirrored-calico-ctl:v3.32.1,0,1,1
-rancher/mirrored-calico-envoy-gateway:v3.32.1,0,1,1
+rancher/mirrored-calico-envoy-gateway:v3.32.1,0,0,0
 rancher/mirrored-calico-envoy-proxy:v3.32.1,0,0,0
-rancher/mirrored-calico-envoy-ratelimit:v3.32.1,0,1,1
+rancher/mirrored-calico-envoy-ratelimit:v3.32.1,0,0,0
 rancher/mirrored-calico-goldmane:v3.32.1,0,0,0
 rancher/mirrored-calico-kube-controllers:v3.32.1,0,0,0
 rancher/mirrored-calico-node-driver-registrar:v3.32.1,0,1,1

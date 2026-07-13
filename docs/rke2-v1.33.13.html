@@ -33,7 +33,7 @@ footer { margin-top: 30px; padding-top: 15px; border-top: 1px solid #DCDEE7; col
 </style>
 </head>
 <body>
-<h1>SUSE Rancher - RKE2 v1.33.13 version - CVE Scans - 2026-07-11</h1>
+<h1>SUSE Rancher - RKE2 v1.33.13 version - CVE Scans - 2026-07-13</h1>
 
 <h3>How to use this page</h3>
 
@@ -104,6 +104,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.0-build20260604</td>
+<td>false</td>
+<td>RKE2 v1.33.13</td>
+<td>krb5</td>
+<td>krb5@1.20.1-150600.11.14.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262848-1">SUSE-SU-2026:2848-1</a></td>
+<td>HIGH</td>
+<td>affected</td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-calico:v3.32.0-build20260604</td>
@@ -1192,42 +1204,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/rke2-cloud-provider</td>
 <td>stdlib@v1.25.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
-<td>false</td>
-<td>RKE2 v1.33.13</td>
-<td>bin/containerd</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
-<td>false</td>
-<td>RKE2 v1.33.13</td>
-<td>bin/containerd-shim-runc-v2</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
-<td>false</td>
-<td>RKE2 v1.33.13</td>
-<td>bin/ctr</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -5341,6 +5317,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
 <td>false</td>
 <td>RKE2 v1.33.13</td>
+<td>bin/containerd</td>
+<td>stdlib@v1.26.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.33.13</td>
 <td>bin/containerd-shim-runc-v2</td>
 <td>github.com/containerd/containerd/v2@v2.2.5-k3s1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-53488.html">CVE-2026-53488</a></td>
@@ -5383,6 +5371,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.33.13</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>stdlib@v1.26.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -5599,6 +5599,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.33.13-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.33.13</td>
+<td>bin/ctr</td>
+<td>stdlib@v1.26.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
