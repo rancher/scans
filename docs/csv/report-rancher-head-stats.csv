@@ -91,7 +91,7 @@ rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,3,35,38
-rancher/mirrored-library-nginx:1.31.2-alpine,0,4,4
+rancher/mirrored-library-nginx:1.31.2-alpine,0,8,8
 rancher/mirrored-library-traefik:3.7.4,0,2,2
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,59,59
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,4,4

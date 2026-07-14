@@ -47,7 +47,7 @@ rancher/harvester-node-disk-manager-webhook:master-head,0,2,2
 rancher/harvester-node-disk-manager:master-head,0,2,2
 rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
-rancher/harvester-pcidevices:master-head,1,5,6
+rancher/harvester-pcidevices:master-head,1,4,5
 rancher/harvester-seeder:main-head,0,2,2
 rancher/harvester-upgrade:master-head,1,48,49
 rancher/harvester-vm-import-controller:main-head,1,1,2
@@ -58,7 +58,7 @@ rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
 rancher/kubectl:v1.35.1,0,9,9
 rancher/kuberlr-kubectl:v7.1.1,0,8,8
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,11,11
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
@@ -95,7 +95,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.6.1,0,17,17
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.6.1,0,13,13
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.6.1,0,18,18
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.6.1,0,15,15
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.4-150700.3.24.2,0,22,22
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.4-150700.3.24.2,0,21,21
 registry.suse.com/suse/sles/15.7/virt-api:1.7.4-150700.3.24.2,0,7,7
 registry.suse.com/suse/sles/15.7/virt-controller:1.7.4-150700.3.24.2,0,6,6
 registry.suse.com/suse/sles/15.7/virt-handler:1.7.4-150700.3.24.2,0,9,9

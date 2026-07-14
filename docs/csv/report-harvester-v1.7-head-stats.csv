@@ -55,7 +55,7 @@ rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
 rancher/kubectl:v1.34.1,0,11,11
 rancher/kuberlr-kubectl:v5.0.0,0,46,46
 rancher/mirrored-cluster-api-controller:v1.10.6,0,14,14
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
 rancher/mirrored-grafana-grafana:11.5.5,2,30,32
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,3,31,34
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
@@ -94,7 +94,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,7,7
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,6,6
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,7,7
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,7,7
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,22,22
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,21,21
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,7,7
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,6,6
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.6-150700.15.7.1,0,9,9

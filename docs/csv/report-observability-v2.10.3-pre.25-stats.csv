@@ -2,7 +2,7 @@ image,critical,high,total
 registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so4,0,1,1
 registry.rancher.com/suse-observability/clickhouse:26.5.1-so4,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.6-so13,0,2,2
-registry.rancher.com/suse-observability/elasticsearch-exporter:1.10.0-so9,0,1,1
+registry.rancher.com/suse-observability/elasticsearch-exporter:1.10.0-so9,0,0,0
 registry.rancher.com/suse-observability/elasticsearch:8.19.16-so6,0,1,1
 registry.rancher.com/suse-observability/envoy:1.38.3-so1,0,0,0
 registry.rancher.com/suse-observability/hadoop:3.5.0-so7,0,1,1

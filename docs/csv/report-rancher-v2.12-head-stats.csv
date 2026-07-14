@@ -83,13 +83,13 @@ rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,13,85,98
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,12,72,84
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,7,74,81
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,31,31
-rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,29,29
+rancher/mirrored-cloud-provider-vsphere:v1.33.0,0,16,16
 rancher/mirrored-cluster-api-controller:v1.10.2,0,14,14
 rancher/mirrored-coredns-coredns:1.14.4,0,9,9
 rancher/mirrored-curlimages-curl:8.9.1,2,22,24
 rancher/mirrored-elemental-operator:1.7.4,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.4,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
 rancher/mirrored-grafana-grafana-image-renderer:v4.0.5,3,29,32
 rancher/mirrored-grafana-grafana:11.5.5,2,30,32
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51

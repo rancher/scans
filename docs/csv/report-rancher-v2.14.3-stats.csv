@@ -82,12 +82,12 @@ rancher/mirrored-cilium-operator-azure:v1.19.4,0,6,6
 rancher/mirrored-cilium-operator-generic:v1.19.4,0,2,2
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0,18,105,123
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,6,60,66
-rancher/mirrored-cloud-provider-vsphere:v1.35.0,0,28,28
+rancher/mirrored-cloud-provider-vsphere:v1.35.0,0,16,16
 rancher/mirrored-coredns-coredns:1.14.4,0,9,9
 rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.1,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.1,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,33,37
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
 rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,345,3036,3381
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,11,11
