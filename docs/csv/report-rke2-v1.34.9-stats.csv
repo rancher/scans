@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260604,0,2,2
-rancher/hardened-calico:v3.32.0-build20260604,0,3,3
+rancher/hardened-calico:v3.32.0-build20260604,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
 rancher/hardened-coredns:v1.14.4-build20260610,0,0,0
 rancher/hardened-dns-node-cache:1.26.8-build20260608,0,2,2
