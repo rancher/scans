@@ -20,7 +20,7 @@ rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
 rancher/hardened-cni-plugins:v1.9.1-build20260608,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260610,0,0,0
 rancher/hardened-csi-snapshotter:v8.6.0-build20260608,0,1,1
-rancher/hardened-dns-node-cache:1.26.8-build20260608,0,2,2
+rancher/hardened-dns-node-cache:1.26.8-build20260608,0,3,3
 rancher/hardened-etcd:v3.6.12-k3s1-build20260603,0,0,0
 rancher/hardened-flannel:v0.28.5-build20260604,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260604,0,2,2
@@ -33,10 +33,10 @@ rancher/hardened-multus-thick:v4.2.4-build20260310,0,17,17
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
-rancher/harvester-cloud-provider:v0.2.4,4,25,29
-rancher/harvester-cloud-provider:v0.2.5,3,22,25
-rancher/harvester-csi-driver:v0.2.8,1,20,21
-rancher/harvester-csi-driver:v0.2.9,1,10,11
+rancher/harvester-cloud-provider:v0.2.4,3,24,27
+rancher/harvester-cloud-provider:v0.2.5,2,21,23
+rancher/harvester-csi-driver:v0.2.8,0,19,19
+rancher/harvester-csi-driver:v0.2.9,0,9,9
 rancher/k3s-upgrade:v1.32.13-k3s1,0,10,10
 rancher/k3s-upgrade:v1.33.13-k3s1,0,1,1
 rancher/k3s-upgrade:v1.34.9-k3s1,0,1,1
@@ -76,7 +76,7 @@ rancher/mirrored-cilium-cilium-envoy:v1.36.6-1778235340-b87d1e32f522b33bd51701c6
 rancher/mirrored-cilium-cilium:v1.19.4,0,25,25
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.4,0,6,6
 rancher/mirrored-cilium-hubble-relay:v1.19.4,0,2,2
-rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,4,4
+rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,3,3
 rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.4,0,2,2
 rancher/mirrored-cilium-operator-azure:v1.19.4,0,6,6
@@ -154,7 +154,7 @@ rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.13.7,0,14,14
 rancher/rancher-csp-adapter:v8.0.0,0,14,14
 rancher/rancher-webhook:v0.9.6,0,0,0
-rancher/rancher:v2.13.7,1,86,87
+rancher/rancher:v2.13.7,0,85,85
 rancher/remotedialer-proxy:v0.6.2,0,0,0
 rancher/rke2-cloud-provider:v1.34.7-0.20260415182025-e7567db58dd7-build20260416,0,17,17
 rancher/rke2-runtime:v1.32.13-rke2r1,0,38,38
@@ -169,7 +169,7 @@ rancher/shell:v0.6.4,0,27,27
 rancher/supportability-review-app-frontend:v0.19.0,0,22,22
 rancher/supportability-review-internal:latest,0,3,3
 rancher/supportability-review-operator:v0.19.0,0,10,10
-rancher/supportability-review:latest,0,6,6
+rancher/supportability-review:latest,0,5,5
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.34.9-k3s1,0,0,0

@@ -82,24 +82,12 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>rancher/harvester-cloud-provider:v0.2.7</td>
+<td>rancher/hardened-dns-node-cache:1.26.8-build20260709</td>
 <td>false</td>
 <td>RKE2 v1.35 prerelease</td>
-<td>usr/bin/harvester-cloud-provider</td>
-<td>kubevirt.io/kubevirt@v1.7.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-7374.html">CVE-2026-7374</a></td>
-<td>CRITICAL</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-cloud-provider:v0.2.7</td>
-<td>false</td>
-<td>RKE2 v1.35 prerelease</td>
-<td>usr/bin/harvester-cloud-provider</td>
-<td>kubevirt.io/kubevirt@v1.7.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-9804.html">CVE-2026-9804</a></td>
+<td>node-cache</td>
+<td>github.com/DataDog/dd-trace-go/v2@v2.7.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-50274.html">CVE-2026-50274</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -208,30 +196,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/harvester-csi-driver</td>
 <td>golang.org/x/net@v0.49.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td>HIGH</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.35 prerelease</td>
-<td>usr/bin/harvester-csi-driver</td>
-<td>kubevirt.io/kubevirt@v1.7.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-7374.html">CVE-2026-7374</a></td>
-<td>CRITICAL</td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.35 prerelease</td>
-<td>usr/bin/harvester-csi-driver</td>
-<td>kubevirt.io/kubevirt@v1.7.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-9804.html">CVE-2026-9804</a></td>
 <td>HIGH</td>
 <td>affected</td>
 <td></td>
@@ -617,18 +581,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>golang.org/x/net@v0.53.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25680.html">CVE-2026-25680</a></td>
 <td><div class="cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></div></td>
-<td>affected</td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-ui-backend:v0.13.5</td>
-<td>true</td>
-<td>RKE2 v1.35 prerelease</td>
-<td>usr/bin/backend</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td>HIGH</td>
 <td>affected</td>
 <td></td>
 <td>gobinary</td>
@@ -1598,6 +1550,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35 prerelease</td>
 <td>usr/bin/harvester-cloud-provider</td>
+<td>kubevirt.io/kubevirt@v1.7.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-7374.html">CVE-2026-7374</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-cloud-provider:v0.2.7</td>
+<td>false</td>
+<td>RKE2 v1.35 prerelease</td>
+<td>usr/bin/harvester-cloud-provider</td>
+<td>kubevirt.io/kubevirt@v1.7.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-9804.html">CVE-2026-9804</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-cloud-provider:v0.2.7</td>
+<td>false</td>
+<td>RKE2 v1.35 prerelease</td>
+<td>usr/bin/harvester-cloud-provider</td>
 <td>stdlib@v1.26.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td>none</td>
@@ -1768,6 +1744,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/harvester-csi-driver</td>
 <td>golang.org/x/net@v0.49.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.35 prerelease</td>
+<td>usr/bin/harvester-csi-driver</td>
+<td>kubevirt.io/kubevirt@v1.7.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-7374.html">CVE-2026-7374</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.35 prerelease</td>
+<td>usr/bin/harvester-csi-driver</td>
+<td>kubevirt.io/kubevirt@v1.7.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-9804.html">CVE-2026-9804</a></td>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not in execute path</td>
@@ -3019,6 +3019,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>none</td>
 <td>not affected</td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-hubble-ui-backend:v0.13.5</td>
+<td>true</td>
+<td>RKE2 v1.35 prerelease</td>
+<td>usr/bin/backend</td>
+<td>stdlib@v1.26.2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td>none</td>
+<td>not affected</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

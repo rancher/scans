@@ -10,7 +10,7 @@ longhornio/csi-snapshotter:v8.5.0-20260514,0,2,2
 longhornio/livenessprobe:v2.19.0,0,0,0
 longhornio/longhorn-cli:v1.12.0,0,11,11
 longhornio/longhorn-engine:v1.12.0,0,18,18
-longhornio/longhorn-instance-manager:v1.12.0,0,19,19
+longhornio/longhorn-instance-manager:v1.12.0,0,18,18
 longhornio/longhorn-manager:v1.12.0,0,10,10
 longhornio/longhorn-share-manager:v1.12.0,0,13,13
 longhornio/longhorn-ui:v1.12.0,0,12,12
@@ -27,7 +27,7 @@ rancher/hardened-calico:v3.32.0-build20260604,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
 rancher/hardened-cni-plugins:v1.9.1-build20260608,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260610,0,0,0
-rancher/hardened-dns-node-cache:1.26.8-build20260608,0,2,2
+rancher/hardened-dns-node-cache:1.26.8-build20260608,0,3,3
 rancher/hardened-etcd:v3.6.12-k3s1-build20260603,0,0,0
 rancher/hardened-flannel:v0.28.5-build20260604,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260604,0,2,2
@@ -47,12 +47,12 @@ rancher/harvester-node-disk-manager-webhook:master-head,0,2,2
 rancher/harvester-node-disk-manager:master-head,0,2,2
 rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
-rancher/harvester-pcidevices:master-head,1,4,5
+rancher/harvester-pcidevices:master-head,0,3,3
 rancher/harvester-seeder:main-head,0,2,2
-rancher/harvester-upgrade:master-head,1,48,49
-rancher/harvester-vm-import-controller:main-head,1,1,2
-rancher/harvester-webhook:master-head,3,7,10
-rancher/harvester:master-head,3,7,10
+rancher/harvester-upgrade:master-head,0,47,47
+rancher/harvester-vm-import-controller:main-head,0,0,0
+rancher/harvester-webhook:master-head,2,6,8
+rancher/harvester:master-head,2,6,8
 rancher/klipper-helm:v0.11.1-build20260615,0,10,10
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
@@ -76,7 +76,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,14,14
 rancher/prom-prometheus:v3.8.1,0,31,31
 rancher/rancher-agent:v2.14.2,0,25,25
 rancher/rancher-webhook:v0.10.6,0,2,2
-rancher/rancher:v2.14.2,1,92,93
+rancher/rancher:v2.14.2,0,91,91
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,15,15
 rancher/rke2-runtime:v1.35.6-rke2r1,0,8,8
 rancher/shell:v0.7.0,0,69,69

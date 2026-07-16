@@ -1,5 +1,5 @@
 image,critical,high,total
-quay.io/stackstate/clickhouse-backup:2.7.2-so5,0,3,3
+quay.io/stackstate/clickhouse-backup:2.7.2-so5,0,2,2
 quay.io/stackstate/contrib-stackpacks:20260715105341-main-a50fa57,0,0,0
 quay.io/stackstate/elasticsearch-exporter:1.10.0-so10,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.1-so10,0,0,0
@@ -23,12 +23,12 @@ quay.io/stackstate/workload-observer:7aeab0ec-1018-release,0,0,0
 quay.io/stackstate/zookeeper:3.9.5-so15,0,3,3
 registry.rancher.com/suse-observability/clickhouse:26.5.1-so4,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.6-so14,0,3,3
-registry.rancher.com/suse-observability/elasticsearch:8.19.16-so6,0,3,3
+registry.rancher.com/suse-observability/elasticsearch:8.19.16-so6,0,2,2
 registry.rancher.com/suse-observability/envoy:1.38.3-so1,0,0,0
 registry.rancher.com/suse-observability/hadoop:3.5.0-so7,0,4,4
 registry.rancher.com/suse-observability/hbase-master:2.5-8.1.9,0,4,4
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.1.9,0,4,4
-registry.rancher.com/suse-observability/jmx-exporter:0.20.0-so7,0,3,3
+registry.rancher.com/suse-observability/jmx-exporter:0.20.0-so7,0,2,2
 registry.rancher.com/suse-observability/kafka:3.9.2-so12,0,3,3
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.11,0,1,1
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:e1054bcf-1016-release,0,0,0

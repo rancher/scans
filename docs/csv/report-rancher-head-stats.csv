@@ -19,7 +19,7 @@ rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
 rancher/hardened-cni-plugins:v1.9.1-build20260608,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260610,0,0,0
 rancher/hardened-csi-snapshotter:v8.6.0-build20260608,0,1,1
-rancher/hardened-dns-node-cache:1.26.8-build20260608,0,2,2
+rancher/hardened-dns-node-cache:1.26.8-build20260608,0,3,3
 rancher/hardened-etcd:v3.6.12-k3s1-build20260603,0,0,0
 rancher/hardened-flannel:v0.28.5-build20260604,0,2,2
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260604,0,2,2
@@ -32,10 +32,10 @@ rancher/hardened-multus-thick:v4.2.4-build20260310,0,17,17
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
-rancher/harvester-cloud-provider:v0.2.5,3,22,25
-rancher/harvester-cloud-provider:v0.2.7,1,1,2
-rancher/harvester-csi-driver:v0.2.8,1,20,21
-rancher/harvester-csi-driver:v0.2.9,1,10,11
+rancher/harvester-cloud-provider:v0.2.5,2,21,23
+rancher/harvester-cloud-provider:v0.2.7,0,0,0
+rancher/harvester-csi-driver:v0.2.8,0,19,19
+rancher/harvester-csi-driver:v0.2.9,0,9,9
 rancher/helm-controller:v0.16.10,2,25,27
 rancher/k3s-upgrade:v1.34.9-k3s1,0,1,1
 rancher/k3s-upgrade:v1.35.6-k3s1,0,2,2
@@ -73,7 +73,7 @@ rancher/mirrored-cilium-cilium-envoy:v1.36.6-1778235340-b87d1e32f522b33bd51701c6
 rancher/mirrored-cilium-cilium:v1.19.4,0,25,25
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.4,0,6,6
 rancher/mirrored-cilium-hubble-relay:v1.19.4,0,2,2
-rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,4,4
+rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,3,3
 rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.4,0,2,2
 rancher/mirrored-cilium-operator-azure:v1.19.4,0,6,6
@@ -83,7 +83,7 @@ rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.6.0,6,60,66
 rancher/mirrored-cloud-provider-vsphere:v1.36.0,0,3,3
 rancher/mirrored-coredns-coredns:1.14.4,0,9,9
 rancher/mirrored-curlimages-curl:8.20.0,0,6,6
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,347,3037,3384
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,347,3042,3389
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,11,11
 rancher/mirrored-kube-vip-kube-vip-iptables:v0.9.2,2,28,30
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,2,14,16
@@ -119,10 +119,10 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,14,14
 rancher/prom-prometheus:v3.8.1,0,31,31
 rancher/prometheus-federator:v7.0.0-rc.3,0,0,0
 rancher/pushprox:v0.1.11,0,1,1
-rancher/rancher-agent:head,0,3,3
+rancher/rancher-agent:head,0,2,2
 rancher/rancher-csp-adapter:v10.0.0,0,0,0
 rancher/rancher-webhook:v0.11.0-rc.23,0,0,0
-rancher/rancher:head,1,21,22
+rancher/rancher:head,0,20,20
 rancher/remotedialer-proxy:v0.8.0-rc.10,0,0,0
 rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515,0,1,1
 rancher/rke2-runtime:v1.34.9-rke2r1,0,8,8

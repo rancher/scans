@@ -5,7 +5,7 @@ rancher/hardened-cluster-autoscaler:v1.10.3-build20260709,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260709,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260709,0,0,0
 rancher/hardened-csi-snapshotter:v8.6.0-build20260708,0,0,0
-rancher/hardened-dns-node-cache:1.26.8-build20260709,0,0,0
+rancher/hardened-dns-node-cache:1.26.8-build20260709,0,1,1
 rancher/hardened-etcd:v3.6.12-k3s1-build20260708,0,0,0
 rancher/hardened-flannel:v0.28.7-build20260709,0,0,0
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260709,0,0,0
@@ -15,8 +15,8 @@ rancher/hardened-multus-thick:v4.3.0-build20260710,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260708,0,0,0
 rancher/hardened-traefik:v3.7.7-build20260710,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260710,0,0,0
-rancher/harvester-cloud-provider:v0.2.7,1,1,2
-rancher/harvester-csi-driver:v0.2.9,1,10,11
+rancher/harvester-cloud-provider:v0.2.7,0,0,0
+rancher/harvester-csi-driver:v0.2.9,0,9,9
 rancher/klipper-helm:v0.12.1-build20260709,0,6,6
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,0,0
@@ -40,7 +40,7 @@ rancher/mirrored-cilium-cilium-envoy:v1.36.8-1781157951-a7f42a3390781539911b5b91
 rancher/mirrored-cilium-cilium:v1.19.5,0,9,9
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.5,0,1,1
 rancher/mirrored-cilium-hubble-relay:v1.19.5,0,1,1
-rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,4,4
+rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,3,3
 rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.5,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.5,0,1,1

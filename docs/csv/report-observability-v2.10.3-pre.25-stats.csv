@@ -1,14 +1,14 @@
 image,critical,high,total
-registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so4,0,3,3
+registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so4,0,2,2
 registry.rancher.com/suse-observability/clickhouse:26.5.1-so4,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.6-so13,0,3,3
 registry.rancher.com/suse-observability/elasticsearch-exporter:1.10.0-so9,0,0,0
-registry.rancher.com/suse-observability/elasticsearch:8.19.16-so6,0,3,3
+registry.rancher.com/suse-observability/elasticsearch:8.19.16-so6,0,2,2
 registry.rancher.com/suse-observability/envoy:1.38.3-so1,0,0,0
 registry.rancher.com/suse-observability/hadoop:3.5.0-so7,0,4,4
 registry.rancher.com/suse-observability/hbase-master:2.5-8.1.9,0,4,4
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.1.9,0,4,4
-registry.rancher.com/suse-observability/jmx-exporter:0.20.0-so7,0,3,3
+registry.rancher.com/suse-observability/jmx-exporter:0.20.0-so7,0,2,2
 registry.rancher.com/suse-observability/kafka:3.9.2-so12,0,3,3
 registry.rancher.com/suse-observability/kafkaup-operator:0.0.11,0,1,1
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:228cfb48-1011-release,0,1,1
@@ -23,7 +23,7 @@ registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.3-pre.25,0,3
 registry.rancher.com/suse-observability/stackstate-receiver:2.10.3-pre.25,0,3,3
 registry.rancher.com/suse-observability/stackstate-server:2.10.3-pre.25-2.5,0,4,4
 registry.rancher.com/suse-observability/stackstate-ui:2.10.3-pre.25,0,2,2
-registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.46,0,1,1
+registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.46,0,0,0
 registry.rancher.com/suse-observability/suse-observability-borg:20260703045141-0cb32305,0,0,0
 registry.rancher.com/suse-observability/suse-observability-mcp:20260703043458-91337f25,0,0,0
 registry.rancher.com/suse-observability/tephra-server:2.5-8.1.9,0,4,4
