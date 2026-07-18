@@ -8,5 +8,5 @@ registry.rancher.com/suse-observability/kubernetes-rbac-agent:e1054bcf-1016-rele
 registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so3,0,4,4
 registry.rancher.com/suse-observability/promtail:3.6.11-so8,0,2,2
 registry.rancher.com/suse-observability/stackstate-k8s-agent:3ce0270e,0,1,1
-registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:3ce0270e,0,0,0
+registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:3ce0270e,1,1,2
 registry.rancher.com/suse-observability/stackstate-k8s-process-agent:c570527c,0,2,2
