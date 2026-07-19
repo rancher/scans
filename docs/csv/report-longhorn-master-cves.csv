@@ -1,4 +1,5 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+longhornio/backing-image-manager:master-head,longhorn/master,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/csi-attacher:v4.11.0-20260428,longhorn/master,golang.org/x/net,v0.48.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,csi-attacher,0.53.0,false,affected,
 longhornio/csi-attacher:v4.11.0-20260428,longhorn/master,golang.org/x/net,v0.48.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,csi-attacher,0.55.0,false,affected,
 longhornio/csi-attacher:v4.11.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,csi-attacher,"1.25.10, 1.26.3",false,affected,
@@ -140,6 +141,7 @@ longhornio/livenessprobe:v2.18.0-20260428,longhorn/master,stdlib,v1.25.9,gobinar
 longhornio/livenessprobe:v2.18.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,livenessprobe,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/livenessprobe:v2.18.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-39823,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-39823,livenessprobe,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_present
 longhornio/livenessprobe:v2.18.0-20260428,longhorn/master,stdlib,v1.25.9,gobinary,CVE-2026-39825,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-39825,livenessprobe,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
+longhornio/longhorn-cli:master-head,longhorn/master,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-cli:master-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/longhornctl,0.55.0,false,affected,
 longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,usr/local/bin/longhornctl,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-27136,HIGH,https://avd.aquasec.com/nvd/cve-2026-27136,usr/local/bin/longhornctl,0.55.0,false,not_affected,vulnerable_code_not_present
@@ -152,6 +154,10 @@ longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gob
 longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/longhornctl-local,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-42502,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42502,usr/local/bin/longhornctl-local,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/longhorn-cli:master-head,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-42506,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42506,usr/local/bin/longhornctl-local,0.55.0,false,not_affected,vulnerable_code_not_present
+longhornio/longhorn-manager:master-head,longhorn/master,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-manager:master-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
+longhornio/longhorn-share-manager:master-head,longhorn/master,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-share-manager:master-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
+longhornio/longhorn-ui:master-head,longhorn/master,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
+longhornio/longhorn-ui:master-head,longhorn/master,libxml2-tools,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,curl,8.14.1-150700.7.14.1,sles,SUSE-SU-2026:2925-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),8.14.1-150700.7.20.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),2.38-150600.14.49.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),1.20.1-150600.11.19.1,false,affected,
@@ -159,6 +165,7 @@ longhornio/support-bundle-kit:v0.0.84,longhorn/master,libcurl4,8.14.1-150700.7.1
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,liblzma5,5.4.1-150600.3.3.1,sles,SUSE-SU-2026:2051-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),5.4.1-150600.3.6.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,libopenssl-3-fips-provider,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
+longhornio/support-bundle-kit:v0.0.84,longhorn/master,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,libncurses6,6.1-150000.5.30.1,sles,SUSE-SU-2026:1510-1,MEDIUM,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),6.1-150000.5.33.1,false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/support-bundle-kit:v0.0.84,longhorn/master,libsolv-tools-base,0.7.35-150700.11.5.2,sles,SUSE-SU-2026:2531-1,HIGH,,longhornio/support-bundle-kit:v0.0.84 (sles 15.7),0.7.39-150700.11.10.1,false,not_affected,vulnerable_code_not_in_execute_path
