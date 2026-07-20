@@ -1,5 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:v1.11.x-head,longhorn/v1.11-head,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/backing-image-manager:v1.11.x-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/csi-attacher:v4.12.0,longhorn/v1.11-head,golang.org/x/net,v0.54.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,csi-attacher,0.55.0,false,affected,
 longhornio/csi-attacher:v4.12.0,longhorn/v1.11-head,golang.org/x/crypto,v0.51.0,gobinary,CVE-2026-39828,HIGH,https://avd.aquasec.com/nvd/cve-2026-39828,csi-attacher,0.52.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.12.0,longhorn/v1.11-head,golang.org/x/crypto,v0.51.0,gobinary,CVE-2026-39829,HIGH,https://avd.aquasec.com/nvd/cve-2026-39829,csi-attacher,0.52.0,false,not_affected,vulnerable_code_not_present
@@ -68,11 +67,7 @@ longhornio/livenessprobe:v2.19.0,longhorn/v1.11-head,stdlib,v1.26.3,gobinary,CVE
 longhornio/livenessprobe:v2.19.0,longhorn/v1.11-head,stdlib,v1.26.3,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,livenessprobe,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/livenessprobe:v2.19.0,longhorn/v1.11-head,stdlib,v1.26.3,gobinary,CVE-2026-42505,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42505,livenessprobe,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/livenessprobe:v2.19.0,longhorn/v1.11-head,stdlib,v1.26.3,gobinary,CVE-2026-42507,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42507,livenessprobe,"1.25.11, 1.26.4",false,not_affected,vulnerable_code_not_in_execute_path
-longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,curl,8.14.1-150700.7.17.1,sles,SUSE-SU-2026:2925-1,HIGH,,longhornio/longhorn-cli:v1.11.x-head (sles 15.7),8.14.1-150700.7.20.1,false,affected,
-longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,libcurl4,8.14.1-150700.7.17.1,sles,SUSE-SU-2026:2925-1,HIGH,,longhornio/longhorn-cli:v1.11.x-head (sles 15.7),8.14.1-150700.7.20.1,false,affected,
-longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-cli:v1.11.x-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/longhorn-manager:v1.11.x-head,longhorn/v1.11-head,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-manager:v1.11.x-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
-longhornio/longhorn-share-manager:v1.11.x-head,longhorn/v1.11-head,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,longhornio/longhorn-share-manager:v1.11.x-head (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 longhornio/longhorn-ui:v1.11.x-head,longhorn/v1.11-head,curl,8.14.1-150700.7.17.1,sles,SUSE-SU-2026:2925-1,HIGH,,longhornio/longhorn-ui:v1.11.x-head (sles 15.7),8.14.1-150700.7.20.1,false,affected,
 longhornio/longhorn-ui:v1.11.x-head,longhorn/v1.11-head,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,longhornio/longhorn-ui:v1.11.x-head (sles 15.7),1.20.1-150600.11.19.1,false,affected,
 longhornio/longhorn-ui:v1.11.x-head,longhorn/v1.11-head,libcurl4,8.14.1-150700.7.17.1,sles,SUSE-SU-2026:2925-1,HIGH,,longhornio/longhorn-ui:v1.11.x-head (sles 15.7),8.14.1-150700.7.20.1,false,affected,

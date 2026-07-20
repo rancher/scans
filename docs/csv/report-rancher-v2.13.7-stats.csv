@@ -81,8 +81,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.4,0,2,2
 rancher/mirrored-cilium-operator-azure:v1.19.4,0,6,6
 rancher/mirrored-cilium-operator-generic:v1.19.4,0,2,2
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,21,136,157
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,7,76,83
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,23,134,157
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,9,74,83
 rancher/mirrored-cloud-provider-vsphere:v1.34.0,0,15,15
 rancher/mirrored-cluster-api-controller:v1.10.6,0,14,14
 rancher/mirrored-coredns-coredns:1.14.4,0,9,9
@@ -124,7 +124,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,4,4
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,1,1
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,0,0
 rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,9,9
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,11,11
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,10,10
 rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,5,5
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,4,4
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,6,6
@@ -172,7 +172,7 @@ rancher/scc-operator:v0.4.3,0,1,1
 rancher/security-scan:v0.8.7,0,10,10
 rancher/shell:v0.6.4,0,29,29
 rancher/supportability-review-app-frontend:v0.19.0,0,23,23
-rancher/supportability-review-internal:latest,0,8,8
+rancher/supportability-review-internal:latest,0,7,7
 rancher/supportability-review-operator:v0.19.0,0,10,10
 rancher/supportability-review:latest,0,10,10
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0

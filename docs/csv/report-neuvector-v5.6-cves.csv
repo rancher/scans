@@ -1,4 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+neuvector/controller:5.6.0,neuvector/v5.6,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/controller:5.6.0 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/controller:5.6.0,neuvector/v5.6,oras.land/oras-go/v2,v2.6.1,gobinary,CVE-2026-50163,HIGH,https://avd.aquasec.com/nvd/cve-2026-50163,usr/local/bin/opa,,false,affected,
 neuvector/enforcer:5.6.0,neuvector/v5.6,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,neuvector/enforcer:5.6.0 (sles 15.7),2.12.10-150700.4.14.1,false,affected,
+neuvector/enforcer:5.6.0,neuvector/v5.6,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/enforcer:5.6.0 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/prometheus-exporter:1.0.16,neuvector/v5.6,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),2.12.10-150700.4.14.1,false,affected,

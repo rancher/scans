@@ -14,7 +14,7 @@ registry.rancher.com/suse-observability/kafkaup-operator:0.0.11,0,1,1
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:228cfb48-1011-release,0,1,1
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-so9,0,0,0
 registry.rancher.com/suse-observability/s3proxy:3.2.0-so4,0,3,3
-registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.212,0,8,8
+registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.212,0,7,7
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.1.9,0,5,5
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.1.9,1,5,6
 registry.rancher.com/suse-observability/stackpacks:20260701105843-master-ebe2992-prime-selfhosted,0,0,0
@@ -22,7 +22,7 @@ registry.rancher.com/suse-observability/stackstate-correlate:2.10.3-pre.25,0,3,3
 registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.3-pre.25,0,4,4
 registry.rancher.com/suse-observability/stackstate-receiver:2.10.3-pre.25,0,4,4
 registry.rancher.com/suse-observability/stackstate-server:2.10.3-pre.25-2.5,0,5,5
-registry.rancher.com/suse-observability/stackstate-ui:2.10.3-pre.25,0,4,4
+registry.rancher.com/suse-observability/stackstate-ui:2.10.3-pre.25,0,3,3
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.46,0,0,0
 registry.rancher.com/suse-observability/suse-observability-borg:20260703045141-0cb32305,0,0,0
 registry.rancher.com/suse-observability/suse-observability-mcp:20260703043458-91337f25,0,0,0

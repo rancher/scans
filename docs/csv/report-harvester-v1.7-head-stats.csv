@@ -11,7 +11,7 @@ longhornio/csi-snapshotter:v8.4.0-20251226,0,9,9
 longhornio/livenessprobe:v2.17.0-20251226,0,7,7
 longhornio/longhorn-cli:v1.10.2,1,23,24
 longhornio/longhorn-engine:v1.10.2,2,52,54
-longhornio/longhorn-instance-manager:v1.10.2,4,52,56
+longhornio/longhorn-instance-manager:v1.10.2,4,51,55
 longhornio/longhorn-manager:v1.10.2,5,30,35
 longhornio/longhorn-share-manager:v1.10.2,3,32,35
 longhornio/longhorn-ui:v1.10.2,2,29,31
@@ -87,7 +87,7 @@ rancher/system-upgrade-controller:v0.17.0,0,10,10
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,15,15
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,0,13,13
 registry.suse.com/bci/bci-base:15.7,0,1,1
-registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.8.1,0,10,10
+registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.8.1,0,9,9
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.8.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.8.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,11,11
@@ -98,6 +98,6 @@ registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,37,37
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,10,10
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,9,9
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.6-150700.15.7.1,0,13,13
-registry.suse.com/suse/sles/15.7/virt-launcher:1.6.6-150700.15.7.1,0,31,31
+registry.suse.com/suse/sles/15.7/virt-launcher:1.6.6-150700.15.7.1,0,28,28
 registry.suse.com/suse/sles/15.7/virt-operator:1.6.6-150700.15.7.1,0,10,10
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0
