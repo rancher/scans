@@ -17,7 +17,7 @@ rancher/hardened-traefik:v3.7.8-build20260717,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260717,0,0,0
 rancher/harvester-cloud-provider:v0.2.7,0,0,0
 rancher/harvester-csi-driver:v0.2.9,0,10,10
-rancher/klipper-helm:v0.12.1-build20260709,0,6,6
+rancher/klipper-helm:v0.13.1-build20260715,0,6,6
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,0,0
 rancher/mirrored-calico-cni:v3.32.1,0,0,0

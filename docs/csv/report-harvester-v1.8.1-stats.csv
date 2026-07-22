@@ -38,7 +38,7 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,1,1
 rancher/harvester-cluster-repo:v1.8.1,0,7,7
 rancher/harvester-eventrouter:v1.8.1,0,3,3
 rancher/harvester-kubeovn-operator:v1.15.4-r2,0,28,28
-rancher/harvester-load-balancer-webhook:v1.8.1,2,4,6
+rancher/harvester-load-balancer-webhook:v1.8.1,0,3,3
 rancher/harvester-load-balancer:v1.8.1,0,3,3
 rancher/harvester-network-controller:v1.8.1,0,8,8
 rancher/harvester-network-helper:v1.8.1,0,2,2
@@ -50,10 +50,10 @@ rancher/harvester-node-manager-webhook:v1.8.1,0,7,7
 rancher/harvester-node-manager:v1.8.1,0,8,8
 rancher/harvester-pcidevices:v1.8.1,0,4,4
 rancher/harvester-seeder:v1.8.1,0,7,7
-rancher/harvester-upgrade:v1.8.1,0,59,59
+rancher/harvester-upgrade:v1.8.1,0,58,58
 rancher/harvester-vm-import-controller:v1.8.1,0,12,12
-rancher/harvester-webhook:v1.8.1,2,10,12
-rancher/harvester:v1.8.1,2,11,13
+rancher/harvester-webhook:v1.8.1,0,9,9
+rancher/harvester:v1.8.1,0,10,10
 rancher/klipper-helm:v0.11.1-build20260615,0,10,10
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
@@ -62,7 +62,7 @@ rancher/kuberlr-kubectl:v7.0.3,0,31,31
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,68,80
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,67,79
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4,2,20,22
 rancher/mirrored-library-busybox:1.37.0,0,0,0
