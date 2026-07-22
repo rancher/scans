@@ -1,5 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,bin/cni,"1.25.12, 1.26.5, 1.27.0-rc.2",false,affected,
+rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,google.golang.org/grpc,v1.78.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,bin/containerd-shim-runc-v2,1.82.1,false,affected,
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,bin/containerd-shim-runc-v2,"1.25.12, 1.26.5, 1.27.0-rc.2",false,affected,
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,github.com/containerd/containerd/v2,v2.2.5-k3s2,gobinary,CVE-2026-53488,HIGH,https://avd.aquasec.com/nvd/cve-2026-53488,bin/containerd-shim-runc-v2,"2.0.10, 2.1.9, 2.2.5, 2.3.2",false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,github.com/containerd/containerd/v2,v2.2.5-k3s2,gobinary,CVE-2026-53489,HIGH,https://avd.aquasec.com/nvd/cve-2026-53489,bin/containerd-shim-runc-v2,"2.1.9, 2.2.5, 2.3.2",false,not_affected,vulnerable_code_not_present
@@ -11,6 +12,7 @@ rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,github.com/docker/docker,v25.0.15-0.2026032
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,github.com/docker/docker,v25.0.15-0.20260325154711-d2dbc0547253+incompatible,gobinary,CVE-2026-41567,HIGH,https://avd.aquasec.com/nvd/cve-2026-41567,bin/k3s,,false,affected,
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,github.com/docker/docker,v25.0.15-0.20260325154711-d2dbc0547253+incompatible,gobinary,CVE-2026-42306,HIGH,https://avd.aquasec.com/nvd/cve-2026-42306,bin/k3s,,false,affected,
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,github.com/docker/docker,v25.0.15-0.20260325154711-d2dbc0547253+incompatible,gobinary,CVE-2026-33997,HIGH,https://avd.aquasec.com/nvd/cve-2026-33997,bin/k3s,29.3.1,false,affected,severity_changed_due_to_suse_cvss_score
+rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,google.golang.org/grpc,v1.72.1,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,bin/k3s,1.82.1,false,affected,
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,bin/k3s,"1.25.12, 1.26.5, 1.27.0-rc.2",false,affected,
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,golang.org/x/crypto,v0.47.0,gobinary,CVE-2026-39828,HIGH,https://avd.aquasec.com/nvd/cve-2026-39828,bin/k3s,0.52.0,false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.34.9-k3s1,k3s/v1.34.9,golang.org/x/crypto,v0.47.0,gobinary,CVE-2026-39829,HIGH,https://avd.aquasec.com/nvd/cve-2026-39829,bin/k3s,0.52.0,false,not_affected,vulnerable_code_not_present
@@ -147,6 +149,7 @@ rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,github.com/coredns/coredns,v
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,github.com/coredns/coredns,v0.0.0-20260609032251-232d7cac38fb,gobinary,CVE-2026-33489,HIGH,https://avd.aquasec.com/nvd/cve-2026-33489,coredns,1.14.3,true,affected,
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,github.com/coredns/coredns,v0.0.0-20260609032251-232d7cac38fb,gobinary,CVE-2026-35579,HIGH,https://avd.aquasec.com/nvd/cve-2026-35579,coredns,1.14.3,true,affected,
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,github.com/coredns/coredns,v0.0.0-20260609032251-232d7cac38fb,gobinary,CVE-2025-68151,HIGH,https://avd.aquasec.com/nvd/cve-2025-68151,coredns,1.14.0,true,affected,severity_changed_due_to_suse_cvss_score
+rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,google.golang.org/grpc,v1.81.1,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,coredns,1.82.1,true,affected,
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,stdlib,v1.26.3,gobinary,CVE-2026-27145,HIGH,https://avd.aquasec.com/nvd/cve-2026-27145,coredns,"1.25.11, 1.26.4",true,not_affected,vulnerable_code_not_in_execute_path
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,stdlib,v1.26.3,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,coredns,"1.25.12, 1.26.5, 1.27.0-rc.2",true,not_affected,vulnerable_code_not_in_execute_path
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,stdlib,v1.26.3,gobinary,CVE-2026-42504,HIGH,https://avd.aquasec.com/nvd/cve-2026-42504,coredns,"1.25.11, 1.26.4",true,not_affected,vulnerable_code_not_in_execute_path
@@ -154,11 +157,13 @@ rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,stdlib,v1.26.3,gobinary,CVE-
 rancher/mirrored-coredns-coredns:1.14.4,k3s/v1.34.9,stdlib,v1.26.3,gobinary,CVE-2026-42507,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-42507,coredns,"1.25.11, 1.26.4",true,not_affected,vulnerable_code_not_in_execute_path
 rancher/mirrored-library-traefik:3.7.4,k3s/v1.34.9,libcrypto3,3.5.6-r0,alpine,CVE-2026-45447,HIGH,https://avd.aquasec.com/nvd/cve-2026-45447,rancher/mirrored-library-traefik:3.7.4 (alpine 3.23.4),3.5.7-r0,true,affected,
 rancher/mirrored-library-traefik:3.7.4,k3s/v1.34.9,libssl3,3.5.6-r0,alpine,CVE-2026-45447,HIGH,https://avd.aquasec.com/nvd/cve-2026-45447,rancher/mirrored-library-traefik:3.7.4 (alpine 3.23.4),3.5.7-r0,true,affected,
+rancher/mirrored-library-traefik:3.7.4,k3s/v1.34.9,google.golang.org/grpc,v1.80.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/traefik,1.82.1,true,affected,
 rancher/mirrored-library-traefik:3.7.4,k3s/v1.34.9,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/local/bin/traefik,"1.25.12, 1.26.5, 1.27.0-rc.2",true,not_affected,vulnerable_code_not_in_execute_path
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,github.com/prometheus/prometheus,v0.304.2,gobinary,CVE-2026-42151,HIGH,https://avd.aquasec.com/nvd/cve-2026-42151,metrics-server,0.311.3,true,affected,
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,github.com/prometheus/prometheus,v0.304.2,gobinary,CVE-2026-42154,HIGH,https://avd.aquasec.com/nvd/cve-2026-42154,metrics-server,"0.311.3, 0.305.2",true,affected,
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,golang.org/x/net,v0.40.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,metrics-server,0.53.0,true,affected,
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,golang.org/x/net,v0.40.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,metrics-server,0.55.0,true,affected,
+rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,google.golang.org/grpc,v1.72.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,metrics-server,1.82.1,true,affected,
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,stdlib,v1.24.12,gobinary,CVE-2025-68121,HIGH,https://avd.aquasec.com/nvd/cve-2025-68121,metrics-server,"1.24.13, 1.25.7, 1.26.0-rc.3",true,affected,severity_changed_due_to_suse_cvss_score
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,stdlib,v1.24.12,gobinary,CVE-2026-32280,HIGH,https://avd.aquasec.com/nvd/cve-2026-32280,metrics-server,"1.25.9, 1.26.2",true,affected,
 rancher/mirrored-metrics-server:v0.8.1,k3s/v1.34.9,stdlib,v1.24.12,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,metrics-server,"1.25.10, 1.26.3",true,affected,

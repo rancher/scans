@@ -1,9 +1,9 @@
 image,critical,high,total
-neuvector/controller:5.4.10,0,24,24
-neuvector/enforcer:5.4.10,0,14,14
+neuvector/controller:5.4.10,0,28,28
+neuvector/enforcer:5.4.10,0,18,18
 neuvector/manager:5.4.10,0,7,7
 neuvector/prometheus-exporter:1.0.16,0,1,1
-neuvector/registry-adapter:0.2.9,0,0,0
-neuvector/scanner:6,0,0,0
+neuvector/registry-adapter:0.2.9,0,1,1
+neuvector/scanner:6,0,3,3
 neuvector/updater:0.0.13,0,0,0
 rancher/neuvector-compliance-config:1.0.15,0,0,0
