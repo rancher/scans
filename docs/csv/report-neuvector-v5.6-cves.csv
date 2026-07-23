@@ -1,16 +1,16 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-neuvector/controller:5.6.0,neuvector/v5.6,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/controller:5.6.0 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/controller:5.6.0,neuvector/v5.6,oras.land/oras-go/v2,v2.6.1,gobinary,CVE-2026-50163,HIGH,https://avd.aquasec.com/nvd/cve-2026-50163,usr/local/bin/opa,,false,affected,
 neuvector/controller:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.80.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/consul,1.82.1,false,affected,
 neuvector/controller:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/controller,1.82.1,false,affected,
-neuvector/controller:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.1,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/opa,1.82.1,false,affected,
-neuvector/controller:5.6.0,neuvector/v5.6,oras.land/oras-go/v2,v2.6.1,gobinary,CVE-2026-50163,HIGH,https://avd.aquasec.com/nvd/cve-2026-50163,usr/local/bin/opa,,false,affected,
 neuvector/controller:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/upgrader,1.82.1,false,affected,
+neuvector/controller:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.1,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/opa,1.82.1,false,affected,
+neuvector/controller:5.6.0,neuvector/v5.6,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/controller:5.6.0 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/enforcer:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.80.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/consul,1.82.1,false,affected,
+neuvector/enforcer:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/agent,1.82.1,false,affected,
+neuvector/enforcer:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/pathWalker,1.82.1,false,affected,
+neuvector/enforcer:5.6.0,neuvector/v5.6,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/enforcer:5.6.0 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.6.0,neuvector/v5.6,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,neuvector/enforcer:5.6.0 (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 neuvector/enforcer:5.6.0,neuvector/v5.6,wget,1.24.5-150700.1.5,sles,SUSE-SU-2026:3148-1,HIGH,,neuvector/enforcer:5.6.0 (sles 15.7),1.24.5-150700.3.3.1,false,affected,
-neuvector/enforcer:5.6.0,neuvector/v5.6,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/enforcer:5.6.0 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
-neuvector/enforcer:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/agent,1.82.1,false,affected,
-neuvector/enforcer:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.80.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/consul,1.82.1,false,affected,
-neuvector/enforcer:5.6.0,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/pathWalker,1.82.1,false,affected,
 neuvector/prometheus-exporter:1.0.16,neuvector/v5.6,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 neuvector/registry-adapter:0.2.9,neuvector/v5.6,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/adapter,1.82.1,false,affected,
 neuvector/scanner:6,neuvector/v5.6,google.golang.org/grpc,v1.81.1,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/scanner,1.82.1,false,affected,
