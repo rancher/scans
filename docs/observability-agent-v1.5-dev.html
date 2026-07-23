@@ -443,7 +443,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability agent v1.5 dev version - CVE Scans - 2026-07-22</h1>
+<h1>SUSE Rancher - Observability agent v1.5 dev version - CVE Scans - 2026-07-23</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -581,6 +581,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.51-agent</td>
+<td>false</td>
+<td>Observability agent v1.5 dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>google.golang.org/grpc@v1.81.1</td>
+<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-k8s-agent:3ce0270e</td>
 <td>false</td>
 <td>Observability agent v1.5 dev</td>
@@ -670,18 +682,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>Observability agent v1.5 dev</td>
 <td>opt/stackstate-agent/bin/agent/process-agent</td>
 <td>google.golang.org/grpc@v1.80.0</td>
-<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.50-agent</td>
-<td>false</td>
-<td>Observability agent v1.5 dev</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
-<td>google.golang.org/grpc@v1.81.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
