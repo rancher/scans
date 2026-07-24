@@ -4,7 +4,6 @@ rancher/hardened-calico:v3.32.1-build20260722,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.6-build20260722,0,0,0
-rancher/hardened-csi-snapshotter:v8.6.0-build20260722,0,0,0
 rancher/hardened-dns-node-cache:1.26.8-build20260722,0,0,0
 rancher/hardened-etcd:v3.6.12-k3s1-build20260722,0,2,2
 rancher/hardened-flannel:v0.28.8-build20260722,0,0,0
@@ -13,7 +12,7 @@ rancher/hardened-multus-cni:v4.3.0-build20260722,0,0,0
 rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260722,0,0,0
 rancher/hardened-multus-thick:v4.3.0-build20260722,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,0,0
-rancher/hardened-traefik:v3.7.8-build20260717,0,1,1
+rancher/hardened-traefik:v3.7.8-build20260717,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,0,0
 rancher/harvester-cloud-provider:v0.2.7,0,1,1
 rancher/harvester-csi-driver:v0.2.9,0,11,11
@@ -59,6 +58,7 @@ registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722,0,1,1
 registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.17.0-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-csi-provisioner:v6.3.0-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-csi-resizer:v2.2.1-build20260722,0,0,0
+registry.rancher.com/rancher/hardened-csi-snapshotter:v8.6.0-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-livenessprobe:v2.19.0-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722,0,0,0

@@ -443,7 +443,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Rancher v2.14.3 version - CVE Scans - 2026-07-23</h1>
+<h1>SUSE Rancher - Rancher v2.14.3 version - CVE Scans - 2026-07-24</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -5866,18 +5866,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.14.3</td>
 <td>snapshot-controller</td>
 <td>google.golang.org/grpc@v1.79.3</td>
-<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
-<td>false</td>
-<td>Rancher v2.14.3</td>
-<td>traefik</td>
-<td>google.golang.org/grpc@v1.80.0</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -30802,6 +30790,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.14.3</td>
 <td>chromium</td>
 <td>chromium@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13021">CVE-2026-13021</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-common</td>
+<td>chromium-common@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13021">CVE-2026-13021</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-driver</td>
+<td>chromium-driver@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13021">CVE-2026-13021</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-sandbox</td>
+<td>chromium-sandbox@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13021">CVE-2026-13021</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-shell</td>
+<td>chromium-shell@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13021">CVE-2026-13021</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium</td>
+<td>chromium@143.0.7499.109-1~deb13u1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13023">CVE-2026-13023</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -31392,6 +31440,186 @@ the distinctive tag '*' close to its severity.</li>
 <td>chromium-shell@143.0.7499.109-1~deb13u1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13033">CVE-2026-13033</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium</td>
+<td>chromium@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13034">CVE-2026-13034</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-common</td>
+<td>chromium-common@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13034">CVE-2026-13034</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-driver</td>
+<td>chromium-driver@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13034">CVE-2026-13034</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-sandbox</td>
+<td>chromium-sandbox@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13034">CVE-2026-13034</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-shell</td>
+<td>chromium-shell@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13034">CVE-2026-13034</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium</td>
+<td>chromium@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13036">CVE-2026-13036</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-common</td>
+<td>chromium-common@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13036">CVE-2026-13036</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-driver</td>
+<td>chromium-driver@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13036">CVE-2026-13036</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-sandbox</td>
+<td>chromium-sandbox@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13036">CVE-2026-13036</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-shell</td>
+<td>chromium-shell@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13036">CVE-2026-13036</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium</td>
+<td>chromium@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13037">CVE-2026-13037</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-common</td>
+<td>chromium-common@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13037">CVE-2026-13037</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-driver</td>
+<td>chromium-driver@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13037">CVE-2026-13037</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-sandbox</td>
+<td>chromium-sandbox@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13037">CVE-2026-13037</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.1.0</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>chromium-shell</td>
+<td>chromium-shell@143.0.7499.109-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-13037">CVE-2026-13037</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>debian</td>
@@ -59693,18 +59921,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-library-traefik:3.3.6</td>
-<td>true</td>
-<td>Rancher v2.14.3</td>
-<td>usr/local/bin/traefik</td>
-<td>google.golang.org/grpc@v1.71.0</td>
-<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-library-traefik:3.7.4</td>
 <td>true</td>
 <td>Rancher v2.14.3</td>
@@ -59727,18 +59943,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-library-traefik:3.7.4</td>
-<td>true</td>
-<td>Rancher v2.14.3</td>
-<td>usr/local/bin/traefik</td>
-<td>google.golang.org/grpc@v1.80.0</td>
-<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-longhornio-backing-image-manager:v1.11.3</td>
@@ -76601,6 +76805,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
+<td>false</td>
+<td>Rancher v2.14.3</td>
+<td>traefik</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-whereabouts:v0.9.4-build20260604</td>
 <td>false</td>
 <td>Rancher v2.14.3</td>
@@ -85757,12 +85973,36 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:3.3.6</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>usr/local/bin/traefik</td>
+<td>google.golang.org/grpc@v1.71.0</td>
+<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-library-traefik:3.7.4</td>
 <td>true</td>
 <td>Rancher v2.14.3</td>
 <td>usr/local/bin/traefik</td>
 <td>stdlib@v1.25.11</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-library-traefik:3.7.4</td>
+<td>true</td>
+<td>Rancher v2.14.3</td>
+<td>usr/local/bin/traefik</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>

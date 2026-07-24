@@ -30,7 +30,7 @@ rancher/hardened-multus-cni:v4.2.4-build20260310,0,23,23
 rancher/hardened-multus-dynamic-networks-controller:v0.3.7-build20260310,0,6,6
 rancher/hardened-multus-thick:v4.2.4-build20260310,0,19,19
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,2,2
-rancher/hardened-traefik:v3.7.4-build20260608,0,1,1
+rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260604,0,8,8
 rancher/harvester-cloud-provider:v0.2.5,0,20,20
 rancher/harvester-cloud-provider:v0.2.7,0,1,1
@@ -85,7 +85,7 @@ rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,348,3044,3392
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,348,3064,3412
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81
@@ -97,7 +97,7 @@ rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,3,35,38
 rancher/mirrored-library-nginx:1.31.2-alpine,0,8,8
-rancher/mirrored-library-traefik:3.7.4,0,3,3
+rancher/mirrored-library-traefik:3.7.4,0,2,2
 rancher/mirrored-longhornio-backing-image-manager:v1.11.3,0,10,10
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,60,60
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,5,5
@@ -148,8 +148,8 @@ rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.15-head,0,2,2
 rancher/rancher-csp-adapter:v10.0.0,0,0,0
 rancher/rancher-webhook:v0.11.0-rc.24,0,0,0
-rancher/rancher:v2.15-head,0,26,26
-rancher/remotedialer-proxy:v0.8.0-rc.10,0,0,0
+rancher/rancher:v2.15-head,0,25,25
+rancher/remotedialer-proxy:v0.8.0,0,0,0
 rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515,0,2,2
 rancher/rke2-runtime:v1.34.9-rke2r1,0,13,13
 rancher/rke2-runtime:v1.35.6-rke2r1,0,13,13
@@ -167,6 +167,8 @@ rancher/system-agent-installer-rke2:v1.34.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.6-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.2-rke2r1,0,0,0
 rancher/system-agent:v0.15.0-rc.5-suc,0,3,3
+rancher/system-agent:v0.15.0-suc,0,3,3
 rancher/system-upgrade-controller:v0.20.1,0,1,1
 rancher/turtles:v0.27.0,0,1,1
 rancher/ui-plugin-catalog:4.32.0,0,4,4
+rancher/ui-plugin-catalog:4.33.0,0,0,0

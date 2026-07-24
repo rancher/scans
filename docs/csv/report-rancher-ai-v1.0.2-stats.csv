@@ -1,5 +1,5 @@
 image,critical,high,total
-registry.suse.com/rancher/rancher-ai-agent:v1.0.2,2,22,24
+registry.suse.com/rancher/rancher-ai-agent:v1.0.2,2,24,26
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,0,16,16
-stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,2,22,24
+stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,2,24,26
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,0,16,16
