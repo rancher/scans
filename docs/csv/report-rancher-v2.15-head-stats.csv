@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.15.0,0,0,0
 rancher/appco-alertmanager:0.30.0-12.16,0,29,29
-rancher/appco-grafana:12.3.1-1.12,0,63,63
+rancher/appco-grafana:12.3.1-1.12,1,63,64
 rancher/appco-k8s-sidecar:2.1.2-1.10,1,24,25
 rancher/appco-kube-rbac-proxy:0.20.1-16.15,0,28,28
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
@@ -43,7 +43,7 @@ rancher/k3s-upgrade:v1.36.2-k3s1,0,1,1
 rancher/klipper-helm:v0.11.0-build20260602,0,10,10
 rancher/klipper-helm:v0.11.1-build20260615,0,10,10
 rancher/klipper-lb:v0.4.17,0,0,0
-rancher/kube-api-auth:v0.15.0,0,3,3
+rancher/kube-api-auth:v0.15.1,0,1,1
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
 rancher/kuberlr-kubectl:v6.0.0,0,43,43
 rancher/kuberlr-kubectl:v7.0.1,0,35,35
@@ -85,7 +85,7 @@ rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,348,3064,3412
+rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,348,3079,3427
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81
