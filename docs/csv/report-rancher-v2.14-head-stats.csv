@@ -8,6 +8,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
 rancher/appco-node-exporter:1.10.2-14.3,0,20,20
 rancher/appco-redis:8.0.3-2.1,1,8,9
 rancher/appco-thanos:0.40.1-8.1,0,29,29
+rancher/backup-restore-operator:v10.0.8,0,1,1
 rancher/backup-restore-operator:v10.0.8-rc.4,0,1,1
 rancher/compliance-operator:v1.4.5,0,0,0
 rancher/eks-operator:v1.14.4,0,0,0
@@ -157,7 +158,7 @@ rancher/prometheus-federator:v6.0.3,0,2,2
 rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.14-head,0,2,2
 rancher/rancher-csp-adapter:v9.0.0,0,10,10
-rancher/rancher-webhook:v0.10.9-rc.2,0,0,0
+rancher/rancher-webhook:v0.10.9,0,0,0
 rancher/rancher:v2.14-head,0,47,47
 rancher/remotedialer-proxy:v0.7.4,0,0,0
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,16,16

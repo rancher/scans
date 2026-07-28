@@ -35,7 +35,7 @@ rancher/hardened-kubernetes:v1.35.6-rke2r1-build20260612,0,37,37
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,23,23
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,2,2
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
-rancher/harvester-cluster-repo:a857860e,0,0,0
+rancher/harvester-cluster-repo:38e7cb13,0,0,0
 rancher/harvester-eventrouter:master-head,0,3,3
 rancher/harvester-kubeovn-operator:v1.16.2-dev.0,0,29,29
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -48,7 +48,7 @@ rancher/harvester-node-disk-manager-webhook:master-head,0,2,2
 rancher/harvester-node-disk-manager:master-head,0,2,2
 rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
-rancher/harvester-pcidevices:master-head,0,4,4
+rancher/harvester-pcidevices:master-head,0,0,0
 rancher/harvester-seeder:main-head,0,2,2
 rancher/harvester-upgrade:master-head,0,42,42
 rancher/harvester-vm-import-controller:main-head,0,0,0
@@ -81,7 +81,7 @@ rancher/rancher:v2.14.2,0,90,90
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,16,16
 rancher/rke2-runtime:v1.35.6-rke2r1,0,13,13
 rancher/shell:v0.7.0,0,67,67
-rancher/support-bundle-kit:master-head,0,2,2
+rancher/support-bundle-kit:master-head,0,0,0
 rancher/system-agent-installer-rke2:v1.35.6-rke2r1,0,0,0
 rancher/system-agent:v0.3.16-suc,0,24,24
 rancher/system-upgrade-controller:v0.19.1,0,5,5

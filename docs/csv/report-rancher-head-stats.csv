@@ -7,6 +7,7 @@ rancher/appco-kube-rbac-proxy:0.20.1-16.15,0,28,28
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
 rancher/appco-node-exporter:1.10.2-14.3,0,20,20
 rancher/appco-thanos:0.40.1-8.1,0,29,29
+rancher/backup-restore-operator:v11.0.0,0,1,1
 rancher/backup-restore-operator:v11.0.0-rc.6,0,1,1
 rancher/compliance-operator:v1.5.0,0,0,0
 rancher/eks-operator:v1.15.0,0,0,0
@@ -45,8 +46,8 @@ rancher/klipper-helm:v0.11.1-build20260615,0,10,10
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.15.0,0,1,1
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
-rancher/kuberlr-kubectl:v6.0.0,0,43,43
 rancher/kuberlr-kubectl:v7.0.1,0,35,35
+rancher/kuberlr-kubectl:v7.1.1,0,8,8
 rancher/kuberlr-kubectl:v8.1.1,0,8,8
 rancher/local-path-provisioner:v0.0.36,0,14,14
 rancher/machine:v0.15.0-rancher145,0,4,4
@@ -143,14 +144,15 @@ rancher/neuvector-scanner:6,0,3,3
 rancher/neuvector-updater:0.0.13,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,16,16
 rancher/prom-prometheus:v3.8.1,0,31,31
+rancher/prometheus-federator:v7.0.0,0,0,0
 rancher/prometheus-federator:v7.0.0-rc.3,0,0,0
 rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:head,0,2,2
 rancher/rancher-csp-adapter:v10.0.0,0,0,0
-rancher/rancher-webhook:v0.11.0-rc.24,0,0,0
+rancher/rancher-webhook:v0.11.0,0,0,0
 rancher/rancher:head,0,22,22
 rancher/remotedialer-proxy:v0.8.0,0,0,0
-rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515,0,2,2
+rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515,0,1,1
 rancher/rke2-runtime:v1.34.9-rke2r1,0,13,13
 rancher/rke2-runtime:v1.35.6-rke2r1,0,13,13
 rancher/rke2-runtime:v1.36.2-rke2r1,0,9,9
