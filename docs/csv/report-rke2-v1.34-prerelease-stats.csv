@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,0,0
 rancher/hardened-calico:v3.32.1-build20260717,0,5,5
-rancher/hardened-calico:v3.32.1-build20260722,0,0,0
+rancher/hardened-calico:v3.32.1-build20260722,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.6-build20260717,0,1,1
@@ -26,8 +26,9 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,0,0
 rancher/hardened-traefik:v3.7.8-build20260717,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,0,0
 rancher/harvester-cloud-provider:v0.2.7,0,1,1
-rancher/harvester-csi-driver:v0.2.9,0,11,11
+rancher/harvester-csi-driver:v0.2.9,0,18,18
 rancher/klipper-helm:v0.13.2-build20260716,0,6,6
+rancher/klipper-helm:v0.13.3-build20260727,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,1,1
 rancher/mirrored-calico-cni:v3.32.1,0,1,1
@@ -63,7 +64,7 @@ rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428,0,5,5
 rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,5,5
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,5,5
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/rke2-cloud-provider:v1.34.9-0.20260610230036-3060dff9c388-build20260710,0,4,4
+rancher/rke2-cloud-provider:v1.34.9-0.20260610230036-3060dff9c388-build20260710,0,1,1
 registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.34.0-build20260710,0,4,4
 registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260710,0,2,2
 registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722,0,1,1
@@ -81,4 +82,4 @@ registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260722,0,
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260710,0,1,1
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722,0,0,0
 registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime8,0,0,0
-registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8,0,0,0
+registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8,0,6,6
