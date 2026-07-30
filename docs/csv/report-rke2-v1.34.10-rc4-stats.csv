@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,0,0
-rancher/hardened-calico:v3.32.1-build20260722,0,1,1
+rancher/hardened-calico:v3.32.1-build20260722,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.6-build20260722,0,0,0
 rancher/hardened-dns-node-cache:1.26.8-build20260722,0,0,0
@@ -13,6 +13,6 @@ rancher/klipper-helm:v0.13.3-build20260727,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,22,22
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,15,15
 rancher/rke2-cloud-provider:v1.34.9-0.20260610230036-3060dff9c388-build20260710,0,1,1
 rancher/rke2-runtime:v1.34.10-rc4-rke2r1,0,0,0

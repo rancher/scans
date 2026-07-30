@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.33 prerelease version - CVE Scans - 2026-07-29</h1>
+<h1>SUSE Rancher - RKE2 v1.33 prerelease version - CVE Scans - 2026-07-30</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -633,6 +633,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gzip</td>
 <td>gzip@1.10-150200.10.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>libglib-2_0-0</td>
+<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -835,6 +847,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.33 prerelease</td>
 <td>usr/bin/harvester-csi-driver</td>
+<td>github.com/kube-logging/logging-operator@v0.0.0-20250424202944-7e1f9aad6e21</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-54680">CVE-2026-54680</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>usr/bin/harvester-csi-driver</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -918,18 +942,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-csi-driver:v0.2.9</td>
 <td>false</td>
 <td>RKE2 v1.33 prerelease</td>
-<td>libcurl4</td>
-<td>libcurl4@8.14.1-160000.5.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622582-1">SUSE-SU-2026:22582-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
 <td>libxml2-2</td>
 <td>libxml2-2@2.13.8-160000.4.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622636-1">SUSE-SU-2026:22636-1</a></td>
@@ -942,81 +954,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-csi-driver:v0.2.9</td>
 <td>false</td>
 <td>RKE2 v1.33 prerelease</td>
-<td>gzip</td>
-<td>gzip@1.13-160000.2.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622818-1">SUSE-SU-2026:22818-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>vim</td>
-<td>vim@9.2.0530-160000.1.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622821-1">SUSE-SU-2026:22821-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>vim-data-common</td>
-<td>vim-data-common@9.2.0530-160000.1.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622821-1">SUSE-SU-2026:22821-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>xxd</td>
-<td>xxd@9.2.0530-160000.1.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622821-1">SUSE-SU-2026:22821-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
 <td>libglib-2_0-0</td>
 <td>libglib-2_0-0@2.84.4-160000.2.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>perl</td>
-<td>perl@5.42.0-160000.2.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622847-1">SUSE-SU-2026:22847-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>perl-base</td>
-<td>perl-base@5.42.0-160000.2.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622847-1">SUSE-SU-2026:22847-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2306,78 +2246,6 @@ the distinctive tag '*' close to its severity.</li>
 <td></td>
 <td>gobinary</td>
 </tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>gzip</td>
-<td>gzip@1.13-160000.2.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622818-1">SUSE-SU-2026:22818-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>glib2-tools</td>
-<td>glib2-tools@2.84.4-160000.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>libgio-2_0-0</td>
-<td>libgio-2_0-0@2.84.4-160000.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.84.4-160000.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>libgmodule-2_0-0</td>
-<td>libgmodule-2_0-0@2.84.4-160000.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
-<td>false</td>
-<td>RKE2 v1.33 prerelease</td>
-<td>libgobject-2_0-0</td>
-<td>libgobject-2_0-0@2.84.4-160000.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
 <tr class="issue not_affected">
 <td>rancher/hardened-calico:v3.32.1-build20260717</td>
 <td>false</td>
@@ -2955,6 +2823,90 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>libcurl4</td>
+<td>libcurl4@8.14.1-160000.5.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622582-1">SUSE-SU-2026:22582-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>gzip</td>
+<td>gzip@1.13-160000.2.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622818-1">SUSE-SU-2026:22818-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>vim</td>
+<td>vim@9.2.0530-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622821-1">SUSE-SU-2026:22821-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>vim-data-common</td>
+<td>vim-data-common@9.2.0530-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622821-1">SUSE-SU-2026:22821-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>xxd</td>
+<td>xxd@9.2.0530-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622821-1">SUSE-SU-2026:22821-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>perl</td>
+<td>perl@5.42.0-160000.2.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622847-1">SUSE-SU-2026:22847-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>perl-base</td>
+<td>perl-base@5.42.0-160000.2.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622847-1">SUSE-SU-2026:22847-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/klipper-helm:v0.13.2-build20260716</td>
 <td>false</td>
 <td>RKE2 v1.33 prerelease</td>
@@ -3741,6 +3693,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/helm</td>
 <td>oras.land/oras-go/v2@v2.6.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-50163.html">CVE-2026-50163</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.13.3-build20260727</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -6313,6 +6277,90 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>kube-webhook-certgen</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>gzip</td>
+<td>gzip@1.13-160000.2.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622818-1">SUSE-SU-2026:22818-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>glib2-tools</td>
+<td>glib2-tools@2.84.4-160000.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>libgio-2_0-0</td>
+<td>libgio-2_0-0@2.84.4-160000.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>libglib-2_0-0</td>
+<td>libglib-2_0-0@2.84.4-160000.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>libgmodule-2_0-0</td>
+<td>libgmodule-2_0-0@2.84.4-160000.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8</td>
+<td>false</td>
+<td>RKE2 v1.33 prerelease</td>
+<td>libgobject-2_0-0</td>
+<td>libgobject-2_0-0@2.84.4-160000.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622846-1">SUSE-SU-2026:22846-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
 </tr>
 </table>
 
