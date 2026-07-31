@@ -90,7 +90,7 @@ rancher/mirrored-curlimages-curl:8.9.1,2,22,24
 rancher/mirrored-elemental-operator:1.7.5,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.5,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
-rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,11,145,156
+rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,11,255,266
 rancher/mirrored-grafana-grafana:11.5.5,3,31,34
 rancher/mirrored-idealista-prom2teams:4.2.1,3,48,51
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,11,11
@@ -123,7 +123,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,2,2
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,1,1
 rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,17,17
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,17,17
-rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,10,10
+rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,11,11
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,6,6
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.88,0,8,8
@@ -182,9 +182,9 @@ rancher/scc-operator:v0.5.0,0,0,0
 rancher/security-scan:v0.7.12,0,6,6
 rancher/shell:v0.5.3,0,30,30
 rancher/supportability-review-app-frontend:v0.19.0,0,24,24
-rancher/supportability-review-internal:latest,0,0,0
+rancher/supportability-review-internal:latest,0,1,1
 rancher/supportability-review-operator:v0.19.0,0,10,10
-rancher/supportability-review:latest,0,2,2
+rancher/supportability-review:latest,0,3,3
 rancher/system-agent-installer-k3s:v1.31.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.13-k3s1,0,0,0
