@@ -72,6 +72,8 @@ neuvector/controller:5.5.3,neuvector/v5.5,curl,8.14.1-150700.7.14.1,sles,SUSE-SU
 neuvector/controller:5.5.3,neuvector/v5.5,libcurl4,8.14.1-150700.7.14.1,sles,SUSE-SU-2026:2925-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),8.14.1-150700.7.20.1,false,affected,
 neuvector/controller:5.5.3,neuvector/v5.5,libjq1,1.6-150000.3.15.1,sles,SUSE-SU-2026:2983-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),1.6-150000.3.20.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/controller:5.5.3,neuvector/v5.5,glibc-devel,2.38-150600.14.49.1,sles,SUSE-SU-2026:3030-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),2.38-150600.14.52.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/controller:5.5.3,neuvector/v5.5,libssh-config,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/controller:5.5.3,neuvector/v5.5,libssh4,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/controller:5.5.3,neuvector/v5.5,libglib-2_0-0,2.78.6-150600.4.35.1,sles,SUSE-SU-2026:3341-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),2.78.6-150600.4.38.1,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,go.mongodb.org/mongo-driver,v1.12.1,gobinary,CVE-2026-2303,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-2303,usr/local/bin/consul,1.17.7,false,not_affected,vulnerable_code_not_present
 neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/consul,0.55.0,false,not_affected,vulnerable_code_not_present
@@ -128,6 +130,8 @@ neuvector/enforcer:5.5.3,neuvector/v5.5,libxml2-2,2.12.10-150700.4.11.1,sles,SUS
 neuvector/enforcer:5.5.3,neuvector/v5.5,wget,1.24.5-150700.1.5,sles,SUSE-SU-2026:3148-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),1.24.5-150700.3.3.1,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,pam,1.3.0-150000.6.86.1,sles,SUSE-SU-2026:3163-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),1.3.0-150000.6.89.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,gzip,1.10-150200.10.1,sles,SUSE-SU-2026:3269-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),1.10-150200.13.1,false,affected,
+neuvector/enforcer:5.5.3,neuvector/v5.5,libssh-config,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/enforcer:5.5.3,neuvector/v5.5,libssh4,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,wget,1.24.5-150700.1.5,sles,SUSE-SU-2026:3337-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),1.24.5-150700.3.6.1,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,glib2-tools,2.78.6-150600.4.35.1,sles,SUSE-SU-2026:3341-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),2.78.6-150600.4.38.1,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,libgio-2_0-0,2.78.6-150600.4.35.1,sles,SUSE-SU-2026:3341-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),2.78.6-150600.4.38.1,false,affected,
@@ -143,5 +147,9 @@ neuvector/manager:5.5.3,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-S
 neuvector/manager:5.5.3,neuvector/v5.5,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),1.20.1-150600.11.19.1,false,affected,
 neuvector/prometheus-exporter:1.0.16,neuvector/v5.5,libxml2-2,2.12.10-150700.4.11.1,sles,SUSE-SU-2026:3097-1,HIGH,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),2.12.10-150700.4.14.1,false,affected,
 neuvector/prometheus-exporter:1.0.16,neuvector/v5.5,gzip,1.10-150200.10.1,sles,SUSE-SU-2026:3269-1,HIGH,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),1.10-150200.13.1,false,affected,
+neuvector/prometheus-exporter:1.0.16,neuvector/v5.5,libssh-config,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/prometheus-exporter:1.0.16,neuvector/v5.5,libssh4,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/prometheus-exporter:1.0.16,neuvector/v5.5,libglib-2_0-0,2.78.6-150600.4.35.1,sles,SUSE-SU-2026:3341-1,HIGH,,neuvector/prometheus-exporter:1.0.16 (sles 15.7),2.78.6-150600.4.38.1,false,affected,
 neuvector/registry-adapter:0.2.9,neuvector/v5.5,google.golang.org/grpc,v1.81.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/adapter,1.82.1,false,affected,
+neuvector/updater:0.0.13,neuvector/v5.5,libssh-config,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/updater:0.0.13 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/updater:0.0.13,neuvector/v5.5,libssh4,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/updater:0.0.13 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path

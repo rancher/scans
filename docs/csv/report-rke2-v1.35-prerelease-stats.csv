@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,0,0
 rancher/hardened-calico:v3.32.1-build20260717,0,5,5
-rancher/hardened-calico:v3.32.1-build20260722,0,2,2
+rancher/hardened-calico:v3.32.1-build20260722,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.6-build20260717,0,1,1
@@ -26,7 +26,7 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,0,0
 rancher/hardened-traefik:v3.7.8-build20260717,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,0,0
 rancher/harvester-cloud-provider:v0.2.7,0,1,1
-rancher/harvester-csi-driver:v0.2.9,1,11,12
+rancher/harvester-csi-driver:v0.2.9,0,11,11
 rancher/klipper-helm:v0.13.2-build20260716,0,6,6
 rancher/klipper-helm:v0.13.3-build20260727,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
@@ -46,7 +46,7 @@ rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,1,1
 rancher/mirrored-calico-typha:v3.32.1,0,1,1
 rancher/mirrored-calico-whisker-backend:v3.32.1,0,1,1
 rancher/mirrored-calico-whisker:v3.32.1,0,0,0
-rancher/mirrored-cilium-certgen:v0.4.6,0,4,4
+rancher/mirrored-cilium-certgen:v0.4.6,0,3,3
 rancher/mirrored-cilium-cilium-envoy:v1.36.9-1782267392-edeb3f2af56c37c407efa1f63f0b32f595399bbc,0,0,0
 rancher/mirrored-cilium-cilium:v1.19.6,0,4,4
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6,0,2,2
@@ -70,6 +70,7 @@ registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260710,0,2,2
 registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722,0,1,1
 registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.17.0-build20260710,0,1,1
 registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.17.0-build20260722,0,0,0
+registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730,0,2,2
 registry.rancher.com/rancher/hardened-csi-provisioner:v6.3.0-build20260710,0,1,1
 registry.rancher.com/rancher/hardened-csi-provisioner:v6.3.0-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-csi-resizer:v2.2.1-build20260710,0,2,2
@@ -81,5 +82,6 @@ registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260710,0,
 registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260722,0,0,0
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260710,0,1,1
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722,0,0,0
-registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime8,0,0,0
+registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime9,0,0,0
 registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime8,0,0,0
+registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime9,0,0,0

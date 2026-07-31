@@ -8,9 +8,9 @@ longhornio/csi-provisioner:v5.3.0-20260428,0,5,5
 longhornio/csi-resizer:v2.1.0-20260428,0,5,5
 longhornio/csi-snapshotter:v8.5.0-20260428,0,5,5
 longhornio/livenessprobe:v2.18.0-20260428,0,3,3
-longhornio/longhorn-cli:v1.11.2,0,15,15
+longhornio/longhorn-cli:v1.11.2,0,14,14
 longhornio/longhorn-engine:v1.11.2,1,33,34
-longhornio/longhorn-instance-manager:v1.11.2,1,32,33
+longhornio/longhorn-instance-manager:v1.11.2,1,31,32
 longhornio/longhorn-manager:v1.11.2,2,18,20
 longhornio/longhorn-share-manager:v1.11.2,0,19,19
 longhornio/longhorn-ui:v1.11.2,0,20,20
@@ -24,7 +24,7 @@ rancher/cluster-api-controller:v1.12.7,0,6,6
 rancher/fleet-agent:v0.15.2,0,10,10
 rancher/fleet:v0.15.2,0,31,31
 rancher/hardened-addon-resizer:1.8.23-build20260604,0,2,2
-rancher/hardened-calico:v3.32.0-build20260604,0,9,9
+rancher/hardened-calico:v3.32.0-build20260604,0,7,7
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
 rancher/hardened-cni-plugins:v1.9.1-build20260608,0,0,0
 rancher/hardened-coredns:v1.14.4-build20260610,0,1,1
@@ -50,11 +50,11 @@ rancher/harvester-node-manager-webhook:v1.8.1,0,8,8
 rancher/harvester-node-manager:v1.8.1,0,8,8
 rancher/harvester-pcidevices:v1.8.1,0,4,4
 rancher/harvester-seeder:v1.8.1,0,8,8
-rancher/harvester-upgrade:v1.8.1,1,64,65
+rancher/harvester-upgrade:v1.8.1,0,64,64
 rancher/harvester-vm-import-controller:v1.8.1,0,14,14
-rancher/harvester-webhook:v1.8.1,1,12,13
-rancher/harvester:v1.8.1,1,13,14
-rancher/klipper-helm:v0.11.1-build20260615,0,10,10
+rancher/harvester-webhook:v1.8.1,0,12,12
+rancher/harvester:v1.8.1,0,13,13
+rancher/klipper-helm:v0.11.1-build20260615,0,9,9
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
 rancher/kubectl:v1.35.1,0,9,9

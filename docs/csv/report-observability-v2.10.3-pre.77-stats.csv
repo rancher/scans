@@ -19,10 +19,10 @@ registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.215,0,7,7
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.0,0,4,4
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.0,0,5,5
 registry.rancher.com/suse-observability/stackpacks:20260721142410-master-d600e27-prime-selfhosted,0,0,0
-registry.rancher.com/suse-observability/stackstate-correlate:2.10.3-pre.77,0,4,4
-registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.3-pre.77,0,4,4
-registry.rancher.com/suse-observability/stackstate-receiver:2.10.3-pre.77,0,4,4
-registry.rancher.com/suse-observability/stackstate-server:2.10.3-pre.77-2.5,0,5,5
+registry.rancher.com/suse-observability/stackstate-correlate:2.10.3-pre.77,0,5,5
+registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.3-pre.77,0,5,5
+registry.rancher.com/suse-observability/stackstate-receiver:2.10.3-pre.77,0,5,5
+registry.rancher.com/suse-observability/stackstate-server:2.10.3-pre.77-2.5,0,6,6
 registry.rancher.com/suse-observability/stackstate-ui:2.10.3-pre.77,0,6,6
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.52,0,0,0
 registry.rancher.com/suse-observability/suse-observability-borg:20260723070847-ff93fb37,0,0,0
