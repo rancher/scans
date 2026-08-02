@@ -17,7 +17,7 @@ longhornio/longhorn-ui:v1.12.1-rc1,0,4,4
 longhornio/support-bundle-kit:v0.0.89,0,5,5
 rancher/appco-alertmanager:0.30.0-12.16,0,29,29
 rancher/appco-grafana:12.3.1-1.12,1,63,64
-rancher/appco-k8s-sidecar:2.1.2-1.10,1,24,25
+rancher/appco-k8s-sidecar:2.1.2-1.10,1,25,26
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
 rancher/appco-node-exporter:1.10.2-14.3,0,19,19
 rancher/fleet-agent:v0.15.2,0,10,10
@@ -35,7 +35,7 @@ rancher/hardened-kubernetes:v1.35.6-rke2r1-build20260612,0,37,37
 rancher/hardened-multus-cni:v4.2.4-build20260310,0,23,23
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,2,2
 rancher/hardened-traefik:v3.7.4-build20260608,0,0,0
-rancher/harvester-cluster-repo:26f4b31a,0,0,0
+rancher/harvester-cluster-repo:ba08b5d8,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.2-dev.0,0,30,30
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -67,7 +67,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4,2,21,23
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,34,37
+rancher/mirrored-library-nginx:1.29.1-alpine,3,33,36
 rancher/mirrored-pause:3.6,0,0,0
 rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,14,14
 rancher/mirrored-prometheus-operator-admission-webhook:v0.87.1,0,8,8
