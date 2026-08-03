@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 master prerelease version - CVE Scans - 2026-08-02</h1>
+<h1>SUSE Rancher - RKE2 master prerelease version - CVE Scans - 2026-08-03</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -645,18 +645,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>libsqlite3-0</td>
 <td>libsqlite3-0@3.51.3-160000.1.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622166-1">SUSE-SU-2026:22166-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.9</td>
-<td>false</td>
-<td>RKE2 master prerelease</td>
-<td>libsolv-tools-base</td>
-<td>libsolv-tools-base@0.7.36-160000.1.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622172-1">SUSE-SU-2026:22172-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1856,32 +1844,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 master prerelease</td>
 <td>csi-provisioner</td>
 <td>golang.org/x/net@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25680.html">CVE-2026-25680</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
-<td>false</td>
-<td>RKE2 master prerelease</td>
-<td>csi-provisioner</td>
-<td>golang.org/x/net@v0.53.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
-<td>false</td>
-<td>RKE2 master prerelease</td>
-<td>csi-resizer</td>
-<td>golang.org/x/net@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25680.html">CVE-2026-25680</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2425,6 +2389,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>libsolv-tools-base</td>
+<td>libsolv-tools-base@0.7.36-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202622172-1">SUSE-SU-2026:22172-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/harvester-csi-driver:v0.2.9</td>
@@ -5588,6 +5564,78 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 master prerelease</td>
 <td>csi-node-driver-registrar</td>
 <td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/text@v0.36.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-resizer</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-resizer</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-resizer</td>
+<td>golang.org/x/text@v0.36.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>

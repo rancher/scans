@@ -14,7 +14,7 @@ quay.io/stackstate/stackstate-k8s-agent:239ee985,0,2,2
 quay.io/stackstate/stackstate-k8s-cluster-agent:21f456fd,0,0,0
 quay.io/stackstate/stackstate-k8s-cluster-agent:239ee985,1,2,3
 quay.io/stackstate/stackstate-k8s-cluster-agent:55991be5,0,0,0
-quay.io/stackstate/stackstate-k8s-process-agent:b9f7fe00,0,6,6
+quay.io/stackstate/stackstate-k8s-process-agent:b9f7fe00,0,5,5
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.51-agent,0,1,1
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.53-agent,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:4ec35439-1023-release,0,0,0

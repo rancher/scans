@@ -9,9 +9,9 @@ longhornio/csi-resizer:v2.2.1,0,1,1
 longhornio/csi-snapshotter:v8.6.0,0,2,2
 longhornio/livenessprobe:v2.19.0,0,1,1
 longhornio/longhorn-cli:v1.12.1-rc1,0,1,1
-longhornio/longhorn-engine:v1.12.1-rc1,0,9,9
+longhornio/longhorn-engine:v1.12.1-rc1,0,8,8
 longhornio/longhorn-instance-manager:v1.12.1-rc1,0,8,8
-longhornio/longhorn-manager:v1.12.1-rc1,0,7,7
+longhornio/longhorn-manager:v1.12.1-rc1,0,6,6
 longhornio/longhorn-share-manager:v1.12.1-rc1,0,4,4
 longhornio/longhorn-ui:v1.12.1-rc1,0,4,4
 longhornio/support-bundle-kit:v0.0.89,0,5,5
@@ -21,7 +21,7 @@ rancher/appco-k8s-sidecar:2.1.2-1.10,1,25,26
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
 rancher/appco-node-exporter:1.10.2-14.3,0,19,19
 rancher/fleet-agent:v0.15.2,0,10,10
-rancher/fleet:v0.15.2,0,31,31
+rancher/fleet:v0.15.2,0,30,30
 rancher/hardened-addon-resizer:1.8.23-build20260604,0,2,2
 rancher/hardened-calico:v3.32.0-build20260604,0,7,7
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260604,0,2,2
@@ -75,7 +75,7 @@ rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.87.1,0,8,8
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.87.1,0,8,8
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,15,15
 rancher/prom-prometheus:v3.8.1,0,29,29
-rancher/rancher-agent:v2.14.2,0,23,23
+rancher/rancher-agent:v2.14.2,0,22,22
 rancher/rancher-webhook:v0.10.6,0,2,2
 rancher/rancher:v2.14.2,1,85,86
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,16,16

@@ -25,7 +25,7 @@ quay.io/stackstate/s3proxy:3.2.0-so6,0,6,6
 quay.io/stackstate/s3proxy:3.2.0-so7,0,0,0
 quay.io/stackstate/spotlight:5.2.0-snapshot.214,0,1,1
 quay.io/stackstate/spotlight:5.2.0-snapshot.215,0,0,0
-quay.io/stackstate/spotlight:5.2.0-snapshot.216,0,7,7
+quay.io/stackstate/spotlight:5.2.0-snapshot.216,0,6,6
 quay.io/stackstate/stackgraph-console:2.5-8.1.11,0,1,1
 quay.io/stackstate/stackgraph-console:2.5-8.3.0,0,0,0
 quay.io/stackstate/stackgraph-console:2.5-8.3.1,0,1,1
@@ -59,7 +59,7 @@ quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260727183558-master-dd4a
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260728165540-master-89fb2aa,0,1,1
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260729180335-master-08c2b3b,0,4,4
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260730085552-master-aee10e9,0,5,5
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260731092220-master-5f1f023,0,5,5
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260731092220-master-5f1f023,0,4,4
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260722100141-master-5f48566-2.5,0,2,2
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260723150727-master-ee18ed0-2.5,0,1,1
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260724160547-master-d9c80ca-2.5,0,1,1
@@ -67,7 +67,7 @@ quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260727183558-master-dd4a9c
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260728165540-master-89fb2aa-2.5,0,2,2
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260729180335-master-08c2b3b-2.5,0,5,5
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260730085552-master-aee10e9-2.5,0,6,6
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260731092220-master-5f1f023-2.5,0,6,6
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260731092220-master-5f1f023-2.5,0,5,5
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260728165540-master-89fb2aa,0,2,2
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260729180335-master-08c2b3b,0,2,2
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260731092220-master-5f1f023,0,0,0
