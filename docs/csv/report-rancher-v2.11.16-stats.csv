@@ -28,7 +28,7 @@ rancher/harvester-cloud-provider:v0.2.5,0,19,19
 rancher/harvester-csi-driver:v0.2.3,1,36,37
 rancher/harvester-csi-driver:v0.2.4,1,31,32
 rancher/k3s-upgrade:v1.30.14-k3s2,2,30,32
-rancher/k3s-upgrade:v1.31.14-k3s1,2,28,30
+rancher/k3s-upgrade:v1.31.14-k3s1,2,25,27
 rancher/k3s-upgrade:v1.32.13-k3s1,0,10,10
 rancher/klipper-helm:v0.9.14-build20260210,0,45,45
 rancher/klipper-helm:v0.9.4-build20250113,0,79,79
@@ -186,7 +186,7 @@ rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.11.16,0,12,12
 rancher/rancher-csp-adapter:v6.0.1,0,11,11
 rancher/rancher-webhook:v0.7.10,0,1,1
-rancher/rancher:v2.11.16,0,134,134
+rancher/rancher:v2.11.16,0,130,130
 rancher/remotedialer-proxy:v0.4.5,0,0,0
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,13,13
 rancher/rke2-runtime:v1.32.13-rke2r1,0,43,43

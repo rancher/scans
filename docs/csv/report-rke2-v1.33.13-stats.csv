@@ -9,7 +9,7 @@ rancher/hardened-flannel:v0.28.5-build20260604,0,3,3
 rancher/hardened-k8s-metrics-server:v0.8.1-build20260604,0,3,3
 rancher/hardened-kubernetes:v1.33.13-rke2r1-build20260612,0,37,37
 rancher/hardened-snapshot-controller:v8.6.0-build20260608,0,2,2
-rancher/klipper-helm:v0.11.1-build20260615,0,9,9
+rancher/klipper-helm:v0.11.1-build20260615,0,7,7
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
 rancher/mirrored-pause:3.6,0,0,0

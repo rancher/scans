@@ -42,7 +42,7 @@ rancher/helm-controller:v0.16.10,2,25,27
 rancher/k3s-upgrade:v1.33.13-k3s1,0,2,2
 rancher/k3s-upgrade:v1.34.9-k3s1,0,2,2
 rancher/k3s-upgrade:v1.35.6-k3s1,0,3,3
-rancher/klipper-helm:v0.11.1-build20260615,0,9,9
+rancher/klipper-helm:v0.11.1-build20260615,0,7,7
 rancher/klipper-helm:v0.9.4-build20250113,0,79,79
 rancher/klipper-lb:v0.4.16,0,2,2
 rancher/klipper-lb:v0.4.17,0,0,0
@@ -161,7 +161,7 @@ rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.14-head,0,2,2
 rancher/rancher-csp-adapter:v9.0.0,0,10,10
 rancher/rancher-webhook:v0.10.9,0,0,0
-rancher/rancher:v2.14-head,1,44,45
+rancher/rancher:v2.14-head,0,44,44
 rancher/remotedialer-proxy:v0.7.4,0,0,0
 rancher/rke2-cloud-provider:v1.35.4-0.20260415195656-e51c0636351d-build20260415,0,16,16
 rancher/rke2-runtime:v1.33.13-rke2r1,0,13,13
