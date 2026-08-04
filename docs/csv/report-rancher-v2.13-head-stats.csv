@@ -144,7 +144,6 @@ rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,13,13
 rancher/mirrored-sig-storage-csi-snapshotter:v8.2.0,0,12,12
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,12,12
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,10,10
-rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,11,11
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,0,0
 rancher/neuvector-compliance-config:1.0.15,0,0,0
 rancher/neuvector-controller:5.6.0,0,6,6
@@ -176,10 +175,8 @@ rancher/scc-operator:v0.5.0-rc.3,0,0,0
 rancher/security-scan:v0.8.8,0,6,6
 rancher/shell:v0.6.4,0,29,29
 rancher/supportability-review-app-frontend:v0.19.0,0,24,24
-rancher/supportability-review-app-frontend:v0.23.0,0,5,5
 rancher/supportability-review-internal:latest,0,1,1
 rancher/supportability-review-operator:v0.19.0,0,10,10
-rancher/supportability-review-operator:v0.23.0,0,1,1
 rancher/supportability-review:latest,0,3,3
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.13-k3s1,0,0,0

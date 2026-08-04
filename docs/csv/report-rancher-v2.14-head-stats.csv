@@ -12,8 +12,8 @@ rancher/backup-restore-operator:v10.0.8,0,1,1
 rancher/backup-restore-operator:v10.0.8-rc.4,0,1,1
 rancher/compliance-operator:v1.4.5,0,0,0
 rancher/eks-operator:v1.14.4,0,0,0
-rancher/fleet-agent:v0.15.5,0,0,0
-rancher/fleet:v0.15.5,0,1,1
+rancher/fleet-agent:v0.15.6-alpha.1,0,0,0
+rancher/fleet:v0.15.6-alpha.1,0,0,0
 rancher/gke-operator:v1.14.4,0,1,1
 rancher/hardened-addon-resizer:1.8.23-build20260604,0,2,2
 rancher/hardened-calico:v3.32.0-build20260604,0,7,7
@@ -48,7 +48,6 @@ rancher/klipper-lb:v0.4.16,0,2,2
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.13.1,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
-rancher/kuberlr-kubectl:v6.0.0,0,43,43
 rancher/kuberlr-kubectl:v7.0.3,0,31,31
 rancher/kuberlr-kubectl:v7.1.1,0,8,8
 rancher/local-path-provisioner:v0.0.36,0,14,14
@@ -155,7 +154,6 @@ rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.13,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,15,15
 rancher/prom-prometheus:v3.8.1,0,29,29
-rancher/prometheus-federator:v6.0.0,0,7,7
 rancher/prometheus-federator:v6.0.3,0,2,2
 rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:v2.14-head,0,2,2
@@ -174,10 +172,8 @@ rancher/scc-operator:v0.5.0,0,0,0
 rancher/scc-operator:v0.5.0-rc.3,0,0,0
 rancher/security-scan:v0.9.4,0,6,6
 rancher/shell:v0.7.1,0,29,29
-rancher/supportability-review-app-frontend:v0.19.0,0,24,24
 rancher/supportability-review-app-frontend:v0.23.0,0,5,5
 rancher/supportability-review-internal:latest,0,1,1
-rancher/supportability-review-operator:v0.19.0,0,10,10
 rancher/supportability-review-operator:v0.23.0,0,1,1
 rancher/supportability-review:latest,0,3,3
 rancher/system-agent-installer-k3s:v1.33.13-k3s1,0,0,0
