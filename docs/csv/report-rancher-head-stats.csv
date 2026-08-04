@@ -8,7 +8,6 @@ rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
 rancher/appco-node-exporter:1.10.2-14.3,0,19,19
 rancher/appco-thanos:0.40.1-8.1,0,29,29
 rancher/backup-restore-operator:v11.0.0,0,1,1
-rancher/backup-restore-operator:v11.0.0-rc.6,0,1,1
 rancher/compliance-operator:v1.5.0,0,0,0
 rancher/eks-operator:v1.15.0,0,0,0
 rancher/fleet-agent:v0.16.0,0,0,0
@@ -46,7 +45,6 @@ rancher/klipper-helm:v0.11.1-build20260615,0,7,7
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.15.0,0,1,1
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,9,9
-rancher/kuberlr-kubectl:v7.0.1,0,35,35
 rancher/kuberlr-kubectl:v7.1.1,0,8,8
 rancher/kuberlr-kubectl:v8.1.1,0,8,8
 rancher/local-path-provisioner:v0.0.36,0,14,14
@@ -86,7 +84,6 @@ rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,35,39
-rancher/mirrored-grafana-grafana-image-renderer:v5.1.0,348,3079,3427
 rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,36,404,440
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,11,11
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
@@ -117,8 +114,8 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.3.0-20250709,0,13,13
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,5,5
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,2,2
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,1,1
-rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,16,16
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,15,15
+rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,15,15
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,16,16
 rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,10,10
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,6,6
@@ -146,7 +143,6 @@ rancher/neuvector-updater:0.0.13,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,15,15
 rancher/prom-prometheus:v3.8.1,0,29,29
 rancher/prometheus-federator:v7.0.0,0,0,0
-rancher/prometheus-federator:v7.0.0-rc.3,0,0,0
 rancher/pushprox:v0.1.11,0,1,1
 rancher/rancher-agent:head,0,2,2
 rancher/rancher-csp-adapter:v10.0.0,0,0,0
@@ -161,7 +157,6 @@ rancher/rke2-upgrade:v1.34.9-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.35.6-rke2r1,0,6,6
 rancher/rke2-upgrade:v1.36.2-rke2r1,0,5,5
 rancher/scc-operator:v0.5.0,0,0,0
-rancher/scc-operator:v0.5.0-rc.3,0,0,0
 rancher/security-scan:v0.10.0,0,6,6
 rancher/shell:v0.8.1-rc.2,0,8,8
 rancher/system-agent-installer-k3s:v1.34.9-k3s1,0,0,0
@@ -170,9 +165,7 @@ rancher/system-agent-installer-k3s:v1.36.2-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.34.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.6-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.2-rke2r1,0,0,0
-rancher/system-agent:v0.15.0-rc.5-suc,0,3,3
 rancher/system-agent:v0.15.0-suc,0,3,3
 rancher/system-upgrade-controller:v0.20.1,0,1,1
 rancher/turtles:v0.27.0,0,0,0
-rancher/ui-plugin-catalog:4.32.0,0,4,4
 rancher/ui-plugin-catalog:4.33.0,0,3,3
