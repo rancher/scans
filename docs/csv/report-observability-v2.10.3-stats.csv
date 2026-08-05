@@ -1,9 +1,4 @@
 image,critical,high,total
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260803130756-master-8ad8817,0,5,5
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260803130756-master-8ad8817,0,5,5
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260803130756-master-8ad8817,0,4,4
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5,0,5,5
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260803130756-master-8ad8817,0,0,0
 registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so9,0,0,0
 registry.rancher.com/suse-observability/clickhouse:26.5.1-so7,0,0,0
 registry.rancher.com/suse-observability/container-tools:1.8.6-so18,0,0,0
@@ -24,6 +19,11 @@ registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.217,0,0,0
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.2,0,0,0
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.2,0,1,1
 registry.rancher.com/suse-observability/stackpacks:20260729104830-master-83cc445-prime-selfhosted,0,0,0
+registry.rancher.com/suse-observability/stackstate-correlate:2.10.3,0,5,5
+registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.3,0,5,5
+registry.rancher.com/suse-observability/stackstate-receiver:2.10.3,0,4,4
+registry.rancher.com/suse-observability/stackstate-server:2.10.3-2.5,0,5,5
+registry.rancher.com/suse-observability/stackstate-ui:2.10.3,0,0,0
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.53,0,0,0
 registry.rancher.com/suse-observability/suse-observability-borg:20260804044009-ff93fb37,0,0,0
 registry.rancher.com/suse-observability/suse-observability-mcp:20260804042728-6608c5f9,0,0,0
