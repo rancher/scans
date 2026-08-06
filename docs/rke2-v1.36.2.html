@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.36.2 version - CVE Scans - 2026-08-05</h1>
+<h1>SUSE Rancher - RKE2 v1.36.2 version - CVE Scans - 2026-08-06</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -705,30 +705,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>coredns</td>
 <td>google.golang.org/grpc@v1.81.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-dns-node-cache:1.26.8-build20260608</td>
-<td>false</td>
-<td>RKE2 v1.36.2</td>
-<td>node-cache</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-dns-node-cache:1.26.8-build20260608</td>
-<td>false</td>
-<td>RKE2 v1.36.2</td>
-<td>node-cache</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1155,18 +1131,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/klipper-helm:v0.11.1-build20260615</td>
-<td>false</td>
-<td>RKE2 v1.36.2</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>stdlib@v1.25.11</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/rke2-cloud-provider:v1.36.1-0.20260508014929-7bbbf7c9b258-build20260515</td>
 <td>false</td>
 <td>RKE2 v1.36.2</td>
@@ -1335,6 +1299,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-addon-resizer:1.8.23-build20260604</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>pod_nanny</td>
+<td>golang.org/x/text@v0.21.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-calico:v3.32.0-build20260604</td>
 <td>false</td>
 <td>RKE2 v1.36.2</td>
@@ -1355,7 +1331,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1367,7 +1343,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1379,7 +1355,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1391,7 +1367,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1403,7 +1379,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1415,7 +1391,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1439,7 +1415,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1451,7 +1427,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1463,7 +1439,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1475,7 +1451,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1487,7 +1463,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1499,7 +1475,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -2703,12 +2679,36 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-cluster-autoscaler:v1.10.3-build20260604</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>cluster-proportional-autoscaler</td>
+<td>golang.org/x/text@v0.22.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-coredns:v1.14.4-build20260610</td>
 <td>false</td>
 <td>RKE2 v1.36.2</td>
 <td>coredns</td>
 <td>stdlib@v1.25.11</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-coredns:v1.14.4-build20260610</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>coredns</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -2736,6 +2736,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-dns-node-cache:1.26.8-build20260608</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>node-cache</td>
+<td>golang.org/x/net@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-dns-node-cache:1.26.8-build20260608</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>node-cache</td>
+<td>golang.org/x/net@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -2856,6 +2880,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-dns-node-cache:1.26.8-build20260608</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>node-cache</td>
+<td>golang.org/x/text@v0.35.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -3279,6 +3315,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-flannel:v0.28.5-build20260604</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/text@v0.36.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-k8s-metrics-server:v0.8.1-build20260604</td>
 <td>false</td>
 <td>RKE2 v1.36.2</td>
@@ -4007,7 +4055,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4019,7 +4067,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4031,7 +4079,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4043,7 +4091,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4055,7 +4103,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4386,6 +4434,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/klipper-helm:v0.11.1-build20260615</td>
 <td>false</td>
 <td>RKE2 v1.36.2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>stdlib@v1.25.11</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.11.1-build20260615</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
 <td>usr/bin/helm</td>
 <td>stdlib@v1.25.11</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
@@ -4795,6 +4855,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.36.2</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/text@v0.33.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.11.1-build20260615</td>
+<td>false</td>
+<td>RKE2 v1.36.2</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>golang.org/x/text@v0.33.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -5339,7 +5411,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -5363,7 +5435,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-41567.html">CVE-2026-41567</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -5387,7 +5459,7 @@ the distinctive tag '*' close to its severity.</li>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-42306">CVE-2026-42306</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

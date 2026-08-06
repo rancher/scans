@@ -34,12 +34,12 @@ rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,1,1
 rancher/mirrored-calico-typha:v3.32.1,0,1,1
 rancher/mirrored-calico-whisker-backend:v3.32.1,0,1,1
 rancher/mirrored-calico-whisker:v3.32.1,0,0,0
-rancher/mirrored-cilium-certgen:v0.4.6,0,3,3
+rancher/mirrored-cilium-certgen:v0.4.6,0,0,0
 rancher/mirrored-cilium-cilium-envoy:v1.36.9-1782267392-edeb3f2af56c37c407efa1f63f0b32f595399bbc,0,0,0
 rancher/mirrored-cilium-cilium:v1.19.6,0,4,4
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6,0,2,2
 rancher/mirrored-cilium-hubble-relay:v1.19.6,0,1,1
-rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,4,4
+rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,3,3
 rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,1,1

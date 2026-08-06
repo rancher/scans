@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Neuvector v5.6 version - CVE Scans - 2026-08-05</h1>
+<h1>SUSE Rancher - Neuvector v5.6 version - CVE Scans - 2026-08-06</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -786,18 +786,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>neuvector/prometheus-exporter:1.0.16</td>
 <td>false</td>
 <td>Neuvector v5.6</td>
-<td>libxml2-2</td>
-<td>libxml2-2@2.12.10-150700.4.11.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263097-1">SUSE-SU-2026:3097-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>neuvector/prometheus-exporter:1.0.16</td>
-<td>false</td>
-<td>Neuvector v5.6</td>
 <td>gzip</td>
 <td>gzip@1.10-150200.10.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
@@ -829,6 +817,66 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>neuvector/controller:5.6.0</td>
+<td>false</td>
+<td>Neuvector v5.6</td>
+<td>usr/local/bin/controller</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>neuvector/controller:5.6.0</td>
+<td>false</td>
+<td>Neuvector v5.6</td>
+<td>usr/local/bin/upgrader</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>neuvector/enforcer:5.6.0</td>
+<td>false</td>
+<td>Neuvector v5.6</td>
+<td>usr/local/bin/agent</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>neuvector/enforcer:5.6.0</td>
+<td>false</td>
+<td>Neuvector v5.6</td>
+<td>usr/local/bin/pathWalker</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>neuvector/prometheus-exporter:1.0.16</td>
+<td>false</td>
+<td>Neuvector v5.6</td>
+<td>libxml2-2</td>
+<td>libxml2-2@2.12.10-150700.4.11.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263097-1">SUSE-SU-2026:3097-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
 </tr>
 </table>
 

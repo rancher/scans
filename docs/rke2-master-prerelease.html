@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 master prerelease version - CVE Scans - 2026-08-05</h1>
+<h1>SUSE Rancher - RKE2 master prerelease version - CVE Scans - 2026-08-06</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -999,42 +999,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-certgen:v0.4.6</td>
-<td>true</td>
-<td>RKE2 master prerelease</td>
-<td>usr/bin/cilium-certgen</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39833.html">CVE-2026-39833</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-certgen:v0.4.6</td>
-<td>true</td>
-<td>RKE2 master prerelease</td>
-<td>usr/bin/cilium-certgen</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39834.html">CVE-2026-39834</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-certgen:v0.4.6</td>
-<td>true</td>
-<td>RKE2 master prerelease</td>
-<td>usr/bin/cilium-certgen</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46598.html">CVE-2026-46598</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-cilium-cilium:v1.19.6</td>
 <td>true</td>
 <td>RKE2 master prerelease</td>
@@ -1114,18 +1078,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-ui-backend:v0.13.5</td>
-<td>true</td>
-<td>RKE2 master prerelease</td>
-<td>usr/bin/backend</td>
-<td>golang.org/x/net@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25680.html">CVE-2026-25680</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2763,6 +2715,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-calico-envoy-ratelimit:v3.32.1</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>bin/ratelimit</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-calico-goldmane:v3.32.1</td>
 <td>true</td>
 <td>RKE2 master prerelease</td>
@@ -3660,6 +3624,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>kube-vip</td>
+<td>golang.org/x/text@v0.35.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability agent v1.5.40 version - CVE Scans - 2026-08-05</h1>
+<h1>SUSE Rancher - Observability agent v1.5.40 version - CVE Scans - 2026-08-06</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -591,30 +591,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so8</td>
-<td>false</td>
-<td>Observability agent v1.5.40</td>
-<td>usr/bin/targetallocator</td>
-<td>github.com/docker/docker@v28.5.2+incompatible</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-41567.html">CVE-2026-41567</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so8</td>
-<td>false</td>
-<td>Observability agent v1.5.40</td>
-<td>usr/bin/targetallocator</td>
-<td>github.com/docker/docker@v28.5.2+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-42306">CVE-2026-42306</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-k8s-agent:9516cb41</td>
 <td>false</td>
 <td>Observability agent v1.5.40</td>
@@ -654,32 +630,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:b9f7fe00</td>
 <td>false</td>
 <td>Observability agent v1.5.40</td>
-<td>glib2-tools</td>
-<td>glib2-tools@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:b9f7fe00</td>
-<td>false</td>
-<td>Observability agent v1.5.40</td>
 <td>libgio-2_0-0</td>
 <td>libgio-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:b9f7fe00</td>
-<td>false</td>
-<td>Observability agent v1.5.40</td>
-<td>libgmodule-2_0-0</td>
-<td>libgmodule-2_0-0@2.78.6-150600.4.35.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -699,11 +651,59 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so8</td>
+<td>false</td>
+<td>Observability agent v1.5.40</td>
+<td>usr/bin/targetallocator</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-41567.html">CVE-2026-41567</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so8</td>
+<td>false</td>
+<td>Observability agent v1.5.40</td>
+<td>usr/bin/targetallocator</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-42306">CVE-2026-42306</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:b9f7fe00</td>
+<td>false</td>
+<td>Observability agent v1.5.40</td>
+<td>glib2-tools</td>
+<td>glib2-tools@2.78.6-150600.4.35.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:b9f7fe00</td>
 <td>false</td>
 <td>Observability agent v1.5.40</td>
 <td>libglib-2_0-0</td>
 <td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:b9f7fe00</td>
+<td>false</td>
+<td>Observability agent v1.5.40</td>
+<td>libgmodule-2_0-0</td>
+<td>libgmodule-2_0-0@2.78.6-150600.4.35.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
