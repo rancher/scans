@@ -85,7 +85,7 @@ neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-20
 neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-27136,HIGH,https://avd.aquasec.com/nvd/cve-2026-27136,usr/local/bin/consul,0.55.0,false,not_affected,vulnerable_code_not_present
 neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,usr/local/bin/consul,0.53.0,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/consul,0.55.0,false,affected,
-neuvector/enforcer:5.5.3,neuvector/v5.5,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/bin/yq,"1.25.12, 1.26.5, 1.27.0-rc.2",false,affected,
+neuvector/enforcer:5.5.3,neuvector/v5.5,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/bin/yq,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/local/bin/consul,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,stdlib,v1.26.4,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/local/bin/agent,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,stdlib,v1.26.4,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/local/bin/pathWalker,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path

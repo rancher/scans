@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability v2.10 dev version - CVE Scans - 2026-08-06</h1>
+<h1>SUSE Rancher - Observability v2.10 dev version - CVE Scans - 2026-08-07</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
+
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -567,127 +567,7 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.springframework:spring-expression@6.2.18</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-41850">CVE-2026-41850</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk</td>
-<td>java-21-openjdk@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk-headless</td>
-<td>java-21-openjdk-headless@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.springframework:spring-expression@6.2.18</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-41850">CVE-2026-41850</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk</td>
-<td>java-21-openjdk@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk-headless</td>
-<td>java-21-openjdk-headless@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.springframework:spring-expression@6.2.18</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-41850">CVE-2026-41850</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk</td>
-<td>java-21-openjdk@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk-headless</td>
-<td>java-21-openjdk-headless@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5</td>
+<td>quay.io/stackstate/hbase-master:2.5-8.3.4</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>Java</td>
@@ -699,103 +579,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.springframework:spring-expression@6.2.18</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-41850">CVE-2026-41850</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>gzip</td>
-<td>gzip@1.10-150200.10.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk</td>
-<td>java-21-openjdk@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk-headless</td>
-<td>java-21-openjdk-headless@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/elasticsearch:8.19.16-so9</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so11</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk</td>
-<td>java-21-openjdk@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so11</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>java-21-openjdk-headless</td>
-<td>java-21-openjdk-headless@21.0.11.0-150600.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263332-1">SUSE-SU-2026:3332-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so11</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.2</td>
+<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.4</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>Java</td>
@@ -807,7 +591,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.2</td>
+<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.4</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>Java</td>
@@ -819,7 +603,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.2</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260806100202-master-3c36d85-2.5</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>Java</td>
@@ -829,78 +613,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>jar</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>gzip</td>
-<td>gzip@1.10-150200.10.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>gzip</td>
-<td>gzip@1.10-150200.10.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>gzip</td>
-<td>gzip@1.10-150200.10.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260803130756-master-8ad8817</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260803130756-master-8ad8817-2.5</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
 </tr>
 </table>
 
