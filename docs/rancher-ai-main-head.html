@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -489,7 +488,6 @@ footer a { color: var(--link); }
 
 /* Give anchored rows a little breathing room below the sticky header on jump. */
 #cves_table tr[id] { scroll-margin-top: 70px; }
-
 </style>
 <script>
 (function () {
@@ -504,7 +502,7 @@ footer a { color: var(--link); }
 })();
 </script>
 </head>
-<body class="index">
+<body>
 <header class="page-header">
 <div class="brand">
 <img src="images/logo.svg" class="brand-logo" alt="SUSE Rancher" aria-hidden="true">
@@ -513,240 +511,72 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - CVE Scans - 2026-08-08</h1>
+<h1>SUSE Rancher - Rancher ai main head version - CVE Scans - 2026-08-08</h1>
 
-<section class="callout">
-<h2>How to use this page</h2>
+<section class="callout callout-collapsible">
+<h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
 
+<div class="callout-content">
 <ul>
-<li>SUSE's KBs <a href="https://www.suse.com/support/kb/doc/?id=000021646">000021646</a> and <a href="https://www.suse.com/support/kb/doc/?id=000021647">000021647</a> provide detailed information about how the CVE portal works and how to inquire about CVEs in SUSE Rancher Prime products, respectively.</li>
-<li>Only the latest patch version of each supported release line and the respective dev/head/master development branches are scanned. Older patch versions and no longer supported (EOL) versions are not scanned. Verify the supported versions in SUSE's <a href="https://www.suse.com/lifecycle/">product support lifecycle</a> page.</li>
-<li>Consult SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021574">KB 000021574</a> to know how Rancher does its CVE triage workflow for software dependencies.</li>
-<li>The CVE scans are executed daily with internal automation developed by the SUSE Rancher Security team.</li>
-<li>Our scans use <a href="https://github.com/rancher/vexhub/">Rancher's VEX Hub</a> reports to remove known false-positives. More information on how to use those reports is available in SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>
-article.</li>
-<li>These pages are updated and regenerated daily.</li>
-<li>The CVE scanner used is Trivy with the latest version available.</li>
-<li>Only critical and high severity CVEs are displayed (internally we track all severities).</li>
-<li>If you want to report an issue with these pages, please open an <a href="https://github.com/rancher/scans/issues">issue</a>.</li>
+<li>You can click a column header to sort by column.</li>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false),<br>release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity,<br>status (if affected or not affected/false-positive),
+justification (for false-positives),<br>vulnerability type (related to the programming
+language or container OS).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected" with the severity set to "none",<br>because they do not affect the
+binary/package/image. The justification explains why they are false-positives,<br>
+according to the VEX statuses as explained in <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>.</li>
+<li>For further instructions about scanned versions, scanning frequency, tooling
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners.<br>This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being<br>exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS<br>severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
 </ul>
+</div>
 </section>
 
-<table>
+<div class="search-box">
+<p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
+
+<p style="display:none;" id="search_count"></p>
+</div>
+
+<div id="image-index"></div>
+
+<table id="cves_table">
 <tr>
-<th>CVE results</th>
-<th>Raw CSV report</th>
-<th>Raw CSV summary per image</th>
+<th onclick="sort( 0 )">Image</th>
+<th onclick="sort( 1 )">Mirrored</th>
+<th onclick="sort( 2 )">Release</th>
+<th onclick="sort( 3 )">Binary/Package</th>
+<th onclick="sort( 4 )">Dependency</th>
+<th onclick="sort( 5 )">Vulnerability ID (CVE)</th>
+<th onclick="sort( 6 )">Severity</th>
+<th onclick="sort( 7 )">Status</th>
+<th onclick="sort( 8 )">Justification (for status not affected)</th>
+<th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
-<tr>
-<td><a href="rke2-v1.36.3.html">RKE2 v1.36.3</a></td>
-<td><a href="csv/report-rke2-v1.36.3-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.36.3-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.36-prerelease.html">RKE2 v1.36 prerelease</a></td>
-<td><a href="csv/report-rke2-v1.36-prerelease-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.36-prerelease-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.35.7.html">RKE2 v1.35.7</a></td>
-<td><a href="csv/report-rke2-v1.35.7-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.35.7-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.35-prerelease.html">RKE2 v1.35 prerelease</a></td>
-<td><a href="csv/report-rke2-v1.35-prerelease-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.35-prerelease-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.34.10.html">RKE2 v1.34.10</a></td>
-<td><a href="csv/report-rke2-v1.34.10-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.34.10-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.34-prerelease.html">RKE2 v1.34 prerelease</a></td>
-<td><a href="csv/report-rke2-v1.34-prerelease-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.34-prerelease-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.33.13.html">RKE2 v1.33.13</a></td>
-<td><a href="csv/report-rke2-v1.33.13-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.33.13-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-v1.33-prerelease.html">RKE2 v1.33 prerelease</a></td>
-<td><a href="csv/report-rke2-v1.33-prerelease-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.33-prerelease-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rke2-master-prerelease.html">RKE2 master prerelease</a></td>
-<td><a href="csv/report-rke2-master-prerelease-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-master-prerelease-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.15.0.html">Rancher v2.15.0</a></td>
-<td><a href="csv/report-rancher-v2.15.0-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.15.0-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.15-head.html">Rancher v2.15 head</a></td>
-<td><a href="csv/report-rancher-v2.15-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.15-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.14.4.html">Rancher v2.14.4</a></td>
-<td><a href="csv/report-rancher-v2.14.4-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.14.4-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.14-head.html">Rancher v2.14 head</a></td>
-<td><a href="csv/report-rancher-v2.14-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.14-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.13.8.html">Rancher v2.13.8</a></td>
-<td><a href="csv/report-rancher-v2.13.8-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.13.8-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.13-head.html">Rancher v2.13 head</a></td>
-<td><a href="csv/report-rancher-v2.13-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.13-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.12.12.html">Rancher v2.12.12</a></td>
-<td><a href="csv/report-rancher-v2.12.12-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.12.12-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.12-head.html">Rancher v2.12 head</a></td>
-<td><a href="csv/report-rancher-v2.12-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.12-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.11.16.html">Rancher v2.11.16</a></td>
-<td><a href="csv/report-rancher-v2.11.16-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.11.16-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-v2.11-head.html">Rancher v2.11 head</a></td>
-<td><a href="csv/report-rancher-v2.11-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.11-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-head.html">Rancher head</a></td>
-<td><a href="csv/report-rancher-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-ai-v1.0.2.html">Rancher ai v1.0.2</a></td>
-<td><a href="csv/report-rancher-ai-v1.0.2-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-ai-v1.0.2-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-ai-main-head.html">Rancher ai main head</a></td>
-<td><a href="csv/report-rancher-ai-main-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-ai-main-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-v2.10.3.html">Observability v2.10.3</a></td>
-<td><a href="csv/report-observability-v2.10.3-cves.csv">report</a></td>
-<td><a href="csv/report-observability-v2.10.3-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-v2.10-dev.html">Observability v2.10 dev</a></td>
-<td><a href="csv/report-observability-v2.10-dev-cves.csv">report</a></td>
-<td><a href="csv/report-observability-v2.10-dev-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-agent-v1.5.40.html">Observability agent v1.5.40</a></td>
-<td><a href="csv/report-observability-agent-v1.5.40-cves.csv">report</a></td>
-<td><a href="csv/report-observability-agent-v1.5.40-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-agent-v1.5-dev.html">Observability agent v1.5 dev</a></td>
-<td><a href="csv/report-observability-agent-v1.5-dev-cves.csv">report</a></td>
-<td><a href="csv/report-observability-agent-v1.5-dev-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.6-rc.html">Neuvector v5.6-rc</a></td>
-<td><a href="csv/report-neuvector-v5.6-rc-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.6-rc-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.6.html">Neuvector v5.6</a></td>
-<td><a href="csv/report-neuvector-v5.6-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.6-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.5.html">Neuvector v5.5</a></td>
-<td><a href="csv/report-neuvector-v5.5-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.5-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.4.html">Neuvector v5.4</a></td>
-<td><a href="csv/report-neuvector-v5.4-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.4-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-v1.11.2.html">Longhorn v1.11.2</a></td>
-<td><a href="csv/report-longhorn-v1.11.2-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-v1.11.2-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-v1.11-head.html">Longhorn v1.11 head</a></td>
-<td><a href="csv/report-longhorn-v1.11-head-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-v1.11-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-master.html">Longhorn master</a></td>
-<td><a href="csv/report-longhorn-master-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-master-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="k3s-v1.36.3.html">K3s v1.36.3</a></td>
-<td><a href="csv/report-k3s-v1.36.3-cves.csv">report</a></td>
-<td><a href="csv/report-k3s-v1.36.3-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="k3s-v1.35.7.html">K3s v1.35.7</a></td>
-<td><a href="csv/report-k3s-v1.35.7-cves.csv">report</a></td>
-<td><a href="csv/report-k3s-v1.35.7-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="k3s-v1.34.10.html">K3s v1.34.10</a></td>
-<td><a href="csv/report-k3s-v1.34.10-cves.csv">report</a></td>
-<td><a href="csv/report-k3s-v1.34.10-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="k3s-v1.33.13.html">K3s v1.33.13</a></td>
-<td><a href="csv/report-k3s-v1.33.13-cves.csv">report</a></td>
-<td><a href="csv/report-k3s-v1.33.13-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-v1.8.1.html">Harvester v1.8.1</a></td>
-<td><a href="csv/report-harvester-v1.8.1-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.8.1-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-v1.8-head.html">Harvester v1.8 head</a></td>
-<td><a href="csv/report-harvester-v1.8-head-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.8-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-v1.7.1.html">Harvester v1.7.1</a></td>
-<td><a href="csv/report-harvester-v1.7.1-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.7.1-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-v1.7-head.html">Harvester v1.7 head</a></td>
-<td><a href="csv/report-harvester-v1.7-head-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.7-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-master.html">Harvester master</a></td>
-<td><a href="csv/report-harvester-master-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-master-stats.csv">report</a></td>
+<tr class="issue">
+<td>stgregistry.suse.com/rancher/rancher-ai-mcp:head</td>
+<td>false</td>
+<td>Rancher ai main head</td>
+<td>usr/local/bin/mcp</td>
+<td>github.com/go-git/go-git/v5@v5.19.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71556">CVE-2026-71556</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
 </tr>
 </table>
 
@@ -765,6 +595,214 @@ Commons license with Attribution (CC-BY-4.0). See the
 </b></p>
 </footer>
 </main>
+
+<script>
+function search() {
+    let searchBar, searchCount, query, tr, td;
+    let image, mirrored, release, affected_binary, vuln_dep, vuln_id, severity;
+    let status, justification, type;
+
+    searchBar = document.getElementById("searchBar");
+    query = searchBar.value.toUpperCase();
+    tr = document.getElementById("cves_table").rows;
+
+    // The "hide VEXed" toggle only affects what is displayed; it never changes
+    // the underlying rows/data. VEXed CVEs are the "not affected" rows.
+    let hideVexedEl = document.getElementById("toggleVexed");
+    let hideVexed = hideVexedEl ? hideVexedEl.checked : false;
+
+    let found = 0;
+    for (var i = 1; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")
+
+        image = td[0].textContent.toUpperCase();
+        mirrored = td[1].textContent.toUpperCase();
+        release = td[2].textContent.toUpperCase();
+        affected_binary = td[3].textContent.toUpperCase();
+        vuln_dep = td[4].textContent.toUpperCase();
+        vuln_id= td[5].textContent.toUpperCase();
+        severity = td[6].textContent.toUpperCase();
+        status = td[7].textContent.toUpperCase();
+        justification = td[8].textContent.toUpperCase();
+        type = td[9].textContent.toUpperCase();
+
+        // Use startsWith() when searching for the status in order for
+        // `affected` to not match `not affected` entries.
+        let matches = status.startsWith(query) ||
+            image.includes(query) || mirrored.includes(query) ||
+            release.includes(query) || affected_binary.includes(query) ||
+            vuln_dep.includes(query) || vuln_id.includes(query) ||
+            severity.includes(query) || justification.includes(query) ||
+            type.includes(query);
+
+        if (hideVexed && tr[i].classList.contains("not_affected")) {
+            matches = false;
+        }
+
+        if (matches) {
+            tr[i].style.display = "";
+            found++;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+
+    searchCount = document.getElementById("search_count");
+    searchCount.style.display = "";
+    if (query == "") {
+        searchCount.textContent = "Total results: " + found;
+    } else {
+        searchCount.textContent = "Found " + found + " results";
+    }
+}
+</script>
+<script>
+let lastColumn = 0
+
+function sort(col) {
+    var table = document.getElementById("cves_table")
+    if (col === lastColumn) {
+        const rows = table.rows
+        for (let i = rows.length - 1; i > 0; i--) {
+            table.appendChild(rows[i])
+        }
+        return
+    }
+    lastColumn = col
+    const rows = mergeSort(Array.from(table.getElementsByClassName("issue")), col)
+    rows.forEach(tr => table.appendChild(tr))
+}
+
+function mergeSort(array, col) {
+    if (array.length < 2) {
+        return array
+    }
+    const half = array.length / 2
+    return merge(mergeSort(array.splice(0, half), col), mergeSort(array, col), col)
+}
+
+function merge(left, right, col) {
+    let arr = []
+    while (left.length && right.length) {
+        if (left[0].getElementsByTagName("td")[col].innerHTML.toLowerCase() < right[0].getElementsByTagName("td")[col].innerHTML.toLowerCase()) {
+            arr.push(left.shift())
+        } else {
+            arr.push(right.shift())
+        }
+    }
+    return [...arr, ...left, ...right]
+}
+</script>
+<script>
+// Builds a compact "images in this report" index at the top of a per-release
+// page. It is purely additive UI over the existing flat table -- it reads the
+// rendered rows, assigns a jump anchor to the first row of each image, and
+// renders a summary card with per-image counts and jump links so users can
+// quickly find an individual image without scrolling the big table.
+(function () {
+  function slug(s) {
+    return "img-" + s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var table = document.getElementById("cves_table");
+    var mount = document.getElementById("image-index");
+    if (!table || !mount) return;
+
+    var rows = table.rows;
+    // Column layout differs between Rancher (has "Mirrored") and K3s. Detect the
+    // severity/status columns from the header instead of hard-coding indexes.
+    var head = rows[0].cells;
+    var sevCol = -1, imgCol = 0;
+    for (var h = 0; h < head.length; h++) {
+      var t = head[h].textContent.trim().toUpperCase();
+      if (t.indexOf("SEVERITY") === 0) sevCol = h;
+    }
+
+    var order = [];
+    var byImage = {};
+    for (var i = 1; i < rows.length; i++) {
+      var cells = rows[i].cells;
+      if (!cells.length) continue;
+      var image = cells[imgCol].textContent.trim();
+      if (!byImage[image]) {
+        byImage[image] = { image: image, critical: 0, high: 0, vexed: 0, anchor: slug(image) };
+        order.push(image);
+        rows[i].id = byImage[image].anchor; // anchor on first row of the image
+      }
+      var rec = byImage[image];
+      if (rows[i].classList.contains("not_affected")) {
+        rec.vexed++;
+      } else if (sevCol >= 0) {
+        var sev = cells[sevCol].textContent.trim().toUpperCase();
+        if (sev.indexOf("CRITICAL") === 0) rec.critical++;
+        else if (sev.indexOf("HIGH") === 0) rec.high++;
+      }
+    }
+
+    if (!order.length) return;
+
+    // Worst-first: critical, then high, then vexed count.
+    order.sort(function (a, b) {
+      var x = byImage[a], y = byImage[b];
+      return (y.critical - x.critical) || (y.high - x.high) || (y.vexed - x.vexed) ||
+        a.localeCompare(b);
+    });
+
+    var details = document.createElement("details");
+    details.className = "image-index-card";
+    details.open = true;
+
+    var summary = document.createElement("summary");
+    var toggleLabel = document.createElement("span");
+    toggleLabel.className = "toggle-label";
+    toggleLabel.textContent = "Images in this report";
+    var countBadge = document.createElement("span");
+    countBadge.className = "image-index-count";
+    countBadge.textContent = order.length;
+    summary.appendChild(toggleLabel);
+    summary.appendChild(document.createTextNode(" "));
+    summary.appendChild(countBadge);
+    details.appendChild(summary);
+
+    var listDiv = document.createElement("div");
+    listDiv.className = "image-index-list";
+    for (var k = 0; k < order.length; k++) {
+      var r = byImage[order[k]];
+      var item = document.createElement("a");
+      item.className = "image-index-item";
+      item.href = "#" + r.anchor; // anchor is already sanitized by slug()
+      var badgesSpan = document.createElement("span");
+      badgesSpan.className = "image-index-badges";
+      if (r.critical) {
+        var crit = document.createElement("span");
+        crit.className = "sev sev-CRITICAL";
+        crit.textContent = r.critical + " C";
+        badgesSpan.appendChild(crit);
+      }
+      if (r.high) {
+        var high = document.createElement("span");
+        high.className = "sev sev-HIGH";
+        high.textContent = r.high + " H";
+        badgesSpan.appendChild(high);
+      }
+      if (r.vexed) {
+        var vex = document.createElement("span");
+        vex.className = "status status-clear";
+        vex.textContent = r.vexed + " VEXed";
+        badgesSpan.appendChild(vex);
+      }
+      item.appendChild(badgesSpan);
+      var code = document.createElement("code");
+      code.textContent = r.image;
+      item.appendChild(code);
+      listDiv.appendChild(item);
+    }
+    details.appendChild(listDiv);
+    mount.appendChild(details);
+  });
+})();
+</script>
 
 </body>
 </html>

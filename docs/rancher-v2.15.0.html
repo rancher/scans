@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Rancher v2.15.0 version - CVE Scans - 2026-08-07</h1>
+<h1>SUSE Rancher - Rancher v2.15.0 version - CVE Scans - 2026-08-08</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -3063,6 +3063,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/fleet-agent:v0.16.0</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>usr/bin/fleetagent</td>
+<td>github.com/go-git/go-git/v5@v5.19.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71556">CVE-2026-71556</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.16.0</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>usr/bin/fleet</td>
+<td>github.com/go-git/go-git/v5@v5.19.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71556">CVE-2026-71556</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/fleet:v0.16.0</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>usr/bin/fleetcontroller</td>
+<td>github.com/go-git/go-git/v5@v5.19.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71556">CVE-2026-71556</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/gke-operator:v1.15.0</td>
 <td>false</td>
 <td>Rancher v2.15.0</td>
@@ -4185,6 +4221,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>snapshot-controller</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-54763.html">CVE-2026-54763</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-65600">CVE-2026-65600</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67309">CVE-2026-67309</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71324">CVE-2026-71324</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-traefik:v3.7.4-build20260608</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71327">CVE-2026-71327</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -9010,6 +9106,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>libarchive@3.8.2-1.ph5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-5121.html">CVE-2026-5121</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>photon</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.6.0</td>
+<td>true</td>
+<td>Rancher v2.15.0</td>
+<td>libacl</td>
+<td>libacl@2.3.1-6.ph5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-54369.html">CVE-2026-54369</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>photon</td>
@@ -16287,6 +16395,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.4</td>
+<td>true</td>
+<td>Rancher v2.15.0</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-54763.html">CVE-2026-54763</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.4</td>
+<td>true</td>
+<td>Rancher v2.15.0</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-65600">CVE-2026-65600</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.4</td>
+<td>true</td>
+<td>Rancher v2.15.0</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67309">CVE-2026-67309</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.4</td>
+<td>true</td>
+<td>Rancher v2.15.0</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71324">CVE-2026-71324</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.4</td>
+<td>true</td>
+<td>Rancher v2.15.0</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/traefik/traefik/v3@v3.7.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71327">CVE-2026-71327</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-longhornio-backing-image-manager:v1.11.3</td>
 <td>true</td>
 <td>Rancher v2.15.0</td>
@@ -23097,6 +23265,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/k9s</td>
 <td>github.com/containerd/containerd@v1.7.32</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-53488.html">CVE-2026-53488</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.8.1</td>
+<td>false</td>
+<td>Rancher v2.15.0</td>
+<td>usr/bin/k9s</td>
+<td>github.com/go-git/go-git/v5@v5.19.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71556">CVE-2026-71556</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>

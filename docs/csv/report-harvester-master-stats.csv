@@ -21,8 +21,8 @@ rancher/appco-k8s-sidecar:2.1.2-1.10,1,25,26
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,26,26
 rancher/appco-node-exporter:1.10.2-14.3,0,5,5
 rancher/cluster-api-controller:v1.13.3,0,3,3
-rancher/fleet-agent:v0.16.0,0,0,0
-rancher/fleet:v0.16.0,0,0,0
+rancher/fleet-agent:v0.16.0,0,1,1
+rancher/fleet:v0.16.0,0,2,2
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,0,0
 rancher/hardened-calico:v3.32.1-build20260722,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,0,0
@@ -35,8 +35,8 @@ rancher/hardened-k8s-metrics-server:v0.9.0-build20260722,0,0,0
 rancher/hardened-kubernetes:v1.36.3-rke2r1-build20260723,0,0,0
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,0,0
-rancher/hardened-traefik:v3.7.8-build20260717,0,0,0
-rancher/harvester-cluster-repo:2958ff4b,0,0,0
+rancher/hardened-traefik:v3.7.8-build20260717,0,2,2
+rancher/harvester-cluster-repo:e1b77b26,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.2-dev.0,0,30,30
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -51,7 +51,7 @@ rancher/harvester-node-manager-webhook:master-head,0,0,0
 rancher/harvester-node-manager:master-head,0,0,0
 rancher/harvester-pcidevices:master-head,0,0,0
 rancher/harvester-seeder:main-head,0,0,0
-rancher/harvester-upgrade:master-head,0,33,33
+rancher/harvester-upgrade:master-head,0,34,34
 rancher/harvester-vm-import-controller:main-head,0,0,0
 rancher/harvester-webhook:master-head,0,0,0
 rancher/harvester:master-head,0,0,0
@@ -65,7 +65,7 @@ rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,6,6
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,13,13
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,10,10
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.1,0,2,2
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.1,0,1,1
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,3,33,36
 rancher/mirrored-pause:3.10.2,0,0,0
@@ -79,7 +79,7 @@ rancher/rancher-webhook:v0.11.0,0,0,0
 rancher/rancher:v2.15.0,0,19,19
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,0,0
 rancher/rke2-runtime:v1.36.3-rke2r1,0,0,0
-rancher/shell:v0.8.1,0,4,4
+rancher/shell:v0.8.1,0,5,5
 rancher/support-bundle-kit:master-head,0,0,0
 rancher/system-agent-installer-rancher:v2.15.0,0,2,2
 rancher/system-agent-installer-rke2:v1.36.3-rke2r1,0,0,0
@@ -90,10 +90,10 @@ registry.k8s.io/descheduler/descheduler:v0.36.0,0,3,3
 registry.k8s.io/sig-storage/snapshot-controller:v8.6.0,0,2,2
 registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.11.1,0,9,9
-registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.11.1,0,11,11
+registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.11.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.11.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.11.1,0,12,12
-registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.11.1,0,9,9
+registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.11.1,0,8,8
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.11.1,0,9,9
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.11.1,0,11,11
 registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.4-150700.3.30.1,0,9,9

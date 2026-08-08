@@ -1,1 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+stgregistry.suse.com/rancher/rancher-ai-mcp:head,rancher-ai/main-head,github.com/go-git/go-git/v5,v5.19.1,gobinary,CVE-2026-71556,HIGH,https://avd.aquasec.com/nvd/cve-2026-71556,usr/local/bin/mcp,5.19.2,false,affected,
