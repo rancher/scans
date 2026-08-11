@@ -111,7 +111,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,5,5
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,2,2
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,1,1
 rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,14,14
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,15,15
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,13,13
 rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,10,10
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,7,7

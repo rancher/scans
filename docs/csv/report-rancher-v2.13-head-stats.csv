@@ -8,7 +8,7 @@ rancher/appco-kube-state-metrics:2.17.0-10.7,0,28,28
 rancher/appco-node-exporter:1.9.1-11.3,0,29,29
 rancher/appco-redis:8.0.3-2.1,1,8,9
 rancher/appco-thanos:0.39.2-7.3,0,30,30
-rancher/backup-restore-operator:v9.0.6,0,1,1
+rancher/backup-restore-operator:v9.0.7-rc.3,0,0,0
 rancher/compliance-operator:v1.3.9,0,0,0
 rancher/eks-operator:v1.13.8,0,0,0
 rancher/fleet-agent:v0.14.9,0,0,0
@@ -123,7 +123,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,5,5
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,2,2
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,1,1
 rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,14,14
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,15,15
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,13,13
 rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,10,10
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,7,7
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,7,7
@@ -182,5 +182,5 @@ rancher/system-agent-installer-rke2:v1.33.13-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.34.10-rke2r1,0,0,0
 rancher/system-agent:v0.13.0-suc,0,9,9
 rancher/system-upgrade-controller:v0.17.0,0,10,10
-rancher/turtles:v0.25.7-rc.0,0,0,0
+rancher/turtles:v0.25.7-rc.1,0,0,0
 rancher/ui-plugin-catalog:4.33.0,0,4,4
