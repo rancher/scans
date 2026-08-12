@@ -74,7 +74,7 @@ rancher/mirrored-sig-storage-csi-node-driver-registrar:v2.13.0,0,12,12
 rancher/mirrored-sig-storage-csi-provisioner:v4.0.1,0,17,17
 rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,13,13
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,12,12
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,15,15
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,14,14
 rancher/rancher-agent:head,0,2,2
 rancher/rancher-assets:v2.16-20260805T1815Z-dev,0,0,0
 rancher/rancher-webhook:v0.12.1-rc.1,0,0,0
