@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 master prerelease version - CVE Scans - 2026-08-12</h1>
+<h1>SUSE Rancher - RKE2 master prerelease version - CVE Scans - 2026-08-13</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -1723,6 +1723,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 master prerelease</td>
 <td>usr/local/bin/etcd</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.14-k3s1-build20260723</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.14-k3s1-build20260723</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>usr/local/bin/etcd</td>
 <td>golang.org/x/text@v0.37.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -1743,6 +1767,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-snapshot-controller:v8.6.0-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>snapshot-controller</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/harvester-cloud-provider:v0.2.7</td>
 <td>false</td>
 <td>RKE2 master prerelease</td>
@@ -1752,6 +1788,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-cloud-provider:v0.2.7</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/harvester-cloud-provider</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -1944,6 +1992,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/harvester-csi-driver</td>
+<td>golang.org/x/net@v0.49.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -2433,6 +2493,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/helm</td>
 <td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.13.3-build20260727</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -2979,6 +3051,90 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-cilium-certgen:v0.4.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-certgen</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>opt/cni/bin/cilium-cni</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-agent</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-bugtool</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-dbg</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-health</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/hubble</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
 <td>true</td>
 <td>RKE2 master prerelease</td>
@@ -3187,11 +3343,47 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 master prerelease</td>
 <td>usr/bin/etcd</td>
+<td>golang.org/x/net@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/clustermesh-apiserver</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/etcd</td>
 <td>golang.org/x/text@v0.36.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-hubble-relay:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/hubble-relay</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -3312,6 +3504,54 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-hubble-ui-backend:v0.13.5</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/backend</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-operator-aws:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-operator-aws</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-operator-azure:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-operator-azure</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-cilium-operator-generic:v1.19.6</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>usr/bin/cilium-operator-generic</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -3595,6 +3835,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 master prerelease</td>
 <td>kube-vip</td>
+<td>golang.org/x/net@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>kube-vip</td>
 <td>golang.org/x/text@v0.35.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -3795,6 +4047,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>csi-attacher</td>
+<td>golang.org/x/net@v0.48.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428</td>
 <td>true</td>
 <td>RKE2 master prerelease</td>
@@ -3907,6 +4171,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 master prerelease</td>
 <td>csi-node-driver-registrar</td>
+<td>golang.org/x/net@v0.49.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>csi-node-driver-registrar</td>
 <td>golang.org/x/text@v0.33.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -3993,6 +4269,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-provisioner</td>
 <td>stdlib@v1.25.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/net@v0.48.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -4191,6 +4479,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>csi-resizer</td>
+<td>golang.org/x/net@v0.48.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428</td>
 <td>true</td>
 <td>RKE2 master prerelease</td>
@@ -4371,6 +4671,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428</td>
+<td>true</td>
+<td>RKE2 master prerelease</td>
+<td>csi-snapshotter</td>
+<td>golang.org/x/net@v0.49.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260722</td>
 <td>false</td>
 <td>RKE2 master prerelease</td>
@@ -4473,6 +4785,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/rke2-cloud-provider</td>
 <td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -4611,6 +4935,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.36.0-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>vsphere-cloud-controller-manager</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722</td>
 <td>false</td>
 <td>RKE2 master prerelease</td>
@@ -4737,6 +5073,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-attacher</td>
 <td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-attacher</td>
+<td>golang.org/x/net@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -4776,6 +5124,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.17.0-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-node-driver-registrar</td>
+<td>golang.org/x/net@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4819,6 +5179,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 master prerelease</td>
 <td>csi-provisioner</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-provisioner</td>
 <td>golang.org/x/text@v0.36.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -4855,11 +5227,35 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 master prerelease</td>
 <td>csi-resizer</td>
+<td>golang.org/x/net@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-resizer</td>
 <td>golang.org/x/text@v0.36.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-csi-snapshotter:v8.6.0-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>csi-snapshotter</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4896,6 +5292,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-livenessprobe:v2.19.0-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>livenessprobe</td>
+<td>golang.org/x/net@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4915,6 +5323,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 master prerelease</td>
 <td>vsphere-csi</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260731</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>vsphere-csi</td>
 <td>golang.org/x/text@v0.38.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -4927,11 +5347,35 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 master prerelease</td>
 <td>syncer</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>syncer</td>
 <td>golang.org/x/text@v0.38.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime9</td>
+<td>false</td>
+<td>RKE2 master prerelease</td>
+<td>kube-webhook-certgen</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

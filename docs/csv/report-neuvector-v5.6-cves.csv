@@ -1,4 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+neuvector/enforcer:5.6.1,neuvector/v5.6,golang.org/x/net,v0.55.0,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,usr/bin/yq,0.56.0,false,not_affected,vulnerable_code_not_present
 neuvector/enforcer:5.6.1,neuvector/v5.6,yq,4.53.3-6.1,sles,SUSE-SU-2026:3327-1,HIGH,,neuvector/enforcer:5.6.1 (sles 15.7),4.53.3-150500.3.12.1,false,affected,
-neuvector/prometheus-exporter:1.0.17,neuvector/v5.6,setuptools,70.3.0,python-pkg,CVE-2025-47273,HIGH,https://avd.aquasec.com/nvd/cve-2025-47273,Python,78.1.1,false,affected,
-neuvector/prometheus-exporter:1.0.17,neuvector/v5.6,msgpack,1.1.2,python-pkg,GHSA-6v7p-g79w-8964,HIGH,https://github.com/advisories/GHSA-6v7p-g79w-8964,Python,1.2.1,false,affected,
+neuvector/prometheus-exporter:1.0.18,neuvector/v5.6,perl-base,5.26.1-150300.17.20.1,sles,SUSE-SU-2026:3558-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),5.26.1-150300.17.23.1,false,affected,
