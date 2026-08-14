@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,0,0
-rancher/hardened-calico:v3.32.1-build20260722,0,1,1
+rancher/hardened-calico:v3.32.1-build20260722,0,2,2
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.6-build20260722,0,0,0
@@ -92,4 +92,4 @@ rancher/system-agent-installer-k3s:v1.36.3-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.3-rke2r1,0,0,0
 rancher/system-agent:v0.15.0-suc,0,3,3
-rancher/ui-plugin-catalog:4.33.0,0,7,7
+rancher/ui-plugin-catalog:4.35.0,0,0,0
