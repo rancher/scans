@@ -26,7 +26,7 @@ rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.15.0,0,5,5
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,14,14
 rancher/local-path-provisioner:v0.0.36,0,68,68
-rancher/machine:v0.15.0-rancher145,0,12,12
+rancher/machine:v0.15.0-rancher145,0,10,10
 rancher/mirrored-bci-micro:16.0-15.11,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,1,1
 rancher/mirrored-calico-cni:v3.32.1,0,1,1

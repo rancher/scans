@@ -205,7 +205,7 @@ neuvector/manager:5.5.3,neuvector/v5.5,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE
 neuvector/manager:5.5.3,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
 neuvector/manager:5.5.3,neuvector/v5.5,krb5,1.20.1-150600.11.14.1,sles,SUSE-SU-2026:2848-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),1.20.1-150600.11.19.1,false,affected,
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,perl-base,5.26.1-150300.17.20.1,sles,SUSE-SU-2026:3558-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),5.26.1-150300.17.23.1,false,not_affected,vulnerable_code_not_in_execute_path
-neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,rpm-ndb,4.14.3-150400.59.16.1,sles,SUSE-SU-2026:3600-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),4.14.3-150400.59.19.1,false,affected,
+neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,rpm-ndb,4.14.3-150400.59.16.1,sles,SUSE-SU-2026:3600-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),4.14.3-150400.59.19.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,usr/local/bin/adapter,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path

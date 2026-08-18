@@ -74,7 +74,7 @@ rancher/mirrored-prometheus-operator-admission-webhook:v0.87.1,0,13,13
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.87.1,0,13,13
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.87.1,0,13,13
 rancher/prom-prometheus:v3.8.1,0,39,39
-rancher/rancher-agent:v2.15.0,0,15,15
+rancher/rancher-agent:v2.15.0,0,13,13
 rancher/rancher-webhook:v0.11.0,0,4,4
 rancher/rancher:v2.15.0,0,71,71
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,4,4
