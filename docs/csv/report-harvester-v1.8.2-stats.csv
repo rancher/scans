@@ -59,7 +59,7 @@ rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,14,14
 rancher/kubectl:v1.35.1,0,10,10
 rancher/kuberlr-kubectl:v7.1.0,0,26,26
-rancher/mirrored-fluent-fluent-bit:3.1.8,4,36,40
+rancher/mirrored-fluent-fluent-bit:3.1.8,4,52,56
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,16,16
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81
@@ -78,7 +78,7 @@ rancher/rancher-agent:v2.14.3,0,15,15
 rancher/rancher-webhook:v0.10.7,0,4,4
 rancher/rancher:v2.14.3,0,99,99
 rancher/rke2-cloud-provider:v1.35.6-0.20260610221957-158346759a70-build20260710,0,5,5
-rancher/rke2-runtime:v1.35.7-rke2r1,0,25,25
+rancher/rke2-runtime:v1.35.7-rke2r1,0,26,26
 rancher/shell:v0.7.1,0,37,37
 rancher/support-bundle-kit:v0.0.92,0,8,8
 rancher/system-agent-installer-rancher:v2.14.3,0,14,14

@@ -81,7 +81,7 @@ rancher/mirrored-coredns-coredns:1.14.6,0,15,15
 rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,36,601,637
+rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,36,651,687
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,9,9
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,2,20,22
 rancher/mirrored-library-busybox:1.31.1,0,0,0
@@ -126,7 +126,7 @@ rancher/neuvector-enforcer:5.6.0,0,28,28
 rancher/neuvector-manager:5.6.0,0,0,0
 rancher/neuvector-prometheus-exporter:1.0.16,0,4,4
 rancher/neuvector-registry-adapter:0.2.9,0,5,5
-rancher/neuvector-scanner:6,0,15,15
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.13,0,0,0
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,29,29
 rancher/prom-prometheus:v3.8.1,0,39,39
@@ -139,8 +139,8 @@ rancher/rancher:v2.15.0,0,71,71
 rancher/remotedialer-proxy:v0.8.0,0,4,4
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,4,4
 rancher/rke2-runtime:v1.34.10-rke2r1,0,25,25
-rancher/rke2-runtime:v1.35.7-rke2r1,0,25,25
-rancher/rke2-runtime:v1.36.3-rke2r1,0,25,25
+rancher/rke2-runtime:v1.35.7-rke2r1,0,26,26
+rancher/rke2-runtime:v1.36.3-rke2r1,0,26,26
 rancher/rke2-upgrade:v1.34.10-rke2r1,0,16,16
 rancher/rke2-upgrade:v1.35.7-rke2r1,0,16,16
 rancher/rke2-upgrade:v1.36.3-rke2r1,0,15,15

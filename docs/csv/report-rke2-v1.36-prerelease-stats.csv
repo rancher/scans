@@ -12,7 +12,7 @@ rancher/hardened-multus-cni:v4.3.0-build20260722,0,0,0
 rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260722,0,4,4
 rancher/hardened-multus-thick:v4.3.0-build20260722,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,5,5
-rancher/hardened-traefik:v3.7.10-build20260804,0,5,5
+rancher/hardened-traefik:v3.7.10-build20260804,0,6,6
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
 rancher/harvester-cloud-provider:v0.2.8,0,6,6
 rancher/harvester-csi-driver:v0.2.9,0,13,13

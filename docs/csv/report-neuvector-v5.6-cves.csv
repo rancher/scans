@@ -53,21 +53,3 @@ neuvector/registry-adapter:0.2.10,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-202
 neuvector/registry-adapter:0.2.10,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56853,HIGH,https://avd.aquasec.com/nvd/cve-2026-56853,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56859,HIGH,https://avd.aquasec.com/nvd/cve-2026-56859,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/registry-adapter:0.2.10,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/scanner,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/scannerTask,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/sigstore-interface,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/scanner,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/scannerTask,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/sigstore-interface,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,usr/local/bin/scanner,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,usr/local/bin/scannerTask,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,usr/local/bin/sigstore-interface,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56853,HIGH,https://avd.aquasec.com/nvd/cve-2026-56853,usr/local/bin/scanner,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56853,HIGH,https://avd.aquasec.com/nvd/cve-2026-56853,usr/local/bin/scannerTask,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56853,HIGH,https://avd.aquasec.com/nvd/cve-2026-56853,usr/local/bin/sigstore-interface,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56859,HIGH,https://avd.aquasec.com/nvd/cve-2026-56859,usr/local/bin/scanner,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56859,HIGH,https://avd.aquasec.com/nvd/cve-2026-56859,usr/local/bin/scannerTask,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56859,HIGH,https://avd.aquasec.com/nvd/cve-2026-56859,usr/local/bin/sigstore-interface,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/scanner,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/scannerTask,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.6,stdlib,v1.26.5,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/sigstore-interface,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
