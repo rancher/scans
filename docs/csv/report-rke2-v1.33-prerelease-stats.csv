@@ -15,7 +15,7 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,5,5
 rancher/hardened-traefik:v3.7.8-build20260717,0,7,7
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
 rancher/harvester-cloud-provider:v0.2.7,0,5,5
-rancher/harvester-csi-driver:v0.2.9,0,13,13
+rancher/harvester-csi-driver:v0.2.9,0,12,12
 rancher/klipper-helm:v0.13.3-build20260727,0,12,12
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,1,1

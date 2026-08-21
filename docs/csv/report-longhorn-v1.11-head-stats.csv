@@ -7,7 +7,7 @@ longhornio/csi-resizer:v2.2.1,0,6,6
 longhornio/csi-snapshotter:v8.6.0,0,7,7
 longhornio/livenessprobe:v2.19.0,0,5,5
 longhornio/longhorn-cli:v1.11.x-head,0,8,8
-longhornio/longhorn-engine:v1.11.x-head,0,19,19
+longhornio/longhorn-engine:v1.11.x-head,0,12,12
 longhornio/longhorn-instance-manager:v1.11.x-head,0,6,6
 longhornio/longhorn-manager:v1.11.x-head,0,6,6
 longhornio/longhorn-share-manager:v1.11.x-head,0,5,5

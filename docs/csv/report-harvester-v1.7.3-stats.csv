@@ -71,7 +71,7 @@ rancher/mirrored-prometheus-node-exporter:v1.9.0,0,15,15
 rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,16,16
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,16,16
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,16,16
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,29,29
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,28,28
 rancher/prom-prometheus:v3.2.1,0,44,44
 rancher/rancher-agent:v2.13.3,2,48,50
 rancher/rancher-webhook:v0.9.3,0,18,18
@@ -90,7 +90,7 @@ registry.suse.com/bci/bci-base:15.7,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.8.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.8.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.8.1,0,12,12
-registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,14,14
+registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,13,13
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,12,12

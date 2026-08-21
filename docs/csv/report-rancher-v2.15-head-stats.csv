@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.15.1-rc.1,0,3,3
+rancher/aks-operator:v1.15.1,0,0,0
 rancher/appco-alertmanager:0.30.0-12.16,0,34,34
 rancher/appco-grafana:12.3.1-1.12,1,78,79
 rancher/appco-k8s-sidecar:2.1.2-1.10,1,28,29
@@ -11,9 +11,9 @@ rancher/appco-thanos:0.40.1-8.1,0,34,34
 rancher/backup-restore-operator:v11.0.2-rc.2,0,0,0
 rancher/compliance-operator:v1.5.1-rc.1,0,5,5
 rancher/eks-operator:v1.15.1-rc.1,0,4,4
-rancher/fleet-agent:v0.16.1-rc.1,0,0,0
-rancher/fleet:v0.16.1-rc.1,0,0,0
-rancher/gke-operator:v1.15.1-rc.1,0,3,3
+rancher/fleet-agent:v0.16.1-rc.2,0,0,0
+rancher/fleet:v0.16.1-rc.2,0,0,0
+rancher/gke-operator:v1.15.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,5,5
 rancher/hardened-calico:v3.32.1-build20260722,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,5,5
@@ -34,7 +34,7 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,5,5
 rancher/hardened-traefik:v3.7.8-build20260717,0,7,7
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
 rancher/harvester-cloud-provider:v0.2.7,0,5,5
-rancher/harvester-csi-driver:v0.2.9,0,13,13
+rancher/harvester-csi-driver:v0.2.9,0,12,12
 rancher/helm-controller:v0.16.10,2,30,32
 rancher/k3s-upgrade:v1.34.10-k3s1,0,4,4
 rancher/k3s-upgrade:v1.35.7-k3s1,0,4,4
@@ -75,7 +75,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,1,1
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,18,31,49
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,18,33,51
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,16,25,41
 rancher/mirrored-cloud-provider-vsphere:v1.36.0,0,7,7
 rancher/mirrored-coredns-coredns:1.14.6,0,15,15
@@ -83,7 +83,7 @@ rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,52,56
-rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-3,6,111,117
+rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-3,6,143,149
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,9,9
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81
@@ -133,15 +133,15 @@ rancher/neuvector-prometheus-exporter:1.0.18,0,1,1
 rancher/neuvector-registry-adapter:0.2.10,0,4,4
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.14,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,29,29
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,28,28
 rancher/prom-prometheus:v3.8.1,0,39,39
 rancher/prometheus-federator:v7.0.1-rc.1,0,4,4
 rancher/pushprox:v0.1.11,0,7,7
 rancher/rancher-agent:v2.15-head,0,7,7
 rancher/rancher-csp-adapter:v10.0.0,0,4,4
-rancher/rancher-webhook:v0.11.1-rc.3,0,4,4
+rancher/rancher-webhook:v0.11.1-rc.4,0,0,0
 rancher/rancher:v2.15-head,1,59,60
-rancher/remotedialer-proxy:v0.8.1-rc.1,0,4,4
+rancher/remotedialer-proxy:v0.8.1-rc.2,0,0,0
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,4,4
 rancher/rke2-runtime:v1.34.10-rke2r1,0,25,25
 rancher/rke2-runtime:v1.35.7-rke2r1,0,26,26

@@ -11,12 +11,12 @@ rancher/hardened-k8s-metrics-server:v0.9.0-build20260819,0,0,0
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,0,0
 rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260722,0,4,4
 rancher/hardened-multus-thick:v4.3.0-build20260722,0,0,0
-rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,5,5
-rancher/hardened-traefik:v3.7.10-build20260814,0,1,1
+rancher/hardened-snapshot-controller:v8.6.0-build20260819,0,0,0
+rancher/hardened-traefik:v3.7.11-build20260819,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
 rancher/harvester-cloud-provider:v0.2.8,0,6,6
-rancher/harvester-csi-driver:v0.2.9,0,13,13
-rancher/klipper-helm:v0.13.3-build20260727,0,12,12
+rancher/harvester-csi-driver:v0.2.9,0,12,12
+rancher/klipper-helm:v0.13.3-build20260820,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,1,1
 rancher/mirrored-calico-cni:v3.32.1,0,1,1
@@ -52,7 +52,7 @@ rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428,0,10,10
 rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,10,10
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,10,10
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260722,0,4,4
+rancher/rke2-cloud-provider:v1.35.1-0.20260817230842-2a1e2e8cf41b-build20260820,0,0,0
 rancher/rke2-security-responder:v0.1.4,0,0,0
 registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.36.0-build20260722,0,6,6
 registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722,0,6,6
@@ -63,5 +63,5 @@ registry.rancher.com/rancher/hardened-csi-snapshotter:v8.6.0-build20260722,0,5,5
 registry.rancher.com/rancher/hardened-livenessprobe:v2.19.0-build20260722,0,5,5
 registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260731,0,5,5
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722,0,5,5
-registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime10,0,0,0
-registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime10,0,0,0
+registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime11,0,0,0
+registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime11,0,0,0

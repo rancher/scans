@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Rancher v2.11.16 version - CVE Scans - 2026-08-20</h1>
+<h1>SUSE Rancher - Rancher v2.11.16 version - CVE Scans - 2026-08-21</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -6174,18 +6174,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-csi-driver:v0.2.3</td>
 <td>false</td>
 <td>Rancher v2.11.16</td>
-<td>zypper</td>
-<td>zypper@1.14.90-150600.10.34.3</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262590-1">SUSE-SU-2026:2590-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.3</td>
-<td>false</td>
-<td>Rancher v2.11.16</td>
 <td>curl</td>
 <td>curl@8.6.0-150600.4.21.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262926-1">SUSE-SU-2026:2926-1</a></td>
@@ -6609,18 +6597,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>libsqlite3-0</td>
 <td>libsqlite3-0@3.50.2-150000.3.33.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262528-1">SUSE-SU-2026:2528-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/harvester-csi-driver:v0.2.4</td>
-<td>false</td>
-<td>Rancher v2.11.16</td>
-<td>zypper</td>
-<td>zypper@1.14.93-150600.10.49.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262590-1">SUSE-SU-2026:2590-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -14838,6 +14814,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-calico-node:v3.30.2</td>
 <td>true</td>
 <td>Rancher v2.11.16</td>
+<td>util-linux</td>
+<td>util-linux@2.32.1-46.el8</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.30.2</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
 <td>libacl</td>
 <td>libacl@2.2.53-3.el8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-54369.html">CVE-2026-54369</a></td>
@@ -15213,6 +15201,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcap</td>
 <td>libcap@2.48-6.el8_9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-4878.html">CVE-2026-4878</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.31.3</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>util-linux</td>
+<td>util-linux@2.32.1-47.el8_10</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -24105,6 +24105,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>python3-libs</td>
 <td>python3-libs@3.11.9-10.ph5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-11972.html">CVE-2026-11972</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>photon</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>python3</td>
+<td>python3@3.11.9-10.ph5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-15308.html">CVE-2026-15308</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>photon</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>python3-libs</td>
+<td>python3-libs@3.11.9-10.ph5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-15308.html">CVE-2026-15308</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -40484,6 +40508,330 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.11.16</td>
 <td>bsdutils</td>
 <td>bsdutils@1:2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libblkid1</td>
+<td>libblkid1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>liblastlog2-2</td>
+<td>liblastlog2-2@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libmount1</td>
+<td>libmount1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libsmartcols1</td>
+<td>libsmartcols1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libuuid1</td>
+<td>libuuid1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>login</td>
+<td>login@1:4.16.0-2+really2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>mount</td>
+<td>mount@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>util-linux</td>
+<td>util-linux@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53612">CVE-2026-53612</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>bsdutils</td>
+<td>bsdutils@1:2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libblkid1</td>
+<td>libblkid1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>liblastlog2-2</td>
+<td>liblastlog2-2@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libmount1</td>
+<td>libmount1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libsmartcols1</td>
+<td>libsmartcols1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libuuid1</td>
+<td>libuuid1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>login</td>
+<td>login@1:4.16.0-2+really2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>mount</td>
+<td>mount@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>util-linux</td>
+<td>util-linux@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53613">CVE-2026-53613</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>bsdutils</td>
+<td>bsdutils@1:2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libblkid1</td>
+<td>libblkid1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>liblastlog2-2</td>
+<td>liblastlog2-2@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libmount1</td>
+<td>libmount1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libsmartcols1</td>
+<td>libsmartcols1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>libuuid1</td>
+<td>libuuid1@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>login</td>
+<td>login@1:4.16.0-2+really2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>mount</td>
+<td>mount@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>util-linux</td>
+<td>util-linux@2.41-5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53614">CVE-2026-53614</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>bsdutils</td>
+<td>bsdutils@1:2.41-5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53615">CVE-2026-53615</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -41289,6 +41637,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>chromium-shell</td>
 <td>chromium-shell@150.0.7871.181-1~deb13u1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-76044">CVE-2026-76044</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>chromium</td>
+<td>chromium@150.0.7871.181-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-76045">CVE-2026-76045</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>chromium-common</td>
+<td>chromium-common@150.0.7871.181-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-76045">CVE-2026-76045</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>chromium-driver</td>
+<td>chromium-driver@150.0.7871.181-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-76045">CVE-2026-76045</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>chromium-sandbox</td>
+<td>chromium-sandbox@150.0.7871.181-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-76045">CVE-2026-76045</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1</td>
+<td>true</td>
+<td>Rancher v2.11.16</td>
+<td>chromium-shell</td>
+<td>chromium-shell@150.0.7871.181-1~deb13u1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-76045">CVE-2026-76045</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -85194,6 +85602,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-csi-driver:v0.2.3</td>
 <td>false</td>
 <td>Rancher v2.11.16</td>
+<td>zypper</td>
+<td>zypper@1.14.90-150600.10.34.3</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262590-1">SUSE-SU-2026:2590-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.3</td>
+<td>false</td>
+<td>Rancher v2.11.16</td>
 <td>krb5</td>
 <td>krb5@1.20.1-150600.11.11.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262848-1">SUSE-SU-2026:2848-1</a></td>
@@ -85808,6 +86228,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.11.16</td>
 <td>libzypp</td>
 <td>libzypp@17.37.16-150600.3.79.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262590-1">SUSE-SU-2026:2590-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-csi-driver:v0.2.4</td>
+<td>false</td>
+<td>Rancher v2.11.16</td>
+<td>zypper</td>
+<td>zypper@1.14.93-150600.10.49.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262590-1">SUSE-SU-2026:2590-1</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
