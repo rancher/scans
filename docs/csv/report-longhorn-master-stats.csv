@@ -8,7 +8,7 @@ longhornio/csi-snapshotter:v8.5.0-20260428,0,10,10
 longhornio/livenessprobe:v2.18.0-20260428,0,7,7
 longhornio/longhorn-cli:master-head,0,6,6
 longhornio/longhorn-engine:master-head,0,10,10
-longhornio/longhorn-instance-manager:master-head,0,5,5
+longhornio/longhorn-instance-manager:master-head,0,0,0
 longhornio/longhorn-manager:master-head,0,4,4
 longhornio/longhorn-share-manager:master-head,0,3,3
 longhornio/longhorn-ui:master-head,0,2,2

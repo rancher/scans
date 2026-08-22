@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Rancher v2.13 head version - CVE Scans - 2026-08-21</h1>
+<h1>SUSE Rancher - Rancher v2.13 head version - CVE Scans - 2026-08-22</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -2319,6 +2319,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/appco-k8s-sidecar:1.30.7-11.3</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>libpython3_11-1_0</td>
+<td>libpython3_11-1_0@3.11.13-150600.3.30.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/appco-k8s-sidecar:1.30.7-11.3</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311</td>
+<td>python311@3.11.13-150600.3.30.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/appco-k8s-sidecar:1.30.7-11.3</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311-base</td>
+<td>python311-base@3.11.13-150600.3.30.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/appco-kube-rbac-proxy:0.19.1-15.2</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
@@ -4105,114 +4141,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/compliance-operator:v1.3.10-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/compliance-operator</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/compliance-operator:v1.3.10-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/compliance-operator</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/compliance-operator:v1.3.10-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/compliance-operator</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/compliance-operator:v1.3.10-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/compliance-operator</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/compliance-operator:v1.3.10-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/compliance-operator</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/eks-operator:v1.13.9-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/eks-operator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/eks-operator:v1.13.9-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/eks-operator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/eks-operator:v1.13.9-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/eks-operator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/eks-operator:v1.13.9-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/eks-operator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-addon-resizer:1.8.23-build20260717</td>
@@ -14096,174 +14024,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.13 head</td>
 <td>libpq5</td>
 <td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14662.html">CVE-2026-14662</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14664.html">CVE-2026-14664</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14668.html">CVE-2026-14668</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14669.html">CVE-2026-14669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14670.html">CVE-2026-14670</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14671.html">CVE-2026-14671</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14677.html">CVE-2026-14677</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14679.html">CVE-2026-14679</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-14680.html">CVE-2026-14680</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-15741.html">CVE-2026-15741</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-15742.html">CVE-2026-15742</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-16239.html">CVE-2026-16239</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-18408.html">CVE-2026-18408</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-19385.html">CVE-2026-19385</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-2004.html">CVE-2026-2004</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -14529,30 +14289,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>libcap2</td>
 <td>libcap2@1:2.66-4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-4878.html">CVE-2026-4878</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-6464.html">CVE-2026-6464</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>debian</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libpq5</td>
-<td>libpq5@15.8-0+deb12u1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-6471.html">CVE-2026-6471</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -20331,18 +20067,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-longhornio-backing-image-manager:v1.11.3</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>rpm-ndb</td>
-<td>rpm-ndb@4.14.3-150400.59.16.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263600-1">SUSE-SU-2026:3600-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
 <td>rancher/mirrored-longhornio-csi-attacher:v3.2.1</td>
 <td>true</td>
 <td>Rancher v2.13 head</td>
@@ -24663,6 +24387,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3</td>
+<td>true</td>
+<td>Rancher v2.13 head</td>
+<td>libpython3_11-1_0</td>
+<td>libpython3_11-1_0@3.11.15-150600.3.56.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3</td>
+<td>true</td>
+<td>Rancher v2.13 head</td>
+<td>python311-base</td>
+<td>python311-base@3.11.15-150600.3.56.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-longhornio-longhorn-manager:v1.11.3</td>
 <td>true</td>
 <td>Rancher v2.13 head</td>
@@ -25053,18 +24801,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>nginx</td>
 <td>nginx@1.21.5-150600.10.21.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263469-1">SUSE-SU-2026:3469-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-longhornio-longhorn-ui:v1.11.3</td>
-<td>true</td>
-<td>Rancher v2.13 head</td>
-<td>libgd3</td>
-<td>libgd3@2.2.5-11.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263553-1">SUSE-SU-2026:3553-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -28731,12 +28467,96 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/neuvector-manager:5.6.1</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>libpython3_13-1_0</td>
+<td>libpython3_13-1_0@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/neuvector-manager:5.6.1</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python313</td>
+<td>python313@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/neuvector-manager:5.6.1</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python313-base</td>
+<td>python313-base@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/neuvector-prometheus-exporter:1.0.18</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>perl-base</td>
 <td>perl-base@5.26.1-150300.17.20.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263558-1">SUSE-SU-2026:3558-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/neuvector-prometheus-exporter:1.0.18</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>libpython3_13-1_0</td>
+<td>libpython3_13-1_0@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/neuvector-prometheus-exporter:1.0.18</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python313</td>
+<td>python313@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/neuvector-prometheus-exporter:1.0.18</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python313-base</td>
+<td>python313-base@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/neuvector-prometheus-exporter:1.0.18</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python313-devel</td>
+<td>python313-devel@3.13.13-150700.4.50.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263649-1">SUSE-SU-2026:3649-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -29673,78 +29493,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/promtool</td>
 <td>google.golang.org/grpc@v1.73.0</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>golang.org/x/net@v0.47.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>golang.org/x/net@v0.47.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -31209,54 +30957,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/etcdctl</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -33267,7 +32967,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33279,7 +32979,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33291,7 +32991,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -33303,31 +33003,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/kb-summarizer</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33339,7 +33015,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33351,7 +33027,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -33363,31 +33039,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/kb-summarizer</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33399,31 +33051,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/kb-summarizer</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33435,7 +33063,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -33447,31 +33075,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/kb-summarizer</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -33483,35 +33087,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
 <td>stdlib@v1.26.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/kb-summarizer</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -33999,6 +33579,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>python-pkg</td>
 </tr>
 <tr class="issue">
+<td>rancher/supportability-review-internal:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>libpython3_11-1_0</td>
+<td>libpython3_11-1_0@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review-internal:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311</td>
+<td>python311@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review-internal:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311-base</td>
+<td>python311-base@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review-internal:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311-devel</td>
+<td>python311-devel@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/supportability-review-operator:v0.24.0</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
@@ -34153,6 +33781,54 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>python-pkg</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>libpython3_11-1_0</td>
+<td>libpython3_11-1_0@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311</td>
+<td>python311@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311-base</td>
+<td>python311-base@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/supportability-review:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>python311-devel</td>
+<td>python311-devel@3.11.15-150600.3.62.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263648-1">SUSE-SU-2026:3648-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/system-agent:v0.13.1-rc.0-suc</td>
@@ -34945,30 +34621,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/eks-operator:v1.13.9-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/eks-operator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/eks-operator:v1.13.9-rc.1</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/eks-operator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/hardened-addon-resizer:1.8.23-build20260717</td>
@@ -53571,6 +53223,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-backing-image-manager:v1.11.3</td>
+<td>true</td>
+<td>Rancher v2.13 head</td>
+<td>rpm-ndb</td>
+<td>rpm-ndb@4.14.3-150400.59.16.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263600-1">SUSE-SU-2026:3600-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-longhornio-csi-attacher:v3.2.1</td>
 <td>true</td>
 <td>Rancher v2.13 head</td>
@@ -56112,6 +55776,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-longhornio-longhorn-ui:v1.11.3</td>
+<td>true</td>
+<td>Rancher v2.13 head</td>
+<td>libgd3</td>
+<td>libgd3@2.2.5-11.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263553-1">SUSE-SU-2026:3553-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
@@ -59439,66 +59115,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>golang.org/x/net@v0.47.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>golang.org/x/net@v0.47.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>golang.org/x/net@v0.47.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/prometheus-federator:v5.0.4-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/prometheus-federator</td>
-<td>stdlib@v1.25.12</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
 <td>rancher/pushprox:v0.1.11</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
@@ -61851,19 +61467,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
+<td>rancher/remotedialer-proxy:v0.6.3-rc.1</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>proxy</td>
@@ -61872,42 +61476,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/remotedialer-proxy:v0.6.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>proxy</td>
-<td>stdlib@v1.26.4</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -65991,7 +65559,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -66003,7 +65571,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -66015,7 +65583,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -66027,7 +65595,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -66039,7 +65607,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -66051,7 +65619,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -66063,7 +65631,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/sonobuoy</td>
@@ -66075,7 +65643,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -66087,19 +65655,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -66111,7 +65667,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
@@ -66123,7 +65679,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/local/bin/kubectl</td>
@@ -66135,23 +65691,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
+<td>rancher/security-scan:v0.8.9</td>
 <td>false</td>
 <td>Rancher v2.13 head</td>
 <td>usr/bin/kube-bench</td>
 <td>stdlib@v1.26.3</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/security-scan:v0.8.9-rc.2</td>
-<td>false</td>
-<td>Rancher v2.13 head</td>
-<td>usr/bin/sonobuoy</td>
-<td>stdlib@v1.26.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -66672,6 +66216,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/supportability-review:latest</td>
+<td>false</td>
+<td>Rancher v2.13 head</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.26.5</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
