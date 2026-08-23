@@ -1,6 +1,6 @@
 image,critical,high,total
 neuvector/controller:5.4.10,0,49,49
-neuvector/enforcer:5.4.10,0,44,44
+neuvector/enforcer:5.4.10,0,43,43
 neuvector/manager:5.4.10,0,8,8
 neuvector/prometheus-exporter:1.0.18,0,3,3
 neuvector/registry-adapter:0.2.10,0,4,4

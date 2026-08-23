@@ -80,8 +80,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
 rancher/mirrored-cilium-operator-aws:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,1,1
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,18,33,51
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,16,25,41
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,19,35,54
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,17,26,43
 rancher/mirrored-cloud-provider-vsphere:v1.34.0,0,20,20
 rancher/mirrored-cluster-api-controller:v1.10.6,0,20,20
 rancher/mirrored-coredns-coredns:1.14.6,0,15,15
@@ -105,7 +105,7 @@ rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.31.3-alpine,0,0,0
 rancher/mirrored-library-traefik:3.3.6,0,25,25
 rancher/mirrored-library-traefik:3.7.8,0,7,7
-rancher/mirrored-longhornio-backing-image-manager:v1.11.3,0,19,19
+rancher/mirrored-longhornio-backing-image-manager:v1.11.3,0,18,18
 rancher/mirrored-longhornio-csi-attacher:v3.2.1,0,65,65
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,10,10
 rancher/mirrored-longhornio-csi-attacher:v4.12.0,0,7,7
@@ -125,7 +125,7 @@ rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,26,26
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,21,21
 rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,14,14
-rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,12,12
+rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,11,11
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,9,9
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.88,0,13,13
 rancher/mirrored-messagebird-sachet:0.3.1,1,51,52
@@ -151,7 +151,7 @@ rancher/neuvector-prometheus-exporter:1.0.18,0,3,3
 rancher/neuvector-registry-adapter:0.2.10,0,4,4
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.14,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,28,28
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,27,27
 rancher/prom-prometheus:v3.5.0,0,46,46
 rancher/prometheus-federator:v5.0.4,0,0,0
 rancher/pushprox:v0.1.11,0,7,7
