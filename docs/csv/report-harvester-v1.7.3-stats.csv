@@ -11,7 +11,7 @@ longhornio/csi-snapshotter:v8.4.0-20251226,0,15,15
 longhornio/livenessprobe:v2.17.0-20251226,0,12,12
 longhornio/longhorn-cli:v1.10.2,0,26,26
 longhornio/longhorn-engine:v1.10.2,2,67,69
-longhornio/longhorn-instance-manager:v1.10.2,4,68,72
+longhornio/longhorn-instance-manager:v1.10.2,4,67,71
 longhornio/longhorn-manager:v1.10.2,5,37,42
 longhornio/longhorn-share-manager:v1.10.2,3,39,42
 longhornio/longhorn-ui:v1.10.2,1,29,30
@@ -45,7 +45,7 @@ rancher/harvester-node-manager-webhook:v1.7.3,0,4,4
 rancher/harvester-node-manager:v1.7.3,0,4,4
 rancher/harvester-pcidevices:v1.7.3,0,4,4
 rancher/harvester-seeder:v1.7.3,1,29,30
-rancher/harvester-upgrade:v1.7.3,0,62,62
+rancher/harvester-upgrade:v1.7.3,0,63,63
 rancher/harvester-vm-import-controller:v1.7.3,0,7,7
 rancher/harvester-webhook:v1.7.3,0,5,5
 rancher/harvester:v1.7.3,0,6,6
@@ -56,7 +56,7 @@ rancher/kubectl:v1.34.1,0,14,14
 rancher/kuberlr-kubectl:v5.0.0,0,60,60
 rancher/mirrored-cluster-api-controller:v1.10.6,0,20,20
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,36,40
-rancher/mirrored-grafana-grafana:11.5.5,3,31,34
+rancher/mirrored-grafana-grafana:11.5.5,3,33,36
 rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,3,34,37
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,69,81

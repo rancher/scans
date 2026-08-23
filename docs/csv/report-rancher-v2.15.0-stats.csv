@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.15.0,0,3,3
 rancher/appco-alertmanager:0.30.0-12.16,0,34,34
-rancher/appco-grafana:12.3.1-1.12,1,78,79
+rancher/appco-grafana:12.3.1-1.12,1,80,81
 rancher/appco-k8s-sidecar:2.1.2-1.10,1,31,32
 rancher/appco-kube-rbac-proxy:0.20.1-16.15,0,33,33
 rancher/appco-kube-state-metrics:2.17.0-10.14,0,31,31
@@ -81,7 +81,7 @@ rancher/mirrored-coredns-coredns:1.14.6,0,15,15
 rancher/mirrored-curlimages-curl:8.20.0,0,6,6
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
-rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,36,683,719
+rancher/mirrored-grafana-grafana-image-renderer:v5.10.1-1,35,684,719
 rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,9,9
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,2,20,22
 rancher/mirrored-library-busybox:1.31.1,0,0,0
@@ -103,7 +103,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,10,10
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,7,7
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,5,5
 rancher/mirrored-longhornio-longhorn-engine:v1.11.3,0,26,26
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,22,22
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.3,0,21,21
 rancher/mirrored-longhornio-longhorn-manager:v1.11.3,0,14,14
 rancher/mirrored-longhornio-longhorn-share-manager:v1.11.3,0,12,12
 rancher/mirrored-longhornio-longhorn-ui:v1.11.3,0,9,9
@@ -124,7 +124,7 @@ rancher/neuvector-compliance-config:1.0.15,0,0,0
 rancher/neuvector-controller:5.6.0,0,26,26
 rancher/neuvector-enforcer:5.6.0,0,28,28
 rancher/neuvector-manager:5.6.0,0,3,3
-rancher/neuvector-prometheus-exporter:1.0.16,0,8,8
+rancher/neuvector-prometheus-exporter:1.0.16,0,6,6
 rancher/neuvector-registry-adapter:0.2.9,0,5,5
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.13,0,0,0

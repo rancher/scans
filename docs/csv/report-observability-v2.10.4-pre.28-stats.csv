@@ -15,7 +15,7 @@ registry.rancher.com/suse-observability/kafkaup-operator:0.0.14,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:23f4b80a-1030-release,0,0,0
 registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-so13,0,0,0
 registry.rancher.com/suse-observability/s3proxy:3.2.0-so10,0,0,0
-registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.218,0,5,5
+registry.rancher.com/suse-observability/spotlight:5.2.0-snapshot.218,0,4,4
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.5,0,1,1
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.5,0,2,2
 registry.rancher.com/suse-observability/stackpacks:20260817092815-master-01de993-prime-selfhosted,0,0,0
