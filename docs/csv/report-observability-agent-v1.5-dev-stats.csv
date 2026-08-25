@@ -1,6 +1,6 @@
 image,critical,high,total
 quay.io/stackstate/generic-sidecar-injector:0978b47b-1032-release,0,0,0
-quay.io/stackstate/opentelemetry-target-allocator:0.153.0-so9,0,2,2
+quay.io/stackstate/opentelemetry-target-allocator:0.153.0-so9,0,1,1
 quay.io/stackstate/promtail:3.6.11-so13,0,0,0
 quay.io/stackstate/stackstate-k8s-process-agent:7d7d6c99,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.54-agent,0,0,0
