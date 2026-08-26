@@ -1,7 +1,7 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3,2,40,42
 kubeovn/kube-ovn:v1.15.4,0,64,64
-longhornio/backing-image-manager:v1.11.2,0,33,33
+longhornio/backing-image-manager:v1.11.2,0,32,32
 longhornio/csi-attacher:v4.11.0-20260428,0,10,10
 longhornio/csi-node-driver-registrar:v2.16.0-20260428,0,8,8
 longhornio/csi-provisioner:v5.3.0-20260428,0,10,10
@@ -76,7 +76,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,27,27
 rancher/prom-prometheus:v3.5.0,0,44,44
 rancher/rancher-agent:v2.14.3,0,15,15
 rancher/rancher-webhook:v0.10.7,0,4,4
-rancher/rancher:v2.14.3,0,97,97
+rancher/rancher:v2.14.3,0,94,94
 rancher/rke2-cloud-provider:v1.35.6-0.20260610221957-158346759a70-build20260710,0,5,5
 rancher/rke2-runtime:v1.35.7-rke2r1,0,26,26
 rancher/shell:v0.7.1,0,37,37
@@ -91,7 +91,7 @@ registry.k8s.io/sig-storage/snapshot-controller:v8.5.0,0,15,15
 registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.11.1,0,11,11
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.11.1,0,10,10
-registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.11.1,0,11,11
+registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.11.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.11.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.11.1,0,10,10
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.11.1,0,9,9
@@ -99,7 +99,7 @@ registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.11.1,0,10,10
 registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.4-150700.3.24.2,0,47,47
 registry.suse.com/suse/sles/15.7/virt-api:1.7.4-150700.3.24.2,0,11,11
 registry.suse.com/suse/sles/15.7/virt-controller:1.7.4-150700.3.24.2,0,8,8
-registry.suse.com/suse/sles/15.7/virt-handler:1.7.4-150700.3.24.2,0,11,11
+registry.suse.com/suse/sles/15.7/virt-handler:1.7.4-150700.3.24.2,0,10,10
 registry.suse.com/suse/sles/15.7/virt-launcher:1.7.4-150700.3.24.2,0,37,37
 registry.suse.com/suse/sles/15.7/virt-operator:1.7.4-150700.3.24.2,0,10,10
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0
