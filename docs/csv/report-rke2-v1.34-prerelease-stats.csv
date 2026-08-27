@@ -40,11 +40,11 @@ rancher/mirrored-cilium-cilium:v1.19.6,0,4,4
 rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6,0,6,6
 rancher/mirrored-cilium-hubble-relay:v1.19.6,0,1,1
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.5,0,8,8
-rancher/mirrored-cilium-hubble-ui:v0.13.5,0,2,2
+rancher/mirrored-cilium-hubble-ui:v0.13.5,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,1,1
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,1,1
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,5,5
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,7,7
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,10,10
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,0,8,8

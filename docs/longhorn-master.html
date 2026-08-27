@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Longhorn master version - CVE Scans - 2026-08-26</h1>
+<h1>SUSE Rancher - Longhorn master version - CVE Scans - 2026-08-27</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -567,11 +567,11 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>longhornio/backing-image-manager:master-head</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/local/bin/backing-image-manager</td>
-<td>stdlib@v1.26.5</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -579,11 +579,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/backing-image-manager:master-head</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/local/bin/backing-image-manager</td>
-<td>stdlib@v1.26.5</td>
+<td>csi-attacher</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -591,11 +591,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/backing-image-manager:master-head</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/local/bin/backing-image-manager</td>
-<td>stdlib@v1.26.5</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/csi-attacher:v4.12.0</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -603,11 +615,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/backing-image-manager:master-head</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/local/bin/backing-image-manager</td>
-<td>stdlib@v1.26.5</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -615,11 +627,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/backing-image-manager:master-head</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/local/bin/backing-image-manager</td>
-<td>stdlib@v1.26.5</td>
+<td>csi-attacher</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -627,119 +639,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>google.golang.org/grpc@v1.79.3</td>
+<td>google.golang.org/grpc@v1.81.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -747,35 +651,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>go.opentelemetry.io/otel@v1.40.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-29181">CVE-2026-29181</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -783,11 +663,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -795,23 +675,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -819,11 +687,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -831,11 +699,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>google.golang.org/grpc@v1.79.3</td>
+<td>google.golang.org/grpc@v1.81.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -843,47 +711,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>go.opentelemetry.io/otel@v1.39.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-29181">CVE-2026-29181</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -891,11 +723,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -903,23 +735,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -927,11 +747,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -939,11 +759,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -951,11 +771,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>google.golang.org/grpc@v1.79.3</td>
+<td>google.golang.org/grpc@v1.81.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -963,35 +783,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -999,11 +795,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1011,35 +807,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1047,11 +819,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1059,11 +831,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1071,7 +843,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
@@ -1167,35 +939,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>go.opentelemetry.io/otel@v1.39.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-29181">CVE-2026-29181</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1203,11 +951,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1215,11 +963,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1227,11 +975,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1239,539 +987,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>google.golang.org/grpc@v1.79.3</td>
+<td>google.golang.org/grpc@v1.81.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn-instance-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn-instance-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn-instance-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn-instance-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhorn-instance-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>google.golang.org/grpc@v1.79.3</td>
-<td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>liblzma5</td>
-<td>liblzma5@5.4.1-150600.3.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262051-1">SUSE-SU-2026:2051-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>glibc</td>
-<td>glibc@2.38-150600.14.46.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262231-1">SUSE-SU-2026:2231-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>openssl-3</td>
-<td>openssl-3@3.2.3-150700.5.31.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262648-1">SUSE-SU-2026:2648-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>krb5</td>
-<td>krb5@1.20.1-150600.11.14.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262848-1">SUSE-SU-2026:2848-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libcurl4</td>
-<td>libcurl4@8.14.1-150700.7.14.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262925-1">SUSE-SU-2026:2925-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>gzip</td>
-<td>gzip@1.10-150200.10.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263269-1">SUSE-SU-2026:3269-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libglib-2_0-0</td>
-<td>libglib-2_0-0@2.78.6-150600.4.35.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263341-1">SUSE-SU-2026:3341-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>rpm-ndb</td>
-<td>rpm-ndb@4.14.3-150400.59.16.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263600-1">SUSE-SU-2026:3600-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1779,11 +1011,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1791,35 +1023,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27145.html">CVE-2026-27145</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1827,11 +1047,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39828.html">CVE-2026-39828</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1839,11 +1059,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39829.html">CVE-2026-39829</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1851,11 +1071,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39830.html">CVE-2026-39830</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1863,11 +1083,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39831.html">CVE-2026-39831</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1875,11 +1095,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39832.html">CVE-2026-39832</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1887,11 +1107,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39835.html">CVE-2026-39835</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1899,23 +1119,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-attacher</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1923,11 +1131,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42508.html">CVE-2026-42508</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1935,11 +1143,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46595.html">CVE-2026-46595</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1947,11 +1155,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.46.0</td>
+<td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46597.html">CVE-2026-46597</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1959,11 +1167,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-attacher:v4.11.0-20260428</td>
+<td>longhornio/csi-attacher:v4.12.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-attacher</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1971,11 +1179,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>golang.org/x/net@v0.49.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1983,11 +1191,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>golang.org/x/net@v0.49.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -1995,47 +1203,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-node-driver-registrar</td>
-<td>golang.org/x/net@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27145.html">CVE-2026-27145</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-node-driver-registrar</td>
-<td>golang.org/x/net@v0.49.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2043,11 +1227,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2055,23 +1239,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2079,11 +1251,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>golang.org/x/net@v0.49.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2091,11 +1263,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>golang.org/x/text@v0.33.0</td>
+<td>golang.org/x/text@v0.37.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2103,11 +1275,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-node-driver-registrar</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2115,59 +1287,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27145.html">CVE-2026-27145</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2175,35 +1311,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-provisioner:v6.3.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-provisioner</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>golang.org/x/net@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2211,71 +1335,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-provisioner:v5.3.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>csi-provisioner</td>
-<td>golang.org/x/text@v0.32.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td>csi-resizer</td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-27145.html">CVE-2026-27145</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/net@v0.48.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2283,131 +1359,35 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39828.html">CVE-2026-39828</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39829.html">CVE-2026-39829</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39830.html">CVE-2026-39830</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39831.html">CVE-2026-39831</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39832.html">CVE-2026-39832</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39835.html">CVE-2026-39835</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
+<td>go.opentelemetry.io/otel/sdk@v1.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-39883">CVE-2026-39883</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42508.html">CVE-2026-42508</a></td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
+<td>longhornio/csi-resizer:v2.2.1</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46595.html">CVE-2026-46595</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46597.html">CVE-2026-46597</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/csi-resizer:v2.1.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>csi-resizer</td>
-<td>golang.org/x/net@v0.48.0</td>
+<td>golang.org/x/net@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2487,11 +1467,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>golang.org/x/net@v0.49.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2499,11 +1479,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>golang.org/x/net@v0.49.0</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2511,407 +1491,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
 <td>livenessprobe</td>
-<td>golang.org/x/net@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>golang.org/x/net@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>golang.org/x/net@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>golang.org/x/text@v0.33.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/livenessprobe:v2.18.0-20260428</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>livenessprobe</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>golang.org/x/net@v0.55.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>golang.org/x/net@v0.55.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-cli:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/bin/longhornctl-local</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>golang.org/x/mod@v0.38.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56864.html">CVE-2026-56864</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/local/sbin/longhorn-manager</td>
-<td>golang.org/x/mod@v0.38.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56865.html">CVE-2026-56865</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/longhorn-share-manager:master-head</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>longhorn-share-manager</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-25681.html">CVE-2026-25681</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-27136.html">CVE-2026-27136</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-27145.html">CVE-2026-27145</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -2919,83 +1503,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
+<td>livenessprobe</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -3003,11 +1515,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
+<td>livenessprobe</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -3015,143 +1527,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39828.html">CVE-2026-39828</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39829.html">CVE-2026-39829</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39830.html">CVE-2026-39830</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39831.html">CVE-2026-39831</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39832.html">CVE-2026-39832</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39835.html">CVE-2026-39835</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>stdlib@v1.25.9</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
+<td>livenessprobe</td>
+<td>stdlib@v1.26.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42504.html">CVE-2026-42504</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -3159,47 +1539,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-42508.html">CVE-2026-42508</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46595.html">CVE-2026-46595</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46597.html">CVE-2026-46597</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/support-bundle-kit</td>
-<td>golang.org/x/net@v0.52.0</td>
+<td>livenessprobe</td>
+<td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -3207,184 +1551,28 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
+<td>longhornio/livenessprobe:v2.19.0</td>
 <td>false</td>
 <td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>golang.org/x/net@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td>livenessprobe</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/livenessprobe:v2.19.0</td>
+<td>false</td>
+<td>Longhorn master</td>
+<td>livenessprobe</td>
+<td>stdlib@v1.26.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
 <td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56860.html">CVE-2026-56860</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>usr/bin/yq</td>
-<td>stdlib@v1.26.2</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libsqlite3-0</td>
-<td>libsqlite3-0@3.51.3-150000.3.39.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262528-1">SUSE-SU-2026:2528-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libsolv-tools-base</td>
-<td>libsolv-tools-base@0.7.35-150700.11.5.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262531-1">SUSE-SU-2026:2531-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libzypp</td>
-<td>libzypp@17.37.18-150700.6.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262531-1">SUSE-SU-2026:2531-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>zypper</td>
-<td>zypper@1.14.94-150700.13.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262531-1">SUSE-SU-2026:2531-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.2.3-150700.5.31.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262648-1">SUSE-SU-2026:2648-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.2.3-150700.5.31.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262648-1">SUSE-SU-2026:2648-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>curl</td>
-<td>curl@8.14.1-150700.7.14.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20262925-1">SUSE-SU-2026:2925-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>libxml2-2</td>
-<td>libxml2-2@2.12.10-150700.4.11.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263097-1">SUSE-SU-2026:3097-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>longhornio/support-bundle-kit:v0.0.84</td>
-<td>false</td>
-<td>Longhorn master</td>
-<td>perl-base</td>
-<td>perl-base@5.26.1-150300.17.20.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263558-1">SUSE-SU-2026:3558-1</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
 </tr>
 </table>
 
