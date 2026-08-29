@@ -13,7 +13,7 @@ rancher/compliance-operator:v1.3.10,0,0,0
 rancher/eks-operator:v1.13.9,0,0,0
 rancher/fleet-agent:v0.14.10,0,0,0
 rancher/fleet:v0.14.10,0,0,0
-rancher/gke-operator:v1.13.9,0,0,0
+rancher/gke-operator:v1.13.10,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,5,5
 rancher/hardened-calico:v3.32.1-build20260722,0,1,1
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,5,5
@@ -39,7 +39,7 @@ rancher/harvester-csi-driver:v0.2.8,0,20,20
 rancher/harvester-csi-driver:v0.2.9,0,10,10
 rancher/k3s-upgrade:v1.32.13-k3s1,0,11,11
 rancher/k3s-upgrade:v1.33.13-k3s2,0,6,6
-rancher/k3s-upgrade:v1.34.10-k3s1,0,6,6
+rancher/k3s-upgrade:v1.34.11-k3s1,0,1,1
 rancher/klipper-helm:v0.11.1-build20260615,0,17,17
 rancher/klipper-helm:v0.13.3-build20260727,0,12,12
 rancher/klipper-lb:v0.4.16,0,4,4
@@ -50,7 +50,7 @@ rancher/kubectl:v1.34.1,0,14,14
 rancher/kuberlr-kubectl:v6.0.0,0,57,57
 rancher/kuberlr-kubectl:v6.0.3,0,45,45
 rancher/kuberlr-kubectl:v6.1.1,0,26,26
-rancher/local-path-provisioner:v0.0.36,0,70,70
+rancher/local-path-provisioner:v0.0.37,0,4,4
 rancher/machine:v0.15.0-rancher137.3,0,0,0
 rancher/mirrored-bci-busybox:15.6.24.2,0,7,7
 rancher/mirrored-bci-micro:15.6.24.2,0,5,5
@@ -171,7 +171,7 @@ rancher/supportability-review-operator:v0.24.0,0,5,5
 rancher/supportability-review:latest,0,7,7
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.33.13-k3s2,0,0,0
-rancher/system-agent-installer-k3s:v1.34.10-k3s1,0,0,0
+rancher/system-agent-installer-k3s:v1.34.11-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.13-rke2r2,0,0,0
 rancher/system-agent-installer-rke2:v1.34.10-rke2r1,0,0,0

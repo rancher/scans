@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.3-rke2r1-build20260723,0,30,30
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,5,5
 rancher/hardened-traefik:v3.7.8-build20260717,0,7,7
-rancher/harvester-cluster-repo:b39fb92b,0,0,0
+rancher/harvester-cluster-repo:211c2b36,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.2-rc6,0,0,0
 rancher/harvester-load-balancer-webhook:master-head,0,0,0

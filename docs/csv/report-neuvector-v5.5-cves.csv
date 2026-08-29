@@ -199,6 +199,7 @@ neuvector/enforcer:5.5.3,neuvector/v5.5,perl,5.26.1-150300.17.20.1,sles,SUSE-SU-
 neuvector/enforcer:5.5.3,neuvector/v5.5,perl-base,5.26.1-150300.17.20.1,sles,SUSE-SU-2026:3558-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),5.26.1-150300.17.23.1,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,gzip,1.10-150200.10.1,sles,SUSE-SU-2026:3592-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),1.10-150200.16.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,rpm,4.14.3-150400.59.16.1,sles,SUSE-SU-2026:3600-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),4.14.3-150400.59.19.1,false,affected,
+neuvector/enforcer:5.5.3,neuvector/v5.5,curl,8.14.1-150700.7.14.1,sles,SUSE-SU-2026:3798-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),8.14.1-150700.7.23.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.5.3,neuvector/v5.5,libpython3_13-1_0,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.13-150700.4.50.1,false,not_affected,vulnerable_code_not_present
 neuvector/manager:5.5.3,neuvector/v5.5,python313,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.13-150700.4.50.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.5.3,neuvector/v5.5,python313-base,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.13-150700.4.50.1,false,affected,
