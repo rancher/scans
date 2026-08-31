@@ -7,7 +7,7 @@ rancher/appco-kube-rbac-proxy:0.19.1-15.2,0,38,38
 rancher/appco-kube-state-metrics:2.17.0-10.7,0,33,33
 rancher/appco-node-exporter:1.9.1-11.3,0,34,34
 rancher/appco-redis:8.0.3-2.1,1,8,9
-rancher/appco-thanos:0.39.2-7.3,0,35,35
+rancher/appco-thanos:0.39.2-7.3,0,32,32
 rancher/backup-restore-operator:v9.0.7,0,0,0
 rancher/compliance-operator:v1.3.10,0,0,0
 rancher/eks-operator:v1.13.9,0,0,0
@@ -24,7 +24,7 @@ rancher/hardened-dns-node-cache:1.26.8-build20260722,0,5,5
 rancher/hardened-etcd:v3.6.14-k3s1-build20260723,0,7,7
 rancher/hardened-flannel:v0.28.8-build20260722,0,0,0
 rancher/hardened-k8s-metrics-server:v0.9.0-build20260722,0,4,4
-rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,81,81
+rancher/hardened-kubernetes:v1.32.13-rke2r1-build20260227,0,79,79
 rancher/hardened-kubernetes:v1.33.13-rke2r2-build20260723,0,30,30
 rancher/hardened-kubernetes:v1.34.10-rke2r1-build20260723,0,30,30
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,0,0
@@ -33,7 +33,7 @@ rancher/hardened-multus-thick:v4.3.0-build20260722,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,5,5
 rancher/hardened-traefik:v3.7.8-build20260717,0,7,7
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
-rancher/harvester-cloud-provider:v0.2.5,0,25,25
+rancher/harvester-cloud-provider:v0.2.5,0,22,22
 rancher/harvester-cloud-provider:v0.2.7,0,5,5
 rancher/harvester-csi-driver:v0.2.8,0,20,20
 rancher/harvester-csi-driver:v0.2.9,0,10,10
