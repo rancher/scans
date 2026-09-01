@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability v2.10 dev version - CVE Scans - 2026-08-31</h1>
+<h1>SUSE Rancher - Observability v2.10 dev version - CVE Scans - 2026-09-01</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -567,136 +567,148 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260820095920-master-2337bbb-2.5</td>
+<td>quay.io/stackstate/clickhouse-backup:2.7.2-so11</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>bin/clickhouse-backup</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260820095920-master-2337bbb-2.5</td>
+<td>quay.io/stackstate/container-tools:1.8.6-so20</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>io.netty:netty-transport-sctp@4.2.16.Final</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260820095920-master-2337bbb</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260831195753-master-3c0b1f4</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>libgd3</td>
-<td>libgd3@2.3.3-160000.2.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623213-1">SUSE-SU-2026:23213-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>sles</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.5</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260831195753-master-3c0b1f4</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.5</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260831195753-master-3c0b1f4</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>io.netty:netty-transport-sctp@4.2.16.Final</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260831195753-master-3c0b1f4-2.5</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.5</td>
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.56</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>io.netty:netty-transport-sctp@4.2.16.Final</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/sts-opentelemetry-collector</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.5</td>
+<td>quay.io/stackstate/vmbackup:1.144.0-so16</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>io.netty:netty-transport-sctp@4.2.16.Final</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.5</td>
+<td>quay.io/stackstate/vmbackup:1.144.0-so16</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/local/bin/vmbackup-prod</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.5</td>
+<td>registry.rancher.com/suse-observability/elasticsearch-exporter:1.10.0-so14</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>io.netty:netty-transport-sctp@4.2.16.Final</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/elasticsearch_exporter</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.5</td>
+<td>registry.rancher.com/suse-observability/nginx-prometheus-exporter:1.5.1-so13</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
-<td>Java</td>
-<td>io.netty:netty-transport-sctp@4.2.16.Final</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
+<td>usr/bin/nginx-prometheus-exporter</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>jar</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:1.144.0-so14</td>
+<td>false</td>
+<td>Observability v2.10 dev</td>
+<td>vmrestore-prod</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
 </tr>
 </table>
 
