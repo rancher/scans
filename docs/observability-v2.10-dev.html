@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -567,18 +567,6 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/clickhouse-backup:2.7.2-so11</td>
-<td>false</td>
-<td>Observability v2.10 dev</td>
-<td>bin/clickhouse-backup</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>quay.io/stackstate/container-tools:1.8.6-so20</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
@@ -591,7 +579,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260831195753-master-3c0b1f4</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260901092150-master-2e929ee</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -603,7 +591,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260831195753-master-3c0b1f4</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260901092150-master-2e929ee</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -615,7 +603,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260831195753-master-3c0b1f4</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260901092150-master-2e929ee</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -627,7 +615,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260831195753-master-3c0b1f4-2.5</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260901092150-master-2e929ee-2.5</td>
 <td>false</td>
 <td>Observability v2.10 dev</td>
 <td>usr/bin/sts-toolbox</td>
@@ -708,6 +696,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>quay.io/stackstate/clickhouse-backup:2.7.2-so11</td>
+<td>false</td>
+<td>Observability v2.10 dev</td>
+<td>bin/clickhouse-backup</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 </table>

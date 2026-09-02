@@ -1,5 +1,5 @@
 image,critical,high,total
-registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so10,1,0,1
+registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so10,0,0,0
 registry.rancher.com/suse-observability/clickhouse:26.5.1-so8,0,0,0
 registry.rancher.com/suse-observability/container-tools:1.8.6-so19,1,0,1
 registry.rancher.com/suse-observability/contrib-stackpacks:20260818125350-main-bc684a1,0,0,0

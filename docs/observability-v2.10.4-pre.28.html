@@ -567,18 +567,6 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so10</td>
-<td>false</td>
-<td>Observability v2.10.4 pre.28</td>
-<td>bin/clickhouse-backup</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>registry.rancher.com/suse-observability/container-tools:1.8.6-so19</td>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
@@ -900,6 +888,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so10</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>bin/clickhouse-backup</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
