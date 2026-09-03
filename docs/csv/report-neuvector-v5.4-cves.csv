@@ -99,6 +99,10 @@ neuvector/controller:5.4.10,neuvector/v5.4,stdlib,v1.25.10,gobinary,CVE-2026-568
 neuvector/controller:5.4.10,neuvector/v5.4,stdlib,v1.25.10,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/opa,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/controller:5.4.10,neuvector/v5.4,stdlib,v1.26.3,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/controller,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/controller:5.4.10,neuvector/v5.4,stdlib,v1.26.3,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/upgrader,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
+neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/controller,1.83.1,false,affected,
+neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/upgrader,1.83.1,false,affected,
+neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.80.0,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/consul,1.83.1,false,affected,
+neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.80.0,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/opa,1.83.1,false,affected,
 neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/controller,1.82.1,false,affected,
 neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/upgrader,1.82.1,false,affected,
 neuvector/controller:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.80.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/consul,1.82.1,false,affected,
@@ -206,6 +210,9 @@ neuvector/enforcer:5.4.10,neuvector/v5.4,stdlib,v1.25.10,gobinary,CVE-2026-56862
 neuvector/enforcer:5.4.10,neuvector/v5.4,stdlib,v1.25.10,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/consul,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/enforcer:5.4.10,neuvector/v5.4,stdlib,v1.26.3,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/agent,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/enforcer:5.4.10,neuvector/v5.4,stdlib,v1.26.3,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/pathWalker,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
+neuvector/enforcer:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/agent,1.83.1,false,affected,
+neuvector/enforcer:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/pathWalker,1.83.1,false,affected,
+neuvector/enforcer:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.80.0,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/consul,1.83.1,false,affected,
 neuvector/enforcer:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/agent,1.82.1,false,affected,
 neuvector/enforcer:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/pathWalker,1.82.1,false,affected,
 neuvector/enforcer:5.4.10,neuvector/v5.4,google.golang.org/grpc,v1.80.0,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/local/bin/consul,1.82.1,false,affected,
@@ -245,6 +252,7 @@ neuvector/manager:5.4.10,neuvector/v5.4,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2
 neuvector/manager:5.4.10,neuvector/v5.4,libpython3_13-1_0,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.4.10 (sles 15.7),3.13.13-150700.4.50.1,false,not_affected,vulnerable_code_not_present
 neuvector/manager:5.4.10,neuvector/v5.4,python313,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.4.10 (sles 15.7),3.13.13-150700.4.50.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.4.10,neuvector/v5.4,python313-base,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.4.10 (sles 15.7),3.13.13-150700.4.50.1,false,affected,
+neuvector/manager:5.4.10,neuvector/v5.4,libuuid1,2.40.4-150700.4.10.1,sles,SUSE-SU-2026:2485-1,MEDIUM,,neuvector/manager:5.4.10 (sles 15.7),2.40.4-150700.4.13.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.4.10,neuvector/v5.4,libsqlite3-0,3.51.3-150000.3.39.1,sles,SUSE-SU-2026:2528-1,HIGH,,neuvector/manager:5.4.10 (sles 15.7),3.53.2-150000.3.42.1,false,affected,
 neuvector/manager:5.4.10,neuvector/v5.4,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/manager:5.4.10 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
 neuvector/manager:5.4.10,neuvector/v5.4,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:2648-1,HIGH,,neuvector/manager:5.4.10 (sles 15.7),3.2.3-150700.5.36.1,false,affected,
@@ -267,5 +275,7 @@ neuvector/registry-adapter:0.2.10,neuvector/v5.4,stdlib,v1.26.5,gobinary,CVE-202
 neuvector/registry-adapter:0.2.10,neuvector/v5.4,golang.org/x/crypto,v0.53.0,gobinary,CVE-2026-56854,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-56854,usr/local/bin/adapter,0.55.0,false,not_affected,vulnerable_code_not_present
 neuvector/registry-adapter:0.2.10,neuvector/v5.4,stdlib,v1.26.5,gobinary,CVE-2026-56859,HIGH,https://avd.aquasec.com/nvd/cve-2026-56859,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/registry-adapter:0.2.10,neuvector/v5.4,stdlib,v1.26.5,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
-neuvector/scanner:6,neuvector/v5.4,golang.org/x/crypto,v0.53.0,gobinary,CVE-2026-56854,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-56854,usr/local/bin/scanner,0.55.0,false,not_affected,vulnerable_code_not_in_execute_path
-neuvector/scanner:6,neuvector/v5.4,golang.org/x/crypto,v0.53.0,gobinary,CVE-2026-56854,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-56854,usr/local/bin/sigstore-interface,0.55.0,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/registry-adapter:0.2.10,neuvector/v5.4,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/adapter,1.83.1,false,affected,
+neuvector/scanner:6,neuvector/v5.4,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/scanner,1.83.1,false,affected,
+neuvector/scanner:6,neuvector/v5.4,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/scannerTask,1.83.1,false,affected,
+neuvector/scanner:6,neuvector/v5.4,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/sigstore-interface,1.83.1,false,affected,

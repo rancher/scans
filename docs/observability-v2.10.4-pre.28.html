@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability v2.10.4 pre.28 version - CVE Scans - 2026-09-01</h1>
+<h1>SUSE Rancher - Observability v2.10.4 pre.28 version - CVE Scans - 2026-09-03</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -567,6 +567,18 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so10</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>bin/clickhouse-backup</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/container-tools:1.8.6-so19</td>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
@@ -574,6 +586,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>golang.org/x/crypto@v0.53.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so19</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -619,6 +643,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
 <td>Java</td>
+<td>org.apache.thrift:libthrift@0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-43871">CVE-2026-43871</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>Java</td>
 <td>io.netty:netty-transport-sctp@4.2.16.Final</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -633,6 +669,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Java</td>
 <td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>Java</td>
+<td>org.apache.thrift:libthrift@0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-43871">CVE-2026-43871</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -715,6 +763,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
 <td>Java</td>
+<td>org.apache.thrift:libthrift@0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-43871">CVE-2026-43871</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>Java</td>
 <td>io.netty:netty-transport-sctp@4.2.16.Final</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-59902.html">CVE-2026-59902</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -729,6 +789,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Java</td>
 <td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>Java</td>
+<td>org.apache.thrift:libthrift@0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-43871">CVE-2026-43871</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -759,6 +831,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.10.4-pre.28</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.4-pre.28</td>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
@@ -766,6 +850,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>golang.org/x/crypto@v0.53.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.10.4-pre.28</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -783,12 +879,36 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.10.4-pre.28</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-server:2.10.4-pre.28-2.5</td>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
 <td>Java</td>
 <td>org.eclipse.jetty:jetty-security@9.4.60.sts1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-10050.html">CVE-2026-10050</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.10.4-pre.28-2.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>Java</td>
+<td>org.apache.thrift:libthrift@0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-43871">CVE-2026-43871</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -819,6 +939,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.10.4-pre.28-2.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-ui:2.10.4-pre.28</td>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
@@ -841,6 +973,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.54</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.5</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>Java</td>
+<td>org.apache.thrift:libthrift@0.23.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-43871">CVE-2026-43871</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.5</td>
@@ -879,6 +1035,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:1.144.0-so15</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/local/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmbackup:1.144.0-so15</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>usr/local/bin/vmbackup-prod</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/vmrestore:1.144.0-so14</td>
 <td>false</td>
 <td>Observability v2.10.4 pre.28</td>
@@ -886,6 +1066,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>golang.org/x/crypto@v0.53.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/vmrestore:1.144.0-so14</td>
+<td>false</td>
+<td>Observability v2.10.4 pre.28</td>
+<td>vmrestore-prod</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>

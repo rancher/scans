@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - K3s v1.33.13 version - CVE Scans - 2026-09-01</h1>
+<h1>SUSE Rancher - K3s v1.33.13 version - CVE Scans - 2026-09-03</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -704,6 +704,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.33.13</td>
 <td>bin/k3s</td>
 <td>google.golang.org/grpc@v1.72.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.33.13-k3s2</td>
+<td>false</td>
+<td>K3s v1.33.13</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>google.golang.org/grpc@v1.78.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.33.13-k3s2</td>
+<td>false</td>
+<td>K3s v1.33.13</td>
+<td>bin/k3s</td>
+<td>google.golang.org/grpc@v1.72.1</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -726,6 +750,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/klipper-helm:v0.13.3-build20260727</td>
 <td>false</td>
 <td>K3s v1.33.13</td>
+<td>jq</td>
+<td>jq@1.8.1-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32316.html">CVE-2026-32316</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260727</td>
+<td>false</td>
+<td>K3s v1.33.13</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.26.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
@@ -793,6 +829,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260727</td>
+<td>false</td>
+<td>K3s v1.33.13</td>
+<td>jq</td>
+<td>jq@1.8.1-r0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-40164.html">CVE-2026-40164</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>alpine</td>
 </tr>
 <tr class="issue">
 <td>rancher/klipper-helm:v0.13.3-build20260727</td>
@@ -1904,6 +1952,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.33.13</td>
 <td>coredns</td>
 <td>google.golang.org/grpc@v1.82.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.14.6</td>
+<td>true</td>
+<td>K3s v1.33.13</td>
+<td>coredns</td>
+<td>google.golang.org/grpc@v1.82.0</td>
 <td><a href="https://github.com/advisories/GHSA-hrxh-6v49-42gf">GHSA-hrxh-6v49-42gf</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2019,6 +2079,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.8</td>
+<td>true</td>
+<td>K3s v1.33.13</td>
+<td>usr/local/bin/traefik</td>
+<td>google.golang.org/grpc@v1.81.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-metrics-server:v0.9.0</td>
 <td>true</td>
 <td>K3s v1.33.13</td>
@@ -2085,6 +2157,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>metrics-server</td>
 <td>stdlib@v1.26.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.0</td>
+<td>true</td>
+<td>K3s v1.33.13</td>
+<td>metrics-server</td>
+<td>google.golang.org/grpc@v1.81.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
