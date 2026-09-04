@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Rancher v2.15 head version - CVE Scans - 2026-09-03</h1>
+<h1>SUSE Rancher - Rancher v2.15 head version - CVE Scans - 2026-09-04</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -898,18 +898,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260819</td>
-<td>false</td>
-<td>Rancher v2.15 head</td>
-<td>metrics-server</td>
-<td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2166,30 +2154,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/klipper-helm:v0.13.3-build20260727</td>
 <td>false</td>
 <td>Rancher v2.15 head</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260727</td>
-<td>false</td>
-<td>Rancher v2.15 head</td>
-<td>usr/bin/helm</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260727</td>
-<td>false</td>
-<td>Rancher v2.15 head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.26.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
@@ -2269,30 +2233,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260820</td>
-<td>false</td>
-<td>Rancher v2.15 head</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260820</td>
-<td>false</td>
-<td>Rancher v2.15 head</td>
-<td>usr/bin/helm</td>
-<td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/kube-api-auth:v0.15.1</td>
@@ -3404,8 +3344,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/calicoctl</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3500,8 +3440,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/envoy-gateway</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3872,8 +3812,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/calico-node</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4028,8 +3968,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/operator</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4244,8 +4184,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/cilium-certgen</td>
 <td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -10544,8 +10484,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>metrics-server</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -11960,8 +11900,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/opa</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -11972,8 +11912,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/controller</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -11984,8 +11924,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/upgrader</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -12248,8 +12188,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/agent</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -13663,18 +13603,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/rke2-cloud-provider</td>
-<td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820</td>
-<td>false</td>
-<td>Rancher v2.15 head</td>
-<td>usr/local/bin/rke2-cloud-provider</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -14612,8 +14540,8 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/helm</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -15056,7 +14984,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/aks-operator</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15080,7 +15008,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/gke-operator</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15092,7 +15020,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>calicoctl</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15104,7 +15032,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/cni/bin/calico</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15116,7 +15044,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/cni/bin/calico-ipam</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15128,7 +15056,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/calico-node</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15140,7 +15068,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/kube-controllers</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15152,7 +15080,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>coredns</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15200,7 +15128,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-snapshotter</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15212,7 +15140,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>node-cache</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15296,7 +15224,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/etcd</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15308,7 +15236,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/bin/flanneld</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260819</td>
+<td>false</td>
+<td>Rancher v2.15 head</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -15356,7 +15296,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-apiserver</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15368,7 +15308,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-controller-manager</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15380,7 +15320,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-proxy</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15392,7 +15332,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-scheduler</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15404,7 +15344,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kubelet</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15416,7 +15356,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-apiserver</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15428,7 +15368,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-controller-manager</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15440,7 +15380,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-proxy</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15452,7 +15392,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-scheduler</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15464,7 +15404,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kubelet</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15476,7 +15416,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-apiserver</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15488,7 +15428,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-controller-manager</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15500,7 +15440,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-proxy</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15512,7 +15452,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kube-scheduler</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -15524,7 +15464,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/kubelet</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -16304,7 +16244,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>snapshot-controller</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -16460,7 +16400,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/harvester-cloud-provider</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -16688,7 +16628,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/harvester-csi-driver</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -17636,7 +17576,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -17648,7 +17588,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -17660,7 +17600,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/helm</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -18212,7 +18152,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.13.3-build20260727</td>
+<td>false</td>
+<td>Rancher v2.15 head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.13.3-build20260727</td>
+<td>false</td>
+<td>Rancher v2.15 head</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -18704,7 +18668,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.13.3-build20260820</td>
+<td>false</td>
+<td>Rancher v2.15 head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/klipper-helm:v0.13.3-build20260820</td>
+<td>false</td>
+<td>Rancher v2.15 head</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -18788,7 +18776,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/kube-api-auth</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -19424,7 +19412,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/rancher-machine</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -19496,7 +19484,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>code/apiserver</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -19916,7 +19904,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/cni/bin/calico</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -20684,7 +20672,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/kube-controllers</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -20996,7 +20984,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/calico-typha</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -21116,7 +21104,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>whisker-backend</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -21776,7 +21764,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/cilium-agent</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -21788,7 +21776,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/cilium-dbg</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -22640,7 +22628,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/etcd</td>
 <td>golang.org/x/crypto@v0.49.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -23336,7 +23324,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/cilium-operator-azure</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -24068,7 +24056,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/vsphere-cloud-controller-manager</td>
 <td>golang.org/x/crypto@v0.50.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -24104,7 +24092,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>coredns</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -24272,7 +24260,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>kube-vip</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -24308,7 +24296,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/traefik</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -24560,7 +24548,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-attacher</td>
 <td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -24752,7 +24740,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-attacher</td>
 <td>golang.org/x/crypto@v0.51.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -25424,7 +25412,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-resizer</td>
 <td>golang.org/x/crypto@v0.46.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -25496,7 +25484,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-resizer</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -25700,7 +25688,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-snapshotter</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -25784,7 +25772,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>csi-snapshotter</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -26168,7 +26156,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/sbin/longhorn-manager</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -26336,7 +26324,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/support-bundle-kit</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -27068,7 +27056,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/consul</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -27128,7 +27116,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/consul</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -27236,7 +27224,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/local/bin/adapter</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29120,7 +29108,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/containerd</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29132,7 +29120,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/k3s</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29144,7 +29132,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
 <td>golang.org/x/crypto@v0.48.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -29156,7 +29144,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-harvester</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -29168,7 +29156,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/rancher-machine</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -29348,7 +29336,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>proxy</td>
 <td>golang.org/x/crypto@v0.54.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29361,6 +29349,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/rke2-cloud-provider</td>
 <td>golang.org/x/net@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820</td>
+<td>false</td>
+<td>Rancher v2.15 head</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29540,7 +29540,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/containerd</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29552,7 +29552,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/kubelet</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -29768,7 +29768,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/containerd</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29780,7 +29780,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/kubelet</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -29972,7 +29972,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/containerd</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -29984,7 +29984,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>bin/kubelet</td>
 <td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -30200,7 +30200,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/rke2</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -30368,7 +30368,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/rke2</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -30536,7 +30536,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>opt/rke2</td>
 <td>golang.org/x/crypto@v0.47.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -30812,7 +30812,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher v2.15 head</td>
 <td>usr/bin/k9s</td>
 <td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56854">CVE-2026-56854</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
