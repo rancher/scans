@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/fleet-agent:v0.17.0-alpha.2,0,0,0
 rancher/fleet:v0.17.0-alpha.2,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,5,5
-rancher/hardened-calico:v3.32.1-build20260722,0,6,6
+rancher/hardened-calico:v3.32.1-build20260722,0,8,8
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,5,5
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.6-build20260722,0,6,6
@@ -28,7 +28,7 @@ rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.15.0,0,6,6
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,14,14
 rancher/local-path-provisioner:v0.0.36,0,70,70
-rancher/machine:v0.15.0-rancher146-rc.2,0,7,7
+rancher/machine:v0.15.0-rancher146-rc.2,0,11,11
 rancher/mirrored-bci-micro:16.0-15.11,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.1,0,2,2
 rancher/mirrored-calico-cni:v3.32.1,0,2,2
@@ -79,7 +79,7 @@ rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,17,17
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,27,27
 rancher/rancher-agent:head,2,24,26
 rancher/rancher-assets:v2.16-20260805T1815Z-dev,0,0,0
-rancher/rancher-webhook:v0.12.1-rc.3,0,4,4
+rancher/rancher-webhook:v0.12.1-rc.4,0,4,4
 rancher/rancher:head,3,45,48
 rancher/remotedialer-proxy:v0.9.0-rc.2,0,4,4
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,6,6
@@ -94,4 +94,4 @@ rancher/system-agent-installer-k3s:v1.36.3-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.7-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.3-rke2r1,0,0,0
 rancher/system-agent:v0.16.0-rc.0-suc,0,8,8
-rancher/ui-plugin-catalog:4.38.0,0,0,0
+rancher/ui-plugin-catalog:4.38.0,0,4,4

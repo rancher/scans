@@ -111,6 +111,9 @@ neuvector/controller:5.5.3,neuvector/v5.5,libssh-config,0.9.8-150600.11.12.1,sle
 neuvector/controller:5.5.3,neuvector/v5.5,libssh4,0.9.8-150600.11.12.1,sles,SUSE-SU-2026:3330-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),0.9.8-150600.11.15.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/controller:5.5.3,neuvector/v5.5,libglib-2_0-0,2.78.6-150600.4.35.1,sles,SUSE-SU-2026:3341-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),2.78.6-150600.4.38.1,false,affected,
 neuvector/controller:5.5.3,neuvector/v5.5,gawk,4.2.1-150000.3.3.1,sles,SUSE-SU-2026:3455-1,MEDIUM,,neuvector/controller:5.5.3 (sles 15.7),4.2.1-150000.3.6.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/controller:5.5.3,neuvector/v5.5,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/controller:5.5.3,neuvector/v5.5,openssl,3.2.3-150700.1.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),3.5.0-150700.3.4.1,false,affected,
+neuvector/controller:5.5.3,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/controller:5.5.3 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,go.mongodb.org/mongo-driver,v1.12.1,gobinary,CVE-2026-2303,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-2303,usr/local/bin/consul,1.17.7,false,not_affected,vulnerable_code_not_present
 neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/consul,0.55.0,false,not_affected,vulnerable_code_not_present
 neuvector/enforcer:5.5.3,neuvector/v5.5,golang.org/x/net,v0.52.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,usr/local/bin/consul,0.55.0,false,not_affected,vulnerable_code_not_present
@@ -213,6 +216,9 @@ neuvector/enforcer:5.5.3,neuvector/v5.5,perl-base,5.26.1-150300.17.20.1,sles,SUS
 neuvector/enforcer:5.5.3,neuvector/v5.5,gzip,1.10-150200.10.1,sles,SUSE-SU-2026:3592-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),1.10-150200.16.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.5.3,neuvector/v5.5,rpm,4.14.3-150400.59.16.1,sles,SUSE-SU-2026:3600-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),4.14.3-150400.59.19.1,false,affected,
 neuvector/enforcer:5.5.3,neuvector/v5.5,curl,8.14.1-150700.7.14.1,sles,SUSE-SU-2026:3798-1,MEDIUM,,neuvector/enforcer:5.5.3 (sles 15.7),8.14.1-150700.7.23.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/enforcer:5.5.3,neuvector/v5.5,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/enforcer:5.5.3,neuvector/v5.5,openssl,3.2.3-150700.1.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),3.5.0-150700.3.4.1,false,affected,
+neuvector/enforcer:5.5.3,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/enforcer:5.5.3 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
 neuvector/manager:5.5.3,neuvector/v5.5,libpython3_13-1_0,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.13-150700.4.50.1,false,not_affected,vulnerable_code_not_present
 neuvector/manager:5.5.3,neuvector/v5.5,python313,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.13-150700.4.50.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.5.3,neuvector/v5.5,python313-base,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:2464-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.13-150700.4.50.1,false,affected,
@@ -225,6 +231,9 @@ neuvector/manager:5.5.3,neuvector/v5.5,libsystemd0,254.27-150600.4.62.1,sles,SUS
 neuvector/manager:5.5.3,neuvector/v5.5,libpython3_13-1_0,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:3649-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.14-150700.4.53.1,false,affected,
 neuvector/manager:5.5.3,neuvector/v5.5,python313,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:3649-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.14-150700.4.53.1,false,affected,
 neuvector/manager:5.5.3,neuvector/v5.5,python313-base,3.13.13-150700.4.45.1,sles,SUSE-SU-2026:3649-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.13.14-150700.4.53.1,false,affected,
+neuvector/manager:5.5.3,neuvector/v5.5,libopenssl3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/manager:5.5.3,neuvector/v5.5,openssl,3.2.3-150700.1.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.5.0-150700.3.4.1,false,affected,
+neuvector/manager:5.5.3,neuvector/v5.5,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/manager:5.5.3 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,perl-base,5.26.1-150300.17.20.1,sles,SUSE-SU-2026:3558-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),5.26.1-150300.17.23.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,rpm-ndb,4.14.3-150400.59.16.1,sles,SUSE-SU-2026:3600-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),4.14.3-150400.59.19.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,libpython3_13-1_0,3.13.13-150700.4.50.1,sles,SUSE-SU-2026:3649-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.13.14-150700.4.53.1,false,affected,
@@ -232,6 +241,10 @@ neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,python313,3.13.13-150700.4.5
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,python313-base,3.13.13-150700.4.50.1,sles,SUSE-SU-2026:3649-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.13.14-150700.4.53.1,false,affected,
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,python313-devel,3.13.13-150700.4.50.1,sles,SUSE-SU-2026:3649-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.13.14-150700.4.53.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,libcurl4,8.14.1-150700.7.20.1,sles,SUSE-SU-2026:3798-1,MEDIUM,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),8.14.1-150700.7.23.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,libopenssl-3-fips-provider,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,libopenssl3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,openssl,3.2.3-150700.1.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.5.0-150700.3.4.1,false,affected,
+neuvector/prometheus-exporter:1.0.18,neuvector/v5.5,openssl-3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/prometheus-exporter:1.0.18 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,usr/local/bin/adapter,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
@@ -240,6 +253,9 @@ neuvector/registry-adapter:0.2.10,neuvector/v5.5,golang.org/x/crypto,v0.53.0,gob
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-56859,HIGH,https://avd.aquasec.com/nvd/cve-2026-56859,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,stdlib,v1.26.5,gobinary,CVE-2026-56862,HIGH,https://avd.aquasec.com/nvd/cve-2026-56862,usr/local/bin/adapter,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 neuvector/registry-adapter:0.2.10,neuvector/v5.5,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/adapter,1.83.1,false,affected,
-neuvector/scanner:6,neuvector/v5.5,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/scanner,1.83.1,false,affected,
-neuvector/scanner:6,neuvector/v5.5,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/scannerTask,1.83.1,false,affected,
-neuvector/scanner:6,neuvector/v5.5,google.golang.org/grpc,v1.82.1,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,usr/local/bin/sigstore-interface,1.83.1,false,affected,
+neuvector/registry-adapter:0.2.10,neuvector/v5.5,libopenssl3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/registry-adapter:0.2.10 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/registry-adapter:0.2.10,neuvector/v5.5,openssl,3.2.3-150700.1.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/registry-adapter:0.2.10 (sles 15.7),3.5.0-150700.3.4.1,false,affected,
+neuvector/registry-adapter:0.2.10,neuvector/v5.5,openssl-3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/registry-adapter:0.2.10 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/updater:0.0.14,neuvector/v5.5,libopenssl3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/updater:0.0.14 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
+neuvector/updater:0.0.14,neuvector/v5.5,openssl,3.2.3-150700.1.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/updater:0.0.14 (sles 15.7),3.5.0-150700.3.4.1,false,affected,
+neuvector/updater:0.0.14,neuvector/v5.5,openssl-3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:3835-1,HIGH,,neuvector/updater:0.0.14 (sles 15.7),3.5.0-150700.5.45.2,false,affected,
