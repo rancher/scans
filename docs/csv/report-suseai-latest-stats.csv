@@ -88,7 +88,7 @@ gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/litellm:1.92.0,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/qdrant:1.19.0,0,0,0
 kserve/agent:v0.20.0,0,11,11
 kserve/aix-explainer:latest,27,314,341
-kserve/aix-explainer:v0.10.2,51,1991,2042
+kserve/aix-explainer:v0.10.2,51,1992,2043
 kserve/alibi-explainer:latest,18,176,194
 kserve/alibi-explainer:v0.12.1,17,178,195
 kserve/art-explainer:latest,5,70,75
