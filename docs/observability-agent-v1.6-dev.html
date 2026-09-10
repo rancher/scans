@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability agent v1.6 dev version - CVE Scans - 2026-09-09</h1>
+<h1>SUSE Rancher - Observability agent v1.6 dev version - CVE Scans - 2026-09-10</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -567,19 +567,19 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/container-tools:1.8.6-so21</td>
+<td>quay.io/stackstate/container-tools:1.8.6-so23</td>
 <td>false</td>
 <td>Observability agent v1.6 dev</td>
 <td>usr/bin/sts-toolbox</td>
-<td>google.golang.org/grpc@v1.82.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/opentelemetry-target-allocator:0.153.0-so11</td>
+<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
 <td>false</td>
 <td>Observability agent v1.6 dev</td>
 <td>usr/bin/targetallocator</td>
@@ -591,7 +591,79 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>usr/bin/targetallocator</td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/promtail:3.6.11-so16</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>usr/bin/promtail</td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-agent:158e1098</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>opt/stackstate-agent/bin/agent/agent</td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-agent:158e1098</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>opt/stackstate-agent/bin/installer/installer</td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:158e1098</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:d1ca2bd2</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>opt/stackstate-agent/bin/agent/process-agent</td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
 <td>false</td>
 <td>Observability agent v1.6 dev</td>
 <td>usr/bin/sts-opentelemetry-agent-collector</td>
@@ -603,7 +675,43 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
 <td>false</td>
 <td>Observability agent v1.6 dev</td>
 <td>usr/bin/sts-opentelemetry-agent-collector</td>
@@ -614,8 +722,20 @@ the distinctive tag '*' close to its severity.</li>
 <td></td>
 <td>gobinary</td>
 </tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>false</td>
+<td>Observability agent v1.6 dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/opentelemetry-target-allocator:0.153.0-so11</td>
+<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
 <td>false</td>
 <td>Observability agent v1.6 dev</td>
 <td>usr/bin/targetallocator</td>
@@ -627,7 +747,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>quay.io/stackstate/opentelemetry-target-allocator:0.153.0-so11</td>
+<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
 <td>false</td>
 <td>Observability agent v1.6 dev</td>
 <td>usr/bin/targetallocator</td>

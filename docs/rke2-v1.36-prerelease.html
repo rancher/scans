@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.36 prerelease version - CVE Scans - 2026-09-09</h1>
+<h1>SUSE Rancher - RKE2 v1.36 prerelease version - CVE Scans - 2026-09-10</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -565,6 +565,66 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 7 )">Status</th>
 <th onclick="sort( 8 )">Justification (for status not affected)</th>
 <th onclick="sort( 9 )">Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>calicoctl</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/calico</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-node</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/kube-controllers</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-calico:v3.32.1-build20260827</td>
@@ -627,6 +687,78 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>calicoctl</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/calico</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-node</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/kube-controllers</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-coredns:v1.14.7-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>coredns</td>
+<td>google.golang.org/grpc@v1.83.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-coredns:v1.14.7-build20260819</td>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
@@ -639,6 +771,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-coredns:v1.14.7-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>coredns</td>
+<td>google.golang.org/grpc@v1.83.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.26.8-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>node-cache</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-dns-node-cache:1.26.8-build20260819</td>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
@@ -646,6 +802,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.26.8-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>node-cache</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s1-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/etcd</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s1-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/etcdctl</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -675,10 +867,106 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s1-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/etcd</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s1-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/etcdctl</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-flannel:v0.28.9-build20260819</td>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>opt/bin/flanneld</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.28.9-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/bin/flanneld</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.28.9-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/bin/flanneld</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.52.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>metrics-server</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>metrics-server</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -692,8 +980,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>metrics-server</td>
 <td>google.golang.org/grpc@v1.82.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-cni:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>kubeconfig_generator</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-cni:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/src/multus-cni/bin/multus</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -723,6 +1035,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-multus-cni:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>kubeconfig_generator</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-cni:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/src/multus-cni/bin/multus</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260818</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>dynamic-networks-controller</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260818</td>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
@@ -730,6 +1078,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260818</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>dynamic-networks-controller</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-thick:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/src/multus-cni/bin/multus-daemon</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-thick:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/src/multus-cni/bin/multus-shim</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -759,6 +1143,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-multus-thick:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/src/multus-cni/bin/multus-daemon</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-thick:v4.3.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/src/multus-cni/bin/multus-shim</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-snapshot-controller:v8.6.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>snapshot-controller</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-snapshot-controller:v8.6.0-build20260819</td>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
@@ -771,12 +1191,24 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/hardened-traefik:v3.7.11-build20260819</td>
+<td>rancher/hardened-snapshot-controller:v8.6.0-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>snapshot-controller</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-traefik:v3.7.13-build20260909</td>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>traefik</td>
-<td>google.golang.org/grpc@v1.82.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td>google.golang.org/grpc@v1.83.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -848,7 +1280,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/harvester-cloud-provider</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-cloud-provider:v0.2.8</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/harvester-cloud-provider</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-cloud-provider:v0.2.8</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/harvester-cloud-provider</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -932,7 +1388,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/harvester-csi-driver</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/harvester-csi-driver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-csi-driver:v0.2.9</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/harvester-csi-driver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1023,12 +1503,84 @@ the distinctive tag '*' close to its severity.</li>
 <td>alpine</td>
 </tr>
 <tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-apiserver:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>code/apiserver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-calico-apiserver:v3.32.1</td>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>code/apiserver</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-apiserver:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>code/apiserver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1052,7 +1604,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>opt/cni/bin/calico</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/calico</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-cni:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/calico</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1148,7 +1724,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/csi-driver</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-csi:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/csi-driver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-csi:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/csi-driver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1231,6 +1831,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/calicoctl</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calicoctl</td>
 <td>stdlib@v1.25.11</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -1255,8 +1867,44 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/calicoctl</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calicoctl</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calicoctl</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-ctl:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calicoctl</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1327,6 +1975,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/local/bin/envoy-gateway</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-gateway:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/envoy-gateway</td>
 <td>stdlib@v1.26.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -1351,8 +2011,44 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/local/bin/envoy-gateway</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-gateway:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/envoy-gateway</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-gateway:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/envoy-gateway</td>
 <td>google.golang.org/grpc@v1.80.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-gateway:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/envoy-gateway</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1436,7 +2132,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>bin/ratelimit</td>
 <td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-ratelimit:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>bin/ratelimit</td>
+<td>google.golang.org/grpc@v1.80.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-ratelimit:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>bin/ratelimit</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1460,6 +2180,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>goldmane</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-goldmane:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>health</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-goldmane:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>goldmane</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1473,6 +2217,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>health</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-goldmane:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>goldmane</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-goldmane:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>health</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1508,7 +2276,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/kube-controllers</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-kube-controllers:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/kube-controllers</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-kube-controllers:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/kube-controllers</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1604,7 +2396,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/node-driver-registrar</td>
 <td>google.golang.org/grpc@v1.81.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node-driver-registrar:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/node-driver-registrar</td>
+<td>google.golang.org/grpc@v1.81.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node-driver-registrar:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/node-driver-registrar</td>
+<td>google.golang.org/grpc@v1.81.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1699,6 +2515,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-node</td>
 <td>stdlib@v1.25.11</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -1723,8 +2551,44 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/calico-node</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-node</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-node</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-node</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1855,6 +2719,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/operator</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.42.3</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/operator</td>
 <td>stdlib@v1.26.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -1879,8 +2755,44 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/operator</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.42.3</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/operator</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.42.3</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/operator</td>
 <td>google.golang.org/grpc@v1.80.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-operator:v1.42.3</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/operator</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1976,7 +2888,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/calico-typha</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-typha:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-typha</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-typha:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/calico-typha</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2000,7 +2936,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>whisker-backend</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-whisker-backend:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>whisker-backend</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-whisker-backend:v3.32.1</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>whisker-backend</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2071,6 +3031,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>true</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/cilium-certgen</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-certgen:v0.4.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-certgen</td>
 <td>stdlib@v1.26.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -2086,6 +3058,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.26.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-certgen:v0.4.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-certgen</td>
+<td>golang.org/x/crypto@v0.51.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/cilium-cni</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-agent</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-dbg</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/hubble</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2133,6 +3165,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/hubble</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>opt/cni/bin/cilium-cni</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-agent</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-dbg</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/hubble</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2240,6 +3320,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/clustermesh-apiserver</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/etcd</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/clustermesh-apiserver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2253,6 +3357,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/etcd</td>
 <td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/clustermesh-apiserver</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/etcd</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2288,7 +3416,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/hubble-relay</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-relay:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/hubble-relay</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-relay:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/hubble-relay</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2396,7 +3548,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/backend</td>
 <td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-ui-backend:v0.13.5</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/backend</td>
+<td>google.golang.org/grpc@v1.80.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-hubble-ui-backend:v0.13.5</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/backend</td>
+<td>google.golang.org/grpc@v1.80.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2468,7 +3644,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/cilium-operator-aws</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-aws:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-operator-aws</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-aws:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-operator-aws</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2492,7 +3692,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/cilium-operator-azure</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-azure:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-operator-azure</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-azure:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-operator-azure</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2516,7 +3740,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/bin/cilium-operator-generic</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-generic:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-operator-generic</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-operator-generic:v1.19.6</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/bin/cilium-operator-generic</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2624,7 +3872,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>kube-vip</td>
 <td>google.golang.org/grpc@v1.83.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>kube-vip</td>
+<td>google.golang.org/grpc@v1.83.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>kube-vip</td>
+<td>google.golang.org/grpc@v1.83.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2744,7 +4016,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-attacher</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-attacher</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-attacher</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2852,7 +4148,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-node-driver-registrar</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-node-driver-registrar</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-node-driver-registrar</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2984,7 +4304,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-provisioner</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-provisioner</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-provisioner</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3116,7 +4460,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-resizer</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-resizer</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-resizer</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3248,7 +4616,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-snapshotter</td>
 <td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-snapshotter</td>
+<td>google.golang.org/grpc@v1.79.3</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428</td>
+<td>true</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-snapshotter</td>
+<td>google.golang.org/grpc@v1.79.3</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3271,8 +4663,56 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.36 prerelease</td>
 <td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3356,7 +4796,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>vsphere-cloud-controller-manager</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.36.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>vsphere-cloud-controller-manager</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.36.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>vsphere-cloud-controller-manager</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3440,7 +4904,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-attacher</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-attacher</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-attacher:v4.12.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-attacher</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3512,7 +5000,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-node-driver-registrar</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.17.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-node-driver-registrar</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.17.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-node-driver-registrar</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3596,7 +5108,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-provisioner</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-provisioner</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260730</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-provisioner</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3680,7 +5216,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-resizer</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-resizer</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260731</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-resizer</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3752,7 +5312,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>csi-snapshotter</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-snapshotter:v8.6.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-snapshotter</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-csi-snapshotter:v8.6.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>csi-snapshotter</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3824,7 +5408,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>livenessprobe</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-livenessprobe:v2.19.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>livenessprobe</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-livenessprobe:v2.19.0-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>livenessprobe</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3896,7 +5504,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>vsphere-csi</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260731</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>vsphere-csi</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.2-build20260731</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>vsphere-csi</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3968,7 +5600,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>RKE2 v1.36 prerelease</td>
 <td>syncer</td>
 <td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>syncer</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.2-build20260722</td>
+<td>false</td>
+<td>RKE2 v1.36 prerelease</td>
+<td>syncer</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
