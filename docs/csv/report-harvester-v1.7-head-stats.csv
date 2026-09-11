@@ -32,7 +32,7 @@ rancher/hardened-multus-cni:v4.3.0-build20260722,2,4,6
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,1,7,8
 rancher/harvester-cluster-repo:v1.7-head,0,3,3
 rancher/harvester-eventrouter:v1.7.3,0,8,8
-rancher/harvester-kubeovn-operator:v1.14.10,2,57,59
+rancher/harvester-kubeovn-operator:v1.14.10,2,60,62
 rancher/harvester-load-balancer-webhook:v1.7.3,0,4,4
 rancher/harvester-load-balancer:v1.7.3,0,4,4
 rancher/harvester-network-controller:v1.7.3,0,8,8
@@ -44,7 +44,7 @@ rancher/harvester-node-disk-manager:v1.7.3,0,10,10
 rancher/harvester-node-manager-webhook:v1.7.3,0,4,4
 rancher/harvester-node-manager:v1.7.3,0,4,4
 rancher/harvester-pcidevices:v1.7.3,1,6,7
-rancher/harvester-seeder:v1.7.3,1,28,29
+rancher/harvester-seeder:v1.7.3,1,31,32
 rancher/harvester-upgrade:v1.7-head,1,46,47
 rancher/harvester-vm-import-controller:v1.7.3,0,11,11
 rancher/harvester-webhook:v1.7-head,1,5,6
@@ -70,7 +70,7 @@ rancher/mirrored-prometheus-node-exporter:v1.9.0,0,15,15
 rancher/mirrored-prometheus-operator-admission-webhook:v0.80.1,0,16,16
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,16,16
 rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1,0,16,16
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,27,27
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,30,30
 rancher/prom-prometheus:v3.2.1,2,46,48
 rancher/rancher-agent:v2.13.3,3,49,52
 rancher/rancher-webhook:v0.9.3,0,16,16
@@ -81,7 +81,7 @@ rancher/shell:v0.6.2,2,96,98
 rancher/support-bundle-kit:v0.0.92,1,10,11
 rancher/system-agent-installer-rancher:v2.13.3,1,21,22
 rancher/system-agent-installer-rke2:v1.34.10-rke2r1,0,0,0
-rancher/system-agent:v0.3.14-suc,2,33,35
+rancher/system-agent:v0.3.14-suc,2,36,38
 rancher/system-upgrade-controller:v0.17.0,0,14,14
 registry.k8s.io/descheduler/descheduler:v0.33.0,1,23,24
 registry.k8s.io/sig-storage/snapshot-controller:v8.4.0,1,21,22
@@ -93,7 +93,7 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,15,15
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,13,13
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,13,13
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,14,14
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,53,53
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,55,55
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,15,15
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,11,11
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.6-150700.15.7.1,0,13,13

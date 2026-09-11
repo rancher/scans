@@ -54,7 +54,7 @@ ghcr.io/kubeflow/kubeflow/kfam:v1.10.0,0,66,66
 ghcr.io/kubeflow/kubeflow/notebook-controller:v1.10.0,0,70,70
 ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0,3,45,48
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-cuda-full:v1.11.0,3,74,77
-ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.0,3,74,77
+ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.0,3,73,76
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.0,3,73,76
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-cuda-full:v1.11.0,3,75,78
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:v1.11.0,3,75,78
@@ -83,15 +83,12 @@ ghcr.io/kubeflow/trainer/torchtune-trainer:v2.3.0,27,402,429
 ghcr.io/kubeflow/trainer/trainer-controller-manager:v2.3.0,0,8,8
 ghcr.io/kubeflow/training-v1/training-operator:v1-3a3a1da,0,0,0
 ghcr.io/suse/suse-ai-opentelemetry-collector:0.156.0,1,16,17
-gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/kubeflow:0.3.2,0,0,0
+gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/kubeflow:0.4.1,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/litellm:1.92.0,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/qdrant:1.19.0,0,0,0
 kserve/agent:v0.20.0,1,12,13
-kserve/aix-explainer:latest,26,313,339
 kserve/aix-explainer:v0.10.2,50,1982,2032
-kserve/alibi-explainer:latest,17,177,194
 kserve/alibi-explainer:v0.12.1,16,179,195
-kserve/art-explainer:latest,5,70,75
 kserve/art-explainer:v0.20.0,5,88,93
 kserve/huggingfaceserver:v0.20.0,6,208,214
 kserve/kserve-controller:v0.20.0,1,13,14
