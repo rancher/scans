@@ -10721,6 +10721,8 @@ python:3.14.7,suseai/latest,linux-libc-dev,6.12.101-1,debian,CVE-2026-74744,HIGH
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.101-1,debian,CVE-2026-74746,HIGH,https://avd.aquasec.com/nvd/cve-2026-74746,python:3.14.7 (debian 13.6),6.12.105-1,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.101-1,debian,CVE-2026-74752,HIGH,https://avd.aquasec.com/nvd/cve-2026-74752,python:3.14.7 (debian 13.6),,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.101-1,debian,CVE-2026-74753,HIGH,https://avd.aquasec.com/nvd/cve-2026-74753,python:3.14.7 (debian 13.6),,false,affected,
+python:3.14.7,suseai/latest,libxml2,2.12.7+dfsg+really2.9.14-2.1+deb13u3,debian,CVE-2026-74860,HIGH,https://avd.aquasec.com/nvd/cve-2026-74860,python:3.14.7 (debian 13.6),,false,affected,
+python:3.14.7,suseai/latest,libxml2-dev,2.12.7+dfsg+really2.9.14-2.1+deb13u3,debian,CVE-2026-74860,HIGH,https://avd.aquasec.com/nvd/cve-2026-74860,python:3.14.7 (debian 13.6),,false,affected,
 python:3.14.7,suseai/latest,bsdutils,1:2.41.5-0+deb13u1,debian,CVE-2026-76642,HIGH,https://avd.aquasec.com/nvd/cve-2026-76642,python:3.14.7 (debian 13.6),,false,affected,
 python:3.14.7,suseai/latest,libblkid-dev,2.41.5-0+deb13u1,debian,CVE-2026-76642,HIGH,https://avd.aquasec.com/nvd/cve-2026-76642,python:3.14.7 (debian 13.6),,false,affected,
 python:3.14.7,suseai/latest,libblkid1,2.41.5-0+deb13u1,debian,CVE-2026-76642,HIGH,https://avd.aquasec.com/nvd/cve-2026-76642,python:3.14.7 (debian 13.6),,false,affected,

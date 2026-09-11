@@ -108,7 +108,7 @@ kubeflowkatib/mxnet-mnist:v0.16.0,15,129,144
 kubeflowkatib/pytorch-mnist-cpu:v0.17.0,12,117,129
 litellm/litellm-database:v1.97.0,0,6,6
 litellm/litellm:v1.97.0,0,6,6
-python:3.14.7,56,497,553
+python:3.14.7,56,499,555
 pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,24,388,412
 pytorch/torchserve-kfs:0.12.0,3,106,109
 qdrant/qdrant:v1.19.0,3,88,91
