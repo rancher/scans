@@ -13,6 +13,6 @@ rancher/klipper-helm:v0.13.3-build20260820,0,6,6
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,14,14
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,30,30
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,29,29
 rancher/rke2-cloud-provider:v1.35.8-0.20260817193936-20fc9c33a412-build20260820,1,4,5
 rancher/rke2-runtime:v1.35.8-rke2r1,5,11,16

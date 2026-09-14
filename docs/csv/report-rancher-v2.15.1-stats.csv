@@ -28,7 +28,7 @@ rancher/hardened-traefik:v3.7.11-build20260819,2,7,9
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
 rancher/harvester-cloud-provider:v0.2.7,1,7,8
 rancher/harvester-cloud-provider:v0.2.8,1,8,9
-rancher/harvester-csi-driver:v0.2.9,1,14,15
+rancher/harvester-csi-driver:v0.2.9,1,13,14
 rancher/helm-controller:v0.16.10,2,30,32
 rancher/k3s-upgrade:v1.34.11-k3s1,1,5,6
 rancher/k3s-upgrade:v1.35.8-k3s1,1,5,6
@@ -121,7 +121,7 @@ rancher/neuvector-prometheus-exporter:1.0.18,0,7,7
 rancher/neuvector-registry-adapter:0.2.10,1,9,10
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.14,0,3,3
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,30,30
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,29,29
 rancher/prometheus-federator:v7.0.0,0,4,4
 rancher/rancher-agent:v2.15.1,1,12,13
 rancher/rancher-csp-adapter:v10.0.0,0,4,4
