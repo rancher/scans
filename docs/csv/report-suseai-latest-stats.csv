@@ -13,7 +13,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.23.0,1,11,12
 gcr.io/knative-releases/knative.dev/serving/cmd/queue:v1.23.0,1,7,8
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.23.0,1,7,8
 gcr.io/tfx-oss-public/ml_metadata_store_server:1.21.0,0,0,0
-ghcr.io/kserve/models-web-app:1.0.1,3,91,94
+ghcr.io/kserve/models-web-app:1.0.1,3,49,52
 ghcr.io/kubeflow/dashboard/access-management:v2.0.0,0,42,42
 ghcr.io/kubeflow/dashboard/dashboard:v2.0.0,7,93,100
 ghcr.io/kubeflow/dashboard/poddefaults-webhook:v2.0.0,0,15,15
