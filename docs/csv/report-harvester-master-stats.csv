@@ -1,5 +1,5 @@
 image,critical,high,total
-ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,40,40
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,36,36
 kubeovn/kube-ovn:v1.16.2,4,60,64
 kubeovn/vpc-nat-gateway:v1.16.2,0,5,5
 longhornio/backing-image-manager:v1.12.1,1,16,17
@@ -9,13 +9,13 @@ longhornio/csi-provisioner:v5.3.0,1,19,20
 longhornio/csi-resizer:v2.2.1,1,8,9
 longhornio/csi-snapshotter:v8.6.0,1,9,10
 longhornio/livenessprobe:v2.19.0,1,7,8
-longhornio/longhorn-cli:v1.12.1,0,11,11
+longhornio/longhorn-cli:v1.12.1,0,9,9
 longhornio/longhorn-engine:v1.12.1,3,26,29
-longhornio/longhorn-instance-manager:v1.12.1,2,22,24
+longhornio/longhorn-instance-manager:v1.12.1,2,21,23
 longhornio/longhorn-manager:v1.12.1,1,14,15
 longhornio/longhorn-share-manager:v1.12.1,1,12,13
 longhornio/longhorn-ui:v1.12.1,0,7,7
-longhornio/support-bundle-kit:v0.0.92,1,12,13
+longhornio/support-bundle-kit:v0.0.92,1,10,11
 rancher/cluster-api-controller:v1.13.3,1,10,11
 rancher/fleet-agent:v0.16.0,0,7,7
 rancher/fleet:v0.16.0,0,14,14
@@ -64,7 +64,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,1,24,25
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,3,42,45
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/rancher-agent:v2.15.0,1,21,22
+rancher/rancher-agent:v2.15.0,1,20,21
 rancher/rancher-webhook:v0.11.0,0,4,4
 rancher/rancher:v2.15.0,7,91,98
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,1,9,10
