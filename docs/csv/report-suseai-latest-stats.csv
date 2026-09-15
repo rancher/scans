@@ -58,7 +58,7 @@ ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.0,3,73,76
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.0,3,73,76
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-cuda-full:v1.11.0,3,75,78
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:v1.11.0,3,75,78
-ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.0,24,321,345
+ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.0,24,322,346
 ghcr.io/kubeflow/kubeflow/poddefaults-webhook:v1.10.0,0,15,15
 ghcr.io/kubeflow/kubeflow/profile-controller:v1.10.0,2,74,76
 ghcr.io/kubeflow/kubeflow/pvcviewer-controller:v1.10.0,0,21,21
@@ -76,10 +76,10 @@ ghcr.io/kubeflow/notebooks/tensorboard-controller:v1.11.0,0,29,29
 ghcr.io/kubeflow/notebooks/tensorboards-web-app:v1.11.0,3,96,99
 ghcr.io/kubeflow/notebooks/volumes-web-app:v1.11.0,3,96,99
 ghcr.io/kubeflow/trainer/dataset-initializer:v2.3.0,5,60,65
-ghcr.io/kubeflow/trainer/deepspeed-runtime:v2.3.0,24,325,349
-ghcr.io/kubeflow/trainer/mlx-runtime:v2.3.0,24,325,349
+ghcr.io/kubeflow/trainer/deepspeed-runtime:v2.3.0,24,326,350
+ghcr.io/kubeflow/trainer/mlx-runtime:v2.3.0,24,326,350
 ghcr.io/kubeflow/trainer/model-initializer:v2.3.0,5,59,64
-ghcr.io/kubeflow/trainer/torchtune-trainer:v2.3.0,27,402,429
+ghcr.io/kubeflow/trainer/torchtune-trainer:v2.3.0,27,403,430
 ghcr.io/kubeflow/trainer/trainer-controller-manager:v2.3.0,0,8,8
 ghcr.io/kubeflow/training-v1/training-operator:v1-3a3a1da,0,0,0
 ghcr.io/suse/suse-ai-opentelemetry-collector:0.156.0,1,16,17
@@ -87,7 +87,7 @@ gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/kubeflow:0.4.1,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/litellm:1.92.0,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/qdrant:1.19.0,0,0,0
 kserve/agent:v0.20.0,1,12,13
-kserve/huggingfaceserver:v0.20.0,6,208,214
+kserve/huggingfaceserver:v0.20.0,6,209,215
 kserve/kserve-controller:v0.20.0,1,13,14
 kserve/lgbserver:v0.20.0,5,69,74
 kserve/models-web-app:v0.13.0,11,114,125
@@ -102,12 +102,12 @@ kubeflowkatib/mxnet-mnist:v0.16.0,15,131,146
 kubeflowkatib/pytorch-mnist-cpu:v0.17.0,12,119,131
 litellm/litellm-database:v1.97.0,0,6,6
 litellm/litellm:v1.97.0,0,6,6
-python:3.14.7,56,602,658
-pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,24,388,412
+python:3.14.7,56,597,653
+pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,24,390,414
 pytorch/torchserve-kfs:0.12.0,3,106,109
 qdrant/qdrant:v1.19.0,3,90,93
 qdrant/qdrant:v1.19.0-gpu-nvidia,0,10,10
 registry.k8s.io/jobset/jobset:v0.12.0,1,17,18
 seldonio/mlserver:1.7.1,9,164,173
 tensorflow/serving:2.20.0,0,2,2
-tensorflow/tensorflow:2.21.0,26,359,385
+tensorflow/tensorflow:2.21.0,26,360,386

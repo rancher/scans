@@ -1,10 +1,10 @@
 image,critical,high,total
 quay.io/stackstate/clickhouse-backup:2.7.2-so15,0,0,0
-quay.io/stackstate/clickhouse:26.5.1-so10,0,0,0
+quay.io/stackstate/clickhouse:26.5.1-so10,0,3,3
 quay.io/stackstate/container-tools:1.8.6-so24,0,0,0
 quay.io/stackstate/contrib-stackpacks:20260909112305-main-cfb6515,0,0,0
 quay.io/stackstate/elasticsearch-exporter:1.10.0-so16,0,0,0
-quay.io/stackstate/elasticsearch:8.19.16-so15,0,0,0
+quay.io/stackstate/elasticsearch:8.19.16-so15,0,3,3
 quay.io/stackstate/hadoop:3.5.0-so16,0,0,0
 quay.io/stackstate/hbase-master:2.5-8.3.13,0,0,0
 quay.io/stackstate/hbase-regionserver:2.5-8.3.13,0,0,0
@@ -17,10 +17,10 @@ quay.io/stackstate/spotlight:5.2.0-snapshot.225,0,0,0
 quay.io/stackstate/stackgraph-console:2.5-8.3.13,0,0,0
 quay.io/stackstate/stackgraph-hbase:2.5-8.3.13,0,0,0
 quay.io/stackstate/stackpacks:20260819105948-master-9675369-2_0-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260909152015-master-97b55b6,1,9,10
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260909152015-master-97b55b6,1,9,10
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260909152015-master-97b55b6,1,9,10
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260909152015-master-97b55b6-2.5,1,9,10
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260909152015-master-97b55b6,1,12,13
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260909152015-master-97b55b6,1,12,13
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260909152015-master-97b55b6,1,12,13
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260909152015-master-97b55b6-2.5,1,12,13
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260909152015-master-97b55b6,0,0,0
 quay.io/stackstate/suse-observability-borg:20260911034614-f3be0255,0,0,0
 quay.io/stackstate/suse-observability-mcp:20260911033439-3d67dda0,0,0,0
