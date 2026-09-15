@@ -63,4 +63,4 @@ registry.rancher.com/rancher/hardened-livenessprobe:v2.15.0-build20260909,0,0,0
 registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.3-build20260909,0,0,0
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.3-build20260909,0,0,0
 registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime11,0,0,0
-registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime11,0,2,2
+registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime11,0,0,0
