@@ -28,8 +28,8 @@ ghcr.io/kubeflow/katib/file-metrics-collector:v0.19.0,1,10,11
 ghcr.io/kubeflow/katib/katib-controller:v0.19.0,1,10,11
 ghcr.io/kubeflow/katib/katib-db-manager:v0.19.0,1,10,11
 ghcr.io/kubeflow/katib/katib-ui:v0.19.0,1,10,11
-ghcr.io/kubeflow/katib/pytorch-mnist-cpu:v0.19.0,7,72,79
-ghcr.io/kubeflow/katib/suggestion-darts:v0.19.0,6,108,114
+ghcr.io/kubeflow/katib/pytorch-mnist-cpu:v0.19.0,4,39,43
+ghcr.io/kubeflow/katib/suggestion-darts:v0.19.0,6,61,67
 ghcr.io/kubeflow/katib/suggestion-enas:v0.19.0,6,118,124
 ghcr.io/kubeflow/katib/suggestion-goptuna:v0.19.0,1,10,11
 ghcr.io/kubeflow/katib/suggestion-hyperband:v0.19.0,6,108,114
