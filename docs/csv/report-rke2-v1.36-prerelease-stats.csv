@@ -15,8 +15,8 @@ rancher/hardened-multus-thick:v4.3.1-build20260910,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,0,0
 rancher/hardened-traefik:v3.7.13-build20260910,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260819,0,0,0
-rancher/harvester-cloud-provider:v0.2.8,1,8,9
-rancher/harvester-csi-driver:v0.2.9,1,13,14
+rancher/harvester-cloud-provider:v0.2.8,0,6,6
+rancher/harvester-csi-driver:v0.2.9,0,10,10
 rancher/klipper-helm:v0.13.3-build20260820,0,6,6
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.2,1,2,3
@@ -47,11 +47,11 @@ rancher/mirrored-cilium-operator-azure:v1.20.1,1,14,15
 rancher/mirrored-cilium-operator-generic:v1.20.1,1,14,15
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,1,9,10
 rancher/mirrored-library-busybox:1.36.1,0,0,0
-rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,1,12,13
-rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,1,10,11
-rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428,1,12,13
-rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,1,12,13
-rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,1,12,13
+rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,11,11
+rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,0,9,9
+rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428,0,11,11
+rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,11,11
+rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,11,11
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820,1,4,5
 registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.36.0-build20260911,0,0,0
