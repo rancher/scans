@@ -13,7 +13,7 @@ rancher/hardened-flannel:v0.28.9-build20260909,0,0,0
 rancher/hardened-k8s-metrics-server:v0.9.0-build20260909,0,0,0
 rancher/hardened-kubernetes:v1.35.8-rke2r1-build20260821,5,10,15
 rancher/hardened-kubernetes:v1.36.4-rke2r1-build20260821,5,10,15
-rancher/hardened-kubernetes:v1.37.0-rke2r1-build20260909,0,10,10
+rancher/hardened-kubernetes:v1.37.0-rke2r1-build20260909,0,0,0
 rancher/hardened-multus-cni:v4.3.1-build20260910,0,0,0
 rancher/hardened-multus-dynamic-networks-controller:v0.3.8-build20260909,0,0,0
 rancher/hardened-multus-thick:v4.3.1-build20260910,0,0,0
@@ -88,7 +88,7 @@ rancher/remotedialer-proxy:v0.9.0-rc.3,0,4,4
 rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820,1,4,5
 rancher/rke2-runtime:v1.35.8-rke2r1,5,11,16
 rancher/rke2-runtime:v1.36.4-rke2r1,5,11,16
-rancher/rke2-runtime:v1.37.0-rke2r1,0,4,4
+rancher/rke2-runtime:v1.37.0-rke2r1,0,2,2
 rancher/rke2-security-responder:v0.1.5,0,0,0
 rancher/rke2-upgrade:v1.35.8-rke2r1,1,9,10
 rancher/rke2-upgrade:v1.36.4-rke2r1,1,8,9
