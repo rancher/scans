@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability agent v1.6.1 version - CVE Scans - 2026-09-16</h1>
+<h1>SUSE Rancher - Observability v2.11.1 version - CVE Scans - 2026-09-16</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
+
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -567,11 +567,95 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/clickhouse:26.5.1-so10</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.5.0-150700.5.45.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:26.5.1-so10</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-150700.5.45.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/clickhouse:26.5.1-so10</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.5.0-150700.5.45.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch:8.19.16-so15</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.5.0-150700.5.45.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch:8.19.16-so15</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-150700.5.45.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch:8.19.16-so15</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.5.0-150700.5.45.2</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
 <td>usr/bin/sts-toolbox</td>
-<td>golang.org/x/crypto@v0.55.0</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -579,11 +663,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>usr/bin/sts-toolbox</td>
-<td>golang.org/x/crypto@v0.55.0</td>
+<td>golang.org/x/crypto@v0.53.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -591,9 +675,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>usr/bin/sts-toolbox</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
@@ -603,9 +687,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>usr/bin/sts-toolbox</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
@@ -615,9 +699,9 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>usr/bin/sts-toolbox</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
@@ -627,35 +711,59 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.45.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.45.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/container-tools:1.8.6-so21</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
+<td>openssl</td>
+<td>openssl@3.2.3-150700.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
 <td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.45.2</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -663,23 +771,95 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/targetallocator</td>
-<td>github.com/docker/docker@v28.5.2+incompatible</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33997.html">CVE-2026-33997</a></td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/targetallocator</td>
-<td>google.golang.org/grpc@v1.83.1</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -687,47 +867,59 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/promtail:3.6.11-so16</td>
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/promtail</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/promtail:3.6.11-so16</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.45.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/promtail:3.6.11-so16</td>
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.45.2</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/promtail:3.6.11-so16</td>
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
+<td>openssl</td>
+<td>openssl@3.2.3-150700.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
 <td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.45.2</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -735,71 +927,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-agent:158e1098</td>
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>opt/stackstate-agent/bin/agent/agent</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-agent:158e1098</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>opt/stackstate-agent/bin/installer/installer</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:158e1098</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:d1ca2bd2</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>opt/stackstate-agent/bin/agent/process-agent</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:d1ca2bd2</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>libcares2</td>
-<td>libcares2@1.19.1-150000.3.26.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264021-1">SUSE-SU-2026:4021-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:d1ca2bd2</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.45.2</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -807,11 +939,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/stackstate-k8s-process-agent:d1ca2bd2</td>
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
+<td>Observability v2.11.1</td>
 <td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.45.2</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -819,10 +951,322 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl</td>
+<td>openssl@3.2.3-150700.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.11.1</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>golang.org/x/crypto@v0.53.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
+<td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-toolbox</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl</td>
+<td>openssl@3.2.3-150700.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20263835-1">SUSE-SU-2026:3835-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.11.1-2.5</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264039-1">SUSE-SU-2026:4039-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56</td>
+<td>false</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
 <td>golang.org/x/crypto@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -831,10 +1275,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
 <td>golang.org/x/crypto@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -843,10 +1287,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
 <td>golang.org/x/crypto@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -855,10 +1299,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84303.html">CVE-2026-84303</a></td>
 <td><span class="sev sev-CRITICAL cve_sev">CRITICAL*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -867,10 +1311,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -879,39 +1323,15 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56-agent</td>
+<td>registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.56</td>
 <td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>Observability v2.11.1</td>
+<td>usr/bin/sts-opentelemetry-collector</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/targetallocator</td>
-<td>github.com/docker/docker@v28.5.2+incompatible</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-41567.html">CVE-2026-41567</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.153.0-so11</td>
-<td>false</td>
-<td>Observability agent v1.6.1</td>
-<td>usr/bin/targetallocator</td>
-<td>github.com/docker/docker@v28.5.2+incompatible</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-42306">CVE-2026-42306</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 </table>
