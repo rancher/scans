@@ -28,7 +28,7 @@ rancher/harvester-csi-driver:v0.2.9,0,10,10
 rancher/k3s-upgrade:v1.35.8-k3s1,0,5,5
 rancher/k3s-upgrade:v1.36.4-k3s1,0,5,5
 rancher/k3s-upgrade:v1.37.0-k3s1,0,0,0
-rancher/klipper-helm:v0.13.3-build20260727,0,18,18
+rancher/klipper-helm:v0.13.3-build20260727,0,17,17
 rancher/klipper-helm:v0.13.3-build20260909,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-api-auth:v0.16.0-rc.1,0,2,2
@@ -98,7 +98,7 @@ rancher/rke2-upgrade:v1.35.8-rke2r1,0,9,9
 rancher/rke2-upgrade:v1.36.4-rke2r1,0,8,8
 rancher/rke2-upgrade:v1.37.0-rke2r1,0,3,3
 rancher/scc-operator:v0.5.2-rc.1,0,2,2
-rancher/shell:v0.8.1,1,19,20
+rancher/shell:v0.8.1,1,21,22
 rancher/system-agent-installer-k3s:v1.35.8-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.36.4-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.37.0-k3s1,0,0,0

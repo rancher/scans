@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/k3s:v1.37.0-k3s1,0,3,3
-rancher/klipper-helm:v0.13.3-build20260727,0,18,18
+rancher/klipper-helm:v0.13.3-build20260727,0,17,17
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/local-path-provisioner:v0.0.37,0,4,4
 rancher/mirrored-coredns-coredns:1.14.7,0,11,11
