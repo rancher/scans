@@ -36,8 +36,8 @@ ghcr.io/kubeflow/katib/suggestion-hyperband:v0.19.0,2,28,30
 ghcr.io/kubeflow/katib/suggestion-hyperopt:v0.19.0,1,9,10
 ghcr.io/kubeflow/katib/suggestion-optuna:v0.19.0,1,13,14
 ghcr.io/kubeflow/katib/suggestion-pbt:v0.19.0,3,32,35
-ghcr.io/kubeflow/katib/suggestion-skopt:v0.19.0,6,91,97
-ghcr.io/kubeflow/katib/tfevent-metrics-collector:v0.19.0,6,118,124
+ghcr.io/kubeflow/katib/suggestion-skopt:v0.19.0,1,10,11
+ghcr.io/kubeflow/katib/tfevent-metrics-collector:v0.19.0,6,86,92
 ghcr.io/kubeflow/kfp-api-server:2.17.2,4,67,71
 ghcr.io/kubeflow/kfp-cache-server:2.17.2,1,13,14
 ghcr.io/kubeflow/kfp-frontend:2.17.2,3,29,32
