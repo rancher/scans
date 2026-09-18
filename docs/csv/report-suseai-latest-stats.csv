@@ -38,12 +38,12 @@ ghcr.io/kubeflow/katib/suggestion-optuna:v0.19.0,1,13,14
 ghcr.io/kubeflow/katib/suggestion-pbt:v0.19.0,3,33,36
 ghcr.io/kubeflow/katib/suggestion-skopt:v0.19.0,1,10,11
 ghcr.io/kubeflow/katib/tfevent-metrics-collector:v0.19.0,3,40,43
-ghcr.io/kubeflow/kfp-api-server:2.17.2,1,20,21
+ghcr.io/kubeflow/kfp-api-server:2.17.2,1,18,19
 ghcr.io/kubeflow/kfp-cache-server:2.17.2,1,15,16
-ghcr.io/kubeflow/kfp-frontend:2.17.2,3,29,32
+ghcr.io/kubeflow/kfp-frontend:2.17.2,2,25,27
 ghcr.io/kubeflow/kfp-launcher:2.17.2,1,20,21
 ghcr.io/kubeflow/kfp-metadata-envoy:2.17.2,0,1,1
-ghcr.io/kubeflow/kfp-metadata-writer:2.17.2,3,60,63
+ghcr.io/kubeflow/kfp-metadata-writer:2.17.2,3,35,38
 ghcr.io/kubeflow/kfp-persistence-agent:2.17.2,1,15,16
 ghcr.io/kubeflow/kfp-scheduled-workflow-controller:2.17.2,1,15,16
 ghcr.io/kubeflow/kfp-viewer-crd-controller:2.17.2,0,8,8
