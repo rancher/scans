@@ -1,6 +1,10 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 neuvector/controller:5.5.4,neuvector/v5.5,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-56855,HIGH,https://avd.aquasec.com/nvd/cve-2026-56855,usr/local/bin/opa,0.56.0,false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/controller:5.5.4,neuvector/v5.5,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-78662,HIGH,https://avd.aquasec.com/nvd/cve-2026-78662,usr/local/bin/opa,0.56.0,false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/controller:5.5.4,neuvector/v5.5,github.com/coredns/coredns,v1.14.3,gobinary,CVE-2026-82399,HIGH,https://avd.aquasec.com/nvd/cve-2026-82399,usr/local/bin/consul,1.14.7,false,affected,
+neuvector/controller:5.5.4,neuvector/v5.5,github.com/coredns/coredns,v1.14.3,gobinary,CVE-2026-86003,HIGH,https://avd.aquasec.com/nvd/cve-2026-86003,usr/local/bin/consul,1.14.7,false,affected,
+neuvector/enforcer:5.5.4,neuvector/v5.5,github.com/coredns/coredns,v1.14.3,gobinary,CVE-2026-82399,HIGH,https://avd.aquasec.com/nvd/cve-2026-82399,usr/local/bin/consul,1.14.7,false,affected,
+neuvector/enforcer:5.5.4,neuvector/v5.5,github.com/coredns/coredns,v1.14.3,gobinary,CVE-2026-86003,HIGH,https://avd.aquasec.com/nvd/cve-2026-86003,usr/local/bin/consul,1.14.7,false,affected,
 neuvector/enforcer:5.5.4,neuvector/v5.5,libpcap-devel,1.10.5-150700.3.10.1,sles,SUSE-SU-2026:4188-1,HIGH,,neuvector/enforcer:5.5.4 (sles 15.7),1.10.5-150700.3.13.1,false,affected,
 neuvector/enforcer:5.5.4,neuvector/v5.5,libpcap1,1.10.5-150700.3.10.1,sles,SUSE-SU-2026:4188-1,HIGH,,neuvector/enforcer:5.5.4 (sles 15.7),1.10.5-150700.3.13.1,false,affected,
 neuvector/enforcer:5.5.4,neuvector/v5.5,kbd,2.4.0-150700.15.6.1,sles,SUSE-SU-2026:4211-1,HIGH,,neuvector/enforcer:5.5.4 (sles 15.7),2.4.0-150700.15.10.1,false,affected,
@@ -8,5 +12,3 @@ neuvector/prometheus-exporter:1.0.19,neuvector/v5.5,setuptools,70.3.0,python-pkg
 neuvector/prometheus-exporter:1.0.19,neuvector/v5.5,msgpack,1.1.2,python-pkg,GHSA-6v7p-g79w-8964,HIGH,https://github.com/advisories/GHSA-6v7p-g79w-8964,Python,1.2.1,false,affected,
 neuvector/prometheus-exporter:1.0.19,neuvector/v5.5,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,neuvector/prometheus-exporter:1.0.19 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 neuvector/prometheus-exporter:1.0.19,neuvector/v5.5,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,neuvector/prometheus-exporter:1.0.19 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
-neuvector/scanner:6,neuvector/v5.5,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,neuvector/scanner:6 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
-neuvector/scanner:6,neuvector/v5.5,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,neuvector/scanner:6 (sles 15.7),2.6.0-150000.4.3.1,false,affected,

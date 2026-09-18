@@ -22,8 +22,8 @@ rancher/hardened-addon-resizer:1.8.23-build20260717,0,5,5
 rancher/hardened-calico:v3.32.1-build20260722,0,19,19
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,5,5
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
-rancher/hardened-coredns:v1.14.6-build20260722,0,7,7
-rancher/hardened-dns-node-cache:1.26.8-build20260722,0,7,7
+rancher/hardened-coredns:v1.14.6-build20260722,0,9,9
+rancher/hardened-dns-node-cache:1.26.8-build20260722,0,9,9
 rancher/hardened-etcd:v3.6.14-k3s1-build20260723,0,10,10
 rancher/hardened-flannel:v0.28.8-build20260722,0,2,2
 rancher/hardened-k8s-metrics-server:v0.9.0-build20260722,1,6,7
@@ -56,8 +56,8 @@ rancher/kubectl:v1.34.1,0,12,12
 rancher/kuberlr-kubectl:v5.0.0,0,58,58
 rancher/mirrored-cluster-api-controller:v1.10.6,0,22,22
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,52,56
-rancher/mirrored-grafana-grafana:11.5.5,3,33,36
-rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,3,34,37
+rancher/mirrored-grafana-grafana:11.5.5,3,35,38
+rancher/mirrored-kiwigrid-k8s-sidecar:1.30.0,3,36,39
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,12,71,83
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,15,15

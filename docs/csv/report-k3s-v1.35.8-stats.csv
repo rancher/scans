@@ -3,7 +3,7 @@ rancher/k3s:v1.35.8-k3s1,0,7,7
 rancher/klipper-helm:v0.13.3-build20260727,0,17,17
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/local-path-provisioner:v0.0.37,0,4,4
-rancher/mirrored-coredns-coredns:1.14.6,0,17,17
+rancher/mirrored-coredns-coredns:1.14.6,0,19,19
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-traefik:3.7.8,1,13,14
 rancher/mirrored-metrics-server:v0.9.0,1,11,12
