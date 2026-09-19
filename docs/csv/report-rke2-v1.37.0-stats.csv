@@ -3,7 +3,7 @@ rancher/hardened-addon-resizer:1.8.23-build20260909,0,0,0
 rancher/hardened-calico:v3.32.2-build20260909,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0
 rancher/hardened-coredns:v1.14.7-build20260909,0,0,0
-rancher/hardened-dns-node-cache:1.26.8-build20260909,0,2,2
+rancher/hardened-dns-node-cache:1.26.8-build20260909,0,3,3
 rancher/hardened-etcd:v3.7.1-k3s1-build20260910,0,0,0
 rancher/hardened-flannel:v0.28.9-build20260909,0,0,0
 rancher/hardened-k8s-metrics-server:v0.9.0-build20260909,0,0,0

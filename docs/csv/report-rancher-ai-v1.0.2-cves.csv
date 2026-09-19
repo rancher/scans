@@ -22,6 +22,7 @@ registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,pyasn1,0.6.3
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,pypdf,6.11.0,python-pkg,CVE-2026-59935,HIGH,https://avd.aquasec.com/nvd/cve-2026-59935,Python,6.14.2,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,pypdf,6.11.0,python-pkg,CVE-2026-59936,HIGH,https://avd.aquasec.com/nvd/cve-2026-59936,Python,6.14.1,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,mcp,1.26.0,python-pkg,CVE-2026-59950,HIGH,https://avd.aquasec.com/nvd/cve-2026-59950,Python,1.28.1,false,affected,
+registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,anyio,4.13.0,python-pkg,CVE-2026-63374,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-63374,Python,4.14.2,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,aiohttp,3.13.5,python-pkg,CVE-2026-69244,HIGH,https://avd.aquasec.com/nvd/cve-2026-69244,Python,3.14.3,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,cryptography,48.0.0,python-pkg,CVE-2026-69247,HIGH,https://avd.aquasec.com/nvd/cve-2026-69247,Python,50.0.0,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,cryptography,48.0.0,python-pkg,CVE-2026-69249,HIGH,https://avd.aquasec.com/nvd/cve-2026-69249,Python,49.0.0,false,affected,
@@ -47,6 +48,7 @@ registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libopenssl3,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:4039-1,HIGH,,registry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),3.5.0-150700.5.50.1,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,registry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,registry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
+registry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,registry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),10.42-150600.3.3.1,false,affected,
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-27136,HIGH,https://avd.aquasec.com/nvd/cve-2026-27136,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
@@ -101,6 +103,7 @@ registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,github.com/mod
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,registry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.38-150600.14.49.1,false,affected,
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,registry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,registry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
+registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,registry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),10.42-150600.3.3.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,fastmcp,3.1.0,python-pkg,CVE-2026-27124,HIGH,https://avd.aquasec.com/nvd/cve-2026-27124,Python,3.2.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,fastmcp,3.1.0,python-pkg,CVE-2026-32871,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-32871,Python,3.2.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,langchain-classic,1.0.3,python-pkg,CVE-2026-45134,HIGH,https://avd.aquasec.com/nvd/cve-2026-45134,Python,1.0.7,false,affected,
@@ -124,6 +127,7 @@ stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,pyasn1,0.
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,pypdf,6.11.0,python-pkg,CVE-2026-59935,HIGH,https://avd.aquasec.com/nvd/cve-2026-59935,Python,6.14.2,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,pypdf,6.11.0,python-pkg,CVE-2026-59936,HIGH,https://avd.aquasec.com/nvd/cve-2026-59936,Python,6.14.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,mcp,1.26.0,python-pkg,CVE-2026-59950,HIGH,https://avd.aquasec.com/nvd/cve-2026-59950,Python,1.28.1,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,anyio,4.13.0,python-pkg,CVE-2026-63374,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-63374,Python,4.14.2,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,aiohttp,3.13.5,python-pkg,CVE-2026-69244,HIGH,https://avd.aquasec.com/nvd/cve-2026-69244,Python,3.14.3,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,cryptography,48.0.0,python-pkg,CVE-2026-69247,HIGH,https://avd.aquasec.com/nvd/cve-2026-69247,Python,50.0.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,cryptography,48.0.0,python-pkg,CVE-2026-69249,HIGH,https://avd.aquasec.com/nvd/cve-2026-69249,Python,49.0.0,false,affected,
@@ -148,6 +152,7 @@ stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libopenss
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,openssl-3,3.2.3-150700.5.31.1,sles,SUSE-SU-2026:4039-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),3.5.0-150700.5.50.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,rancher-ai/v1.0.2,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2 (sles 15.7),10.42-150600.3.3.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,golang.org/x/net,v0.50.0,gobinary,CVE-2026-27136,HIGH,https://avd.aquasec.com/nvd/cve-2026-27136,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_present
@@ -202,3 +207,4 @@ stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,github.com/
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,glibc,2.38-150600.14.46.1,sles,SUSE-SU-2026:2231-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.38-150600.14.49.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,rancher-ai/v1.0.2,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2 (sles 15.7),10.42-150600.3.3.1,false,affected,

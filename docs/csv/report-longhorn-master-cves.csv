@@ -2,6 +2,7 @@ image,release,package_name,package_version,type,vulnerability_id,severity,url,ta
 longhornio/backing-image-manager:master-head,longhorn/master,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 longhornio/backing-image-manager:master-head,longhorn/master,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),2.6.0-150000.4.3.1,false,affected,
 longhornio/backing-image-manager:master-head,longhorn/master,kbd,2.4.0-150700.15.6.1,sles,SUSE-SU-2026:4211-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),2.4.0-150700.15.10.1,false,affected,
+longhornio/backing-image-manager:master-head,longhorn/master,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),10.42-150600.3.3.1,false,affected,
 longhornio/csi-attacher:v4.12.0,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,csi-attacher,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.12.0,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,csi-attacher,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.12.0,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-27136,HIGH,https://avd.aquasec.com/nvd/cve-2026-27136,csi-attacher,0.55.0,false,not_affected,vulnerable_code_not_present
@@ -149,6 +150,7 @@ longhornio/longhorn-ui:master-head,longhorn/master,libopenssl3,3.5.0-150700.5.45
 longhornio/longhorn-ui:master-head,longhorn/master,openssl-3,3.5.0-150700.5.45.2,sles,SUSE-SU-2026:4039-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),3.5.0-150700.5.50.1,false,affected,
 longhornio/longhorn-ui:master-head,longhorn/master,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 longhornio/longhorn-ui:master-head,longhorn/master,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),2.6.0-150000.4.3.1,false,affected,
+longhornio/longhorn-ui:master-head,longhorn/master,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/longhorn-ui:master-head (sles 15.7),10.42-150600.3.3.1,false,affected,
 longhornio/support-bundle-kit:v0.0.93,longhorn/master,golang.org/x/crypto,v0.53.0,gobinary,CVE-2026-56854,HIGH,https://avd.aquasec.com/nvd/cve-2026-56854,usr/bin/support-bundle-kit,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/support-bundle-kit:v0.0.93,longhorn/master,golang.org/x/crypto,v0.53.0,gobinary,CVE-2026-56855,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-56855,usr/bin/support-bundle-kit,0.56.0,false,not_affected,vulnerable_code_not_present
 longhornio/support-bundle-kit:v0.0.93,longhorn/master,golang.org/x/crypto,v0.53.0,gobinary,CVE-2026-78662,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-78662,usr/bin/support-bundle-kit,0.56.0,false,not_affected,vulnerable_code_not_present
@@ -164,3 +166,4 @@ longhornio/support-bundle-kit:v0.0.93,longhorn/master,libopenssl3,3.2.3-150700.5
 longhornio/support-bundle-kit:v0.0.93,longhorn/master,openssl-3,3.2.3-150700.5.40.1,sles,SUSE-SU-2026:4039-1,HIGH,,longhornio/support-bundle-kit:v0.0.93 (sles 15.7),3.5.0-150700.5.50.1,false,affected,
 longhornio/support-bundle-kit:v0.0.93,longhorn/master,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/support-bundle-kit:v0.0.93 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 longhornio/support-bundle-kit:v0.0.93,longhorn/master,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/support-bundle-kit:v0.0.93 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
+longhornio/support-bundle-kit:v0.0.93,longhorn/master,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/support-bundle-kit:v0.0.93 (sles 15.7),10.42-150600.3.3.1,false,affected,
