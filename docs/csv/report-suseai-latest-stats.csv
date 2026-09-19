@@ -49,7 +49,7 @@ ghcr.io/kubeflow/kfp-scheduled-workflow-controller:2.17.2,1,13,14
 ghcr.io/kubeflow/kfp-viewer-crd-controller:2.17.2,0,6,6
 ghcr.io/kubeflow/kfp-visualization-server:2.17.2,0,56,56
 ghcr.io/kubeflow/kubeflow/central-dashboard:v1.10.0,7,91,98
-ghcr.io/kubeflow/kubeflow/jupyter-web-app:v1.10.0,7,57,64
+ghcr.io/kubeflow/kubeflow/jupyter-web-app:v1.10.0,4,37,41
 ghcr.io/kubeflow/kubeflow/kfam:v1.10.0,0,66,66
 ghcr.io/kubeflow/kubeflow/notebook-controller:v1.10.0,0,70,70
 ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0,4,45,49
