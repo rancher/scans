@@ -18,9 +18,9 @@ ghcr.io/kubeflow/dashboard/access-management:v2.0.0,0,42,42
 ghcr.io/kubeflow/dashboard/dashboard:v2.0.0,7,92,99
 ghcr.io/kubeflow/dashboard/poddefaults-webhook:v2.0.0,0,15,15
 ghcr.io/kubeflow/dashboard/profile-controller:v2.0.0,2,51,53
-ghcr.io/kubeflow/hub/controller:v0.3.16,1,16,17
+ghcr.io/kubeflow/hub/controller:v0.3.16,1,10,11
 ghcr.io/kubeflow/hub/server:v0.3.16,0,14,14
-ghcr.io/kubeflow/hub/storage-initializer:v0.3.16,1,15,16
+ghcr.io/kubeflow/hub/storage-initializer:v0.3.16,1,9,10
 ghcr.io/kubeflow/hub/ui:v0.3.16,0,5,5
 ghcr.io/kubeflow/katib/earlystopping-medianstop:v0.19.0,3,36,39
 ghcr.io/kubeflow/katib/enas-cnn-cifar10-cpu:v0.19.0,3,37,40
