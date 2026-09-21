@@ -42,7 +42,7 @@ rancher/kube-webhook-certgen:v1.14.5-hardened2,0,14,14
 rancher/kubectl:v1.33.1,0,13,13
 rancher/kubectl:v1.33.5,0,12,12
 rancher/kuberlr-kubectl:v5.0.0,0,59,59
-rancher/kuberlr-kubectl:v5.1.1,0,24,24
+rancher/kuberlr-kubectl:v5.1.1,0,9,9
 rancher/local-path-provisioner:v0.0.36,0,70,70
 rancher/machine:v0.15.0-rancher133.2,0,34,34
 rancher/mirrored-bci-busybox:15.6.24.2,0,8,8
@@ -58,7 +58,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.1,1,8,9
 rancher/mirrored-calico-goldmane:v3.32.1,0,6,6
 rancher/mirrored-calico-kube-controllers:v3.32.1,0,3,3
 rancher/mirrored-calico-node-driver-registrar:v3.32.1,1,9,10
-rancher/mirrored-calico-node:v3.32.1,1,14,15
+rancher/mirrored-calico-node:v3.32.1,1,21,22
 rancher/mirrored-calico-operator:v1.42.3,2,16,18
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,6,6
 rancher/mirrored-calico-typha:v3.32.1,0,3,3

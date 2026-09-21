@@ -63,7 +63,7 @@ rancher/kubeadm-control-plane-controller:v1.10.6,0,21,21
 rancher/kubectl:v1.34.1,0,12,12
 rancher/kuberlr-kubectl:v6.0.0,0,54,54
 rancher/kuberlr-kubectl:v6.0.3,0,42,42
-rancher/kuberlr-kubectl:v6.1.1,0,22,22
+rancher/kuberlr-kubectl:v6.1.1,0,7,7
 rancher/local-path-provisioner:v0.0.37,0,4,4
 rancher/machine:v0.15.0-rancher137.3,0,11,11
 rancher/mirrored-bci-busybox:15.6.24.2,0,8,8
@@ -78,7 +78,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.1,1,8,9
 rancher/mirrored-calico-goldmane:v3.32.1,0,6,6
 rancher/mirrored-calico-kube-controllers:v3.32.1,0,3,3
 rancher/mirrored-calico-node-driver-registrar:v3.32.1,1,9,10
-rancher/mirrored-calico-node:v3.32.1,1,14,15
+rancher/mirrored-calico-node:v3.32.1,1,21,22
 rancher/mirrored-calico-operator:v1.42.3,2,16,18
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,6,6
 rancher/mirrored-calico-typha:v3.32.1,0,3,3
