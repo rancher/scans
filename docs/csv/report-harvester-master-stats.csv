@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.4-rke2r1-build20260821,0,10,10
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,4,4
 rancher/hardened-snapshot-controller:v8.6.0-build20260819,0,1,1
 rancher/hardened-traefik:v3.7.11-build20260819,2,7,9
-rancher/harvester-cluster-repo:e6817bce,0,0,0
+rancher/harvester-cluster-repo:de85a5d1,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.2,0,0,0
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -54,7 +54,7 @@ rancher/harvester:master-head,0,0,0
 rancher/klipper-helm:v0.13.3-build20260820,0,5,5
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kubectl:v1.35.1,0,8,8
-rancher/kuberlr-kubectl:v8.1.1,0,20,20
+rancher/kuberlr-kubectl:v8.1.2,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,4,52,56
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,16,16
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18

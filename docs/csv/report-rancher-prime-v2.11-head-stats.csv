@@ -177,7 +177,7 @@ rancher/prom-prometheus:v3.2.1,0,46,46
 rancher/prometheus-federator:v3.3.2-rc.2,0,1,1
 rancher/rancher-agent:v2.11-head,0,12,12
 rancher/rancher-csp-adapter:v6.0.1,0,18,18
-rancher/rancher-webhook:v0.7.11-rc.3,0,0,0
+rancher/rancher-webhook:v0.7.11-rc.4,0,0,0
 rancher/rancher:v2.11-head,0,147,147
 rancher/remotedialer-proxy:v0.4.6,0,0,0
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,19,19
