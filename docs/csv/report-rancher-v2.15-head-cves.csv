@@ -1,7 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 rancher/aks-operator:v1.15.2,rancher/v2.15-head,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-56855,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-56855,usr/bin/aks-operator,0.56.0,false,not_affected,vulnerable_code_not_present
 rancher/aks-operator:v1.15.2,rancher/v2.15-head,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-78662,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-78662,usr/bin/aks-operator,0.56.0,false,not_affected,vulnerable_code_not_present
-rancher/backup-restore-operator:v11.0.3-rc.5,rancher/v2.15-head,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,rancher/backup-restore-operator:v11.0.3-rc.5 (sles 15.7),10.42-150600.3.3.1,false,affected,
 rancher/cluster-api-controller:v1.13.3,rancher/v2.15-head,stdlib,v1.25.9,gobinary,CVE-2026-33811,HIGH,https://avd.aquasec.com/nvd/cve-2026-33811,manager,"1.25.10, 1.26.3",false,affected,
 rancher/cluster-api-controller:v1.13.3,rancher/v2.15-head,stdlib,v1.25.9,gobinary,CVE-2026-33814,HIGH,https://avd.aquasec.com/nvd/cve-2026-33814,manager,"1.25.10, 1.26.3",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/cluster-api-controller:v1.13.3,rancher/v2.15-head,stdlib,v1.25.9,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,

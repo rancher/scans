@@ -1,7 +1,6 @@
 image,critical,high,total
 quay.io/stackstate/clickhouse-backup:2.7.2-so17,0,0,0
 quay.io/stackstate/clickhouse:26.8.2.7-so3,0,0,0
-quay.io/stackstate/container-tools:1.8.6-so27,0,0,0
 quay.io/stackstate/contrib-stackpacks:20260919092541-main-2e3ac59,0,0,0
 quay.io/stackstate/elasticsearch-exporter:1.10.0-so19,0,0,0
 quay.io/stackstate/elasticsearch:8.19.16-so17,0,0,0
@@ -12,7 +11,6 @@ quay.io/stackstate/hbase-regionserver:2.5-8.3.15,0,0,0
 quay.io/stackstate/jmx-exporter:0.20.0-so16,0,0,0
 quay.io/stackstate/kafka:3.9.2-so23,0,0,0
 quay.io/stackstate/kafkaup-operator:0.0.15,0,0,0
-quay.io/stackstate/kubernetes-rbac-agent:4dbfd257-1041-release,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.1-so18,0,0,0
 quay.io/stackstate/s3proxy:3.2.0-so15,0,0,0
 quay.io/stackstate/spotlight:5.2.0-snapshot.225.rebuild.59,0,0,0
@@ -24,7 +22,6 @@ quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260919173254-master-5
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260919173254-master-5674676,0,0,0
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260919173254-master-5674676-2.5,0,0,0
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260919173254-master-5674676,0,0,0
-quay.io/stackstate/sts-opentelemetry-collector:v0.0.58,0,0,0
 quay.io/stackstate/suse-observability-borg:20260919034625-f3be0255,0,0,0
 quay.io/stackstate/suse-observability-mcp:20260919033350-3d67dda0,0,0,0
 quay.io/stackstate/suse-stackpacks:20260919092556-main-c22afee,0,0,0
@@ -36,3 +33,6 @@ quay.io/stackstate/vmrestore:1.144.0-so20,0,0,0
 quay.io/stackstate/wait:1.0.12-so12,0,0,0
 quay.io/stackstate/workload-observer:64188fd0-1036-release,0,0,0
 quay.io/stackstate/zookeeper:3.9.5-so25,0,0,0
+registry.rancher.com/suse-observability/container-tools:1.8.6-so27,0,0,0
+registry.rancher.com/suse-observability/kubernetes-rbac-agent:4dbfd257-1041-release,0,0,0
+registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.58,0,0,0
