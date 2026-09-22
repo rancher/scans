@@ -259,6 +259,8 @@ longhornio/longhorn-cli:v1.11.3,longhorn/v1.11.3,openssl-3,3.2.3-150700.5.36.1,s
 longhornio/longhorn-cli:v1.11.3,longhorn/v1.11.3,libacl1,2.2.52-4.3.1,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-cli:v1.11.3 (sles 15.7),2.4.0-150000.4.6.1,false,affected,
 longhornio/longhorn-cli:v1.11.3,longhorn/v1.11.3,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-cli:v1.11.3 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
 longhornio/longhorn-cli:v1.11.3,longhorn/v1.11.3,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/longhorn-cli:v1.11.3 (sles 15.7),10.42-150600.3.3.1,false,affected,
+longhornio/longhorn-cli:v1.11.3,longhorn/v1.11.3,jq,1.6-150000.3.15.1,sles,SUSE-SU-2026:4275-1,HIGH,,longhornio/longhorn-cli:v1.11.3 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+longhornio/longhorn-cli:v1.11.3,longhorn/v1.11.3,libjq1,1.6-150000.3.15.1,sles,SUSE-SU-2026:4275-1,HIGH,,longhornio/longhorn-cli:v1.11.3 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
 longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/longhorn,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/longhorn-instance-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,stdlib,v1.26.4,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/grpc_health_probe,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
@@ -332,6 +334,8 @@ longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,libacl1,2.2.52-4.3.1,sles,SU
 longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-engine:v1.11.3 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
 longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,kbd,2.4.0-150700.15.6.1,sles,SUSE-SU-2026:4211-1,HIGH,,longhornio/longhorn-engine:v1.11.3 (sles 15.7),2.4.0-150700.15.10.1,false,affected,
 longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/longhorn-engine:v1.11.3 (sles 15.7),10.42-150600.3.3.1,false,affected,
+longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,jq,1.6-150000.3.15.1,sles,SUSE-SU-2026:4275-1,HIGH,,longhornio/longhorn-engine:v1.11.3 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+longhornio/longhorn-engine:v1.11.3,longhorn/v1.11.3,libjq1,1.6-150000.3.15.1,sles,SUSE-SU-2026:4275-1,HIGH,,longhornio/longhorn-engine:v1.11.3 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
 longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/go-spdk-helper,"1.25.13, 1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/longhorn-instance-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,stdlib,v1.26.4,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/bin/grpc_health_probe,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
@@ -417,6 +421,8 @@ longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,libacl1,2.2.52-4.3
 longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-instance-manager:v1.11.3 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
 longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,kbd,2.4.0-150700.15.6.1,sles,SUSE-SU-2026:4211-1,HIGH,,longhornio/longhorn-instance-manager:v1.11.3 (sles 15.7),2.4.0-150700.15.10.1,false,affected,
 longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/longhorn-instance-manager:v1.11.3 (sles 15.7),10.42-150600.3.3.1,false,affected,
+longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,jq,1.6-150000.3.15.1,sles,SUSE-SU-2026:4275-1,HIGH,,longhornio/longhorn-instance-manager:v1.11.3 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+longhornio/longhorn-instance-manager:v1.11.3,longhorn/v1.11.3,libjq1,1.6-150000.3.15.1,sles,SUSE-SU-2026:4275-1,HIGH,,longhornio/longhorn-instance-manager:v1.11.3 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
 longhornio/longhorn-manager:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,usr/local/sbin/longhorn-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-manager:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,usr/local/sbin/longhorn-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-manager:v1.11.3,longhorn/v1.11.3,stdlib,v1.25.11,gobinary,CVE-2026-39822,HIGH,https://avd.aquasec.com/nvd/cve-2026-39822,usr/local/sbin/longhorn-manager,"1.25.12, 1.26.5, 1.27.0-rc.2",false,not_affected,vulnerable_code_not_in_execute_path

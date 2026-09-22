@@ -1,1 +1,7 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+quay.io/stackstate/clickhouse-backup:2.7.2-so17,observability/v2.11-dev,jq,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,quay.io/stackstate/clickhouse-backup:2.7.2-so17 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+quay.io/stackstate/clickhouse-backup:2.7.2-so17,observability/v2.11-dev,libjq1,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,quay.io/stackstate/clickhouse-backup:2.7.2-so17 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+quay.io/stackstate/vmbackup:1.144.0-so22,observability/v2.11-dev,jq,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,quay.io/stackstate/vmbackup:1.144.0-so22 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+quay.io/stackstate/vmbackup:1.144.0-so22,observability/v2.11-dev,libjq1,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,quay.io/stackstate/vmbackup:1.144.0-so22 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+registry.rancher.com/suse-observability/container-tools:1.8.6-so27,observability/v2.11-dev,jq,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,registry.rancher.com/suse-observability/container-tools:1.8.6-so27 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+registry.rancher.com/suse-observability/container-tools:1.8.6-so27,observability/v2.11-dev,libjq1,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,registry.rancher.com/suse-observability/container-tools:1.8.6-so27 (sles 15.7),1.7.1-150000.3.25.1,false,affected,

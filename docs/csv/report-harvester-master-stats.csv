@@ -9,9 +9,9 @@ longhornio/csi-provisioner:v5.3.0,0,18,18
 longhornio/csi-resizer:v2.2.1,0,7,7
 longhornio/csi-snapshotter:v8.6.0,0,8,8
 longhornio/livenessprobe:v2.19.0,0,6,6
-longhornio/longhorn-cli:v1.12.1,0,12,12
-longhornio/longhorn-engine:v1.12.1,0,27,27
-longhornio/longhorn-instance-manager:v1.12.1,0,23,23
+longhornio/longhorn-cli:v1.12.1,0,14,14
+longhornio/longhorn-engine:v1.12.1,0,29,29
+longhornio/longhorn-instance-manager:v1.12.1,0,25,25
 longhornio/longhorn-manager:v1.12.1,0,17,17
 longhornio/longhorn-share-manager:v1.12.1,0,15,15
 longhornio/longhorn-ui:v1.12.1,0,10,10
@@ -55,7 +55,7 @@ rancher/klipper-helm:v0.13.3-build20260820,0,5,5
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kubectl:v1.35.1,0,8,8
 rancher/kuberlr-kubectl:v8.1.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,52,55
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,51,54
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,16,16
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,71,81
@@ -64,7 +64,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,24,24
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-nginx:1.29.1-alpine,3,43,46
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/rancher-agent:v2.15.1,0,18,18
+rancher/rancher-agent:v2.15.1,0,20,20
 rancher/rancher-webhook:v0.11.1,0,0,0
 rancher/rancher:v2.15.1,0,74,74
 rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820,0,4,4

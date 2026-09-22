@@ -45,7 +45,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,2,2
 rancher/mirrored-calico-goldmane:v3.32.2,0,4,4
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,2,2
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,2,2
-rancher/mirrored-calico-node:v3.32.2,0,7,7
+rancher/mirrored-calico-node:v3.32.2,0,5,5
 rancher/mirrored-calico-operator:v1.42.6,0,2,2
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,0,0
 rancher/mirrored-calico-typha:v3.32.2,0,2,2
@@ -61,8 +61,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.5,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.20.1,0,14,14
 rancher/mirrored-cilium-operator-azure:v1.20.1,0,14,14
 rancher/mirrored-cilium-operator-generic:v1.20.1,0,14,14
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,0,11,11
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,0,18,18
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,0,8,8
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,0,15,15
 rancher/mirrored-cloud-provider-vsphere:v1.37.0,0,2,2
 rancher/mirrored-coredns-coredns:1.14.7,0,13,13
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,9,9
@@ -105,4 +105,4 @@ rancher/system-agent-installer-rke2:v1.36.4-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.37.0-rke2r1,0,0,0
 rancher/system-agent:v0.16.0-rc.1-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.1,0,5,5
-rancher/ui-plugin-catalog:4.45.0,0,1,1
+rancher/ui-plugin-catalog:4.45.0,0,3,3
