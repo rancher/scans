@@ -620,6 +620,7 @@ longhornio/longhorn-manager:v1.12.1,harvester/master,libacl1,2.2.52-4.3.1,sles,S
 longhornio/longhorn-manager:v1.12.1,harvester/master,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
 longhornio/longhorn-manager:v1.12.1,harvester/master,kbd,2.4.0-150700.15.6.1,sles,SUSE-SU-2026:4211-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),2.4.0-150700.15.10.1,false,affected,
 longhornio/longhorn-manager:v1.12.1,harvester/master,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),10.42-150600.3.3.1,false,affected,
+longhornio/longhorn-manager:v1.12.1,harvester/master,bind-utils,9.20.26-150700.3.29.1,sles,SUSE-SU-2026:4285-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),9.20.29-150700.3.32.2,false,affected,
 longhornio/longhorn-share-manager:v1.12.1,harvester/master,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,longhorn-share-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-share-manager:v1.12.1,harvester/master,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,longhorn-share-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-share-manager:v1.12.1,harvester/master,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,longhorn-share-manager,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
@@ -1753,6 +1754,7 @@ rancher/rancher-agent:v2.15.1,harvester/master,libattr1,2.4.47-2.19,sles,SUSE-SU
 rancher/rancher-agent:v2.15.1,harvester/master,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,rancher/rancher-agent:v2.15.1 (sles 15.7),10.42-150600.3.3.1,false,affected,
 rancher/rancher-agent:v2.15.1,harvester/master,jq,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,rancher/rancher-agent:v2.15.1 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
 rancher/rancher-agent:v2.15.1,harvester/master,libjq1,1.6-150000.3.20.1,sles,SUSE-SU-2026:4275-1,HIGH,,rancher/rancher-agent:v2.15.1 (sles 15.7),1.7.1-150000.3.25.1,false,affected,
+rancher/rancher-agent:v2.15.1,harvester/master,bind-utils,9.20.26-150700.3.29.1,sles,SUSE-SU-2026:4285-1,HIGH,,rancher/rancher-agent:v2.15.1 (sles 15.7),9.20.29-150700.3.32.2,false,affected,
 rancher/rancher-webhook:v0.11.1,harvester/master,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-56855,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-56855,usr/bin/webhook,0.56.0,false,not_affected,vulnerable_code_not_present
 rancher/rancher-webhook:v0.11.1,harvester/master,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-78662,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-78662,usr/bin/webhook,0.56.0,false,not_affected,vulnerable_code_not_present
 rancher/rancher:v2.15.1,harvester/master,kubevirt.io/kubevirt,v1.7.0,gobinary,CVE-2025-14525,MEDIUM,https://avd.aquasec.com/nvd/cve-2025-14525,opt/drivers/management-state/bin/docker-machine-driver-harvester,,false,not_affected,vulnerable_code_not_in_execute_path

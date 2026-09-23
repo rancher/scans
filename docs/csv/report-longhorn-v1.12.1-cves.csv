@@ -338,6 +338,7 @@ longhornio/longhorn-manager:v1.12.1,longhorn/v1.12.1,libacl1,2.2.52-4.3.1,sles,S
 longhornio/longhorn-manager:v1.12.1,longhorn/v1.12.1,libattr1,2.4.47-2.19,sles,SUSE-SU-2026:4176-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),2.6.0-150000.4.3.1,false,affected,
 longhornio/longhorn-manager:v1.12.1,longhorn/v1.12.1,kbd,2.4.0-150700.15.6.1,sles,SUSE-SU-2026:4211-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),2.4.0-150700.15.10.1,false,affected,
 longhornio/longhorn-manager:v1.12.1,longhorn/v1.12.1,libpcre2-8-0,10.42-150600.1.26,sles,SUSE-SU-2026:4241-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),10.42-150600.3.3.1,false,affected,
+longhornio/longhorn-manager:v1.12.1,longhorn/v1.12.1,bind-utils,9.20.26-150700.3.29.1,sles,SUSE-SU-2026:4285-1,HIGH,,longhornio/longhorn-manager:v1.12.1 (sles 15.7),9.20.29-150700.3.32.2,false,affected,
 longhornio/longhorn-share-manager:v1.12.1,longhorn/v1.12.1,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,longhorn-share-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-share-manager:v1.12.1,longhorn/v1.12.1,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,longhorn-share-manager,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 longhornio/longhorn-share-manager:v1.12.1,longhorn/v1.12.1,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,longhorn-share-manager,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path

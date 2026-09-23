@@ -9,7 +9,7 @@ quay.io/stackstate/hadoop:3.5.0-so18,0,0,0
 quay.io/stackstate/hbase-master:2.5-8.3.15,0,0,0
 quay.io/stackstate/hbase-regionserver:2.5-8.3.15,0,0,0
 quay.io/stackstate/jmx-exporter:0.20.0-so16,0,0,0
-quay.io/stackstate/kafka:3.9.2-so23,0,0,0
+quay.io/stackstate/kafka:3.9.2-so23,0,1,1
 quay.io/stackstate/kafkaup-operator:0.0.15,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.1-so18,0,0,0
 quay.io/stackstate/s3proxy:3.2.0-so15,0,0,0
@@ -32,7 +32,7 @@ quay.io/stackstate/vmbackup:1.144.0-so22,0,2,2
 quay.io/stackstate/vmrestore:1.144.0-so20,0,0,0
 quay.io/stackstate/wait:1.0.12-so12,0,0,0
 quay.io/stackstate/workload-observer:64188fd0-1036-release,0,0,0
-quay.io/stackstate/zookeeper:3.9.5-so25,0,0,0
+quay.io/stackstate/zookeeper:3.9.5-so25,0,1,1
 registry.rancher.com/suse-observability/container-tools:1.8.6-so27,0,2,2
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:4dbfd257-1041-release,0,0,0
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.58,0,0,0
