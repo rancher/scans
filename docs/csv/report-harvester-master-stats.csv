@@ -62,7 +62,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,71,81
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,15,15
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,24,24
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,44,47
+rancher/mirrored-library-nginx:1.29.1-alpine,3,45,48
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.1,0,21,21
 rancher/rancher-webhook:v0.11.1,0,0,0
