@@ -62,8 +62,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.5,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.20.1,0,14,14
 rancher/mirrored-cilium-operator-azure:v1.20.1,0,14,14
 rancher/mirrored-cilium-operator-generic:v1.20.1,0,14,14
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,0,9,9
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,0,15,15
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,23,27
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,4,29,33
 rancher/mirrored-cloud-provider-vsphere:v1.37.0,0,2,2
 rancher/mirrored-coredns-coredns:1.14.7,0,13,13
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,9,9
@@ -96,7 +96,7 @@ rancher/rke2-security-responder:v0.1.5,0,0,0
 rancher/rke2-upgrade:v1.35.8-rke2r1,0,9,9
 rancher/rke2-upgrade:v1.36.4-rke2r1,0,8,8
 rancher/rke2-upgrade:v1.37.0-rke2r1,0,3,3
-rancher/scc-operator:v0.5.2-rc.3,0,0,0
+rancher/scc-operator:v0.5.2,0,0,0
 rancher/shell:v0.8.1,0,18,18
 rancher/system-agent-installer-k3s:v1.35.8-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.36.4-k3s1,0,0,0
@@ -104,6 +104,6 @@ rancher/system-agent-installer-k3s:v1.37.0-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.8-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.4-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.37.0-rke2r1,0,0,0
-rancher/system-agent:v0.16.0-rc.1-suc,0,0,0
+rancher/system-agent:v0.16.0-rc.2-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.1,0,5,5
-rancher/ui-plugin-catalog:4.45.0,0,3,3
+rancher/ui-plugin-catalog:4.46.0,0,0,0
