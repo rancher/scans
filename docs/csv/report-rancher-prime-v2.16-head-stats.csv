@@ -1,8 +1,12 @@
 image,critical,high,total
+rancher/aks-operator:v1.16.0-rc.1,0,0,0
+rancher/ali-operator:v1.16.0-rc.1,0,0,0
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,36,36
 rancher/cluster-api-controller:v1.13.3,0,9,9
-rancher/fleet-agent:v0.17.0-alpha.4,0,0,0
-rancher/fleet:v0.17.0-alpha.4,0,0,0
+rancher/eks-operator:v1.16.0-rc.1,0,0,0
+rancher/fleet-agent:v0.17.0-alpha.5,0,0,0
+rancher/fleet:v0.17.0-alpha.5,0,0,0
+rancher/gke-operator:v1.16.0-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,0,0
 rancher/hardened-calico:v3.32.2-build20260909,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0

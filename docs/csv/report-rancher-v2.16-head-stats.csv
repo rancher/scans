@@ -1,7 +1,10 @@
 image,critical,high,total
+rancher/aks-operator:v1.16.0-rc.1,0,0,0
 rancher/cluster-api-controller:v1.13.3,0,9,9
+rancher/eks-operator:v1.16.0-rc.1,0,0,0
 rancher/fleet-agent:v0.17.0-alpha.5,0,0,0
 rancher/fleet:v0.17.0-alpha.5,0,0,0
+rancher/gke-operator:v1.16.0-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,0,0
 rancher/hardened-calico:v3.32.2-build20260909,0,0,0
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0
@@ -103,6 +106,6 @@ rancher/system-agent-installer-k3s:v1.37.0-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.8-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.4-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.37.0-rke2r1,0,0,0
-rancher/system-agent:v0.16.0-rc.2-suc,0,0,0
+rancher/system-agent:v0.16.0-rc.3-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.1,0,5,5
 rancher/ui-plugin-catalog:4.46.0,0,0,0

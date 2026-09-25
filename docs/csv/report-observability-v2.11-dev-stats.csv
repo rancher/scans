@@ -1,11 +1,11 @@
 image,critical,high,total
 quay.io/stackstate/contrib-stackpacks:20260923110120-main-db19448,0,0,0
 quay.io/stackstate/stackpacks:20260923125936-master-5c2fee9-2_0-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260924090542-master-06b5598,0,0,0
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260924090542-master-06b5598,0,0,0
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260924090542-master-06b5598,0,0,0
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260924090542-master-06b5598-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260924090542-master-06b5598,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20260925135627-master-98028ca,0,0,0
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20260925135627-master-98028ca,0,0,0
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20260925135627-master-98028ca,0,0,0
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20260925135627-master-98028ca-2.5,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20260925135627-master-98028ca,0,0,0
 quay.io/stackstate/suse-stackpacks:20260922092416-main-be6d22d,0,0,0
 registry.rancher.com/suse-observability/clickhouse-backup:2.7.2-so17,0,2,2
 registry.rancher.com/suse-observability/clickhouse:26.8.2.7-so3,0,0,0
