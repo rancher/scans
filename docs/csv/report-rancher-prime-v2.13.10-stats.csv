@@ -77,7 +77,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.1,0,8,8
 rancher/mirrored-calico-goldmane:v3.32.1,0,6,6
 rancher/mirrored-calico-kube-controllers:v3.32.1,0,3,3
 rancher/mirrored-calico-node-driver-registrar:v3.32.1,0,9,9
-rancher/mirrored-calico-node:v3.32.1,0,13,13
+rancher/mirrored-calico-node:v3.32.1,0,14,14
 rancher/mirrored-calico-operator:v1.42.3,1,16,17
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,6,6
 rancher/mirrored-calico-typha:v3.32.1,0,3,3

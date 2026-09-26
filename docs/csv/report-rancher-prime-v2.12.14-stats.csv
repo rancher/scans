@@ -58,7 +58,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.1,0,8,8
 rancher/mirrored-calico-goldmane:v3.32.1,0,6,6
 rancher/mirrored-calico-kube-controllers:v3.32.1,0,3,3
 rancher/mirrored-calico-node-driver-registrar:v3.32.1,0,9,9
-rancher/mirrored-calico-node:v3.32.1,0,13,13
+rancher/mirrored-calico-node:v3.32.1,0,14,14
 rancher/mirrored-calico-operator:v1.42.3,1,16,17
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,6,6
 rancher/mirrored-calico-typha:v3.32.1,0,3,3
@@ -75,11 +75,11 @@ rancher/mirrored-cilium-operator-aws:v1.19.6,0,3,3
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,3,3
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,22,22
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,74,90
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,62,77
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,76,92
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,64,79
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,4,23,27
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,15,75,90
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,14,67,81
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,15,77,92
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,14,69,83
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,4,43,47
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,22,22
 rancher/mirrored-cloud-provider-vsphere:v1.33.1,0,23,23
