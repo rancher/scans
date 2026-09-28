@@ -6,7 +6,7 @@ rancher/fleet-agent:v0.17.0-alpha.5,0,0,0
 rancher/fleet:v0.17.0-alpha.5,0,0,0
 rancher/gke-operator:v1.16.0-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,0,0
-rancher/hardened-calico:v3.32.2-build20260909,0,0,0
+rancher/hardened-calico:v3.32.2-build20260909,0,13,13
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260903,0,0,0
 rancher/hardened-coredns:v1.14.7-build20260909,0,0,0
@@ -25,7 +25,7 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,0,0
 rancher/hardened-traefik:v3.7.13-build20260910,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20260819,0,0,0
 rancher/harvester-cloud-provider:v0.2.8,0,6,6
-rancher/harvester-csi-driver:v0.2.9,0,5,5
+rancher/harvester-csi-driver:v0.2.9,0,18,18
 rancher/k3s-upgrade:v1.35.8-k3s1,0,5,5
 rancher/k3s-upgrade:v1.36.4-k3s1,0,5,5
 rancher/k3s-upgrade:v1.37.0-k3s1,0,0,0
@@ -84,7 +84,7 @@ rancher/mirrored-sig-storage-csi-node-driver-registrar:v2.13.0,0,18,18
 rancher/mirrored-sig-storage-csi-provisioner:v4.0.1,0,24,24
 rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,20,20
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,18,18
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,27,27
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,40,40
 rancher/rancher-agent:master-head,12,307,319
 rancher/rancher-assets:v2.16-20260914T2041Z-dev,0,0,0
 rancher/rancher-webhook:v0.12.1-rc.4,0,4,4

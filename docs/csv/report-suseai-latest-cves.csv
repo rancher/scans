@@ -11040,7 +11040,6 @@ python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89545,HIGH
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89563,HIGH,https://avd.aquasec.com/nvd/cve-2026-89563,python:3.14.7 (debian 13.7),,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89564,HIGH,https://avd.aquasec.com/nvd/cve-2026-89564,python:3.14.7 (debian 13.7),,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89569,HIGH,https://avd.aquasec.com/nvd/cve-2026-89569,python:3.14.7 (debian 13.7),,false,affected,
-python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89579,HIGH,https://avd.aquasec.com/nvd/cve-2026-89579,python:3.14.7 (debian 13.7),,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89603,HIGH,https://avd.aquasec.com/nvd/cve-2026-89603,python:3.14.7 (debian 13.7),,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89607,HIGH,https://avd.aquasec.com/nvd/cve-2026-89607,python:3.14.7 (debian 13.7),,false,affected,
 python:3.14.7,suseai/latest,linux-libc-dev,6.12.107-1,debian,CVE-2026-89631,HIGH,https://avd.aquasec.com/nvd/cve-2026-89631,python:3.14.7 (debian 13.7),,false,affected,
