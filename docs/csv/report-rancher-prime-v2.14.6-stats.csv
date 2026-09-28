@@ -177,4 +177,4 @@ rancher/system-agent-installer-rke2:v1.35.8-rke2r1,0,0,0
 rancher/system-agent:v0.14.2-suc,0,0,0
 rancher/system-upgrade-controller:v0.19.1,0,9,9
 rancher/turtles:v0.26.6,0,0,0
-rancher/ui-plugin-catalog:4.46.0,0,0,0
+rancher/ui-plugin-catalog:4.47.0,0,0,0
