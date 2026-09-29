@@ -98,10 +98,10 @@ rancher/mirrored-grafana-grafana:11.5.5,3,37,40
 rancher/mirrored-idealista-prom2teams:4.2.1,0,48,48
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,16,16
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,17,17
-rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,32,32
-rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,18,18
-rancher/mirrored-k8s-dns-node-cache:1.23.0,1,41,42
-rancher/mirrored-k8s-dns-sidecar:1.23.0,0,18,18
+rancher/mirrored-k8s-dns-dnsmasq-nanny:1.23.0,0,30,30
+rancher/mirrored-k8s-dns-kube-dns:1.23.0,0,16,16
+rancher/mirrored-k8s-dns-node-cache:1.23.0,1,39,40
+rancher/mirrored-k8s-dns-sidecar:1.23.0,0,16,16
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,18,18
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,71,81
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,15,15
@@ -186,7 +186,7 @@ rancher/rke2-upgrade:v1.30.14-rke2r2,2,62,64
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,41,41
 rancher/security-scan:v0.6.10,0,22,22
 rancher/shell:v0.4.5,0,22,22
-rancher/supportability-review-app-frontend:v0.25.1,0,13,13
+rancher/supportability-review-app-frontend:v0.25.1,0,17,17
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.25.1,0,0,0
 rancher/supportability-review:latest,0,0,0

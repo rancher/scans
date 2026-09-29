@@ -20,7 +20,7 @@ rancher/cluster-api-controller:v1.13.3,0,9,9
 rancher/fleet-agent:v0.16.1,0,0,0
 rancher/fleet:v0.16.1,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260819,0,0,0
-rancher/hardened-calico:v3.32.1-build20260827,0,23,23
+rancher/hardened-calico:v3.32.1-build20260827,0,27,27
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,0,0
 rancher/hardened-coredns:v1.14.7-build20260819,0,2,2
@@ -32,9 +32,9 @@ rancher/hardened-kubernetes:v1.36.4-rke2r1-build20260821,0,10,10
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,4,4
 rancher/hardened-snapshot-controller:v8.6.0-build20260819,0,1,1
 rancher/hardened-traefik:v3.7.11-build20260819,1,7,8
-rancher/harvester-cluster-repo:72cfbe73,0,0,0
+rancher/harvester-cluster-repo:cdcb405f,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
-rancher/harvester-kubeovn-operator:v1.16.2,0,1,1
+rancher/harvester-kubeovn-operator:v1.16.2,0,5,5
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
 rancher/harvester-load-balancer:master-head,0,0,0
 rancher/harvester-network-controller:master-head,0,0,0
@@ -69,7 +69,7 @@ rancher/rancher-webhook:v0.11.1,0,0,0
 rancher/rancher:v2.15.1,0,74,74
 rancher/rke2-cloud-provider:v1.36.4-0.20260817193921-a2fc9574e060-build20260820,0,4,4
 rancher/rke2-runtime:v1.36.4-rke2r1,0,11,11
-rancher/shell:v0.8.1,0,18,18
+rancher/shell:v0.8.1,0,20,20
 rancher/support-bundle-kit:master-head,0,0,0
 rancher/system-agent-installer-rancher:v2.15.1,0,8,8
 rancher/system-agent-installer-rke2:v1.36.4-rke2r1,0,0,0
@@ -86,10 +86,10 @@ registry.suse.com/suse/sles/16.0/cdi-importer:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-operator:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-uploadproxy:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-uploadserver:1.65.0,0,0,0
-registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-9.1,0,15,15
-registry.suse.com/suse/sles/16.0/virt-api:1.8.4-9.1,0,0,0
-registry.suse.com/suse/sles/16.0/virt-controller:1.8.4-9.1,0,0,0
-registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-9.1,0,16,16
-registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1,0,13,13
-registry.suse.com/suse/sles/16.0/virt-operator:1.8.4-9.1,0,0,0
+registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-9.1,0,21,21
+registry.suse.com/suse/sles/16.0/virt-api:1.8.4-9.1,0,4,4
+registry.suse.com/suse/sles/16.0/virt-controller:1.8.4-9.1,0,4,4
+registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-9.1,0,20,20
+registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1,0,19,19
+registry.suse.com/suse/sles/16.0/virt-operator:1.8.4-9.1,0,4,4
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0

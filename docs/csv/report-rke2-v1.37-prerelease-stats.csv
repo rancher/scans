@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,0,0
-rancher/hardened-calico:v3.32.2-build20260909,0,13,13
+rancher/hardened-calico:v3.32.2-build20260909,0,17,17
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260903,0,0,0
 rancher/hardened-coredns:v1.14.7-build20260909,0,0,0
@@ -61,7 +61,7 @@ registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.13.0-build202
 registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20260909,0,0,0
 registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20260909,0,0,0
 registry.rancher.com/rancher/hardened-livenessprobe:v2.15.0-build20260909,0,0,0
-registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.3-build20260909,0,14,14
+registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.3-build20260909,0,18,18
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.3-build20260909,0,0,0
 registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime12,0,0,0
-registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime12,0,13,13
+registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime12,0,17,17

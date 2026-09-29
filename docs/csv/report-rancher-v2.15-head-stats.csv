@@ -8,7 +8,7 @@ rancher/fleet-agent:v0.16.2,0,0,0
 rancher/fleet:v0.16.2,0,0,0
 rancher/gke-operator:v1.15.3,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260819,0,0,0
-rancher/hardened-calico:v3.32.1-build20260827,0,23,23
+rancher/hardened-calico:v3.32.1-build20260827,0,27,27
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20260819,0,0,0
 rancher/hardened-coredns:v1.14.7-build20260819,0,2,2
@@ -28,7 +28,7 @@ rancher/hardened-traefik:v3.7.11-build20260819,1,7,8
 rancher/hardened-whereabouts:v0.9.4-build20260721,0,12,12
 rancher/harvester-cloud-provider:v0.2.8,0,6,6
 rancher/harvester-csi-driver:v0.2.10,0,13,13
-rancher/harvester-csi-driver:v0.2.9,0,18,18
+rancher/harvester-csi-driver:v0.2.9,0,22,22
 rancher/helm-controller:v0.16.26,0,5,5
 rancher/k3s-upgrade:v1.34.11-k3s1,0,3,3
 rancher/k3s-upgrade:v1.35.8-k3s1,0,5,5
@@ -44,7 +44,7 @@ rancher/kuberlr-kubectl:v8.1.1,0,5,5
 rancher/kuberlr-kubectl:v8.1.2,0,0,0
 rancher/local-path-provisioner:v0.0.37,0,4,4
 rancher/machine:v0.15.0-rancher145.2,0,0,0
-rancher/mirrored-bci-micro:16.0-15.11,0,0,0
+rancher/mirrored-bci-micro:16.0-15.11,0,4,4
 rancher/mirrored-calico-apiserver:v3.32.1,0,3,3
 rancher/mirrored-calico-cni:v3.32.1,0,3,3
 rancher/mirrored-calico-csi:v3.32.1,0,9,9
@@ -121,7 +121,7 @@ rancher/neuvector-prometheus-exporter:1.0.19,0,5,5
 rancher/neuvector-registry-adapter:0.2.11,0,1,1
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.15,0,1,1
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,40,40
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,44,44
 rancher/prometheus-federator:v7.0.1,0,0,0
 rancher/rancher-agent:master-head,12,307,319
 rancher/rancher-csp-adapter:v10.0.0,0,7,7
@@ -138,7 +138,7 @@ rancher/rke2-upgrade:v1.36.4-rke2r1,0,8,8
 rancher/scc-operator:v0.5.2,0,0,0
 rancher/security-scan:v0.10.2,0,6,6
 rancher/shell:v0.8.2,0,17,17
-rancher/supportability-review-app-frontend:v0.25.1,0,13,13
+rancher/supportability-review-app-frontend:v0.25.1,0,17,17
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.25.1,0,0,0
 rancher/supportability-review:latest,0,0,0
