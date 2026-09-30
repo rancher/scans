@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Harvester master version - CVE Scans - 2026-09-29</h1>
+<h1>SUSE Rancher - Harvester master version - CVE Scans - 2026-09-30</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -1029,6 +1029,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>openssl</td>
 <td>openssl@3.0.13-0ubuntu3.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-45447.html">CVE-2026-45447</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libssl3t64</td>
+<td>libssl3t64@3.0.13-0ubuntu3.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libssl3t64-fips</td>
+<td>libssl3t64-fips@3.0.13-0ubuntu3.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>openssl</td>
+<td>openssl@3.0.13-0ubuntu3.9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3666,6 +3702,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/hardened-calico:v3.32.1-build20260827</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.1-build20260827</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>libacl1</td>
 <td>libacl1@2.3.2-160000.2.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623705-1">SUSE-SU-2026:23705-1</a></td>
@@ -4297,6 +4345,42 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-kubeovn-operator:v1.16.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-kubeovn-operator:v1.16.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-kubeovn-operator:v1.16.2</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>openssl-3</td>
+<td>openssl-3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/harvester-kubeovn-operator:v1.16.2</td>
@@ -5373,6 +5457,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>libpq5</td>
 <td>libpq5@15.8-0+deb12u1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-6637.html">CVE-2026-6637</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-fluent-fluent-bit:3.1.8</td>
+<td>true</td>
+<td>Harvester master</td>
+<td>libssl3</td>
+<td>libssl3@3.0.14-1~deb12u2</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -9342,6 +9438,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/shell:v0.8.1</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>vim</td>
+<td>vim@9.2.0780-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623552-1">SUSE-SU-2026:23552-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.8.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>vim-data-common</td>
+<td>vim-data-common@9.2.0780-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623552-1">SUSE-SU-2026:23552-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.8.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>xxd</td>
+<td>xxd@9.2.0780-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623552-1">SUSE-SU-2026:23552-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.8.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.8.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/shell:v0.8.1</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>libacl1</td>
 <td>libacl1@2.3.2-160000.2.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623705-1">SUSE-SU-2026:23705-1</a></td>
@@ -9750,6 +9894,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-9.1</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>libvirt-libs</td>
+<td>libvirt-libs@11.4.0-160000.4.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623603-1">SUSE-SU-2026:23603-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>acl</td>
 <td>acl@2.3.2-160000.2.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623705-1">SUSE-SU-2026:23705-1</a></td>
@@ -10098,6 +10266,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-9.1</td>
 <td>false</td>
 <td>Harvester master</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
 <td>libacl1</td>
 <td>libacl1@2.3.2-160000.2.2</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623705-1">SUSE-SU-2026:23705-1</a></td>
@@ -10329,6 +10509,78 @@ the distinctive tag '*' close to its severity.</li>
 <td>util-linux-systemd</td>
 <td>util-linux-systemd@2.41.1-160000.4.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623870-1">SUSE-SU-2026:23870-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libvirt-client</td>
+<td>libvirt-client@11.4.0-160000.4.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623603-1">SUSE-SU-2026:23603-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libvirt-daemon-common</td>
+<td>libvirt-daemon-common@11.4.0-160000.4.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623603-1">SUSE-SU-2026:23603-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libvirt-daemon-driver-qemu</td>
+<td>libvirt-daemon-driver-qemu@11.4.0-160000.4.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623603-1">SUSE-SU-2026:23603-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libvirt-daemon-log</td>
+<td>libvirt-daemon-log@11.4.0-160000.4.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623603-1">SUSE-SU-2026:23603-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libvirt-libs</td>
+<td>libvirt-libs@11.4.0-160000.4.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623603-1">SUSE-SU-2026:23603-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1</td>
+<td>false</td>
+<td>Harvester master</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623609-1">SUSE-SU-2026:23609-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>

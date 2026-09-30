@@ -8,5 +8,5 @@ registry.rancher.com/suse-observability/generic-sidecar-injector:0978b47b-1040-r
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:1.0.0-so7,0,0,0
 registry.rancher.com/suse-observability/http-header-injector-proxy:1.38.3-so5,0,0,0
 registry.rancher.com/suse-observability/promtail:3.6.11-so19,0,0,0
-registry.rancher.com/suse-observability/stackstate-k8s-agent:dd1cba03,0,0,0
+registry.rancher.com/suse-observability/stackstate-k8s-agent:dd1cba03,1,5,6
 registry.rancher.com/suse-observability/stackstate-k8s-process-agent:0294bfee,0,0,0
