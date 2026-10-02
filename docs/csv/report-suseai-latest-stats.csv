@@ -58,7 +58,7 @@ ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.0,4,87,91
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.0,4,87,91
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-cuda-full:v1.11.0,4,89,93
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:v1.11.0,4,86,90
-ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.0,25,325,350
+ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.0,23,275,298
 ghcr.io/kubeflow/kubeflow/poddefaults-webhook:v1.10.0,0,15,15
 ghcr.io/kubeflow/kubeflow/profile-controller:v1.10.0,1,74,75
 ghcr.io/kubeflow/kubeflow/pvcviewer-controller:v1.10.0,0,21,21
