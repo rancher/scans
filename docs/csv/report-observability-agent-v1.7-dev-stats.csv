@@ -2,6 +2,7 @@ image,critical,high,total
 quay.io/stackstate/kubernetes-rbac-agent:4dbfd257-1045-release,0,1,1
 quay.io/stackstate/opentelemetry-target-allocator:0.160.0-so1,0,0,0
 quay.io/stackstate/stackstate-k8s-cluster-agent:dd1cba03,0,0,0
+quay.io/stackstate/stackstate-k8s-process-agent:00f55972,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.63-agent,0,0,0
 registry.rancher.com/suse-observability/container-tools:1.8.6-so27,0,2,2
 registry.rancher.com/suse-observability/generic-sidecar-injector:0978b47b-1040-release,0,2,2
@@ -9,4 +10,3 @@ registry.rancher.com/suse-observability/http-header-injector-proxy-init:1.0.0-so
 registry.rancher.com/suse-observability/http-header-injector-proxy:1.38.3-so5,0,0,0
 registry.rancher.com/suse-observability/promtail:3.6.11-so19,0,0,0
 registry.rancher.com/suse-observability/stackstate-k8s-agent:dd1cba03,1,7,8
-registry.rancher.com/suse-observability/stackstate-k8s-process-agent:0294bfee,0,0,0
