@@ -1,1 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,libopenssl-3-fips-provider,3.5.0-150700.5.50.1,sles,SUSE-SU-2026:4414-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),3.5.0-150700.5.53.2,false,affected,
+ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,libopenssl3,3.5.0-150700.5.50.1,sles,SUSE-SU-2026:4414-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),3.5.0-150700.5.53.2,false,affected,
+ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,openssl-3,3.5.0-150700.5.50.1,sles,SUSE-SU-2026:4414-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),3.5.0-150700.5.53.2,false,affected,
