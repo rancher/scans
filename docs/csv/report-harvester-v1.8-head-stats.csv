@@ -36,7 +36,7 @@ rancher/hardened-k8s-metrics-server:v0.9.0-build20260722,0,6,6
 rancher/hardened-kubernetes:v1.35.7-rke2r1-build20260723,0,40,40
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,4,4
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,6,6
-rancher/harvester-cluster-repo:v1.8-head,0,6,6
+rancher/harvester-cluster-repo:v1.8-head,0,0,0
 rancher/harvester-eventrouter:v1.8.2,0,15,15
 rancher/harvester-kubeovn-operator:v1.15.4-r2,0,51,51
 rancher/harvester-load-balancer-webhook:v1.8.2,0,4,4
@@ -51,10 +51,10 @@ rancher/harvester-node-manager-webhook:v1.8.2,0,15,15
 rancher/harvester-node-manager:v1.8.2,0,27,27
 rancher/harvester-pcidevices:v1.8.2,0,6,6
 rancher/harvester-seeder:v1.8.2,0,18,18
-rancher/harvester-upgrade:v1.8-head,0,48,48
+rancher/harvester-upgrade:v1.8-head,0,30,30
 rancher/harvester-vm-import-controller:v1.8.2,0,26,26
-rancher/harvester-webhook:v1.8-head,0,17,17
-rancher/harvester:v1.8-head,0,17,17
+rancher/harvester-webhook:v1.8-head,0,1,1
+rancher/harvester:v1.8-head,0,1,1
 rancher/klipper-helm:v0.13.3-build20260727,0,17,17
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,14,14
