@@ -1451,8 +1451,6 @@ rancher/rancher-assets:v2.16-20260914T2041Z-dev,rancher/v2.16-head,libacl1,2.3.2
 rancher/rancher-assets:v2.16-20260914T2041Z-dev,rancher/v2.16-head,libattr1,2.5.2-160000.2.2,sles,SUSE-SU-2026:23726-1,HIGH,,rancher/rancher-assets:v2.16-20260914T2041Z-dev (sles 16.0),2.6.0-160000.1.1,false,affected,
 rancher/rancher-assets:v2.16-20260914T2041Z-dev,rancher/v2.16-head,libpcre2-8-0,10.45-160000.3.1,sles,SUSE-SU-2026:23906-1,HIGH,,rancher/rancher-assets:v2.16-20260914T2041Z-dev (sles 16.0),10.45-160000.4.1,false,affected,
 rancher/rancher-assets:v2.16-20260914T2041Z-dev,rancher/v2.16-head,glibc,2.40-160000.6.1,sles,SUSE-SU-2026:23934-1,HIGH,,rancher/rancher-assets:v2.16-20260914T2041Z-dev (sles 16.0),2.40-160000.7.1,false,affected,
-rancher/rancher-webhook:v0.12.1-rc.7,rancher/v2.16-head,libpcre2-8-0,10.45-160000.3.1,sles,SUSE-SU-2026:23906-1,HIGH,,rancher/rancher-webhook:v0.12.1-rc.7 (sles 16.0),10.45-160000.4.1,false,affected,
-rancher/rancher-webhook:v0.12.1-rc.7,rancher/v2.16-head,glibc,2.40-160000.6.1,sles,SUSE-SU-2026:23934-1,HIGH,,rancher/rancher-webhook:v0.12.1-rc.7 (sles 16.0),2.40-160000.7.1,false,affected,
 rancher/remotedialer-proxy:v0.9.0-rc.3,rancher/v2.16-head,stdlib,v1.26.5,gobinary,CVE-2026-33818,HIGH,https://avd.aquasec.com/nvd/cve-2026-33818,proxy,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 rancher/remotedialer-proxy:v0.9.0-rc.3,rancher/v2.16-head,stdlib,v1.26.5,gobinary,CVE-2026-39821,HIGH,https://avd.aquasec.com/nvd/cve-2026-39821,proxy,"1.25.13, 1.26.6, 1.27.0-rc.3",false,affected,
 rancher/remotedialer-proxy:v0.9.0-rc.3,rancher/v2.16-head,stdlib,v1.26.5,gobinary,CVE-2026-46600,HIGH,https://avd.aquasec.com/nvd/cve-2026-46600,proxy,"1.26.6, 1.27.0-rc.3",false,not_affected,vulnerable_code_not_in_execute_path
