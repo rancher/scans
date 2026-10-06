@@ -3,7 +3,7 @@ quay.io/stackstate/clickhouse-backup:2.7.2-so18,0,3,3
 quay.io/stackstate/clickhouse:26.8.2.7-so4,0,3,3
 quay.io/stackstate/container-tools:1.8.6-so28,0,3,3
 quay.io/stackstate/contrib-stackpacks:20261001093441-main-fe956db,0,0,0
-quay.io/stackstate/elasticsearch:8.19.16-so18,0,3,3
+quay.io/stackstate/elasticsearch:8.19.16-so18,0,4,4
 quay.io/stackstate/hadoop:3.5.0-so19,0,3,3
 quay.io/stackstate/hbase-master:2.5-8.3.17,0,3,3
 quay.io/stackstate/hbase-regionserver:2.5-8.3.17,0,3,3

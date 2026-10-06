@@ -4,7 +4,7 @@ registry.rancher.com/suse-observability/clickhouse:26.8.2.7-so3,0,3,3
 registry.rancher.com/suse-observability/container-tools:1.8.6-so27,0,5,5
 registry.rancher.com/suse-observability/contrib-stackpacks:20260919092541-main-2e3ac59,0,0,0
 registry.rancher.com/suse-observability/elasticsearch-exporter:1.10.0-so19,0,0,0
-registry.rancher.com/suse-observability/elasticsearch:8.19.16-so17,0,8,8
+registry.rancher.com/suse-observability/elasticsearch:8.19.16-so17,0,9,9
 registry.rancher.com/suse-observability/envoy:1.38.3-so4,0,0,0
 registry.rancher.com/suse-observability/hadoop:3.5.0-so18,0,9,9
 registry.rancher.com/suse-observability/hbase-master:2.5-8.3.15,0,9,9
