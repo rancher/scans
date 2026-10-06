@@ -77,12 +77,12 @@ rancher/mirrored-cilium-operator-azure:v1.19.1,0,10,10
 rancher/mirrored-cilium-operator-generic:v1.19.1,0,10,10
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,27,27
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,22,22
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,76,92
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,64,79
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,13,112,125
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,15,77,92
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,14,69,83
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,9,104,113
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,15,85,100
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,14,71,85
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,11,129,140
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,14,86,100
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,13,76,89
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,8,112,120
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,22,22
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,22,22
 rancher/mirrored-cluster-api-controller:v1.9.5,0,22,22
@@ -130,8 +130,8 @@ rancher/mirrored-longhornio-livenessprobe:v2.18.0,0,11,11
 rancher/mirrored-longhornio-longhorn-engine:v1.11.1,1,84,85
 rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1,0,67,67
 rancher/mirrored-longhornio-longhorn-manager:v1.11.1,2,50,52
-rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,45,45
-rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,37,37
+rancher/mirrored-longhornio-longhorn-share-manager:v1.11.1,0,47,47
+rancher/mirrored-longhornio-longhorn-ui:v1.11.1,0,39,39
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.81,0,39,39
 rancher/mirrored-messagebird-sachet:0.3.1,0,51,51
 rancher/mirrored-metrics-server:v0.7.1,0,39,39
@@ -198,4 +198,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,1,48,49
 rancher/system-upgrade-controller:v0.15.2,0,14,14
-rancher/ui-plugin-catalog:4.47.0,0,3,3
+rancher/ui-plugin-catalog:4.47.0,0,5,5

@@ -13,8 +13,8 @@ longhornio/longhorn-cli:v1.10.2,0,37,37
 longhornio/longhorn-engine:v1.10.2,2,87,89
 longhornio/longhorn-instance-manager:v1.10.2,4,89,93
 longhornio/longhorn-manager:v1.10.2,4,51,55
-longhornio/longhorn-share-manager:v1.10.2,2,50,52
-longhornio/longhorn-ui:v1.10.2,1,39,40
+longhornio/longhorn-share-manager:v1.10.2,2,52,54
+longhornio/longhorn-ui:v1.10.2,1,41,42
 longhornio/support-bundle-kit:v0.0.79,1,44,45
 rancher/fleet-agent:v0.14.3,2,21,23
 rancher/fleet:v0.14.3,4,73,77
@@ -30,7 +30,7 @@ rancher/hardened-k8s-metrics-server:v0.9.0-build20260722,0,6,6
 rancher/hardened-kubernetes:v1.34.10-rke2r1-build20260723,0,40,40
 rancher/hardened-multus-cni:v4.3.0-build20260722,0,4,4
 rancher/hardened-snapshot-controller:v8.6.0-build20260722,0,6,6
-rancher/harvester-cluster-repo:v1.7-head,0,0,0
+rancher/harvester-cluster-repo:v1.7-head,0,2,2
 rancher/harvester-eventrouter:v1.7.3,0,11,11
 rancher/harvester-kubeovn-operator:v1.14.10,1,66,67
 rancher/harvester-load-balancer-webhook:v1.7.3,0,4,4
@@ -45,7 +45,7 @@ rancher/harvester-node-manager-webhook:v1.7.3,0,4,4
 rancher/harvester-node-manager:v1.7.3,0,4,4
 rancher/harvester-pcidevices:v1.7.3,0,6,6
 rancher/harvester-seeder:v1.7.3,1,37,38
-rancher/harvester-upgrade:v1.7-head,0,43,43
+rancher/harvester-upgrade:v1.7-head,0,45,45
 rancher/harvester-vm-import-controller:v1.7.3,0,21,21
 rancher/harvester-webhook:v1.7-head,0,1,1
 rancher/harvester:v1.7-head,0,1,1
@@ -93,10 +93,10 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.8.1,0,24,24
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.8.1,0,22,22
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.8.1,0,22,22
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.8.1,0,23,23
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,70,70
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.6.6-150700.15.7.1,0,72,72
 registry.suse.com/suse/sles/15.7/virt-api:1.6.6-150700.15.7.1,0,24,24
 registry.suse.com/suse/sles/15.7/virt-controller:1.6.6-150700.15.7.1,0,20,20
 registry.suse.com/suse/sles/15.7/virt-handler:1.6.6-150700.15.7.1,0,23,23
-registry.suse.com/suse/sles/15.7/virt-launcher:1.6.6-150700.15.7.1,0,53,53
+registry.suse.com/suse/sles/15.7/virt-launcher:1.6.6-150700.15.7.1,0,55,55
 registry.suse.com/suse/sles/15.7/virt-operator:1.6.6-150700.15.7.1,0,20,20
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0

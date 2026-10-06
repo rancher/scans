@@ -12,8 +12,8 @@ longhornio/longhorn-cli:v1.11.2,0,31,31
 longhornio/longhorn-engine:v1.11.2,1,64,65
 longhornio/longhorn-instance-manager:v1.11.2,1,64,65
 longhornio/longhorn-manager:v1.11.2,1,38,39
-longhornio/longhorn-share-manager:v1.11.2,0,36,36
-longhornio/longhorn-ui:v1.11.2,0,30,30
+longhornio/longhorn-share-manager:v1.11.2,0,38,38
+longhornio/longhorn-ui:v1.11.2,0,32,32
 longhornio/support-bundle-kit:v0.0.84,0,31,31
 rancher/appco-alertmanager:0.28.1-12.7,0,23,23
 rancher/appco-grafana:12.1.1-2.2,4,106,110
@@ -50,7 +50,7 @@ rancher/harvester-node-manager-webhook:v1.8.2,0,15,15
 rancher/harvester-node-manager:v1.8.2,0,27,27
 rancher/harvester-pcidevices:v1.8.2,0,6,6
 rancher/harvester-seeder:v1.8.2,0,18,18
-rancher/harvester-upgrade:v1.8.2,1,75,76
+rancher/harvester-upgrade:v1.8.2,1,76,77
 rancher/harvester-vm-import-controller:v1.8.2,0,26,26
 rancher/harvester-webhook:v1.8.2,0,33,33
 rancher/harvester:v1.8.2,0,33,33
@@ -95,10 +95,10 @@ registry.suse.com/suse/sles/15.7/cdi-importer:1.64.0-150700.9.11.1,0,23,23
 registry.suse.com/suse/sles/15.7/cdi-operator:1.64.0-150700.9.11.1,0,22,22
 registry.suse.com/suse/sles/15.7/cdi-uploadproxy:1.64.0-150700.9.11.1,0,22,22
 registry.suse.com/suse/sles/15.7/cdi-uploadserver:1.64.0-150700.9.11.1,0,22,22
-registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.4-150700.3.24.2,0,70,70
+registry.suse.com/suse/sles/15.7/libguestfs-tools:1.7.4-150700.3.24.2,0,72,72
 registry.suse.com/suse/sles/15.7/virt-api:1.7.4-150700.3.24.2,0,24,24
 registry.suse.com/suse/sles/15.7/virt-controller:1.7.4-150700.3.24.2,0,20,20
 registry.suse.com/suse/sles/15.7/virt-handler:1.7.4-150700.3.24.2,0,23,23
-registry.suse.com/suse/sles/15.7/virt-launcher:1.7.4-150700.3.24.2,0,53,53
+registry.suse.com/suse/sles/15.7/virt-launcher:1.7.4-150700.3.24.2,0,55,55
 registry.suse.com/suse/sles/15.7/virt-operator:1.7.4-150700.3.24.2,0,20,20
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0
