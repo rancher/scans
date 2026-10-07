@@ -58,7 +58,7 @@ ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.0,4,90,94
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.0,4,90,94
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-cuda-full:v1.11.0,4,91,95
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:v1.11.0,4,88,92
-ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.0,2,49,51
+ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.0,1,22,23
 ghcr.io/kubeflow/kubeflow/poddefaults-webhook:v1.10.0,0,15,15
 ghcr.io/kubeflow/kubeflow/profile-controller:v1.10.0,1,74,75
 ghcr.io/kubeflow/kubeflow/pvcviewer-controller:v1.10.0,0,21,21
@@ -102,7 +102,7 @@ kubeflowkatib/mxnet-mnist:v0.16.0,15,140,155
 kubeflowkatib/pytorch-mnist-cpu:v0.17.0,12,127,139
 litellm/litellm-database:v1.100.1,2,23,25
 litellm/litellm:v1.100.1,2,23,25
-python:3.14.7,19,360,379
+python:3.14.7,19,380,399
 pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,24,401,425
 pytorch/torchserve-kfs:0.12.0,5,118,123
 qdrant/qdrant:v1.19.1,5,73,78

@@ -7,6 +7,6 @@ quay.io/stackstate/promtail:3.6.11-so20,0,3,3
 quay.io/stackstate/stackstate-k8s-agent:13679eda,0,0,0
 quay.io/stackstate/stackstate-k8s-cluster-agent:13679eda,0,0,0
 quay.io/stackstate/stackstate-k8s-process-agent:00f55972,0,2,2
-quay.io/stackstate/sts-opentelemetry-collector:v0.0.65-agent,0,0,0
+quay.io/stackstate/sts-opentelemetry-collector:v0.0.67-agent,0,0,0
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:1.0.0-so7,0,0,0
 registry.rancher.com/suse-observability/http-header-injector-proxy:1.38.3-so5,0,0,0

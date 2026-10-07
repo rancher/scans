@@ -175,7 +175,7 @@ rancher/neuvector-scanner:6,0,2,2
 rancher/neuvector-updater:0.0.15,0,3,3
 rancher/prom-prometheus:v3.2.1,0,46,46
 rancher/prometheus-federator:v3.3.2,0,0,0
-rancher/rancher-agent:v2.11-head,0,13,13
+rancher/rancher-agent:v2.11-head,0,12,12
 rancher/rancher-csp-adapter:v6.0.1,0,18,18
 rancher/rancher-webhook:v0.7.12,0,0,0
 rancher/rancher:v2.11-head,0,148,148

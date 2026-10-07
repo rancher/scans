@@ -133,10 +133,10 @@ rancher/neuvector-scanner:6,0,2,2
 rancher/neuvector-updater:0.0.15,0,3,3
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,55,55
 rancher/prometheus-federator:v7.0.1,0,0,0
-rancher/rancher-agent:v2.15-head,0,3,3
+rancher/rancher-agent:v2.15-head,0,0,0
 rancher/rancher-csp-adapter:v10.0.0,0,7,7
 rancher/rancher-webhook:v0.11.3,0,0,0
-rancher/rancher:v2.15-head,0,57,57
+rancher/rancher:v2.15-head,0,16,16
 rancher/remotedialer-proxy:v0.8.2,0,0,0
 rancher/rke2-cloud-provider:v1.36.5-0.20260915232631-dca49392c395-build20260916,0,0,0
 rancher/rke2-runtime:v1.34.12-rke2r1,0,4,4
@@ -161,4 +161,4 @@ rancher/system-agent-installer-rke2:v1.36.5-rke2r1,0,0,0
 rancher/system-agent:v0.15.2-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.1,0,5,5
 rancher/turtles:v0.27.2,0,0,0
-rancher/ui-plugin-catalog:4.47.0,0,5,5
+rancher/ui-plugin-catalog:4.48.0,0,2,2

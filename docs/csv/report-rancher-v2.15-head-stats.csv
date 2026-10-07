@@ -41,7 +41,7 @@ rancher/kuberlr-kubectl:v7.1.1,0,7,7
 rancher/kuberlr-kubectl:v8.1.1,0,7,7
 rancher/kuberlr-kubectl:v8.1.2,0,2,2
 rancher/local-path-provisioner:v0.0.37,0,4,4
-rancher/machine:v0.15.0-rancher145.2,0,3,3
+rancher/machine:v0.15.0-rancher145.3-rc.0,0,3,3
 rancher/mirrored-bci-micro:16.0-15.11,0,6,6
 rancher/mirrored-calico-apiserver:v3.32.2,0,2,2
 rancher/mirrored-calico-cni:v3.32.2,0,2,2
@@ -149,4 +149,4 @@ rancher/system-agent-installer-rke2:v1.36.5-rke2r1,0,0,0
 rancher/system-agent:v0.15.2-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.1,0,5,5
 rancher/turtles:v0.27.2,0,0,0
-rancher/ui-plugin-catalog:4.47.0,0,5,5
+rancher/ui-plugin-catalog:4.49.0,0,0,0
