@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability v2.11-dev version - CVE Scans - 2026-10-07</h1>
+<h1>SUSE Rancher - Observability v2.11-dev version - CVE Scans - 2026-10-08</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -679,6 +679,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/elasticsearch:8.19.16-so18</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
 <td>org.jsoup:jsoup@1.23.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-75140.html">CVE-2026-75140</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -783,124 +795,28 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/hbase-master:2.5-8.3.17</td>
+<td>quay.io/stackstate/hbase-master:2.5-8.3.18</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>sles</td>
+<td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/hbase-master:2.5-8.3.17</td>
+<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.18</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-master:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-master:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-master:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-data</td>
-<td>libX11-data@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-data</td>
-<td>libX11-data@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>quay.io/stackstate/jmx-exporter:0.20.0-so17</td>
@@ -961,6 +877,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/kafka:3.9.2-so24</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>quay.io/stackstate/kafka:3.9.2-so24</td>
@@ -1095,7 +1023,31 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261008151024-master-bce4afb</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl-3-fips-provider</td>
@@ -1107,7 +1059,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl3</td>
@@ -1119,7 +1071,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>openssl-3</td>
@@ -1131,7 +1083,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-6</td>
@@ -1143,7 +1095,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-data</td>
@@ -1155,7 +1107,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261008151024-master-bce4afb</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl-3-fips-provider</td>
@@ -1167,7 +1131,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl3</td>
@@ -1179,7 +1143,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>openssl-3</td>
@@ -1191,7 +1155,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-6</td>
@@ -1203,7 +1167,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.17</td>
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-data</td>
@@ -1215,7 +1179,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261008151024-master-bce4afb</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl-3-fips-provider</td>
@@ -1227,7 +1203,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl3</td>
@@ -1239,7 +1215,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>openssl-3</td>
@@ -1251,7 +1227,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-6</td>
@@ -1263,7 +1239,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-data</td>
@@ -1275,7 +1251,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261008151024-master-bce4afb-2.5</td>
+<td>false</td>
+<td>Observability v2.11-dev</td>
+<td>Java</td>
+<td>at.yawk.lz4:lz4-java@1.11.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261008151024-master-bce4afb-2.5</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl-3-fips-provider</td>
@@ -1287,7 +1275,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261008151024-master-bce4afb-2.5</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libopenssl3</td>
@@ -1299,7 +1287,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261008151024-master-bce4afb-2.5</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>openssl-3</td>
@@ -1311,7 +1299,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261008151024-master-bce4afb-2.5</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-6</td>
@@ -1323,7 +1311,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261008151024-master-bce4afb-2.5</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>libX11-data</td>
@@ -1335,204 +1323,12 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-data</td>
-<td>libX11-data@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261007075857-master-0f5ae2e-2.5</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261007075857-master-0f5ae2e-2.5</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261007075857-master-0f5ae2e-2.5</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261007075857-master-0f5ae2e-2.5</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261007075857-master-0f5ae2e-2.5</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-data</td>
-<td>libX11-data@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261007075857-master-0f5ae2e</td>
+<td>quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261008151024-master-bce4afb</td>
 <td>false</td>
 <td>Observability v2.11-dev</td>
 <td>glibc</td>
 <td>glibc@2.40-160000.6.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623934-1">SUSE-SU-2026:23934-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/suse-observability-mcp:20260929100218-03be30fa</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>openssl-3</td>
-<td>openssl-3@3.5.0-150700.5.50.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.17</td>
-<td>false</td>
-<td>Observability v2.11-dev</td>
-<td>libX11-data</td>
-<td>libX11-data@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>

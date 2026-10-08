@@ -58,7 +58,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.1,0,8,8
 rancher/mirrored-calico-goldmane:v3.32.1,0,6,6
 rancher/mirrored-calico-kube-controllers:v3.32.1,0,3,3
 rancher/mirrored-calico-node-driver-registrar:v3.32.1,0,9,9
-rancher/mirrored-calico-node:v3.32.1,0,15,15
+rancher/mirrored-calico-node:v3.32.1,0,14,14
 rancher/mirrored-calico-operator:v1.42.3,1,16,17
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.1,0,6,6
 rancher/mirrored-calico-typha:v3.32.1,0,3,3
@@ -75,11 +75,11 @@ rancher/mirrored-cilium-operator-aws:v1.19.6,0,3,3
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,3,3
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,3,3
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,22,22
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,15,85,100
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,14,71,85
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,4,29,33
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,14,86,100
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,13,76,89
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,16,76,92
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,15,64,79
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,4,28,32
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,15,77,92
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,14,69,83
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,4,48,52
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,22,22
 rancher/mirrored-cloud-provider-vsphere:v1.33.1,0,23,23
@@ -161,7 +161,7 @@ rancher/neuvector-enforcer:5.6.2,0,14,14
 rancher/neuvector-manager:5.6.2,0,5,5
 rancher/neuvector-prometheus-exporter:1.0.19,0,10,10
 rancher/neuvector-registry-adapter:0.2.11,0,3,3
-rancher/neuvector-scanner:6,0,2,2
+rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.15,0,3,3
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,55,55
 rancher/prom-prometheus:v3.2.1,0,46,46
@@ -191,4 +191,4 @@ rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.33.13-rke2r2,0,0,0
 rancher/system-agent:v0.3.13-suc,1,45,46
 rancher/system-upgrade-controller:v0.16.3,0,14,14
-rancher/ui-plugin-catalog:4.49.0,0,0,0
+rancher/ui-plugin-catalog:4.50.0,0,0,0

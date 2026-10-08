@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.5-rke2r1-build20260923,0,0,0
 rancher/hardened-multus-cni:v4.3.1-build20260910,0,0,0
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,0,0
 rancher/hardened-traefik:v3.7.13-build20260910,0,0,0
-rancher/harvester-cluster-repo:3bd0a89a,0,0,0
+rancher/harvester-cluster-repo:f356eb47,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.2,0,11,11
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -62,7 +62,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,71,81
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,15,15
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,24,24
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,45,48
+rancher/mirrored-library-nginx:1.29.1-alpine,3,46,49
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.2,0,3,3
 rancher/rancher-webhook:v0.11.3,0,0,0
@@ -86,10 +86,10 @@ registry.suse.com/suse/sles/16.0/cdi-importer:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-operator:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-uploadproxy:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-uploadserver:1.65.0,0,0,0
-registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-9.1,0,32,32
-registry.suse.com/suse/sles/16.0/virt-api:1.8.4-9.1,0,6,6
-registry.suse.com/suse/sles/16.0/virt-controller:1.8.4-9.1,0,6,6
-registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-9.1,0,28,28
-registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-9.1,0,35,35
-registry.suse.com/suse/sles/16.0/virt-operator:1.8.4-9.1,0,6,6
+registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9,0,0,0
+registry.suse.com/suse/sles/16.0/virt-api:1.8.4-11.9,0,0,0
+registry.suse.com/suse/sles/16.0/virt-controller:1.8.4-11.9,0,0,0
+registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-11.9,0,0,0
+registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9,0,0,0
+registry.suse.com/suse/sles/16.0/virt-operator:1.8.4-11.9,0,0,0
 registry.suse.com/suse/vmdp/vmdp:2.5.5,0,0,0
