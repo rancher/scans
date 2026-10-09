@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability agent v1.7-dev version - CVE Scans - 2026-10-08</h1>
+<h1>SUSE Rancher - Observability agent v1.7-dev version - CVE Scans - 2026-10-09</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -570,6 +570,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>quay.io/stackstate/container-tools:1.8.6-so28</td>
 <td>false</td>
 <td>Observability agent v1.7-dev</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.6-so28</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.6-so28</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/sts-backup</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.6-so28</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/sts-toolbox</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.6-so28</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/local/bin/kubectl</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.6-so28</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
 <td>libopenssl-3-fips-provider</td>
 <td>libopenssl-3-fips-provider@3.5.0-150700.5.50.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
@@ -603,6 +663,102 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>quay.io/stackstate/generic-sidecar-injector:fb2b6559-1056-release</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>sidecarinjector</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/generic-sidecar-injector:fb2b6559-1056-release</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>sidecarinjector</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/kubernetes-rbac-agent:dd19e759-1062-release</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/kubernetes-rbac-agent:dd19e759-1062-release</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/kubernetes-rbac-agent</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/opentelemetry-target-allocator:0.160.0-so1</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/targetallocator</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/opentelemetry-target-allocator:0.160.0-so1</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/targetallocator</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/promtail:3.6.11-so20</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/promtail</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/promtail:3.6.11-so20</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/promtail</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>quay.io/stackstate/promtail:3.6.11-so20</td>
 <td>false</td>
 <td>Observability agent v1.7-dev</td>
@@ -639,6 +795,102 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/agent/agent</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/installer/installer</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/agent/agent</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/installer/installer</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-cluster-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-cluster-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-process-agent:00f55972</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/agent/process-agent</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-k8s-process-agent:00f55972</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>opt/stackstate-agent/bin/agent/process-agent</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>quay.io/stackstate/stackstate-k8s-process-agent:00f55972</td>
 <td>false</td>
 <td>Observability agent v1.7-dev</td>
@@ -661,6 +913,42 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.67-agent</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.67-agent</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/sts-opentelemetry-agent-collector</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>quay.io/stackstate/container-tools:1.8.6-so28</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>usr/bin/sts-backup</td>
+<td>stdlib@v1.26.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 </table>
 
