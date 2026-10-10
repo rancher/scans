@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -655,18 +655,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Rancher AI main</td>
 <td>usr/local/bin/mcp</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>stgregistry.suse.com/rancher/rancher-ai-mcp:head</td>
-<td>false</td>
-<td>Rancher AI main</td>
-<td>usr/local/bin/mcp</td>
 <td>golang.org/x/net@v0.58.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -696,6 +684,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>stgregistry.suse.com/rancher/rancher-ai-mcp:head</td>
+<td>false</td>
+<td>Rancher AI main</td>
+<td>usr/local/bin/mcp</td>
+<td>stdlib@v1.26.8</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 </table>
