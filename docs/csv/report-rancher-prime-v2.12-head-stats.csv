@@ -166,7 +166,7 @@ rancher/neuvector-updater:0.0.15,0,3,3
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,68,68
 rancher/prom-prometheus:v3.2.1,0,54,54
 rancher/prometheus-federator:v4.2.4,0,4,4
-rancher/rancher-agent:v2.12-head,0,15,15
+rancher/rancher-agent:v2.12-head,0,14,14
 rancher/rancher-csp-adapter:v7.0.0,0,25,25
 rancher/rancher-webhook:v0.8.11,0,5,5
 rancher/rancher:v2.12-head,0,148,148

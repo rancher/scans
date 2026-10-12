@@ -2,7 +2,7 @@ image,critical,high,total
 quay.io/stackstate/clickhouse-backup:2.7.2-so18,0,8,8
 quay.io/stackstate/clickhouse:26.8.2.7-so4,0,3,3
 quay.io/stackstate/container-tools:1.8.6-so28,0,17,17
-quay.io/stackstate/contrib-stackpacks:20261007075956-main-f02ffd7,0,0,0
+quay.io/stackstate/contrib-stackpacks:20261012135552-main-1b6b01a,0,0,0
 quay.io/stackstate/elasticsearch:8.19.16-so18,0,5,5
 quay.io/stackstate/hadoop:3.5.0-so19,0,6,6
 quay.io/stackstate/hbase-master:2.5-8.3.18,0,1,1
@@ -15,7 +15,7 @@ quay.io/stackstate/s3proxy:3.2.0-so16,0,6,6
 quay.io/stackstate/spotlight:5.2.0-snapshot.232,0,3,3
 quay.io/stackstate/stackgraph-console:2.5-8.3.18,0,0,0
 quay.io/stackstate/stackgraph-hbase:2.5-8.3.18,0,1,1
-quay.io/stackstate/stackpacks:20260923125936-master-5c2fee9-2_0-prime-selfhosted,0,0,0
+quay.io/stackstate/stackpacks:20261007075909-master-83ab3df-2_0-prime-selfhosted,0,0,0
 quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261009124925-master-3e170b8,0,12,12
 quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261009124925-master-3e170b8,0,12,12
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261009124925-master-3e170b8,0,12,12
@@ -24,7 +24,7 @@ quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261009124925-master-3e170b8,0,
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.62,0,5,5
 quay.io/stackstate/suse-observability-borg:20260929105449-c033aef0,0,4,4
 quay.io/stackstate/suse-observability-mcp:20261008084524-aa87a7fa,0,5,5
-quay.io/stackstate/suse-stackpacks:20261007075953-main-65b096d,0,0,0
+quay.io/stackstate/suse-stackpacks:20261012085532-main-27fa827,0,0,0
 quay.io/stackstate/tephra-server:2.5-8.3.18,0,0,0
 quay.io/stackstate/vmbackup:1.144.0-so23,0,17,17
 quay.io/stackstate/workload-observer:a498624f-1050-release,0,5,5

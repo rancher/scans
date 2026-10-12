@@ -175,10 +175,10 @@ rancher/neuvector-scanner:6,0,12,12
 rancher/neuvector-updater:0.0.15,0,3,3
 rancher/prom-prometheus:v3.2.1,0,54,54
 rancher/prometheus-federator:v3.3.2,0,4,4
-rancher/rancher-agent:v2.11-head,0,21,21
+rancher/rancher-agent:v2.11-head,0,20,20
 rancher/rancher-csp-adapter:v6.0.1,0,22,22
 rancher/rancher-webhook:v0.7.12,0,5,5
-rancher/rancher:v2.11-head,0,195,195
+rancher/rancher:v2.11-head,0,194,194
 rancher/remotedialer-proxy:v0.4.6,0,4,4
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,23,23
 rancher/rke2-runtime:v1.32.13-rke2r1,0,73,73

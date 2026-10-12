@@ -1,12 +1,12 @@
 image,critical,high,total
-rancher/aks-operator:v1.15.2,0,4,4
+rancher/aks-operator:v1.15.3-rc.1,0,4,4
 rancher/backup-restore-operator:v11.0.3,0,5,5
 rancher/cluster-api-controller:v1.13.3,0,13,13
 rancher/compliance-operator:v1.5.3,0,5,5
 rancher/eks-operator:v1.15.3-rc.1,0,4,4
 rancher/fleet-agent:v0.16.3-beta.1,0,4,4
 rancher/fleet:v0.16.3-beta.1,0,8,8
-rancher/gke-operator:v1.15.3,0,4,4
+rancher/gke-operator:v1.15.4-rc.1,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,4,4
 rancher/hardened-calico:v3.32.2-build20260909,0,94,94
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,4,4

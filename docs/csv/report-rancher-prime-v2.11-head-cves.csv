@@ -14647,7 +14647,6 @@ rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.26.8,gobinar
 rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.24.13,gobinary,CVE-2026-78667,HIGH,https://avd.aquasec.com/nvd/cve-2026-78667,usr/bin/kubectl,"1.26.9, 1.27.2",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.26.8,gobinary,CVE-2026-78667,HIGH,https://avd.aquasec.com/nvd/cve-2026-78667,usr/bin/agent,"1.26.9, 1.27.2",false,affected,
 rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.30.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/kubectl,0.60.0,false,affected,
-rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/agent,0.60.0,false,affected,
 rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.24.13,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/kubectl,"1.26.9, 1.27.2",false,affected,
 rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.26.8,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/agent,"1.26.9, 1.27.2",false,affected,
 rancher/rancher-agent:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.24.13,gobinary,CVE-2026-94448,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-94448,usr/bin/kubectl,"1.26.9, 1.27.2",false,not_affected,vulnerable_code_not_present
@@ -15239,7 +15238,6 @@ rancher/rancher:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.36.0,gob
 rancher/rancher:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.38.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/containerd-shim-runc-v2,0.60.0,false,affected,
 rancher/rancher:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.55.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/etcdctl,0.60.0,false,affected,
 rancher/rancher:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.55.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/share/rancher/ui/assets/wins.exe,0.60.0,false,affected,
-rancher/rancher:v2.11-head,rancher/prime/v2.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/rancher,0.60.0,false,affected,
 rancher/rancher:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.23.6,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,opt/drivers/management-state/bin/docker-machine-driver-harvester,"1.26.9, 1.27.2",false,affected,
 rancher/rancher:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.23.6,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/rancher-machine,"1.26.9, 1.27.2",false,affected,
 rancher/rancher:v2.11-head,rancher/prime/v2.11-head,stdlib,v1.24.1,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,opt/drivers/management-state/bin/docker-machine-driver-linode,"1.26.9, 1.27.2",false,affected,

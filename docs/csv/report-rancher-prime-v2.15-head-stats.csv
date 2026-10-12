@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.15.2,0,4,4
+rancher/aks-operator:v1.15.3-rc.1,0,4,4
 rancher/ali-operator:v1.15.1,0,5,5
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,41,41
 rancher/azureserviceoperator:v2.18.0,0,44,44
@@ -16,7 +16,7 @@ rancher/compliance-operator:v1.5.3,0,5,5
 rancher/eks-operator:v1.15.3-rc.1,0,4,4
 rancher/fleet-agent:v0.16.3-beta.1,0,4,4
 rancher/fleet:v0.16.3-beta.1,0,8,8
-rancher/gke-operator:v1.15.3,0,4,4
+rancher/gke-operator:v1.15.4-rc.1,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,4,4
 rancher/hardened-calico:v3.32.2-build20260909,0,94,94
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,4,4
@@ -133,10 +133,10 @@ rancher/neuvector-scanner:6,0,12,12
 rancher/neuvector-updater:0.0.15,0,3,3
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,68,68
 rancher/prometheus-federator:v7.0.1,0,4,4
-rancher/rancher-agent:v2.15-head,0,6,6
+rancher/rancher-agent:v2.15-head,0,5,5
 rancher/rancher-csp-adapter:v10.0.0,0,11,11
 rancher/rancher-webhook:v0.11.4-rc.1,0,7,7
-rancher/rancher:v2.15-head,0,68,68
+rancher/rancher:v2.15-head,0,67,67
 rancher/remotedialer-proxy:v0.8.2,0,4,4
 rancher/rke2-cloud-provider:v1.36.5-0.20260915232631-dca49392c395-build20260916,0,4,4
 rancher/rke2-runtime:v1.34.12-rke2r1,0,31,31
