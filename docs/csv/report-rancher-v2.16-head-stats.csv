@@ -26,7 +26,7 @@ rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,5,5
 rancher/hardened-traefik:v3.7.13-build20260910,0,5,5
 rancher/hardened-whereabouts:v0.9.4-build20260819,0,16,16
 rancher/harvester-cloud-provider:v0.2.8,0,11,11
-rancher/harvester-csi-driver:v0.2.10,0,20,20
+rancher/harvester-csi-driver:v0.2.10,0,19,19
 rancher/k3s-upgrade:v1.35.9-k3s1,0,5,5
 rancher/k3s-upgrade:v1.36.5-k3s1,0,5,5
 rancher/k3s-upgrade:v1.37.1-k3s1,0,5,5
@@ -86,8 +86,8 @@ rancher/mirrored-sig-storage-csi-provisioner:v4.0.1,0,28,28
 rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,24,24
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,22,22
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,19,19
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,68,68
-rancher/rancher-agent:master-head,12,316,328
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,62,62
+rancher/rancher-agent:master-head,11,315,326
 rancher/rancher-assets:v2.16-20260914T2041Z-dev,0,6,6
 rancher/rancher-webhook:v0.12.1-rc.11,0,7,7
 rancher/rancher:dev,0,0,0
