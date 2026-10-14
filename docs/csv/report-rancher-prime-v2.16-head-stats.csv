@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.16.0-rc.3,0,5,5
+rancher/aks-operator:v1.16.0-rc.3,0,4,4
 rancher/ali-operator:v1.16.0-rc.2,0,5,5
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,41,41
 rancher/azureserviceoperator:v2.19.0,0,30,30
@@ -8,14 +8,14 @@ rancher/cluster-api-aws-controller:v2.13.0,0,12,12
 rancher/cluster-api-azure-controller:v1.27.0,0,10,10
 rancher/cluster-api-controller:v1.14.2,0,9,9
 rancher/cluster-api-gcp-controller:v1.13.1,0,10,10
-rancher/cluster-api-provider-rke2-bootstrap:v0.26.0,0,4,4
-rancher/cluster-api-provider-rke2-controlplane:v0.26.0,0,4,4
+rancher/cluster-api-provider-rke2-bootstrap:v0.27.0-rc.1,0,4,4
+rancher/cluster-api-provider-rke2-controlplane:v0.27.0-rc.1,0,4,4
 rancher/cluster-api-vsphere-controller:v1.17.0,0,11,11
 rancher/compliance-operator:v1.6.0-rc.1,0,5,5
 rancher/eks-operator:v1.16.0-rc.2,0,4,4
 rancher/fleet-agent:v0.17.0-alpha.6,0,4,4
 rancher/fleet:v0.17.0-alpha.6,0,8,8
-rancher/gke-operator:v1.16.0-rc.3,0,5,5
+rancher/gke-operator:v1.16.0-rc.3,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,4,4
 rancher/hardened-calico:v3.32.2-build20260909,0,94,94
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,4,4
@@ -49,7 +49,7 @@ rancher/kubeadm-bootstrap-controller:v1.14.2,0,9,9
 rancher/kubeadm-control-plane-controller:v1.14.2,0,9,9
 rancher/kuberlr-kubectl:v8.1.2,0,21,21
 rancher/local-path-provisioner:v0.0.37,0,8,8
-rancher/machine:v0.15.0-rancher146-rc.5,0,7,7
+rancher/machine:v0.15.0-rancher146-rc.6,0,4,4
 rancher/mirrored-bci-micro:16.0-15.11,0,6,6
 rancher/mirrored-calico-apiserver:v3.32.2,0,3,3
 rancher/mirrored-calico-cni:v3.32.2,0,4,4
@@ -99,10 +99,10 @@ rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,24,24
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,22,22
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,19,19
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,68,68
-rancher/rancher-agent:v2.16-head,0,6,6
+rancher/rancher-agent:v2.16-head,0,1,1
 rancher/rancher-assets:v2.16-20260914T2041Z-dev,0,6,6
 rancher/rancher-webhook:v0.12.1-rc.11,0,7,7
-rancher/rancher:v2.16-head,0,57,57
+rancher/rancher:v2.16-head,0,52,52
 rancher/remotedialer-proxy:v0.9.0-rc.3,0,8,8
 rancher/rke2-cloud-provider:v1.37.1-0.20260915225838-315ede265f11-build20260916,0,4,4
 rancher/rke2-runtime:v1.35.9-rke2r1,0,32,32
@@ -113,7 +113,7 @@ rancher/rke2-upgrade:v1.35.9-rke2r1,0,12,12
 rancher/rke2-upgrade:v1.36.5-rke2r1,0,12,12
 rancher/rke2-upgrade:v1.37.1-rke2r1,0,12,12
 rancher/scc-operator:v0.5.2,0,5,5
-rancher/security-scan:v0.11.0-rc.1,0,22,22
+rancher/security-scan:v0.11.0-rc.1,1,22,23
 rancher/shell:v0.9.0-rc.1,0,33,33
 rancher/system-agent-installer-k3s:v1.35.9-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.36.5-k3s1,0,0,0
@@ -121,7 +121,7 @@ rancher/system-agent-installer-k3s:v1.37.1-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.5-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.37.1-rke2r1,0,0,0
-rancher/system-agent:v0.16.0-rc.3-suc,0,10,10
+rancher/system-agent:v0.16.0-rc.4-suc,0,6,6
 rancher/system-upgrade-controller:v0.20.2,0,4,4
-rancher/turtles:v0.28.0-rc.0,0,4,4
-rancher/ui-plugin-catalog:4.50.0,0,0,0
+rancher/turtles:v0.28.0-rc.1,0,0,0
+rancher/ui-plugin-catalog:4.50.0,1,0,1

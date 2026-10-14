@@ -41,3 +41,5 @@ neuvector/enforcer:5.6.3-rc2,neuvector/v5.6-rc,stdlib,v1.26.8,gobinary,CVE-2026-
 neuvector/enforcer:5.6.3-rc2,neuvector/v5.6-rc,stdlib,v1.27.1,gobinary,CVE-2026-97031,HIGH,https://avd.aquasec.com/nvd/cve-2026-97031,usr/local/bin/agent,"1.26.9, 1.27.2",false,affected,
 neuvector/enforcer:5.6.3-rc2,neuvector/v5.6-rc,stdlib,v1.27.1,gobinary,CVE-2026-97031,HIGH,https://avd.aquasec.com/nvd/cve-2026-97031,usr/local/bin/consul,"1.26.9, 1.27.2",false,affected,
 neuvector/enforcer:5.6.3-rc2,neuvector/v5.6-rc,stdlib,v1.27.1,gobinary,CVE-2026-97031,HIGH,https://avd.aquasec.com/nvd/cve-2026-97031,usr/local/bin/pathWalker,"1.26.9, 1.27.2",false,affected,
+neuvector/enforcer:5.6.3-rc2,neuvector/v5.6-rc,libexpat1,2.7.1-150700.3.12.1,sles,SUSE-SU-2026:4619-1,CRITICAL,,neuvector/enforcer:5.6.3-rc2 (sles 15.7),2.8.5-150700.3.15.1,false,affected,
+neuvector/manager:5.6.3-rc2,neuvector/v5.6-rc,libexpat1,2.7.1-150700.3.12.1,sles,SUSE-SU-2026:4619-1,CRITICAL,,neuvector/manager:5.6.3-rc2 (sles 15.7),2.8.5-150700.3.15.1,false,affected,
