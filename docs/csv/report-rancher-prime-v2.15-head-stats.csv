@@ -4,7 +4,7 @@ rancher/ali-operator:v1.15.2-rc.1,0,5,5
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,41,41
 rancher/azureserviceoperator:v2.18.0,0,44,44
 rancher/backup-restore-operator:v11.0.3,0,5,5
-rancher/cluster-api-addon-provider-fleet:v0.15.0,2,8,10
+rancher/cluster-api-addon-provider-fleet:v0.15.1,0,3,3
 rancher/cluster-api-aws-controller:v2.11.1,0,29,29
 rancher/cluster-api-azure-controller:v1.26.0,0,16,16
 rancher/cluster-api-controller:v1.13.3,0,13,13
@@ -13,9 +13,9 @@ rancher/cluster-api-provider-rke2-bootstrap:v0.25.2,0,5,5
 rancher/cluster-api-provider-rke2-controlplane:v0.25.2,0,5,5
 rancher/cluster-api-vsphere-controller:v1.16.1,0,20,20
 rancher/compliance-operator:v1.5.3,0,5,5
-rancher/eks-operator:v1.15.3-rc.1,0,4,4
-rancher/fleet-agent:v0.16.3-beta.1,0,4,4
-rancher/fleet:v0.16.3-beta.1,0,8,8
+rancher/eks-operator:v1.15.3-rc.2,0,0,0
+rancher/fleet-agent:v0.16.3-beta.2,0,0,0
+rancher/fleet:v0.16.3-beta.2,0,0,0
 rancher/gke-operator:v1.15.4-rc.1,0,4,4
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,4,4
 rancher/hardened-calico:v3.32.2-build20260909,0,94,94
@@ -53,7 +53,7 @@ rancher/kuberlr-kubectl:v7.1.1,0,26,26
 rancher/kuberlr-kubectl:v8.1.1,0,26,26
 rancher/kuberlr-kubectl:v8.1.2,0,21,21
 rancher/local-path-provisioner:v0.0.37,0,8,8
-rancher/machine:v0.15.0-rancher145.3-rc.0,1,7,8
+rancher/machine:v0.15.0-rancher145.3-rc.1,0,3,3
 rancher/mirrored-bci-micro:16.0-15.11,0,6,6
 rancher/mirrored-calico-apiserver:v3.32.2,0,3,3
 rancher/mirrored-calico-cni:v3.32.2,0,4,4
@@ -160,5 +160,5 @@ rancher/system-agent-installer-rke2:v1.35.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.5-rke2r1,0,0,0
 rancher/system-agent:v0.15.2-suc,0,10,10
 rancher/system-upgrade-controller:v0.20.1,0,9,9
-rancher/turtles:v0.27.2,0,4,4
+rancher/turtles:v0.27.3-rc.0,0,0,0
 rancher/ui-plugin-catalog:4.50.0,1,0,1

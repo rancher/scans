@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.16.0-rc.3,0,4,4
+rancher/aks-operator:v1.16.0-rc.4,0,0,0
 rancher/ali-operator:v1.16.0-rc.2,0,5,5
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,41,41
 rancher/azureserviceoperator:v2.19.0,0,30,30
@@ -12,10 +12,10 @@ rancher/cluster-api-provider-rke2-bootstrap:v0.27.0-rc.1,0,4,4
 rancher/cluster-api-provider-rke2-controlplane:v0.27.0-rc.1,0,4,4
 rancher/cluster-api-vsphere-controller:v1.17.0,0,11,11
 rancher/compliance-operator:v1.6.0-rc.1,0,5,5
-rancher/eks-operator:v1.16.0-rc.2,0,4,4
-rancher/fleet-agent:v0.17.0-alpha.6,0,4,4
-rancher/fleet:v0.17.0-alpha.6,0,8,8
-rancher/gke-operator:v1.16.0-rc.3,0,4,4
+rancher/eks-operator:v1.16.0-rc.3,0,0,0
+rancher/fleet-agent:v0.17.0-alpha.7,0,0,0
+rancher/fleet:v0.17.0-alpha.7,0,0,0
+rancher/gke-operator:v1.16.0-rc.4,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,4,4
 rancher/hardened-calico:v3.32.2-build20260909,0,94,94
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,4,4
@@ -112,7 +112,7 @@ rancher/rke2-security-responder:v0.1.6,0,0,0
 rancher/rke2-upgrade:v1.35.9-rke2r1,0,12,12
 rancher/rke2-upgrade:v1.36.5-rke2r1,0,12,12
 rancher/rke2-upgrade:v1.37.1-rke2r1,0,12,12
-rancher/scc-operator:v0.5.2,0,5,5
+rancher/scc-operator:v0.5.3-rc.1,0,0,0
 rancher/security-scan:v0.11.0-rc.1,1,22,23
 rancher/shell:v0.9.0-rc.1,0,33,33
 rancher/system-agent-installer-k3s:v1.35.9-k3s1,0,0,0
