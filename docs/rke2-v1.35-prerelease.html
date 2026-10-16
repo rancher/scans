@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.35 pre-release version - CVE Scans - 2026-10-15</h1>
+<h1>SUSE Rancher - RKE2 v1.35 pre-release version - CVE Scans - 2026-10-16</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -567,6 +567,18 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.27.2-r1-build20261012</td>
+<td>false</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/hardened-etcd:v3.6.14-k3s3-build20260915</td>
 <td>false</td>
 <td>RKE2 v1.35 pre-release</td>
@@ -661,6 +673,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-multus-thick:v4.3.1-build20261009</td>
+<td>false</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-snapshot-controller:v8.6.0-build20260909</td>
@@ -733,6 +757,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-whereabouts:v0.9.4-build20261012</td>
+<td>false</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/harvester-cloud-provider:v0.2.9</td>
@@ -1021,174 +1057,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/helm</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/helm</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/helm</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/helm</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/helm</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-calico-apiserver:v3.32.2</td>
@@ -1890,6 +1758,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-calico-node:v3.32.2</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
+<td>util-linux</td>
+<td>util-linux@2.37.4-25.el9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-53615.html">CVE-2026-53615</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.32.2</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>util-linux-core</td>
+<td>util-linux-core@2.37.4-25.el9</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-53615.html">CVE-2026-53615</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.32.2</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
 <td>usr/bin/calico-node</td>
 <td>golang.org/x/crypto@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
@@ -2295,35 +2187,107 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium-envoy:v1.37.6-1789133542-cbec91f666af0bf742da986d43832932dbb26b82</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>libssl3t64</td>
-<td>libssl3t64@3.0.13-0ubuntu3.15</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-47912.html">CVE-2025-47912</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-58188.html">CVE-2025-58188</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61727.html">CVE-2025-61727</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-61729.html">CVE-2025-61729</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>ubuntu</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium-envoy:v1.37.6-1789133542-cbec91f666af0bf742da986d43832932dbb26b82</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>openssl</td>
-<td>openssl@3.0.13-0ubuntu3.15</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2025-68121.html">CVE-2025-68121</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-32280.html">CVE-2026-32280</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>ubuntu</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33811.html">CVE-2026-33811</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2331,11 +2295,23 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39820.html">CVE-2026-39820</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2343,11 +2319,47 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-39836.html">CVE-2026-39836</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2355,35 +2367,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2391,11 +2379,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2403,11 +2391,59 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium-envoy:v1.38.6-1791537840-00e749f11f69334c625e53fc1ce2fc6c7f34a51f</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/cilium-envoy-healthcheck</td>
+<td>stdlib@v1.24.6</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
 <td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
+<td>stdlib@v1.26.7</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2415,10 +2451,58 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-cilium:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>opt/cni/bin/cilium-cni</td>
+<td>usr/bin/pebble</td>
+<td>stdlib@v1.26.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.20.3</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/pebble</td>
+<td>stdlib@v1.26.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-cilium:v1.20.3</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/pebble</td>
+<td>stdlib@v1.26.7</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/etcd</td>
+<td>golang.org/x/crypto@v0.55.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
+<td>true</td>
+<td>RKE2 v1.35 pre-release</td>
+<td>usr/bin/etcd</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -2427,131 +2511,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-bugtool</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-envoy-bootstrap-locality</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health-responder</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-mount</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-sysctlfix</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>golang.org/x/crypto@v0.53.0</td>
+<td>usr/bin/etcd</td>
+<td>golang.org/x/crypto@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2559,623 +2523,11 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>opt/cni/bin/cilium-cni</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-bugtool</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-envoy-bootstrap-locality</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-mount</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>cni/loopback</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>opt/cni/bin/cilium-cni</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-bugtool</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-envoy-bootstrap-locality</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health-responder</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-mount</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-sysctlfix</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>libssl3t64</td>
-<td>libssl3t64@3.5.5-1ubuntu3.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>ubuntu</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>openssl</td>
-<td>openssl@3.5.5-1ubuntu3.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>ubuntu</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>openssl-provider-legacy</td>
-<td>openssl-provider-legacy@3.5.5-1ubuntu3.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84782.html">CVE-2026-84782</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>ubuntu</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/pebble</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>cni/loopback</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>opt/cni/bin/cilium-cni</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-bugtool</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-envoy-bootstrap-locality</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health-responder</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-mount</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-sysctlfix</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
 <td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-33818.html">CVE-2026-33818</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56862.html">CVE-2026-56862</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/clustermesh-apiserver</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>golang.org/x/net@v0.55.0</td>
+<td>golang.org/x/net@v0.58.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -3183,34 +2535,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/clustermesh-apiserver</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
 <td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/clustermesh-apiserver</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -3219,190 +2547,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
 <td>usr/bin/etcd</td>
-<td>google.golang.org/grpc@v1.82.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84304.html">CVE-2026-84304</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>google.golang.org/grpc@v1.82.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/clustermesh-apiserver</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/clustermesh-apiserver</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble-relay</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble-relay</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble-relay</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble-relay</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble-relay</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -3481,402 +2629,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78662.html">CVE-2026-78662</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>google.golang.org/grpc@v1.83.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/gops</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
@@ -4995,18 +3747,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/klipper-helm:v0.13.3-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
 <td>rancher/mirrored-calico-apiserver:v3.32.2</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
@@ -5691,358 +4431,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>cni/loopback</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>opt/cni/bin/cilium-cni</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-agent</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-bugtool</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-dbg</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-envoy-bootstrap-locality</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-health-responder</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-mount</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-sysctlfix</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/sbin/iptables-wrapper</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/sbin/iptables-wrapper</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-cilium:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/sbin/iptables-wrapper</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
+<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.3</td>
 <td>true</td>
 <td>RKE2 v1.35 pre-release</td>
 <td>usr/bin/etcd</td>
-<td>golang.org/x/net@v0.55.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>golang.org/x/text@v0.37.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>golang.org/x/crypto@v0.52.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56859.html">CVE-2026-56859</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/etcd</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/clustermesh-apiserver</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-hubble-relay:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/hubble-relay</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-operator-aws:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-aws</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-operator-azure:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-azure</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
-<td>golang.org/x/crypto@v0.53.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-cilium-operator-generic:v1.20.2</td>
-<td>true</td>
-<td>RKE2 v1.35 pre-release</td>
-<td>usr/bin/cilium-operator-generic</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>

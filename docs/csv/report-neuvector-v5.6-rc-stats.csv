@@ -1,4 +1,4 @@
 image,critical,high,total
-neuvector/controller:5.6.3-rc3,0,0,0
-neuvector/enforcer:5.6.3-rc3,0,1,1
-neuvector/manager:5.6.3-rc2,1,0,1
+neuvector/controller:5.6.3-rc3,0,1,1
+neuvector/enforcer:5.6.3-rc3,0,2,2
+neuvector/manager:5.6.3-rc3,0,0,0

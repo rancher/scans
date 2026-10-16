@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability agent v1.7-dev version - CVE Scans - 2026-10-15</h1>
+<h1>SUSE Rancher - Observability agent v1.7-dev version - CVE Scans - 2026-10-16</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -723,6 +723,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>quay.io/stackstate/container-tools:1.8.6-so33</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/http-header-injector-proxy-init:1.0.0-so9</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/http-header-injector-proxy:1.39.4-so1</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>quay.io/stackstate/kubernetes-rbac-agent:dd19e759-1065-release</td>
 <td>false</td>
 <td>Observability agent v1.7-dev</td>
@@ -829,6 +865,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/opentelemetry-target-allocator:0.160.0-so5</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/promtail:3.6.11-so25</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>quay.io/stackstate/stackstate-k8s-process-agent:2f88f2bb</td>
@@ -927,7 +987,19 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.69-agent</td>
+<td>quay.io/stackstate/stackstate-k8s-process-agent:2f88f2bb</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.70-agent</td>
 <td>false</td>
 <td>Observability agent v1.7-dev</td>
 <td>usr/bin/sts-opentelemetry-agent-collector</td>
@@ -937,6 +1009,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/sts-opentelemetry-collector:v0.0.70-agent</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/generic-sidecar-injector:fb2b6559-1056-release</td>
@@ -1119,6 +1203,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:13679eda</td>
 <td>false</td>
 <td>Observability agent v1.7-dev</td>
@@ -1177,6 +1273,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:13679eda</td>
+<td>false</td>
+<td>Observability agent v1.7-dev</td>
+<td>glibc</td>
+<td>glibc@2.38-150600.14.58.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue not_affected">
 <td>quay.io/stackstate/container-tools:1.8.6-so33</td>
