@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.35.9 version - CVE Scans - 2026-10-17</h1>
+<h1>SUSE Rancher - RKE2 v1.35.9 version - CVE Scans - 2026-10-18</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -3463,6 +3463,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35.9</td>
 <td>metrics-server</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>metrics-server</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -4303,6 +4315,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35.9</td>
 <td>snapshot-controller</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-snapshot-controller:v8.6.0-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>snapshot-controller</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -4413,6 +4437,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>snapshot-controller</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -4903,6 +4963,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35.9</td>
 <td>kube-webhook-certgen</td>
+<td>golang.org/x/text@v0.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/kube-webhook-certgen:v1.14.5-hardened2</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>kube-webhook-certgen</td>
 <td>stdlib@v1.26.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -5145,6 +5217,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>wait-shutdown</td>
 <td>stdlib@v1.26.2</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/nginx-ingress-controller:v1.14.5-hardened2</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>nginx-ingress-controller</td>
+<td>golang.org/x/text@v0.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -6042,6 +6126,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rke2-runtime:v1.35.9-rke2r1</td>
 <td>false</td>
 <td>RKE2 v1.35.9</td>
+<td>bin/crictl</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.35.9-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>bin/containerd</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.35.9-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.35.9-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>bin/ctr</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.35.9-rke2r1</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
 <td>bin/containerd</td>
 <td>golang.org/x/crypto@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
@@ -6847,11 +6979,95 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35.9</td>
 <td>pod_nanny</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-addon-resizer:1.8.23-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>pod_nanny</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>calicoctl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>opt/cni/bin/install</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -7171,6 +7387,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>RKE2 v1.35.9</td>
 <td>cluster-proportional-autoscaler</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-cluster-autoscaler:v1.10.3-build20260819</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>cluster-proportional-autoscaler</td>
 <td>stdlib@v1.25.14</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -7224,6 +7452,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-flannel:v0.28.9-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.35.9</td>
+<td>opt/bin/flanneld</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

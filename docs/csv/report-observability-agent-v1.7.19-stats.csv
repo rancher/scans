@@ -1,9 +1,9 @@
 image,critical,high,total
 registry.rancher.com/suse-observability/container-tools:1.8.6-so28,0,33,33
-registry.rancher.com/suse-observability/generic-sidecar-injector:fb2b6559-1056-release,0,10,10
+registry.rancher.com/suse-observability/generic-sidecar-injector:fb2b6559-1056-release,0,11,11
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:1.0.0-so7,0,1,1
 registry.rancher.com/suse-observability/http-header-injector-proxy:1.38.3-so5,0,1,1
-registry.rancher.com/suse-observability/kubernetes-rbac-agent:dd19e759-1062-release,0,10,10
+registry.rancher.com/suse-observability/kubernetes-rbac-agent:dd19e759-1062-release,0,11,11
 registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.160.0-so1,0,11,11
 registry.rancher.com/suse-observability/promtail:3.6.11-so20,0,14,14
 registry.rancher.com/suse-observability/stackstate-k8s-agent:13679eda,0,21,21

@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Harvester v1.9-head version - CVE Scans - 2026-10-17</h1>
+<h1>SUSE Rancher - Harvester v1.9-head version - CVE Scans - 2026-10-18</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -1465,6 +1465,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>ubuntu</td>
+</tr>
+<tr class="issue">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/gobgp</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>kubeovn/kube-ovn:v1.16.2</td>
@@ -2826,54 +2850,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/backing-image-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/backing-image-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/backing-image-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>openssl-3</td>
-<td>openssl-3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/backing-image-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>rpcbind</td>
-<td>rpcbind@0.2.3-150000.5.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/backing-image-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
 <td>libexpat1</td>
 <td>libexpat1@2.7.1-150700.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
@@ -2889,6 +2865,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>iperf</td>
+<td>iperf@3.21-100.10</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264678-1">SUSE-SU-2026:4678-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libiperf0</td>
+<td>libiperf0@3.21-100.10</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264678-1">SUSE-SU-2026:4678-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -4542,42 +4542,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-cli:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>openssl-3</td>
-<td>openssl-3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-cli:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
@@ -5194,66 +5158,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>libpcre2-8-0@10.42-150600.1.26</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264241-1">SUSE-SU-2026:4241-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>openssl-3</td>
-<td>openssl-3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>rpcbind</td>
-<td>rpcbind@0.2.3-150000.5.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-engine:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libexpat1</td>
-<td>libexpat1@2.7.1-150700.3.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
@@ -5778,30 +5682,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-instance-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
-<td>rpcbind</td>
-<td>rpcbind@0.2.3-150000.5.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-instance-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libexpat1</td>
-<td>libexpat1@2.7.1-150700.3.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-instance-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
@@ -6138,66 +6018,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>openssl-3</td>
-<td>openssl-3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>rpcbind</td>
-<td>rpcbind@0.2.3-150000.5.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libexpat1</td>
-<td>libexpat1@2.7.1-150700.3.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
@@ -6534,42 +6354,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-share-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-share-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>rpcbind</td>
-<td>rpcbind@0.2.3-150000.5.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-share-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libexpat1</td>
-<td>libexpat1@2.7.1-150700.3.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-share-manager:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
@@ -6738,30 +6522,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-ui:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
-<td>libX11-6</td>
-<td>libX11-6@1.8.10-150700.4.3.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-ui:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libexpat1</td>
-<td>libexpat1@2.7.1-150700.3.12.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/longhorn-ui:v1.12.1</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
@@ -6789,6 +6549,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/support-bundle-kit</td>
 <td>stdlib@v1.26.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/support-bundle-kit:v0.0.92</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/yq</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -7089,42 +6861,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>libpcre2-8-0</td>
 <td>libpcre2-8-0@10.42-150600.1.26</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264241-1">SUSE-SU-2026:4241-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.92</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl-3-fips-provider</td>
-<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.92</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>longhornio/support-bundle-kit:v0.0.92</td>
-<td>false</td>
-<td>Harvester v1.9-head</td>
-<td>openssl-3</td>
-<td>openssl-3@3.2.3-150700.5.40.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -11479,6 +11215,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>metrics-server</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>metrics-server</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -12777,6 +12525,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/src/multus-cni/bin/multus</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-snapshot-controller:v8.6.0-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>snapshot-controller</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -14874,6 +14634,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-upgrade:v1.9-head</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
+<td>usr/local/bin/elemental</td>
+<td>golang.org/x/text@v0.14.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-upgrade:v1.9-head</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/yq</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/harvester-upgrade:v1.9-head</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
 <td>usr/bin/virtctl</td>
 <td>stdlib@v1.24.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56853.html">CVE-2026-56853</a></td>
@@ -16027,6 +15811,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/helm</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56866.html">CVE-2026-56866</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
@@ -16581,6 +16401,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/kubectl</td>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/kuberlr-kubectl:v8.1.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kuberlr</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -17889,6 +17721,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>kube-webhook-certgen</td>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-42499.html">CVE-2026-42499</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7</td>
+<td>true</td>
+<td>Harvester v1.9-head</td>
+<td>kube-webhook-certgen</td>
+<td>golang.org/x/text@v0.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -23106,6 +22950,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/rke2-runtime:v1.36.5-rke2r1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
+<td>bin/crictl</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.5-rke2r1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>bin/containerd</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.5-rke2r1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.5-rke2r1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>bin/ctr</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.5-rke2r1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
 <td>bin/containerd</td>
 <td>golang.org/x/crypto@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56855.html">CVE-2026-56855</a></td>
@@ -25874,6 +25766,294 @@ the distinctive tag '*' close to its severity.</li>
 <td></td>
 <td>gobinary</td>
 </tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu</td>
+<td>qemu@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-display-virtio-gpu</td>
+<td>qemu-hw-display-virtio-gpu@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-display-virtio-gpu-pci</td>
+<td>qemu-hw-display-virtio-gpu-pci@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-display-virtio-vga</td>
+<td>qemu-hw-display-virtio-vga@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-img</td>
+<td>qemu-img@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-ipxe</td>
+<td>qemu-ipxe@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-pr-helper</td>
+<td>qemu-pr-helper@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-seabios</td>
+<td>qemu-seabios@10.0.131.16.3_3_g3d33c746-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-tools</td>
+<td>qemu-tools@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-vgabios</td>
+<td>qemu-vgabios@10.0.131.16.3_3_g3d33c746-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-vmsr-helper</td>
+<td>qemu-vmsr-helper@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/libguestfs-tools:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-x86</td>
+<td>qemu-x86@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-handler:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-img</td>
+<td>qemu-img@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu</td>
+<td>qemu@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-display-virtio-gpu</td>
+<td>qemu-hw-display-virtio-gpu@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-display-virtio-gpu-pci</td>
+<td>qemu-hw-display-virtio-gpu-pci@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-display-virtio-vga</td>
+<td>qemu-hw-display-virtio-vga@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-usb-host</td>
+<td>qemu-hw-usb-host@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-hw-usb-redirect</td>
+<td>qemu-hw-usb-redirect@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-img</td>
+<td>qemu-img@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-ipxe</td>
+<td>qemu-ipxe@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-seabios</td>
+<td>qemu-seabios@10.0.131.16.3_3_g3d33c746-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-vgabios</td>
+<td>qemu-vgabios@10.0.131.16.3_3_g3d33c746-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.suse.com/suse/sles/16.0/virt-launcher:1.8.4-11.9</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>qemu-x86</td>
+<td>qemu-x86@10.0.13-160000.1.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624159-1">SUSE-SU-2026:24159-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
 <tr class="issue not_affected">
 <td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4</td>
 <td>false</td>
@@ -26253,6 +26433,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>whereabouts</td>
 <td>golang.org/x/net@v0.49.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>ip-control-loop</td>
+<td>golang.org/x/text@v0.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>ip-reconciler</td>
+<td>golang.org/x/text@v0.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>node-slice-controller</td>
+<td>golang.org/x/text@v0.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>whereabouts</td>
+<td>golang.org/x/text@v0.33.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -27044,6 +27272,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester v1.9-head</td>
 <td>kube-ovn/kube-ovn</td>
 <td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>kube-ovn/kube-ovn-cmd</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>kube-ovn/kube-ovn-controller</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>kube-ovn/kube-ovn-daemon</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>kubeovn/kube-ovn:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>kube-ovn/kube-ovn</td>
+<td>golang.org/x/text@v0.37.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -27907,6 +28183,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>usr/local/bin/backing-image-manager</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/backing-image-manager</td>
 <td>stdlib@v1.26.5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -27933,6 +28221,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>kbd</td>
 <td>kbd@2.4.0-150700.15.6.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264211-1">SUSE-SU-2026:4211-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/backing-image-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>rpcbind</td>
+<td>rpcbind@0.2.3-150000.5.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
@@ -28135,6 +28471,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>csi-attacher</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-attacher:v4.12.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>csi-attacher</td>
 <td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -28245,6 +28593,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-node-driver-registrar</td>
 <td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-node-driver-registrar:v2.17.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>csi-node-driver-registrar</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -28400,6 +28760,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester v1.9-head</td>
 <td>csi-provisioner</td>
 <td>golang.org/x/text@v0.25.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-provisioner:v5.3.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>csi-provisioner</td>
+<td>golang.org/x/text@v0.25.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -28485,6 +28857,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-resizer</td>
 <td>golang.org/x/net@v0.55.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-resizer:v2.2.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>csi-resizer</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -28593,6 +28977,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-snapshotter</td>
 <td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/csi-snapshotter:v8.6.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>csi-snapshotter</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -28724,6 +29120,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester v1.9-head</td>
 <td>livenessprobe</td>
 <td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/livenessprobe:v2.19.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>livenessprobe</td>
+<td>golang.org/x/text@v0.37.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -28788,6 +29196,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-cli:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/longhornctl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-cli:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/longhornctl-local</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -28983,6 +29415,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>longhornio/longhorn-cli:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-cli:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-cli:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>longhornio/longhorn-engine:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
@@ -29004,6 +29472,42 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/longhorn</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/longhorn-instance-manager</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -29163,6 +29667,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>rpcbind</td>
+<td>rpcbind@0.2.3-150000.5.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-engine:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>longhornio/longhorn-instance-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
@@ -29220,6 +29784,42 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/go-spdk-helper</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/grpc_health_probe</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/longhorn-instance-manager</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -29502,6 +30102,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-instance-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
+<td>rpcbind</td>
+<td>rpcbind@0.2.3-150000.5.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-instance-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
 <td>glibc-devel</td>
 <td>glibc-devel@2.38-150600.14.52.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
@@ -29520,6 +30144,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/sbin/longhorn-manager</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -29595,6 +30231,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>rpcbind</td>
+<td>rpcbind@0.2.3-150000.5.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>longhornio/longhorn-share-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
@@ -29604,6 +30300,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-share-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>longhorn-share-manager</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -29670,12 +30378,48 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-share-manager:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
+<td>libX11-6</td>
+<td>libX11-6@1.8.10-150700.4.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-share-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
 <td>libX11-data</td>
 <td>libX11-data@1.8.10-150700.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-share-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>rpcbind</td>
+<td>rpcbind@0.2.3-150000.5.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264568-1">SUSE-SU-2026:4568-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-share-manager:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
@@ -29694,12 +30438,36 @@ the distinctive tag '*' close to its severity.</li>
 <td>longhornio/longhorn-ui:v1.12.1</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
+<td>libX11-6</td>
+<td>libX11-6@1.8.10-150700.4.3.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-ui:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
 <td>libX11-data</td>
 <td>libX11-data@1.8.10-150700.4.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264502-1">SUSE-SU-2026:4502-1</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/longhorn-ui:v1.12.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libexpat1</td>
+<td>libexpat1@2.7.1-150700.3.12.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
@@ -29772,6 +30540,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.92</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/support-bundle-kit</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -29967,6 +30747,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.92</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl-3-fips-provider</td>
+<td>libopenssl-3-fips-provider@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.92</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v0.0.92</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>openssl-3</td>
+<td>openssl-3@3.2.3-150700.5.40.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/cluster-api-controller:v1.13.3</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
@@ -30151,6 +30967,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>manager</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/cluster-api-controller:v1.13.3</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>manager</td>
 <td>golang.org/x/crypto@v0.51.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -30223,11 +31051,95 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>pod_nanny</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-addon-resizer:1.8.23-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>pod_nanny</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>calicoctl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>opt/cni/bin/calico</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>opt/cni/bin/install</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/calico-node</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kube-controllers</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -30541,6 +31453,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-cluster-autoscaler:v1.10.3-build20260819</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>cluster-proportional-autoscaler</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/hardened-cluster-autoscaler:v1.10.3-build20260819</td>
@@ -30895,6 +31819,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>opt/bin/flanneld</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-flannel:v0.28.9-build20260909</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>opt/bin/flanneld</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -30967,6 +31903,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>cert-approver</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-multus-cni:v4.3.1-build20260910</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>kubeconfig_generator</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-multus-cni:v4.3.1-build20260910</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/src/multus-cni/bin/multus</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-multus-cni:v4.3.1-build20260910</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>cert-approver</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-78667.html">CVE-2026-78667</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -31020,6 +31992,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-kubeovn-operator:v1.16.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>manager</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -31272,6 +32256,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-pcidevices:v1.9.1-rc3</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/pcidevices</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -32274,6 +33270,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/harvester-upgrade:v1.9-head</td>
 <td>false</td>
 <td>Harvester v1.9-head</td>
+<td>usr/bin/wharfie</td>
+<td>golang.org/x/text@v0.29.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-upgrade:v1.9-head</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/harvester-upgrade:v1.9-head</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
 <td>usr/local/bin/elemental</td>
 <td>golang.org/x/text@v0.14.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
@@ -33116,6 +34136,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester v1.9-head</td>
 <td>bin/kubectl</td>
 <td>golang.org/x/text@v0.31.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/kubectl:v1.35.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>bin/kubectl</td>
+<td>golang.org/x/text@v0.31.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -33129,6 +34161,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/kubectl</td>
 <td>stdlib@v1.25.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56858.html">CVE-2026-56858</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/kuberlr-kubectl:v8.1.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl1.34.11</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/kuberlr-kubectl:v8.1.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl1.35.8</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/kuberlr-kubectl:v8.1.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl1.36.4</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -33297,6 +34365,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>manager</td>
 <td>golang.org/x/net@v0.29.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-kube-logging-logging-operator:4.10.0</td>
+<td>true</td>
+<td>Harvester v1.9-head</td>
+<td>manager</td>
+<td>golang.org/x/text@v0.18.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -33656,6 +34736,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester v1.9-head</td>
 <td>kube-vip</td>
 <td>golang.org/x/text@v0.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2</td>
+<td>true</td>
+<td>Harvester v1.9-head</td>
+<td>kube-vip</td>
+<td>golang.org/x/text@v0.35.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -33720,6 +34812,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher-agent:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -34736,6 +35840,66 @@ the distinctive tag '*' close to its severity.</li>
 <td>Harvester v1.9-head</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
 <td>golang.org/x/text@v0.34.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/etcdctl</td>
+<td>golang.org/x/text@v0.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/containerd</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/containerd-shim-runc-v2</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/k3s</td>
+<td>golang.org/x/text@v0.38.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rancher:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
+<td>golang.org/x/text@v0.34.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56852.html">CVE-2026-56852</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -35443,6 +36607,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>usr/local/bin/k9s</td>
+<td>golang.org/x/text@v0.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/shell:v0.8.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/shell:v0.8.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/helm</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/shell:v0.8.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/local/bin/k9s</td>
 <td>golang.org/x/crypto@v0.50.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -35755,8 +36955,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>helm</td>
+<td>golang.org/x/text@v0.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/system-agent-installer-rancher:v2.15.2</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>helm</td>
 <td>golang.org/x/crypto@v0.50.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/system-agent:v0.15.2-suc</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>usr/bin/kubectl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -35808,6 +37032,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/system-upgrade-controller:v0.20.1</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>bin/system-upgrade-controller</td>
+<td>golang.org/x/text@v0.36.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -36163,6 +37399,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Harvester v1.9-head</td>
 <td>bin/descheduler</td>
+<td>golang.org/x/text@v0.35.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.k8s.io/descheduler/descheduler:v0.36.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>bin/descheduler</td>
 <td>golang.org/x/crypto@v0.49.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-56854.html">CVE-2026-56854</a></td>
 <td><span class="sev sev-NONE">none</span></td>
@@ -36249,6 +37497,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>snapshot-controller</td>
 <td>golang.org/x/net@v0.54.0</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.k8s.io/sig-storage/snapshot-controller:v8.6.0</td>
+<td>false</td>
+<td>Harvester v1.9-head</td>
+<td>snapshot-controller</td>
+<td>golang.org/x/text@v0.37.0</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
