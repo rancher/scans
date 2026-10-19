@@ -1,6 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-longhornio/backing-image-manager:v1.11.x-head,longhorn/v1.11-head,glibc,2.38-150600.14.58.1,sles,SUSE-SU-2026:4656-1,HIGH,,longhornio/backing-image-manager:v1.11.x-head (sles 15.7),2.38-150600.14.61.1,false,affected,
-longhornio/backing-image-manager:v1.11.x-head,longhorn/v1.11-head,glibc-devel,2.38-150600.14.58.1,sles,SUSE-SU-2026:4656-1,HIGH,,longhornio/backing-image-manager:v1.11.x-head (sles 15.7),2.38-150600.14.61.1,false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/backing-image-manager:v1.11.x-head,longhorn/v1.11-head,iperf,3.22-106.1,sles,SUSE-SU-2026:4678-1,HIGH,,longhornio/backing-image-manager:v1.11.x-head (sles 15.7),3.22-150000.3.18.1,false,affected,
 longhornio/backing-image-manager:v1.11.x-head,longhorn/v1.11-head,libiperf0,3.22-106.1,sles,SUSE-SU-2026:4678-1,HIGH,,longhornio/backing-image-manager:v1.11.x-head (sles 15.7),3.22-150000.3.18.1,false,affected,
 longhornio/csi-attacher:v4.13.0,longhorn/v1.11-head,golang.org/x/crypto,v0.55.0,gobinary,CVE-2026-56855,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-56855,csi-attacher,0.56.0,false,not_affected,vulnerable_code_not_present
@@ -54,7 +52,6 @@ longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.
 longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78660,HIGH,https://avd.aquasec.com/nvd/cve-2026-78660,usr/local/bin/longhornctl-local,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/local/bin/longhornctl,0.60.0,false,affected,
 longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/local/bin/longhornctl-local,0.60.0,false,affected,
-longhornio/longhorn-cli:v1.11.x-head,longhorn/v1.11-head,glibc,2.38-150600.14.58.1,sles,SUSE-SU-2026:4656-1,HIGH,,longhornio/longhorn-cli:v1.11.x-head (sles 15.7),2.38-150600.14.61.1,false,affected,
 longhornio/longhorn-engine:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78659,HIGH,https://avd.aquasec.com/nvd/cve-2026-78659,usr/local/bin/longhorn-instance-manager,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-engine:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78660,HIGH,https://avd.aquasec.com/nvd/cve-2026-78660,usr/local/bin/longhorn-instance-manager,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
 longhornio/longhorn-engine:v1.11.x-head,longhorn/v1.11-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/local/bin/longhorn-instance-manager,0.60.0,false,affected,

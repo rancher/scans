@@ -95,7 +95,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,18,18
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.31.2-alpine,0,39,39
+rancher/mirrored-library-nginx:1.31.2-alpine,0,40,40
 rancher/mirrored-library-traefik:3.7.13,0,12,12
 rancher/mirrored-longhornio-backing-image-manager:v1.12.1,1,35,36
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,20,20
