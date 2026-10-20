@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.16.0-rc.4,0,0,0
+rancher/aks-operator:v1.16.0-rc.5,0,0,0
 rancher/ali-operator:v1.16.0-rc.3,0,0,0
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,48,48
 rancher/azureserviceoperator:v2.19.0,0,36,36
@@ -100,7 +100,7 @@ rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,24,24
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,74,74
 rancher/rancher-agent:v2.16-head,0,3,3
 rancher/rancher-assets:v2.16-20261013T2129Z-dev,0,6,6
-rancher/rancher-webhook:v0.12.1-rc.11,0,12,12
+rancher/rancher-webhook:v0.12.1-rc.12,0,0,0
 rancher/rancher:v2.16-head,0,98,98
 rancher/remotedialer-proxy:v0.9.0-rc.3,0,13,13
 rancher/rke2-cloud-provider:v1.37.1-0.20260915225838-315ede265f11-build20260916,0,9,9

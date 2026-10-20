@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.15.3-rc.2,0,0,0
+rancher/aks-operator:v1.15.3-rc.3,0,0,0
 rancher/backup-restore-operator:v11.0.4-rc.2,0,0,0
 rancher/cluster-api-controller:v1.13.3,0,18,18
 rancher/compliance-operator:v1.5.4-rc.1,0,0,0

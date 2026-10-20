@@ -1,5 +1,5 @@
 image,critical,high,total
-rancher/aks-operator:v1.15.3-rc.2,0,0,0
+rancher/aks-operator:v1.15.3-rc.3,0,0,0
 rancher/ali-operator:v1.15.2-rc.2,0,0,0
 rancher/appco-kubernetes-cluster-autoscaler:1.35.0-4.1,0,48,48
 rancher/azureserviceoperator:v2.18.0,0,50,50
