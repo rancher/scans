@@ -1,5 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 stgregistry.suse.com/rancher/rancher-ai-agent:head,rancher-ai/main-head,libexpat1,2.7.4-160100.2.1,sles,SUSE-SU-2026:23912-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:head (sles 16.0),2.8.4-160000.1.1,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-mcp:head,rancher-ai/main-head,stdlib,v1.26.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/mcp,"1.26.10, 1.27.3",false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:head,rancher-ai/main-head,github.com/klauspost/compress,v1.18.6,gobinary,CVE-2026-63209,HIGH,https://avd.aquasec.com/nvd/cve-2026-63209,usr/local/bin/mcp,1.18.7,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:head,rancher-ai/main-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78659,HIGH,https://avd.aquasec.com/nvd/cve-2026-78659,usr/local/bin/mcp,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
 stgregistry.suse.com/rancher/rancher-ai-mcp:head,rancher-ai/main-head,golang.org/x/net,v0.58.0,gobinary,CVE-2026-78660,HIGH,https://avd.aquasec.com/nvd/cve-2026-78660,usr/local/bin/mcp,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score

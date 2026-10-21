@@ -1,6 +1,0 @@
-image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-neuvector/controller:5.6.3-rc3,neuvector/v5.6-rc,glibc,2.38-150600.14.58.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/controller:5.6.3-rc3 (sles 15.7),2.38-150600.14.61.1,false,affected,
-neuvector/enforcer:5.6.3-rc3,neuvector/v5.6-rc,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78659,HIGH,https://avd.aquasec.com/nvd/cve-2026-78659,usr/bin/yq,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
-neuvector/enforcer:5.6.3-rc3,neuvector/v5.6-rc,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78660,HIGH,https://avd.aquasec.com/nvd/cve-2026-78660,usr/bin/yq,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
-neuvector/enforcer:5.6.3-rc3,neuvector/v5.6-rc,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/yq,0.60.0,false,affected,
-neuvector/enforcer:5.6.3-rc3,neuvector/v5.6-rc,glibc,2.38-150600.14.58.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/enforcer:5.6.3-rc3 (sles 15.7),2.38-150600.14.61.1,false,affected,
