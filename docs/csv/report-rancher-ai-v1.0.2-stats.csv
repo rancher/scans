@@ -1,6 +1,6 @@
 image,critical,high,total
 ghcr.io/rancher/ui-extension-rancher-ai-ui:1.0.2,1,58,59
 registry.suse.com/rancher/rancher-ai-agent:v1.0.2,7,58,65
-registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,0,29,29
+registry.suse.com/rancher/rancher-ai-mcp:v1.0.2,0,30,30
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.0.2,7,57,64
-stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,0,29,29
+stgregistry.suse.com/rancher/rancher-ai-mcp:v1.0.2,0,30,30

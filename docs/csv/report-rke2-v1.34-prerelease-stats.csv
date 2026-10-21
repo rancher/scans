@@ -1,12 +1,12 @@
 image,critical,high,total
-rancher/hardened-addon-resizer:1.8.23-build20261012,0,0,0
-rancher/hardened-calico:v3.32.2-build20261012,0,0,0
+rancher/hardened-addon-resizer:1.8.23-build20261012,0,1,1
+rancher/hardened-calico:v3.32.2-build20261012,0,2,2
 rancher/hardened-cluster-autoscaler:v1.11.0-build20261016,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20261015,0,0,0
 rancher/hardened-coredns:v1.14.7-build20261016,0,0,0
 rancher/hardened-csi-snapshotter:v8.6.0-build20261012,0,1,1
 rancher/hardened-dns-node-cache:1.27.2-r1-build20261016,0,0,0
-rancher/hardened-etcd:v3.6.14-k3s3-build20260915,0,18,18
+rancher/hardened-etcd:v3.6.14-k3s3-build20260915,0,19,19
 rancher/hardened-flannel:v0.28.10-build20261009,0,0,0
 rancher/hardened-k8s-metrics-server:v0.9.0-build20261012,0,0,0
 rancher/hardened-multus-cni:v4.3.1-build20261016,0,0,0
@@ -20,7 +20,7 @@ rancher/harvester-csi-driver:v0.2.10,0,24,24
 rancher/klipper-helm:v0.13.3-build20261014,0,3,3
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.2,0,5,5
-rancher/mirrored-calico-cni:v3.32.2,0,8,8
+rancher/mirrored-calico-cni:v3.32.2,0,9,9
 rancher/mirrored-calico-csi:v3.32.2,0,12,12
 rancher/mirrored-calico-ctl:v3.32.2,0,14,14
 rancher/mirrored-calico-envoy-gateway:v3.32.2,0,16,16
@@ -29,7 +29,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,13,13
 rancher/mirrored-calico-goldmane:v3.32.2,0,10,10
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,8,8
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,13,13
-rancher/mirrored-calico-node:v3.32.2,0,18,18
+rancher/mirrored-calico-node:v3.32.2,0,19,19
 rancher/mirrored-calico-operator:v1.42.6,0,12,12
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,7,7
 rancher/mirrored-calico-typha:v3.32.2,0,5,5
@@ -56,10 +56,10 @@ rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rke2-cloud-provider:v1.34.13-0.20261016153036-a722e6511b81-build20261016,0,0,0
 registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.34.0-build20260911,0,10,10
 registry.rancher.com/rancher/hardened-csi-attacher:v4.9.0-build20261012,0,1,1
-registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.13.0-build20261012,0,0,0
+registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.13.0-build20261012,0,1,1
 registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20261012,0,1,1
 registry.rancher.com/rancher/hardened-csi-resizer:v1.12.0-build20261012,0,1,1
-registry.rancher.com/rancher/hardened-livenessprobe:v2.15.0-build20261012,0,0,0
+registry.rancher.com/rancher/hardened-livenessprobe:v2.15.0-build20261012,0,1,1
 registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.7.3-build20261012,0,1,1
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.7.3-build20261012,0,1,1
 registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime16,0,0,0
