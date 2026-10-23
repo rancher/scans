@@ -10,9 +10,9 @@ longhornio/csi-resizer:v2.3.0,0,10,10
 longhornio/csi-snapshotter:v8.7.0,0,4,4
 longhornio/livenessprobe:v2.20.0,0,10,10
 longhornio/longhorn-cli:v1.12.2-rc1,0,2,2
-longhornio/longhorn-engine:v1.12.2-rc1,0,5,5
-longhornio/longhorn-instance-manager:v1.12.2-rc1,0,4,4
-longhornio/longhorn-manager:v1.12.2-rc1,0,3,3
+longhornio/longhorn-engine:v1.12.2-rc1,0,6,6
+longhornio/longhorn-instance-manager:v1.12.2-rc1,0,5,5
+longhornio/longhorn-manager:v1.12.2-rc1,0,4,4
 longhornio/longhorn-share-manager:v1.12.2-rc1,0,1,1
 longhornio/longhorn-ui:v1.12.2-rc1,0,0,0
 longhornio/support-bundle-kit:v1.0.0,0,14,14
@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.5-rke2r1-build20260923,0,66,66
 rancher/hardened-multus-cni:v4.3.1-build20260910,0,44,44
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,12,12
 rancher/hardened-traefik:v3.7.13-build20260910,0,11,11
-rancher/harvester-cluster-repo:d7124426,0,0,0
+rancher/harvester-cluster-repo:a87e2820,0,0,0
 rancher/harvester-eventrouter:v1.9.1-rc4,0,5,5
 rancher/harvester-kubeovn-operator:v1.16.2,0,23,23
 rancher/harvester-load-balancer-webhook:v1.9.1-rc4,0,4,4
@@ -45,7 +45,6 @@ rancher/harvester-node-disk-manager-webhook:v1.9.1-rc4,0,4,4
 rancher/harvester-node-disk-manager:v1.9.1-rc4,0,4,4
 rancher/harvester-node-manager-webhook:v1.9.1-rc4,0,4,4
 rancher/harvester-node-manager:v1.9.1-rc4,0,4,4
-rancher/harvester-nvidia-driver-toolkit:v1.9-20261020,0,11,11
 rancher/harvester-pcidevices:v1.9.1-rc4,0,1,1
 rancher/harvester-seeder:v1.9.1-rc4,0,7,7
 rancher/harvester-upgrade:v1.9-head,0,65,65
@@ -77,7 +76,7 @@ rancher/system-upgrade-controller:v0.20.1,0,15,15
 rancher/turtles:v0.27.2,0,10,10
 registry.k8s.io/descheduler/descheduler:v0.36.0,0,20,20
 registry.k8s.io/sig-storage/snapshot-controller:v8.6.0,0,18,18
-registry.suse.com/bci/bci-base:16.0,0,3,3
+registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-apiserver:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-cloner:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-controller:1.65.0,0,0,0

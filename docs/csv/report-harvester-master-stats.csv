@@ -10,9 +10,9 @@ longhornio/csi-resizer:v2.2.1,0,17,17
 longhornio/csi-snapshotter:v8.6.0,0,18,18
 longhornio/livenessprobe:v2.20.0,0,10,10
 longhornio/longhorn-cli:v1.13.0,0,21,21
-longhornio/longhorn-engine:v1.13.0,0,31,31
-longhornio/longhorn-instance-manager:v1.13.0,1,26,27
-longhornio/longhorn-manager:v1.13.0,0,13,13
+longhornio/longhorn-engine:v1.13.0,0,32,32
+longhornio/longhorn-instance-manager:v1.13.0,1,27,28
+longhornio/longhorn-manager:v1.13.0,0,14,14
 longhornio/longhorn-share-manager:v1.13.0,0,14,14
 longhornio/longhorn-ui:v1.13.0,0,4,4
 longhornio/support-bundle-kit:v0.0.98,0,17,17
@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.5-rke2r1-build20260923,0,66,66
 rancher/hardened-multus-cni:v4.3.1-build20260910,0,44,44
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,12,12
 rancher/hardened-traefik:v3.7.13-build20260910,0,11,11
-rancher/harvester-cluster-repo:8692f4cb,0,0,0
+rancher/harvester-cluster-repo:42df41d9,0,0,0
 rancher/harvester-eventrouter:master-head,0,4,4
 rancher/harvester-kubeovn-operator:v1.16.4-dev.0,0,7,7
 rancher/harvester-load-balancer-webhook:master-head,0,1,1
@@ -45,13 +45,12 @@ rancher/harvester-node-disk-manager-webhook:master-head,0,4,4
 rancher/harvester-node-disk-manager:master-head,0,4,4
 rancher/harvester-node-manager-webhook:master-head,0,4,4
 rancher/harvester-node-manager:master-head,0,4,4
-rancher/harvester-nvidia-driver-toolkit:sle-micro-head,0,11,11
 rancher/harvester-pcidevices:master-head,0,4,4
 rancher/harvester-seeder:main-head,0,7,7
-rancher/harvester-upgrade:master-head,0,56,56
+rancher/harvester-upgrade:master-head,0,53,53
 rancher/harvester-vm-import-controller:main-head,0,4,4
-rancher/harvester-webhook:master-head,0,4,4
-rancher/harvester:master-head,0,4,4
+rancher/harvester-webhook:master-head,0,3,3
+rancher/harvester:master-head,0,3,3
 rancher/klipper-helm:v0.13.3-build20260909,0,35,35
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/kuberlr-kubectl:v8.1.2,0,47,47
@@ -77,7 +76,7 @@ rancher/system-upgrade-controller:v0.20.1,0,15,15
 rancher/turtles:v0.27.2,0,10,10
 registry.k8s.io/descheduler/descheduler:v0.36.0,0,20,20
 registry.k8s.io/sig-storage/snapshot-controller:v8.6.0,0,18,18
-registry.suse.com/bci/bci-base:16.0,0,3,3
+registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-apiserver:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-cloner:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-controller:1.65.0,0,0,0

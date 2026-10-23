@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Rancher Prime v2.11.18 version - CVE Scans - 2026-10-22</h1>
+<h1>SUSE Rancher - Rancher Prime v2.11.18 version - CVE Scans - 2026-10-23</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -22350,6 +22350,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-calico-node:v3.30.2</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
+<td>ca-certificates</td>
+<td>ca-certificates@2024.2.69_v8.0.303-80.0.el8_10</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-114406">CVE-2026-114406</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>redhat</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.30.2</td>
+<td>true</td>
+<td>Rancher Prime v2.11.18</td>
 <td>usr/bin/calico-node</td>
 <td>go.opentelemetry.io/otel/sdk@v1.34.0</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-24051">CVE-2026-24051</a></td>
@@ -22981,6 +22993,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node:v3.31.3</td>
+<td>true</td>
+<td>Rancher Prime v2.11.18</td>
+<td>ca-certificates</td>
+<td>ca-certificates@2025.2.80_v9.0.304-80.2.el8_10</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-114406">CVE-2026-114406</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>redhat</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-calico-node:v3.31.3</td>
@@ -29106,18 +29130,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
-<td>openssl</td>
-<td>openssl@3.0.13-2.ph4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
 <td>usr/bin/vsphere-csi</td>
 <td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-5528">CVE-2023-5528</a></td>
@@ -30354,18 +30366,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
-<td>openssl</td>
-<td>openssl@3.0.14-2.ph4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
 <td>usr/bin/vsphere-csi</td>
 <td>k8s.io/kubernetes@v1.27.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
@@ -31316,30 +31316,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>Rancher Prime v2.11.18</td>
 <td>openssl</td>
 <td>openssl@3.0.16-2.ph5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
-<td>openssl-libs</td>
-<td>openssl-libs@3.0.16-2.ph5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
-<td>openssl</td>
-<td>openssl@3.0.16-2.ph5</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-35496">BDSA-2026-35496</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -31797,18 +31773,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>curl-libs</td>
 <td>curl-libs@8.12.0-1.ph5</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-13608.html">CVE-2026-13608</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
-<td>glib</td>
-<td>glib@2.75.2-8.ph5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-15588.html">CVE-2026-15588</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -33126,18 +33090,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
-<td>openssl</td>
-<td>openssl@3.0.13-2.ph4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
 <td>usr/bin/vsphere-syncer</td>
 <td>k8s.io/kubernetes@v1.26.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-5528">CVE-2023-5528</a></td>
@@ -34398,18 +34350,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
-<td>openssl</td>
-<td>openssl@3.0.14-2.ph4</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
 <td>usr/bin/vsphere-syncer</td>
 <td>k8s.io/kubernetes@v1.27.10</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-5321">CVE-2024-5321</a></td>
@@ -35425,18 +35365,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0</td>
-<td>true</td>
-<td>Rancher Prime v2.11.18</td>
-<td>openssl-libs</td>
-<td>openssl-libs@3.0.16-2.ph5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/BDSA-2026-25244">BDSA-2026-25244</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>photon</td>
 </tr>
 <tr class="issue">
 <td>rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0</td>
@@ -58539,6 +58467,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-engine:v1.11.1</td>
+<td>true</td>
+<td>Rancher Prime v2.11.18</td>
+<td>cifs-utils</td>
+<td>cifs-utils@6.15-150400.3.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264819-1">SUSE-SU-2026:4819-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
@@ -59619,6 +59559,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-instance-manager:v1.11.1</td>
+<td>true</td>
+<td>Rancher Prime v2.11.18</td>
+<td>cifs-utils</td>
+<td>cifs-utils@6.15-150400.3.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264819-1">SUSE-SU-2026:4819-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-longhornio-longhorn-manager:v1.11.1</td>
 <td>true</td>
 <td>Rancher Prime v2.11.18</td>
@@ -60429,6 +60381,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>python3-base</td>
 <td>python3-base@3.6.15-150300.10.106.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264754-1">SUSE-SU-2026:4754-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-manager:v1.11.1</td>
+<td>true</td>
+<td>Rancher Prime v2.11.18</td>
+<td>cifs-utils</td>
+<td>cifs-utils@6.15-150400.3.18.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264819-1">SUSE-SU-2026:4819-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>

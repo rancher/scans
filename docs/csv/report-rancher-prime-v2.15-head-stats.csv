@@ -46,7 +46,7 @@ rancher/k3s-upgrade:v1.36.5-k3s1,0,9,9
 rancher/klipper-helm:v0.13.3-build20260727,0,50,50
 rancher/klipper-helm:v0.13.3-build20260909,0,35,35
 rancher/klipper-lb:v0.4.17,0,0,0
-rancher/kube-api-auth:v0.15.3,0,11,11
+rancher/kube-api-auth:v0.15.4-rc.1,0,0,0
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,26,26
 rancher/kubeadm-bootstrap-controller:v1.13.3,0,19,19
 rancher/kubeadm-control-plane-controller:v1.13.3,0,19,19
@@ -66,7 +66,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,14,14
 rancher/mirrored-calico-goldmane:v3.32.2,0,10,10
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,8,8
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,14,14
-rancher/mirrored-calico-node:v3.32.2,0,20,20
+rancher/mirrored-calico-node:v3.32.2,1,20,21
 rancher/mirrored-calico-operator:v1.42.6,0,13,13
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,8,8
 rancher/mirrored-calico-typha:v3.32.2,0,5,5
@@ -82,7 +82,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,1,1
 rancher/mirrored-cilium-operator-aws:v1.20.2,0,22,22
 rancher/mirrored-cilium-operator-azure:v1.20.2,0,22,22
 rancher/mirrored-cilium-operator-generic:v1.20.2,0,22,22
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,47,51
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,46,50
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,4,49,53
 rancher/mirrored-cloud-provider-vsphere:v1.36.0,0,21,21
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
@@ -111,9 +111,9 @@ rancher/mirrored-longhornio-csi-resizer:v2.2.1,0,17,17
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,21,21
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,18,18
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,16,16
-rancher/mirrored-longhornio-longhorn-engine:v1.12.1,1,64,65
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,51,52
-rancher/mirrored-longhornio-longhorn-manager:v1.12.1,1,35,36
+rancher/mirrored-longhornio-longhorn-engine:v1.12.1,1,65,66
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,52,53
+rancher/mirrored-longhornio-longhorn-manager:v1.12.1,1,36,37
 rancher/mirrored-longhornio-longhorn-share-manager:v1.12.1,1,31,32
 rancher/mirrored-longhornio-longhorn-ui:v1.12.1,1,15,16
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.92,0,32,32
@@ -129,7 +129,7 @@ rancher/neuvector-compliance-config:1.0.18,0,0,0
 rancher/neuvector-controller:5.6.3,0,4,4
 rancher/neuvector-enforcer:5.6.3,0,7,7
 rancher/neuvector-manager:5.6.3,1,0,1
-rancher/neuvector-prometheus-exporter:1.0.19,3,11,14
+rancher/neuvector-prometheus-exporter:1.0.20,1,0,1
 rancher/neuvector-registry-adapter:0.2.12,0,1,1
 rancher/neuvector-scanner:6,0,3,3
 rancher/neuvector-updater:0.0.16,0,0,0
@@ -137,9 +137,9 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,81,81
 rancher/prometheus-federator:v7.0.2-rc.1,0,1,1
 rancher/rancher-agent:v2.15-head,0,4,4
 rancher/rancher-csp-adapter:v10.0.0,0,18,18
-rancher/rancher-webhook:v0.11.4-rc.3,0,3,3
+rancher/rancher-webhook:v0.11.4-rc.4,0,3,3
 rancher/rancher:v2.15-head,0,129,129
-rancher/remotedialer-proxy:v0.8.2,0,10,10
+rancher/remotedialer-proxy:v0.8.3-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.36.5-0.20260915232631-dca49392c395-build20260916,0,10,10
 rancher/rke2-runtime:v1.34.12-rke2r1,0,78,78
 rancher/rke2-runtime:v1.35.9-rke2r1,0,79,79

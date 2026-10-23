@@ -53,7 +53,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,14,14
 rancher/mirrored-calico-goldmane:v3.32.2,0,10,10
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,8,8
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,14,14
-rancher/mirrored-calico-node:v3.32.2,0,20,20
+rancher/mirrored-calico-node:v3.32.2,1,20,21
 rancher/mirrored-calico-operator:v1.42.6,0,13,13
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,8,8
 rancher/mirrored-calico-typha:v3.32.2,0,5,5
@@ -69,7 +69,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,1,1
 rancher/mirrored-cilium-operator-aws:v1.20.2,0,22,22
 rancher/mirrored-cilium-operator-azure:v1.20.2,0,22,22
 rancher/mirrored-cilium-operator-generic:v1.20.2,0,22,22
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,47,51
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,46,50
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,4,49,53
 rancher/mirrored-cloud-provider-vsphere:v1.36.0,0,21,21
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
@@ -97,9 +97,9 @@ rancher/mirrored-longhornio-csi-resizer:v2.2.1,0,17,17
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,21,21
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,18,18
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,16,16
-rancher/mirrored-longhornio-longhorn-engine:v1.12.1,1,64,65
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,51,52
-rancher/mirrored-longhornio-longhorn-manager:v1.12.1,1,35,36
+rancher/mirrored-longhornio-longhorn-engine:v1.12.1,1,65,66
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,52,53
+rancher/mirrored-longhornio-longhorn-manager:v1.12.1,1,36,37
 rancher/mirrored-longhornio-longhorn-share-manager:v1.12.1,1,31,32
 rancher/mirrored-longhornio-longhorn-ui:v1.12.1,1,15,16
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.92,0,32,32

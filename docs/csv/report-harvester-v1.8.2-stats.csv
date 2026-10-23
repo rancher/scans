@@ -9,9 +9,9 @@ longhornio/csi-resizer:v2.1.0-20260428,0,21,21
 longhornio/csi-snapshotter:v8.5.0-20260428,0,21,21
 longhornio/livenessprobe:v2.18.0-20260428,0,19,19
 longhornio/longhorn-cli:v1.11.2,0,47,47
-longhornio/longhorn-engine:v1.11.2,1,85,86
-longhornio/longhorn-instance-manager:v1.11.2,1,77,78
-longhornio/longhorn-manager:v1.11.2,1,49,50
+longhornio/longhorn-engine:v1.11.2,1,86,87
+longhornio/longhorn-instance-manager:v1.11.2,1,78,79
+longhornio/longhorn-manager:v1.11.2,1,50,51
 longhornio/longhorn-share-manager:v1.11.2,0,46,46
 longhornio/longhorn-ui:v1.11.2,0,31,31
 longhornio/support-bundle-kit:v0.0.84,0,45,45
@@ -87,7 +87,7 @@ rancher/system-upgrade-controller:v0.19.1,0,19,19
 rancher/turtles:v0.26.3,0,16,16
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,33,33
 registry.k8s.io/sig-storage/snapshot-controller:v8.5.0,0,26,26
-registry.suse.com/bci/bci-base:16.0,0,3,3
+registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.11.1,0,24,24
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.11.1,0,24,24
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.11.1,0,22,22
