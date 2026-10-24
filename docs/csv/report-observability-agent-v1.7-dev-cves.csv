@@ -1,2 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-quay.io/stackstate/container-tools:1.8.6-so38,observability-agent/v1.7-dev,stdlib,v1.26.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/bin/sts-toolbox,"1.26.10, 1.27.3",false,affected,
+quay.io/stackstate/promtail:3.6.11-so28,observability-agent/v1.7-dev,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,quay.io/stackstate/promtail:3.6.11-so28 (sles 15.7),2.1.28-150600.7.17.1,false,affected,

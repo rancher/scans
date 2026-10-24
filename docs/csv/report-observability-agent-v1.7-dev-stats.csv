@@ -1,12 +1,12 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-so38,0,1,1
+quay.io/stackstate/container-tools:1.8.6-so39,0,0,0
 quay.io/stackstate/generic-sidecar-injector:8e5dd418-1065-release,0,0,0
 quay.io/stackstate/http-header-injector-proxy-init:1.0.0-so10,0,0,0
 quay.io/stackstate/http-header-injector-proxy:1.39.4-so2,0,0,0
 quay.io/stackstate/kubernetes-rbac-agent:a1578b71-1073-release,0,0,0
 quay.io/stackstate/opentelemetry-target-allocator:0.160.0-so8,0,0,0
-quay.io/stackstate/promtail:3.6.11-so28,0,0,0
+quay.io/stackstate/promtail:3.6.11-so28,0,1,1
 quay.io/stackstate/stackstate-k8s-agent:11da0d93,0,0,0
 quay.io/stackstate/stackstate-k8s-cluster-agent:11da0d93,0,0,0
-quay.io/stackstate/stackstate-k8s-process-agent:c09f8637,0,0,0
+quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.72-agent,0,0,0

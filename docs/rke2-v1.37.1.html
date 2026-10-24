@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.37.1 version - CVE Scans - 2026-10-23</h1>
+<h1>SUSE Rancher - RKE2 v1.37.1 version - CVE Scans - 2026-10-24</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -3051,18 +3051,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>rancher/hardened-calico:v3.32.2-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.37.1</td>
-<td>libopenssl3</td>
-<td>libopenssl3@3.5.0-160000.9.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624245-1">SUSE-SU-2026:24245-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
 <td>rancher/hardened-cluster-autoscaler:v1.10.3-build20260819</td>
 <td>false</td>
 <td>RKE2 v1.37.1</td>
@@ -3453,18 +3441,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>glibc</td>
 <td>glibc@2.38-150600.14.58.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264656-1">SUSE-SU-2026:4656-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-dns-node-cache:1.27.0-r1-build20260923</td>
-<td>false</td>
-<td>RKE2 v1.37.1</td>
-<td>busybox</td>
-<td>busybox@1.37.0-150700.18.21.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264760-1">SUSE-SU-2026:4760-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3921,18 +3897,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>glibc</td>
 <td>glibc@2.40-160000.6.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623934-1">SUSE-SU-2026:23934-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-flannel:v0.28.9-build20260909</td>
-<td>false</td>
-<td>RKE2 v1.37.1</td>
-<td>busybox</td>
-<td>busybox@1.37.0-160000.6.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624215-1">SUSE-SU-2026:24215-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -6999,6 +6963,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.37.1</td>
+<td>libopenssl3</td>
+<td>libopenssl3@3.5.0-160000.9.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624245-1">SUSE-SU-2026:24245-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-cluster-autoscaler:v1.10.3-build20260819</td>
 <td>false</td>
 <td>RKE2 v1.37.1</td>
@@ -7045,6 +7021,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-dns-node-cache:1.27.0-r1-build20260923</td>
+<td>false</td>
+<td>RKE2 v1.37.1</td>
+<td>busybox</td>
+<td>busybox@1.37.0-150700.18.21.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264760-1">SUSE-SU-2026:4760-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/hardened-etcd:v3.7.1-k3s3-build20260915</td>
@@ -7161,6 +7149,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>libpcre2-8-0</td>
 <td>libpcre2-8-0@10.45-160000.3.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202623906-1">SUSE-SU-2026:23906-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-flannel:v0.28.9-build20260909</td>
+<td>false</td>
+<td>RKE2 v1.37.1</td>
+<td>busybox</td>
+<td>busybox@1.37.0-160000.6.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-202624215-1">SUSE-SU-2026:24215-1</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>

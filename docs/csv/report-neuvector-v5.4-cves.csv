@@ -55,6 +55,7 @@ neuvector/controller:5.4.11,neuvector/v5.4,libopenssl3,3.5.0-150700.5.50.1,sles,
 neuvector/controller:5.4.11,neuvector/v5.4,openssl-3,3.5.0-150700.5.50.1,sles,SUSE-SU-2026:4414-1,HIGH,,neuvector/controller:5.4.11 (sles 15.7),3.5.0-150700.5.53.2,false,affected,
 neuvector/controller:5.4.11,neuvector/v5.4,glibc,2.38-150600.14.55.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/controller:5.4.11 (sles 15.7),2.38-150600.14.61.1,false,affected,
 neuvector/controller:5.4.11,neuvector/v5.4,glibc-devel,2.38-150600.14.55.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/controller:5.4.11 (sles 15.7),2.38-150600.14.61.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/controller:5.4.11,neuvector/v5.4,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,neuvector/controller:5.4.11 (sles 15.7),2.1.28-150600.7.17.1,false,affected,
 neuvector/enforcer:5.4.11,neuvector/v5.4,stdlib,v1.27.0,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/bin/yq,"1.26.10, 1.27.3",false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/enforcer:5.4.11,neuvector/v5.4,stdlib,v1.27.0,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/agent,"1.26.10, 1.27.3",false,affected,
 neuvector/enforcer:5.4.11,neuvector/v5.4,stdlib,v1.27.0,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/pathWalker,"1.26.10, 1.27.3",false,affected,
@@ -120,6 +121,7 @@ neuvector/enforcer:5.4.11,neuvector/v5.4,openssl-3,3.5.0-150700.5.50.1,sles,SUSE
 neuvector/enforcer:5.4.11,neuvector/v5.4,libexpat1,2.7.1-150700.3.12.1,sles,SUSE-SU-2026:4619-1,CRITICAL,,neuvector/enforcer:5.4.11 (sles 15.7),2.8.5-150700.3.15.1,false,affected,
 neuvector/enforcer:5.4.11,neuvector/v5.4,glibc,2.38-150600.14.55.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/enforcer:5.4.11 (sles 15.7),2.38-150600.14.61.1,false,affected,
 neuvector/enforcer:5.4.11,neuvector/v5.4,glibc-devel,2.38-150600.14.55.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/enforcer:5.4.11 (sles 15.7),2.38-150600.14.61.1,false,not_affected,vulnerable_code_not_in_execute_path
+neuvector/enforcer:5.4.11,neuvector/v5.4,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,neuvector/enforcer:5.4.11 (sles 15.7),2.1.28-150600.7.17.1,false,affected,
 neuvector/manager:5.4.11,neuvector/v5.4,urllib3,2.7.0,python-pkg,CVE-2026-97687,HIGH,https://avd.aquasec.com/nvd/cve-2026-97687,Python,2.8.0,false,affected,
 neuvector/manager:5.4.11,neuvector/v5.4,urllib3,2.7.0,python-pkg,CVE-2026-97689,HIGH,https://avd.aquasec.com/nvd/cve-2026-97689,Python,2.8.0,false,affected,
 neuvector/manager:5.4.11,neuvector/v5.4,certifi,2026.7.22,python-pkg,GHSA-6q48-6c7w-9gw2,CRITICAL,https://github.com/advisories/GHSA-6q48-6c7w-9gw2,Python,2026.10.19,false,affected,
@@ -130,6 +132,4 @@ neuvector/manager:5.4.11,neuvector/v5.4,libexpat1,2.7.1-150700.3.12.1,sles,SUSE-
 neuvector/manager:5.4.11,neuvector/v5.4,glibc,2.38-150600.14.55.1,sles,SUSE-SU-2026:4656-1,HIGH,,neuvector/manager:5.4.11 (sles 15.7),2.38-150600.14.61.1,false,affected,
 neuvector/prometheus-exporter:1.0.20,neuvector/v5.4,certifi,2026.10.18,python-pkg,GHSA-6q48-6c7w-9gw2,CRITICAL,https://github.com/advisories/GHSA-6q48-6c7w-9gw2,Python,2026.10.19,false,affected,
 neuvector/registry-adapter:0.2.12,neuvector/v5.4,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/adapter,"1.26.10, 1.27.3",false,affected,
-neuvector/scanner:6,neuvector/v5.4,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/scanner,"1.26.10, 1.27.3",false,affected,
-neuvector/scanner:6,neuvector/v5.4,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/scannerTask,"1.26.10, 1.27.3",false,affected,
-neuvector/scanner:6,neuvector/v5.4,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/sigstore-interface,"1.26.10, 1.27.3",false,affected,
+neuvector/updater:0.0.16,neuvector/v5.4,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,neuvector/updater:0.0.16 (sles 15.7),2.1.28-150600.7.17.1,false,affected,
