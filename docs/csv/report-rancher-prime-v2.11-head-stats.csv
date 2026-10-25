@@ -1,11 +1,11 @@
 image,critical,high,total
 rancher/aks-operator:v1.11.15,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,3,38,41
-rancher/backup-restore-operator:v7.0.12-rc.3,0,0,0
+rancher/backup-restore-operator:v7.0.12,0,0,0
 rancher/cis-operator:v1.4.11-rc.1,0,4,4
 rancher/eks-operator:v1.11.15,0,0,0
-rancher/fleet-agent:v0.12.21-rc.2,0,1,1
-rancher/fleet:v0.12.21-rc.2,0,1,1
+rancher/fleet-agent:v0.12.21,0,0,0
+rancher/fleet:v0.12.21,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260206,0,21,21
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260206,0,20,20
 rancher/hardened-cni-plugins:v1.9.0-build20260206,0,6,6
@@ -79,10 +79,10 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,37,37
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,32,32
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,17,86,103
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,75,91
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,13,123,136
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,13,125,138
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,16,89,105
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,15,82,97
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,9,106,115
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,9,108,117
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,33,33
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,33,33
 rancher/mirrored-cluster-api-controller:v1.9.5,0,32,32
@@ -177,7 +177,7 @@ rancher/prom-prometheus:v3.2.1,0,68,68
 rancher/prometheus-federator:v3.3.3-rc.2,0,0,0
 rancher/rancher-agent:v2.11-head,0,22,22
 rancher/rancher-csp-adapter:v6.0.1,0,30,30
-rancher/rancher-webhook:v0.7.12,0,12,12
+rancher/rancher-webhook:v0.7.13-rc.1,0,1,1
 rancher/rancher:v2.11-head,0,253,253
 rancher/remotedialer-proxy:v0.4.7-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.32.12-0.20260211145907-0dc662e80238-build20260211,0,31,31
@@ -186,7 +186,7 @@ rancher/rke2-upgrade:v1.30.14-rke2r2,2,86,88
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,68,68
 rancher/security-scan:v0.6.11-rc.1,0,41,41
 rancher/shell:v0.4.5,0,66,66
-rancher/supportability-review-app-frontend:v0.26.0,0,2,2
+rancher/supportability-review-app-frontend:v0.26.0,0,3,3
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.26.0,0,4,4
 rancher/supportability-review:latest,0,11,11
@@ -198,4 +198,4 @@ rancher/system-agent-installer-rke2:v1.31.14-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.32.13-rke2r1,0,0,0
 rancher/system-agent:v0.3.12-suc,1,71,72
 rancher/system-upgrade-controller:v0.15.2,0,24,24
-rancher/ui-plugin-catalog:4.51.0,0,1,1
+rancher/ui-plugin-catalog:4.52.0,0,0,0

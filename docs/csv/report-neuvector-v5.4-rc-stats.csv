@@ -1,3 +1,4 @@
 image,critical,high,total
 neuvector/controller:5.4.12-rc1,0,0,0
 neuvector/enforcer:5.4.12-rc1,0,3,3
+neuvector/manager:5.4.12-rc1,0,0,0

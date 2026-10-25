@@ -79,10 +79,10 @@ rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.29.0,0,37,37
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,32,32
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,17,86,103
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,75,91
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,13,123,136
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.5.0,13,125,138
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,16,89,105
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,15,82,97
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,9,106,115
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.5.0,9,108,117
 rancher/mirrored-cloud-provider-vsphere:v1.32.1,0,33,33
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,33,33
 rancher/mirrored-cluster-api-controller:v1.9.5,0,32,32
@@ -186,7 +186,7 @@ rancher/rke2-upgrade:v1.30.14-rke2r2,2,86,88
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,68,68
 rancher/security-scan:v0.6.10,1,64,65
 rancher/shell:v0.4.5,0,66,66
-rancher/supportability-review-app-frontend:v0.25.1,1,26,27
+rancher/supportability-review-app-frontend:v0.25.1,1,27,28
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.25.1,0,11,11
 rancher/supportability-review:latest,0,11,11

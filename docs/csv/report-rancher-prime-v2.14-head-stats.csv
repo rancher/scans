@@ -85,8 +85,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,1,1
 rancher/mirrored-cilium-operator-aws:v1.20.2,0,22,22
 rancher/mirrored-cilium-operator-azure:v1.20.2,0,22,22
 rancher/mirrored-cilium-operator-generic:v1.20.2,0,22,22
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,46,50
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,4,49,53
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,44,48
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,4,47,51
 rancher/mirrored-cloud-provider-vsphere:v1.35.1,0,32,32
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
@@ -152,7 +152,7 @@ rancher/prometheus-federator:v6.0.7-rc.3,0,1,1
 rancher/rancher-agent:v2.14-head,0,11,11
 rancher/rancher-csp-adapter:v9.0.0,0,28,28
 rancher/rancher-webhook:v0.10.13-rc.1,0,13,13
-rancher/rancher:v2.14-head,0,109,109
+rancher/rancher:v2.14-head,0,108,108
 rancher/remotedialer-proxy:v0.7.7-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.35.9-0.20260915234130-a341ba01f9eb-build20260916,0,10,10
 rancher/rke2-runtime:v1.33.13-rke2r2,0,104,104
@@ -164,7 +164,7 @@ rancher/rke2-upgrade:v1.35.9-rke2r1,0,24,24
 rancher/scc-operator:v0.5.3-rc.1,0,1,1
 rancher/security-scan:v0.9.7-rc.1,0,37,37
 rancher/shell:v0.7.2,0,64,64
-rancher/supportability-review-app-frontend:v0.26.0,0,2,2
+rancher/supportability-review-app-frontend:v0.26.0,0,3,3
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.26.0,0,4,4
 rancher/supportability-review:latest,0,11,11
