@@ -97,7 +97,7 @@ rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,12,12
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.36.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.31.2-alpine,0,41,41
+rancher/mirrored-library-nginx:1.31.2-alpine,0,43,43
 rancher/mirrored-library-traefik:3.7.13,0,13,13
 rancher/mirrored-longhornio-backing-image-manager:v1.12.1,1,35,36
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,21,21
@@ -153,7 +153,7 @@ rancher/shell:v0.8.2,0,60,60
 rancher/supportability-review-app-frontend:v0.26.0,0,3,3
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.26.0,0,4,4
-rancher/supportability-review:latest,0,11,11
+rancher/supportability-review:latest,0,3,3
 rancher/system-agent-installer-k3s:v1.34.12-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.35.9-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.36.5-k3s1,0,0,0

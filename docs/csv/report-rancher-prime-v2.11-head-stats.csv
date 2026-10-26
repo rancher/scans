@@ -188,7 +188,7 @@ rancher/shell:v0.4.5,0,66,66
 rancher/supportability-review-app-frontend:v0.26.0,0,3,3
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.26.0,0,4,4
-rancher/supportability-review:latest,0,11,11
+rancher/supportability-review:latest,0,3,3
 rancher/system-agent-installer-k3s:v1.30.14-k3s2,0,0,0
 rancher/system-agent-installer-k3s:v1.31.14-k3s1,0,0,0
 rancher/system-agent-installer-k3s:v1.32.13-k3s1,0,0,0
