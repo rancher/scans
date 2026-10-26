@@ -176,7 +176,6 @@ rancher/neuvector-updater:0.0.16,0,1,1
 rancher/prom-prometheus:v3.2.1,0,68,68
 rancher/prometheus-federator:v3.3.3-rc.2,0,0,0
 rancher/rancher-agent:v2.11-head,0,22,22
-rancher/rancher-csp-adapter:v6.0.1,0,30,30
 rancher/rancher-webhook:v0.7.13-rc.1,0,1,1
 rancher/rancher:v2.11-head,0,253,253
 rancher/remotedialer-proxy:v0.4.7-rc.1,0,0,0

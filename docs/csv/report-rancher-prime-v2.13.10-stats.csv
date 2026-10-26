@@ -166,7 +166,6 @@ rancher/prometheus-federator:v5.0.6,0,11,11
 rancher/rancher-agent:v2.13.10,0,35,35
 rancher/rancher-ai-agent:v1.0.2,8,62,70
 rancher/rancher-ai-mcp:v1.0.2,0,31,31
-rancher/rancher-csp-adapter:v8.0.0,0,31,31
 rancher/rancher-webhook:v0.9.10,0,11,11
 rancher/rancher:v2.13.10,0,206,206
 rancher/remotedialer-proxy:v0.6.4,0,10,10

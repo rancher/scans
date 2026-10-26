@@ -122,7 +122,6 @@ rancher/neuvector-updater:0.0.15,0,5,5
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
 rancher/prometheus-federator:v7.0.1,0,11,11
 rancher/rancher-agent:v2.15.2,0,26,26
-rancher/rancher-csp-adapter:v10.0.0,0,18,18
 rancher/rancher-webhook:v0.11.3,0,11,11
 rancher/rancher:v2.15.2,0,182,182
 rancher/remotedialer-proxy:v0.8.2,0,10,10
