@@ -8,7 +8,7 @@ rancher/cluster-api-addon-provider-fleet:v0.14.1,2,9,11
 rancher/cluster-api-aws-controller:v2.11.1,0,35,35
 rancher/cluster-api-azure-controller:v1.22.0,0,54,54
 rancher/cluster-api-controller:v1.12.7,0,22,22
-rancher/cluster-api-gcp-controller:v1.11.1,0,55,55
+rancher/cluster-api-gcp-controller:v1.11.1,0,54,54
 rancher/cluster-api-provider-rke2-bootstrap:v0.24.4,0,21,21
 rancher/cluster-api-provider-rke2-controlplane:v0.24.4,0,21,21
 rancher/cluster-api-vsphere-controller:v1.15.2,0,38,38

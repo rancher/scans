@@ -100,9 +100,9 @@ kserve/xgbserver:v0.20.0,8,98,106
 kubeflowkatib/enas-cnn-cifar10-cpu:v0.17.0,12,141,153
 kubeflowkatib/mxnet-mnist:v0.16.0,16,149,165
 kubeflowkatib/pytorch-mnist-cpu:v0.17.0,16,156,172
-litellm/litellm-database:v1.100.1,3,35,38
-litellm/litellm:v1.100.1,3,35,38
-python:3.14.7,24,632,656
+litellm/litellm-database:v1.100.1,3,39,42
+litellm/litellm:v1.100.1,3,39,42
+python:3.14.7,34,675,709
 pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,47,791,838
 pytorch/torchserve-kfs:0.12.0,11,160,171
 qdrant/qdrant:v1.19.1,5,73,78

@@ -1,18 +1,16 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.26.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/opa,"1.26.10, 1.27.3",false,affected,
-neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/consul,"1.26.10, 1.27.3",false,affected,
-neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/controller,"1.26.10, 1.27.3",false,affected,
-neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/upgrader,"1.26.10, 1.27.3",false,affected,
+neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.26.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/opa,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/consul,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/controller,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/controller:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/upgrader,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/controller:5.6.3,neuvector/v5.6,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,neuvector/controller:5.6.3 (sles 15.7),2.1.28-150600.7.17.1,false,affected,
-neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.26.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/bin/yq,"1.26.10, 1.27.3",false,affected,
-neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/agent,"1.26.10, 1.27.3",false,affected,
-neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/consul,"1.26.10, 1.27.3",false,affected,
-neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/pathWalker,"1.26.10, 1.27.3",false,affected,
+neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.26.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/bin/yq,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/agent,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/consul,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
+neuvector/enforcer:5.6.3,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/pathWalker,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/enforcer:5.6.3,neuvector/v5.6,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78659,HIGH,https://avd.aquasec.com/nvd/cve-2026-78659,usr/bin/yq,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/enforcer:5.6.3,neuvector/v5.6,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78660,HIGH,https://avd.aquasec.com/nvd/cve-2026-78660,usr/bin/yq,0.60.0,false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/enforcer:5.6.3,neuvector/v5.6,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/yq,0.60.0,false,affected,
 neuvector/enforcer:5.6.3,neuvector/v5.6,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,neuvector/enforcer:5.6.3 (sles 15.7),2.1.28-150600.7.17.1,false,affected,
-neuvector/manager:5.6.3,neuvector/v5.6,certifi,2026.10.18,python-pkg,GHSA-6q48-6c7w-9gw2,CRITICAL,https://github.com/advisories/GHSA-6q48-6c7w-9gw2,Python,2026.10.19,false,affected,
-neuvector/prometheus-exporter:1.0.20,neuvector/v5.6,certifi,2026.10.18,python-pkg,GHSA-6q48-6c7w-9gw2,CRITICAL,https://github.com/advisories/GHSA-6q48-6c7w-9gw2,Python,2026.10.19,false,affected,
-neuvector/registry-adapter:0.2.12,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/adapter,"1.26.10, 1.27.3",false,affected,
+neuvector/registry-adapter:0.2.12,neuvector/v5.6,stdlib,v1.27.2,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/local/bin/adapter,"1.26.10, 1.27.3",false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/updater:0.0.16,neuvector/v5.6,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,neuvector/updater:0.0.16 (sles 15.7),2.1.28-150600.7.17.1,false,affected,

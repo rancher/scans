@@ -7,7 +7,7 @@ rancher/backup-restore-operator:v11.0.3,0,12,12
 rancher/cluster-api-aws-controller:v2.11.1,0,35,35
 rancher/cluster-api-azure-controller:v1.26.0,0,23,23
 rancher/cluster-api-controller:v1.13.3,0,19,19
-rancher/cluster-api-gcp-controller:v1.13.1,0,17,17
+rancher/cluster-api-gcp-controller:v1.13.1,0,16,16
 rancher/cluster-api-provider-rke2-bootstrap:v0.25.2,0,11,11
 rancher/cluster-api-provider-rke2-controlplane:v0.25.2,0,11,11
 rancher/cluster-api-vsphere-controller:v1.16.1,0,27,27

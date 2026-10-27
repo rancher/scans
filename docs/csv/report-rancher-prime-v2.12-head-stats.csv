@@ -1,7 +1,7 @@
 image,critical,high,total
 rancher/aks-operator:v1.12.14,0,0,0
 rancher/appco-k8s-sidecar:1.30.7-11.3,3,38,41
-rancher/backup-restore-operator:v8.1.10-rc.3,0,0,0
+rancher/backup-restore-operator:v8.1.10,0,0,0
 rancher/compliance-operator:v1.2.13-rc.2,0,1,1
 rancher/eks-operator:v1.12.14,0,0,0
 rancher/fleet-agent:v0.13.17,0,0,0
@@ -157,8 +157,8 @@ rancher/mirrored-thanos-thanos:v0.37.2,0,36,36
 rancher/neuvector-compliance-config:1.0.18,0,0,0
 rancher/neuvector-controller:5.6.3,0,5,5
 rancher/neuvector-enforcer:5.6.3,0,8,8
-rancher/neuvector-manager:5.6.3,1,0,1
-rancher/neuvector-prometheus-exporter:1.0.20,1,0,1
+rancher/neuvector-manager:5.6.3,0,0,0
+rancher/neuvector-prometheus-exporter:1.0.20,0,0,0
 rancher/neuvector-registry-adapter:0.2.12,0,1,1
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.16,0,1,1

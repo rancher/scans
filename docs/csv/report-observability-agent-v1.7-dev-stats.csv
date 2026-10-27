@@ -9,4 +9,4 @@ quay.io/stackstate/promtail:3.6.11-so28,0,1,1
 quay.io/stackstate/stackstate-k8s-agent:11da0d93,0,0,0
 quay.io/stackstate/stackstate-k8s-cluster-agent:11da0d93,0,0,0
 quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b,0,0,0
-quay.io/stackstate/sts-opentelemetry-collector:v0.0.72-agent,0,0,0
+quay.io/stackstate/sts-opentelemetry-collector:v0.0.73-agent,0,0,0

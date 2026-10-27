@@ -6,9 +6,9 @@ rancher/azureserviceoperator:v2.19.0,0,37,37
 rancher/cluster-api-aws-controller:v2.13.0,0,18,18
 rancher/cluster-api-azure-controller:v1.27.0,0,16,16
 rancher/cluster-api-controller:v1.14.3,0,15,15
-rancher/cluster-api-gcp-controller:v1.13.1,0,17,17
-rancher/cluster-api-provider-rke2-bootstrap:v0.27.0,0,4,4
-rancher/cluster-api-provider-rke2-controlplane:v0.27.0,0,4,4
+rancher/cluster-api-gcp-controller:v1.13.1,0,16,16
+rancher/cluster-api-provider-rke2-bootstrap:v0.27.1,0,0,0
+rancher/cluster-api-provider-rke2-controlplane:v0.27.1,0,0,0
 rancher/cluster-api-vsphere-controller:v1.17.0,0,17,17
 rancher/compliance-operator:v1.6.0-rc.4,0,1,1
 rancher/eks-operator:v1.16.0-rc.3,0,1,1
@@ -101,7 +101,7 @@ rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,30,30
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,29,29
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.3,0,25,25
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
-rancher/rancher-agent:v2.16-head,0,3,3
+rancher/rancher-agent:v2.16-head,0,0,0
 rancher/rancher-assets:v2.16-20261023T2052Z-dev,0,0,0
 rancher/rancher-webhook:v0.12.1-rc.12,0,1,1
 rancher/rancher:v2.16-head,0,86,86
@@ -125,5 +125,5 @@ rancher/system-agent-installer-rke2:v1.36.5-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.37.1-rke2r1,0,0,0
 rancher/system-agent:v0.16.0-rc.5-suc,0,3,3
 rancher/system-upgrade-controller:v0.20.2,0,10,10
-rancher/turtles:v0.28.0-rc.2,0,0,0
+rancher/turtles:v0.28.0-rc.3,0,0,0
 rancher/ui-plugin-catalog:4.52.0,0,0,0
