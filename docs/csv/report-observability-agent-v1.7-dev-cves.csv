@@ -1,3 +1,4 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 quay.io/stackstate/stackstate-k8s-agent:3e7e2d95,observability-agent/v1.7-dev,ddtrace,4.8.2,python-pkg,CVE-2026-116588,HIGH,https://avd.aquasec.com/nvd/cve-2026-116588,Python,"3.19.9, 4.15.6",false,affected,
 quay.io/stackstate/stackstate-k8s-agent:3e7e2d95,observability-agent/v1.7-dev,ddtrace,4.8.2,python-pkg,CVE-2026-116589,HIGH,https://avd.aquasec.com/nvd/cve-2026-116589,Python,4.15.5,false,affected,
+quay.io/stackstate/stackstate-k8s-cluster-agent:3e7e2d95,observability-agent/v1.7-dev,github.com/go-jose/go-jose/v4,v4.1.4,gobinary,CVE-2026-116587,HIGH,https://avd.aquasec.com/nvd/cve-2026-116587,opt/stackstate-agent/bin/stackstate-cluster-agent/stackstate-cluster-agent,4.1.6,false,affected,

@@ -7,6 +7,6 @@ quay.io/stackstate/kubernetes-rbac-agent:3f63e63d-1079-release,0,0,0
 quay.io/stackstate/opentelemetry-target-allocator:0.160.0-so10,0,0,0
 quay.io/stackstate/promtail:3.6.11-so30,0,0,0
 quay.io/stackstate/stackstate-k8s-agent:3e7e2d95,0,2,2
-quay.io/stackstate/stackstate-k8s-cluster-agent:3e7e2d95,0,0,0
+quay.io/stackstate/stackstate-k8s-cluster-agent:3e7e2d95,0,1,1
 quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.74-agent,0,0,0

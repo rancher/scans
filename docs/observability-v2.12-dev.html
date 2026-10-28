@@ -547,7 +547,7 @@ the distinctive tag '*' close to its severity.</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" onkeyup="search()" placeholder="Search for any table field"></p>
-
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed" onchange="search()"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -675,18 +675,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>jar</td>
 </tr>
 <tr class="issue">
-<td>quay.io/stackstate/hbase-master:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>libsasl2-3</td>
-<td>libsasl2-3@2.1.28-150600.7.14.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
 <td>quay.io/stackstate/hbase-regionserver:2.5-8.3.20</td>
 <td>false</td>
 <td>Observability v2.12-dev</td>
@@ -733,18 +721,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>libsasl2-3</td>
-<td>libsasl2-3@2.1.28-150600.7.14.1</td>
-<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
 </tr>
 <tr class="issue">
 <td>quay.io/stackstate/kafka:3.9.2-so33</td>
@@ -807,352 +783,376 @@ the distinctive tag '*' close to its severity.</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.apache.tomcat:tomcat-util@9.0.110</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.apache.tomcat:tomcat-util@9.0.110</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
+<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/zookeeper:3.9.6-so4</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>quay.io/stackstate/zookeeper:3.9.6-so4</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue not_affected">
+<td>quay.io/stackstate/hbase-master:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>libsasl2-3</td>
+<td>libsasl2-3@2.1.28-150600.7.14.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>quay.io/stackstate/hbase-regionserver:2.5-8.3.20</td>
+<td>false</td>
+<td>Observability v2.12-dev</td>
+<td>libsasl2-3</td>
+<td>libsasl2-3@2.1.28-150600.7.14.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
 <td>quay.io/stackstate/spotlight:5.2.0-snapshot.234.rebuild.74</td>
 <td>false</td>
 <td>Observability v2.12-dev</td>
 <td>libsasl2-3</td>
 <td>libsasl2-3@2.1.28-150600.7.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>sles</td>
 </tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>quay.io/stackstate/stackgraph-console:2.5-8.3.20</td>
 <td>false</td>
 <td>Observability v2.12-dev</td>
 <td>libsasl2-3</td>
 <td>libsasl2-3@2.1.28-150600.7.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>sles</td>
 </tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.apache.tomcat:tomcat-util@9.0.110</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>quay.io/stackstate/stackgraph-hbase:2.5-8.3.20</td>
 <td>false</td>
 <td>Observability v2.12-dev</td>
 <td>libsasl2-3</td>
 <td>libsasl2-3@2.1.28-150600.7.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>sles</td>
 </tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261027165855-master-14c4cbb</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.apache.tomcat:tomcat-util@9.0.110</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
-<td><span class="sev sev-CRITICAL">CRITICAL</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261027165855-master-14c4cbb-2.5</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>com.google.guava:guava@33.4.8-jre</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
+<tr class="issue not_affected">
 <td>quay.io/stackstate/tephra-server:2.5-8.3.20</td>
 <td>false</td>
 <td>Observability v2.12-dev</td>
 <td>libsasl2-3</td>
 <td>libsasl2-3@2.1.28-150600.7.14.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264836-1">SUSE-SU-2026:4836-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
 <td>sles</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/zookeeper:3.9.6-so4</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
-</tr>
-<tr class="issue">
-<td>quay.io/stackstate/zookeeper:3.9.6-so4</td>
-<td>false</td>
-<td>Observability v2.12-dev</td>
-<td>Java</td>
-<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>jar</td>
 </tr>
 </table>
 
