@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Observability v2.12.0 version - CVE Scans - 2026-10-26</h1>
+<h1>SUSE Rancher - Observability v2.12.0 version - CVE Scans - 2026-10-28</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -573,7 +573,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>bin/clickhouse-backup</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -801,7 +801,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-backup</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -813,7 +813,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -825,7 +825,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/kubectl</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -1257,7 +1257,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/elasticsearch_exporter</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -1393,6 +1393,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/elasticsearch:8.19.16-so18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>com.google.guava:guava@32.0.1-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/elasticsearch:8.19.16-so18</td>
@@ -1482,6 +1494,54 @@ the distinctive tag '*' close to its severity.</li>
 <td>registry.rancher.com/suse-observability/hadoop:3.5.0-so19</td>
 <td>false</td>
 <td>Observability v2.12.0</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.0-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so19</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so19</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so19</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.4</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hadoop:3.5.0-so19</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
 <td>libopenssl3</td>
 <td>libopenssl3@3.5.0-150700.5.50.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264414-1">SUSE-SU-2026:4414-1</a></td>
@@ -1543,8 +1603,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1558,6 +1642,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>org.apache.tomcat:tomcat-util@9.0.110</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-master:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>jar</td>
@@ -1603,8 +1699,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1618,6 +1738,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>org.apache.tomcat:tomcat-util@9.0.110</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>jar</td>
@@ -1725,6 +1857,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.9.2-so24</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/kafka:3.9.2-so24</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1785,7 +1941,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>kafkaup-operator</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -1929,7 +2085,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/kubernetes-rbac-agent</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2073,7 +2229,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/nginx-prometheus-exporter</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2209,6 +2365,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/s3proxy:3.2.0-so16</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.6.0-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/s3proxy:3.2.0-so16</td>
@@ -2346,6 +2514,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.18</td>
 <td>false</td>
 <td>Observability v2.12.0</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
 <td>libexpat1</td>
 <td>libexpat1@2.7.1-150700.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
@@ -2383,8 +2587,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2398,6 +2626,18 @@ the distinctive tag '*' close to its severity.</li>
 <td>org.apache.tomcat:tomcat-util@9.0.110</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-53434.html">CVE-2026-53434</a></td>
 <td><span class="sev sev-CRITICAL">CRITICAL</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>jar</td>
@@ -2455,8 +2695,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2469,7 +2733,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2569,6 +2833,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-correlate:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-correlate:2.12.0</td>
@@ -2659,8 +2935,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2673,7 +2973,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2773,6 +3073,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-kafka-to-es:2.12.0</td>
@@ -2863,8 +3175,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2877,7 +3213,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -2977,6 +3313,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-receiver:2.12.0</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-receiver:2.12.0</td>
@@ -3067,8 +3415,32 @@ the distinctive tag '*' close to its severity.</li>
 <td>false</td>
 <td>Observability v2.12.0</td>
 <td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.12.0-2.5</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
 <td>at.yawk.lz4:lz4-java@1.11.1</td>
 <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106451">CVE-2026-106451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.12.0-2.5</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3081,7 +3453,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-toolbox</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3193,6 +3565,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/stackstate-server:2.12.0-2.5</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/stackstate-server:2.12.0-2.5</td>
@@ -3309,7 +3693,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/sts-opentelemetry-collector</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3453,7 +3837,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/borg</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3561,7 +3945,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>suse-observability-mcp</td>
 <td>stdlib@v1.27.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3714,6 +4098,42 @@ the distinctive tag '*' close to its severity.</li>
 <td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.18</td>
 <td>false</td>
 <td>Observability v2.12.0</td>
+<td>Java</td>
+<td>com.google.guava:guava@33.4.8-jre</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-102554.html">CVE-2026-102554</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/tephra-server:2.5-8.3.18</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
 <td>libexpat1</td>
 <td>libexpat1@2.7.1-150700.3.12.1</td>
 <td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264619-1">SUSE-SU-2026:4619-1</a></td>
@@ -3753,7 +4173,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>victoria-metrics-prod</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -3897,7 +4317,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vmagent-prod</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4041,7 +4461,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/sts-toolbox</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4053,7 +4473,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/supercronic-linux-amd64</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4065,7 +4485,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/local/bin/vmbackup-prod</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4449,7 +4869,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>vmrestore-prod</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4593,7 +5013,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>entrypoint</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4605,7 +5025,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/wait</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4797,7 +5217,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/workload-observer</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -4933,6 +5353,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/zookeeper:3.9.5-so26</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-108106">CVE-2026-108106</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
+</tr>
+<tr class="issue">
+<td>registry.rancher.com/suse-observability/zookeeper:3.9.5-so26</td>
+<td>false</td>
+<td>Observability v2.12.0</td>
+<td>Java</td>
+<td>org.xerial.snappy:snappy-java@1.1.10.5</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-93451">CVE-2026-93451</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>jar</td>
 </tr>
 <tr class="issue">
 <td>registry.rancher.com/suse-observability/zookeeper:3.9.5-so26</td>

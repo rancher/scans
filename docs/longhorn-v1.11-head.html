@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - Longhorn v1.11-head version - CVE Scans - 2026-10-26</h1>
+<h1>SUSE Rancher - Longhorn v1.11-head version - CVE Scans - 2026-10-28</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -573,7 +573,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-attacher</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -693,7 +693,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-node-driver-registrar</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -813,7 +813,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-resizer</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -933,7 +933,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>csi-snapshotter</td>
 <td>stdlib@v1.26.9</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -981,7 +981,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>livenessprobe</td>
 <td>stdlib@v1.26.6</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -1237,6 +1237,90 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>cpp7</td>
+<td>cpp7@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>gcc7</td>
+<td>gcc7@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>gcc7-c++</td>
+<td>gcc7-c++@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>libasan4</td>
+<td>libasan4@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>libcilkrts5</td>
+<td>libcilkrts5@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>libstdc++6-devel-gcc7</td>
+<td>libstdc++6-devel-gcc7@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>longhornio/longhorn-instance-manager:v1.11.x-head</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>libubsan0</td>
+<td>libubsan0@7.5.0+r278197-150000.4.44.1</td>
+<td><a href="https://www.suse.com/support/update/announcement/2026/suse-su-20264913-1">SUSE-SU-2026:4913-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue">
 <td>longhornio/longhorn-manager:v1.11.x-head</td>
@@ -1545,7 +1629,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>usr/bin/support-bundle-kit</td>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -1921,6 +2005,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>longhornio/support-bundle-kit:v1.0.0</td>
+<td>false</td>
+<td>Longhorn v1.11-head</td>
+<td>usr/bin/yq</td>
+<td>stdlib@v1.27.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
 <td>longhornio/support-bundle-kit:v1.0.0</td>

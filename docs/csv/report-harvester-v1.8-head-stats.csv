@@ -1,7 +1,7 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3,0,57,57
 kubeovn/kube-ovn:v1.15.4,0,137,137
-kubeovn/vpc-nat-gateway:v1.15.4,2,17,19
+kubeovn/vpc-nat-gateway:v1.15.4,2,18,20
 longhornio/backing-image-manager:v1.11.3,1,43,44
 longhornio/csi-attacher:v4.12.0,0,18,18
 longhornio/csi-node-driver-registrar:v2.17.0,0,16,16
@@ -11,14 +11,14 @@ longhornio/csi-snapshotter:v8.6.0,0,18,18
 longhornio/livenessprobe:v2.19.0,0,16,16
 longhornio/longhorn-cli:v1.11.3,0,38,38
 longhornio/longhorn-engine:v1.11.3,0,71,71
-longhornio/longhorn-instance-manager:v1.11.3,0,62,62
+longhornio/longhorn-instance-manager:v1.11.3,0,69,69
 longhornio/longhorn-manager:v1.11.3,0,40,40
 longhornio/longhorn-share-manager:v1.11.3,0,37,37
 longhornio/longhorn-ui:v1.11.3,0,22,22
 longhornio/support-bundle-kit:v0.0.88,0,38,38
 rancher/appco-alertmanager:0.28.1-12.7,0,36,36
 rancher/appco-grafana:12.1.1-2.2,4,141,145
-rancher/appco-k8s-sidecar:1.30.7-11.3,3,38,41
+rancher/appco-k8s-sidecar:1.30.7-11.3,3,39,42
 rancher/appco-kube-state-metrics:2.17.0-10.7,0,54,54
 rancher/appco-node-exporter:1.9.1-11.3,0,54,54
 rancher/cluster-api-controller:v1.12.7,0,22,22

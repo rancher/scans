@@ -1,6 +1,6 @@
 image,critical,high,total
 rancher/aks-operator:v1.12.13,0,11,11
-rancher/appco-k8s-sidecar:1.30.7-11.3,3,38,41
+rancher/appco-k8s-sidecar:1.30.7-11.3,3,39,42
 rancher/backup-restore-operator:v8.1.9,0,14,14
 rancher/compliance-operator:v1.2.12,0,11,11
 rancher/eks-operator:v1.12.13,0,11,11
@@ -75,11 +75,11 @@ rancher/mirrored-cilium-operator-aws:v1.19.6,0,6,6
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,6,6
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,6,6
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,32,32
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,17,86,103
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,75,91
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,17,102,119
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,91,107
 rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,4,44,48
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,16,89,105
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,15,82,97
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,16,103,119
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,15,96,111
 rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,4,55,59
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,33,33
 rancher/mirrored-cloud-provider-vsphere:v1.33.1,0,33,33
@@ -122,7 +122,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,21,21
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,18,18
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,16,16
 rancher/mirrored-longhornio-longhorn-engine:v1.12.1,1,64,65
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,51,52
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,58,59
 rancher/mirrored-longhornio-longhorn-manager:v1.12.1,1,35,36
 rancher/mirrored-longhornio-longhorn-share-manager:v1.12.1,1,32,33
 rancher/mirrored-longhornio-longhorn-ui:v1.12.1,1,16,17
@@ -156,10 +156,10 @@ rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,26,26
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,15,15
 rancher/mirrored-thanos-thanos:v0.37.2,0,36,36
 rancher/neuvector-compliance-config:1.0.17,0,0,0
-rancher/neuvector-controller:5.6.2,0,55,55
-rancher/neuvector-enforcer:5.6.2,1,52,53
+rancher/neuvector-controller:5.6.2,0,56,56
+rancher/neuvector-enforcer:5.6.2,1,53,54
 rancher/neuvector-manager:5.6.2,2,6,8
-rancher/neuvector-prometheus-exporter:1.0.19,3,12,15
+rancher/neuvector-prometheus-exporter:1.0.19,3,13,16
 rancher/neuvector-registry-adapter:0.2.11,0,14,14
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.15,0,5,5

@@ -98,7 +98,7 @@ rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,21,21
 rancher/mirrored-longhornio-csi-snapshotter:v8.6.0,0,18,18
 rancher/mirrored-longhornio-livenessprobe:v2.19.0,0,16,16
 rancher/mirrored-longhornio-longhorn-engine:v1.12.1,1,64,65
-rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,51,52
+rancher/mirrored-longhornio-longhorn-instance-manager:v1.12.1,1,58,59
 rancher/mirrored-longhornio-longhorn-manager:v1.12.1,1,35,36
 rancher/mirrored-longhornio-longhorn-share-manager:v1.12.1,1,32,33
 rancher/mirrored-longhornio-longhorn-ui:v1.12.1,1,16,17
@@ -112,10 +112,10 @@ rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,30,30
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,29,29
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,15,15
 rancher/neuvector-compliance-config:1.0.17,0,0,0
-rancher/neuvector-controller:5.6.2,0,55,55
-rancher/neuvector-enforcer:5.6.2,1,52,53
+rancher/neuvector-controller:5.6.2,0,56,56
+rancher/neuvector-enforcer:5.6.2,1,53,54
 rancher/neuvector-manager:5.6.2,2,6,8
-rancher/neuvector-prometheus-exporter:1.0.19,3,12,15
+rancher/neuvector-prometheus-exporter:1.0.19,3,13,16
 rancher/neuvector-registry-adapter:0.2.11,0,14,14
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.15,0,5,5

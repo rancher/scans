@@ -11,7 +11,7 @@ longhornio/csi-snapshotter:v8.6.0,0,18,18
 longhornio/livenessprobe:v2.20.0,0,10,10
 longhornio/longhorn-cli:v1.13.0,0,22,22
 longhornio/longhorn-engine:v1.13.0,0,31,31
-longhornio/longhorn-instance-manager:v1.13.0,1,26,27
+longhornio/longhorn-instance-manager:v1.13.0,1,33,34
 longhornio/longhorn-manager:v1.13.0,0,13,13
 longhornio/longhorn-share-manager:v1.13.0,0,15,15
 longhornio/longhorn-ui:v1.13.0,0,5,5
@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.5-rke2r1-build20260923,0,66,66
 rancher/hardened-multus-cni:v4.3.1-build20260910,0,44,44
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,12,12
 rancher/hardened-traefik:v3.7.13-build20260910,0,11,11
-rancher/harvester-cluster-repo:5bccfd20,0,0,0
+rancher/harvester-cluster-repo:5af19996,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.4-dev.0,0,4,4
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
