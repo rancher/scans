@@ -7760,6 +7760,7 @@ rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,Authlib,1.7.2,python-pk
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,pypdf,6.11.0,python-pkg,CVE-2026-115572,HIGH,https://avd.aquasec.com/nvd/cve-2026-115572,Python,6.21.2,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,pypdf,6.11.0,python-pkg,CVE-2026-115580,HIGH,https://avd.aquasec.com/nvd/cve-2026-115580,Python,6.21.2,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,pypdf,6.11.0,python-pkg,CVE-2026-115585,HIGH,https://avd.aquasec.com/nvd/cve-2026-115585,Python,6.21.2,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,mcp,1.26.0,python-pkg,CVE-2026-116684,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-116684,Python,"2.2.0, 1.30.0",false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,fastmcp,3.1.0,python-pkg,CVE-2026-27124,HIGH,https://avd.aquasec.com/nvd/cve-2026-27124,Python,3.2.0,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,fastmcp,3.1.0,python-pkg,CVE-2026-32871,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-32871,Python,3.2.0,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,langchain-classic,1.0.3,python-pkg,CVE-2026-45134,HIGH,https://avd.aquasec.com/nvd/cve-2026-45134,Python,1.0.7,false,affected,
