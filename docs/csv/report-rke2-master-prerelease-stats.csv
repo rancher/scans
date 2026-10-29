@@ -13,10 +13,10 @@ rancher/hardened-multus-cni:v4.3.1-build20261022,0,0,0
 rancher/hardened-multus-dynamic-networks-controller:v0.3.9-build20261020,0,0,0
 rancher/hardened-multus-thick:v4.3.1-build20261022,0,0,0
 rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,0,0
-rancher/hardened-traefik:v3.7.16-build20261021,0,1,1
+rancher/hardened-traefik:v3.7.16-build20261028,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,0,0
-rancher/harvester-cloud-provider:v0.2.9,0,11,11
-rancher/harvester-csi-driver:v0.2.10,0,25,25
+rancher/harvester-cloud-provider:v0.2.10,0,0,0
+rancher/harvester-csi-driver:v0.2.11,0,3,3
 rancher/klipper-helm:v0.13.3-build20261021,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.2,0,5,5

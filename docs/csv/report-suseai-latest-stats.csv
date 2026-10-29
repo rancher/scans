@@ -47,7 +47,7 @@ ghcr.io/kubeflow/kfp-metadata-writer:2.17.2,1,17,18
 ghcr.io/kubeflow/kfp-persistence-agent:2.17.2,0,28,28
 ghcr.io/kubeflow/kfp-scheduled-workflow-controller:2.17.2,0,28,28
 ghcr.io/kubeflow/kfp-viewer-crd-controller:2.17.2,0,20,20
-ghcr.io/kubeflow/kfp-visualization-server:2.17.2,6,101,107
+ghcr.io/kubeflow/kfp-visualization-server:2.17.2,7,100,107
 ghcr.io/kubeflow/kubeflow/central-dashboard:v1.10.0,8,100,108
 ghcr.io/kubeflow/kubeflow/jupyter-web-app:v1.10.0,5,43,48
 ghcr.io/kubeflow/kubeflow/kfam:v1.10.0,0,78,78
@@ -100,9 +100,9 @@ kserve/xgbserver:v0.20.0,8,98,106
 kubeflowkatib/enas-cnn-cifar10-cpu:v0.17.0,12,141,153
 kubeflowkatib/mxnet-mnist:v0.16.0,16,149,165
 kubeflowkatib/pytorch-mnist-cpu:v0.17.0,16,156,172
-litellm/litellm-database:v1.100.1,3,43,46
-litellm/litellm:v1.100.1,3,43,46
-python:3.14.7,22,637,659
+litellm/litellm-database:v1.100.1,4,40,44
+litellm/litellm:v1.100.1,4,40,44
+python:3.14.7,24,610,634
 pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,47,792,839
 pytorch/torchserve-kfs:0.12.0,11,182,193
 qdrant/qdrant:v1.19.1,5,75,80
