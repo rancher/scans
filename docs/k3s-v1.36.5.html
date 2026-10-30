@@ -511,7 +511,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - K3s v1.36.5 version - CVE Scans - 2026-10-29</h1>
+<h1>SUSE Rancher - K3s v1.36.5 version - CVE Scans - 2026-10-30</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -598,6 +598,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>stdlib@v1.26.8</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-111943.html">CVE-2026-111943</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.36.5-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.5</td>
+<td>bin/k3s</td>
+<td>github.com/go-jose/go-jose/v4@v4.1.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-116585.html">CVE-2026-116585</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.36.5-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.5</td>
+<td>bin/k3s</td>
+<td>github.com/go-jose/go-jose/v4@v4.1.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-116586.html">CVE-2026-116586</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -1160,7 +1184,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
 <td>golang.org/x/text@v0.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -1172,7 +1196,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>usr/bin/helm</td>
 <td>golang.org/x/text@v0.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2096,6 +2120,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>usr/local/bin/traefik</td>
 <td>github.com/go-jose/go-jose/v4@v4.1.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-116585.html">CVE-2026-116585</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.13</td>
+<td>true</td>
+<td>K3s v1.36.5</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/go-jose/go-jose/v4@v4.1.4</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-116586.html">CVE-2026-116586</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-library-traefik:3.7.13</td>
+<td>true</td>
+<td>K3s v1.36.5</td>
+<td>usr/local/bin/traefik</td>
+<td>github.com/go-jose/go-jose/v4@v4.1.4</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-116587.html">CVE-2026-116587</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -2288,7 +2336,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>metrics-server</td>
 <td>golang.org/x/text@v0.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -2756,7 +2804,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>bin/containerd-shim-runc-v2</td>
 <td>golang.org/x/text@v0.38.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -2784,18 +2832,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/k3s:v1.36.5-k3s1</td>
-<td>false</td>
-<td>K3s v1.36.5</td>
-<td>bin/runc</td>
-<td>stdlib@v1.26.8</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56857.html">CVE-2026-56857</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -3308,7 +3344,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
 <td>golang.org/x/text@v0.37.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -3384,30 +3420,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/klipper-helm:v0.13.3-build20260727</td>
-<td>false</td>
-<td>K3s v1.36.5</td>
-<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56857.html">CVE-2026-56857</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/klipper-helm:v0.13.3-build20260727</td>
-<td>false</td>
-<td>K3s v1.36.5</td>
-<td>usr/bin/helm</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56857.html">CVE-2026-56857</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -3512,22 +3524,10 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>usr/bin/local-path-provisioner</td>
 <td>golang.org/x/text@v0.39.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/local-path-provisioner:v0.0.37</td>
-<td>false</td>
-<td>K3s v1.36.5</td>
-<td>usr/bin/local-path-provisioner</td>
-<td>stdlib@v1.26.5</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56857.html">CVE-2026-56857</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -3572,7 +3572,7 @@ the distinctive tag '*' close to its severity.</li>
 <td>K3s v1.36.5</td>
 <td>coredns</td>
 <td>golang.org/x/text@v0.40.0</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56851">CVE-2026-56851</a></td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
@@ -3588,18 +3588,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-coredns-coredns:1.14.7</td>
-<td>true</td>
-<td>K3s v1.36.5</td>
-<td>coredns</td>
-<td>stdlib@v1.26.6</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56857.html">CVE-2026-56857</a></td>
-<td><span class="sev sev-NONE">none</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">

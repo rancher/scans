@@ -9,10 +9,10 @@ rancher/hardened-flannel:v0.28.9-build20260909,0,18,18
 rancher/hardened-k8s-metrics-server:v0.9.0-build20260909,0,12,12
 rancher/hardened-kubernetes:v1.37.1-rke2r1-build20260924,0,66,66
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,12,12
-rancher/hardened-traefik:v3.7.13-build20260910,0,12,12
+rancher/hardened-traefik:v3.7.13-build20260910,0,14,14
 rancher/klipper-helm:v0.13.3-build20260909,0,35,35
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rke2-cloud-provider:v1.37.1-0.20260915225838-315ede265f11-build20260916,0,10,10
-rancher/rke2-runtime:v1.37.1-rke2r1,0,74,74
+rancher/rke2-runtime:v1.37.1-rke2r1,0,76,76
 rancher/rke2-security-responder:v0.1.6,0,0,0
