@@ -1,6 +1,6 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3,0,57,57
-kubeovn/kube-ovn:v1.15.4,0,139,139
+kubeovn/kube-ovn:v1.15.4,0,138,138
 longhornio/backing-image-manager:v1.11.2,1,52,53
 longhornio/csi-attacher:v4.11.0-20260428,0,21,21
 longhornio/csi-node-driver-registrar:v2.16.0-20260428,0,19,19

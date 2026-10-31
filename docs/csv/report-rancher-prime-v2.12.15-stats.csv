@@ -74,12 +74,12 @@ rancher/mirrored-cilium-operator-aws:v1.19.6,0,9,9
 rancher/mirrored-cilium-operator-azure:v1.19.6,0,9,9
 rancher/mirrored-cilium-operator-generic:v1.19.6,0,9,9
 rancher/mirrored-cloud-provider-vsphere-cpi-release-manager:v1.30.1,0,32,32
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,21,102,123
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,20,91,111
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,4,48,52
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,20,103,123
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,19,96,115
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,4,59,63
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.2.0,17,102,119
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.3.1,16,91,107
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.2,0,48,48
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.2.0,16,103,119
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.3.1,15,96,111
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.2,0,59,59
 rancher/mirrored-cloud-provider-vsphere:v1.32.2,0,33,33
 rancher/mirrored-cloud-provider-vsphere:v1.33.1,0,33,33
 rancher/mirrored-cluster-api-controller:v1.10.2,0,32,32
@@ -87,7 +87,7 @@ rancher/mirrored-coredns-coredns:1.14.6,0,30,30
 rancher/mirrored-elemental-operator:1.7.5,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.7.5,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,3,52,55
-rancher/mirrored-grafana-grafana:11.5.5,4,65,69
+rancher/mirrored-grafana-grafana:11.5.5,3,65,68
 rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,25,25
@@ -157,7 +157,7 @@ rancher/mirrored-thanos-thanos:v0.37.2,0,36,36
 rancher/neuvector-compliance-config:1.0.19,0,0,0
 rancher/neuvector-controller:5.6.4,0,18,18
 rancher/neuvector-enforcer:5.6.4,0,12,12
-rancher/neuvector-manager:5.6.4,0,0,0
+rancher/neuvector-manager:5.6.4,0,3,3
 rancher/neuvector-prometheus-exporter:1.0.21,0,0,0
 rancher/neuvector-registry-adapter:0.2.13,0,3,3
 rancher/neuvector-scanner:6,0,0,0
@@ -167,7 +167,7 @@ rancher/prom-prometheus:v3.2.1,0,68,68
 rancher/prometheus-federator:v4.2.5,0,0,0
 rancher/rancher-agent:v2.12.15,0,19,19
 rancher/rancher-webhook:v0.8.12,0,0,0
-rancher/rancher:v2.12.15,0,221,221
+rancher/rancher:v2.12.15,0,209,209
 rancher/remotedialer-proxy:v0.5.3,0,0,0
 rancher/rke2-cloud-provider:v1.33.13-0.20260610231102-b1a9339db253-build20260710,0,21,21
 rancher/rke2-runtime:v1.32.13-rke2r1,0,128,128

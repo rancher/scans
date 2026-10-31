@@ -79,8 +79,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,1,1
 rancher/mirrored-cilium-operator-aws:v1.20.2,0,25,25
 rancher/mirrored-cilium-operator-azure:v1.20.2,0,25,25
 rancher/mirrored-cilium-operator-generic:v1.20.2,0,25,25
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,4,48,52
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,4,51,55
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3,0,48,48
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3,0,51,51
 rancher/mirrored-cloud-provider-vsphere:v1.37.0,0,13,13
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,19,19
