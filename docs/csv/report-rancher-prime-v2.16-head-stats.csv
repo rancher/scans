@@ -6,7 +6,7 @@ rancher/azureserviceoperator:v2.19.0,0,37,37
 rancher/cluster-api-aws-controller:v2.13.0,0,21,21
 rancher/cluster-api-azure-controller:v1.27.0,0,16,16
 rancher/cluster-api-controller:v1.14.3,0,15,15
-rancher/cluster-api-gcp-controller:v1.13.1,0,17,17
+rancher/cluster-api-gcp-controller:v1.13.1,1,17,18
 rancher/cluster-api-provider-rke2-bootstrap:v0.27.1,0,0,0
 rancher/cluster-api-provider-rke2-controlplane:v0.27.1,0,0,0
 rancher/cluster-api-vsphere-controller:v1.17.0,0,17,17

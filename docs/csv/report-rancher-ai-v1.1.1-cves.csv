@@ -23,6 +23,7 @@ ghcr.io/rancher/ui-extension-rancher-ai-ui:1.1.0,rancher-ai/v1.1.1,libpng16-16,1
 ghcr.io/rancher/ui-extension-rancher-ai-ui:1.1.0,rancher-ai/v1.1.1,libsasl2-3,2.1.28-150600.7.14.1,sles,SUSE-SU-2026:4836-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:1.1.0 (sles 15.7),2.1.28-150600.7.17.1,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-114615,HIGH,https://avd.aquasec.com/nvd/cve-2026-114615,Python,1.9.0,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-114616,HIGH,https://avd.aquasec.com/nvd/cve-2026-114616,Python,1.9.1,false,affected,
+registry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-116672,HIGH,https://avd.aquasec.com/nvd/cve-2026-116672,Python,1.9.1,false,affected,
 registry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-96760,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-96760,Python,1.9.0,false,affected,
 registry.suse.com/rancher/rancher-ai-mcp:v1.1.1,rancher-ai/v1.1.1,golang.org/x/text,v0.40.0,gobinary,CVE-2026-56851,HIGH,https://avd.aquasec.com/nvd/cve-2026-56851,usr/local/bin/mcp,0.41.0,false,not_affected,vulnerable_code_not_present
 registry.suse.com/rancher/rancher-ai-mcp:v1.1.1,rancher-ai/v1.1.1,golang.org/x/crypto,v0.54.0,gobinary,CVE-2026-56854,HIGH,https://avd.aquasec.com/nvd/cve-2026-56854,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_in_execute_path
@@ -35,6 +36,7 @@ registry.suse.com/rancher/rancher-ai-mcp:v1.1.1,rancher-ai/v1.1.1,golang.org/x/c
 registry.suse.com/rancher/rancher-ai-mcp:v1.1.1,rancher-ai/v1.1.1,golang.org/x/net,v0.56.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/local/bin/mcp,0.60.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-114615,HIGH,https://avd.aquasec.com/nvd/cve-2026-114615,Python,1.9.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-114616,HIGH,https://avd.aquasec.com/nvd/cve-2026-114616,Python,1.9.1,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-116672,HIGH,https://avd.aquasec.com/nvd/cve-2026-116672,Python,1.9.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:v1.1.1,rancher-ai/v1.1.1,Authlib,1.7.2,python-pkg,CVE-2026-96760,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-96760,Python,1.9.0,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.1.1,rancher-ai/v1.1.1,golang.org/x/text,v0.40.0,gobinary,CVE-2026-56851,HIGH,https://avd.aquasec.com/nvd/cve-2026-56851,usr/local/bin/mcp,0.41.0,false,not_affected,vulnerable_code_not_present
 stgregistry.suse.com/rancher/rancher-ai-mcp:v1.1.1,rancher-ai/v1.1.1,golang.org/x/crypto,v0.54.0,gobinary,CVE-2026-56854,HIGH,https://avd.aquasec.com/nvd/cve-2026-56854,usr/local/bin/mcp,0.55.0,false,not_affected,vulnerable_code_not_in_execute_path

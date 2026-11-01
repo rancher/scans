@@ -2397,6 +2397,11 @@ rancher/appco-grafana:12.1.1-2.2,harvester/v1.8.2,libpcre2-8-0,10.42-150600.1.26
 rancher/appco-grafana:12.1.1-2.2,harvester/v1.8.2,glibc,2.38-150600.14.37.1,sles,SUSE-SU-2026:4656-1,HIGH,,rancher/appco-grafana:12.1.1-2.2 (sles 15.7),2.38-150600.14.61.1,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,urllib3,2.5.0,python-pkg,CVE-2025-66418,HIGH,https://avd.aquasec.com/nvd/cve-2025-66418,Python,2.6.0,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,urllib3,2.5.0,python-pkg,CVE-2025-66471,HIGH,https://avd.aquasec.com/nvd/cve-2025-66471,Python,2.6.0,false,affected,
+rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,oauthlib,3.3.1,python-pkg,CVE-2026-118669,HIGH,https://avd.aquasec.com/nvd/cve-2026-118669,Python,4.0.0,false,affected,
+rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,pyasn1,0.6.1,python-pkg,CVE-2026-119194,HIGH,https://avd.aquasec.com/nvd/cve-2026-119194,Python,0.6.5,false,affected,
+rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,pyasn1,0.6.1,python-pkg,CVE-2026-119195,HIGH,https://avd.aquasec.com/nvd/cve-2026-119195,Python,0.6.5,false,affected,
+rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,pyasn1,0.6.1,python-pkg,CVE-2026-119196,HIGH,https://avd.aquasec.com/nvd/cve-2026-119196,Python,0.6.5,false,affected,
+rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,pyasn1,0.6.1,python-pkg,CVE-2026-119197,HIGH,https://avd.aquasec.com/nvd/cve-2026-119197,Python,0.6.5,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,urllib3,2.5.0,python-pkg,CVE-2026-21441,HIGH,https://avd.aquasec.com/nvd/cve-2026-21441,Python,2.6.3,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,pyasn1,0.6.1,python-pkg,CVE-2026-23490,HIGH,https://avd.aquasec.com/nvd/cve-2026-23490,Python,0.6.2,false,affected,
 rancher/appco-k8s-sidecar:1.30.7-11.3,harvester/v1.8.2,pyasn1,0.6.1,python-pkg,CVE-2026-30922,HIGH,https://avd.aquasec.com/nvd/cve-2026-30922,Python,0.6.3,false,affected,
@@ -6331,6 +6336,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.8.2,concurren
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.8.2,nokogiri,1.16.6,gemspec,CVE-2026-79770,HIGH,https://avd.aquasec.com/nvd/cve-2026-79770,Ruby,>= 1.19.3,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.8.2,resolv,0.2.2,gemspec,CVE-2026-80212,HIGH,https://avd.aquasec.com/nvd/cve-2026-80212,Ruby,"~> 0.3.2, >= 0.7.2",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.8.2,nokogiri,1.16.6,gemspec,GHSA-353f-x4gh-cqq8,CRITICAL,https://github.com/advisories/GHSA-353f-x4gh-cqq8,Ruby,>= 1.18.9,true,affected,
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.8.2,rack,3.0.9.1,gemspec,GHSA-5v64-555j-wjxm,HIGH,https://github.com/advisories/GHSA-5v64-555j-wjxm,Ruby,"~> 2.2.25, ~> 3.1.23, >= 3.2.8",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,harvester/v1.8.2,nokogiri,1.16.6,gemspec,GHSA-mrxw-mxhj-p664,HIGH,https://github.com/advisories/GHSA-mrxw-mxhj-p664,Ruby,>= 1.18.4,true,affected,
 rancher/mirrored-kube-logging-logging-operator:4.10.0,harvester/v1.8.2,golang.org/x/net,v0.29.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,manager,0.33.0,true,not_affected,vulnerable_code_not_present
 rancher/mirrored-kube-logging-logging-operator:4.10.0,harvester/v1.8.2,golang.org/x/oauth2,v0.21.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,manager,0.27.0,true,not_affected,vulnerable_code_not_present

@@ -2957,6 +2957,7 @@ rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.15.3,concurrent
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.15.3,nokogiri,1.16.6,gemspec,CVE-2026-79770,HIGH,https://avd.aquasec.com/nvd/cve-2026-79770,Ruby,>= 1.19.3,true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.15.3,resolv,0.2.2,gemspec,CVE-2026-80212,HIGH,https://avd.aquasec.com/nvd/cve-2026-80212,Ruby,"~> 0.3.2, >= 0.7.2",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.15.3,nokogiri,1.16.6,gemspec,GHSA-353f-x4gh-cqq8,CRITICAL,https://github.com/advisories/GHSA-353f-x4gh-cqq8,Ruby,>= 1.18.9,true,affected,
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.15.3,rack,3.0.9.1,gemspec,GHSA-5v64-555j-wjxm,HIGH,https://github.com/advisories/GHSA-5v64-555j-wjxm,Ruby,"~> 2.2.25, ~> 3.1.23, >= 3.2.8",true,affected,
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,rancher/v2.15.3,nokogiri,1.16.6,gemspec,GHSA-mrxw-mxhj-p664,HIGH,https://github.com/advisories/GHSA-mrxw-mxhj-p664,Ruby,>= 1.18.4,true,affected,
 rancher/mirrored-kube-logging-logging-operator:4.10.0,rancher/v2.15.3,golang.org/x/net,v0.29.0,gobinary,CVE-2024-45338,HIGH,https://avd.aquasec.com/nvd/cve-2024-45338,manager,0.33.0,true,not_affected,vulnerable_code_not_present
 rancher/mirrored-kube-logging-logging-operator:4.10.0,rancher/v2.15.3,golang.org/x/oauth2,v0.21.0,gobinary,CVE-2025-22868,HIGH,https://avd.aquasec.com/nvd/cve-2025-22868,manager,0.27.0,true,not_affected,vulnerable_code_not_present

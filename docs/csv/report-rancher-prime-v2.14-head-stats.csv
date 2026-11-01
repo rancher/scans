@@ -8,7 +8,7 @@ rancher/cluster-api-addon-provider-fleet:v0.14.2,0,4,4
 rancher/cluster-api-aws-controller:v2.11.1,0,38,38
 rancher/cluster-api-azure-controller:v1.22.0,0,54,54
 rancher/cluster-api-controller:v1.12.7,0,22,22
-rancher/cluster-api-gcp-controller:v1.11.1,0,55,55
+rancher/cluster-api-gcp-controller:v1.11.1,1,55,56
 rancher/cluster-api-provider-rke2-bootstrap:v0.24.6,0,0,0
 rancher/cluster-api-provider-rke2-controlplane:v0.24.6,0,0,0
 rancher/cluster-api-vsphere-controller:v1.15.2,0,38,38
@@ -96,7 +96,7 @@ rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,25,25
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,71,81
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,72,82
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,19,19
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,12,12
