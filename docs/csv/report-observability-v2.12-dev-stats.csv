@@ -19,10 +19,10 @@ quay.io/stackstate/spotlight:5.2.0-snapshot.245.cve-20-spotlight.6f44b385,0,0,0
 quay.io/stackstate/stackgraph-console:2.5-8.3.21,0,3,3
 quay.io/stackstate/stackgraph-hbase:2.5-8.3.21,0,3,3
 quay.io/stackstate/stackpacks:20261027091512-master-11bd260-2_0-prime-selfhosted,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261031125437-master-a77032b,0,3,3
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261031125437-master-a77032b,0,3,3
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261031125437-master-a77032b,0,3,3
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261031125437-master-a77032b-2.5,0,3,3
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261101125841-master-c014143,0,3,3
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261101125841-master-c014143,0,3,3
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261101125841-master-c014143,0,3,3
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261101125841-master-c014143-2.5,0,3,3
 quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261027133735-master-37d8256,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.74,0,0,0
 quay.io/stackstate/suse-observability-borg:20261027080845-1a99b230,0,0,0
