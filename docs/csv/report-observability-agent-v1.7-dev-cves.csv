@@ -1,1 +1,7 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+quay.io/stackstate/container-tools:1.8.6-so39,observability-agent/v1.7-dev,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,quay.io/stackstate/container-tools:1.8.6-so39 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+quay.io/stackstate/container-tools:1.8.6-so39,observability-agent/v1.7-dev,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,quay.io/stackstate/container-tools:1.8.6-so39 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+quay.io/stackstate/promtail:3.6.11-so30,observability-agent/v1.7-dev,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,quay.io/stackstate/promtail:3.6.11-so30 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+quay.io/stackstate/promtail:3.6.11-so30,observability-agent/v1.7-dev,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,quay.io/stackstate/promtail:3.6.11-so30 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b,observability-agent/v1.7-dev,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b,observability-agent/v1.7-dev,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,quay.io/stackstate/stackstate-k8s-process-agent:910b2c7b (sles 15.7),1.0.7-150200.3.8.1,false,affected,
