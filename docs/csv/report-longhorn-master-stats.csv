@@ -11,5 +11,5 @@ longhornio/longhorn-engine:master-head,0,14,14
 longhornio/longhorn-instance-manager:master-head,0,0,0
 longhornio/longhorn-manager:master-head,0,0,0
 longhornio/longhorn-share-manager:master-head,0,7,7
-longhornio/longhorn-ui:master-head,0,12,12
-longhornio/support-bundle-kit:v0.0.93,0,26,26
+longhornio/longhorn-ui:master-head,0,11,11
+longhornio/support-bundle-kit:v0.0.93,0,25,25
