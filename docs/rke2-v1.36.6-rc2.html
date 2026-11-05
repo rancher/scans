@@ -4,10 +4,60 @@
 <title>SUSE Rancher - Images CVE Scans</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+/* Self-hosted fonts shared by the CVE portal and the CVE dashboard. All the
+   fonts are licensed under the SIL Open Font License 1.1 (see the OFL-*.txt
+   files) and are the latin subset of the @fontsource packages. The URLs are
+   relative to the page or stylesheet, where the files are copied to `fonts/`. */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/lato-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/lato-latin-700-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('fonts/poppins-latin-300-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/poppins-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/roboto-mono-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/roboto-mono-latin-500-normal.woff2') format('woff2');
+}
+
 /* SUSE Rancher CVE Scans portal — shared styles for the index and per-release pages.
    Design system inspired by the Trivy scan report layout. Supports light/dark themes
    via the data-theme attribute on <html>. */
@@ -511,7 +561,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - RKE2 v1.36.6-rc2 version - CVE Scans - 2026-11-04</h1>
+<h1>SUSE Rancher - RKE2 v1.36.6-rc2 version - CVE Scans - 2026-11-05</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -692,9 +742,9 @@ the distinctive tag '*' close to its severity.</li>
 <p>
 Note: This page uses embedded JavaScript for filtering and search
 functionalities. If JavaScript support is disabled in your browser, the page
-will still be usable, but those functions will not work as expected. This page
-loads fonts from Google Fonts (fonts.googleapis.com); no other external code or
-dependencies are imported by this page.
+will still be usable, but those functions will not work as expected. The fonts
+are hosted together with this page and no external code or dependencies are
+imported by it.
 </p>
 <p><b>
 The SUSE Rancher CVE data is provided by SUSE under the Creative

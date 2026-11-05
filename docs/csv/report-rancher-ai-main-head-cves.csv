@@ -1,4 +1,7 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),1.0.7-150200.3.8.1,false,not_affected,vulnerable_code_not_present
 ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,curl,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),8.22.0-150700.7.33.1,false,affected,
+ghcr.io/rancher/ui-extension-rancher-ai-ui:head,rancher-ai/main-head,libcurl4,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,ghcr.io/rancher/ui-extension-rancher-ai-ui:head (sles 15.7),8.22.0-150700.7.33.1,false,affected,
 stgregistry.suse.com/rancher/rancher-ai-agent:head,rancher-ai/main-head,libexpat1,2.7.4-160100.2.1,sles,SUSE-SU-2026:23912-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:head (sles 16.0),2.8.4-160000.1.1,false,affected,
+stgregistry.suse.com/rancher/rancher-ai-agent:head,rancher-ai/main-head,libexpat1,2.7.4-160100.2.1,sles,SUSE-SU-2026:24469-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-agent:head (sles 16.0),2.8.5-160000.1.1,false,affected,

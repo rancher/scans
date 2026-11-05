@@ -19,6 +19,8 @@ neuvector/controller:5.5.5,neuvector/v5.5,github.com/go-jose/go-jose/v4,v4.1.4,g
 neuvector/controller:5.5.5,neuvector/v5.5,github.com/go-jose/go-jose/v4,v4.1.4,gobinary,CVE-2026-116587,HIGH,https://avd.aquasec.com/nvd/cve-2026-116587,usr/local/bin/upgrader,4.1.6,false,affected,
 neuvector/controller:5.5.5,neuvector/v5.5,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,neuvector/controller:5.5.5 (sles 15.7),1.0.7-150200.3.8.1,false,not_affected,vulnerable_code_not_present
 neuvector/controller:5.5.5,neuvector/v5.5,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,neuvector/controller:5.5.5 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+neuvector/controller:5.5.5,neuvector/v5.5,curl,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,neuvector/controller:5.5.5 (sles 15.7),8.22.0-150700.7.33.1,false,affected,
+neuvector/controller:5.5.5,neuvector/v5.5,libcurl4,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,neuvector/controller:5.5.5 (sles 15.7),8.22.0-150700.7.33.1,false,affected,
 neuvector/enforcer:5.5.5,neuvector/v5.5,github.com/go-jose/go-jose/v3,v3.0.5,gobinary,CVE-2026-116585,HIGH,https://avd.aquasec.com/nvd/cve-2026-116585,usr/local/bin/consul,,false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/enforcer:5.5.5,neuvector/v5.5,github.com/go-jose/go-jose/v4,v4.1.4,gobinary,CVE-2026-116585,HIGH,https://avd.aquasec.com/nvd/cve-2026-116585,usr/local/bin/agent,4.1.5,false,affected,severity_changed_due_to_suse_cvss_score
 neuvector/enforcer:5.5.5,neuvector/v5.5,github.com/go-jose/go-jose/v4,v4.1.4,gobinary,CVE-2026-116585,HIGH,https://avd.aquasec.com/nvd/cve-2026-116585,usr/local/bin/consul,4.1.5,false,affected,severity_changed_due_to_suse_cvss_score
@@ -33,6 +35,8 @@ neuvector/enforcer:5.5.5,neuvector/v5.5,golang.org/x/net,v0.59.0,gobinary,CVE-20
 neuvector/enforcer:5.5.5,neuvector/v5.5,golang.org/x/net,v0.59.0,gobinary,CVE-2026-78669,HIGH,https://avd.aquasec.com/nvd/cve-2026-78669,usr/bin/yq,0.60.0,false,affected,
 neuvector/enforcer:5.5.5,neuvector/v5.5,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,neuvector/enforcer:5.5.5 (sles 15.7),1.0.7-150200.3.8.1,false,not_affected,vulnerable_code_not_present
 neuvector/enforcer:5.5.5,neuvector/v5.5,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,neuvector/enforcer:5.5.5 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+neuvector/enforcer:5.5.5,neuvector/v5.5,curl,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,neuvector/enforcer:5.5.5 (sles 15.7),8.22.0-150700.7.33.1,false,affected,
+neuvector/enforcer:5.5.5,neuvector/v5.5,libcurl4,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,neuvector/enforcer:5.5.5 (sles 15.7),8.22.0-150700.7.33.1,false,affected,
 neuvector/manager:5.5.5,neuvector/v5.5,libpython3_13-1_0,3.13.15-150700.4.56.1,sles,SUSE-SU-2026:4941-1,HIGH,,neuvector/manager:5.5.5 (sles 15.7),3.13.16-150700.4.61.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.5.5,neuvector/v5.5,python313,3.13.15-150700.4.56.1,sles,SUSE-SU-2026:4941-1,HIGH,,neuvector/manager:5.5.5 (sles 15.7),3.13.16-150700.4.61.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.5.5,neuvector/v5.5,python313-base,3.13.15-150700.4.56.1,sles,SUSE-SU-2026:4941-1,HIGH,,neuvector/manager:5.5.5 (sles 15.7),3.13.16-150700.4.61.1,false,not_affected,vulnerable_code_not_in_execute_path
@@ -41,3 +45,5 @@ neuvector/registry-adapter:0.2.13,neuvector/v5.5,github.com/go-jose/go-jose/v4,v
 neuvector/registry-adapter:0.2.13,neuvector/v5.5,github.com/go-jose/go-jose/v4,v4.1.4,gobinary,CVE-2026-116587,HIGH,https://avd.aquasec.com/nvd/cve-2026-116587,usr/local/bin/adapter,4.1.6,false,affected,
 neuvector/updater:0.0.17,neuvector/v5.5,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,neuvector/updater:0.0.17 (sles 15.7),1.0.7-150200.3.8.1,false,not_affected,vulnerable_code_not_present
 neuvector/updater:0.0.17,neuvector/v5.5,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,neuvector/updater:0.0.17 (sles 15.7),1.0.7-150200.3.8.1,false,affected,
+neuvector/updater:0.0.17,neuvector/v5.5,curl,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,neuvector/updater:0.0.17 (sles 15.7),8.22.0-150700.7.33.1,false,affected,
+neuvector/updater:0.0.17,neuvector/v5.5,libcurl4,8.14.1-150700.7.26.1,sles,SUSE-SU-2026:5068-1,HIGH,,neuvector/updater:0.0.17 (sles 15.7),8.22.0-150700.7.33.1,false,affected,
