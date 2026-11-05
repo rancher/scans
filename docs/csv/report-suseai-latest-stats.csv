@@ -77,9 +77,9 @@ ghcr.io/kubeflow/notebooks/tensorboard-controller:v1.11.0,0,41,41
 ghcr.io/kubeflow/notebooks/tensorboards-web-app:v1.11.0,1,32,33
 ghcr.io/kubeflow/notebooks/volumes-web-app:v1.11.0,1,32,33
 ghcr.io/kubeflow/trainer/dataset-initializer:v2.3.0,5,26,31
-ghcr.io/kubeflow/trainer/mlx-runtime:v2.3.0,42,676,718
+ghcr.io/kubeflow/trainer/mlx-runtime:v2.3.0,42,693,735
 ghcr.io/kubeflow/trainer/model-initializer:v2.3.0,8,56,64
-ghcr.io/kubeflow/trainer/torchtune-trainer:v2.3.0,55,951,1006
+ghcr.io/kubeflow/trainer/torchtune-trainer:v2.3.0,55,968,1023
 ghcr.io/kubeflow/trainer/trainer-controller-manager:v2.3.0,0,23,23
 ghcr.io/kubeflow/training-v1/training-operator:v1-3a3a1da,0,11,11
 ghcr.io/suse/suse-ai-ollama-exporter:3.0.0,0,8,8
@@ -88,7 +88,7 @@ gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/kubeflow:0.5.0,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/litellm:1.106.4,0,0,0
 gitlab-registry.prg2.suse.org/suse-ai/ci-cd-recipes/suse/qdrant:1.20.0,0,0,0
 kserve/agent:v0.21.0,1,20,21
-kserve/huggingfaceserver:v0.21.0,31,654,685
+kserve/huggingfaceserver:v0.21.0,31,655,686
 kserve/huggingfaceserver:v0.21.0-gpu,25,453,478
 kserve/kserve-controller:v0.21.0,1,20,21
 kserve/lgbserver:v0.21.0,13,90,103
@@ -104,13 +104,13 @@ kubeflowkatib/mxnet-mnist:v0.16.0,16,132,148
 kubeflowkatib/pytorch-mnist-cpu:v0.17.0,16,140,156
 litellm/litellm-database:v1.106.6,0,18,18
 litellm/litellm:v1.106.6,0,18,18
-nvcr.io/nvidia/tritonserver:23.05-py3,65,1545,1610
+nvcr.io/nvidia/tritonserver:23.05-py3,65,1562,1627
 python:3.15.2,15,269,284
-pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,53,873,926
+pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,53,894,947
 pytorch/torchserve-kfs:0.12.0,11,248,259
 qdrant/qdrant:v1.20.0,0,53,53
 qdrant/qdrant:v1.20.0-gpu-nvidia,0,11,11
 registry.k8s.io/jobset/jobset:v0.13.0,0,11,11
 seldonio/mlserver:1.7.1,17,277,294
 tensorflow/serving:2.21.0,0,4,4
-tensorflow/tensorflow:2.21.0,47,851,898
+tensorflow/tensorflow:2.21.0,47,868,915

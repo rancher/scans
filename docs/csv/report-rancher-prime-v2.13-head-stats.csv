@@ -167,7 +167,7 @@ rancher/rancher-agent:v2.13-head,0,6,6
 rancher/rancher-ai-agent:v1.0.2,5,75,80
 rancher/rancher-ai-mcp:v1.0.2,0,31,31
 rancher/rancher-webhook:v0.9.11,0,0,0
-rancher/rancher:v2.13-head,0,122,122
+rancher/rancher:v2.13-head,0,56,56
 rancher/remotedialer-proxy:v0.6.5,0,0,0
 rancher/rke2-cloud-provider:v1.34.12-0.20260915234148-f2918dc7011c-build20260916,0,10,10
 rancher/rke2-runtime:v1.32.13-rke2r1,0,128,128

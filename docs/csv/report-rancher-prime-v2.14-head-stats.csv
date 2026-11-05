@@ -151,7 +151,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
 rancher/prometheus-federator:v6.0.7,0,0,0
 rancher/rancher-agent:v2.14-head,0,6,6
 rancher/rancher-webhook:v0.10.13,0,0,0
-rancher/rancher:v2.14-head,0,117,117
+rancher/rancher:v2.14-head,0,51,51
 rancher/remotedialer-proxy:v0.7.7,0,0,0
 rancher/rke2-cloud-provider:v1.35.9-0.20260915234130-a341ba01f9eb-build20260916,0,10,10
 rancher/rke2-runtime:v1.33.13-rke2r2,0,107,107

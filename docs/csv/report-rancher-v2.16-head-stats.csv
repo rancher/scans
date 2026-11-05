@@ -90,8 +90,9 @@ rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,30,30
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,29,29
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,15,15
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
+rancher/rancher-agent:v2.16-head,0,0,0
 rancher/rancher-assets:v2.16-20261027T2136Z-dev,0,0,0
-rancher/rancher-server:dev,0,0,0
+rancher/rancher-server:v2.16-head,0,12,12
 rancher/rancher-webhook:v0.12.1-rc.16,0,0,0
 rancher/remotedialer-proxy:v0.9.1-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.37.1-0.20260915225838-315ede265f11-build20260916,0,10,10
@@ -104,7 +105,7 @@ rancher/rke2-upgrade:v1.36.5-rke2r1,0,24,24
 rancher/rke2-upgrade:v1.37.1-rke2r1,0,24,24
 rancher/scc-operator:v0.5.3,0,0,0
 rancher/security-scan:v0.11.0-rc.2,0,32,32
-rancher/shell:v0.9.0-rc.1,0,62,62
+rancher/shell:v0.9.1-rc.2,0,0,0
 rancher/supportability-review-app-frontend:v0.27.0,0,0,0
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.27.0,0,0,0
@@ -118,4 +119,4 @@ rancher/system-agent-installer-rke2:v1.37.1-rke2r1,0,0,0
 rancher/system-agent:v0.16.0-rc.5-suc,0,3,3
 rancher/system-upgrade-controller:v0.20.2,0,10,10
 rancher/turtles:v0.28.0-rc.4,0,0,0
-rancher/ui-plugin-catalog:4.54.0,0,1,1
+rancher/ui-plugin-catalog:4.54.0,0,4,4
