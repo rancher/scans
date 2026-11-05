@@ -36,8 +36,8 @@ rancher/hardened-traefik:v3.7.13-build20260910,0,14,14
 rancher/hardened-whereabouts:v0.9.4-build20260819,0,41,41
 rancher/harvester-cloud-provider:v0.2.10,0,0,0
 rancher/harvester-cloud-provider:v0.2.8,0,17,17
-rancher/harvester-csi-driver:v0.2.10,0,23,23
-rancher/harvester-csi-driver:v0.2.11,0,1,1
+rancher/harvester-csi-driver:v0.2.10,0,22,22
+rancher/harvester-csi-driver:v0.2.11,0,0,0
 rancher/k3s-upgrade:v1.35.9-k3s1,0,9,9
 rancher/k3s-upgrade:v1.36.5-k3s1,0,9,9
 rancher/k3s-upgrade:v1.37.1-k3s1,0,9,9
@@ -70,8 +70,8 @@ rancher/mirrored-calico-typha:v3.32.2,0,5,5
 rancher/mirrored-calico-whisker-backend:v3.32.2,0,5,5
 rancher/mirrored-calico-whisker:v3.32.2,0,0,0
 rancher/mirrored-cilium-certgen:v0.4.11,0,13,13
-rancher/mirrored-cilium-cilium-envoy:v1.37.6-1789133542-cbec91f666af0bf742da986d43832932dbb26b82,0,4,4
-rancher/mirrored-cilium-cilium:v1.20.2,0,134,134
+rancher/mirrored-cilium-cilium-envoy:v1.37.6-1789133542-cbec91f666af0bf742da986d43832932dbb26b82,0,2,2
+rancher/mirrored-cilium-cilium:v1.20.2,0,132,132
 rancher/mirrored-cilium-clustermesh-apiserver:v1.20.2,0,36,36
 rancher/mirrored-cilium-hubble-relay:v1.20.2,0,19,19
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.6,0,11,11
@@ -101,7 +101,7 @@ rancher/mirrored-sig-storage-csi-provisioner:v4.0.1,0,34,34
 rancher/mirrored-sig-storage-csi-resizer:v1.12.0,0,30,30
 rancher/mirrored-sig-storage-livenessprobe:v2.15.0,0,29,29
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,15,15
-rancher/nginx-ingress-controller:v1.14.5-hardened2,0,80,80
+rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
 rancher/rancher-agent:v2.16-head,0,0,0
 rancher/rancher-assets:v2.16-20261027T2136Z-dev,0,0,0
 rancher/rancher-webhook:v0.12.1-rc.15,0,0,0
@@ -127,4 +127,4 @@ rancher/system-agent-installer-rke2:v1.37.1-rke2r1,0,0,0
 rancher/system-agent:v0.16.0-rc.5-suc,0,3,3
 rancher/system-upgrade-controller:v0.20.2,0,10,10
 rancher/turtles:v0.28.0-rc.3,0,0,0
-rancher/ui-plugin-catalog:4.53.0,0,3,3
+rancher/ui-plugin-catalog:4.53.0,0,1,1

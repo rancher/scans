@@ -15,7 +15,7 @@ rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,0,0
 rancher/hardened-traefik:v3.7.16-build20261028,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,0,0
 rancher/harvester-cloud-provider:v0.2.10,0,0,0
-rancher/harvester-csi-driver:v0.2.11,0,1,1
+rancher/harvester-csi-driver:v0.2.11,0,0,0
 rancher/klipper-helm:v0.13.3-build20261021,0,0,0
 rancher/klipper-lb:v0.4.17,0,0,0
 rancher/mirrored-calico-apiserver:v3.32.2,0,5,5
@@ -35,8 +35,8 @@ rancher/mirrored-calico-typha:v3.32.2,0,5,5
 rancher/mirrored-calico-whisker-backend:v3.32.2,0,5,5
 rancher/mirrored-calico-whisker:v3.32.2,0,0,0
 rancher/mirrored-cilium-certgen:v0.4.13,0,0,0
-rancher/mirrored-cilium-cilium-envoy:v1.39.5-1792733054-8c73b2816bc8239e27f1fd53b271884688137459,0,2,2
-rancher/mirrored-cilium-cilium:v1.20.4,0,2,2
+rancher/mirrored-cilium-cilium-envoy:v1.39.5-1792733054-8c73b2816bc8239e27f1fd53b271884688137459,0,0,0
+rancher/mirrored-cilium-cilium:v1.20.4,0,0,0
 rancher/mirrored-cilium-clustermesh-apiserver:v1.20.4,0,0,0
 rancher/mirrored-cilium-hubble-relay:v1.20.4,0,0,0
 rancher/mirrored-cilium-hubble-ui-backend:v0.13.6,0,11,11
@@ -60,7 +60,7 @@ registry.rancher.com/rancher/hardened-csi-provisioner:v4.0.1-build20261020,0,1,1
 registry.rancher.com/rancher/hardened-csi-resizer:v2.0.0-build20261023,0,0,0
 registry.rancher.com/rancher/hardened-csi-snapshotter:v8.6.0-build20261026,0,0,0
 registry.rancher.com/rancher/hardened-livenessprobe:v2.17.0-build20261023,0,0,0
-registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.8.0-build20261021,0,2,2
+registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.8.0-build20261021,0,1,1
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.8.0-build20261021,0,2,2
 registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime18,0,0,0
 registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime18,0,0,0

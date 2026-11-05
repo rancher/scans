@@ -105,7 +105,7 @@ kubeflowkatib/pytorch-mnist-cpu:v0.17.0,16,140,156
 litellm/litellm-database:v1.106.6,0,18,18
 litellm/litellm:v1.106.6,0,18,18
 nvcr.io/nvidia/tritonserver:23.05-py3,65,1545,1610
-python:3.15.2,16,571,587
+python:3.15.2,15,269,284
 pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,53,873,926
 pytorch/torchserve-kfs:0.12.0,11,248,259
 qdrant/qdrant:v1.20.0,0,53,53
