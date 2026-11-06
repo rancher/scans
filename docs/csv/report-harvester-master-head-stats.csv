@@ -20,12 +20,12 @@ rancher/cluster-api-controller:v1.14.3,0,15,15
 rancher/fleet-agent:v0.16.3,0,0,0
 rancher/fleet:v0.16.3,0,0,0
 rancher/hardened-addon-resizer:1.8.24-build20261021,0,0,0
-rancher/hardened-calico:v3.32.2-build20261022,0,2,2
+rancher/hardened-calico:v3.32.2-build20261022,0,0,0
 rancher/hardened-cluster-autoscaler:v1.11.0-build20261020,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20261022,0,0,0
 rancher/hardened-coredns:v1.14.7-build20261020,0,0,0
 rancher/hardened-dns-node-cache:1.27.2-r1-build20261022,0,0,0
-rancher/hardened-etcd:v3.7.1-k3s3-build20261020,0,2,2
+rancher/hardened-etcd:v3.7.1-k3s3-build20261020,0,0,0
 rancher/hardened-flannel:v0.28.10-build20261022,0,0,0
 rancher/hardened-k8s-metrics-server:v0.9.0-build20261020,0,0,0
 rancher/hardened-kubernetes:v1.37.1-rke2r1-build20260924,0,66,66

@@ -7,7 +7,7 @@ rancher/fleet-agent:v0.17.0-beta.3,0,0,0
 rancher/fleet:v0.17.0-beta.3,0,0,0
 rancher/gke-operator:v1.16.0-rc.4,0,1,1
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,11,11
-rancher/hardened-calico:v3.32.2-build20260909,0,196,196
+rancher/hardened-calico:v3.32.2-build20260909,0,194,194
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,10,10
 rancher/hardened-cni-plugins:v1.9.1-build20260903,0,93,93
 rancher/hardened-coredns:v1.14.7-build20260909,0,10,10
@@ -42,7 +42,7 @@ rancher/local-path-provisioner:v0.0.37,0,15,15
 rancher/machine:v0.15.0-rancher146-rc.9,0,0,0
 rancher/mirrored-bci-micro:16.0-15.11,0,6,6
 rancher/mirrored-calico-apiserver:v3.32.2,0,5,5
-rancher/mirrored-calico-cni:v3.32.2,0,9,9
+rancher/mirrored-calico-cni:v3.32.2,0,8,8
 rancher/mirrored-calico-csi:v3.32.2,0,13,13
 rancher/mirrored-calico-ctl:v3.32.2,0,15,15
 rancher/mirrored-calico-envoy-gateway:v3.32.2,0,20,20
@@ -116,7 +116,7 @@ rancher/system-agent-installer-k3s:v1.37.2-k3s1,0,0,0
 rancher/system-agent-installer-rke2:v1.35.9-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.36.5-rke2r1,0,0,0
 rancher/system-agent-installer-rke2:v1.37.1-rke2r1,0,0,0
-rancher/system-agent:v0.16.0-rc.5-suc,0,3,3
+rancher/system-agent:v0.16.0-rc.6-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.2,0,10,10
 rancher/turtles:v0.28.0-rc.4,0,0,0
 rancher/ui-plugin-catalog:4.54.0,0,4,4

@@ -20,7 +20,7 @@ rancher/cluster-api-controller:v1.13.3,0,19,19
 rancher/fleet-agent:v0.16.2,0,10,10
 rancher/fleet:v0.16.2,0,20,20
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,11,11
-rancher/hardened-calico:v3.32.2-build20260909,0,196,196
+rancher/hardened-calico:v3.32.2-build20260909,0,194,194
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,10,10
 rancher/hardened-cni-plugins:v1.9.1-build20260903,0,93,93
 rancher/hardened-coredns:v1.14.7-build20260909,0,10,10
@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.5-rke2r1-build20260923,0,66,66
 rancher/hardened-multus-cni:v4.3.1-build20260910,0,44,44
 rancher/hardened-snapshot-controller:v8.6.0-build20260909,0,12,12
 rancher/hardened-traefik:v3.7.13-build20260910,0,14,14
-rancher/harvester-cluster-repo:8d5de237,0,0,0
+rancher/harvester-cluster-repo:0d8cc6f6,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.4-dev.1,0,0,0
 rancher/harvester-load-balancer-webhook:master-head,0,0,0

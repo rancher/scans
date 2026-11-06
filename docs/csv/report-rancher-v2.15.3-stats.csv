@@ -8,7 +8,7 @@ rancher/fleet-agent:v0.16.3,0,0,0
 rancher/fleet:v0.16.3,0,0,0
 rancher/gke-operator:v1.15.4,0,0,0
 rancher/hardened-addon-resizer:1.8.23-build20260909,0,11,11
-rancher/hardened-calico:v3.32.2-build20260909,0,196,196
+rancher/hardened-calico:v3.32.2-build20260909,0,194,194
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260819,0,10,10
 rancher/hardened-cni-plugins:v1.9.1-build20260903,0,93,93
 rancher/hardened-coredns:v1.14.7-build20260909,0,10,10
@@ -46,7 +46,7 @@ rancher/local-path-provisioner:v0.0.37,0,15,15
 rancher/machine:v0.15.0-rancher145.3,0,3,3
 rancher/mirrored-bci-micro:16.0-15.11,0,6,6
 rancher/mirrored-calico-apiserver:v3.32.2,0,5,5
-rancher/mirrored-calico-cni:v3.32.2,0,9,9
+rancher/mirrored-calico-cni:v3.32.2,0,8,8
 rancher/mirrored-calico-csi:v3.32.2,0,13,13
 rancher/mirrored-calico-ctl:v3.32.2,0,15,15
 rancher/mirrored-calico-envoy-gateway:v3.32.2,0,20,20

@@ -25,7 +25,7 @@ rancher/cluster-api-controller:v1.12.7,0,22,22
 rancher/fleet-agent:v0.15.4,0,20,20
 rancher/fleet:v0.15.4,1,62,63
 rancher/hardened-addon-resizer:1.8.23-build20260717,0,16,16
-rancher/hardened-calico:v3.32.1-build20260722,1,47,48
+rancher/hardened-calico:v3.32.1-build20260722,1,45,46
 rancher/hardened-cluster-autoscaler:v1.10.3-build20260717,0,15,15
 rancher/hardened-cni-plugins:v1.9.1-build20260717,0,3,3
 rancher/hardened-coredns:v1.14.6-build20260722,0,21,21

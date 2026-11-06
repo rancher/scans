@@ -617,54 +617,6 @@ the distinctive tag '*' close to its severity.</li>
 <th onclick="sort( 9 )">Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>rancher/hardened-calico:v3.32.2-build20261022</td>
-<td>false</td>
-<td>RKE2 v1.36 pre-release</td>
-<td>opt/cni/bin/calico</td>
-<td>github.com/klauspost/compress@v1.18.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-63209.html">CVE-2026-63209</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-calico:v3.32.2-build20261022</td>
-<td>false</td>
-<td>RKE2 v1.36 pre-release</td>
-<td>opt/cni/bin/calico-ipam</td>
-<td>github.com/klauspost/compress@v1.18.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-63209.html">CVE-2026-63209</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
-<td>false</td>
-<td>RKE2 v1.36 pre-release</td>
-<td>usr/local/bin/etcd</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
-<td>false</td>
-<td>RKE2 v1.36 pre-release</td>
-<td>usr/local/bin/etcdctl</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
 <td>false</td>
 <td>RKE2 v1.36 pre-release</td>
@@ -731,18 +683,6 @@ the distinctive tag '*' close to its severity.</li>
 <td>code/apiserver</td>
 <td>google.golang.org/grpc@v1.82.1</td>
 <td><a href="https://www.suse.com/security/cve/CVE-2026-84445.html">CVE-2026-84445</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-calico-cni:v3.32.2</td>
-<td>true</td>
-<td>RKE2 v1.36 pre-release</td>
-<td>opt/cni/bin/calico</td>
-<td>github.com/klauspost/compress@v1.18.0</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2026-63209.html">CVE-2026-63209</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -4313,6 +4253,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36 pre-release</td>
+<td>opt/cni/bin/calico</td>
+<td>github.com/klauspost/compress@v1.18.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36 pre-release</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>github.com/klauspost/compress@v1.18.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/hardened-cluster-autoscaler:v1.11.0-build20261020</td>
 <td>false</td>
 <td>RKE2 v1.36 pre-release</td>
@@ -4322,6 +4286,30 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36 pre-release</td>
+<td>usr/local/bin/etcd</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36 pre-release</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
@@ -4514,6 +4502,18 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="sev sev-NONE">none</span></td>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-calico-cni:v3.32.2</td>
+<td>true</td>
+<td>RKE2 v1.36 pre-release</td>
+<td>opt/cni/bin/calico</td>
+<td>github.com/klauspost/compress@v1.18.0</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
