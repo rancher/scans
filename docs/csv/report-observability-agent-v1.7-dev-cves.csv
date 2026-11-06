@@ -1,1 +1,2 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+quay.io/stackstate/stackstate-k8s-agent:431eff6b,observability-agent/v1.7-dev,oauthlib,4.0.0,python-pkg,CVE-2026-49272,HIGH,https://avd.aquasec.com/nvd/cve-2026-49272,Python,4.0.1,false,affected,

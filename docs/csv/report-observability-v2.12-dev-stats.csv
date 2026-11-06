@@ -15,7 +15,7 @@ quay.io/stackstate/kafkaup-operator:0.0.17,0,0,0
 quay.io/stackstate/kubernetes-rbac-agent:bfbe72f1-1101-release,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.3-so7,0,0,0
 quay.io/stackstate/s3proxy:3.2.0-so30,0,0,0
-quay.io/stackstate/spotlight:5.2.0-snapshot.243.rebuild.90,0,0,0
+quay.io/stackstate/spotlight:5.2.0-snapshot.243.rebuild.90,0,1,1
 quay.io/stackstate/stackgraph-console:2.5-8.3.22,0,2,2
 quay.io/stackstate/stackgraph-hbase:2.5-8.3.22,1,2,3
 quay.io/stackstate/stackpacks:20261027091512-master-11bd260-2_0-prime-selfhosted,0,0,0
