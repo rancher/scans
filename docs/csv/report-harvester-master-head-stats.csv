@@ -1,5 +1,5 @@
 image,critical,high,total
-ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,78,78
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,76,76
 kubeovn/kube-ovn:v1.16.2,0,99,99
 kubeovn/vpc-nat-gateway:v1.16.2,0,9,9
 longhornio/backing-image-manager:master-head,0,0,0
@@ -54,7 +54,7 @@ rancher/harvester:master-head,0,0,0
 rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kubectl:v1.35.1,0,19,19
-rancher/kuberlr-kubectl:v8.1.2,0,46,46
+rancher/kuberlr-kubectl:v9.0.1,0,13,13
 rancher/mirrored-fluent-fluent-bit:3.1.8,3,54,57
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
@@ -69,7 +69,7 @@ rancher/rancher-webhook:v2.16-head,0,0,0
 rancher/rancher:v2.16-head,0,12,12
 rancher/rke2-cloud-provider:v1.37.2-0.20261016152943-06368081f0b2-build20261021,0,0,0
 rancher/rke2-runtime:v1.37.2-rke2r1,0,0,0
-rancher/shell:v0.8.3,0,34,34
+rancher/shell:v0.9.1-rc.2,0,0,0
 rancher/support-bundle-kit:master-head,0,1,1
 rancher/system-agent-installer-rancher:v2.15.2,0,19,19
 rancher/system-agent:v0.15.3-suc,0,0,0

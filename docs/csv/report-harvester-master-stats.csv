@@ -1,5 +1,5 @@
 image,critical,high,total
-ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,78,78
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,76,76
 kubeovn/kube-ovn:v1.16.4,0,80,80
 kubeovn/vpc-nat-gateway:v1.16.4,0,0,0
 longhornio/backing-image-manager:v1.13.0,1,12,13
