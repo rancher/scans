@@ -561,7 +561,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - SUSE AI latest version - CVE Scans - 2026-11-07</h1>
+<h1>SUSE Rancher - SUSE AI latest version - CVE Scans - 2026-11-08</h1>
 
 <section class="callout callout-collapsible">
 <h3 onclick="this.parentElement.classList.toggle('collapsed')">How to use this page</h3>
@@ -12639,54 +12639,6 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
-<td>false</td>
-<td>SUSE AI latest</td>
-<td>Node.js</td>
-<td>npm@1.0.1</td>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2018-7408">CVE-2018-7408</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>node-pkg</td>
-</tr>
-<tr class="issue">
-<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
-<td>false</td>
-<td>SUSE AI latest</td>
-<td>Node.js</td>
-<td>npm@1.0.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2019-16775.html">CVE-2019-16775</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>node-pkg</td>
-</tr>
-<tr class="issue">
-<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
-<td>false</td>
-<td>SUSE AI latest</td>
-<td>Node.js</td>
-<td>npm@1.0.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2019-16776.html">CVE-2019-16776</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>node-pkg</td>
-</tr>
-<tr class="issue">
-<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
-<td>false</td>
-<td>SUSE AI latest</td>
-<td>Node.js</td>
-<td>npm@1.0.1</td>
-<td><a href="https://www.suse.com/security/cve/CVE-2019-16777.html">CVE-2019-16777</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>node-pkg</td>
 </tr>
 <tr class="issue">
 <td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
@@ -111596,6 +111548,30 @@ the distinctive tag '*' close to its severity.</li>
 <td>python:3.15.2</td>
 <td>false</td>
 <td>SUSE AI latest</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@6.12.115-2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-99272">CVE-2026-99272</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>python:3.15.2</td>
+<td>false</td>
+<td>SUSE AI latest</td>
+<td>linux-libc-dev</td>
+<td>linux-libc-dev@6.12.115-2</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-99281">CVE-2026-99281</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>debian</td>
+</tr>
+<tr class="issue">
+<td>python:3.15.2</td>
+<td>false</td>
+<td>SUSE AI latest</td>
 <td>Python</td>
 <td>msgpack@1.1.2</td>
 <td><a href="https://github.com/advisories/GHSA-6v7p-g79w-8964">GHSA-6v7p-g79w-8964</a></td>
@@ -165447,6 +165423,54 @@ the distinctive tag '*' close to its severity.</li>
 <td><span class="status status-clear">not affected</span></td>
 <td>vulnerable code not in execute path</td>
 <td>debian</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
+<td>false</td>
+<td>SUSE AI latest</td>
+<td>Node.js</td>
+<td>npm@1.0.1</td>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2018-7408">CVE-2018-7408</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>component not present</td>
+<td>node-pkg</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
+<td>false</td>
+<td>SUSE AI latest</td>
+<td>Node.js</td>
+<td>npm@1.0.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2019-16775.html">CVE-2019-16775</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>component not present</td>
+<td>node-pkg</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
+<td>false</td>
+<td>SUSE AI latest</td>
+<td>Node.js</td>
+<td>npm@1.0.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2019-16776.html">CVE-2019-16776</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>component not present</td>
+<td>node-pkg</td>
+</tr>
+<tr class="issue not_affected">
+<td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>
+<td>false</td>
+<td>SUSE AI latest</td>
+<td>Node.js</td>
+<td>npm@1.0.1</td>
+<td><a href="https://www.suse.com/security/cve/CVE-2019-16777.html">CVE-2019-16777</a></td>
+<td><span class="sev sev-NONE">none</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>component not present</td>
+<td>node-pkg</td>
 </tr>
 <tr class="issue not_affected">
 <td>ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0</td>

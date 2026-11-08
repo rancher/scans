@@ -53,7 +53,7 @@ ghcr.io/kubeflow/kubeflow/central-dashboard:v1.10.0,7,71,78
 ghcr.io/kubeflow/kubeflow/jupyter-web-app:v1.10.0,4,44,48
 ghcr.io/kubeflow/kubeflow/kfam:v1.10.0,0,78,78
 ghcr.io/kubeflow/kubeflow/notebook-controller:v1.10.0,0,82,82
-ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0,7,86,93
+ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.0,7,82,89
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-cuda-full:v1.11.0,11,142,153
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.0,11,142,153
 ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.0,11,144,155
@@ -105,7 +105,7 @@ kubeflowkatib/pytorch-mnist-cpu:v0.17.0,16,144,160
 litellm/litellm-database:v1.106.6,0,20,20
 litellm/litellm:v1.106.6,0,20,20
 nvcr.io/nvidia/tritonserver:23.05-py3,70,1647,1717
-python:3.15.2,15,276,291
+python:3.15.2,15,278,293
 pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime,59,1003,1062
 pytorch/torchserve-kfs:0.12.0,11,248,259
 qdrant/qdrant:v1.20.0,0,56,56
