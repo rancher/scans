@@ -105,11 +105,11 @@ rancher/mirrored-longhornio-longhorn-ui:v1.12.1,1,16,17
 rancher/mirrored-longhornio-support-bundle-kit:v0.0.92,0,35,35
 rancher/mirrored-metrics-server:v0.9.0,0,23,23
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/mirrored-sig-storage-csi-attacher:v4.10.0,0,34,34
-rancher/mirrored-sig-storage-csi-node-driver-registrar:v2.14.0,0,33,33
+rancher/mirrored-sig-storage-csi-attacher:v4.10.0,0,32,32
+rancher/mirrored-sig-storage-csi-node-driver-registrar:v2.14.0,0,30,30
 rancher/mirrored-sig-storage-csi-provisioner:v4.0.1,0,34,34
-rancher/mirrored-sig-storage-csi-resizer:v2.0.0,0,48,48
-rancher/mirrored-sig-storage-livenessprobe:v2.17.0,0,33,33
+rancher/mirrored-sig-storage-csi-resizer:v2.0.0,0,46,46
+rancher/mirrored-sig-storage-livenessprobe:v2.17.0,0,28,28
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,15,15
 rancher/neuvector-compliance-config:1.0.19,0,0,0
 rancher/neuvector-controller:5.6.4,0,19,19
@@ -123,7 +123,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
 rancher/prometheus-federator:v7.0.2,0,0,0
 rancher/rancher-agent:v2.15-head,0,3,3
 rancher/rancher-webhook:v0.11.5-rc.1,0,0,0
-rancher/rancher:v2.15-head,0,41,41
+rancher/rancher:v2.15-head,0,36,36
 rancher/remotedialer-proxy:v0.8.4-rc.1,0,0,0
 rancher/rke2-cloud-provider:v1.36.6-0.20261016153003-c2fdd7c56c2c-build20261021,0,0,0
 rancher/rke2-runtime:v1.34.13-rke2r1,0,5,5
