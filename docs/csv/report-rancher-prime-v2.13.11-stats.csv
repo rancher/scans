@@ -45,8 +45,8 @@ rancher/hardened-traefik:v3.7.16-build20261028,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,0,0
 rancher/harvester-cloud-provider:v0.2.10,0,0,0
 rancher/harvester-cloud-provider:v0.2.8,0,17,17
-rancher/harvester-csi-driver:v0.2.10,0,22,22
-rancher/harvester-csi-driver:v0.2.11,0,0,0
+rancher/harvester-csi-driver:v0.2.10,0,24,24
+rancher/harvester-csi-driver:v0.2.11,0,2,2
 rancher/k3s-upgrade:v1.32.13-k3s1,0,29,29
 rancher/k3s-upgrade:v1.33.13-k3s2,0,24,24
 rancher/k3s-upgrade:v1.34.13-k3s1,0,0,0
@@ -100,7 +100,7 @@ rancher/mirrored-cluster-api-controller:v1.10.6,0,32,32
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
 rancher/mirrored-elemental-operator:1.8.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.8.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,54,57
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
 rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,32,32
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
@@ -165,7 +165,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,79,79
 rancher/prom-prometheus:v3.5.0,0,70,70
 rancher/prometheus-federator:v5.0.7,0,0,0
 rancher/rancher-agent:v2.13.11,0,16,16
-rancher/rancher-ai-agent:v1.0.2,5,75,80
+rancher/rancher-ai-agent:v1.0.2,5,76,81
 rancher/rancher-ai-mcp:v1.0.2,0,31,31
 rancher/rancher-webhook:v0.9.11,0,0,0
 rancher/rancher:v2.13.11,0,124,124
@@ -179,8 +179,8 @@ rancher/rke2-upgrade:v1.33.13-rke2r2,0,49,49
 rancher/rke2-upgrade:v1.34.13-rke2r1,0,7,7
 rancher/scc-operator:v0.5.3,0,0,0
 rancher/security-scan:v0.8.11,0,32,32
-rancher/shell:v0.6.6,0,38,38
-rancher/supportability-review-app-frontend:v0.26.0,0,3,3
+rancher/shell:v0.6.6,0,40,40
+rancher/supportability-review-app-frontend:v0.26.0,0,6,6
 rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.26.0,0,4,4
 rancher/supportability-review:latest,0,0,0

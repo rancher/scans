@@ -16,7 +16,7 @@ rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,0,0
 rancher/hardened-traefik:v3.7.17-build20261104,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,0,0
 rancher/harvester-cloud-provider:v0.2.10,0,0,0
-rancher/harvester-csi-driver:v0.2.11,0,0,0
+rancher/harvester-csi-driver:v0.2.11,0,2,2
 rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/mirrored-calico-apiserver:v3.32.2,0,5,5
@@ -63,5 +63,5 @@ registry.rancher.com/rancher/hardened-csi-resizer:v2.0.0-build20261023,0,0,0
 registry.rancher.com/rancher/hardened-livenessprobe:v2.17.0-build20261023,0,0,0
 registry.rancher.com/rancher/hardened-vsphere-csi-driver:v3.8.0-build20261021,0,1,1
 registry.rancher.com/rancher/hardened-vsphere-csi-syncer:v3.8.0-build20261021,0,2,2
-registry.rancher.com/rancher/kube-webhook-certgen:v1.15.1-prime18,0,0,0
-registry.rancher.com/rancher/nginx-ingress-controller:v1.15.1-prime18,0,0,0
+registry.rancher.com/rancher/kube-webhook-certgen:v1.15.2-prime1,0,0,0
+registry.rancher.com/rancher/nginx-ingress-controller:v1.15.2-prime1,0,2,2
