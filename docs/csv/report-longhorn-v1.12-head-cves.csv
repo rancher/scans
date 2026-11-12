@@ -1,5 +1,9 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 longhornio/backing-image-manager:v1.12.2,longhorn/v1.12-head,iperf,3.22-108.1,sles,SUSE-SU-2026:4678-1,HIGH,,longhornio/backing-image-manager:v1.12.2 (sles 15.7),3.22-150000.3.18.1,false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/backing-image-manager:v1.12.2,longhorn/v1.12-head,libiperf0,3.22-108.1,sles,SUSE-SU-2026:4678-1,HIGH,,longhornio/backing-image-manager:v1.12.2 (sles 15.7),3.22-150000.3.18.1,false,not_affected,vulnerable_code_not_in_execute_path
+longhornio/backing-image-manager:v1.12.2,longhorn/v1.12-head,libopenssl1_1,1.1.1w-150700.11.30.1,sles,SUSE-SU-2026:5172-1,HIGH,,longhornio/backing-image-manager:v1.12.2 (sles 15.7),1.1.1w-150700.11.35.1,false,affected,
+longhornio/longhorn-engine:v1.12.2,longhorn/v1.12-head,libopenssl1_1,1.1.1w-150700.11.30.1,sles,SUSE-SU-2026:5172-1,HIGH,,longhornio/longhorn-engine:v1.12.2 (sles 15.7),1.1.1w-150700.11.35.1,false,affected,
+longhornio/longhorn-instance-manager:v1.12.2,longhorn/v1.12-head,libopenssl1_1,1.1.1w-150700.11.30.1,sles,SUSE-SU-2026:5172-1,HIGH,,longhornio/longhorn-instance-manager:v1.12.2 (sles 15.7),1.1.1w-150700.11.35.1,false,affected,
+longhornio/longhorn-manager:v1.12.2,longhorn/v1.12-head,libopenssl1_1,1.1.1w-150700.11.30.1,sles,SUSE-SU-2026:5172-1,HIGH,,longhornio/longhorn-manager:v1.12.2 (sles 15.7),1.1.1w-150700.11.35.1,false,affected,
 longhornio/support-bundle-kit:v1.0.5,longhorn/v1.12-head,libbrotlicommon1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,longhornio/support-bundle-kit:v1.0.5 (sles 15.7),1.0.7-150200.3.8.1,false,not_affected,vulnerable_code_not_present
 longhornio/support-bundle-kit:v1.0.5,longhorn/v1.12-head,libbrotlidec1,1.0.7-150200.3.5.1,sles,SUSE-SU-2026:4945-1,HIGH,,longhornio/support-bundle-kit:v1.0.5 (sles 15.7),1.0.7-150200.3.8.1,false,affected,

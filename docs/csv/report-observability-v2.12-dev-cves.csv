@@ -1,1 +1,9 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+quay.io/stackstate/hadoop:3.5.0-so32,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/hadoop:3.5.0-so32 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/hbase-master:2.5-8.3.27,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/hbase-master:2.5-8.3.27 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/hbase-regionserver:2.5-8.3.27,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/hbase-regionserver:2.5-8.3.27 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/jmx-exporter:0.20.0-so25,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/jmx-exporter:0.20.0-so25 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/s3proxy:3.2.0-so30,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/s3proxy:3.2.0-so30 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/stackgraph-console:2.5-8.3.27,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/stackgraph-console:2.5-8.3.27 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/stackgraph-hbase:2.5-8.3.27,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/stackgraph-hbase:2.5-8.3.27 (sles 15.7),1.7.9-150000.3.7.1,false,affected,
+quay.io/stackstate/tephra-server:2.5-8.3.27,observability/v2.12-dev,libXi6,1.7.9-3.2.1,sles,SUSE-SU-2026:5165-1,HIGH,,quay.io/stackstate/tephra-server:2.5-8.3.27 (sles 15.7),1.7.9-150000.3.7.1,false,affected,

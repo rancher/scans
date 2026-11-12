@@ -2,7 +2,7 @@ image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,76,76
 kubeovn/kube-ovn:v1.16.4,0,80,80
 kubeovn/vpc-nat-gateway:v1.16.4,0,0,0
-longhornio/backing-image-manager:v1.13.0,1,12,13
+longhornio/backing-image-manager:v1.13.0,1,13,14
 longhornio/csi-attacher:v4.13.0,0,10,10
 longhornio/csi-node-driver-registrar:v2.18.0,0,10,10
 longhornio/csi-provisioner:v6.3.0,0,18,18
@@ -10,9 +10,9 @@ longhornio/csi-resizer:v2.2.1,0,17,17
 longhornio/csi-snapshotter:v8.6.0,0,18,18
 longhornio/livenessprobe:v2.20.0,0,10,10
 longhornio/longhorn-cli:v1.13.0,0,22,22
-longhornio/longhorn-engine:v1.13.0,0,34,34
-longhornio/longhorn-instance-manager:v1.13.0,1,31,32
-longhornio/longhorn-manager:v1.13.0,0,13,13
+longhornio/longhorn-engine:v1.13.0,0,35,35
+longhornio/longhorn-instance-manager:v1.13.0,1,32,33
+longhornio/longhorn-manager:v1.13.0,0,14,14
 longhornio/longhorn-share-manager:v1.13.0,0,17,17
 longhornio/longhorn-ui:v1.13.0,0,5,5
 longhornio/support-bundle-kit:v0.0.98,0,20,20
@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.6-rke2r1-build20261029,0,0,0
 rancher/hardened-multus-cni:v4.3.1-build20261022,0,0,0
 rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,0,0
 rancher/hardened-traefik:v3.7.16-build20261028,0,0,0
-rancher/harvester-cluster-repo:f837be9f,0,0,0
+rancher/harvester-cluster-repo:25642c30,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.4-dev.1,0,0,0
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -56,7 +56,7 @@ rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kuberlr-kubectl:v8.1.2,0,46,46
 rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,84,94
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,86,96
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
 rancher/mirrored-library-busybox:1.37.0,0,0,0
