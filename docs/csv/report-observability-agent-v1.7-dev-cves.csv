@@ -1,1 +1,3 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
+registry.rancher.com/suse-observability/generic-sidecar-injector:689250c0-1111-release,observability-agent/v1.7-dev,libpcre2-8-0,10.45-160000.4.1,sles,SUSE-SU-2026:24654-1,HIGH,,registry.rancher.com/suse-observability/generic-sidecar-injector:689250c0-1111-release (sles 16.0),10.45-160000.5.1,false,affected,
+registry.rancher.com/suse-observability/kubernetes-rbac-agent:5ffb95a9-1119-release,observability-agent/v1.7-dev,libpcre2-8-0,10.45-160000.4.1,sles,SUSE-SU-2026:24654-1,HIGH,,registry.rancher.com/suse-observability/kubernetes-rbac-agent:5ffb95a9-1119-release (sles 16.0),10.45-160000.5.1,false,affected,
