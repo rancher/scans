@@ -2,578 +2,33 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>SUSE Rancher - Images CVE Scans</title>
+<title>SUSE Cloud Native - Images CVE Scans</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<style>
-/* Self-hosted fonts shared by the CVE portal and the CVE dashboard. All the
-   fonts are licensed under the SIL Open Font License 1.1 (see the OFL-*.txt
-   files) and are the latin subset of the @fontsource packages. The URLs are
-   relative to the page or stylesheet, where the files are copied to `fonts/`. */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('fonts/lato-latin-400-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('fonts/lato-latin-700-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url('fonts/poppins-latin-300-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('fonts/poppins-latin-600-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('fonts/roboto-mono-latin-400-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('fonts/roboto-mono-latin-500-normal.woff2') format('woff2');
-}
-
-/* SUSE Rancher CVE Scans portal — shared styles for the index and per-release pages.
-   Design system inspired by the Trivy scan report layout. Supports light/dark themes
-   via the data-theme attribute on <html>. */
-
-:root {
-  --accent:           #3D98D3;
-  --accent-strong:    #2b7ab5;
-  --body-bg:          #FFFFFF;
-  --body-text:        #141419;
-  --muted:            #6C6C76;
-  --border:           #DCDEE7;
-  --box-bg:           #F4F5FA;
-  --header-bg:        #FFFFFF;
-  --header-border:    #DCDEE7;
-  --link:             #1F67DB;
-  --code-bg:          #F4F5FA;
-  --table-header-bg:  #F4F5FA;
-  --table-hover-bg:   #EEEFF4;
-
-  /* Severity badges */
-  --sev-critical-bg:     #B13333;
-  --sev-critical-text:   #FFFFFF;
-  --sev-critical-border: #7C0015;
-  --sev-high-bg:         #E45C1E;
-  --sev-high-text:       #FFFFFF;
-  --sev-high-border:     #B03A0A;
-  --sev-medium-bg:       #FFE47A;
-  --sev-medium-text:     #473900;
-  --sev-medium-border:   #E5A200;
-  --sev-low-bg:          #DFE6F2;
-  --sev-low-text:        #1F67DB;
-  --sev-low-border:      #2673A6;
-  --sev-none-bg:         #EDEFF3;
-  --sev-none-text:       #6C6C76;
-  --sev-none-border:     #DCDEE7;
-
-  /* Status badges */
-  --status-affected-bg:     #FBE4DC;
-  --status-affected-text:   #9A2B0A;
-  --status-affected-border: #E9A88F;
-  --status-clear-bg:        #E7F4EC;
-  --status-clear-text:      #1A7A41;
-  --status-clear-border:    #A6D9BB;
-}
-
-:root[data-theme="dark"] {
-  --accent:           #5B9BFF;
-  --accent-strong:    #7FB2FF;
-  --body-bg:          #16171C;
-  --body-text:        #E6E6EC;
-  --muted:            #9B9BA6;
-  --border:           #2D2F39;
-  --box-bg:           #1E1F26;
-  --header-bg:        #1A1B21;
-  --header-border:    #2D2F39;
-  --link:             #5B9BFF;
-  --code-bg:          #22232B;
-  --table-header-bg:  #22232B;
-  --table-hover-bg:   #24262F;
-
-  --sev-medium-bg:       #F2C94C;
-  --sev-medium-text:     #3A2E00;
-  --sev-low-bg:          #1E2A40;
-  --sev-low-text:        #8FB6FF;
-  --sev-low-border:      #2673A6;
-  --sev-none-bg:         #2A2C35;
-  --sev-none-text:       #9B9BA6;
-  --sev-none-border:     #3A3C46;
-
-  --status-affected-bg:     #3A1E14;
-  --status-affected-text:   #F0A88C;
-  --status-affected-border: #6B3320;
-  --status-clear-bg:        #15291E;
-  --status-clear-text:      #5FCF8C;
-  --status-clear-border:    #1F4D34;
-}
-
-*, *::before, *::after { box-sizing: border-box; }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  background: var(--body-bg);
-  color: var(--body-text);
-  font-family: 'Lato', arial, helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-/* ---- Header ---- */
-.page-header {
-  background: var(--header-bg);
-  border-bottom: 1px solid var(--header-border);
-  padding: 0 32px;
-  min-height: 55px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 1px 4px rgba(0,0,0,.06);
-}
-.page-header .brand {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 17px;
-  color: var(--body-text);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.page-header .brand svg, .page-header .brand img { width: 28px; height: 60px; flex-shrink: 0; }
-.page-header .brand svg.brand-logo, .page-header .brand img.brand-logo { width: auto; height: 60px; }
-.page-header .subtitle {
-  font-size: 13px;
-  color: var(--muted);
-  margin-left: 4px;
-}
-:root[data-theme="dark"] .page-header { box-shadow: 0 1px 4px rgba(0,0,0,.4); }
-
-/* ---- Theme toggle ---- */
-.theme-toggle {
-  margin-left: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  padding: 0;
-  font-size: 16px;
-  line-height: 1;
-  cursor: pointer;
-  background: var(--box-bg);
-  color: var(--body-text);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  transition: background .15s ease, border-color .15s ease;
-}
-.theme-toggle:hover { border-color: var(--link); }
-.theme-toggle .theme-icon-dark { display: none; }
-:root[data-theme="dark"] .theme-toggle .theme-icon-light { display: none; }
-:root[data-theme="dark"] .theme-toggle .theme-icon-dark { display: inline; }
-
-/* ---- Layout ---- */
-.page-content {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 28px 24px 64px;
-}
-body.index .page-content { max-width: 980px; }
-
-/* ---- Release pages: wider table layout ---- */
-body:not(.index) #cves_table {
-  width: 90vw;
-  max-width: none;
-  margin-left: calc((100% - 90vw) / 2);
-  margin-right: calc((100% - 90vw) / 2);
-}
-
-/* ---- Headings ---- */
-h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  color: var(--body-text);
-  margin-top: 0;
-}
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid var(--border);
-}
-h2 { font-size: 17px; margin-top: 32px; margin-bottom: 10px; }
-h3 { font-size: 15px; margin-top: 24px; margin-bottom: 8px; }
-
-a { color: var(--link); text-decoration: none; }
-a:hover { color: var(--accent-strong); text-decoration: underline; }
-
-/* ---- "How to use this page" callout ---- */
-.callout {
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
-  border-radius: 8px;
-  background: var(--box-bg);
-  padding: 18px 22px 14px;
-  margin: 4px 0 26px;
-}
-.callout h2, .callout h3 { margin-top: 0; }
-.callout ul { margin: 8px 0 4px; padding-left: 20px; }
-.callout li { margin-bottom: 7px; color: var(--body-text); }
-.callout li:last-child { margin-bottom: 0; }
-
-/* ---- Collapsible callout (release pages only) ---- */
-.callout-collapsible {
-  position: relative;
-}
-.callout-collapsible h3 {
-  cursor: pointer;
-  user-select: none;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.callout-collapsible h3::before {
-  content: "▼";
-  font-size: 10px;
-  transition: transform 0.2s ease;
-  display: inline-block;
-}
-.callout-collapsible.collapsed h3::before {
-  transform: rotate(-90deg);
-}
-.callout-collapsible .callout-content {
-  max-height: 1000px;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-.callout-collapsible.collapsed .callout-content {
-  max-height: 0;
-}
-
-/* ---- Search bar ---- */
-.search-box { margin: 4px 0 14px; }
-.search-box b { font-family: 'Poppins', sans-serif; font-size: 13px; }
-input[type="text"] {
-  min-width: 320px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 8px 12px;
-  background: var(--body-bg);
-  color: var(--body-text);
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  outline: none;
-}
-input[type="text"]:focus { border-color: var(--link); }
-#search_count { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
-
-/* ---- Tables ---- */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 8px 0 16px;
-  font-size: 13px;
-  background: var(--body-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-}
-th {
-  padding: 10px 14px;
-  text-align: left;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 11px;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  background: var(--table-header-bg);
-  border-bottom: 1px solid var(--border);
-}
-td {
-  padding: 9px 14px;
-  border-bottom: 1px solid var(--border);
-  vertical-align: top;
-  word-break: break-word;
-}
-tbody tr:last-child td, tr:last-child td { border-bottom: none; }
-tr:hover { background: var(--table-hover-bg); }
-#cves_table th { cursor: pointer; }
-#cves_table th:hover { color: var(--link); }
-.not_affected { color: var(--muted); }
-.not_affected a { color: var(--muted); }
-
-/* ---- Column width adjustments ---- */
-#cves_table th:nth-child(1),
-#cves_table td:nth-child(1) { width: 20%; min-width: 180px; }
-#cves_table th:nth-child(9),
-#cves_table td:nth-child(9) { width: 12%; max-width: 200px; }
-
-
-/* ---- Severity badges ---- */
-.sev {
-  display: inline-flex;
-  align-items: center;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .04em;
-  white-space: nowrap;
-  border: 1px solid transparent;
-}
-.sev-CRITICAL { background: var(--sev-critical-bg); color: var(--sev-critical-text); border-color: var(--sev-critical-border); }
-.sev-HIGH     { background: var(--sev-high-bg);     color: var(--sev-high-text);     border-color: var(--sev-high-border);     }
-.sev-MEDIUM   { background: var(--sev-medium-bg);   color: var(--sev-medium-text);   border-color: var(--sev-medium-border);   }
-.sev-LOW      { background: var(--sev-low-bg);      color: var(--sev-low-text);      border-color: var(--sev-low-border);      }
-.sev-NONE, .sev-UNKNOWN { background: var(--sev-none-bg); color: var(--sev-none-text); border-color: var(--sev-none-border); }
-
-/* ---- Status badges ---- */
-.status {
-  display: inline-flex;
-  align-items: center;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .03em;
-  white-space: nowrap;
-  border: 1px solid transparent;
-}
-.status-affected { background: var(--status-affected-bg); color: var(--status-affected-text); border-color: var(--status-affected-border); }
-.status-clear    { background: var(--status-clear-bg);    color: var(--status-clear-text);    border-color: var(--status-clear-border);    }
-
-/* ---- Re-scored severity tooltip ---- */
-.cve_sev { position: relative; display: inline-flex; cursor: help; }
-.cve_sev:hover .cve_sev_note { visibility: visible; opacity: 1; }
-.cve_sev .cve_sev_note {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .12s ease;
-  width: 280px;
-  background: var(--body-text);
-  color: var(--body-bg);
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: normal;
-  border-radius: 6px;
-  padding: 8px 10px;
-  position: absolute;
-  z-index: 20;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -140px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.25);
-  white-space: normal;
-  word-wrap: break-word;
-}
-.cve_sev .cve_sev_note::after {
-  content: " ";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -6px;
-  border-width: 6px;
-  border-style: solid;
-  border-color: var(--body-text) transparent transparent transparent;
-}
-
-/* ---- Inline code ---- */
-code {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 12px;
-  background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1px 5px;
-}
-
-/* ---- Footer ---- */
-footer {
-  margin-top: 40px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: 12px;
-}
-footer a { color: var(--link); }
-
-/* ---- Hide VEXed (not affected) toggle ---- */
-.vexed-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  user-select: none;
-  font-size: 13px;
-  color: var(--body-text);
-  margin: 2px 0 6px;
-}
-.vexed-toggle input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  pointer-events: none;
-}
-.vexed-switch {
-  position: relative;
-  flex: 0 0 auto;
-  width: 40px;
-  height: 22px;
-  border-radius: 999px;
-  background: var(--border);
-  transition: background .15s ease;
-}
-.vexed-switch::after {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #FFFFFF;
-  box-shadow: 0 1px 2px rgba(0,0,0,.25);
-  transition: transform .15s ease;
-}
-.vexed-toggle input:checked ~ .vexed-switch { background: var(--link); }
-.vexed-toggle input:checked ~ .vexed-switch::after { transform: translateX(18px); }
-.vexed-toggle input:focus-visible ~ .vexed-switch { outline: 2px solid var(--link); outline-offset: 2px; }
-
-/* ---- image index card ---- */
-#image-index { margin: 4px 0 18px; }
-.image-index-card {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--box-bg);
-  overflow: hidden;
-}
-.image-index-card > summary {
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 16px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  color: var(--body-text);
-}
-.image-index-card > summary::-webkit-details-marker { display: none; }
-.image-index-card > summary .toggle-label::before {
-  content: "\25be";
-  display: inline-block;
-  margin-right: 8px;
-  transition: transform .15s ease;
-}
-.image-index-card:not([open]) > summary .toggle-label::before { transform: rotate(-90deg); }
-.image-index-count {
-  background: var(--link);
-  color: #fff;
-  border-radius: 999px;
-  font-size: 11px;
-  padding: 1px 9px;
-}
-.image-index-list {
-  border-top: 1px solid var(--border);
-  padding: 8px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 6px;
-}
-.image-index-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 7px 10px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--body-bg);
-  text-decoration: none;
-  color: var(--body-text);
-}
-.image-index-item:hover { border-color: var(--link); text-decoration: none; }
-.image-index-item code {
-  border: none;
-  background: none;
-  padding: 0;
-  font-size: 11px;
-  word-break: break-all;
-  color: var(--body-text);
-}
-.image-index-badges { display: inline-flex; gap: 4px; flex: 0 0 auto; }
-.image-index-badges .sev, .image-index-badges .status { font-size: 10px; padding: 1px 6px; }
-
-/* Give anchored rows a little breathing room below the sticky header on jump. */
-#cves_table tr[id] { scroll-margin-top: 70px; }
-
-</style>
-<script>
-(function () {
-  try {
-    var stored = localStorage.getItem('theme');
-    var prefersDark = window.matchMedia &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (stored === 'dark' || (!stored && prefersDark)) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
-  } catch (e) {}
-})();
-</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body class="index">
 <header class="page-header">
 <div class="brand">
-<img src="images/logo.svg" class="brand-logo" alt="SUSE Rancher" aria-hidden="true">
+<img src="images/logo.svg" class="brand-logo" alt="SUSE Cloud Native" aria-hidden="true">
 Images CVE Scans
 </div>
-<button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement;var dark=d.getAttribute('data-theme')==='dark';if(dark){d.removeAttribute('data-theme');}else{d.setAttribute('data-theme','dark');}try{localStorage.setItem('theme',dark?'light':'dark');}catch(e){}})()"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
+<button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Rancher - CVE Scans - 2026-11-13</h1>
+<h1>SUSE Cloud Native - CVE Scans - 2026-11-13</h1>
 
 <section class="callout">
 <h2>How to use this page</h2>
 
 <ul>
-<li>SUSE's KBs <a href="https://www.suse.com/support/kb/doc/?id=000021646">000021646</a> and <a href="https://www.suse.com/support/kb/doc/?id=000021647">000021647</a> provide detailed information about how the CVE portal works and how to inquire about CVEs in SUSE Rancher Prime products, respectively.</li>
+<li>SUSE's KBs <a href="https://support.scc.suse.com/s/kb/How-to-use-SUSE-Rancher-Prime-s-CVE-Portal">000021646</a> and <a href="https://support.scc.suse.com/s/kb/How-to-Inquire-About-CVEs-in-SUSE-Rancher-Prime-Product">000021647</a> provide detailed information about how the CVE portal works and how to inquire about CVEs in SUSE Cloud Native products, respectively.</li>
 <li>Only the latest patch version of each supported release line and the respective dev/head/master development branches are scanned. Older patch versions and no longer supported (EOL) versions are not scanned. Verify the supported versions in SUSE's <a href="https://www.suse.com/lifecycle/">product support lifecycle</a> page.</li>
-<li>Consult SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021574">KB 000021574</a> to know how Rancher does its CVE triage workflow for software dependencies.</li>
-<li>The CVE scans are executed daily with internal automation developed by the SUSE Rancher Security team.</li>
-<li>Our scans use <a href="https://github.com/rancher/vexhub/">Rancher's VEX Hub</a> reports to remove known false-positives. More information on how to use those reports is available in SUSE's <a href="https://www.suse.com/support/kb/doc/?id=000021573">KB 000021573</a>
+<li>Consult SUSE's <a href="https://support.scc.suse.com/s/kb/SUSE-Rancher-s-CVE-Triage-Workflow-for-Software-Dependencies">KB 000021574</a> to know how SUSE does its CVE triage workflow for software dependencies.</li>
+<li>The CVE scans are executed daily with internal automation developed by the SUSE Cloud Native Security team.</li>
+<li>Our scans use <a href="https://github.com/rancher/vexhub/">Rancher's VEX Hub</a> reports to remove known false-positives. More information on how to use those reports is available in SUSE's <a href="https://support.scc.suse.com/s/kb/How-to-use-SUSE-Rancher-s-VEX-Reports">KB 000021573</a>
 article.</li>
 <li>These pages are updated and regenerated daily.</li>
 <li>The CVE scanner used is Trivy with the latest version available.</li>
@@ -582,259 +37,633 @@ article.</li>
 </ul>
 </section>
 
+<p>Browse the <a href="cves.html">list of tracked CVEs</a> affecting our products and images.</p>
+
+<h2>Rancher Prime</h2>
 <table>
 <tr>
 <th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
 <th>Raw CSV report</th>
 <th>Raw CSV summary per image</th>
 </tr>
 <tr>
-<td><a href="suseai-latest.html">SUSE AI latest</a></td>
-<td><a href="csv/report-suseai-latest-cves.csv">report</a></td>
-<td><a href="csv/report-suseai-latest-stats.csv">report</a></td>
+<td><a href="rancher-prime-v2.16-head.html">Rancher Prime v2.16-head</a></td>
+<td>136</td>
+<td>1</td>
+<td>1033</td>
+<td>263</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.16-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.16-head-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rke2-v1.37.2.html">RKE2 v1.37.2</a></td>
-<td><a href="csv/report-rke2-v1.37.2-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.37.2-stats.csv">report</a></td>
+<td><a href="rancher-prime-v2.15-head.html">Rancher Prime v2.15-head</a></td>
+<td>163</td>
+<td>20</td>
+<td>2058</td>
+<td>330</td>
+<td>69</td>
+<td><a href="csv/report-rancher-prime-v2.15-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.15-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.15.3.html">Rancher Prime v2.15.3</a></td>
+<td>162</td>
+<td>20</td>
+<td>2202</td>
+<td>323</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.15.3-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.15.3-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.14-head.html">Rancher Prime v2.14-head</a></td>
+<td>180</td>
+<td>21</td>
+<td>3054</td>
+<td>329</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.14-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.14-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.14.7.html">Rancher Prime v2.14.7</a></td>
+<td>179</td>
+<td>21</td>
+<td>3208</td>
+<td>322</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.14.7-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.14.7-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.13-head.html">Rancher Prime v2.13-head</a></td>
+<td>196</td>
+<td>33</td>
+<td>4370</td>
+<td>400</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.13-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.13-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.13.11.html">Rancher Prime v2.13.11</a></td>
+<td>195</td>
+<td>33</td>
+<td>4519</td>
+<td>318</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.13.11-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.13.11-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.12-head.html">Rancher Prime v2.12-head</a></td>
+<td>192</td>
+<td>107</td>
+<td>5779</td>
+<td>236</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.12-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.12-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-prime-v2.12.15.html">Rancher Prime v2.12.15</a></td>
+<td>191</td>
+<td>107</td>
+<td>5846</td>
+<td>150</td>
+<td>0</td>
+<td><a href="csv/report-rancher-prime-v2.12.15-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-prime-v2.12.15-stats.csv">report</a></td>
+</tr>
+</table>
+<h2>Rancher Community</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="rancher-v2.16-head.html">Rancher v2.16-head</a></td>
+<td>100</td>
+<td>1</td>
+<td>775</td>
+<td>241</td>
+<td>7</td>
+<td><a href="csv/report-rancher-v2.16-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.16-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.15-head.html">Rancher v2.15-head</a></td>
+<td>151</td>
+<td>20</td>
+<td>1810</td>
+<td>329</td>
+<td>69</td>
+<td><a href="csv/report-rancher-v2.15-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.15-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-v2.15.3.html">Rancher v2.15.3</a></td>
+<td>150</td>
+<td>20</td>
+<td>1954</td>
+<td>322</td>
+<td>0</td>
+<td><a href="csv/report-rancher-v2.15.3-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-v2.15.3-stats.csv">report</a></td>
+</tr>
+</table>
+<h2>RKE2 pre-releases</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
 </tr>
 <tr>
 <td><a href="rke2-v1.37-prerelease.html">RKE2 v1.37 pre-release</a></td>
+<td>66</td>
+<td>1</td>
+<td>317</td>
+<td>17</td>
+<td>0</td>
 <td><a href="csv/report-rke2-v1.37-prerelease-cves.csv">report</a></td>
 <td><a href="csv/report-rke2-v1.37-prerelease-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rke2-v1.36.6.html">RKE2 v1.36.6</a></td>
-<td><a href="csv/report-rke2-v1.36.6-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.36.6-stats.csv">report</a></td>
-</tr>
-<tr>
 <td><a href="rke2-v1.36-prerelease.html">RKE2 v1.36 pre-release</a></td>
+<td>65</td>
+<td>1</td>
+<td>319</td>
+<td>17</td>
+<td>0</td>
 <td><a href="csv/report-rke2-v1.36-prerelease-cves.csv">report</a></td>
 <td><a href="csv/report-rke2-v1.36-prerelease-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rke2-v1.35.10.html">RKE2 v1.35.10</a></td>
-<td><a href="csv/report-rke2-v1.35.10-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.35.10-stats.csv">report</a></td>
-</tr>
-<tr>
 <td><a href="rke2-v1.35-prerelease.html">RKE2 v1.35 pre-release</a></td>
+<td>65</td>
+<td>1</td>
+<td>319</td>
+<td>17</td>
+<td>0</td>
 <td><a href="csv/report-rke2-v1.35-prerelease-cves.csv">report</a></td>
 <td><a href="csv/report-rke2-v1.35-prerelease-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rke2-v1.34.13.html">RKE2 v1.34.13</a></td>
-<td><a href="csv/report-rke2-v1.34.13-cves.csv">report</a></td>
-<td><a href="csv/report-rke2-v1.34.13-stats.csv">report</a></td>
-</tr>
-<tr>
 <td><a href="rke2-v1.34-prerelease.html">RKE2 v1.34 pre-release</a></td>
+<td>65</td>
+<td>1</td>
+<td>319</td>
+<td>17</td>
+<td>0</td>
 <td><a href="csv/report-rke2-v1.34-prerelease-cves.csv">report</a></td>
 <td><a href="csv/report-rke2-v1.34-prerelease-stats.csv">report</a></td>
 </tr>
 <tr>
 <td><a href="rke2-master-prerelease.html">RKE2 master pre-release</a></td>
+<td>66</td>
+<td>1</td>
+<td>317</td>
+<td>17</td>
+<td>0</td>
 <td><a href="csv/report-rke2-master-prerelease-cves.csv">report</a></td>
 <td><a href="csv/report-rke2-master-prerelease-stats.csv">report</a></td>
 </tr>
+</table>
+<h2>RKE2 releases</h2>
+<table>
 <tr>
-<td><a href="rancher-v2.16-head.html">Rancher v2.16-head</a></td>
-<td><a href="csv/report-rancher-v2.16-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.16-head-stats.csv">report</a></td>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
 </tr>
 <tr>
-<td><a href="rancher-v2.15.3.html">Rancher v2.15.3</a></td>
-<td><a href="csv/report-rancher-v2.15.3-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.15.3-stats.csv">report</a></td>
+<td><a href="rke2-v1.37.2.html">RKE2 v1.37.2</a></td>
+<td>17</td>
+<td>0</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td><a href="csv/report-rke2-v1.37.2-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.37.2-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rancher-v2.15-head.html">Rancher v2.15-head</a></td>
-<td><a href="csv/report-rancher-v2.15-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-v2.15-head-stats.csv">report</a></td>
+<td><a href="rke2-v1.36.6.html">RKE2 v1.36.6</a></td>
+<td>16</td>
+<td>0</td>
+<td>7</td>
+<td>6</td>
+<td>0</td>
+<td><a href="csv/report-rke2-v1.36.6-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.36.6-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rancher-prime-v2.16-head.html">Rancher Prime v2.16-head</a></td>
-<td><a href="csv/report-rancher-prime-v2.16-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.16-head-stats.csv">report</a></td>
+<td><a href="rke2-v1.35.10.html">RKE2 v1.35.10</a></td>
+<td>17</td>
+<td>0</td>
+<td>118</td>
+<td>7</td>
+<td>0</td>
+<td><a href="csv/report-rke2-v1.35.10-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.35.10-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="rancher-prime-v2.15.3.html">Rancher Prime v2.15.3</a></td>
-<td><a href="csv/report-rancher-prime-v2.15.3-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.15.3-stats.csv">report</a></td>
+<td><a href="rke2-v1.34.13.html">RKE2 v1.34.13</a></td>
+<td>17</td>
+<td>0</td>
+<td>118</td>
+<td>7</td>
+<td>0</td>
+<td><a href="csv/report-rke2-v1.34.13-cves.csv">report</a></td>
+<td><a href="csv/report-rke2-v1.34.13-stats.csv">report</a></td>
 </tr>
+</table>
+<h2>K3s releases</h2>
+<table>
 <tr>
-<td><a href="rancher-prime-v2.15-head.html">Rancher Prime v2.15-head</a></td>
-<td><a href="csv/report-rancher-prime-v2.15-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.15-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-prime-v2.14.7.html">Rancher Prime v2.14.7</a></td>
-<td><a href="csv/report-rancher-prime-v2.14.7-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.14.7-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-prime-v2.14-head.html">Rancher Prime v2.14-head</a></td>
-<td><a href="csv/report-rancher-prime-v2.14-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.14-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-prime-v2.13.11.html">Rancher Prime v2.13.11</a></td>
-<td><a href="csv/report-rancher-prime-v2.13.11-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.13.11-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-prime-v2.13-head.html">Rancher Prime v2.13-head</a></td>
-<td><a href="csv/report-rancher-prime-v2.13-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.13-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-prime-v2.12.15.html">Rancher Prime v2.12.15</a></td>
-<td><a href="csv/report-rancher-prime-v2.12.15-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.12.15-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-prime-v2.12-head.html">Rancher Prime v2.12-head</a></td>
-<td><a href="csv/report-rancher-prime-v2.12-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-prime-v2.12-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-ai-v1.1.1.html">Rancher AI v1.1.1</a></td>
-<td><a href="csv/report-rancher-ai-v1.1.1-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-ai-v1.1.1-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-ai-v1.0.3.html">Rancher AI v1.0.3</a></td>
-<td><a href="csv/report-rancher-ai-v1.0.3-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-ai-v1.0.3-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="rancher-ai-main-head.html">Rancher AI main</a></td>
-<td><a href="csv/report-rancher-ai-main-head-cves.csv">report</a></td>
-<td><a href="csv/report-rancher-ai-main-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-v2.13.0.html">Observability v2.13.0</a></td>
-<td><a href="csv/report-observability-v2.13.0-cves.csv">report</a></td>
-<td><a href="csv/report-observability-v2.13.0-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-v2.13-dev.html">Observability v2.13-dev</a></td>
-<td><a href="csv/report-observability-v2.13-dev-cves.csv">report</a></td>
-<td><a href="csv/report-observability-v2.13-dev-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-agent-v1.7.64.html">Observability agent v1.7.64</a></td>
-<td><a href="csv/report-observability-agent-v1.7.64-cves.csv">report</a></td>
-<td><a href="csv/report-observability-agent-v1.7.64-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="observability-agent-v1.7-dev.html">Observability agent v1.7-dev</a></td>
-<td><a href="csv/report-observability-agent-v1.7-dev-cves.csv">report</a></td>
-<td><a href="csv/report-observability-agent-v1.7-dev-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.6.html">Neuvector v5.6</a></td>
-<td><a href="csv/report-neuvector-v5.6-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.6-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.5.html">Neuvector v5.5</a></td>
-<td><a href="csv/report-neuvector-v5.5-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.5-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="neuvector-v5.4.html">Neuvector v5.4</a></td>
-<td><a href="csv/report-neuvector-v5.4-cves.csv">report</a></td>
-<td><a href="csv/report-neuvector-v5.4-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-v1.12.1.html">Longhorn v1.12.1</a></td>
-<td><a href="csv/report-longhorn-v1.12.1-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-v1.12.1-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-v1.12-head.html">Longhorn v1.12-head</a></td>
-<td><a href="csv/report-longhorn-v1.12-head-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-v1.12-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-v1.11.3.html">Longhorn v1.11.3</a></td>
-<td><a href="csv/report-longhorn-v1.11.3-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-v1.11.3-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-v1.11-head.html">Longhorn v1.11-head</a></td>
-<td><a href="csv/report-longhorn-v1.11-head-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-v1.11-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="longhorn-master.html">Longhorn master</a></td>
-<td><a href="csv/report-longhorn-master-cves.csv">report</a></td>
-<td><a href="csv/report-longhorn-master-stats.csv">report</a></td>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
 </tr>
 <tr>
 <td><a href="k3s-v1.37.2.html">K3s v1.37.2</a></td>
+<td>9</td>
+<td>0</td>
+<td>70</td>
+<td>6</td>
+<td>0</td>
 <td><a href="csv/report-k3s-v1.37.2-cves.csv">report</a></td>
 <td><a href="csv/report-k3s-v1.37.2-stats.csv">report</a></td>
 </tr>
 <tr>
 <td><a href="k3s-v1.36.6.html">K3s v1.36.6</a></td>
+<td>9</td>
+<td>0</td>
+<td>70</td>
+<td>6</td>
+<td>0</td>
 <td><a href="csv/report-k3s-v1.36.6-cves.csv">report</a></td>
 <td><a href="csv/report-k3s-v1.36.6-stats.csv">report</a></td>
 </tr>
 <tr>
 <td><a href="k3s-v1.35.10.html">K3s v1.35.10</a></td>
+<td>9</td>
+<td>0</td>
+<td>73</td>
+<td>6</td>
+<td>0</td>
 <td><a href="csv/report-k3s-v1.35.10-cves.csv">report</a></td>
 <td><a href="csv/report-k3s-v1.35.10-stats.csv">report</a></td>
 </tr>
 <tr>
 <td><a href="k3s-v1.34.13.html">K3s v1.34.13</a></td>
+<td>9</td>
+<td>0</td>
+<td>73</td>
+<td>6</td>
+<td>0</td>
 <td><a href="csv/report-k3s-v1.34.13-cves.csv">report</a></td>
 <td><a href="csv/report-k3s-v1.34.13-stats.csv">report</a></td>
 </tr>
+</table>
+<h2>Harvester</h2>
+<table>
 <tr>
-<td><a href="harvester-v1.9.0.html">Harvester v1.9.0</a></td>
-<td><a href="csv/report-harvester-v1.9.0-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.9.0-stats.csv">report</a></td>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
 </tr>
 <tr>
-<td><a href="harvester-v1.9-head.html">Harvester v1.9-head</a></td>
-<td><a href="csv/report-harvester-v1.9-head-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.9-head-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-v1.8.2.html">Harvester v1.8.2</a></td>
-<td><a href="csv/report-harvester-v1.8.2-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.8.2-stats.csv">report</a></td>
-</tr>
-<tr>
-<td><a href="harvester-v1.8-head.html">Harvester v1.8-head</a></td>
-<td><a href="csv/report-harvester-v1.8-head-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-v1.8-head-stats.csv">report</a></td>
+<td><a href="harvester-master.html">Harvester master</a></td>
+<td>93</td>
+<td>15</td>
+<td>1005</td>
+<td>109</td>
+<td>5</td>
+<td><a href="csv/report-harvester-master-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-master-stats.csv">report</a></td>
 </tr>
 <tr>
 <td><a href="harvester-master-head.html">Harvester master-head</a></td>
+<td>93</td>
+<td>13</td>
+<td>719</td>
+<td>112</td>
+<td>7</td>
 <td><a href="csv/report-harvester-master-head-cves.csv">report</a></td>
 <td><a href="csv/report-harvester-master-head-stats.csv">report</a></td>
 </tr>
 <tr>
-<td><a href="harvester-master.html">Harvester master</a></td>
-<td><a href="csv/report-harvester-master-cves.csv">report</a></td>
-<td><a href="csv/report-harvester-master-stats.csv">report</a></td>
+<td><a href="harvester-v1.9-head.html">Harvester v1.9-head</a></td>
+<td>92</td>
+<td>16</td>
+<td>925</td>
+<td>112</td>
+<td>0</td>
+<td><a href="csv/report-harvester-v1.9-head-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.9-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.9.0.html">Harvester v1.9.0</a></td>
+<td>94</td>
+<td>20</td>
+<td>2716</td>
+<td>119</td>
+<td>0</td>
+<td><a href="csv/report-harvester-v1.9.0-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.9.0-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.8-head.html">Harvester v1.8-head</a></td>
+<td>104</td>
+<td>30</td>
+<td>3039</td>
+<td>128</td>
+<td>16</td>
+<td><a href="csv/report-harvester-v1.8-head-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.8-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="harvester-v1.8.2.html">Harvester v1.8.2</a></td>
+<td>103</td>
+<td>33</td>
+<td>4138</td>
+<td>103</td>
+<td>0</td>
+<td><a href="csv/report-harvester-v1.8.2-cves.csv">report</a></td>
+<td><a href="csv/report-harvester-v1.8.2-stats.csv">report</a></td>
 </tr>
 </table>
-
+<h2>Longhorn</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="longhorn-master.html">Longhorn master</a></td>
+<td>14</td>
+<td>0</td>
+<td>148</td>
+<td>0</td>
+<td>2</td>
+<td><a href="csv/report-longhorn-master-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-master-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.12-head.html">Longhorn v1.12-head</a></td>
+<td>14</td>
+<td>0</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td><a href="csv/report-longhorn-v1.12-head-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.12-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.12.1.html">Longhorn v1.12.1</a></td>
+<td>14</td>
+<td>1</td>
+<td>406</td>
+<td>4</td>
+<td>0</td>
+<td><a href="csv/report-longhorn-v1.12.1-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.12.1-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.11-head.html">Longhorn v1.11-head</a></td>
+<td>14</td>
+<td>0</td>
+<td>97</td>
+<td>2</td>
+<td>6</td>
+<td><a href="csv/report-longhorn-v1.11-head-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.11-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="longhorn-v1.11.3.html">Longhorn v1.11.3</a></td>
+<td>14</td>
+<td>1</td>
+<td>472</td>
+<td>4</td>
+<td>0</td>
+<td><a href="csv/report-longhorn-v1.11.3-cves.csv">report</a></td>
+<td><a href="csv/report-longhorn-v1.11.3-stats.csv">report</a></td>
+</tr>
+</table>
+<h2>Observability</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="observability-v2.13-dev.html">Observability v2.13-dev</a></td>
+<td>37</td>
+<td>0</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+<td><a href="csv/report-observability-v2.13-dev-cves.csv">report</a></td>
+<td><a href="csv/report-observability-v2.13-dev-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="observability-v2.13.0.html">Observability v2.13.0</a></td>
+<td>37</td>
+<td>0</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+<td><a href="csv/report-observability-v2.13.0-cves.csv">report</a></td>
+<td><a href="csv/report-observability-v2.13.0-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="observability-agent-v1.7-dev.html">Observability agent v1.7-dev</a></td>
+<td>11</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td><a href="csv/report-observability-agent-v1.7-dev-cves.csv">report</a></td>
+<td><a href="csv/report-observability-agent-v1.7-dev-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="observability-agent-v1.7.64.html">Observability agent v1.7.64</a></td>
+<td>11</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td><a href="csv/report-observability-agent-v1.7.64-cves.csv">report</a></td>
+<td><a href="csv/report-observability-agent-v1.7.64-stats.csv">report</a></td>
+</tr>
+</table>
+<h2>NeuVector</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="neuvector-v5.6.html">Neuvector v5.6</a></td>
+<td>8</td>
+<td>0</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+<td><a href="csv/report-neuvector-v5.6-cves.csv">report</a></td>
+<td><a href="csv/report-neuvector-v5.6-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="neuvector-v5.5.html">Neuvector v5.5</a></td>
+<td>8</td>
+<td>0</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+<td><a href="csv/report-neuvector-v5.5-cves.csv">report</a></td>
+<td><a href="csv/report-neuvector-v5.5-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="neuvector-v5.4.html">Neuvector v5.4</a></td>
+<td>8</td>
+<td>0</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+<td><a href="csv/report-neuvector-v5.4-cves.csv">report</a></td>
+<td><a href="csv/report-neuvector-v5.4-stats.csv">report</a></td>
+</tr>
+</table>
+<h2>SUSE AI</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="suseai-latest.html">SUSE AI latest</a></td>
+<td>116</td>
+<td>825</td>
+<td>14096</td>
+<td>1184</td>
+<td>27</td>
+<td><a href="csv/report-suseai-latest-cves.csv">report</a></td>
+<td><a href="csv/report-suseai-latest-stats.csv">report</a></td>
+</tr>
+</table>
+<h2>Rancher AI</h2>
+<table>
+<tr>
+<th>CVE results</th>
+<th>Images</th>
+<th>Critical</th>
+<th>High</th>
+<th>New (7d)</th>
+<th>Fixed (7d)</th>
+<th>Raw CSV report</th>
+<th>Raw CSV summary per image</th>
+</tr>
+<tr>
+<td><a href="rancher-ai-main-head.html">Rancher AI main</a></td>
+<td>3</td>
+<td>0</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td><a href="csv/report-rancher-ai-main-head-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-ai-main-head-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-ai-v1.1.1.html">Rancher AI v1.1.1</a></td>
+<td>5</td>
+<td>2</td>
+<td>30</td>
+<td>4</td>
+<td>0</td>
+<td><a href="csv/report-rancher-ai-v1.1.1-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-ai-v1.1.1-stats.csv">report</a></td>
+</tr>
+<tr>
+<td><a href="rancher-ai-v1.0.3.html">Rancher AI v1.0.3</a></td>
+<td>5</td>
+<td>0</td>
+<td>53</td>
+<td>5</td>
+<td>0</td>
+<td><a href="csv/report-rancher-ai-v1.0.3-cves.csv">report</a></td>
+<td><a href="csv/report-rancher-ai-v1.0.3-stats.csv">report</a></td>
+</tr>
+</table>
 <footer>
 <p>
 Note: This page uses embedded JavaScript for filtering and search
 functionalities. If JavaScript support is disabled in your browser, the page
 will still be usable, but those functions will not work as expected. The fonts
 are hosted together with this page and no external code or dependencies are
-imported by it.
+imported by it. Charts are generated with <a
+href="https://echarts.apache.org">Apache ECharts</a> (<a
+href="echarts-LICENSE.txt">license</a>).
 </p>
 <p><b>
-The SUSE Rancher CVE data is provided by SUSE under the Creative
+The SUSE Cloud Native CVE data is provided by SUSE under the Creative
 Commons license with Attribution (CC-BY-4.0). See the
 <a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.
 </b></p>
