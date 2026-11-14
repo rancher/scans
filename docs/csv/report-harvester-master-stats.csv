@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.6-rke2r1-build20261029,0,0,0
 rancher/hardened-multus-cni:v4.3.1-build20261022,0,0,0
 rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,0,0
 rancher/hardened-traefik:v3.7.16-build20261028,0,0,0
-rancher/harvester-cluster-repo:1a5139d5,0,0,0
+rancher/harvester-cluster-repo:9dd27fdb,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.16.4-dev.1,0,1,1
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -54,9 +54,9 @@ rancher/harvester:master-head,0,1,1
 rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kuberlr-kubectl:v8.1.2,0,47,47
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,144,147
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,86,96
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
 rancher/mirrored-library-busybox:1.37.0,0,0,0

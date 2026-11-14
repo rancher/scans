@@ -54,9 +54,9 @@ rancher/harvester:v1.9-head,0,1,1
 rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kuberlr-kubectl:v8.1.2,0,47,47
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,144,147
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,86,96
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,37,37
 rancher/mirrored-library-busybox:1.37.0,0,0,0

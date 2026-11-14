@@ -21,8 +21,8 @@ rancher/cluster-api-provider-rke2-controlplane:v0.21.2,0,0,0
 rancher/cluster-api-vsphere-controller:v1.13.1,0,39,39
 rancher/compliance-operator:v1.3.14-rc.1,0,0,0
 rancher/eks-operator:v1.13.12-rc.1,0,0,0
-rancher/fleet-agent:v0.14.13-rc.1,0,0,0
-rancher/fleet:v0.14.13-rc.1,0,0,0
+rancher/fleet-agent:v0.14.13-rc.2,0,0,0
+rancher/fleet:v0.14.13-rc.2,0,0,0
 rancher/gke-operator:v1.13.13-rc.1,0,0,0
 rancher/hardened-addon-resizer:1.8.24-build20261021,0,0,0
 rancher/hardened-calico:v3.32.2-build20261022,0,1,1
@@ -78,7 +78,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,14,14
 rancher/mirrored-calico-goldmane:v3.32.2,0,10,10
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,8,8
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,14,14
-rancher/mirrored-calico-node:v3.32.2,1,20,21
+rancher/mirrored-calico-node:v3.32.2,1,21,22
 rancher/mirrored-calico-operator:v1.42.6,0,13,13
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,8,8
 rancher/mirrored-calico-typha:v3.32.2,0,5,5
@@ -101,13 +101,13 @@ rancher/mirrored-cluster-api-controller:v1.10.6,0,32,32
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
 rancher/mirrored-elemental-operator:1.8.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.8.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,144,147
 rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,32,32
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,25,25
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,86,96
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,22,22
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
@@ -166,7 +166,7 @@ rancher/neuvector-updater:0.0.17,0,1,1
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,80,80
 rancher/prometheus-federator:v5.0.7,0,0,0
 rancher/rancher-agent:v2.13-head,0,6,6
-rancher/rancher-ai-agent:v1.0.2,5,76,81
+rancher/rancher-ai-agent:v1.0.2,5,78,83
 rancher/rancher-ai-mcp:v1.0.2,0,31,31
 rancher/rancher-webhook:v0.9.12-rc.1,0,0,0
 rancher/rancher:v2.13-head,0,56,56
@@ -178,7 +178,7 @@ rancher/rke2-runtime:v1.34.13-rke2r1,0,5,5
 rancher/rke2-upgrade:v1.32.13-rke2r1,0,71,71
 rancher/rke2-upgrade:v1.33.13-rke2r2,0,49,49
 rancher/rke2-upgrade:v1.34.13-rke2r1,0,7,7
-rancher/scc-operator:v0.5.4-rc.1,0,0,0
+rancher/scc-operator:v0.5.4-rc.2,0,0,0
 rancher/security-scan:v0.8.12-rc.1,0,0,0
 rancher/shell:v0.6.7-rc.1,0,4,4
 rancher/supportability-review-app-frontend:v0.27.0,0,0,0
@@ -194,4 +194,4 @@ rancher/system-agent-installer-rke2:v1.34.13-rke2r1,0,0,0
 rancher/system-agent:v0.13.4-rc.0-suc,0,0,0
 rancher/system-upgrade-controller:v0.17.0,0,24,24
 rancher/turtles:v0.25.10,0,0,0
-rancher/ui-plugin-catalog:4.56.0,0,4,4
+rancher/ui-plugin-catalog:4.57.0,0,0,0

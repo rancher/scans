@@ -69,7 +69,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,14,14
 rancher/mirrored-calico-goldmane:v3.32.2,0,10,10
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,8,8
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,14,14
-rancher/mirrored-calico-node:v3.32.2,1,20,21
+rancher/mirrored-calico-node:v3.32.2,1,21,22
 rancher/mirrored-calico-operator:v1.42.6,0,13,13
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,8,8
 rancher/mirrored-calico-typha:v3.32.2,0,5,5
@@ -91,12 +91,12 @@ rancher/mirrored-cloud-provider-vsphere:v1.35.1,0,32,32
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,144,147
 rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,25,25
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,86,96
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.3,0,22,22
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
@@ -177,4 +177,4 @@ rancher/system-agent-installer-rke2:v1.35.10-rke2r1,0,0,0
 rancher/system-agent:v0.14.3-suc,0,0,0
 rancher/system-upgrade-controller:v0.19.1,0,19,19
 rancher/turtles:v0.26.8,0,0,0
-rancher/ui-plugin-catalog:4.56.0,0,4,4
+rancher/ui-plugin-catalog:4.57.0,0,0,0

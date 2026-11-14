@@ -55,10 +55,10 @@ rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kubectl:v1.35.1,0,19,19
 rancher/kuberlr-kubectl:v9.0.1,0,14,14
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,110,113
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,144,147
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
-rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,86,96
+rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
 rancher/mirrored-library-busybox:1.38.0,0,0,0
@@ -71,12 +71,12 @@ rancher/rke2-cloud-provider:v1.37.2-0.20261016152943-06368081f0b2-build20261021,
 rancher/rke2-runtime:v1.37.2-rke2r1,0,0,0
 rancher/shell:v0.9.1-rc.2,0,3,3
 rancher/support-bundle-kit:master-head,0,1,1
-rancher/system-agent-installer-rancher:v2.15.2,0,19,19
+rancher/system-agent-installer-rancher:v2.15.3,0,0,0
 rancher/system-agent:v0.15.3-suc,0,0,0
 rancher/system-upgrade-controller:v0.20.2,0,10,10
 rancher/turtles:v0.27.4,0,0,0
 registry.k8s.io/descheduler/descheduler:v0.37.0,0,15,15
-registry.k8s.io/sig-storage/snapshot-controller:v8.6.0,0,18,18
+registry.k8s.io/sig-storage/snapshot-controller:v8.7.0,0,4,4
 registry.suse.com/bci/bci-base:16.0,0,1,1
 registry.suse.com/suse/sles/16.0/cdi-apiserver:1.65.0,0,1,1
 registry.suse.com/suse/sles/16.0/cdi-cloner:1.65.0,0,1,1
