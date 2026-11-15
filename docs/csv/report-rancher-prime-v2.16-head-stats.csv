@@ -64,7 +64,7 @@ rancher/mirrored-calico-envoy-ratelimit:v3.32.2,0,14,14
 rancher/mirrored-calico-goldmane:v3.32.2,0,10,10
 rancher/mirrored-calico-kube-controllers:v3.32.2,0,8,8
 rancher/mirrored-calico-node-driver-registrar:v3.32.2,0,14,14
-rancher/mirrored-calico-node:v3.32.2,1,21,22
+rancher/mirrored-calico-node:v3.32.2,1,20,21
 rancher/mirrored-calico-operator:v1.42.6,0,13,13
 rancher/mirrored-calico-pod2daemon-flexvol:v3.32.2,0,8,8
 rancher/mirrored-calico-typha:v3.32.2,0,5,5
@@ -108,7 +108,7 @@ rancher/nginx-ingress-controller:v1.14.5-hardened2,0,80,80
 rancher/prometheus-federator:v8.0.0-rc.1,0,0,0
 rancher/rancher-agent:v2.16-head,0,0,0
 rancher/rancher-assets:v2.16-20261112T2241Z-dev,0,1,1
-rancher/rancher-server:v2.16.0-e68b395-head,0,0,0
+rancher/rancher-server:v2.16.0-70005cd-head,0,0,0
 rancher/rancher-webhook:v0.12.1-rc.17,0,0,0
 rancher/remotedialer-proxy:v0.9.1-rc.2,0,0,0
 rancher/rke2-cloud-provider:v1.37.2-0.20261016152943-06368081f0b2-build20261021,0,0,0

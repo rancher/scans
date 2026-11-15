@@ -14,7 +14,7 @@ longhornio/longhorn-engine:master-head,0,14,14
 longhornio/longhorn-instance-manager:master-head,0,0,0
 longhornio/longhorn-manager:master-head,0,0,0
 longhornio/longhorn-share-manager:master-head,0,7,7
-longhornio/longhorn-ui:master-head,0,11,11
+longhornio/longhorn-ui:master-head,0,12,12
 longhornio/support-bundle-kit:v1.0.2,0,9,9
 rancher/cluster-api-controller:v1.14.3,0,15,15
 rancher/fleet-agent:v0.16.3,0,0,0
