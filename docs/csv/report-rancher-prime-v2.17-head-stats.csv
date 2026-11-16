@@ -81,7 +81,7 @@ rancher/mirrored-sig-storage-livenessprobe:v2.17.0,0,28,28
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,80,80
 rancher/rancher-agent:v2.17-head,0,0,0
 rancher/rancher-assets:v2.16-20261113T2059Z-dev,0,1,1
-rancher/rancher-server:v2.17.0-63f5302-head,0,0,0
+rancher/rancher-server:v2.17.0-2209cc1-head,0,0,0
 rancher/rke2-cloud-provider:v1.37.2-0.20261016152943-06368081f0b2-build20261021,0,0,0
 rancher/rke2-runtime:v1.35.10-rke2r1,0,5,5
 rancher/rke2-runtime:v1.36.6-rke2r1,0,0,0
