@@ -3654,7 +3654,6 @@ rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,libgssapi-krb5
 rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,libk5crypto3,1.20.1-2+deb12u2,debian,CVE-2026-71200,HIGH,https://avd.aquasec.com/nvd/cve-2026-71200,rancher/mirrored-fluent-fluent-bit:3.1.8 (debian 12.7),,true,affected,
 rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,libkrb5-3,1.20.1-2+deb12u2,debian,CVE-2026-71200,HIGH,https://avd.aquasec.com/nvd/cve-2026-71200,rancher/mirrored-fluent-fluent-bit:3.1.8 (debian 12.7),,true,affected,
 rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,libkrb5support0,1.20.1-2+deb12u2,debian,CVE-2026-71200,HIGH,https://avd.aquasec.com/nvd/cve-2026-71200,rancher/mirrored-fluent-fluent-bit:3.1.8 (debian 12.7),,true,affected,
-rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,zlib1g,1:1.2.13.dfsg-1,debian,CVE-2026-76844,HIGH,https://avd.aquasec.com/nvd/cve-2026-76844,rancher/mirrored-fluent-fluent-bit:3.1.8 (debian 12.7),,true,affected,
 rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,libssl3,3.0.14-1~deb12u2,debian,CVE-2026-84782,HIGH,https://avd.aquasec.com/nvd/cve-2026-84782,rancher/mirrored-fluent-fluent-bit:3.1.8 (debian 12.7),3.0.22-1~deb12u2,true,affected,
 rancher/mirrored-fluent-fluent-bit:3.1.8,rancher/prime/v2.13-head,zlib1g,1:1.2.13.dfsg-1,debian,CVE-2026-85091,HIGH,https://avd.aquasec.com/nvd/cve-2026-85091,rancher/mirrored-fluent-fluent-bit:3.1.8 (debian 12.7),,true,affected,
 rancher/mirrored-idealista-prom2teams:4.2.1,rancher/prime/v2.13-head,libcom_err,1.46.5-r4,alpine,CVE-2022-1304,HIGH,https://avd.aquasec.com/nvd/cve-2022-1304,rancher/mirrored-idealista-prom2teams:4.2.1 (alpine 3.17.0),1.46.6-r0,true,affected,
@@ -6652,6 +6651,14 @@ rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-p
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,soupsieve,2.8.3,python-pkg,CVE-2026-126190,HIGH,https://avd.aquasec.com/nvd/cve-2026-126190,Python,4.0.0,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,soupsieve,2.8.3,python-pkg,CVE-2026-126191,HIGH,https://avd.aquasec.com/nvd/cve-2026-126191,Python,3.0.2,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,dnspython,2.8.0,python-pkg,CVE-2026-128089,HIGH,https://avd.aquasec.com/nvd/cve-2026-128089,Python,2.9.2,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128124,HIGH,https://avd.aquasec.com/nvd/cve-2026-128124,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128126,HIGH,https://avd.aquasec.com/nvd/cve-2026-128126,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128127,HIGH,https://avd.aquasec.com/nvd/cve-2026-128127,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128128,HIGH,https://avd.aquasec.com/nvd/cve-2026-128128,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128129,HIGH,https://avd.aquasec.com/nvd/cve-2026-128129,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128130,HIGH,https://avd.aquasec.com/nvd/cve-2026-128130,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128131,HIGH,https://avd.aquasec.com/nvd/cve-2026-128131,Python,3.14.4,false,affected,
+rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,aiohttp,3.13.5,python-pkg,CVE-2026-128132,HIGH,https://avd.aquasec.com/nvd/cve-2026-128132,Python,3.14.4,false,affected,
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,fastmcp,3.1.0,python-pkg,CVE-2026-27124,HIGH,https://avd.aquasec.com/nvd/cve-2026-27124,Python,3.2.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,fastmcp,3.1.0,python-pkg,CVE-2026-32871,CRITICAL,https://avd.aquasec.com/nvd/cve-2026-32871,Python,3.2.0,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/rancher-ai-agent:v1.0.2,rancher/prime/v2.13-head,langchain-text-splitters,1.1.1,python-pkg,CVE-2026-41481,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-41481,Python,1.1.2,false,not_affected,vulnerable_code_not_in_execute_path

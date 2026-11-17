@@ -95,7 +95,7 @@ rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,15,15
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,80,80
 rancher/prometheus-federator:v8.0.0-rc.1,0,0,0
 rancher/rancher-agent:v2.16-head,0,0,0
-rancher/rancher-assets:v2.16-20261112T2241Z-dev,0,1,1
+rancher/rancher-assets:v2.16-20261113T2059Z-dev,0,1,1
 rancher/rancher-server:v2.16-head,0,0,0
 rancher/rancher-webhook:v0.12.1-rc.17,0,0,0
 rancher/remotedialer-proxy:v0.9.1-rc.2,0,0,0

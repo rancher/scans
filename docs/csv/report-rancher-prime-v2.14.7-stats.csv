@@ -91,7 +91,7 @@ rancher/mirrored-cloud-provider-vsphere:v1.35.1,0,32,32
 rancher/mirrored-coredns-coredns:1.14.7,0,23,23
 rancher/mirrored-elemental-operator:1.9.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.9.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,144,147
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,143,146
 rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-jimmidyson-configmap-reload:v0.13.1,0,25,25
