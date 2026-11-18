@@ -2,7 +2,7 @@ image,critical,high,total
 quay.io/stackstate/clickhouse-backup:2.7.2-so40,0,0,0
 quay.io/stackstate/clickhouse:26.8.36.3-so2,0,0,0
 quay.io/stackstate/container-tools:1.8.6-so51,0,0,0
-quay.io/stackstate/core-stackpacks:20261113080623-main-ed66497,0,0,0
+quay.io/stackstate/core-stackpacks:20261118085347-main-72657e9,0,0,0
 quay.io/stackstate/elasticsearch-exporter:1.11.0-so5,0,0,0
 quay.io/stackstate/elasticsearch:8.19.25-so4,0,0,0
 quay.io/stackstate/envoy:1.39.6-so6,0,0,0
@@ -13,11 +13,11 @@ quay.io/stackstate/kubernetes-rbac-agent:39ac8599-1130-release,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.3-so10,0,0,0
 quay.io/stackstate/s3proxy:3.2.0-so35,0,0,0
 quay.io/stackstate/spotlight:5.2.0-snapshot.247.rebuild.96,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261117124831-master-b6d1084,0,0,0
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261117124831-master-b6d1084,0,0,0
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261117124831-master-b6d1084,0,0,0
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261117124831-master-b6d1084-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261117124831-master-b6d1084,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261118130017-master-e197d51-2.5,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.78,0,0,0
 quay.io/stackstate/suse-observability-borg:20261115034027-90e4fb0c,0,0,0
 quay.io/stackstate/suse-observability-mcp:20261116033253-71b92ee1,0,0,0
@@ -30,7 +30,7 @@ quay.io/stackstate/workload-observer:3f946fa3-1119-release,0,0,0
 quay.io/stackstate/zookeeper:3.9.7-so4,0,0,0
 registry.rancher.com/suse-observability/hbase-master:2.5-8.3.27,0,1,1
 registry.rancher.com/suse-observability/hbase-regionserver:2.5-8.3.27,0,1,1
-registry.rancher.com/suse-observability/kafkaup-operator:0.0.17,0,1,1
+registry.rancher.com/suse-observability/kafkaup-operator:0.0.17,0,2,2
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.27,0,1,1
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.27,0,1,1
 registry.rancher.com/suse-observability/stackpacks:20261105145246-master-4ef2487-2_0-prime-selfhosted,0,0,0

@@ -1,0 +1,3 @@
+image,critical,high,total
+registry.suse.com/rancher/appco-k3k-kubelet:1.1.2-8.4,0,0,0
+registry.suse.com/rancher/appco-k3k:1.1.2-8.4,0,0,0

@@ -6,7 +6,7 @@ quay.io/stackstate/http-header-injector-proxy:1.39.6-so6,0,0,0
 quay.io/stackstate/kubernetes-rbac-agent:39ac8599-1130-release,0,0,0
 quay.io/stackstate/opentelemetry-target-allocator:0.161.0-so5,0,0,0
 quay.io/stackstate/promtail:3.6.11-so39,0,0,0
-quay.io/stackstate/stackstate-k8s-agent:7db7a834,0,0,0
-quay.io/stackstate/stackstate-k8s-cluster-agent:7db7a834,0,0,0
+quay.io/stackstate/stackstate-k8s-agent:7db7a834,0,2,2
+quay.io/stackstate/stackstate-k8s-cluster-agent:7db7a834,0,1,1
 quay.io/stackstate/stackstate-k8s-process-agent:3ec50354,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.78-agent,0,0,0
