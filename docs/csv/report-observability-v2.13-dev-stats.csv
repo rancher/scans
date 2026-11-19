@@ -13,11 +13,11 @@ quay.io/stackstate/kubernetes-rbac-agent:39ac8599-1130-release,0,0,0
 quay.io/stackstate/nginx-prometheus-exporter:1.5.3-so10,0,0,0
 quay.io/stackstate/s3proxy:3.2.0-so35,0,0,0
 quay.io/stackstate/spotlight:5.2.0-snapshot.247.rebuild.96,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261118130017-master-e197d51-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261118130017-master-e197d51,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261119193348-master-2c8f0a5,0,0,0
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261119193348-master-2c8f0a5,0,0,0
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261119193348-master-2c8f0a5,0,0,0
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261119193348-master-2c8f0a5-2.5,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261119193348-master-2c8f0a5,0,0,0
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.78,0,0,0
 quay.io/stackstate/suse-observability-borg:20261115034027-90e4fb0c,0,0,0
 quay.io/stackstate/suse-observability-mcp:20261116033253-71b92ee1,0,0,0

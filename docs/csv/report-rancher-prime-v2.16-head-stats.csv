@@ -116,9 +116,9 @@ rancher/rke2-runtime:v1.35.10-rke2r1,0,11,11
 rancher/rke2-runtime:v1.36.6-rke2r1,0,6,6
 rancher/rke2-runtime:v1.37.2-rke2r1,0,6,6
 rancher/rke2-security-responder:v0.1.9,0,0,0
-rancher/rke2-upgrade:v1.35.10-rke2r1,0,9,9
-rancher/rke2-upgrade:v1.36.6-rke2r1,0,9,9
-rancher/rke2-upgrade:v1.37.2-rke2r1,0,9,9
+rancher/rke2-upgrade:v1.35.10-rke2r1,0,10,10
+rancher/rke2-upgrade:v1.36.6-rke2r1,0,10,10
+rancher/rke2-upgrade:v1.37.2-rke2r1,0,10,10
 rancher/scc-operator:v0.5.4-rc.2,0,0,0
 rancher/security-scan:v0.11.0-rc.5,0,0,0
 rancher/shell:v0.9.1-rc.5,0,1,1

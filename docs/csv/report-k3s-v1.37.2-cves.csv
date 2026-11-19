@@ -6,6 +6,7 @@ rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,github.com/docker/docker,v25.0.15-0.2026032
 rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,github.com/pion/stun/v3,v3.1.1,gobinary,CVE-2026-54909,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-54909,bin/k3s,3.1.5,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,golang.org/x/crypto,v0.54.0,gobinary,CVE-2026-56854,HIGH,https://avd.aquasec.com/nvd/cve-2026-56854,bin/k3s,0.55.0,false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,golang.org/x/crypto,v0.54.0,gobinary,CVE-2026-56855,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-56855,bin/k3s,0.56.0,false,not_affected,vulnerable_code_not_present
+rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,github.com/nats-io/nats-server/v2,v2.14.0,gobinary,CVE-2026-58213,HIGH,https://avd.aquasec.com/nvd/cve-2026-58213,bin/k3s,"2.12.9, 2.14.1",false,affected,
 rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,golang.org/x/crypto,v0.54.0,gobinary,CVE-2026-78662,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-78662,bin/k3s,0.56.0,false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/cni,"1.26.11, 1.27.4",false,affected,
 rancher/k3s:v1.37.2-k3s1,k3s/v1.37.2,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/containerd-shim-runc-v2,"1.26.11, 1.27.4",false,affected,

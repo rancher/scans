@@ -9,7 +9,7 @@ longhornio/csi-provisioner:v6.3.0,0,19,19
 longhornio/csi-resizer:v2.2.1,0,18,18
 longhornio/csi-snapshotter:v8.6.0,0,19,19
 longhornio/livenessprobe:v2.20.0,0,11,11
-longhornio/longhorn-cli:v1.13.0,0,24,24
+longhornio/longhorn-cli:v1.13.0,0,22,22
 longhornio/longhorn-engine:v1.13.0,0,40,40
 longhornio/longhorn-instance-manager:v1.13.0,1,37,38
 longhornio/longhorn-manager:v1.13.0,0,17,17
@@ -63,7 +63,7 @@ rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.3,0,8,8
 rancher/rancher-webhook:v0.11.4,0,2,2
-rancher/rancher:v2.15.3,0,120,120
+rancher/rancher:v2.15.3,0,122,122
 rancher/rke2-cloud-provider:v1.36.6-0.20261016153003-c2fdd7c56c2c-build20261021,0,1,1
 rancher/rke2-runtime:v1.36.6-rke2r1,0,6,6
 rancher/shell:v0.8.3,0,40,40

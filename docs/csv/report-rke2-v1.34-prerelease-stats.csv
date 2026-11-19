@@ -53,7 +53,7 @@ rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428,0,22,22
 rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,22,22
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,22,22
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/rke2-cloud-provider:v1.34.13-0.20261016153036-a722e6511b81-build20261021,0,1,1
+rancher/rke2-cloud-provider:v1.34-r2-build20261116,0,14,14
 registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.34.0-build20261030,0,2,2
 registry.rancher.com/rancher/hardened-csi-attacher:v4.10.0-build20261026,0,1,1
 registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.14.0-build20261026,0,1,1
