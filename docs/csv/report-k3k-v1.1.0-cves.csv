@@ -51,6 +51,8 @@ rancher/k3k-kubelet:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-94440,HIG
 rancher/k3k-kubelet:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-97031,HIGH,https://avd.aquasec.com/nvd/cve-2026-97031,usr/bin/k3k-kubelet,"1.26.9, 1.27.2",false,affected,
 rancher/k3k-kubelet:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,usr/bin/k3k-kubelet,"1.26.11, 1.27.4",false,affected,
 rancher/k3k-kubelet:v1.1.0,k3k/v1.1.0,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/bin/k3k-kubelet,1.82.1,false,affected,
+rancher/k3k-kubelet:v1.1.0,k3k/v1.1.0,glibc,2.40-160099.8.1,sles,SUSE-SU-2026:24741-1,HIGH,,rancher/k3k-kubelet:v1.1.0 (sles 16.1),2.40-160100.4.1,false,affected,
+rancher/k3k-kubelet:v1.1.0,k3k/v1.1.0,glibc-locale-base,2.40-160099.8.1,sles,SUSE-SU-2026:24741-1,HIGH,,rancher/k3k-kubelet:v1.1.0 (sles 16.1),2.40-160100.4.1,false,affected,
 rancher/k3k:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/bin/k3k,"1.26.10, 1.27.3",false,affected,
 rancher/k3k:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,usr/bin/k3kcli,"1.26.10, 1.27.3",false,affected,
 rancher/k3k:v1.1.0,k3k/v1.1.0,golang.org/x/net,v0.51.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,usr/bin/k3k,0.55.0,false,not_affected,vulnerable_code_not_in_execute_path
@@ -123,3 +125,5 @@ rancher/k3k:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-97054,HIGH,https:
 rancher/k3k:v1.1.0,k3k/v1.1.0,stdlib,v1.25.9,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,usr/bin/k3kcli,"1.26.11, 1.27.4",false,affected,
 rancher/k3k:v1.1.0,k3k/v1.1.0,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/bin/k3k,1.82.1,false,affected,
 rancher/k3k:v1.1.0,k3k/v1.1.0,google.golang.org/grpc,v1.79.3,gobinary,GHSA-hrxh-6v49-42gf,HIGH,https://github.com/advisories/GHSA-hrxh-6v49-42gf,usr/bin/k3kcli,1.82.1,false,affected,
+rancher/k3k:v1.1.0,k3k/v1.1.0,glibc,2.40-160099.8.1,sles,SUSE-SU-2026:24741-1,HIGH,,rancher/k3k:v1.1.0 (sles 16.1),2.40-160100.4.1,false,affected,
+rancher/k3k:v1.1.0,k3k/v1.1.0,glibc-locale-base,2.40-160099.8.1,sles,SUSE-SU-2026:24741-1,HIGH,,rancher/k3k:v1.1.0 (sles 16.1),2.40-160100.4.1,false,affected,

@@ -21,6 +21,7 @@ quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261118130017-master-e197d51,0,
 quay.io/stackstate/sts-opentelemetry-collector:v0.0.78,0,0,0
 quay.io/stackstate/suse-observability-borg:20261115034027-90e4fb0c,0,0,0
 quay.io/stackstate/suse-observability-mcp:20261116033253-71b92ee1,0,0,0
+quay.io/stackstate/suse-stackpacks:platform-20261119151845-main-f947c2e,0,0,0
 quay.io/stackstate/victoria-metrics:1.155.0-so2,0,0,0
 quay.io/stackstate/vmagent:1.155.0-so2,0,0,0
 quay.io/stackstate/vmbackup:1.155.0-so4,0,0,0
@@ -34,5 +35,4 @@ registry.rancher.com/suse-observability/kafkaup-operator:0.0.17,0,2,2
 registry.rancher.com/suse-observability/stackgraph-console:2.5-8.3.27,0,1,1
 registry.rancher.com/suse-observability/stackgraph-hbase:2.5-8.3.27,0,1,1
 registry.rancher.com/suse-observability/stackpacks:20261105145246-master-4ef2487-2_0-prime-selfhosted,0,0,0
-registry.rancher.com/suse-observability/suse-stackpacks:platform-20261105145448-main-8a6c98c,0,0,0
 registry.rancher.com/suse-observability/tephra-server:2.5-8.3.27,0,1,1

@@ -1,6 +1,6 @@
 image,critical,high,total
-rancher/aks-operator:v1.13.12-rc.1,0,1,1
-rancher/ali-operator:v1.13.9-rc.1,0,1,1
+rancher/aks-operator:v1.13.12-rc.1,0,2,2
+rancher/ali-operator:v1.13.9-rc.1,0,2,2
 rancher/appco-alertmanager:0.28.1-12.7,0,37,37
 rancher/appco-grafana:12.1.1-2.2,4,150,154
 rancher/appco-k8s-sidecar:1.30.7-11.3,3,46,49
@@ -20,10 +20,10 @@ rancher/cluster-api-provider-rke2-bootstrap:v0.21.2,0,1,1
 rancher/cluster-api-provider-rke2-controlplane:v0.21.2,0,1,1
 rancher/cluster-api-vsphere-controller:v1.13.1,0,40,40
 rancher/compliance-operator:v1.3.14-rc.1,0,1,1
-rancher/eks-operator:v1.13.12-rc.1,0,1,1
+rancher/eks-operator:v1.13.12-rc.1,0,2,2
 rancher/fleet-agent:v0.14.13-rc.3,0,0,0
 rancher/fleet:v0.14.13-rc.3,0,0,0
-rancher/gke-operator:v1.13.13-rc.1,0,1,1
+rancher/gke-operator:v1.13.13-rc.1,0,2,2
 rancher/hardened-addon-resizer:1.8.24-build20261021,0,1,1
 rancher/hardened-calico:v3.32.2-build20261022,0,29,29
 rancher/hardened-cluster-autoscaler:v1.11.0-build20261020,0,1,1
@@ -43,8 +43,8 @@ rancher/hardened-multus-thick:v4.3.1-build20261022,0,4,4
 rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,1,1
 rancher/hardened-traefik:v3.7.16-build20261028,0,1,1
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,4,4
-rancher/harvester-cloud-provider:v0.2.10,0,1,1
-rancher/harvester-cloud-provider:v0.2.8,0,18,18
+rancher/harvester-cloud-provider:v0.2.10,0,2,2
+rancher/harvester-cloud-provider:v0.2.8,0,19,19
 rancher/harvester-csi-driver:v0.2.10,0,26,26
 rancher/harvester-csi-driver:v0.2.11,0,4,4
 rancher/k3s-upgrade:v1.32.13-k3s1,0,30,30
@@ -101,7 +101,7 @@ rancher/mirrored-cluster-api-controller:v1.10.6,0,33,33
 rancher/mirrored-coredns-coredns:1.14.7,0,24,24
 rancher/mirrored-elemental-operator:1.8.2,0,0,0
 rancher/mirrored-elemental-seedimage-builder:1.8.2,0,0,0
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,142,145
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,141,144
 rancher/mirrored-idealista-prom2teams:4.2.1,1,48,49
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.2,0,33,33
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,29,29
@@ -155,11 +155,11 @@ rancher/mirrored-sig-storage-csi-snapshotter:v8.2.0,0,31,31
 rancher/mirrored-sig-storage-livenessprobe:v2.17.0,0,29,29
 rancher/mirrored-sig-storage-snapshot-controller:v8.2.0,0,27,27
 rancher/mirrored-sonobuoy-sonobuoy:v0.57.5,0,16,16
-rancher/neuvector-compliance-config:1.0.19,0,0,0
+rancher/neuvector-compliance-config:1.0.19,0,1,1
 rancher/neuvector-controller:5.6.4,0,23,23
 rancher/neuvector-enforcer:5.6.4,0,19,19
 rancher/neuvector-manager:5.6.4,0,0,0
-rancher/neuvector-prometheus-exporter:1.0.21,0,0,0
+rancher/neuvector-prometheus-exporter:1.0.21,0,1,1
 rancher/neuvector-registry-adapter:0.2.13,0,4,4
 rancher/neuvector-scanner:6,0,0,0
 rancher/neuvector-updater:0.0.17,0,1,1

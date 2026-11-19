@@ -1,8 +1,8 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3,0,60,60
 kubeovn/kube-ovn:v1.15.4,0,147,147
-kubeovn/vpc-nat-gateway:v1.15.4,2,21,23
-longhornio/backing-image-manager:v1.11.3,1,47,48
+kubeovn/vpc-nat-gateway:v1.15.4,0,5,5
+longhornio/backing-image-manager:v1.11.3,0,35,35
 longhornio/csi-attacher:v4.12.0,0,19,19
 longhornio/csi-node-driver-registrar:v2.17.0,0,17,17
 longhornio/csi-provisioner:v6.3.0,0,19,19
@@ -39,8 +39,8 @@ rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,1,1
 rancher/harvester-cluster-repo:v1.8-head,0,1,1
 rancher/harvester-eventrouter:v1.8.3-rc1,0,7,7
 rancher/harvester-kubeovn-operator:v1.15.4-r2,0,64,64
-rancher/harvester-load-balancer-webhook:v1.8.3-rc1,0,1,1
-rancher/harvester-load-balancer:v1.8.3-rc1,0,1,1
+rancher/harvester-load-balancer-webhook:v1.8.3-rc1,0,2,2
+rancher/harvester-load-balancer:v1.8.3-rc1,0,2,2
 rancher/harvester-network-controller:v1.8.3-rc1,0,2,2
 rancher/harvester-network-helper:v1.8.3-rc1,0,1,1
 rancher/harvester-network-webhook:v1.8.3-rc1,0,1,1
@@ -49,7 +49,7 @@ rancher/harvester-node-disk-manager-webhook:v1.8.3-rc1,0,5,5
 rancher/harvester-node-disk-manager:v1.8.3-rc1,0,5,5
 rancher/harvester-node-manager-webhook:v1.8.3-rc1,0,2,2
 rancher/harvester-node-manager:v1.8.3-rc1,0,2,2
-rancher/harvester-pcidevices:v1.8.3-rc1,0,1,1
+rancher/harvester-pcidevices:v1.8.3-rc1,0,3,3
 rancher/harvester-seeder:v1.8.3-rc1,0,7,7
 rancher/harvester-upgrade:v1.8-head,0,92,92
 rancher/harvester-vm-import-controller:v1.8.3-rc1,0,7,7
@@ -60,7 +60,7 @@ rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,27,27
 rancher/kubectl:v1.35.1,0,20,20
 rancher/kuberlr-kubectl:v7.1.0,0,55,55
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,142,145
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,141,144
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,29,29
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,27,27
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
@@ -75,7 +75,7 @@ rancher/mirrored-prometheus-operator-prometheus-operator:v0.85.0,0,27,27
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,83,83
 rancher/prom-prometheus:v3.5.0,0,72,72
 rancher/rancher-agent:v2.14.3,0,50,50
-rancher/rancher-webhook:v0.10.7,0,17,17
+rancher/rancher-webhook:v0.10.7,0,18,18
 rancher/rancher:v2.14.3,0,269,269
 rancher/rke2-cloud-provider:v1.35.10-0.20261016153020-10a456cdc331-build20261021,0,1,1
 rancher/rke2-runtime:v1.35.10-rke2r1,0,11,11

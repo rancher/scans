@@ -1,5 +1,5 @@
 image,critical,high,total
-neuvector/prometheus-exporter:1.0.22-rc1,0,0,0
+neuvector/prometheus-exporter:1.0.22-rc1,0,1,1
 neuvector/registry-adapter:0.2.14-rc1,0,0,0
 neuvector/updater:0.0.18-rc1,0,0,0
-rancher/neuvector-compliance-config:1.0.20-rc1,0,0,0
+rancher/neuvector-compliance-config:1.0.20-rc1,0,1,1
