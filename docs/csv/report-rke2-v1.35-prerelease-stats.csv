@@ -12,7 +12,7 @@ rancher/hardened-multus-cni:v4.3.1-build20261022,0,5,5
 rancher/hardened-multus-dynamic-networks-controller:v0.3.9-build20261020,0,1,1
 rancher/hardened-multus-thick:v4.3.1-build20261022,0,4,4
 rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,1,1
-rancher/hardened-traefik:v3.7.16-build20261028,0,1,1
+rancher/hardened-traefik:v3.7.19-build20261118,0,0,0
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,4,4
 rancher/harvester-cloud-provider:v0.2.10,0,1,1
 rancher/harvester-csi-driver:v0.2.11,0,4,4
@@ -52,7 +52,7 @@ rancher/mirrored-longhornio-csi-provisioner:v5.3.0-20260428,0,22,22
 rancher/mirrored-longhornio-csi-resizer:v2.1.0-20260428,0,22,22
 rancher/mirrored-longhornio-csi-snapshotter:v8.5.0-20260428,0,22,22
 rancher/mirrored-pause:3.10.2,0,0,0
-rancher/rke2-cloud-provider:v1.35.10-0.20261016153020-10a456cdc331-build20261021,0,1,1
+rancher/rke2-cloud-provider:v1.35-r2-build20261116,0,14,14
 registry.rancher.com/rancher/hardened-cloud-provider-vsphere:v1.35.1-build20261020,0,2,2
 registry.rancher.com/rancher/hardened-csi-attacher:v4.10.0-build20261026,0,1,1
 registry.rancher.com/rancher/hardened-csi-node-driver-registrar:v2.14.0-build20261026,0,1,1

@@ -122,7 +122,7 @@ rancher/scc-operator:v0.5.4-rc.2,0,0,0
 rancher/security-scan:v0.11.0-rc.5,0,0,0
 rancher/shell:v0.9.1-rc.2,0,9,9
 rancher/supportability-review-app-frontend:v0.27.0,0,1,1
-rancher/supportability-review-internal:latest,0,4,4
+rancher/supportability-review-internal:latest,0,0,0
 rancher/supportability-review-operator:v0.27.0,0,1,1
 rancher/supportability-review:latest,0,0,0
 rancher/system-agent-installer-k3s:v1.35.10-k3s1,0,0,0
