@@ -50,7 +50,7 @@ rancher/harvester-seeder:main-head,0,1,1
 rancher/harvester-upgrade:master-head,0,39,39
 rancher/harvester-vm-import-controller:main-head,0,0,0
 rancher/harvester-webhook:master-head,0,1,1
-rancher/harvester:master-head,0,1,1
+rancher/harvester:master-head,0,57,57
 rancher/klipper-helm:v0.13.3-build20261021,0,5,5
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kubectl:v1.35.1,0,20,20
@@ -68,8 +68,8 @@ rancher/rancher-agent:v2.16-head,0,0,0
 rancher/rancher-webhook:v2.16-head,0,0,0
 rancher/rancher:v2.16-head,0,15,15
 rancher/rke2-cloud-provider:v1.37.2-0.20261016152943-06368081f0b2-build20261021,0,1,1
-rancher/rke2-runtime:v1.37.2-rke2r1,0,6,6
-rancher/shell:v0.9.1-rc.2,0,9,9
+rancher/rke2-runtime:v1.37.2-rke2r1,0,9,9
+rancher/shell:v0.9.1-rc.2,0,10,10
 rancher/support-bundle-kit:master-head,0,2,2
 rancher/system-agent-installer-rancher:v2.15.3,0,1,1
 rancher/system-agent:v0.15.3-suc,0,3,3

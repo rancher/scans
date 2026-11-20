@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>SUSE Cloud Native - Images CVE Scans</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+</head>
+<body>
+<header class="page-header">
+<div class="brand">
+<img src="images/logo.svg" class="brand-logo" alt="SUSE Cloud Native" aria-hidden="true">
+Images CVE Scans
+</div>
+<button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
+</header>
+<main class="page-content">
+<h1>SUSE Cloud Native - RKE2 v1.36.6-rc1 version - CVE Scans - 2026-11-20</h1>
+
+<section class="callout callout-collapsible">
+<h3>How to use this page</h3>
+
+<div class="callout-content">
+<ul>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false), release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity, status (if affected or not affected/false-positive),
+justification (for false-positives), vulnerability type (related to the programming
+language or container OS).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected", because they do not affect the
+binary/package/image. The justification explains why they are false-positives, 
+according to the VEX statuses as explained in <a href="https://support.scc.suse.com/s/kb/How-to-use-SUSE-Rancher-s-VEX-Reports">KB 000021573</a>.</li>
+<li>For further instructions about scanned versions, scanning frequency, tooling
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners. This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
+<li>Only critical and high severity CVEs are displayed (internally we track all
+severities).</li>
+</ul>
+</div>
+</section>
+
+<div class="search-box">
+<p><b>Search:</b> <input type="text" id="searchBar" maxlength="64" placeholder="Search for any table field"></p>
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
+<p style="display:none;" id="search_count"></p>
+</div>
+
+<div id="image-index"></div>
+
+<table id="cves_table">
+<tr>
+<th>Image</th>
+<th>Mirrored</th>
+<th>Release</th>
+<th>Binary/Package</th>
+<th>Dependency</th>
+<th>Patched version</th>
+<th>Vulnerability ID (CVE)</th>
+<th>Severity</th>
+<th>Status</th>
+<th>Justification (for status not affected)</th>
+<th>Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-addon-resizer:1.8.24-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>pod_nanny</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>calicoctl</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/bandwidth</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/bond</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/bridge</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/calico</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/dhcp</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/dummy</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/firewall</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/flannel</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/host-device</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/host-local</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/install</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/ipvlan</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/loopback</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/macvlan</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/portmap</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/ptp</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/sbr</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/static</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/tap</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/tuning</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/vlan</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/vrf</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/bin/calico-node</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/bin/check-status</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/bin/kube-controllers</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/flexvol/flexvoldriver</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>libpcre2-8-0</td>
+<td>libpcre2-8-0@10.45-160000.4.1</td>
+<td>10.45-160000.5.1</td>
+<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-cluster-autoscaler:v1.11.0-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>cluster-proportional-autoscaler</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-coredns:v1.14.7-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>coredns</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-dns-node-cache:1.27.2-r1-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>node-cache</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/etcd</td>
+<td>github.com/klauspost/compress@v1.18.0</td>
+<td>1.18.7</td>
+<td><a href="cve-CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/etcd</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/etcdctl</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.28.10-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/bin/flanneld</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.28.10-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/bin/install-conf</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.28.10-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/sbin/iptables-wrapper</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-flannel:v0.28.10-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>libpcre2-8-0</td>
+<td>libpcre2-8-0@10.45-160000.4.1</td>
+<td>10.45-160000.5.1</td>
+<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-k8s-metrics-server:v0.9.0-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>metrics-server</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-snapshot-controller:v8.7.0-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>snapshot-controller</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>musl</td>
+<td>musl@1.2.6-r2</td>
+<td>1.2.6-r3</td>
+<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>musl-utils</td>
+<td>musl-utils@1.2.6-r2</td>
+<td>1.2.6-r3</td>
+<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-mapkubeapis/bin/mapkubeapis</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>home/klipper-helm/.local/share/helm/plugins/helm-set-status/helm-set-status</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-helm:v0.13.3-build20261021</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/bin/helm</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-lb:v0.4.17</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>musl</td>
+<td>musl@1.2.5-r23</td>
+<td>1.2.5-r24</td>
+<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/klipper-lb:v0.4.17</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>musl-utils</td>
+<td>musl-utils@1.2.5-r23</td>
+<td>1.2.5-r24</td>
+<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>alpine</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39828.html">CVE-2026-39828</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39829.html">CVE-2026-39829</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39831.html">CVE-2026-39831</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39832.html">CVE-2026-39832</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39833.html">CVE-2026-39833</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39834.html">CVE-2026-39834</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39835.html">CVE-2026-39835</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-42508.html">CVE-2026-42508</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46595.html">CVE-2026-46595</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46598.html">CVE-2026-46598</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-cloud-provider:v1.36-r2-build20261116</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/rke2-cloud-provider</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/containerd</td>
+<td>github.com/containerd/containerd/v2@v2.3.7-k3s1+dirty</td>
+<td>2.2.10, 2.3.7, 2.4.2</td>
+<td><a href="cve-CVE-2026-95839.html">CVE-2026-95839</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>github.com/containerd/containerd/v2@v2.3.7-k3s1+dirty</td>
+<td>2.2.10, 2.3.7, 2.4.2</td>
+<td><a href="cve-CVE-2026-95839.html">CVE-2026-95839</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/ctr</td>
+<td>github.com/containerd/containerd/v2@v2.3.7-k3s1+dirty</td>
+<td>2.2.10, 2.3.7, 2.4.2</td>
+<td><a href="cve-CVE-2026-95839.html">CVE-2026-95839</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/containerd</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/crictl</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/ctr</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/calico</td>
+<td>github.com/klauspost/compress@v1.18.0</td>
+<td>1.18.7</td>
+<td><a href="cve-CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>opt/cni/bin/calico-ipam</td>
+<td>github.com/klauspost/compress@v1.18.0</td>
+<td>1.18.7</td>
+<td><a href="cve-CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-cluster-autoscaler:v1.11.0-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>cluster-proportional-autoscaler</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/etcd</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>usr/local/bin/etcdctl</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/crictl</td>
+<td>github.com/docker/docker@v27.1.1+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-41567.html">CVE-2026-41567</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/containerd</td>
+<td>github.com/docker/docker@v27.3.1+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-41567.html">CVE-2026-41567</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/crictl</td>
+<td>github.com/docker/docker@v27.1.1+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-42306.html">CVE-2026-42306</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/containerd</td>
+<td>github.com/docker/docker@v27.3.1+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-42306.html">CVE-2026-42306</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/rke2-runtime:v1.36.6-rc1-rke2r2</td>
+<td>false</td>
+<td>RKE2 v1.36.6-rc1</td>
+<td>bin/runc</td>
+<td>stdlib@v1.26.10</td>
+<td>1.26.11, 1.27.4</td>
+<td><a href="cve-CVE-2026-97054.html">CVE-2026-97054</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+</table>
+
+<footer>
+<p>
+Note: This page uses embedded JavaScript for filtering and search
+functionalities. If JavaScript support is disabled in your browser, the page
+will still be usable, but those functions will not work as expected. The fonts
+are hosted together with this page and no external code or dependencies are
+imported by it. Charts are generated with <a
+href="https://echarts.apache.org">Apache ECharts</a> (<a
+href="echarts-LICENSE.txt">license</a>).
+</p>
+<p><b>
+The SUSE Cloud Native CVE data is provided by SUSE under the Creative
+Commons license with Attribution (CC-BY-4.0). See the
+<a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.
+</b></p>
+</footer>
+</main>
+
+<script src="search.js"></script>
+<script src="sort.js"></script>
+<script src="image-index.js"></script>
+
+</body>
+</html>

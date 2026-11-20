@@ -1,6 +1,6 @@
 image,critical,high,total
 ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.3,0,60,60
-kubeovn/kube-ovn:v1.16.2,0,108,108
+kubeovn/kube-ovn:v1.16.2,0,109,109
 kubeovn/vpc-nat-gateway:v1.16.2,0,2,2
 longhornio/backing-image-manager:v1.12.1,0,19,19
 longhornio/csi-attacher:v4.12.0,0,19,19
@@ -66,10 +66,10 @@ rancher/mirrored-library-nginx:1.29.1-alpine,3,68,71
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.0,0,59,59
 rancher/rancher-webhook:v0.11.0,0,16,16
-rancher/rancher:v2.15.0,0,246,246
+rancher/rancher:v2.15.0,0,247,247
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,22,22
-rancher/rke2-runtime:v1.36.3-rke2r1,0,106,106
-rancher/shell:v0.8.1,0,74,74
+rancher/rke2-runtime:v1.36.3-rke2r1,0,109,109
+rancher/shell:v0.8.1,0,75,75
 rancher/support-bundle-kit:v0.0.96,0,26,26
 rancher/system-agent-installer-rancher:v2.15.0,0,20,20
 rancher/system-agent-installer-rke2:v1.36.3-rke2r1,0,0,0

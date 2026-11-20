@@ -25,6 +25,7 @@ rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,golang.org/x/crypto,v0.47.0,gobinary,CVE-
 rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,google.golang.org/grpc,v1.78.0,gobinary,CVE-2026-84303,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-84303,bin/containerd-shim-runc-v2,1.83.1,false,not_affected,vulnerable_code_not_present
 rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,google.golang.org/grpc,v1.78.0,gobinary,CVE-2026-84304,HIGH,https://avd.aquasec.com/nvd/cve-2026-84304,bin/containerd-shim-runc-v2,1.83.1,false,affected,
 rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,google.golang.org/grpc,v1.78.0,gobinary,CVE-2026-84445,HIGH,https://avd.aquasec.com/nvd/cve-2026-84445,bin/containerd-shim-runc-v2,"1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3, 1.85.0-dev.0.20260825072537-93e31b48545e",false,affected,
+rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,github.com/containerd/containerd/v2,v2.2.10-k3s1+dirty,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,bin/containerd-shim-runc-v2,"2.2.10, 2.3.7, 2.4.2",false,affected,
 rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/cni,"1.26.11, 1.27.4",false,affected,
 rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/containerd-shim-runc-v2,"1.26.11, 1.27.4",false,affected,
 rancher/k3s:v1.34.13-k3s1,k3s/v1.34.13,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/k3s,"1.26.11, 1.27.4",false,affected,

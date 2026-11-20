@@ -300,6 +300,9 @@ rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,golang.org/x/mod,v0.37.0,gobi
 rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,golang.org/x/mod,v0.37.0,gobinary,CVE-2026-56865,HIGH,https://avd.aquasec.com/nvd/cve-2026-56865,bin/ctr,0.40.0,false,not_affected,vulnerable_code_not_present
 rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,github.com/klauspost/compress,v1.18.5,gobinary,CVE-2026-63209,HIGH,https://avd.aquasec.com/nvd/cve-2026-63209,bin/containerd,1.18.7,false,affected,
 rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,github.com/klauspost/compress,v1.18.5,gobinary,CVE-2026-63209,HIGH,https://avd.aquasec.com/nvd/cve-2026-63209,bin/ctr,1.18.7,false,affected,
+rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,github.com/containerd/containerd/v2,v2.2.10-k3s1+dirty,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,bin/containerd,"2.2.10, 2.3.7, 2.4.2",false,affected,
+rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,github.com/containerd/containerd/v2,v2.2.10-k3s1+dirty,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,bin/containerd-shim-runc-v2,"2.2.10, 2.3.7, 2.4.2",false,affected,
+rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,github.com/containerd/containerd/v2,v2.2.10-k3s1+dirty,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,bin/ctr,"2.2.10, 2.3.7, 2.4.2",false,affected,
 rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/containerd,"1.26.11, 1.27.4",false,affected,
 rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/containerd-shim-runc-v2,"1.26.11, 1.27.4",false,affected,
 rancher/rke2-runtime:v1.35.10-rke2r1,rke2/v1.35.10,stdlib,v1.26.10,gobinary,CVE-2026-97054,HIGH,https://avd.aquasec.com/nvd/cve-2026-97054,bin/crictl,"1.26.11, 1.27.4",false,affected,
