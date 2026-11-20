@@ -32,7 +32,7 @@ rancher/hardened-kubernetes:v1.36.6-rke2r1-build20261029,0,6,6
 rancher/hardened-multus-cni:v4.3.1-build20261022,0,5,5
 rancher/hardened-snapshot-controller:v8.7.0-build20261021,0,1,1
 rancher/hardened-traefik:v3.7.16-build20261028,0,1,1
-rancher/harvester-cluster-repo:cd0a28bf,0,0,0
+rancher/harvester-cluster-repo:93bb9f5f,0,0,0
 rancher/harvester-eventrouter:master-head,0,0,0
 rancher/harvester-kubeovn-operator:v1.17.0-dev.1,0,1,1
 rancher/harvester-load-balancer-webhook:master-head,0,0,0
@@ -63,7 +63,7 @@ rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.3,0,8,8
 rancher/rancher-webhook:v0.11.4,0,2,2
-rancher/rancher:v2.15.3,0,123,123
+rancher/rancher:v2.15.3,0,125,125
 rancher/rke2-cloud-provider:v1.36.6-0.20261016153003-c2fdd7c56c2c-build20261021,0,1,1
 rancher/rke2-runtime:v1.36.6-rke2r1,0,9,9
 rancher/shell:v0.8.3,0,41,41

@@ -66,7 +66,7 @@ rancher/mirrored-library-nginx:1.29.1-alpine,3,68,71
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.0,0,59,59
 rancher/rancher-webhook:v0.11.0,0,16,16
-rancher/rancher:v2.15.0,0,247,247
+rancher/rancher:v2.15.0,0,249,249
 rancher/rke2-cloud-provider:v1.36.2-0.20260610225606-10b320a3ba51-build20260709,0,22,22
 rancher/rke2-runtime:v1.36.3-rke2r1,0,109,109
 rancher/shell:v0.8.1,0,75,75
