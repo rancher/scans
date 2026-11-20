@@ -12,8 +12,8 @@ longhornio/livenessprobe:v2.19.0,0,17,17
 longhornio/longhorn-cli:v1.12.1,0,30,30
 longhornio/longhorn-engine:v1.12.1,0,50,50
 longhornio/longhorn-instance-manager:v1.12.1,0,36,36
-longhornio/longhorn-manager:v1.12.1,0,35,35
-longhornio/longhorn-share-manager:v1.12.1,0,33,33
+longhornio/longhorn-manager:v1.12.1,0,31,31
+longhornio/longhorn-share-manager:v1.12.1,0,32,32
 longhornio/longhorn-ui:v1.12.1,0,16,16
 longhornio/support-bundle-kit:v0.0.92,0,35,35
 rancher/cluster-api-controller:v1.13.3,0,20,20
