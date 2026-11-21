@@ -38,7 +38,7 @@ rancher/hardened-traefik:v3.7.16-build20261028,0,1,1
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,4,4
 rancher/harvester-cloud-provider:v0.2.10,0,2,2
 rancher/harvester-csi-driver:v0.2.11,0,4,4
-rancher/helm-controller:v0.16.26,0,19,19
+rancher/helm-controller:v0.16.26,0,18,18
 rancher/k3s-upgrade:v1.34.13-k3s1,0,1,1
 rancher/k3s-upgrade:v1.35.10-k3s1,0,1,1
 rancher/k3s-upgrade:v1.36.6-k3s1,0,1,1
@@ -49,9 +49,9 @@ rancher/kube-api-auth:v0.15.4,0,1,1
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,27,27
 rancher/kubeadm-bootstrap-controller:v1.13.3,0,20,20
 rancher/kubeadm-control-plane-controller:v1.13.3,0,20,20
-rancher/kuberlr-kubectl:v7.1.1,0,55,55
-rancher/kuberlr-kubectl:v8.1.1,0,55,55
-rancher/kuberlr-kubectl:v8.1.2,0,51,51
+rancher/kuberlr-kubectl:v7.1.1,0,52,52
+rancher/kuberlr-kubectl:v8.1.1,0,52,52
+rancher/kuberlr-kubectl:v8.1.2,0,48,48
 rancher/local-path-provisioner:v0.0.37,0,16,16
 rancher/machine:v0.15.0-rancher145.3,0,5,5
 rancher/mirrored-bci-micro:16.0-15.11,0,7,7
@@ -81,8 +81,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.20.4,0,5,5
 rancher/mirrored-cilium-operator-azure:v1.20.4,0,5,5
 rancher/mirrored-cilium-operator-generic:v1.20.4,0,5,5
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0,0,31,31
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0,0,30,30
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0,20,91,111
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0,20,76,96
 rancher/mirrored-cloud-provider-vsphere:v1.36.0,0,22,22
 rancher/mirrored-coredns-coredns:1.14.7,0,24,24
 rancher/mirrored-elemental-operator:1.9.2,0,0,0

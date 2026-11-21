@@ -69,8 +69,8 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.20.4,0,5,5
 rancher/mirrored-cilium-operator-azure:v1.20.4,0,5,5
 rancher/mirrored-cilium-operator-generic:v1.20.4,0,5,5
-rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0,0,31,31
-rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0,0,30,30
+rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0,20,91,111
+rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0,20,76,96
 rancher/mirrored-cloud-provider-vsphere:v1.37.0,0,14,14
 rancher/mirrored-coredns-coredns:1.14.7,0,24,24
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,16,16
@@ -91,8 +91,8 @@ rancher/mirrored-sig-storage-csi-resizer:v2.0.0,0,47,47
 rancher/mirrored-sig-storage-livenessprobe:v2.17.0,0,29,29
 rancher/nginx-ingress-controller:v1.14.5-hardened2,0,83,83
 rancher/rancher-agent:v2.17-head,0,0,0
-rancher/rancher-assets:v2.16-20261120T1507Z-dev,0,1,1
-rancher/rancher-server:v2.17.0-ff2654c-head,0,1,1
+rancher/rancher-assets:v2.16-20261120T1935Z-dev,0,1,1
+rancher/rancher-server:v2.17.0-531c5f6-head,0,1,1
 rancher/rke2-cloud-provider:v1.37.2-0.20261016152943-06368081f0b2-build20261021,0,1,1
 rancher/rke2-runtime:v1.35.10-rke2r1,0,14,14
 rancher/rke2-runtime:v1.36.6-rke2r1,0,9,9
