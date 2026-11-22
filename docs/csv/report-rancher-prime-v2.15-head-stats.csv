@@ -40,7 +40,7 @@ rancher/hardened-traefik:v3.7.16-build20261028,0,1,1
 rancher/hardened-whereabouts:v0.9.4-build20261022,0,4,4
 rancher/harvester-cloud-provider:v0.2.10,0,2,2
 rancher/harvester-csi-driver:v0.2.11,0,4,4
-rancher/helm-controller:v0.16.26,0,18,18
+rancher/helm-controller:v0.16.26,0,16,16
 rancher/k3s-upgrade:v1.34.13-k3s1,0,1,1
 rancher/k3s-upgrade:v1.35.10-k3s1,0,1,1
 rancher/k3s-upgrade:v1.36.6-k3s1,0,1,1

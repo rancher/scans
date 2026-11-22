@@ -1,8 +1,6 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
 longhornio/backing-image-manager:master-head,longhorn/master,iperf,3.22-108.2,sles,SUSE-SU-2026:4678-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),3.22-150000.3.18.1,false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/backing-image-manager:master-head,longhorn/master,libiperf0,3.22-108.2,sles,SUSE-SU-2026:4678-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),3.22-150000.3.18.1,false,not_affected,vulnerable_code_not_in_execute_path
-longhornio/backing-image-manager:master-head,longhorn/master,libpython3_6m1_0,3.6.15-150300.10.129.1,sles,SUSE-SU-2026:5251-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),3.6.15-150300.10.134.1,false,not_affected,vulnerable_code_not_in_execute_path
-longhornio/backing-image-manager:master-head,longhorn/master,python3-base,3.6.15-150300.10.129.1,sles,SUSE-SU-2026:5251-1,HIGH,,longhornio/backing-image-manager:master-head (sles 15.7),3.6.15-150300.10.134.1,false,not_affected,vulnerable_code_not_in_execute_path
 longhornio/csi-attacher:v4.12.0,longhorn/master,stdlib,v1.26.3,gobinary,CVE-2026-111943,HIGH,https://avd.aquasec.com/nvd/cve-2026-111943,csi-attacher,"1.26.10, 1.27.3",false,affected,
 longhornio/csi-attacher:v4.12.0,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-25680,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-25680,csi-attacher,0.55.0,false,not_affected,vulnerable_code_not_present
 longhornio/csi-attacher:v4.12.0,longhorn/master,golang.org/x/net,v0.54.0,gobinary,CVE-2026-25681,HIGH,https://avd.aquasec.com/nvd/cve-2026-25681,csi-attacher,0.55.0,false,not_affected,vulnerable_code_not_present
