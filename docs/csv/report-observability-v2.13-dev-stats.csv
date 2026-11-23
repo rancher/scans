@@ -1,6 +1,7 @@
 image,critical,high,total
 quay.io/stackstate/clickhouse-backup:2.7.2-so43,0,0,0
 quay.io/stackstate/clickhouse:26.8.37.168-so1,0,0,0
+quay.io/stackstate/container-tools:1.8.6-so58,0,0,0
 quay.io/stackstate/core-stackpacks:20261120143952-main-9033cdd,0,0,0
 quay.io/stackstate/elasticsearch-exporter:1.11.0-so5,0,0,0
 quay.io/stackstate/elasticsearch:8.19.25-so6,0,0,0

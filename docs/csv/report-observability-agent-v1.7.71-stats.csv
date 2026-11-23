@@ -6,7 +6,7 @@ registry.rancher.com/suse-observability/http-header-injector-proxy:1.39.6-so7,0,
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:6355e705-1134-release,0,0,0
 registry.rancher.com/suse-observability/opentelemetry-target-allocator:0.161.0-so6,0,0,0
 registry.rancher.com/suse-observability/promtail:3.6.11-so40,0,0,0
-registry.rancher.com/suse-observability/stackstate-k8s-agent:7db7a834,0,2,2
-registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:7db7a834,0,1,1
+registry.rancher.com/suse-observability/stackstate-k8s-agent:7db7a834,0,0,0
+registry.rancher.com/suse-observability/stackstate-k8s-cluster-agent:7db7a834,0,0,0
 registry.rancher.com/suse-observability/stackstate-k8s-process-agent:6e4283d2,0,0,0
 registry.rancher.com/suse-observability/sts-opentelemetry-collector:v0.0.80-agent,0,0,0
