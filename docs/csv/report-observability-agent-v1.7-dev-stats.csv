@@ -1,5 +1,4 @@
 image,critical,high,total
-quay.io/stackstate/container-tools:1.8.6-so57,0,0,0
 quay.io/stackstate/generic-sidecar-injector:42992faf-1136-release,0,0,0
 quay.io/stackstate/opentelemetry-target-allocator:0.161.0-so7,0,0,0
 quay.io/stackstate/stackstate-k8s-agent:fff21e9a,0,0,0
