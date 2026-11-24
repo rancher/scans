@@ -60,9 +60,9 @@ rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,37,37
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,24,24
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,68,71
+rancher/mirrored-library-nginx:1.29.1-alpine,3,62,65
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.15.0,0,57,57
 rancher/rancher-webhook:v0.11.0,0,15,15

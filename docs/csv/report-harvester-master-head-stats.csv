@@ -1,5 +1,5 @@
 image,critical,high,total
-ghcr.io/k8snetworkplumbingwg/whereabouts:latest,0,92,92
+ghcr.io/k8snetworkplumbingwg/whereabouts:v0.9.4,0,76,76
 kubeovn/kube-ovn:v1.17.0,0,0,0
 kubeovn/vpc-nat-gateway:v1.17.0,0,0,0
 longhornio/backing-image-manager:master-head,0,0,0
@@ -20,7 +20,7 @@ rancher/cluster-api-controller:v1.14.3,0,15,15
 rancher/fleet-agent:v0.16.3,0,0,0
 rancher/fleet:v0.16.3,0,0,0
 rancher/hardened-addon-resizer:1.8.24-build20261021,0,0,0
-rancher/hardened-calico:v3.32.2-build20261022,0,1,1
+rancher/hardened-calico:v3.33.1-build20261120,0,3,3
 rancher/hardened-cluster-autoscaler:v1.11.0-build20261020,0,0,0
 rancher/hardened-cni-plugins:v1.9.1-build20261022,0,0,0
 rancher/hardened-coredns:v1.14.7-build20261020,0,0,0
@@ -54,15 +54,15 @@ rancher/harvester:master-head,0,53,53
 rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kubectl:v1.35.1,0,19,19
-rancher/kuberlr-kubectl:v9.0.1,0,13,13
+rancher/kuberlr-kubectl:v9.0.6,0,0,0
 rancher/mirrored-fluent-fluent-bit:3.1.8,3,142,145
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,14,14
 rancher/mirrored-library-busybox:1.38.0,0,0,0
-rancher/mirrored-library-nginx:1.31.2-alpine,0,49,49
+rancher/mirrored-library-nginx:1.31.2-alpine,0,43,43
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/rancher-agent:v2.16-head,0,0,0
 rancher/rancher-webhook:v2.16-head,0,0,0

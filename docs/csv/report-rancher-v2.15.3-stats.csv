@@ -79,11 +79,11 @@ rancher/mirrored-fluent-fluent-bit:3.1.8,3,142,145
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,14,14
 rancher/mirrored-library-busybox:1.31.1,0,0,0
 rancher/mirrored-library-busybox:1.37.0,0,0,0
 rancher/mirrored-library-busybox:1.38.0,0,0,0
-rancher/mirrored-library-nginx:1.31.2-alpine,0,49,49
+rancher/mirrored-library-nginx:1.31.2-alpine,0,43,43
 rancher/mirrored-library-traefik:3.7.15,0,4,4
 rancher/mirrored-longhornio-backing-image-manager:v1.12.1,1,38,39
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,21,21

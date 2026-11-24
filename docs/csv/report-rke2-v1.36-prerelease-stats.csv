@@ -45,7 +45,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.20.5,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.20.5,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.20.5,0,0,0
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,15,15
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,14,14
 rancher/mirrored-library-busybox:1.38.0,0,0,0
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,21,21
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,0,19,19
