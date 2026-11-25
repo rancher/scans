@@ -21,5 +21,3 @@ neuvector/enforcer:5.6.5,neuvector/v5.6,golang.org/x/net,v0.59.0,gobinary,CVE-20
 neuvector/enforcer:5.6.5,neuvector/v5.6,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/agent,"2.2.10, 2.3.7, 2.4.2",false,affected,
 neuvector/enforcer:5.6.5,neuvector/v5.6,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/pathWalker,"2.2.10, 2.3.7, 2.4.2",false,affected,
 neuvector/registry-adapter:0.2.14,neuvector/v5.6,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/adapter,"2.2.10, 2.3.7, 2.4.2",false,affected,
-neuvector/scanner:6,neuvector/v5.6,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/scanner,"2.2.10, 2.3.7, 2.4.2",false,affected,
-neuvector/scanner:6,neuvector/v5.6,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/scannerTask,"2.2.10, 2.3.7, 2.4.2",false,affected,

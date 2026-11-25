@@ -2,9 +2,9 @@ image,critical,high,total
 quay.io/stackstate/container-tools:1.8.6-so58,0,0,0
 quay.io/stackstate/generic-sidecar-injector:42992faf-1136-release,0,0,0
 quay.io/stackstate/opentelemetry-target-allocator:0.161.0-so7,0,0,0
-quay.io/stackstate/stackstate-k8s-agent:fff21e9a,0,0,0
-quay.io/stackstate/stackstate-k8s-cluster-agent:fff21e9a,0,0,0
-quay.io/stackstate/stackstate-k8s-process-agent:9e5018ef,0,0,0
+quay.io/stackstate/stackstate-k8s-agent:54320cd8,0,0,0
+quay.io/stackstate/stackstate-k8s-cluster-agent:54320cd8,0,0,0
+quay.io/stackstate/stackstate-k8s-process-agent:6c6a1989,0,0,0
 registry.rancher.com/suse-observability/http-header-injector-proxy-init:1.0.0-so15,0,0,0
 registry.rancher.com/suse-observability/http-header-injector-proxy:1.39.6-so7,0,0,0
 registry.rancher.com/suse-observability/kubernetes-rbac-agent:6355e705-1134-release,0,0,0

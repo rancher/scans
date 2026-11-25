@@ -47,5 +47,3 @@ neuvector/manager:5.4.12,neuvector/v5.4,libpython3_13-1_0,3.13.15-150700.4.56.1,
 neuvector/manager:5.4.12,neuvector/v5.4,python313,3.13.15-150700.4.56.1,sles,SUSE-SU-2026:4941-1,HIGH,,neuvector/manager:5.4.12 (sles 15.7),3.13.16-150700.4.61.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/manager:5.4.12,neuvector/v5.4,python313-base,3.13.15-150700.4.56.1,sles,SUSE-SU-2026:4941-1,HIGH,,neuvector/manager:5.4.12 (sles 15.7),3.13.16-150700.4.61.1,false,not_affected,vulnerable_code_not_in_execute_path
 neuvector/registry-adapter:0.2.14,neuvector/v5.4,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/adapter,"2.2.10, 2.3.7, 2.4.2",false,affected,
-neuvector/scanner:6,neuvector/v5.4,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/scanner,"2.2.10, 2.3.7, 2.4.2",false,affected,
-neuvector/scanner:6,neuvector/v5.4,github.com/containerd/containerd/v2,v2.2.9,gobinary,CVE-2026-95839,HIGH,https://avd.aquasec.com/nvd/cve-2026-95839,usr/local/bin/scannerTask,"2.2.10, 2.3.7, 2.4.2",false,affected,

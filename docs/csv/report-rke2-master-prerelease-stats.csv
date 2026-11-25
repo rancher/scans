@@ -2,7 +2,7 @@ image,critical,high,total
 rancher/hardened-addon-resizer:1.8.24-build20261110,0,0,0
 rancher/hardened-calico:v3.33.1-build20261120,0,3,3
 rancher/hardened-cluster-autoscaler:v1.11.0-build20261110,0,0,0
-rancher/hardened-cni-plugins:v1.10.0-build20261110,0,0,0
+rancher/hardened-cni-plugins:v1.10.0-build20261120,0,0,0
 rancher/hardened-coredns:v1.14.7-build20261110,0,0,0
 rancher/hardened-csi-snapshotter:v8.6.0-build20261026,0,0,0
 rancher/hardened-dns-node-cache:1.27.2-r1-build20261110,0,0,0
@@ -36,7 +36,7 @@ rancher/mirrored-cilium-hubble-ui:v0.13.6,0,4,4
 rancher/mirrored-cilium-operator-aws:v1.20.5,0,0,0
 rancher/mirrored-cilium-operator-azure:v1.20.5,0,0,0
 rancher/mirrored-cilium-operator-generic:v1.20.5,0,0,0
-rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,14,14
+rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4,0,12,12
 rancher/mirrored-library-busybox:1.38.0,0,0,0
 rancher/mirrored-longhornio-csi-attacher:v4.11.0-20260428,0,21,21
 rancher/mirrored-longhornio-csi-node-driver-registrar:v2.16.0-20260428,0,19,19

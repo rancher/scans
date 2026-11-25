@@ -17,7 +17,7 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE Cloud Native - Rancher v2.15-head version - CVE Scans - 2026-11-24</h1>
+<h1>SUSE Cloud Native - Rancher v2.15-head version - CVE Scans - 2026-11-25</h1>
 
 <section class="callout callout-collapsible">
 <h3>How to use this page</h3>
@@ -75,19 +75,6 @@ severities).</li>
 <th>Type (language or OS)</th>
 </tr>
 <tr class="issue">
-<td>rancher/aks-operator:v1.15.4-rc.1</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>glibc</td>
-<td>glibc@2.40-160100.3.1</td>
-<td>2.40-160100.4.1</td>
-<td><a href="cve-SUSE-SU-2026_24741-1.html">SUSE-SU-2026:24741-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
 <td>rancher/cluster-api-controller:v1.13.3</td>
 <td>false</td>
 <td>Rancher v2.15-head</td>
@@ -121,6 +108,19 @@ severities).</li>
 <td>stdlib@v1.25.9</td>
 <td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
 <td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/cluster-api-controller:v1.13.3</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>manager</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -333,19 +333,6 @@ severities).</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/eks-operator:v1.15.4-rc.1</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>glibc</td>
-<td>glibc@2.40-160100.3.1</td>
-<td>2.40-160100.4.1</td>
-<td><a href="cve-SUSE-SU-2026_24741-1.html">SUSE-SU-2026:24741-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
 </tr>
 <tr class="issue">
 <td>rancher/fluentd:v1.16-4.10_rancher.1</td>
@@ -868,17 +855,17 @@ severities).</li>
 <td>gemspec</td>
 </tr>
 <tr class="issue">
-<td>rancher/gke-operator:v1.15.5-rc.1</td>
+<td>rancher/hardened-calico:v3.32.2-build20261022</td>
 <td>false</td>
 <td>Rancher v2.15-head</td>
-<td>glibc</td>
-<td>glibc@2.40-160100.3.1</td>
-<td>2.40-160100.4.1</td>
-<td><a href="cve-SUSE-SU-2026_24741-1.html">SUSE-SU-2026:24741-1</a></td>
+<td>opt/cni/bin/dhcp</td>
+<td>github.com/insomniacslk/dhcp@v0.0.0-20240829085014-a3a4c1f04475</td>
+<td>0.0.0-20260719225207-c76316d4aa82</td>
+<td><a href="cve-GHSA-jp3c-6v3g-mpxv.html">GHSA-jp3c-6v3g-mpxv</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
-<td>sles</td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-calico:v3.32.2-build20261022</td>
@@ -892,6 +879,19 @@ severities).</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>sles</td>
+</tr>
+<tr class="issue">
+<td>rancher/hardened-cni-plugins:v1.9.1-build20261022</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>opt/cni/bin/dhcp</td>
+<td>github.com/insomniacslk/dhcp@v0.0.0-20240829085014-a3a4c1f04475</td>
+<td>0.0.0-20260719225207-c76316d4aa82</td>
+<td><a href="cve-GHSA-jp3c-6v3g-mpxv.html">GHSA-jp3c-6v3g-mpxv</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
 </tr>
 <tr class="issue">
 <td>rancher/hardened-etcd:v3.6.14-k3s3-build20261020</td>
@@ -1120,7 +1120,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>kube-webhook-certgen</td>
 <td>golang.org/x/net@v0.52.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1445,7 +1445,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/kuberlr</td>
 <td>golang.org/x/net@v0.49.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -1986,747 +1986,6 @@ severities).</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.10, 1.27.3</td>
-<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.10, 1.27.3</td>
-<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.10, 1.27.3</td>
-<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.10, 1.27.3</td>
-<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/text@v0.40.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/net@v0.57.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/net@v0.57.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/net@v0.57.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/text@v0.40.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.12</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.9</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.5</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/net@v0.57.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.12</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.9</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.5</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/net@v0.57.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
-<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.12</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.9</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.5</td>
-<td>golang.org/x/net@v0.56.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>golang.org/x/net@v0.57.0</td>
-<td>0.60.0</td>
-<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/local-path-provisioner:v0.0.37</td>
 <td>false</td>
 <td>Rancher v2.15-head</td>
@@ -2747,6 +2006,19 @@ severities).</li>
 <td>stdlib@v1.26.5</td>
 <td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
 <td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -3823,6 +3095,19 @@ severities).</li>
 <td>true</td>
 <td>Rancher v2.15-head</td>
 <td>bin/ratelimit</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-envoy-ratelimit:v3.32.2</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/ratelimit</td>
 <td>golang.org/x/text@v0.39.0</td>
 <td>0.41.0</td>
 <td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
@@ -4229,6 +3514,19 @@ severities).</li>
 <td>stdlib@v1.25.14</td>
 <td>1.26.10, 1.27.3</td>
 <td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-calico-node-driver-registrar:v3.32.2</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>usr/bin/node-driver-registrar</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -5475,7 +4773,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/vsphere-csi</td>
 <td>golang.org/x/net@v0.53.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -5839,7 +5137,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/vsphere-syncer</td>
 <td>golang.org/x/net@v0.53.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -6164,7 +5462,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>bin/vsphere-cloud-controller-manager</td>
 <td>golang.org/x/net@v0.53.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -6708,32 +6006,6 @@ severities).</li>
 <td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
 <td>true</td>
 <td>Rancher v2.15-head</td>
-<td>musl</td>
-<td>musl@1.2.6-r2</td>
-<td>1.2.6-r3</td>
-<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
-<td>true</td>
-<td>Rancher v2.15-head</td>
-<td>musl-utils</td>
-<td>musl-utils@1.2.6-r2</td>
-<td>1.2.6-r3</td>
-<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>alpine</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
-<td>true</td>
-<td>Rancher v2.15-head</td>
 <td>kube-vip</td>
 <td>stdlib@v1.27.1</td>
 <td>1.26.10, 1.27.3</td>
@@ -7035,7 +6307,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-attacher</td>
 <td>golang.org/x/net@v0.48.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -7568,7 +6840,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-provisioner</td>
 <td>golang.org/x/net@v0.48.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -7828,7 +7100,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-resizer</td>
 <td>golang.org/x/net@v0.48.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -8101,7 +7373,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-snapshotter</td>
 <td>golang.org/x/net@v0.49.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -8447,6 +7719,19 @@ severities).</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-longhornio-longhorn-ui:v1.12.2</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>nginx</td>
+<td>nginx@1.21.5-150600.10.27.1</td>
+<td>1.21.5-150600.10.30.1</td>
+<td><a href="cve-SUSE-SU-2026_5415-1.html">SUSE-SU-2026:5415-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-longhornio-support-bundle-kit:v1.0.5</td>
 <td>true</td>
 <td>Rancher v2.15-head</td>
@@ -8480,6 +7765,19 @@ severities).</li>
 <td>stdlib@v1.26.4</td>
 <td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
 <td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.0</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -8759,6 +8057,929 @@ severities).</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+<td><a href="cve-CVE-2025-68121.html">CVE-2025-68121</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+<td><a href="cve-CVE-2025-68121.html">CVE-2025-68121</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.10, 1.27.3</td>
+<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.10, 1.27.3</td>
+<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td>1.40.0</td>
+<td><a href="cve-CVE-2026-24051.html">CVE-2026-24051</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>go.opentelemetry.io/otel@v1.38.0</td>
+<td>1.41.0</td>
+<td><a href="cve-CVE-2026-29181.html">CVE-2026-29181</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>go.opentelemetry.io/otel@v1.38.0</td>
+<td>1.41.0</td>
+<td><a href="cve-CVE-2026-29181.html">CVE-2026-29181</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.9, 1.26.2</td>
+<td><a href="cve-CVE-2026-32280.html">CVE-2026-32280</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.9, 1.26.2</td>
+<td><a href="cve-CVE-2026-32280.html">CVE-2026-32280</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.79.3</td>
+<td><a href="cve-CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.79.3</td>
+<td><a href="cve-CVE-2026-33186.html">CVE-2026-33186</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-33811.html">CVE-2026-33811</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-33811.html">CVE-2026-33811</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.53.0</td>
+<td><a href="cve-CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.53.0</td>
+<td><a href="cve-CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-33814.html">CVE-2026-33814</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td>29.3.1</td>
+<td><a href="cve-CVE-2026-33997.html">CVE-2026-33997</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td>29.3.1</td>
+<td><a href="cve-CVE-2026-33997.html">CVE-2026-33997</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-39820.html">CVE-2026-39820</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-39820.html">CVE-2026-39820</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-39836.html">CVE-2026-39836</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-39836.html">CVE-2026-39836</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-42499.html">CVE-2026-42499</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.10, 1.26.3</td>
+<td><a href="cve-CVE-2026-42499.html">CVE-2026-42499</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/text@v0.30.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/text@v0.30.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56853.html">CVE-2026-56853</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56853.html">CVE-2026-56853</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56859.html">CVE-2026-56859</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56859.html">CVE-2026-56859</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56862.html">CVE-2026-56862</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56862.html">CVE-2026-56862</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>github.com/klauspost/compress@v1.18.2</td>
+<td>1.18.7</td>
+<td><a href="cve-CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>github.com/klauspost/compress@v1.18.2</td>
+<td>1.18.7</td>
+<td><a href="cve-CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.83.1</td>
+<td><a href="cve-CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.83.1</td>
+<td><a href="cve-CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3, 1.85.0-dev.0.20260825072537-93e31b48545e</td>
+<td><a href="cve-CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3, 1.85.0-dev.0.20260825072537-93e31b48545e</td>
+<td><a href="cve-CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.82.1</td>
+<td><a href="cve-GHSA-hrxh-6v49-42gf.html">GHSA-hrxh-6v49-42gf</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>google.golang.org/grpc@v1.76.0</td>
+<td>1.82.1</td>
+<td><a href="cve-GHSA-hrxh-6v49-42gf.html">GHSA-hrxh-6v49-42gf</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
 <td>rancher/mirrored-sig-storage-csi-attacher:v4.10.0</td>
 <td>true</td>
 <td>Rancher v2.15-head</td>
@@ -8933,7 +9154,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-attacher</td>
 <td>golang.org/x/net@v0.40.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -9778,7 +9999,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-provisioner</td>
 <td>golang.org/x/net@v0.19.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -10181,7 +10402,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-resizer</td>
 <td>golang.org/x/net@v0.39.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -10326,19 +10547,6 @@ severities).</li>
 <td>golang.org/x/crypto@v0.37.0</td>
 <td>0.52.0</td>
 <td><a href="cve-CVE-2026-42508.html">CVE-2026-42508</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/mirrored-sig-storage-csi-resizer:v2.0.0</td>
-<td>true</td>
-<td>Rancher v2.15-head</td>
-<td>csi-resizer</td>
-<td>golang.org/x/crypto@v0.37.0</td>
-<td>0.52.0</td>
-<td><a href="cve-CVE-2026-46595.html">CVE-2026-46595</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -10989,6 +11197,19 @@ severities).</li>
 <td>stdlib@v1.26.4</td>
 <td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
 <td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-sonobuoy-sonobuoy:v0.57.5</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>sonobuoy</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -11762,32 +11983,6 @@ severities).</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue">
-<td>rancher/neuvector-scanner:6</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/local/bin/scanner</td>
-<td>github.com/containerd/containerd/v2@v2.2.9</td>
-<td>2.2.10, 2.3.7, 2.4.2</td>
-<td><a href="cve-CVE-2026-95839.html">CVE-2026-95839</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
-<td>rancher/neuvector-scanner:6</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/local/bin/scannerTask</td>
-<td>github.com/containerd/containerd/v2@v2.2.9</td>
-<td>2.2.10, 2.3.7, 2.4.2</td>
-<td><a href="cve-CVE-2026-95839.html">CVE-2026-95839</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>gobinary</td>
-</tr>
-<tr class="issue">
 <td>rancher/neuvector-updater:0.0.17</td>
 <td>false</td>
 <td>Rancher v2.15-head</td>
@@ -11897,7 +12092,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>nginx-ingress-controller</td>
 <td>golang.org/x/net@v0.52.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -13677,6 +13872,32 @@ severities).</li>
 <td>false</td>
 <td>Rancher v2.15-head</td>
 <td>opt/rke2</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.34.13-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.34.13-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>opt/rke2</td>
 <td>github.com/nats-io/nats-server/v2@v2.14.0</td>
 <td>2.12.12, 2.14.3</td>
 <td><a href="cve-CVE-2026-58210.html">CVE-2026-58210</a></td>
@@ -13785,6 +14006,32 @@ severities).</li>
 <td>29.3.1</td>
 <td><a href="cve-CVE-2026-33997.html">CVE-2026-33997</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.35.10-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>opt/rke2</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.35.10-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -13902,6 +14149,32 @@ severities).</li>
 <td>29.3.1</td>
 <td><a href="cve-CVE-2026-33997.html">CVE-2026-33997</a></td>
 <td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.36.6-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>opt/rke2</td>
+<td>golang.org/x/net@v0.55.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/rke2-upgrade:v1.36.6-rke2r1</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>usr/local/bin/kubectl</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
@@ -14042,7 +14315,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>bin/system-upgrade-controller</td>
 <td>golang.org/x/net@v0.53.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
@@ -14204,6 +14477,19 @@ severities).</li>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
 <td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/ui-plugin-catalog:4.60.0</td>
+<td>false</td>
+<td>Rancher v2.15-head</td>
+<td>nginx</td>
+<td>nginx@1.21.5-150600.10.27.1</td>
+<td>1.21.5-150600.10.30.1</td>
+<td><a href="cve-SUSE-SU-2026_5415-1.html">SUSE-SU-2026:5415-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>sles</td>
 </tr>
 <tr class="issue not_affected">
 <td>rancher/cluster-api-controller:v1.13.3</td>
@@ -14687,7 +14973,7 @@ severities).</li>
 <td>sles</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/kube-api-auth:v0.15.5-rc.4</td>
+<td>rancher/kube-api-auth:v0.15.5</td>
 <td>false</td>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/kube-api-auth</td>
@@ -14700,7 +14986,7 @@ severities).</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
-<td>rancher/kube-api-auth:v0.15.5-rc.4</td>
+<td>rancher/kube-api-auth:v0.15.5</td>
 <td>false</td>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/kube-api-auth</td>
@@ -14913,7 +15199,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/kubectl1.34.8</td>
 <td>golang.org/x/net@v0.38.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -14926,7 +15212,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/kubectl1.35.5</td>
 <td>golang.org/x/net@v0.47.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -14939,7 +15225,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/kubectl1.36.1</td>
 <td>golang.org/x/net@v0.49.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -15537,162 +15823,6 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>libpcre2-8-0</td>
 <td>libpcre2-8-0@10.45-160000.3.1</td>
-<td>10.45-160000.5.1</td>
-<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.11</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.8</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.4</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kuberlr</td>
-<td>stdlib@v1.26.8</td>
-<td>1.26.9, 1.27.2</td>
-<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>libpcre2-8-0</td>
-<td>libpcre2-8-0@10.45-160000.3.1</td>
-<td>10.45-160000.4.1</td>
-<td><a href="cve-SUSE-SU-2026_23906-1.html">SUSE-SU-2026:23906-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>glibc</td>
-<td>glibc@2.40-160000.6.1</td>
-<td>2.40-160000.7.1</td>
-<td><a href="cve-SUSE-SU-2026_23934-1.html">SUSE-SU-2026:23934-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>busybox</td>
-<td>busybox@1.37.0-160000.6.1</td>
-<td>1.37.0-160000.8.1</td>
-<td><a href="cve-SUSE-SU-2026_24215-1.html">SUSE-SU-2026:24215-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.1.2</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>libpcre2-8-0</td>
-<td>libpcre2-8-0@10.45-160000.3.1</td>
-<td>10.45-160000.5.1</td>
-<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not in execute path</td>
-<td>sles</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.34.12</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.35.9</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>usr/bin/kubectl1.36.5</td>
-<td>golang.org/x/text@v0.39.0</td>
-<td>0.41.0</td>
-<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/kuberlr-kubectl:v8.2.0</td>
-<td>false</td>
-<td>Rancher v2.15-head</td>
-<td>libpcre2-8-0</td>
-<td>libpcre2-8-0@10.45-160000.4.1</td>
 <td>10.45-160000.5.1</td>
 <td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
@@ -19188,6 +19318,32 @@ severities).</li>
 <td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
 <td>true</td>
 <td>Rancher v2.15-head</td>
+<td>musl</td>
+<td>musl@1.2.6-r2</td>
+<td>1.2.6-r3</td>
+<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>musl-utils</td>
+<td>musl-utils@1.2.6-r2</td>
+<td>1.2.6-r3</td>
+<td><a href="cve-CVE-2026-107891.html">CVE-2026-107891</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>alpine</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-kube-vip-kube-vip-iptables:v1.2.4</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
 <td>kube-vip</td>
 <td>stdlib@v1.27.1</td>
 <td>1.26.9, 1.27.2</td>
@@ -19593,7 +19749,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-node-driver-registrar</td>
 <td>golang.org/x/net@v0.49.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -20420,6 +20576,435 @@ severities).</li>
 <td>gobinary</td>
 </tr>
 <tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-25681.html">CVE-2026-25681</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-25681.html">CVE-2026-25681</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-27136.html">CVE-2026-27136</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-27136.html">CVE-2026-27136</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.12, 1.26.5, 1.27.0-rc.2</td>
+<td><a href="cve-CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.25.12, 1.26.5, 1.27.0-rc.2</td>
+<td><a href="cve-CVE-2026-39822.html">CVE-2026-39822</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39828.html">CVE-2026-39828</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39828.html">CVE-2026-39828</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39829.html">CVE-2026-39829</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39829.html">CVE-2026-39829</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39830.html">CVE-2026-39830</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39830.html">CVE-2026-39830</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39831.html">CVE-2026-39831</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39831.html">CVE-2026-39831</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39832.html">CVE-2026-39832</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39832.html">CVE-2026-39832</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39835.html">CVE-2026-39835</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39835.html">CVE-2026-39835</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>go.opentelemetry.io/otel/sdk@v1.38.0</td>
+<td>1.43.0</td>
+<td><a href="cve-CVE-2026-39883.html">CVE-2026-39883</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-41567.html">CVE-2026-41567</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-41567.html">CVE-2026-41567</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-42306.html">CVE-2026-42306</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>github.com/docker/docker@v28.5.2+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-42306.html">CVE-2026-42306</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-42508.html">CVE-2026-42508</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-42508.html">CVE-2026-42508</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46595.html">CVE-2026-46595</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46595.html">CVE-2026-46595</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/crypto@v0.43.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>golang.org/x/net@v0.46.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/prometheus</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/mirrored-prometheus-prometheus:v3.8.1</td>
+<td>true</td>
+<td>Rancher v2.15-head</td>
+<td>bin/promtool</td>
+<td>stdlib@v1.25.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
 <td>rancher/mirrored-sig-storage-csi-attacher:v4.10.0</td>
 <td>true</td>
 <td>Rancher v2.15-head</td>
@@ -20595,19 +21180,6 @@ severities).</li>
 <td>csi-attacher</td>
 <td>golang.org/x/crypto@v0.38.0</td>
 <td>0.52.0</td>
-<td><a href="cve-CVE-2026-46595.html">CVE-2026-46595</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-clear">not affected</span></td>
-<td>vulnerable code not present</td>
-<td>gobinary</td>
-</tr>
-<tr class="issue not_affected">
-<td>rancher/mirrored-sig-storage-csi-attacher:v4.10.0</td>
-<td>true</td>
-<td>Rancher v2.15-head</td>
-<td>csi-attacher</td>
-<td>golang.org/x/crypto@v0.38.0</td>
-<td>0.52.0</td>
 <td><a href="cve-CVE-2026-46597.html">CVE-2026-46597</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -20724,7 +21296,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>csi-node-driver-registrar</td>
 <td>golang.org/x/net@v0.40.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -21166,7 +21738,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>livenessprobe</td>
 <td>golang.org/x/net@v0.40.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -22557,7 +23129,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>opt/drivers/management-state/bin/docker-machine-driver-linode</td>
 <td>golang.org/x/net@v0.51.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
@@ -22570,7 +23142,7 @@ severities).</li>
 <td>Rancher v2.15-head</td>
 <td>usr/bin/etcdctl</td>
 <td>golang.org/x/net@v0.52.0</td>
-<td>0.55.0</td>
+<td>0.57.0</td>
 <td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-clear">not affected</span></td>
