@@ -17,58 +17,62 @@ Images CVE Scans
 <button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
 </header>
 <main class="page-content">
-<h1>SUSE-SU-2026:5413-1 - CVE Scans - 2026-11-25</h1>
-<p>Last scan: 2026-11-25T08:19:15Z</p>
-<p><a href="index.html">Go to the main page</a> | <a href="cves.html">Go to CVE index</a></p>
-<p><b>Advisory:</b> <a href="https://www.suse.com/support/update/announcement/2026/suse-su-20265413-1">https://www.suse.com/support/update/announcement/2026/suse-su-20265413-1</a></p>
-<p>The images that have the vulnerable dependency in a version that isn't affected by this CVE (not
-vulnerable or fixed) are listed as "not affected".</p>
+<h1>SUSE Cloud Native - SUSE Virtual Clusters v1.2.1 version - CVE Scans - 2026-11-25</h1>
+
+<section class="callout callout-collapsible">
+<h3>How to use this page</h3>
+
+<div class="callout-content">
+<ul>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false), release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity, status (if affected or not affected/false-positive),
+justification (for false-positives), vulnerability type (related to the programming
+language or container OS).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected", because they do not affect the
+binary/package/image. The justification explains why they are false-positives, 
+according to the VEX statuses as explained in <a href="https://support.scc.suse.com/s/kb/How-to-use-SUSE-Rancher-s-VEX-Reports">KB 000021573</a>.</li>
+<li>For further instructions about scanned versions, scanning frequency, tooling
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners. This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
+<li>Only critical and high severity CVEs are displayed (internally we track all
+severities).</li>
+</ul>
+</div>
+</section>
+
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" maxlength="64" placeholder="Search for any table field"></p>
 
 <p style="display:none;" id="search_count"></p>
 </div>
 
+<div id="image-index"></div>
+
 <table id="cves_table">
 <tr>
 <th>Image</th>
+<th>Mirrored</th>
 <th>Release</th>
 <th>Binary/Package</th>
 <th>Dependency</th>
 <th>Patched version</th>
+<th>Vulnerability ID (CVE)</th>
 <th>Severity</th>
 <th>Status</th>
 <th>Justification (for status not affected)</th>
-</tr>
-<tr class="issue">
-<td><a href="./rancher-prime-v2.13-head.html#img-rancher-fluentd-v1-16-4-10-rancher-1-rc-3">rancher/fluentd:v1.16-4.10_rancher.1-rc.3</a></td>
-<td><a href="./rancher-prime-v2.13-head.html">Rancher Prime v2.13-head</a></td>
-<td>libruby3_4-3_4</td>
-<td>libruby3_4-3_4@3.4.10-150700.3.4.1</td>
-<td>3.4.13-150700.3.7.1</td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-</tr>
-<tr class="issue">
-<td><a href="./rancher-prime-v2.13-head.html#img-rancher-fluentd-v1-16-4-10-rancher-1-rc-3">rancher/fluentd:v1.16-4.10_rancher.1-rc.3</a></td>
-<td><a href="./rancher-prime-v2.13-head.html">Rancher Prime v2.13-head</a></td>
-<td>ruby3.4</td>
-<td>ruby3.4@3.4.10-150700.3.4.1</td>
-<td>3.4.13-150700.3.7.1</td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-</tr>
-<tr class="issue">
-<td><a href="./rancher-prime-v2.13-head.html#img-rancher-fluentd-v1-16-4-10-rancher-1-rc-3">rancher/fluentd:v1.16-4.10_rancher.1-rc.3</a></td>
-<td><a href="./rancher-prime-v2.13-head.html">Rancher Prime v2.13-head</a></td>
-<td>ruby3.4-devel</td>
-<td>ruby3.4-devel@3.4.10-150700.3.4.1</td>
-<td>3.4.13-150700.3.7.1</td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
+<th>Type (language or OS)</th>
 </tr>
 </table>
 
@@ -92,5 +96,7 @@ Commons license with Attribution (CC-BY-4.0). See the
 
 <script src="search.js"></script>
 <script src="sort.js"></script>
+<script src="image-index.js"></script>
+
 </body>
 </html>

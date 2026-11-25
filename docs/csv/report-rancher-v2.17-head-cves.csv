@@ -49,6 +49,9 @@ rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,fluentd,1.16.5,gemspec,G
 rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,fluentd,1.16.11,gemspec,GHSA-h3xv-5jpx-r4j2,HIGH,https://github.com/advisories/GHSA-h3xv-5jpx-r4j2,Ruby,>= 1.19.4,false,affected,
 rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,fluentd,1.16.5,gemspec,GHSA-h3xv-5jpx-r4j2,HIGH,https://github.com/advisories/GHSA-h3xv-5jpx-r4j2,Ruby,>= 1.19.4,false,affected,
 rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,rack,3.0.18,gemspec,GHSA-wvg4-6p58-3gh3,MEDIUM,https://github.com/advisories/GHSA-wvg4-6p58-3gh3,Ruby,"~> 2.2.25, ~> 3.1.23, >= 3.2.8",false,not_affected,vulnerable_code_not_in_execute_path
+rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,libruby2_5-2_5,2.5.9-150700.24.11.1,sles,SUSE-SU-2026:5417-1,HIGH,,rancher/fluentd:v1.16-4.10_rancher.1 (sles 15.7),2.5.9-150700.24.14.1,false,affected,
+rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,ruby2.5,2.5.9-150700.24.11.1,sles,SUSE-SU-2026:5417-1,HIGH,,rancher/fluentd:v1.16-4.10_rancher.1 (sles 15.7),2.5.9-150700.24.14.1,false,affected,
+rancher/fluentd:v1.16-4.10_rancher.1,rancher/v2.17-head,ruby2.5-stdlib,2.5.9-150700.24.11.1,sles,SUSE-SU-2026:5417-1,HIGH,,rancher/fluentd:v1.16-4.10_rancher.1 (sles 15.7),2.5.9-150700.24.14.1,false,affected,
 rancher/hardened-calico:v3.32.2-build20261022,rancher/v2.17-head,github.com/klauspost/compress,v1.18.0,gobinary,CVE-2026-63209,HIGH,https://avd.aquasec.com/nvd/cve-2026-63209,opt/cni/bin/calico,1.18.7,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/hardened-calico:v3.32.2-build20261022,rancher/v2.17-head,github.com/klauspost/compress,v1.18.0,gobinary,CVE-2026-63209,HIGH,https://avd.aquasec.com/nvd/cve-2026-63209,opt/cni/bin/calico-ipam,1.18.7,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/hardened-calico:v3.32.2-build20261022,rancher/v2.17-head,stdlib,v1.26.10,gobinary,CVE-2026-97054,MEDIUM,https://avd.aquasec.com/nvd/cve-2026-97054,opt/cni/bin/flannel,"1.26.11, 1.27.4",false,not_affected,vulnerable_code_not_present
@@ -2074,4 +2077,3 @@ rancher/shell:v0.9.1-rc.2,rancher/v2.17-head,github.com/containerd/containerd/v2
 rancher/shell:v0.9.1-rc.2,rancher/v2.17-head,libbrotlicommon1,1.1.0-160000.2.2,sles,SUSE-SU-2026:24601-1,HIGH,,rancher/shell:v0.9.1-rc.2 (sles 16.0),1.1.0-160000.3.1,false,affected,
 rancher/shell:v0.9.1-rc.2,rancher/v2.17-head,libbrotlidec1,1.1.0-160000.2.2,sles,SUSE-SU-2026:24601-1,HIGH,,rancher/shell:v0.9.1-rc.2 (sles 16.0),1.1.0-160000.3.1,false,affected,
 rancher/shell:v0.9.1-rc.2,rancher/v2.17-head,libpcre2-8-0,10.45-160000.4.1,sles,SUSE-SU-2026:24654-1,HIGH,,rancher/shell:v0.9.1-rc.2 (sles 16.0),10.45-160000.5.1,false,affected,
-rancher/ui-plugin-catalog:4.60.0,rancher/v2.17-head,nginx,1.21.5-150600.10.27.1,sles,SUSE-SU-2026:5415-1,HIGH,,rancher/ui-plugin-catalog:4.60.0 (sles 15.7),1.21.5-150600.10.30.1,false,affected,

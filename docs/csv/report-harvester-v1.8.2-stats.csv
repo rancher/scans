@@ -59,14 +59,14 @@ rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kube-webhook-certgen:v1.14.5-hardened2,0,26,26
 rancher/kubectl:v1.35.1,0,19,19
 rancher/kuberlr-kubectl:v7.1.0,0,48,48
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,83,86
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,84,87
 rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.6.7,0,28,28
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 rancher/mirrored-kube-vip-kube-vip-iptables:v1.0.4,0,26,26
 rancher/mirrored-library-busybox:1.37.0,0,0,0
-rancher/mirrored-library-nginx:1.29.1-alpine,3,27,30
+rancher/mirrored-library-nginx:1.29.1-alpine,3,29,32
 rancher/mirrored-pause:3.10.2,0,0,0
 rancher/mirrored-prometheus-operator-admission-webhook:v0.85.0,0,26,26
 rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1,0,27,27
@@ -87,7 +87,7 @@ rancher/system-upgrade-controller:v0.19.1,0,19,19
 rancher/turtles:v0.26.3,0,16,16
 registry.k8s.io/descheduler/descheduler:v0.33.0,0,33,33
 registry.k8s.io/sig-storage/snapshot-controller:v8.5.0,0,26,26
-registry.suse.com/bci/bci-base:16.0,0,1,1
+registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/15.7/cdi-apiserver:1.64.0-150700.9.11.1,0,25,25
 registry.suse.com/suse/sles/15.7/cdi-cloner:1.64.0-150700.9.11.1,0,25,25
 registry.suse.com/suse/sles/15.7/cdi-controller:1.64.0-150700.9.11.1,0,23,23

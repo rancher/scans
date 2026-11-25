@@ -17,11 +17,11 @@ quay.io/stackstate/s3proxy:3.2.0-so38,0,0,0
 quay.io/stackstate/spotlight:5.2.0-snapshot.247.rebuild.97,0,0,0
 quay.io/stackstate/stackgraph-console:2.5-8.3.31,0,0,0
 quay.io/stackstate/stackgraph-hbase:2.5-8.3.31,0,0,0
-quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261124172556-master-cf6211c,0,0,0
-quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261124172556-master-cf6211c,0,0,0
-quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261124172556-master-cf6211c,0,0,0
-quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261124172556-master-cf6211c-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261124172556-master-cf6211c,0,0,0
+quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261125130552-master-1ed43df,0,0,0
+quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261125130552-master-1ed43df,0,0,0
+quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261125130552-master-1ed43df,0,0,0
+quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261125130552-master-1ed43df-2.5,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261125130552-master-1ed43df,0,0,0
 quay.io/stackstate/suse-observability-borg:20261123034211-0612c638,0,0,0
 quay.io/stackstate/suse-observability-mcp:20261124051849-f2dbdace,0,0,0
 quay.io/stackstate/suse-stackpacks:platform-20261120135422-main-f1d430b,0,0,0

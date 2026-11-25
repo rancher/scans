@@ -54,7 +54,7 @@ rancher/harvester:master-head,0,55,55
 rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 rancher/klipper-lb:v0.4.17,0,2,2
 rancher/kuberlr-kubectl:v8.1.2,0,47,47
-rancher/mirrored-fluent-fluent-bit:3.1.8,3,83,86
+rancher/mirrored-fluent-fluent-bit:3.1.8,3,84,87
 rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
 rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
@@ -75,7 +75,7 @@ rancher/system-upgrade-controller:v0.20.1,0,15,15
 rancher/turtles:v0.27.4,0,0,0
 registry.k8s.io/descheduler/descheduler:v0.37.0,0,15,15
 registry.k8s.io/sig-storage/snapshot-controller:v8.6.0,0,18,18
-registry.suse.com/bci/bci-base:16.0,0,1,1
+registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-apiserver:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-cloner:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-controller:1.65.0,0,0,0

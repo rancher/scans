@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>SUSE Cloud Native - Images CVE Scans</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+</head>
+<body>
+<header class="page-header">
+<div class="brand">
+<img src="images/logo.svg" class="brand-logo" alt="SUSE Cloud Native" aria-hidden="true">
+Images CVE Scans
+</div>
+<button type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon-light" aria-hidden="true">&#127769;</span><span class="theme-icon-dark" aria-hidden="true">&#9728;</span></button>
+</header>
+<main class="page-content">
+<h1>SUSE Cloud Native - K3s v1.36.7-rc1 version - CVE Scans - 2026-11-25</h1>
+
+<section class="callout callout-collapsible">
+<h3>How to use this page</h3>
+
+<div class="callout-content">
+<ul>
+<li>Use the search bar below to filter the results by image (and version/tag),
+if the image is mirrored or made by SUSE (true/false), release, affected
+binary, vulnerable dependency (and its version), vulnerability ID (CVE, GHSA,
+SUSE-SU etc.), severity, status (if affected or not affected/false-positive),
+justification (for false-positives), vulnerability type (related to the programming
+language or container OS).</li>
+<li>The search functionality might execute a bit slow depending on the number of
+vulnerabilities displayed in the page.</li>
+<li>False-positive CVEs that are removed with VEX have the status as "not
+affected", because they do not affect the
+binary/package/image. The justification explains why they are false-positives, 
+according to the VEX statuses as explained in <a href="https://support.scc.suse.com/s/kb/How-to-use-SUSE-Rancher-s-VEX-Reports">KB 000021573</a>.</li>
+<li>For further instructions about scanned versions, scanning frequency, tooling
+and false-positives, please consult the <a href="index.html">main instructions</a>.</li>
+<li>The severity (CVSS rating) of some CVEs in the portal might differ from the
+original severity reported by some vendors and security scanners. This happens,
+because SUSE <a href="https://www.suse.com/security/cve/">recalculates</a> the
+CVSS rating of CVEs based on criteria, like: applicability and difficulty of the
+issue being exploited in the wild; how it can actually affect the
+confidentiality, integrity and availability of SUSE's products etc. CVEs that
+had their CVSS severity rating changed, either decreased or increased, will have
+the distinctive tag '*' close to its severity.</li>
+<li>Only critical and high severity CVEs are displayed (internally we track all
+severities).</li>
+</ul>
+</div>
+</section>
+
+<div class="search-box">
+<p><b>Search:</b> <input type="text" id="searchBar" maxlength="64" placeholder="Search for any table field"></p>
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
+<p style="display:none;" id="search_count"></p>
+</div>
+
+<div id="image-index"></div>
+
+<table id="cves_table">
+<tr>
+<th>Image</th>
+<th>Mirrored</th>
+<th>Release</th>
+<th>Binary/Package</th>
+<th>Dependency</th>
+<th>Patched version</th>
+<th>Vulnerability ID (CVE)</th>
+<th>Severity</th>
+<th>Status</th>
+<th>Justification (for status not affected)</th>
+<th>Type (language or OS)</th>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>github.com/docker/docker@v25.0.15-0.20260325154711-d2dbc0547253+incompatible</td>
+<td>29.3.1</td>
+<td><a href="cve-CVE-2026-33997.html">CVE-2026-33997</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/containerd-shim-runc-v2</td>
+<td>github.com/containerd/containerd/v2@v2.3.7-k3s1.36+dirty</td>
+<td>2.2.10, 2.3.7, 2.4.2</td>
+<td><a href="cve-CVE-2026-95839.html">CVE-2026-95839</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.10, 1.27.3</td>
+<td><a href="cve-CVE-2026-111943.html">CVE-2026-111943</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-33818.html">CVE-2026-33818</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.57.0</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-39821.html">CVE-2026-39821</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56853.html">CVE-2026-56853</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56862.html">CVE-2026-56862</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-56866.html">CVE-2026-56866</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>github.com/klauspost/compress@v1.17.11</td>
+<td>1.18.7</td>
+<td><a href="cve-CVE-2026-63209.html">CVE-2026-63209</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/net@v0.56.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-94440.html">CVE-2026-94440</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-97031.html">CVE-2026-97031</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.11.0</td>
+<td><a href="cve-CVE-2023-28452.html">CVE-2023-28452</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.0</td>
+<td><a href="cve-CVE-2025-68151.html">CVE-2025-68151</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.2</td>
+<td><a href="cve-CVE-2026-26017.html">CVE-2026-26017</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.2</td>
+<td><a href="cve-CVE-2026-26018.html">CVE-2026-26018</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.3</td>
+<td><a href="cve-CVE-2026-32934.html">CVE-2026-32934</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.3</td>
+<td><a href="cve-CVE-2026-32936.html">CVE-2026-32936</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.3</td>
+<td><a href="cve-CVE-2026-33190.html">CVE-2026-33190</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.3</td>
+<td><a href="cve-CVE-2026-33489.html">CVE-2026-33489</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.3</td>
+<td><a href="cve-CVE-2026-35579.html">CVE-2026-35579</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.7</td>
+<td><a href="cve-CVE-2026-82399.html">CVE-2026-82399</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-coredns-coredns:1.15.0</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>coredns</td>
+<td>github.com/coredns/coredns@v0.0.0-20261021021732-a6fde3fe339c</td>
+<td>1.14.7</td>
+<td><a href="cve-CVE-2026-86003.html">CVE-2026-86003</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/text@v0.40.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-56855.html">CVE-2026-56855</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.57.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78659.html">CVE-2026-78659</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.57.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78660.html">CVE-2026-78660</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/crypto@v0.54.0</td>
+<td>0.56.0</td>
+<td><a href="cve-CVE-2026-78662.html">CVE-2026-78662</a></td>
+<td><span class="sev sev-HIGH cve_sev">HIGH*<span class="cve_sev_note">Severity modified based on SUSE's CVE database and CVSS rating</span></span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>golang.org/x/net@v0.57.0</td>
+<td>0.60.0</td>
+<td><a href="cve-CVE-2026-78669.html">CVE-2026-78669</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td>1.83.1</td>
+<td><a href="cve-CVE-2026-84304.html">CVE-2026-84304</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue">
+<td>rancher/mirrored-metrics-server:v0.9.1</td>
+<td>true</td>
+<td>K3s v1.36.7-rc1</td>
+<td>metrics-server</td>
+<td>google.golang.org/grpc@v1.82.1</td>
+<td>1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3, 1.85.0-dev.0.20260825072537-93e31b48545e</td>
+<td><a href="cve-CVE-2026-84445.html">CVE-2026-84445</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-affected">affected</span></td>
+<td></td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39828.html">CVE-2026-39828</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39829.html">CVE-2026-39829</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39830.html">CVE-2026-39830</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39831.html">CVE-2026-39831</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39832.html">CVE-2026-39832</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-39835.html">CVE-2026-39835</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>github.com/docker/docker@v25.0.15-0.20260325154711-d2dbc0547253+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-41567.html">CVE-2026-41567</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>github.com/docker/docker@v25.0.15-0.20260325154711-d2dbc0547253+incompatible</td>
+<td></td>
+<td><a href="cve-CVE-2026-42306.html">CVE-2026-42306</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-42508.html">CVE-2026-42508</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46595.html">CVE-2026-46595</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.52.0</td>
+<td><a href="cve-CVE-2026-46597.html">CVE-2026-46597</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/k3s:v1.36.7-rc1-k3s1</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>bin/k3s</td>
+<td>golang.org/x/crypto@v0.47.0</td>
+<td>0.55.0</td>
+<td><a href="cve-CVE-2026-56854.html">CVE-2026-56854</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-46600.html">CVE-2026-46600</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>golang.org/x/text@v0.39.0</td>
+<td>0.41.0</td>
+<td><a href="cve-CVE-2026-56851.html">CVE-2026-56851</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56858.html">CVE-2026-56858</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not present</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.25.13, 1.26.6, 1.27.0-rc.3</td>
+<td><a href="cve-CVE-2026-56859.html">CVE-2026-56859</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+<tr class="issue not_affected">
+<td>rancher/local-path-provisioner:v0.0.37</td>
+<td>false</td>
+<td>K3s v1.36.7-rc1</td>
+<td>usr/bin/local-path-provisioner</td>
+<td>stdlib@v1.26.5</td>
+<td>1.26.9, 1.27.2</td>
+<td><a href="cve-CVE-2026-78667.html">CVE-2026-78667</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>gobinary</td>
+</tr>
+</table>
+
+<footer>
+<p>
+Note: This page uses embedded JavaScript for filtering and search
+functionalities. If JavaScript support is disabled in your browser, the page
+will still be usable, but those functions will not work as expected. The fonts
+are hosted together with this page and no external code or dependencies are
+imported by it. Charts are generated with <a
+href="https://echarts.apache.org">Apache ECharts</a> (<a
+href="echarts-LICENSE.txt">license</a>).
+</p>
+<p><b>
+The SUSE Cloud Native CVE data is provided by SUSE under the Creative
+Commons license with Attribution (CC-BY-4.0). See the
+<a href="https://github.com/rancher/scans/blob/main/LICENSE">license</a> for more information.
+</b></p>
+</footer>
+</main>
+
+<script src="search.js"></script>
+<script src="sort.js"></script>
+<script src="image-index.js"></script>
+
+</body>
+</html>

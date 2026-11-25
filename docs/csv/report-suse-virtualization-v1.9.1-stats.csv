@@ -60,14 +60,14 @@ registry.rancher.com/rancher/hardened-whereabouts:v0.9.4-build20260819,0,45,45
 registry.rancher.com/rancher/klipper-helm:v0.13.3-build20261021,0,2,2
 registry.rancher.com/rancher/klipper-lb:v0.4.17,0,2,2
 registry.rancher.com/rancher/kuberlr-kubectl:v8.1.2,0,47,47
-registry.rancher.com/rancher/mirrored-fluent-fluent-bit:3.1.8,3,83,86
+registry.rancher.com/rancher/mirrored-fluent-fluent-bit:3.1.8,3,84,87
 registry.rancher.com/rancher/mirrored-jkroepke-kube-webhook-certgen:1.7.4,0,21,21
 registry.rancher.com/rancher/mirrored-kube-logging-config-reloader:v0.0.6,0,26,26
 registry.rancher.com/rancher/mirrored-kube-logging-fluentd:v1.16-4.10-full,10,88,98
 registry.rancher.com/rancher/mirrored-kube-logging-logging-operator:4.10.0,0,26,26
 registry.rancher.com/rancher/mirrored-kube-vip-kube-vip-iptables:v1.1.2,0,21,21
 registry.rancher.com/rancher/mirrored-library-busybox:1.37.0,0,0,0
-registry.rancher.com/rancher/mirrored-library-nginx:1.29.1-alpine,3,27,30
+registry.rancher.com/rancher/mirrored-library-nginx:1.29.1-alpine,3,29,32
 registry.rancher.com/rancher/mirrored-pause:3.10.2,0,0,0
 registry.rancher.com/rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0,0,36,36
 registry.rancher.com/rancher/mirrored-prometheus-operator-admission-webhook:v0.87.1,0,25,25
@@ -85,7 +85,7 @@ registry.rancher.com/rancher/system-agent-installer-rke2:v1.36.6-rke2r1,0,0,0
 registry.rancher.com/rancher/system-agent:v0.15.3-suc,0,1,1
 registry.rancher.com/rancher/system-upgrade-controller:v0.20.1,0,15,15
 registry.rancher.com/rancher/turtles:v0.27.4,0,0,0
-registry.suse.com/bci/bci-base:16.0,0,1,1
+registry.suse.com/bci/bci-base:16.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-apiserver:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-cloner:1.65.0,0,0,0
 registry.suse.com/suse/sles/16.0/cdi-controller:1.65.0,0,0,0
