@@ -5,10 +5,10 @@ dp.apps.rancher.io/containers/kubernetes-csi-external-resizer:2.2.1-12.1,0,15,15
 dp.apps.rancher.io/containers/kubernetes-csi-external-snapshotter:8.6.0-20.1,0,7,7
 dp.apps.rancher.io/containers/kubernetes-csi-livenessprobe:2.19.0-19.1,0,13,13
 dp.apps.rancher.io/containers/kubernetes-csi-node-driver-registrar:2.17.0-19.1,0,14,14
-dp.apps.rancher.io/containers/longhorn-backing-image-manager:1.11.3-11.1,0,9,9
-dp.apps.rancher.io/containers/longhorn-engine:1.11.3-11.2,0,16,16
-dp.apps.rancher.io/containers/longhorn-instance-manager:1.11.3-11.2,0,9,9
-dp.apps.rancher.io/containers/longhorn-manager:1.11.3-11.1,0,10,10
+dp.apps.rancher.io/containers/longhorn-backing-image-manager:1.11.3-11.1,0,7,7
+dp.apps.rancher.io/containers/longhorn-engine:1.11.3-11.2,0,14,14
+dp.apps.rancher.io/containers/longhorn-instance-manager:1.11.3-11.2,0,7,7
+dp.apps.rancher.io/containers/longhorn-manager:1.11.3-11.1,0,8,8
 dp.apps.rancher.io/containers/longhorn-share-manager:1.11.3-11.1,0,7,7
 dp.apps.rancher.io/containers/longhorn-ui:1.11.3-11.1,0,0,0
 dp.apps.rancher.io/containers/rancher-support-bundle-kit:0.0.88-10.8,0,32,32
