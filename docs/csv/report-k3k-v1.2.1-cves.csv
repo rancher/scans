@@ -4,10 +4,10 @@ rancher/k3k-kubelet:v1.2.1,k3k/v1.2.1,glibc-locale-base,2.40-160100.3.1,sles,SUS
 rancher/k3k-kubelet:v1.2.1,k3k/v1.2.1,glibc,2.40-160100.3.1,sles,SUSE-SU-2026:24872-1,HIGH,,rancher/k3k-kubelet:v1.2.1 (sles 16.1),2.40-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k-kubelet:v1.2.1,k3k/v1.2.1,glibc-locale-base,2.40-160100.3.1,sles,SUSE-SU-2026:24872-1,HIGH,,rancher/k3k-kubelet:v1.2.1 (sles 16.1),2.40-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k-kubelet:v1.2.1,k3k/v1.2.1,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24891-1,HIGH,,rancher/k3k-kubelet:v1.2.1 (sles 16.1),10.45-160100.4.1,false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
-rancher/k3k-kubelet:v1.2.1,k3k/v1.2.1,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24946-1,HIGH,,rancher/k3k-kubelet:v1.2.1 (sles 16.1),10.45-160100.4.1,false,affected,
+rancher/k3k-kubelet:v1.2.1,k3k/v1.2.1,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24946-1,HIGH,,rancher/k3k-kubelet:v1.2.1 (sles 16.1),10.45-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k:v1.2.1,k3k/v1.2.1,glibc,2.40-160100.3.1,sles,SUSE-SU-2026:24741-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),2.40-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k:v1.2.1,k3k/v1.2.1,glibc-locale-base,2.40-160100.3.1,sles,SUSE-SU-2026:24741-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),2.40-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k:v1.2.1,k3k/v1.2.1,glibc,2.40-160100.3.1,sles,SUSE-SU-2026:24872-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),2.40-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k:v1.2.1,k3k/v1.2.1,glibc-locale-base,2.40-160100.3.1,sles,SUSE-SU-2026:24872-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),2.40-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
 rancher/k3k:v1.2.1,k3k/v1.2.1,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24891-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),10.45-160100.4.1,false,not_affected,vulnerable_code_cannot_be_controlled_by_adversary
-rancher/k3k:v1.2.1,k3k/v1.2.1,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24946-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),10.45-160100.4.1,false,affected,
+rancher/k3k:v1.2.1,k3k/v1.2.1,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24946-1,HIGH,,rancher/k3k:v1.2.1 (sles 16.1),10.45-160100.4.1,false,not_affected,vulnerable_code_not_in_execute_path
