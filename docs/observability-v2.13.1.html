@@ -54,7 +54,7 @@ severities).</li>
 
 <div class="search-box">
 <p><b>Search:</b> <input type="text" id="searchBar" maxlength="64" placeholder="Search for any table field"></p>
-
+<label class="vexed-toggle"><input type="checkbox" id="toggleVexed"><span class="vexed-switch"></span><span class="vexed-text">Hide VEXed (not affected) CVEs</span></label>
 <p style="display:none;" id="search_count"></p>
 </div>
 
@@ -238,32 +238,6 @@ severities).</li>
 <td>java-21-openjdk-headless@21.0.12.1-150600.3.32.1</td>
 <td>21.0.13.1-150600.3.40.1</td>
 <td><a href="cve-SUSE-SU-2026_5394-1.html">SUSE-SU-2026:5394-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.17</td>
-<td>false</td>
-<td>Observability v2.13.1</td>
-<td>libpcre2-8-0</td>
-<td>libpcre2-8-0@10.45-160000.4.1</td>
-<td>10.45-160000.5.1</td>
-<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
-<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:5ffb95a9-1119-release</td>
-<td>false</td>
-<td>Observability v2.13.1</td>
-<td>libpcre2-8-0</td>
-<td>libpcre2-8-0@10.45-160000.4.1</td>
-<td>10.45-160000.5.1</td>
-<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
@@ -543,19 +517,6 @@ severities).</li>
 <td>sles</td>
 </tr>
 <tr class="issue">
-<td>registry.rancher.com/suse-observability/workload-observer:3d33d6ee-1109-release</td>
-<td>false</td>
-<td>Observability v2.13.1</td>
-<td>libpcre2-8-0</td>
-<td>libpcre2-8-0@10.45-160000.4.1</td>
-<td>10.45-160000.5.1</td>
-<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
-<td><span class="sev sev-HIGH">HIGH</span></td>
-<td><span class="status status-affected">affected</span></td>
-<td></td>
-<td>sles</td>
-</tr>
-<tr class="issue">
 <td>registry.rancher.com/suse-observability/zookeeper:3.9.7-so2</td>
 <td>false</td>
 <td>Observability v2.13.1</td>
@@ -566,6 +527,45 @@ severities).</li>
 <td><span class="sev sev-HIGH">HIGH</span></td>
 <td><span class="status status-affected">affected</span></td>
 <td></td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/kafkaup-operator:0.0.17</td>
+<td>false</td>
+<td>Observability v2.13.1</td>
+<td>libpcre2-8-0</td>
+<td>libpcre2-8-0@10.45-160000.4.1</td>
+<td>10.45-160000.5.1</td>
+<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/kubernetes-rbac-agent:5ffb95a9-1119-release</td>
+<td>false</td>
+<td>Observability v2.13.1</td>
+<td>libpcre2-8-0</td>
+<td>libpcre2-8-0@10.45-160000.4.1</td>
+<td>10.45-160000.5.1</td>
+<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
+<td>sles</td>
+</tr>
+<tr class="issue not_affected">
+<td>registry.rancher.com/suse-observability/workload-observer:3d33d6ee-1109-release</td>
+<td>false</td>
+<td>Observability v2.13.1</td>
+<td>libpcre2-8-0</td>
+<td>libpcre2-8-0@10.45-160000.4.1</td>
+<td>10.45-160000.5.1</td>
+<td><a href="cve-SUSE-SU-2026_24654-1.html">SUSE-SU-2026:24654-1</a></td>
+<td><span class="sev sev-HIGH">HIGH</span></td>
+<td><span class="status status-clear">not affected</span></td>
+<td>vulnerable code not in execute path</td>
 <td>sles</td>
 </tr>
 </table>
