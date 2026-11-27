@@ -16,7 +16,7 @@ dp.apps.rancher.io/containers/longhorn-share-manager:1.12.2-5.8,0,0,0
 dp.apps.rancher.io/containers/longhorn-ui:1.12.2-5.4,0,0,0
 dp.apps.rancher.io/containers/rancher-support-bundle-kit:1.0.5-1.2,0,0,0
 registry.k8s.io/descheduler/descheduler:v0.36.0,0,20,20
-registry.rancher.com/harvester/harvester-cluster-repo:v1.9.1,0,1,1
+registry.rancher.com/harvester/harvester-cluster-repo:v1.9.1,1,1,2
 registry.rancher.com/harvester/harvester-eventrouter:v1.9.1,0,1,1
 registry.rancher.com/harvester/harvester-load-balancer-webhook:v1.9.1,0,1,1
 registry.rancher.com/harvester/harvester-load-balancer:v1.9.1,0,1,1
@@ -30,7 +30,7 @@ registry.rancher.com/harvester/harvester-node-manager-webhook:v1.9.1,0,1,1
 registry.rancher.com/harvester/harvester-node-manager:v1.9.1,0,1,1
 registry.rancher.com/harvester/harvester-pcidevices:v1.9.1,0,1,1
 registry.rancher.com/harvester/harvester-seeder:v1.9.1,0,1,1
-registry.rancher.com/harvester/harvester-upgrade:v1.9.1,0,63,63
+registry.rancher.com/harvester/harvester-upgrade:v1.9.1,1,63,64
 registry.rancher.com/harvester/harvester-vm-import-controller:v1.9.1,0,10,10
 registry.rancher.com/harvester/harvester-webhook:v1.9.1,0,1,1
 registry.rancher.com/harvester/harvester:v1.9.1,0,1,1

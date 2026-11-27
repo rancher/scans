@@ -1,2 +1,1 @@
 image,release,package_name,package_version,type,vulnerability_id,severity,url,target,patched_version,mirrored,status,justification
-stgregistry.suse.com/rancher/rancher-ai-mcp:head,rancher-ai/main-head,libpcre2-8-0,10.45-160100.3.1,sles,SUSE-SU-2026:24891-1,HIGH,,stgregistry.suse.com/rancher/rancher-ai-mcp:head (sles 16.1),10.45-160100.4.1,false,affected,

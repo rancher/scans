@@ -47,7 +47,7 @@ rancher/harvester-node-manager-webhook:v1.9-head,0,0,0
 rancher/harvester-node-manager:v1.9-head,0,0,0
 rancher/harvester-pcidevices:v1.9-head,0,0,0
 rancher/harvester-seeder:v1.9-head,0,0,0
-rancher/harvester-upgrade:v1.9-head,0,63,63
+rancher/harvester-upgrade:v1.9-head,1,63,64
 rancher/harvester-vm-import-controller:v1.9-head,0,0,0
 rancher/harvester-webhook:v1.9-head,0,0,0
 rancher/harvester:v1.9-head,0,0,0

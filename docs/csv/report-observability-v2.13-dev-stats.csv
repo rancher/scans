@@ -22,7 +22,7 @@ quay.io/stackstate/stackstate-correlate:7.0.0-snapshot.20261126163153-master-08f
 quay.io/stackstate/stackstate-kafka-to-es:7.0.0-snapshot.20261126163153-master-08fd224,0,0,0
 quay.io/stackstate/stackstate-receiver:7.0.0-snapshot.20261126163153-master-08fd224,0,0,0
 quay.io/stackstate/stackstate-server:7.0.0-snapshot.20261126163153-master-08fd224-2.5,0,0,0
-quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261126163153-master-08fd224,0,0,0
+quay.io/stackstate/stackstate-ui:7.0.0-snapshot.20261126163153-master-08fd224,1,0,1
 quay.io/stackstate/suse-observability-borg:20261123034211-0612c638,0,0,0
 quay.io/stackstate/suse-observability-mcp:20261126032702-f2dbdace,0,0,0
 quay.io/stackstate/suse-stackpacks:platform-20261120135422-main-f1d430b,0,0,0
